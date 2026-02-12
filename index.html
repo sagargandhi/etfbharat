@@ -1,13 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>ETFBharat - ETFs in India</title>
-  <meta name="description" content="Simple and clean guide to provide information about ETFs in India - NSE & BSE" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETFBharat - Home</title>
+  <!-- Google Fonts for modern typography -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Optional: Fade-in effect for page transitions */
+    body { opacity: 0; transition: opacity 0.4s; }
+    body.loaded { opacity: 1; }
+    .lang-switcher {
+      margin-left: 24px;
+      font-size: 1rem;
+      border: 1px solid #e3e3e3;
+      border-radius: 6px;
+      padding: 4px 8px;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+    }
+    .lang-switcher:focus {
+      outline: 2px solid #10a37f;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to ETFBharat</h1>
-  <p>Your easy guide to ETFs in India.</p>
+
+<header>
+  <div class="container">
+    <nav>
+      <div><strong>ETFBharat</strong></div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="learn.html">Learn</a>
+        <a href="compare.html">Compare</a>
+        <a href="etfs.html">ETFs</a>
+        <!-- Language Switcher for future multi-language support -->
+        <select class="lang-switcher" aria-label="Select language">
+          <option value="en">English</option>
+          <option value="hi">हिन्दी</option>
+          <option value="ta">தமிழ்</option>
+          <!-- Add more languages as needed -->
+        </select>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>India’s Simplest Guide to ETFs</h1>
+    <p>Understand. Compare. Invest smarter.</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 ETFBharat
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  // Fade-in effect for page transitions
+  window.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('loaded');
+  });
+
+  // Placeholder for language switcher functionality
+  document.querySelector('.lang-switcher').addEventListener('change', function(e) {
+    alert('Language switching coming soon!');
+    // In future: load language-specific content here
+  });
+</script>
 </body>
 </html>
