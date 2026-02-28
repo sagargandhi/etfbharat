@@ -91,7 +91,67 @@ button{font-family:inherit;cursor:pointer;border:none;}
 .edu-card{background:#0B1628;border:1px solid #1A2840;border-radius:12px;padding:18px 16px;transition:all 0.2s;border-top:2px solid #2196F325;}
 .edu-card:hover{transform:translateY(-3px);border-top-color:#2196F3;}
 .edu-icon{font-size:24px;margin-bottom:10px;}
-/* ... remaining CSS omitted for brevity (keeps file concise) ... */
+.edu-title{color:#fff;font-size:14px;font-weight:800;margin-bottom:6px;font-family:Georgia,serif;}
+.edu-body{color:#7B93B8;font-size:12px;line-height:1.7;}
+
+/* Compare table */
+.compare-wrap{padding:40px 20px;background:#030810;}
+.table-container{overflow-x:auto;}
+table{width:100%;border-collapse:collapse;}
+thead tr{background:#070F1E;border-bottom:1px solid #1A2840;}
+th{padding:10px 14px;text-align:left;font-size:10px;color:#3A5070;letter-spacing:2px;font-weight:700;white-space:nowrap;}
+td{padding:10px 14px;border-bottom:1px solid #0B1628;font-size:12px;vertical-align:middle;}
+.etf-row{cursor:pointer;transition:background 0.15s;}
+
+/* Footer */
+footer{background:#070F1E;border-top:1px solid #1A2840;padding:32px 20px;text-align:center;}
+.footer-logo{color:#FFB300;font-size:20px;font-weight:900;font-family:Georgia,serif;margin-bottom:8px;}
+.footer-p{color:#3A5070;font-size:11px;line-height:1.7;max-width:560px;margin:0 auto 12px;}
+.footer-copy{color:#1A2840;font-size:10px;}
+
+/* Modal */
+#modal-overlay{display:none;position:fixed;inset:0;background:#00000088;z-index:1000;overflow-y:auto;padding:20px;}
+#modal-overlay.open{display:flex;align-items:flex-start;justify-content:center;}
+#modal-panel{background:#070F1E;border:1px solid #1A2840;border-radius:16px;width:100%;max-width:860px;overflow:hidden;margin:auto;animation:fadeUp 0.25s ease;}
+.modal-hdr{background:#0B1628;border-bottom:1px solid #1A2840;padding:20px 22px 16px;}
+.modal-hdr-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px;gap:12px;}
+.modal-close{width:32px;height:32px;border-radius:50%;background:#1A2840;color:#7B93B8;font-size:14px;flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.modal-close:hover{background:#2196F3;color:#fff;}
+.modal-metrics{display:flex;gap:12px;flex-wrap:wrap;}
+.modal-metric{background:#030810;border:1px solid #1A2840;border-radius:8px;padding:8px 14px;min-width:90px;}
+.modal-metric-lbl{font-size:8px;color:#3A5070;letter-spacing:2px;margin-bottom:3px;}
+.modal-body{padding:22px;}
+
+/* Section headers */
+.section-head{display:flex;align-items:center;gap:8px;margin-bottom:10px;}
+.section-bar{width:3px;height:16px;border-radius:2px;flex-shrink:0;}
+.section-title{color:#E8F0FE;font-size:14px;font-weight:800;}
+
+/* Index description */
+.index-desc-wrap{background:#0B1628;border:1px solid #1A2840;border-radius:10px;padding:14px 16px;}
+.index-desc-p{color:#7B93B8;font-size:12px;line-height:1.8;margin-bottom:12px;}
+.index-meta{display:flex;gap:10px;flex-wrap:wrap;}
+.index-meta-box{background:#030810;border:1px solid #1A2840;border-radius:7px;padding:8px 12px;flex:1;min-width:100px;}
+
+/* Sector allocation */
+.sector-wrap{background:#0B1628;border:1px solid #1A2840;border-radius:10px;padding:14px 16px;margin-bottom:20px;}
+.sector-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px 16px;}
+.sector-row{display:flex;align-items:center;gap:8px;}
+.sector-name{color:#7B93B8;font-size:11px;min-width:110px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.sector-bar-track{flex:1;height:5px;background:#030810;border-radius:3px;overflow:hidden;}
+.sector-bar-fill{height:100%;border-radius:3px;}
+.sector-pct{color:#E8F0FE;font-size:11px;font-weight:700;min-width:36px;text-align:right;font-family:monospace;}
+
+/* Holdings table */
+.holdings-section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;flex-wrap:wrap;gap:8px;}
+.sort-btns{display:flex;gap:5px;}
+.sort-btn{padding:5px 12px;border-radius:20px;font-size:11px;cursor:pointer;transition:all 0.2s;}
+.holdings-table{border:1px solid #1A2840;border-radius:10px;overflow:hidden;}
+.holdings-thead{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;background:#0B1628;border-bottom:1px solid #1A2840;}
+.holdings-thead-cell{padding:8px 12px;font-size:9px;color:#3A5070;letter-spacing:2px;font-weight:700;}
+.h-row{display:grid;grid-template-columns:2fr 1fr 1fr 1.5fr;padding:9px 12px;align-items:center;gap:8px;transition:background 0.15s;cursor:pointer;}
+.h-row:hover{background:#0B1628;}
+.h-expand{padding:12px 14px;border-bottom:1px solid #1A2840;}
 
 @media(max-width:640px){
   .card-grid{grid-template-columns:1fr;}

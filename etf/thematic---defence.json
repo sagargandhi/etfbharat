@@ -1,0 +1,101 @@
+[
+  {
+    "id": "defenceetf",
+    "name": "Kotak Nifty India Defence ETF",
+    "ticker": "KOTAKDEF",
+    "nseSymbol": "DEFENCE",
+    "exchange": "NSE",
+    "category": "Thematic - Defence",
+    "color": "#4CAF50",
+    "index": {
+      "name": "Nifty India Defence Index",
+      "launched": "October 2021",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Quarterly",
+      "companies": 15,
+      "description": "Tracks companies engaged in Indian defence manufacturing and services. India's defence budget stands at ₹6.21 lakh crore in FY25. Indigenization mandate requires 75% of defence procurement from domestic industry under IDDM policy. India targets $5B in defence exports by 2025. Massive multi-year order backlogs provide unprecedented revenue visibility for both PSU and private defence players."
+    },
+    "holdings": [
+      {
+        "name": "HAL (Hindustan Aeronautics)",
+        "ticker": "HAL",
+        "weight": 18.9,
+        "sector": "Aerospace",
+        "color": "#1565C0",
+        "description": "India's only aerospace manufacturing PSU. Makes Tejas LCA Mk1A fighter jets (83 aircraft ordered), ALH Dhruv helicopters, Dornier aircraft and servicing of MiG-21, Sukhoi-30 fleets. Order backlog of ₹90,000+ Cr from IAF, Army and Navy with 7+ year visibility."
+      },
+      {
+        "name": "BEL (Bharat Electronics)",
+        "ticker": "BEL",
+        "weight": 15.67,
+        "sector": "Defence Electronics",
+        "color": "#FF6F00",
+        "description": "Defence electronics PSU making Akash missile radar systems, submarine sonar, BMS (Battlefield Management System), electronic warfare and communication equipment. ₹65,000+ Cr order backlog. Exports to 20+ countries."
+      },
+      {
+        "name": "L&T",
+        "ticker": "LT",
+        "weight": 12.34,
+        "sector": "Engineering",
+        "color": "#FF5722",
+        "description": "L&T's defence division excels in naval systems, armoured vehicles, K9 Vajra self-propelled howitzers, and NGARM anti-radiation missiles with DRDO. Building India's first private-sector submarine under Project-75 India Scorpene variant."
+      },
+      {
+        "name": "Bharat Forge",
+        "ticker": "BHARATFORG",
+        "weight": 10.23,
+        "sector": "Defence Forging",
+        "color": "#795548",
+        "description": "World's 2nd largest forging company now a serious defence player. Makes ATAGS 155mm/52-calibre artillery guns, armoured vehicle hulls, munitions and aerospace structural components. 20% revenue from defence with aggressive growth plans."
+      },
+      {
+        "name": "Mazagon Dock Shipbuilders",
+        "ticker": "MAZDOCK",
+        "weight": 9.78,
+        "sector": "Shipbuilding",
+        "color": "#3F51B5",
+        "description": "Mumbai-based premier naval shipbuilder. Building Project-75 Scorpene submarines (6 delivered, more contracted), Project-15B destroyers and stealth frigates. ₹50,000+ Cr orderbook with 5+ year revenue visibility. Monopoly in submarine building."
+      },
+      {
+        "name": "Garden Reach Shipbuilders",
+        "ticker": "GRSE",
+        "weight": 7.45,
+        "sector": "Shipbuilding",
+        "color": "#009688",
+        "description": "Kolkata-based naval shipbuilder. Builds frigates (Project-17A), survey vessels, landing craft and fast patrol vessels. First Indian shipyard to export warships — delivered vessels to Mauritius (CGS Barracuda) and Bangladesh Navy."
+      },
+      {
+        "name": "BEML Ltd",
+        "ticker": "BEML",
+        "weight": 6.78,
+        "sector": "Heavy Equipment",
+        "color": "#F44336",
+        "description": "Makes metro rail cars (Mumbai, Delhi, Bengaluru, Pune), mining equipment (dumpers, draglines) and high-mobility vehicles for Indian Army. Exporting metro coaches to Singapore MRT. Also makes helicopter ground support equipment."
+      },
+      {
+        "name": "Paras Defence",
+        "ticker": "PARAS",
+        "weight": 5.23,
+        "sector": "Optics & Electronics",
+        "color": "#673AB7",
+        "description": "Niche defence-tech company. Makes electro-optic systems for missiles and helicopters, star trackers for ISRO/DRDO satellites, image intensifier tubes for night-vision goggles. India's only manufacturer of several critical optics components."
+      },
+      {
+        "name": "Data Patterns",
+        "ticker": "DATAPATTNS",
+        "weight": 4.78,
+        "sector": "Defence Electronics",
+        "color": "#00796B",
+        "description": "Chennai-based defence and aerospace electronics company. Makes radar signal processing systems, avionics, missile seekers and electronic warfare modules. Works on DRDO programs including Tejas, Pinaka and Astra missile systems."
+      },
+      {
+        "name": "Solar Industries India",
+        "ticker": "SOLARINDS",
+        "weight": 4.12,
+        "sector": "Ammunition & Explosives",
+        "color": "#F9A825",
+        "description": "India's largest manufacturer of industrial explosives and defence ammunition. Making 155mm artillery shells, hand grenades, rockets and warheads. Sole supplier to Indian Army for several warhead types. Massive export orders from the US and Europe post-Ukraine conflict."
+      }
+    ]
+  }
+]

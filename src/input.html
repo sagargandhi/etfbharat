@@ -134,14 +134,65 @@
   <div id="modal-panel"></div>
 </div>
 
-<!-- INJECT_ETF_DATA -->
-
 <script>
 const C={bg:"#030810",surface:"#070F1E",card:"#0B1628",border:"#1A2840",accent:"#2196F3",accentHi:"#42A5F5",gold:"#FFB300",green:"#00C853",red:"#FF1744",saffron:"#FF6F00",text:"#E8F0FE",muted:"#7B93B8",faint:"#3A5070",blue:"#1565C0",purple:"#7B1FA2"};
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
-// ETF_DATA is injected at build time via <!-- INJECT_ETF_DATA --> in input.html
+let ETF_DATA = [];
 let activeTab='All', activeModal=null, activeSel=null, activeSort='weight';
+
+// ── LOAD ETF DATA FROM MULTIPLE FILES ─────────────────────────────────────────
+let ETF_FILES = [];
+
+async function loadAllETFData() {
+  try {
+    // Load configuration file
+    const configRes = await fetch('etf-config.json');
+    const config = await configRes.json();
+    ETF_FILES = config.etfFiles;
+    
+    // Load all ETF data files
+    const promises = ETF_FILES.map(file => 
+      fetch(`etf/${file}`)
+        .then(res => res.json())
+        .catch(err => {
+          console.error(`Error loading ${file}:`, err);
+          return [];
+        })
+    );
+    
+    // Load price data
+    const priceDataPromise = fetch('etf-prices.json')
+      .then(res => res.json())
+      .catch(err => {
+        console.error('Error loading price data:', err);
+        return {};
+      });
+    
+    const [allData, priceData] = await Promise.all([Promise.all(promises), priceDataPromise]);
+    ETF_DATA = allData.flat();
+    
+    // Merge price data with ETF data
+    ETF_DATA = ETF_DATA.map(etf => {
+      const prices = priceData[etf.ticker] || {};
+      return {
+        ...etf,
+        nav: prices.nav || etf.nav || '₹0.00',
+        aum: prices.aum || etf.aum || '₹0 Cr',
+        expense: prices.expense || etf.expense || '0.00%'
+      };
+    });
+    
+    console.log(`Loaded ${ETF_DATA.length} ETFs from ${ETF_FILES.length} files`);
+    
+    // Initialize the UI after data is loaded
+    initializeApp();
+  } catch (error) {
+    console.error('Error loading ETF data:', error);
+    // Show error message to user
+    document.getElementById('card-grid').innerHTML = '<div style="color: #FF1744; text-align: center; padding: 40px;">Error loading ETF data. Please refresh the page.</div>';
+  }
+}
 
 // ── TABS ──────────────────────────────────────────────────────────────────────
 const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','AUM > 1000 Cr'];
@@ -202,7 +253,7 @@ function buildCard(etf){
     </div>`).join('');
   const moreH=etf.holdings.length>4?`<div class="more-holdings">+${etf.holdings.length-4} more holdings →</div>`:'';
   return `
-  <div class="etf-card" style="--card-color:${etf.color};--card-glow:${etf.color}15;--card-hover-bg:${etf.color}08;" onclick="openModal('${etf.id}')">
+  <div class="etf-card" style="--card-color:${etf.color};--card-glow:${etf.color}15;--card-hover-bg:${etf.color}08;" data-etf-id="${etf.id}">
     <div class="card-body">
       <div class="card-tags">${tag(etf.exchange,exchColor)}${tag(etf.category,etf.color)}</div>
       <div class="card-name">${esc(etf.name)}</div>
@@ -227,8 +278,8 @@ function buildCard(etf){
 
 function renderTable(filtered){
   document.getElementById('tbl-body').innerHTML=filtered.map(etf=>`
-    <tr class="etf-row" onclick="openModal('${etf.id}')"
-      onmouseenter="this.style.background='${etf.color}08'" onmouseleave="this.style.background=''">
+    <tr class="etf-row" data-etf-id="${etf.id}"
+      style="cursor:pointer;">
       <td><div style="display:flex;align-items:center;gap:8px;">
         <div style="width:8px;height:8px;border-radius:50%;background:${etf.color};flex-shrink:0;"></div>
         <span style="color:#E8F0FE;font-size:12px;font-weight:600;">${esc(etf.name)}</span>
@@ -290,7 +341,7 @@ function renderModal(){
     const isActive=activeSel===h.ticker;
     return `
     <div>
-      <div class="h-row${isActive?' active':''}" style="--h-color:${h.color}12;${isActive?`background:${h.color}12;`:''};border-bottom:${i<sorted.length-1||isActive?`1px solid ${C.border}`:0};" onclick="toggleSel('${h.ticker}')">
+      <div class="h-row${isActive?' active':''}" style="--h-color:${h.color}12;${isActive?`background:${h.color}12;`:''};border-bottom:${i<sorted.length-1||isActive?`1px solid ${C.border}`:0};cursor:pointer;" data-ticker="${h.ticker}">
         <div style="display:flex;align-items:center;gap:8px;">
           <div style="width:7px;height:7px;border-radius:50%;background:${h.color};flex-shrink:0;"></div>
           <span style="color:#fff;font-size:12px;font-weight:600;">${esc(h.name)}</span>
@@ -372,11 +423,64 @@ function toggleDisclaimer(){
   b.style.display=b.style.display==='none'||!b.style.display?'block':'none';
 }
 
+// ── EVENT DELEGATION ──────────────────────────────────────────────────────────
+document.addEventListener('click', (e) => {
+  // Handle ETF card clicks
+  const cardClick = e.target.closest('.etf-card');
+  if (cardClick) {
+    const etfId = cardClick.getAttribute('data-etf-id');
+    if (etfId) openModal(etfId);
+    return;
+  }
+  
+  // Handle ETF table row clicks
+  const rowClick = e.target.closest('.etf-row');
+  if (rowClick) {
+    const etfId = rowClick.getAttribute('data-etf-id');
+    if (etfId) {
+      openModal(etfId);
+      return;
+    }
+  }
+  
+  // Handle holdings row clicks (inside modal)
+  const holdingClick = e.target.closest('[data-ticker]');
+  if (holdingClick && document.getElementById('modal-overlay').classList.contains('open')) {
+    const ticker = holdingClick.getAttribute('data-ticker');
+    if (ticker) toggleSel(ticker);
+    return;
+  }
+});
+
+// ── TABLE ROW HOVER ───────────────────────────────────────────────────────────
+document.addEventListener('mouseenter', (e) => {
+  const row = e.target.closest('.etf-row');
+  if (row) {
+    const etf = ETF_DATA.find(et => et.id === row.getAttribute('data-etf-id'));
+    if (etf) row.style.background = etf.color + '08';
+  }
+}, true);
+
+document.addEventListener('mouseleave', (e) => {
+  const row = e.target.closest('.etf-row');
+  if (row) row.style.background = '';
+}, true);
+
 // ── KEYBOARD ──────────────────────────────────────────────────────────────────
 document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
-renderAll();
+function initializeApp() {
+  renderAll();
+}
+
+// Show loading indicator initially
+document.getElementById('card-grid').innerHTML = '<div style="color: #7B93B8; text-align: center; padding: 40px;">Loading ETF data...</div>';
+
+// Load all ETF data when page loads
+window.addEventListener('DOMContentLoaded', () => {
+  loadAllETFData();
+});
 </script>
 </body>
 </html>

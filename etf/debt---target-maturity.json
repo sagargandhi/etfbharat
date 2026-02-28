@@ -1,0 +1,200 @@
+[
+  {
+    "id": "bharatbond2030",
+    "name": "Edelweiss Bharat Bond ETF April 2030",
+    "ticker": "BBETF0430",
+    "nseSymbol": "EBBETF0430",
+    "exchange": "NSE",
+    "category": "Debt - Target Maturity",
+    "color": "#66BB6A",
+    "index": {
+      "name": "Nifty Bharat Bond Index April 2030",
+      "launched": "July 2020",
+      "methodology": "Target Maturity — Roll-down AAA PSU bonds",
+      "rebalance": "Annual (roll-down)",
+      "companies": 12,
+      "description": "India's first corporate bond ETF tracking AAA-rated PSU bonds maturing around April 2030. Edelweiss AMC launched Bharat Bond as a landmark fixed-income product. Hold-to-maturity strategy: if held till April 2030, investor earns the yield at purchase (predictable returns). Ultra-low expense ratio of 0.0005% — cheapest debt product in India."
+    },
+    "holdings": [
+      {
+        "name": "NHAI (Natl Highways Auth)",
+        "ticker": "NHAI-BOND",
+        "weight": 18.45,
+        "sector": "Infrastructure Bond",
+        "color": "#2E7D32",
+        "description": "NHAI AAA-rated bonds maturing 2029-30. Backed by Government of India. Funds National Highway construction programme. Sovereign-equivalent credit quality with slightly higher yield than G-Secs."
+      },
+      {
+        "name": "REC Ltd (Rural Electrification)",
+        "ticker": "REC-BOND",
+        "weight": 16.23,
+        "sector": "Power Finance Bond",
+        "color": "#388E3C",
+        "description": "REC Ltd bonds rated AAA by CRISIL and ICRA. Funds rural electrification and renewable energy projects. 54EC capital gains bonds also issued. GoI owns 52.63% — implicit sovereign backing."
+      },
+      {
+        "name": "PFC (Power Finance Corp)",
+        "ticker": "PFC-BOND",
+        "weight": 15.67,
+        "sector": "Power Finance Bond",
+        "color": "#43A047",
+        "description": "PFC AAA bonds. Largest infrastructure finance company for power sector. Funds generation, transmission, and distribution projects. GoI owns 55.99%. Strong NPA coverage ratios."
+      },
+      {
+        "name": "NTPC Ltd",
+        "ticker": "NTPC-BOND",
+        "weight": 12.34,
+        "sector": "Power Sector Bond",
+        "color": "#4CAF50",
+        "description": "India's largest power utility bonds. AAA-rated. NTPC expanding aggressively into solar (60 GW target by 2032). Green bonds also issued for renewable projects. Extremely safe with PSU backing."
+      },
+      {
+        "name": "Indian Railway Finance Corp",
+        "ticker": "IRFC-BOND",
+        "weight": 10.89,
+        "sector": "Railway Finance Bond",
+        "color": "#66BB6A",
+        "description": "IRFC AAA bonds fund Indian Railways capital expenditure. IRFC leases rolling stock and infrastructure to Indian Railways which repays from budget allocation — zero credit risk model."
+      },
+      {
+        "name": "HUDCO (Housing & Urban Dev)",
+        "ticker": "HUDCO-BOND",
+        "weight": 8.56,
+        "sector": "Housing Finance Bond",
+        "color": "#81C784",
+        "description": "HUDCO AAA bonds fund affordable housing and urban infrastructure. PMAY (Pradhan Mantri Awas Yojana) projects financed. Government of India holds 81.78% stake."
+      },
+      {
+        "name": "Nabard",
+        "ticker": "NABARD-BOND",
+        "weight": 7.23,
+        "sector": "Agriculture Finance Bond",
+        "color": "#A5D6A7",
+        "description": "National Bank for Agriculture and Rural Development bonds. AAA-rated. Refinances cooperative and rural banks for agricultural lending. GoI + RBI hold 100% — zero default risk."
+      },
+      {
+        "name": "SIDBI",
+        "ticker": "SIDBI-BOND",
+        "weight": 5.45,
+        "sector": "MSME Finance Bond",
+        "color": "#C8E6C9",
+        "description": "Small Industries Development Bank of India bonds. AAA-rated. Provides refinancing to banks and NBFCs lending to MSMEs. Government-owned development financial institution."
+      },
+      {
+        "name": "Exim Bank",
+        "ticker": "EXIMBANK-BOND",
+        "weight": 3.23,
+        "sector": "Export Finance Bond",
+        "color": "#E8F5E9",
+        "description": "Export-Import Bank of India bonds. AAA-rated. Funds India's export credit and project exports. Strategic importance in India's trade finance architecture. 100% GoI-owned."
+      },
+      {
+        "name": "Gas Authority (GAIL)",
+        "ticker": "GAIL-BOND",
+        "weight": 2.18,
+        "sector": "Energy Bond",
+        "color": "#F1F8E9",
+        "description": "GAIL (India) Ltd bonds. AAA-rated. India's largest natural gas transmission and distribution company. Petrochemicals and city gas distribution. Navratna PSU under MoPNG."
+      }
+    ]
+  },
+  {
+    "id": "bharatbond2033",
+    "name": "Edelweiss Bharat Bond ETF April 2033",
+    "ticker": "BBETF0433",
+    "nseSymbol": "EBBETF0433",
+    "exchange": "NSE",
+    "category": "Debt - Target Maturity",
+    "color": "#4DB6AC",
+    "index": {
+      "name": "Nifty Bharat Bond Index April 2033",
+      "launched": "December 2021",
+      "methodology": "Target Maturity — Roll-down AAA PSU bonds",
+      "rebalance": "Annual (roll-down)",
+      "companies": 12,
+      "description": "Second series of Bharat Bond ETF targeting April 2033 maturity. Longer duration (7+ years) means higher yield and slightly more interest rate sensitivity than the 2030 series. Same ultra-safe AAA PSU bond universe. Ideal for investors targeting a specific financial goal around 2033 — retirement, child's education, or property purchase."
+    },
+    "holdings": [
+      {
+        "name": "NHAI (Natl Highways Auth)",
+        "ticker": "NHAI-BOND33",
+        "weight": 19.56,
+        "sector": "Infrastructure Bond",
+        "color": "#00695C",
+        "description": "Longer-dated NHAI bonds maturing 2032-33. NHAI is executing the world's second-largest highway construction programme. Bharatmala Phase-I of 34,800 km. Zero sovereign default risk."
+      },
+      {
+        "name": "REC Ltd",
+        "ticker": "REC-BOND33",
+        "weight": 17.34,
+        "sector": "Power Finance Bond",
+        "color": "#00796B",
+        "description": "REC longer-dated bonds at slightly higher yield than shorter series. Huge opportunity in India's 500 GW renewable energy target by 2030 — REC will fund a large portion of this capex."
+      },
+      {
+        "name": "PFC (Power Finance Corp)",
+        "ticker": "PFC-BOND33",
+        "weight": 14.89,
+        "sector": "Power Finance Bond",
+        "color": "#00897B",
+        "description": "PFC 2033-maturity bonds. GoI's revised estimates project India needing $500bn in power sector investment by 2030 — PFC and REC are primary funding channels. AAA stable outlook."
+      },
+      {
+        "name": "NTPC Ltd",
+        "ticker": "NTPC-BOND33",
+        "weight": 11.67,
+        "sector": "Power Sector Bond",
+        "color": "#26A69A",
+        "description": "NTPC's green bond series included. Company targeting 60 GW renewable capacity. Green bonds raise cheaper capital for solar/wind projects. S&P and Moody's rated investment grade."
+      },
+      {
+        "name": "Indian Railway Finance Corp",
+        "ticker": "IRFC-BOND33",
+        "weight": 10.23,
+        "sector": "Railway Finance Bond",
+        "color": "#4DB6AC",
+        "description": "IRFC 2033-maturity bonds. Indian Railways ₹2.6 trillion annual capex plan fully funded through IRFC. Passenger and freight revenue supports repayment. Effectively sovereign-guaranteed."
+      },
+      {
+        "name": "HUDCO",
+        "ticker": "HUDCO-BOND33",
+        "weight": 9.12,
+        "sector": "Housing Finance Bond",
+        "color": "#80CBC4",
+        "description": "HUDCO 2033 bonds fund Smart City projects, metro rail, affordable housing. Urban India investment pipeline is massive with 100 smart cities programme. GoI backing ensures AAA rating."
+      },
+      {
+        "name": "Nabard",
+        "ticker": "NABARD-BOND33",
+        "weight": 7.45,
+        "sector": "Agriculture Finance Bond",
+        "color": "#B2DFDB",
+        "description": "NABARD longer-dated bonds. India's farm credit growth target: ₹20 lakh crore for FY24. NABARD refinancing supports Kisan Credit Cards, microfinance, and rural SHGs."
+      },
+      {
+        "name": "SIDBI",
+        "ticker": "SIDBI-BOND33",
+        "weight": 5.23,
+        "sector": "MSME Finance Bond",
+        "color": "#E0F2F1",
+        "description": "SIDBI 2033 bonds. India has 63 million MSMEs employing 110 million people. SIDBI's refinance operations are critical to this sector's formal credit access. GoI-owned DFI."
+      },
+      {
+        "name": "Exim Bank",
+        "ticker": "EXIMBANK-BOND33",
+        "weight": 2.89,
+        "sector": "Export Finance Bond",
+        "color": "#F0F7F6",
+        "description": "Exim Bank 2033 bonds. India targeting $1 trillion exports by FY28 — Exim Bank credit lines to African and ASEAN nations are strategic geopolitical instruments."
+      },
+      {
+        "name": "NHB (Natl Housing Bank)",
+        "ticker": "NHB-BOND33",
+        "weight": 1.62,
+        "sector": "Housing Finance Bond",
+        "color": "#ECFDF5",
+        "description": "National Housing Bank bonds. NHB regulates all housing finance companies in India. Refinances HFCs (HDFC, LIC Housing) at concessional rates for affordable housing. RBI subsidiary."
+      }
+    ]
+  }
+]

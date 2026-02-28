@@ -6,8 +6,6 @@ const minifyOnly   = process.argv.includes('--minify-only');
 const srcDir       = __dirname;
 const root         = path.join(srcDir, '..');
 const inputPath    = path.join(srcDir, 'input.html');
-const dataPath     = path.join(srcDir, 'etf-data.json');
-const pricesPath   = path.join(srcDir, 'etf-prices.json');
 const outputPath   = path.join(root, 'index.html');
 
 // ── Minify helper ─────────────────────────────────────────────────────────────
@@ -35,36 +33,59 @@ if (minifyOnly) {
 }
 
 // ── Validate inputs ───────────────────────────────────────────────────────────
-[inputPath, dataPath, pricesPath].forEach(p => {
-  if (!fs.existsSync(p)) {
-    console.error(`Missing required file: ${path.basename(p)}`);
-    process.exit(1);
-  }
-});
-
-// ── Load & merge data ─────────────────────────────────────────────────────────
-const etfs   = JSON.parse(fs.readFileSync(dataPath,   'utf8'));
-const prices = JSON.parse(fs.readFileSync(pricesPath, 'utf8'));
-
-const merged = etfs.map(etf => {
-  const p = prices[etf.ticker];
-  if (p) return { ...etf, aum: p.aum, expense: p.expense, nav: p.nav };
-  return etf;
-});
-
-// ── Inject data into template ─────────────────────────────────────────────────
-const input = fs.readFileSync(inputPath, 'utf8');
-
-if (!/<!--\s*INJECT_ETF_DATA\s*-->/.test(input)) {
-  console.error('Placeholder <!-- INJECT_ETF_DATA --> not found in input.html');
+if (!fs.existsSync(inputPath)) {
+  console.error(`Missing required file: ${path.basename(inputPath)}`);
   process.exit(1);
 }
 
-const script = `<script>const ETF_DATA = ${JSON.stringify(merged)};</script>`;
-let out = input.replace(/<!--\s*INJECT_ETF_DATA\s*-->/, script);
+// ── Copy input.html to index.html ─────────────────────────────────────────────
+let out = fs.readFileSync(inputPath, 'utf8');
+
+// ── Load ETF configuration ────────────────────────────────────────────────────
+const configPath = path.join(srcDir, 'etf-config.json');
+let etfConfig = { etfFiles: [] };
+if (fs.existsSync(configPath)) {
+  const configContent = fs.readFileSync(configPath, 'utf8');
+  etfConfig = JSON.parse(configContent);
+}
+
+// ── Copy etf folder to root ───────────────────────────────────────────────────
+const srcEtfDir = path.join(srcDir, 'etf');
+const destEtfDir = path.join(root, 'etf');
+
+// Create etf directory in root if it doesn't exist
+if (!fs.existsSync(destEtfDir)) {
+  fs.mkdirSync(destEtfDir, { recursive: true });
+}
+
+// Copy ETF JSON files listed in config
+if (fs.existsSync(srcEtfDir)) {
+  let copiedCount = 0;
+  etfConfig.etfFiles.forEach(file => {
+    const srcFile = path.join(srcEtfDir, file);
+    const destFile = path.join(destEtfDir, file);
+    if (fs.existsSync(srcFile)) {
+      fs.copyFileSync(srcFile, destFile);
+      copiedCount++;
+    } else {
+      console.warn(`  Warning: ETF file not found: ${file}`);
+    }
+  });
+  console.log(`Copied ${copiedCount} ETF JSON files (from config)`);
+  
+  // Also copy the config file itself
+  fs.copyFileSync(configPath, path.join(root, 'etf-config.json'));
+  console.log(`Copied etf-config.json`);
+}
+
+// ── Copy etf-prices.json to root ──────────────────────────────────────────────
+const pricesPath = path.join(srcDir, 'etf-prices.json');
+if (fs.existsSync(pricesPath)) {
+  fs.copyFileSync(pricesPath, path.join(root, 'etf-prices.json'));
+}
 
 // ── Minify (production only) ──────────────────────────────────────────────────
 if (!dev) out = minify(out);
 
 fs.writeFileSync(outputPath, out, 'utf8');
-console.log(`Built index.html — ${merged.length} ETFs [${dev ? 'dev' : 'production'}]`);
+console.log(`Built index.html [${dev ? 'dev' : 'production'}]`);

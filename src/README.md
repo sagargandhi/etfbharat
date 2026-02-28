@@ -1,42 +1,39 @@
-Project build
+Project Build
 
-Run the PowerShell build script to generate `index.html` from `input.html` and `etf-data.json`:
+Run Node.js build script to generate `index.html` from `input.html` and copy ETF data:
 
 ```powershell
 cd c:\Git-Repo\static-proj\etfbharat
-.\build.ps1
+npm run build
+```
+
+Or use the build.js script directly:
+
+```powershell
+node src/build.js
 ```
 
 What it does:
-- Reads `input.html` and replaces `<!-- INJECT_ETF_DATA -->` with a `<script>const ETF_DATA = ...;</script>` block built from `etf-data.json`.
-- Writes the resulting `index.html`.
+- Copies `input.html` to `index.html` (with optional minification for production).
+- Copies all sector/theme JSON files from `src/etf/` to root `etf/` folder.
+- Copies `etf-prices.json` to root.
 
-Next steps (optional):
-- Move inline `app` JS into `app.js` and include it from `input.html`.
-- Add a minifier (PowerShell or Node) to compress `index.html`.
+The app dynamically loads ETF data from individual JSON files (one per sector/theme) instead of a single large file, improving performance and maintainability.
 
-## Update ETF Data Automatically
+## Update ETF Prices Automatically
 
-1. Install dependencies (requires Node.js):
+The Python script `update_etf_prices.py` queries NSE free APIs to fetch:
+- **NAV** (closing price) from `/api/etf`
+- **Outstanding Units** from `/api/quote-equity` 
+- **AUM** = outstanding units × NAV (with ffmc fallback)
 
-```sh
-npm install
+Run it after 4 PM IST on any trading day:
+
+```powershell
+cd src
+python update_etf_prices.py
 ```
 
-2. Edit `ETF_URLS.example.js` to map each ETF ticker to its NSE/BSE URL.
+This will update `etf-prices.json` with the latest NAV and AUM for each ETF.
 
-3. Copy to `ETF_URLS.js`:
-
-```sh
-cp ETF_URLS.example.js ETF_URLS.js
-```
-
-4. Run the update script:
-
-```sh
-node update-etf-data.js
-```
-
-This will fetch latest NAV, AUM, and expense ratio for each ETF and update `etf-data.json` in place. It will also warn if company weights do not sum to 100%.
-
-You must fill in the correct URLs and selectors for your ETFs in the script.
+Note: The script now loads ETF metadata from individual sector JSON files in the `etf/` folder instead of a single `etf-data.json` file.

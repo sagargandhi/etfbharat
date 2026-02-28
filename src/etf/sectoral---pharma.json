@@ -1,0 +1,101 @@
+[
+  {
+    "id": "pharmaetf",
+    "name": "Nippon India ETF Pharma BeES",
+    "ticker": "PHARMABEES",
+    "nseSymbol": "PHARMABEES",
+    "exchange": "NSE",
+    "category": "Sectoral - Pharma",
+    "color": "#E91E63",
+    "index": {
+      "name": "Nifty Pharma Index",
+      "launched": "January 2001",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Semi-Annual",
+      "companies": 20,
+      "description": "Tracks Indian pharmaceutical sector — world's 3rd largest by volume, 14th by value. India is the 'pharmacy of the world', supplying 20% of global generic medicines and 60% of global vaccine supply. Key drivers: US FDA approvals, branded domestic generics growth, biosimilars pipeline, complex specialty generics and CDMO services. India's cost advantage (60-70% cheaper than US/Europe) and scientific talent provide structural advantage."
+    },
+    "holdings": [
+      {
+        "name": "Sun Pharmaceutical",
+        "ticker": "SUNPHARMA",
+        "weight": 26.78,
+        "sector": "Pharma",
+        "color": "#FF6F00",
+        "description": "India's largest pharma company by market cap (₹3.5 lakh crore). US specialty dermatology leader — Ilumya (psoriasis) and Cequa (dry eyes) are blockbusters. Taro Pharmaceutical in Canada/US. Strong domestic branded generics in 100+ countries."
+      },
+      {
+        "name": "Dr. Reddy's Labs",
+        "ticker": "DRREDDY",
+        "weight": 15.67,
+        "sector": "Pharma",
+        "color": "#E91E63",
+        "description": "Pioneer of India's generics-to-global strategy. $3B+ revenue company. Complex generics and biosimilars (gRevlimid launch). Exceptional API manufacturing with backward integration. Founded by Dr. K. Anji Reddy in 1984 with ₹25 lakh."
+      },
+      {
+        "name": "Cipla",
+        "ticker": "CIPLA",
+        "weight": 12.34,
+        "sector": "Pharma",
+        "color": "#4CAF50",
+        "description": "Making life-saving drugs affordable since 1935. Cipla's HIV drug pricing advocacy saved millions of lives in Africa in the 2000s. Leader in respiratory inhalers (Seroflo, Foracort), anti-infectives and consumer wellness via Cipla Health (Nasivion, Cipladine)."
+      },
+      {
+        "name": "Divis Laboratories",
+        "ticker": "DIVISLAB",
+        "weight": 10.89,
+        "sector": "API",
+        "color": "#2196F3",
+        "description": "India's top API and nutraceuticals contract manufacturer. Supplies to 9 of world's top 10 global pharma companies. Pristine USFDA compliance record across all plants. Fully backward integrated, debt-free balance sheet and 30%+ EBITDA margins."
+      },
+      {
+        "name": "Aurobindo Pharma",
+        "ticker": "AUROPHARMA",
+        "weight": 8.45,
+        "sector": "Pharma",
+        "color": "#FF9800",
+        "description": "Major US generics player with 800+ ANDA filings, largest injectables portfolio among Indian pharma. API-to-formulations integration provides ~30% cost advantage. Strong oncology and penicillin segment. Aurovida Formulations for biosimilars."
+      },
+      {
+        "name": "Lupin Ltd",
+        "ticker": "LUPIN",
+        "weight": 7.23,
+        "sector": "Pharma",
+        "color": "#9C27B0",
+        "description": "Specialty generics company. US complex generics include gSpiriva (respiratory) and gFostair. India branded generics in cardiology, CNS, diabetes. Growing biosimilars pipeline — etanercept, adalimumab under development for US and EU."
+      },
+      {
+        "name": "Abbott India",
+        "ticker": "ABBOTINDIA",
+        "weight": 5.67,
+        "sector": "Pharma",
+        "color": "#F44336",
+        "description": "Indian subsidiary of Abbott Laboratories USA. Premium branded prescription medicines. Thyronorm is India's largest-selling thyroid brand. Cremaffin, Duphaston, Digene are household medicines. Consistent compounder at 20%+ ROCE."
+      },
+      {
+        "name": "Torrent Pharmaceuticals",
+        "ticker": "TORNTPHARM",
+        "weight": 4.56,
+        "sector": "Pharma",
+        "color": "#3F51B5",
+        "description": "Branded generics powerhouse. India dominance in cardiovascular (Shelcal, Nikoran) and CNS (Nexito). Unichem India acquisition doubled domestic scale. Germany and Brazil branded operations contributing stable international revenue."
+      },
+      {
+        "name": "Zydus Lifesciences",
+        "ticker": "ZYDUSLIFE",
+        "weight": 3.78,
+        "sector": "Pharma",
+        "color": "#009688",
+        "description": "Ahmedabad-based pharma innovator. Launched ZyCoV-D — world's first DNA-based COVID vaccine. Strong US generics and complex generics (transdermal patches). Lipaglyn — world's first glitazar for diabetes approved in India."
+      },
+      {
+        "name": "Ipca Laboratories",
+        "ticker": "IPCALAB",
+        "weight": 2.45,
+        "sector": "Pharma",
+        "color": "#F57C00",
+        "description": "Specialty API and formulations company. Largest producer of anti-malarial APIs globally. Strong branded generics in cardiovascular and musculoskeletal. Europe business growing rapidly post-compliance improvements."
+      }
+    ]
+  }
+]

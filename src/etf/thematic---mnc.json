@@ -1,0 +1,101 @@
+[
+  {
+    "id": "niftymnc",
+    "name": "Kotak Nifty MNC ETF",
+    "ticker": "MNCETF",
+    "nseSymbol": "MNC",
+    "exchange": "NSE",
+    "category": "Thematic - MNC",
+    "color": "#5C6BC0",
+    "index": {
+      "name": "Nifty MNC Index",
+      "launched": "January 1996",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Semi-Annual",
+      "companies": 30,
+      "description": "Tracks multinationals listed on Indian exchanges where foreign promoter holds 50%+. MNCs bring superior corporate governance, technology transfer, global brand equity, and consistent dividend payouts. Historically lower volatility with steady compounding."
+    },
+    "holdings": [
+      {
+        "name": "Nestle India",
+        "ticker": "NESTLEIND",
+        "weight": 12.56,
+        "sector": "FMCG",
+        "color": "#E53935",
+        "description": "Indian arm of Swiss food giant. Maggi noodles (dominant 60% market share), KitKat, Munch, Milkmaid. Premiumisation via Starbucks RTD, Nesplus, and Milo. Consistent 25%+ EBITDA margins over decades."
+      },
+      {
+        "name": "Hindustan Unilever",
+        "ticker": "HINDUNILVR",
+        "weight": 11.34,
+        "sector": "FMCG",
+        "color": "#1565C0",
+        "description": "Indian arm of Unilever. Surf Excel, Dove, Pond's, Lux, Kwality Wall's. 50+ brands across home care, personal care, food. GSK Consumer Healthcare merger added Horlicks, Boost."
+      },
+      {
+        "name": "Maruti Suzuki",
+        "ticker": "MARUTI",
+        "weight": 10.23,
+        "sector": "Auto",
+        "color": "#FF6F00",
+        "description": "Suzuki Motor Corp's Indian arm (58% stake). India's largest passenger vehicle maker with ~42% market share. Swift, Dzire, Baleno, Ertiga, Jimny, Grand Vitara. CNG vehicle leadership."
+      },
+      {
+        "name": "ABB India",
+        "ticker": "ABB",
+        "weight": 7.89,
+        "sector": "Capital Goods",
+        "color": "#FDD835",
+        "description": "Electrification, motion, process automation, and robotics. ABB Switzerland holds 75%. Key beneficiary of India's power T&D upgrade cycle, railways electrification, and green hydrogen projects."
+      },
+      {
+        "name": "Siemens India",
+        "ticker": "SIEMENS",
+        "weight": 7.45,
+        "sector": "Capital Goods",
+        "color": "#009688",
+        "description": "Factory automation, smart infrastructure, rail systems, digital industries. Siemens AG holds 75%. India subsidiary wins large orders from NTPC, Railways, and L&T. High-margin engineering solutions."
+      },
+      {
+        "name": "Bosch India",
+        "ticker": "BOSCHLTD",
+        "weight": 6.78,
+        "sector": "Auto Ancillary",
+        "color": "#424242",
+        "description": "Robert Bosch GmbH holds 70%. Automotive fuel systems, power tools, and home appliances. Transitioning from diesel fuel injection to EV components, ADAS systems, and hydrogen cell technology."
+      },
+      {
+        "name": "Honeywell Automation",
+        "ticker": "HONAUT",
+        "weight": 4.34,
+        "sector": "Process Automation",
+        "color": "#00BFA5",
+        "description": "Honeywell USA holds 75%. Process automation, building management, safety solutions. Chemical, refining, and pharma industries drive demand. One of the highest-quality small-cap MNCs listed in India."
+      },
+      {
+        "name": "3M India",
+        "ticker": "3MINDIA",
+        "weight": 3.89,
+        "sector": "Diversified Industrial",
+        "color": "#1976D2",
+        "description": "3M USA holds 75%. Scotch tape, Post-it, safety solutions, healthcare tapes, industrial abrasives. Diversified industrial with thousands of products across segments. Steady royalty model."
+      },
+      {
+        "name": "Colgate-Palmolive India",
+        "ticker": "COLPAL",
+        "weight": 3.67,
+        "sector": "FMCG",
+        "color": "#E91E63",
+        "description": "Oral care market leader with Colgate brand owning 52% market share in India. Palmolive personal care growing. US parent holds 51%. Resilient consumer staple with pricing power and rural distribution."
+      },
+      {
+        "name": "Abbott India",
+        "ticker": "ABBOTINDIA",
+        "weight": 3.23,
+        "sector": "Pharma",
+        "color": "#7B1FA2",
+        "description": "Abbott USA holds 75%. Prescription pharma (thyroid, women's health, metabolic), OTC (Duphalac, Digene), and branded formulations. One of the most profitable pharma companies per employee in India."
+      }
+    ]
+  }
+]

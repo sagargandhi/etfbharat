@@ -1,19 +1,17 @@
 """
 update_etf_prices.py
 --------------------
-Updates etf-prices.json with end-of-day data from two sources:
+Updates etf-prices.json with NAV and AUM for every ETF.
 
-  NAV + AUM  →  NSE equity API
-               NAV  = priceInfo.lastPrice  (closing price)
-               AUM  = securityInfo.issuedSize × lastPrice  (units × NAV)
-
-  Expense    →  AMFI NAVAll.txt  (scheme expense ratio, updated monthly by AMFI)
-               Matched by ISIN returned from NSE API
+  NAV  → NSE /api/etf  (ltP = closing price)
+  AUM  → outstanding units × NAV
+           outstanding units come from NSE /api/quote-equity (securityInfo.issuedSize)
+           fallback: free-float market cap (ffmc) already in crores
 
 Run once after 4 PM IST on any trading day to get closing prices.
 """
 
-import json, re, time
+import json, time
 import requests
 
 # ── NSE session setup ─────────────────────────────────────────────────────────
@@ -38,111 +36,176 @@ def init_nse_session():
     except Exception as e:
         print(f"Warning: could not init NSE session: {e}")
 
-# ── AMFI expense ratio lookup ─────────────────────────────────────────────────
-def fetch_amfi_expense_ratios():
-    """
-    Fetch AMFI NAVAll.txt and build an ISIN → expense ratio map.
-    AMFI provides TER (Total Expense Ratio) for all mutual fund schemes.
-    Format: SchemeCode;ISINDiv;ISINGrowth;SchemeName;NAV;Date
-    Expense ratio comes from a separate AMFI endpoint per scheme.
-    We use the simpler approach: scrape the ETF TER page.
-    """
-    url = 'https://www.amfiindia.com/modules/TerReport'
-    isin_to_expense = {}
-    try:
-        r = requests.get(url, timeout=15,
-                         headers={'User-Agent': 'Mozilla/5.0'})
-        if r.status_code != 200:
-            print(f"AMFI TER fetch failed: HTTP {r.status_code}")
-            return isin_to_expense
-        # Response is HTML table; parse rows with regex
-        # Columns: AMC | Scheme Name | ISIN | TER (Regular) | TER (Direct) | Date
-        rows = re.findall(
-            r'<td[^>]*>(.*?)</td>', r.text, re.DOTALL | re.IGNORECASE)
-        # Group into sets of 6
-        for i in range(0, len(rows) - 5, 6):
-            cells = [re.sub(r'<[^>]+>', '', rows[i+j]).strip() for j in range(6)]
-            isin = cells[2].strip()
-            ter  = cells[4].strip()  # Direct plan TER
-            if isin and ter and re.match(r'[\d.]+', ter):
-                isin_to_expense[isin] = ter + '%'
-    except Exception as e:
-        print(f"AMFI fetch error: {e}")
-    return isin_to_expense
-
 # ── NSE per-ticker fetch ───────────────────────────────────────────────────────
-def fetch_nse_etf(ticker):
+def fetch_nse_etf_batch():
     """
-    Returns (nav_str, aum_str, isin) from NSE closing data.
-    NAV  = priceInfo.lastPrice
-    AUM  = issuedSize (total units) × lastPrice ÷ 1 Cr  →  formatted as ₹X,XXX Cr
-    ISIN is used to look up expense ratio from AMFI.
+    Returns a dict: nseSymbol → row from NSE /api/etf (ltP, qty, meta.isin, etc)
     """
-    url = f'https://www.nseindia.com/api/quote-equity?symbol={ticker}'
+    url = 'https://www.nseindia.com/api/etf'
     try:
-        resp = session.get(url, timeout=10)
+        resp = session.get(url, timeout=15)
         if resp.status_code != 200:
-            print(f"  {ticker}: HTTP {resp.status_code}")
-            return None, None, None
+            print(f"NSE ETF list fetch failed: HTTP {resp.status_code}")
+            return {}
         data = resp.json()
-
-        last_price   = data.get('priceInfo', {}).get('lastPrice')
-        issued_size  = data.get('securityInfo', {}).get('issuedSize')  # total units
-        isin         = data.get('info', {}).get('isin', '')
-
-        if not last_price:
-            return None, None, isin
-
-        nav_str = f"₹{last_price:,.2f}".rstrip('0').rstrip('.')
-
-        aum_str = None
-        if issued_size and last_price:
-            aum_cr = (issued_size * last_price) / 1e7  # paise → crore
-            if aum_cr >= 1000:
-                aum_str = f"₹{aum_cr:,.0f} Cr"
-            else:
-                aum_str = f"₹{aum_cr:,.1f} Cr"
-
-        return nav_str, aum_str, isin
-
+        return {row['symbol']: row for row in data.get('data', [])}
     except Exception as e:
-        print(f"  {ticker}: error — {e}")
-        return None, None, None
+        print(f"NSE ETF list fetch error: {e}")
+        return {}
+
+
+def fetch_nse_outstanding(symbols):
+    """
+    Look up outstanding quantity for each ETF symbol using the free
+    NSE quote API.  The response JSON contains ``securityInfo.issuedSize``
+    (the number of units outstanding) which we use to compute AUM.
+
+    ``symbols`` should be an iterable of NSE tickers; the return value is a
+    map symbol → issuedSize (float) or None on error.
+    """
+    out = {}
+    for sym in symbols:
+        url = f'https://www.nseindia.com/api/quote-equity?symbol={sym}'
+        try:
+            resp = session.get(url, timeout=15)
+            if resp.status_code != 200:
+                print(f"    Outstanding fetch failed for {sym}: HTTP {resp.status_code}")
+                out[sym] = None
+                continue
+            data = resp.json()
+            sec = data.get('securityInfo', {})
+            issued = sec.get('issuedSize') or sec.get('issuedQuantity')
+            if issued is not None:
+                # API sometimes returns strings with commas
+                issued_val = float(str(issued).replace(',', ''))
+            else:
+                issued_val = None
+            out[sym] = issued_val
+        except Exception as e:
+            print(f"    Outstanding lookup error for {sym}: {e}")
+            out[sym] = None
+        # be polite to NSE servers
+        time.sleep(0.2)
+    return out
+
+# ── Load all ETF data from sector JSON files ──────────────────────────────────
+import os
+
+def load_etf_data_from_config(config_file='etf-config.json', etf_folder='etf'):
+    """Load all ETF data from individual sector/theme JSON files using config."""
+    etf_data = []
+    
+    # Load configuration
+    try:
+        with open(config_file, 'r', encoding='utf-8') as f:
+            config = json.load(f)
+        etf_files = config.get('etfFiles', [])
+    except Exception as e:
+        print(f"Error loading config file {config_file}: {e}")
+        return etf_data
+    
+    if not etf_files:
+        print(f"No ETF files configured in {config_file}")
+        return etf_data
+    
+    for filename in etf_files:
+        filepath = os.path.join(etf_folder, filename)
+        try:
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    etf_data.extend(data)
+                    print(f"  Loaded {len(data)} ETFs from {filename}")
+                else:
+                    print(f"  Skipped {filename} (invalid format)")
+        except Exception as e:
+            print(f"  Error loading {filepath}: {e}")
+    
+    return etf_data
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 with open('etf-prices.json', 'r', encoding='utf-8') as f:
     etf_prices = json.load(f)
 
-print("Initialising NSE session...")
+print("Loading ETF data from etf/ folder using config...")
+etf_data = load_etf_data_from_config('etf-config.json', 'etf')
+print(f"  Total: {len(etf_data)} ETFs loaded")
+
+print("\nInitialising NSE session...")
 init_nse_session()
 
-print("Fetching AMFI expense ratios...")
-amfi_expense = fetch_amfi_expense_ratios()
-print(f"  Got {len(amfi_expense)} AMFI TER entries")
+print("Fetching NSE ETF list...")
+nse_etfs = fetch_nse_etf_batch()
+print(f"  Got {len(nse_etfs)} ETFs from NSE")
 
-updated_nav = updated_aum = updated_exp = 0
+# Debug: show available fields from first ETF
+if nse_etfs:
+    first_etf = next(iter(nse_etfs.values()))
+    print(f"  Available fields: {list(first_etf.keys())}")
 
-for ticker in etf_prices:
-    print(f"  Fetching {ticker}...", end=' ')
-    nav_str, aum_str, isin = fetch_nse_etf(ticker)
+# use free NSE quote API to fetch outstanding units for each symbol
+print("Fetching outstanding quantities from NSE...")
+nse_outstanding = fetch_nse_outstanding(nse_etfs.keys())
+valid_out = sum(1 for v in nse_outstanding.values() if v is not None)
+print(f"  Got outstanding for {valid_out} symbols")
+
+updated_nav = updated_aum = 0
+
+for etf in etf_data:
+    ticker = etf.get('ticker')
+    nse_symbol = etf.get('nseSymbol', ticker)
+    if not ticker or not nse_symbol or ticker not in etf_prices:
+        continue
+    row = nse_etfs.get(nse_symbol)
+    if not row:
+        print(f"  {ticker}: NSE symbol '{nse_symbol}' not found in ETF list")
+        continue
+    nav = row.get('ltP')
+    ffmc = row.get('ffmc')  # Free-float market cap in crores (fallback)
+
+    nav_str = None
+    nav_float = None
+    if nav is not None:
+        try:
+            nav_float = float(nav)
+            nav_str = f"₹{nav_float:,.2f}".rstrip('0').rstrip('.')
+        except Exception:
+            nav_str = None
+    aum_str = None
+
+    # first try to compute using outstanding units from NSE quote API
+    out_units = nse_outstanding.get(nse_symbol)
+    if out_units is not None and nav_float is not None:
+        try:
+            aum_val = out_units * nav_float
+            # convert to crores for display
+            aum_cr = aum_val / 1e7  # 1 crore = 10 million
+            aum_str = f"₹{aum_cr:,.1f} Cr" if aum_cr < 1000 else f"₹{aum_cr:,.0f} Cr"
+        except Exception as e:
+            print(f"    [AUM calc error from outstanding for {ticker}] out={out_units} nav={nav_float} err={e}")
+    # fallback to ffmc if outstanding unavailable
+    if aum_str is None:
+        try:
+            if ffmc is not None:
+                # Use free-float market cap directly (already in crores)
+                aum_cr = float(str(ffmc).replace(',', ''))
+                aum_str = f"₹{aum_cr:,.1f} Cr" if aum_cr < 1000 else f"₹{aum_cr:,.0f} Cr"
+            else:
+                print(f"    [No FFMC available for {ticker}]")
+        except Exception as e:
+            print(f"    [AUM calc error for {ticker}] ffmc={ffmc} err={e}")
 
     if nav_str:
         etf_prices[ticker]['nav'] = nav_str
         updated_nav += 1
-
     if aum_str:
         etf_prices[ticker]['aum'] = aum_str
         updated_aum += 1
 
-    exp_str = amfi_expense.get(isin) if isin else None
-    if exp_str:
-        etf_prices[ticker]['expense'] = exp_str
-        updated_exp += 1
-
-    print(f"NAV={nav_str or '—'}  AUM={aum_str or '—'}  Exp={exp_str or '—'}")
-    time.sleep(0.5)
+    print(f"  {ticker} (NSE: {nse_symbol}): NAV={nav_str or '—'}  AUM={aum_str or '—'}")
+    time.sleep(0.2)
 
 with open('etf-prices.json', 'w', encoding='utf-8') as f:
     json.dump(etf_prices, f, indent=2, ensure_ascii=False)
 
-print(f"\nDone. NAV updated: {updated_nav} | AUM updated: {updated_aum} | Expense updated: {updated_exp}")
+print(f"\nDone. NAV updated: {updated_nav} | AUM updated: {updated_aum}")

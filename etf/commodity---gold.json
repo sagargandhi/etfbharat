@@ -1,0 +1,115 @@
+[
+  {
+    "id": "goldetf",
+    "name": "SBI ETF Gold",
+    "ticker": "SBIETSIGOLD",
+    "nseSymbol": "SETFGOLD",
+    "exchange": "NSE & BSE",
+    "category": "Commodity - Gold",
+    "color": "#FFB300",
+    "index": {
+      "name": "Domestic Gold Price",
+      "launched": "March 2007",
+      "methodology": "Physical Gold Backing",
+      "rebalance": "N/A",
+      "companies": 0,
+      "description": "Gold ETFs invest in 99.5% pure physical gold held in secure vaults. Each unit is backed by approximately 1 gram of gold. Unlike physical gold, there are zero making charges, no storage risk and no purity concerns. NAV tracks domestic gold prices influenced by international spot price (USD), INR/USD exchange rate and import duties. India's first Gold ETF was launched in 2007 by Benchmark AMC."
+    },
+    "holdings": [
+      {
+        "name": "Physical Gold (99.5%)",
+        "ticker": "GOLD",
+        "weight": 98.5,
+        "sector": "Commodity",
+        "color": "#FFB300",
+        "description": "24-karat gold of 99.5% purity stored in secure insured vaults with HSBC/SBI as custodians. Each ETF unit represents approximately 1 gram of gold. SEBI-mandated regular independent audits. Zero counterparty risk — fully backed by actual physical metal."
+      },
+      {
+        "name": "Cash & Liquid Instruments",
+        "ticker": "CASH",
+        "weight": 1.0,
+        "sector": "Liquid Assets",
+        "color": "#78909C",
+        "description": "Short-term T-bills and overnight instruments held for liquidity management and redemption purposes. Maintained at minimum levels to maximize gold price exposure for investors."
+      },
+      {
+        "name": "Sovereign Gold Bonds (SGB)",
+        "ticker": "SGB",
+        "weight": 0.5,
+        "sector": "Govt Securities",
+        "color": "#4CAF50",
+        "description": "Government of India bonds backed by gold, issued by RBI with 2.5% annual interest and sovereign guarantee. Permitted as a substitute for physical gold up to 10% of the scheme. Matures at prevailing gold price."
+      }
+    ]
+  },
+  {
+    "id": "goldetf2",
+    "name": "Nippon India ETF Gold BeES",
+    "ticker": "GOLDBEES",
+    "nseSymbol": "GOLDBEES",
+    "exchange": "NSE",
+    "category": "Commodity - Gold",
+    "color": "#FFA000",
+    "index": {
+      "name": "Domestic Gold Price",
+      "launched": "March 2007",
+      "methodology": "Physical Gold Backing",
+      "rebalance": "N/A",
+      "companies": 0,
+      "description": "India's largest and most liquid Gold ETF. GOLDBEES was launched as one of India's first Gold ETFs in 2007 by Benchmark AMC (now Nippon India). Each unit approximately equals 1 gram of physical gold stored in HSBC custody vaults. Extremely popular among retail investors for hassle-free gold exposure without physical gold risks."
+    },
+    "holdings": [
+      {
+        "name": "Physical Gold (99.5%)",
+        "ticker": "GOLD",
+        "weight": 99.0,
+        "sector": "Commodity",
+        "color": "#FFA000",
+        "description": "Physical gold bullion of 99.5% purity stored in HSBC custody vaults in Mumbai. One of the most audited and transparent gold holdings in India. Regular NSDL/CDSL audit trail ensures unit holders confidence in the backing."
+      },
+      {
+        "name": "Cash & CBLO",
+        "ticker": "CASH",
+        "weight": 1.0,
+        "sector": "Liquid Assets",
+        "color": "#78909C",
+        "description": "Overnight money market instruments (Collateralized Borrowing & Lending Obligations and T-bills) to meet redemption obligations. Kept minimal to maximize gold exposure at all times."
+      }
+    ]
+  },
+  {
+    "id": "goldetf3",
+    "name": "HDFC Gold ETF",
+    "ticker": "HDFCGOLD",
+    "nseSymbol": "HDFCGOLD",
+    "exchange": "NSE & BSE",
+    "category": "Commodity - Gold",
+    "color": "#F57F17",
+    "index": {
+      "name": "Domestic Gold Price",
+      "launched": "August 2010",
+      "methodology": "Physical Gold Backing",
+      "rebalance": "N/A",
+      "companies": 0,
+      "description": "HDFC Gold ETF offers investors exposure to gold price without holding physical gold. Each unit is backed by high-purity gold stored with Deutsche Bank custodian. A convenient and cost-efficient way to include gold in a diversified investment portfolio, recommended as 5-10% of total portfolio allocation."
+    },
+    "holdings": [
+      {
+        "name": "Physical Gold (99.5%)",
+        "ticker": "GOLD",
+        "weight": 98.8,
+        "sector": "Commodity",
+        "color": "#F57F17",
+        "description": "Physical gold of 99.5% purity held with Deutsche Bank Mumbai custody. Fully insured. SEBI audit compliance ensures unit holder assets are safe and segregated from AMC assets at all times."
+      },
+      {
+        "name": "Cash & Money Market",
+        "ticker": "CASH",
+        "weight": 1.2,
+        "sector": "Liquid Assets",
+        "color": "#78909C",
+        "description": "Money market instruments including T-bills and CPs held for day-to-day operational liquidity and redemption management."
+      }
+    ]
+  }
+]

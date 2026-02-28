@@ -1,0 +1,37 @@
+[
+  {
+    "id": "silverbees",
+    "name": "Nippon India ETF Silver BeES",
+    "ticker": "SILVERBEES",
+    "nseSymbol": "SILVERBEES",
+    "exchange": "NSE",
+    "category": "Commodity - Silver",
+    "color": "#90A4AE",
+    "index": {
+      "name": "Domestic Silver Price",
+      "launched": "January 2022",
+      "methodology": "Physical Silver Backing",
+      "rebalance": "N/A",
+      "companies": 0,
+      "description": "Silver ETFs invest in 99.9% pure physical silver stored in LBMA-certified secure vaults. Each unit backed by physical silver bullion. Silver offers dual demand — industrial (electronics, EV batteries, solar panels) and investment. Silver's use in solar cells makes it a green energy play. India is world's largest silver importer. More volatile than gold but with a lower entry price point."
+    },
+    "holdings": [
+      {
+        "name": "Physical Silver (99.9%)",
+        "ticker": "SILVER",
+        "weight": 98.8,
+        "sector": "Commodity",
+        "color": "#90A4AE",
+        "description": "High-purity silver bullion of 99.9% fineness stored in LBMA-certified insured vaults. SEBI-mandated regular independent audits ensure unit-holder protection. Growing industrial demand from solar PV (120mg silver per panel) and EV batteries is a structural tailwind."
+      },
+      {
+        "name": "Cash & Equivalents",
+        "ticker": "CASH",
+        "weight": 1.2,
+        "sector": "Liquid Assets",
+        "color": "#78909C",
+        "description": "Overnight instruments and T-bills maintained for liquidity and daily redemption management. Kept minimal to maximize silver price exposure for investors at all times."
+      }
+    ]
+  }
+]
