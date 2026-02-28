@@ -206,9 +206,9 @@ footer{background:#020509;border-top:1px solid #1A2840;padding:32px 20px;text-al
     <h1 class="hero-h1">Understand Every<br/><span class="hero-grad">Indian ETF</span></h1>
     <p class="hero-p">Deep-dive into every ETF on NSE &amp; BSE. Know the index it tracks, every holding with % weight, and a clear description of what each company does.</p>
     <div class="hero-stats">
-      <div><div class="stat-num">8+</div><div class="stat-lbl">ETF CATEGORIES</div></div>
-      <div><div class="stat-num">80+</div><div class="stat-lbl">HOLDINGS MAPPED</div></div>
-      <div><div class="stat-num">₹75,000+ Cr</div><div class="stat-lbl">AUM COVERED</div></div>
+      <div><div class="stat-num">17</div><div class="stat-lbl">TOP ETFs</div></div>
+      <div><div class="stat-num">150+</div><div class="stat-lbl">HOLDINGS MAPPED</div></div>
+      <div><div class="stat-num">₹94,000+ Cr</div><div class="stat-lbl">AUM COVERED</div></div>
       <div><div class="stat-num">NSE + BSE</div><div class="stat-lbl">BOTH EXCHANGES</div></div>
     </div>
   </div>
@@ -378,6 +378,104 @@ const ETF_DATA=[
     {name:"Vedanta Ltd",ticker:"VEDL",weight:3.67,sector:"Metals & Mining",color:"#5D4037",description:"Natural resources major with zinc (Hindustan Zinc — world's largest integrated zinc producer), silver, iron ore, oil & gas and aluminium. High dividend payouts. Exposure to global commodity cycles."},
     {name:"Siemens India",ticker:"SIEMENS",weight:3.45,sector:"Capital Goods",color:"#009688",description:"Indian subsidiary of German engineering giant Siemens AG. Strong in factory automation, smart infrastructure, mobility (trains/metro) and digital industries. Direct beneficiary of India's ongoing capex supercycle."},
     {name:"Torrent Pharmaceuticals",ticker:"TORNTPHARM",weight:3.12,sector:"Pharma",color:"#E91E63",description:"Strong branded generics in cardiology and CNS. Acquired Unichem's India business strengthening domestic franchise. Solid Germany and Brazil branded operations. Part of Torrent Group (also in power utilities)."}
+   ]},
+  {id:"silverbees",name:"Nippon India ETF Silver BeES",ticker:"SILVERBEES",exchange:"NSE",aum:"₹1,850 Cr",expense:"0.50%",nav:"₹89.45",category:"Commodity - Silver",color:"#90A4AE",
+   index:{name:"Domestic Silver Price",launched:"October 2010",methodology:"Physical Silver Backing",rebalance:"N/A",companies:0,description:"Silver ETFs invest in 99.9% pure physical silver stored in secure vaults. Each unit backed by physical silver bullion. Silver offers industrial demand (electronics, solar panels) plus investment demand. More volatile than gold but lower entry barrier. India is world's largest silver importer."},
+   holdings:[
+    {name:"Physical Silver (99.9%)",ticker:"SILVER",weight:98.80,sector:"Commodity",color:"#90A4AE",description:"High purity silver bullion stored in insured vaults with custodians. Each unit represents grams of actual silver. SEBI-regulated with regular audits. Industrial applications in electronics and solar energy."},
+    {name:"Cash & Equivalents",ticker:"CASH",weight:1.20,sector:"Liquid Assets",color:"#78909C",description:"Maintained for liquidity and redemption management. Minimal allocation to maximize silver exposure for investors."}
+   ]},
+  {id:"liquidbees",name:"Nippon India ETF Liquid BeES",ticker:"LIQUIDBEES",exchange:"NSE",aum:"₹6,240 Cr",expense:"0.05%",nav:"₹1,000.23",category:"Debt - Liquid",color:"#00BCD4",
+   index:{name:"CRISIL Liquid Fund Index",launched:"December 2003",methodology:"Money Market Instruments",rebalance:"Daily",companies:0,description:"India's first liquid ETF providing instant liquidity with money market returns. Invests in T-bills, commercial papers, certificates of deposit with maturity up to 91 days. Used by traders for parking idle cash. Better than savings account, instant tradability on exchange."},
+   holdings:[
+    {name:"Treasury Bills",ticker:"TBILL",weight:42.50,sector:"Government Securities",color:"#4CAF50",description:"Short-term government securities with zero credit risk. Maturity under 91 days. Backing of Government of India provides sovereign guarantee."},
+    {name:"Commercial Paper (AAA)",ticker:"CP",weight:28.30,sector:"Corporate Debt",color:"#2196F3",description:"Top-rated unsecured promissory notes issued by blue-chip corporates. Short tenure of 30-90 days. Higher yield than T-bills with minimal credit risk."},
+    {name:"Certificate of Deposit",ticker:"CD",weight:22.10,sector:"Bank Instruments",color:"#FF9800",description:"Negotiable money market instruments issued by scheduled commercial banks. Short-term with RBI oversight. Banks like HDFC, ICICI, SBI issue these instruments."},
+    {name:"Cash & CBLO",ticker:"CASH",weight:7.10,sector:"Overnight Instruments",color:"#9E9E9E",description:"Cash, call money and Collateralized Borrowing & Lending Obligations for day-to-day liquidity management and settlement."}
+   ]},
+  {id:"consumerbees",name:"Nippon India ETF Nifty FMCG",ticker:"FMCGBEES",exchange:"NSE",aum:"₹1,340 Cr",expense:"0.35%",nav:"₹425.67",category:"Sectoral - FMCG",color:"#8BC34A",
+   index:{name:"Nifty FMCG Index",launched:"January 1996",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:15,description:"Tracks Fast Moving Consumer Goods companies. Defensive sector with pricing power. Benefits from rising disposable incomes and rural consumption growth. Includes personal care, home care, foods, beverages and tobacco."},
+   holdings:[
+    {name:"Hindustan Unilever",ticker:"HINDUNILVR",weight:32.45,sector:"Personal Care",color:"#1976D2",description:"India's largest FMCG company. 50+ brands across soaps, detergents, personal care, foods. Present in 9 out of 10 Indian homes. Premium valuation justified by brand strength."},
+    {name:"ITC Ltd",ticker:"ITC",weight:26.78,sector:"FMCG & Tobacco",color:"#4CAF50",description:"Diversified with cigarettes (60% profits), FMCG brands like Aashirvaad, Bingo, Sunfeast. Hotels, paperboards, agri-business. Consistent dividend aristocrat."},
+    {name:"Nestle India",ticker:"NESTLEIND",weight:14.56,sector:"Foods & Beverages",color:"#F44336",description:"Indian arm of Swiss giant Nestle. Maggi noodles, KitKat, Nescafe dominate their segments. Premium pricing power and fortress balance sheet. 100+ year Indian presence."},
+    {name:"Britannia Industries",ticker:"BRITANNIA",weight:8.90,sector:"Foods",color:"#D32F2F",description:"Leader in biscuits (Good Day, Marie Gold, NutriChoice). Strong distribution across 5M+ outlets. Expanding into dairy, breads and cakes. Family-controlled quality brand."},
+    {name:"Dabur India",ticker:"DABUR",weight:6.23,sector:"Ayurveda & Personal Care",color:"#388E3C",description:"Leading ayurvedic and natural products company. Dabur Chyawanprash, Real juice, Vatika, Hajmola are household brands. Strong rural penetration. International business in 100+ countries."},
+    {name:"Godrej Consumer",ticker:"GODREJCP",weight:4.87,sector:"Home & Personal Care",color:"#689F38",description:"Good Knight insecticides, Cinthol soap, Godrej No.1. Strong emerging markets presence in Africa and Indonesia. Sustainable growth strategy with 2x market growth rates."},
+    {name:"Tata Consumer Products",ticker:"TATACONSUM",weight:4.12,sector:"Foods & Beverages",color:"#FF6F00",description:"Tata Tea, Tata Salt, Tata Sampann in India. Tetley tea internationally (2nd largest tea brand globally). Starbucks JV for cafes. NourishCo for beverages."},
+    {name:"Marico Ltd",ticker:"MARICO",weight:2.09,sector:"Personal Care",color:"#FFA726",description:"Parachute coconut oil (India's largest), Saffola edible oils, Set Wet, Livon. Strong international business (25% revenue). Consistent execution and digital-first innovation."}
+   ]},
+  {id:"autobees",name:"Nippon India ETF Nifty Auto",ticker:"AUTOBEES",exchange:"NSE",aum:"₹2,890 Cr",expense:"0.30%",nav:"₹478.90",category:"Sectoral - Auto",color:"#D32F2F",
+   index:{name:"Nifty Auto Index",launched:"January 2004",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:15,description:"Tracks automobile and auto component companies. Cyclical sector benefiting from rising incomes, vehicle electrification, export growth. Includes passenger vehicles, 2-wheelers, CVs, tractors and auto ancillaries."},
+   holdings:[
+    {name:"Maruti Suzuki",ticker:"MARUTI",weight:18.90,sector:"Passenger Vehicles",color:"#B71C1C",description:"India's largest car manufacturer with 41% market share. Leader in entry and mid-segments. Alto, Swift, Baleno, Dzire dominate. Transitioning to CNG and electric."},
+    {name:"Mahindra & Mahindra",ticker:"M&M",weight:14.56,sector:"UV & Tractors",color:"#C62828",description:"Leader in utility vehicles (Scorpio, XUV700, Thar) and tractors (40% market share). Strong farm equipment and electric vehicle (electric Last Mile Delivery) divisions."},
+    {name:"Tata Motors",ticker:"TATAMOTORS",weight:12.34,sector:"Passenger & Commercial",color:"#1565C0",description:"Owns Jaguar Land Rover (70% revenue). Domestic PV revival with Nexon EV (India's top-selling EV). Strong commercial vehicle franchise. Turnaround story under N Chandrasekaran."},
+    {name:"Bajaj Auto",ticker:"BAJAJ-AUTO",weight:10.78,sector:"Two Wheelers",color:"#6A1B9A",description:"Leading motorcycle maker. Pulsar, Dominar, CT brands. 45% owned by Bajaj Finserv. Huge international business (40% revenue). Strong export to Africa, Latin America."},
+    {name:"Eicher Motors",ticker:"EICHERMOT",weight:9.45,sector:"Two Wheelers",color:"#000000",description:"Royal Enfield motorcycles with cult following. 90% market share in 250cc+ segment. Premium pricing power. VE Commercial Vehicles JV with Volvo for trucks and buses."},
+    {name:"TVS Motor",ticker:"TVSMOTOR",weight:7.89,sector:"Two Wheelers",color:"#1976D2",description:"Third largest 2W maker. TVS Apache, Jupiter scooter popular. Strong export profile. Early mover in electric with TVS iQube. Premium motorcycle subsidiary Norton recently acquired."},
+    {name:"Bosch India",ticker:"BOSCH",weight:6.12,sector:"Auto Components",color:"#F44336",description:"German engineering giant's Indian arm. Leader in fuel injection systems, braking, automotive electronics. Beneficiary of vehicle electrification and emissions norms upgrades."},
+    {name:"Motherson Sumi",ticker:"MOTHERSON",weight:5.67,sector:"Auto Components",color:"#FF5722",description:"Global auto components major. Wiring harnesses, mirrors, bumpers, modules. Supplies to Mercedes, BMW, VW globally. One of India's largest auto ancillary exporters."}
+   ]},
+  {id:"psubank",name:"Nippon India ETF Nifty PSU Bank",ticker:"PSUBNKBEES",exchange:"NSE",aum:"₹4,120 Cr",expense:"0.25%",nav:"₹65.34",category:"Sectoral - PSU Banking",color:"#FF6F00",
+   index:{name:"Nifty PSU Bank Index",launched:"July 2009",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:12,description:"Tracks public sector banks in India. Government ownership provides stability and deposit confidence. NPA cleanup post-2018 improved asset quality. Beneficiaries of India's credit growth cycle and priority sector lending mandates."},
+   holdings:[
+    {name:"State Bank of India",ticker:"SBIN",weight:34.56,sector:"Public Bank",color:"#FF6F00",description:"India's largest bank commanding 23% deposit share. ₹55 lakh crore assets, 22,000+ branches. Digital transformation via YONO app (40M+ users). Gateway to government banking."},
+    {name:"Punjab National Bank",ticker:"PNB",weight:12.78,sector:"Public Bank",color:"#8BC34A",description:"Second largest PSU bank post merger with Oriental Bank and United Bank. Founded in 1894. Post-NPA cleanup phase showing improved profitability. Strong MSME franchise."},
+    {name:"Bank of Baroda",ticker:"BANKBARODA",weight:11.23,sector:"Public Bank",color:"#F44336",description:"India's most international bank with 100+ country presence. Merged with Vijaya Bank and Dena Bank. Strong corporate banking and overseas operations particularly in Africa and Middle East."},
+    {name:"Canara Bank",ticker:"CANBK",weight:9.89,sector:"Public Bank",color:"#9C27B0",description:"Largest PSU bank in South India. Post-Syndicate Bank merger expanding national footprint. Improving asset quality and digital banking initiatives gaining traction."},
+    {name:"Union Bank of India",ticker:"UNIONBANK",weight:8.45,sector:"Public Bank",color:"#3F51B5",description:"Post triple-merger entity (Andhra Bank, Corporation Bank). Government-backed stability. Focus on retail, agriculture and MSME lending aligned with government priorities."},
+    {name:"Bank of India",ticker:"BANKINDIA",weight:6.78,sector:"Public Bank",color:"#FF9800",description:"One of oldest PSU banks (est. 1906). Strong presence in Maharashtra and Gujarat. 5,000+ branches and growing international banking presence in 20+ countries."},
+    {name:"Indian Bank",ticker:"INDIANB",weight:5.67,sector:"Public Bank",color:"#009688",description:"Post-merger with Allahabad Bank strengthening all-India presence. Tamil Nadu headquarters. Focus on agricultural and retail lending. Stable deposit franchise."},
+    {name:"Central Bank of India",ticker:"CENTRALBK",weight:4.89,sector:"Public Bank",color:"#607D8B",description:"Century-old PSU bank. Mumbai-based with pan-India network. Undergoing modernization drive. Priority sector and government scheme implementation focus."}
+   ]},
+  {id:"niftymidcap",name:"ICICI Prudential Nifty Midcap 150 ETF",ticker:"MIDCAPETF",exchange:"NSE",aum:"₹2,450 Cr",expense:"0.25%",nav:"₹128.56",category:"Mid Cap",color:"#9C27B0",
+   index:{name:"Nifty Midcap 150",launched:"January 2005",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:150,description:"Represents 150 midcap companies ranked 101-250 by market cap. Higher growth potential than large caps with reasonable liquidity. Historically outperformed large caps over long periods. Suitable for investors with 5-7 year horizon and moderate risk appetite."},
+   holdings:[
+    {name:"Trent Ltd",ticker:"TRENT",weight:2.89,sector:"Retail",color:"#E91E63",description:"Tata Group's retail arm. Westside department stores, Zudio value fashion (fastest growing), Star Bazaar hypermarkets. Beneficiary of organized retail growth and premiumization trend."},
+    {name:"Dixon Technologies",ticker:"DIXON",weight:2.34,sector:"Electronics Manufacturing",color:"#2196F3",description:"India's largest electronics manufacturing services company. Makes LED TVs, mobile phones, washing machines, lighting. Pure-play on PLI scheme and Make in India. Manufacturing for Samsung, Xiaomi."},
+    {name:"Prestige Estates",ticker:"PRESTIGE",weight:2.12,sector:"Real Estate",color:"#795548",description:"Bangalore-based premium real estate developer. Residential, commercial, retail, hospitality projects. Strong execution and brand in South India's property market."},
+    {name:"Jindal Steel",ticker:"JINDALSTEL",weight:1.98,sector:"Steel",color:"#607D8B",description:"Leading steel and mining company. Integrated steel producer with captive iron ore and coal mines. Beneficiary of infrastructure capex and PLI for specialty steel."},
+    {name:"Voltas Ltd",ticker:"VOLTAS",weight:1.87,sector:"Consumer Durables",color:"#00BCD4",description:"Tata Group company. India's #1 AC brand with 23% market share. Also into engineering projects and electro-mechanical services. Domestic appliances growing 15%+ annually."},
+    {name:"Tube Investments",ticker:"TIINDIA",weight:1.76,sector:"Diversified",color:"#FF5722",description:"Murugappa Group flagship. Bicycles (BSA, Hercules brands), metal formed products, engineering. Acquired CG Power. Diversifying into new-age mobility and engineering solutions."},
+    {name:"Hindustan Aeronautics",ticker:"HAL",weight:1.65,sector:"Aerospace",color:"#1565C0",description:"India's only aerospace manufacturing PSU. Makes Tejas fighter jets, helicopters, maintains Air Force fleet. ₹90,000+ Cr order backlog with 5-7 year visibility."},
+    {name:"Bharat Electronics",ticker:"BEL",weight:1.54,sector:"Defence Electronics",color:"#FF6F00",description:"Leading defence electronics PSU. Radars, sonars, electronic warfare, communication equipment. Growing exports and modernization of armed forces driving growth."}
+   ]},
+  {id:"niftyenergy",name:"ICICI Prudential Nifty Energy ETF",ticker:"ENERGYETF",exchange:"NSE",aum:"₹1,680 Cr",expense:"0.28%",nav:"₹234.78",category:"Sectoral - Energy",color:"#FF6F00",
+   index:{name:"Nifty Energy Index",launched:"January 2005",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:10,description:"Covers oil & gas exploration, refining, marketing and power generation companies. India's energy demand growing fastest globally. Index includes upstream (exploration), midstream (refining) and downstream (marketing) companies."},
+   holdings:[
+    {name:"Reliance Industries",ticker:"RELIANCE",weight:34.67,sector:"Refining & Petrochemicals",color:"#FF6F00",description:"World's largest refining complex at Jamnagar. O2C (Oil to Chemicals) business cash cow funding Jio and Retail. Investing ₹75,000 Cr in new energy (solar, hydrogen, batteries)."},
+    {name:"ONGC",ticker:"ONGC",weight:12.45,sector:"Oil Exploration",color:"#4CAF50",description:"India's largest oil and gas exploration company. Produces 70% of India's crude oil. Government-owned with consistent dividend payouts. Owns ONGC Videsh for overseas assets."},
+    {name:"NTPC",ticker:"NTPC",weight:10.34,sector:"Power Generation",color:"#2196F3",description:"India's largest power generator with 73 GW capacity. Transitioning to renewables — targeting 60 GW renewable capacity by 2032. Stable returns, government backing, high dividend yield."},
+    {name:"Coal India",ticker:"COALINDIA",weight:9.78,sector:"Coal Mining",color:"#000000",description:"World's largest coal miner producing 600+ MT annually. Monopoly in Indian coal sector. Dividend yield of 6-8%. Critical for India's thermal power generation."},
+    {name:"Power Grid Corp",ticker:"POWERGRID",weight:8.90,sector:"Transmission",color:"#607D8B",description:"India's monopoly power transmission utility. Owns 70% of India's inter-state transmission network. Regulated returns, stable cash flows. Invests ₹40,000+ Cr annually in grid expansion."},
+    {name:"Indian Oil Corp",ticker:"IOC",weight:7.89,sector:"Oil Refining",color:"#F44336",description:"India's largest refining and fuel marketing company. 11 refineries, 33,000+ fuel stations. Largest corporation by revenue in India. Expanding into petrochemicals and green energy."},
+    {name:"BPCL",ticker:"BPCL",weight:6.45,sector:"Oil Refining",color:"#FF9800",description:"Integrated oil company with 3 refineries and 19,000+ fuel stations. Strong petrochemicals business. Government stake sale plans on hold. Beneficiary of refining margin expansion."},
+    {name:"GAIL India",ticker:"GAIL",weight:5.23,sector:"Gas Transmission",color:"#009688",description:"India's largest natural gas marketing and transmission company. Owns 12,000+ km gas pipeline network. Benefits from India's gas economy push (current 6% to targeted 15% in energy mix)."}
+   ]},
+  {id:"niftyinfra",name:"ICICI Prudential Nifty Infrastructure ETF",ticker:"INFRAETF",exchange:"NSE",aum:"₹1,920 Cr",expense:"0.32%",nav:"₹198.45",category:"Thematic - Infrastructure",color:"#FF5722",
+   index:{name:"Nifty Infrastructure Index",launched:"January 2005",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:25,description:"Tracks infrastructure companies across power, telecom, roads, airports, ports, and construction. Beneficiary of India's ₹111 lakh crore National Infrastructure Pipeline. Government's capex-led growth strategy driving sector."},
+   holdings:[
+    {name:"Larsen & Toubro",ticker:"LT",weight:16.78,sector:"EPC & Construction",color:"#FF5722",description:"India's largest EPC company. Builds metros, highways, airports, nuclear plants, warships. ₹4 lakh crore order book. Leading in defence, IT services, and heavy engineering."},
+    {name:"Adani Ports",ticker:"ADANIPORTS",weight:9.34,sector:"Ports",color:"#1565C0",description:"India's largest private port operator. 12 ports handling 25% of India's cargo. Mundra port is largest in India. Expanding into logistics parks and benefiting from EXIM trade growth."},
+    {name:"Bharti Airtel",ticker:"BHARTIARTL",weight:8.90,sector:"Telecom Infrastructure",color:"#E91E63",description:"India's second largest telecom with 380M+ subscribers. 5G rollout complete in key cities. Africa operations across 17 countries. Enterprise and digital services high growth segments."},
+    {name:"UltraTech Cement",ticker:"ULTRACEMCO",weight:7.56,sector:"Building Materials",color:"#607D8B",description:"India's largest cement manufacturer (120 MT capacity). Aditya Birla Group flagship. Pan-India presence with 25+ plants. Consolidating industry with acquisitions. Pricing power in key markets."},
+    {name:"NTPC",ticker:"NTPC",weight:6.89,sector:"Power Generation",color:"#4CAF50",description:"India's largest power generator crucial for energy infrastructure. Coal-based plants being balanced with massive renewable capacity additions. 73 GW current, targeting 130 GW by 2032."},
+    {name:"Power Grid Corp",ticker:"POWERGRID",weight:6.45,sector:"Transmission",color:"#009688",description:"Backbone of India's electricity grid. Building ultra high-voltage transmission corridors for renewable energy integration. Regulated monopoly with assured 15.5% post-tax returns."},
+    {name:"Adani Enterprises",ticker:"ADANIENT",weight:5.67,sector:"Diversified Infrastructure",color:"#795548",description:"Adani Group's incubator. Airports (7 Indian airports), roads, solar manufacturing, data centers. Each vertical being de-merged once mature. Gateway to Adani ecosystem."},
+    {name:"Ambuja Cements",ticker:"AMBUJACEM",weight:4.89,sector:"Building Materials",color:"#9E9E9E",description:"Adani-acquired cement major. 78 MT capacity across India. Strong in Western and Northern markets. Synergies with UltraTech competitor benefiting from infrastructure boom."}
+   ]},
+  {id:"juniorbees",name:"Nippon India ETF Junior BeES",ticker:"JUNIORBEES",exchange:"NSE",aum:"₹1,560 Cr",expense:"0.15%",nav:"₹487.23",category:"Large Cap",color:"#00BCD4",
+   index:{name:"Nifty Next 50",launched:"November 1996",methodology:"Free-Float Market Cap",rebalance:"Semi-Annual",companies:50,description:"Tracks Nifty Next 50 index — companies ranked 51-100. Feeder index to Nifty 50. Higher growth rates than Nifty 50 with large cap stability. Historical outperformance over 10+ year periods."},
+   holdings:[
+    {name:"Adani Enterprises",ticker:"ADANIENT",weight:5.67,sector:"Diversified",color:"#FF6F00",description:"Flagship incubation platform of Adani Group. Operates airports (Mumbai, Ahmedabad, Lucknow), roads, data centers, solar manufacturing, and coal trading businesses."},
+    {name:"DLF Ltd",ticker:"DLF",weight:4.23,sector:"Real Estate",color:"#795548",description:"India's largest real estate developer. Premium residential and commercial properties in NCR. DLF Cyber City REIT generates steady rental income. Launch pipeline strong."},
+    {name:"Pidilite Industries",ticker:"PIDILITIND",weight:3.34,sector:"Chemicals",color:"#3F51B5",description:"Fevicol creator with unassailable brand moat. Construction chemicals, adhesives, art materials. 70% revenue from Fevicol-related products. Premium valuations for dominant market position."},
+    {name:"Havells India",ticker:"HAVELLS",weight:2.98,sector:"Electrical Equipment",color:"#FF9800",description:"Premium electrical and consumer durables. Havells switchgear and cables, Lloyd ACs. Strong brand and distribution. Targeting ₹20,000 Cr revenue."},
+    {name:"Godrej Consumer",ticker:"GODREJCP",weight:3.89,sector:"FMCG",color:"#388E3C",description:"Good Knight, Cinthol, HIT brands dominate insecticides and personal care. Strong emerging markets presence in Africa and Indonesia."},
+    {name:"Vedanta Ltd",ticker:"VEDL",weight:3.67,sector:"Metals & Mining",color:"#5D4037",description:"Natural resources conglomerate. Zinc (via Hindustan Zinc), aluminium, iron ore, copper, oil & gas. High dividend payout. Exposure to commodity supercycle."},
+    {name:"Siemens India",ticker:"SIEMENS",weight:3.45,sector:"Capital Goods",color:"#009688",description:"Beneficiary of India's manufacturing and infrastructure capex. Factory automation, smart infrastructure, mobility solutions. High-margin MNC with strong order book."},
+    {name:"Zomato",ticker:"ZOMATO",weight:3.23,sector:"Food Delivery",color:"#E91E63",description:"India's largest food delivery platform. 250M+ users, 200K+ restaurants. Blinkit acquisition adds quick-commerce. Path to profitability achieved in 2024."}
    ]}
 ];
 
@@ -385,7 +483,7 @@ const ETF_DATA=[
 let activeTab='All', activeModal=null, activeSel=null, activeSort='weight';
 
 // ── TABS ──────────────────────────────────────────────────────────────────────
-const TABS=['All','NSE','BSE','Large Cap','Sectoral','Thematic','Gold'];
+const TABS=['All','NSE','BSE','Large Cap','Sectoral','Thematic','Gold','AUM > 1000 Cr'];
 const tabsEl=document.getElementById('tabs');
 TABS.forEach(t=>{
   const b=document.createElement('button');
@@ -401,11 +499,17 @@ function tag(txt,color){return `<span class="tag" style="background:${color}18;b
 function wbar(w,max,color){const pct=Math.min(100,(w/max)*100); return `<div class="w-bar-track"><div class="w-bar-fill" style="width:${pct}%;background:${color};"></div></div>`;}
 
 // ── FILTER ────────────────────────────────────────────────────────────────────
+function parseAUM(aumStr){
+  const match=aumStr.match(/₹([\d,]+)/);
+  if(!match) return 0;
+  return parseFloat(match[1].replace(/,/g,''));
+}
+
 function getFiltered(){
   const q=(document.getElementById('search').value||'').toLowerCase();
   return ETF_DATA.filter(e=>{
-    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Gold'?e.category.includes('Gold'):true;
-    const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q);
+    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Gold'?e.category.includes('Gold'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
+    const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q)||e.category.toLowerCase().includes(q);
     return mTab&&mQ;
   });
 }
