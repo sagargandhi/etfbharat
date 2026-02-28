@@ -1,7 +1,5 @@
 [
   {
-  ,
-  {
     "id": "modefence",
     "name": "Motilal Oswal Nifty India Defence ETF",
     "ticker": "MODEFENCE",
@@ -29,7 +27,8 @@
       { "name": "Garden Reach Shipbuilders & Engineers", "ticker": "GRSE", "weight": 2.75, "sector": "Shipbuilding", "color": "#009688", "description": "Kolkata-based shipbuilder. First Indian shipyard to export warships." },
       { "name": "Data Patterns (India)", "ticker": "DATAPATTNS", "weight": 2.69, "sector": "Defence Electronics", "color": "#00796B", "description": "Defence and aerospace electronics company. Works on radar, avionics, and missile systems." }
     ]
-  }
+  },
+  {
     "id": "defenceetf",
     "name": "Kotak Nifty India Defence ETF",
     "ticker": "KOTAKDEF",
