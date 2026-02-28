@@ -1,5 +1,35 @@
 [
   {
+  ,
+  {
+    "id": "modefence",
+    "name": "Motilal Oswal Nifty India Defence ETF",
+    "ticker": "MODEFENCE",
+    "nseSymbol": "MODEFENCE",
+    "exchange": "NSE",
+    "category": "Thematic - Defence",
+    "color": "#1976D2",
+    "index": {
+      "name": "Nifty India Defence Index TRI",
+      "launched": "2024",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Quarterly",
+      "companies": 10,
+      "description": "Tracks companies engaged in Indian defence manufacturing and services. Closely follows the Nifty India Defence Index. High sector allocation to Aerospace & Defence, with significant exposure to defence electronics, shipbuilding, and capital goods."
+    },
+    "holdings": [
+      { "name": "Bharat Electronics", "ticker": "BEL", "weight": 21.42, "sector": "Defence Electronics", "color": "#FF6F00", "description": "Leading defence electronics PSU. Major supplier of radars, missile systems, and communication equipment." },
+      { "name": "Hindustan Aeronautics", "ticker": "HAL", "weight": 19.91, "sector": "Aerospace", "color": "#1565C0", "description": "India's premier aerospace manufacturer. Key supplier of aircraft and helicopters to Indian defence forces." },
+      { "name": "Bharat Forge", "ticker": "BHARATFORG", "weight": 13.06, "sector": "Defence Forging", "color": "#795548", "description": "Major player in artillery, armoured vehicles, and munitions. Strong defence order book." },
+      { "name": "Solar Industries India", "ticker": "SOLARINDS", "weight": 11.16, "sector": "Ammunition & Explosives", "color": "#F9A825", "description": "Largest manufacturer of industrial explosives and defence ammunition in India." },
+      { "name": "Mazagon Dock Shipbuilders", "ticker": "MAZDOCK", "weight": 6.64, "sector": "Shipbuilding", "color": "#3F51B5", "description": "Leading naval shipbuilder. Monopoly in submarine building for Indian Navy." },
+      { "name": "Bharat Dynamics", "ticker": "BDL", "weight": 4.82, "sector": "Missile Systems", "color": "#C62828", "description": "Key manufacturer of missiles and allied defence equipment." },
+      { "name": "Cochin Shipyard", "ticker": "COCHINSHIP", "weight": 4.77, "sector": "Shipbuilding", "color": "#009688", "description": "Major shipbuilder for Indian Navy and Coast Guard." },
+      { "name": "Astra Microwave Products", "ticker": "ASTRAMICRO", "weight": 2.83, "sector": "Defence Electronics", "color": "#673AB7", "description": "Specialist in RF and microwave products for defence and space." },
+      { "name": "Garden Reach Shipbuilders & Engineers", "ticker": "GRSE", "weight": 2.75, "sector": "Shipbuilding", "color": "#009688", "description": "Kolkata-based shipbuilder. First Indian shipyard to export warships." },
+      { "name": "Data Patterns (India)", "ticker": "DATAPATTNS", "weight": 2.69, "sector": "Defence Electronics", "color": "#00796B", "description": "Defence and aerospace electronics company. Works on radar, avionics, and missile systems." }
+    ]
+  }
     "id": "defenceetf",
     "name": "Kotak Nifty India Defence ETF",
     "ticker": "KOTAKDEF",
