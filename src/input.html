@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>ETFBharat — India ETF Directory</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+.disclaimer-box{margin-top:16px;padding:12px 14px;background:#FFB30008;border:1px solid #FFB30020;border-radius:8px;font-size:11px;color:#3A5070;line-height:1.65;}
+
+@media(max-width:640px){
+  .card-grid{grid-template-columns:1fr;}
+  .edu-grid{grid-template-columns:1fr 1fr;}
+  .sector-grid{grid-template-columns:1fr;}
+  .holdings-thead,.h-row{grid-template-columns:1fr 1fr;}
+  .holdings-thead-cell:nth-child(3),.holdings-thead-cell:nth-child(4){display:none;}
+  .h-row>*:nth-child(3),.h-row>*:nth-child(4){display:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<div id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo-wrap">
+      <div class="nav-logo-icon">📊</div>
+      <div>
+        <div class="nav-logo-title">ETF<span style="color:#FFB300">Bharat</span></div>
+        <div class="nav-logo-sub">NSE · BSE · INDIA ETF INTELLIGENCE</div>
+      </div>
+    </div>
+    <div class="tabs-wrap" id="tabs"></div>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div class="live-badge">
+        <div class="live-dot"></div>
+        <span style="font-size:10px;color:#00C853;font-weight:600;">Market Live</span>
+      </div>
+      <button class="disclaimer-btn" onclick="toggleDisclaimer()">⚠️ Disclaimer</button>
+    </div>
+  </div>
+</div>
+
+<!-- DISCLAIMER -->
+<div id="disc-bar">
+  <strong style="color:#FFB300">Educational Platform Only. </strong>
+  ETFBharat.com is not SEBI registered. Data is for educational purposes. Holdings and weights change daily — verify with AMC websites. This is not investment advice. Consult a SEBI-registered advisor before investing.
+  <button onclick="toggleDisclaimer()" style="margin-left:12px;background:none;color:#FFB300;font-size:14px;cursor:pointer;">✕</button>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span style="font-size:12px;">🇮🇳</span>
+      <span style="color:#42A5F5;font-size:10px;font-weight:800;letter-spacing:2px;">INDIA'S COMPREHENSIVE ETF EDUCATION PLATFORM</span>
+    </div>
+    <h1 class="hero-h1">Understand Every<br/><span class="hero-grad">Indian ETF</span></h1>
+    <p class="hero-p">Deep-dive into every ETF on NSE &amp; BSE. Know the index it tracks, every holding with % weight, and a clear description of what each company does.</p>
+    <div class="hero-stats">
+      <div><div class="stat-num">40+</div><div class="stat-lbl">ETFs COVERED</div></div>
+      <div><div class="stat-num">500+</div><div class="stat-lbl">HOLDINGS MAPPED</div></div>
+      <div><div class="stat-num">₹2.8L+ Cr</div><div class="stat-lbl">AUM COVERED</div></div>
+      <div><div class="stat-num">NSE + BSE</div><div class="stat-lbl">BOTH EXCHANGES</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- SEARCH + CARDS -->
+<div class="search-section">
+  <div class="max-w">
+    <div class="search-header">
+      <div>
+        <div class="dir-title">ETF Directory — <span id="tab-label">All</span></div>
+        <div class="dir-sub">Click any ETF card to see full index description, all holdings, % weights &amp; company profiles</div>
+      </div>
+      <div class="search-wrap">
+        <input class="search-input" id="search" placeholder="Search ETF, ticker or index..." oninput="renderAll()"
+          onfocus="this.style.borderColor='#2196F3'" onblur="this.style.borderColor='#1A2840'"/>
+        <span class="search-icon">🔍</span>
+      </div>
+    </div>
+    <div class="card-grid" id="card-grid"></div>
+    <div id="no-results">
+      <div style="font-size:36px;margin-bottom:10px;">🔍</div>
+      <div id="no-msg" style="font-size:16px;font-weight:600;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- EDUCATION -->
+<div class="edu-strip">
+  <div class="max-w">
+    <div style="text-align:center;margin-bottom:36px;">
+      <div style="color:#FFB300;font-size:10px;font-weight:800;letter-spacing:3px;margin-bottom:10px;">ETF BASICS</div>
+      <div style="color:#fff;font-size:24px;font-weight:900;font-family:Georgia,serif;">How ETFs Work in India</div>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card"><div class="edu-icon">📊</div><div class="edu-title">What is an ETF?</div><div class="edu-body">A basket of securities trading on NSE/BSE like a stock. Tracks an index and gives instant diversification at very low cost.</div></div>
+      <div class="edu-card"><div class="edu-icon">🏛️</div><div class="edu-title">NSE vs BSE</div><div class="edu-body">NSE ETFs have higher liquidity. BSE lists some unique ETFs. Both regulated by SEBI. You can buy on either through any broker.</div></div>
+      <div class="edu-card"><div class="edu-icon">💰</div><div class="edu-title">Expense Ratio</div><div class="edu-body">Annual fee charged by the fund house. Indian ETFs range from 0.04% (Nifty 50) to 0.65% (Gold ETFs). Lower is better.</div></div>
+      <div class="edu-card"><div class="edu-icon">📈</div><div class="edu-title">How to Buy</div><div class="edu-body">Open a demat account with Zerodha, Groww, or Upstox. Search the ticker and buy during market hours 9:15am–3:30pm IST.</div></div>
+      <div class="edu-card"><div class="edu-icon">🔄</div><div class="edu-title">Rebalancing</div><div class="edu-body">Index reviewed semi-annually or quarterly. Companies that fall below criteria are replaced. Your ETF auto-rebalances — no action needed.</div></div>
+      <div class="edu-card"><div class="edu-icon">🛡️</div><div class="edu-title">Safety</div><div class="edu-body">SEBI-regulated. Units held safely in your demat. Underlying assets held by a custodian separately from the AMC. Fully protected.</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- COMPARE TABLE -->
+<div class="compare-wrap">
+  <div class="max-w">
+    <div style="color:#fff;font-size:20px;font-weight:900;font-family:Georgia,serif;margin-bottom:4px;">All ETFs at a Glance</div>
+    <div style="color:#7B93B8;font-size:12px;margin-bottom:18px;">Quick comparison of all ETFs in our directory</div>
+    <div class="table-container">
+      <table>
+        <thead><tr><th>ETF NAME</th><th>TICKER</th><th>EXCHANGE</th><th>AUM</th><th>EXPENSE</th><th>CATEGORY</th></tr></thead>
+        <tbody id="tbl-body"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">ETF<span style="color:#fff">Bharat</span></div>
+  <p class="footer-p">India's comprehensive ETF education platform. Understand every ETF — index, holdings, weights and companies. Not SEBI registered. Educational use only.</p>
+  <div class="footer-copy">© 2025 ETFBharat.com · Educational Platform · Not Investment Advice · Consult SEBI-registered advisors</div>
+</footer>
+
+<!-- MODAL -->
+<div id="modal-overlay" onclick="if(event.target===this)closeModal()">
+  <div id="modal-panel"></div>
+</div>
+
+<!-- INJECT_ETF_DATA -->
+
+<script>
+const C={bg:"#030810",surface:"#070F1E",card:"#0B1628",border:"#1A2840",accent:"#2196F3",accentHi:"#42A5F5",gold:"#FFB300",green:"#00C853",red:"#FF1744",saffron:"#FF6F00",text:"#E8F0FE",muted:"#7B93B8",faint:"#3A5070",blue:"#1565C0",purple:"#7B1FA2"};
+
+// ── STATE ─────────────────────────────────────────────────────────────────────
+// ETF_DATA is injected at build time via <!-- INJECT_ETF_DATA --> in input.html
+let activeTab='All', activeModal=null, activeSel=null, activeSort='weight';
+
+// ── TABS ──────────────────────────────────────────────────────────────────────
+const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','AUM > 1000 Cr'];
+const tabsEl=document.getElementById('tabs');
+TABS.forEach(t=>{
+  const b=document.createElement('button');
+  b.className='tab-btn'+(t==='All'?' active':'');
+  b.textContent=t;
+  b.onclick=()=>{ activeTab=t; document.querySelectorAll('.tab-btn').forEach(x=>x.classList.remove('active')); b.classList.add('active'); document.getElementById('tab-label').textContent=t; renderAll(); };
+  tabsEl.appendChild(b);
+});
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+function tag(txt,color){return `<span class="tag" style="background:${color}18;border:1px solid ${color}35;color:${color};">${esc(txt)}</span>`;}
+function wbar(w,max,color){const pct=Math.min(100,(w/max)*100); return `<div class="w-bar-track"><div class="w-bar-fill" style="width:${pct}%;background:${color};"></div></div>`;}
+
+// ── FILTER ────────────────────────────────────────────────────────────────────
+function parseAUM(aumStr){
+  const match=aumStr.match(/₹([\d,]+)/);
+  if(!match) return 0;
+  return parseFloat(match[1].replace(/,/g,''));
+}
+
+function getFiltered(){
+  const q=(document.getElementById('search').value||'').toLowerCase();
+  return ETF_DATA.filter(e=>{
+    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
+    const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q)||e.category.toLowerCase().includes(q);
+    return mTab&&mQ;
+  });
+}
+
+// ── RENDER ALL ────────────────────────────────────────────────────────────────
+function renderAll(){
+  const filtered=getFiltered();
+  const grid=document.getElementById('card-grid');
+  const noRes=document.getElementById('no-results');
+  if(!filtered.length){
+    grid.style.display='none'; noRes.style.display='block';
+    document.getElementById('no-msg').textContent=`No ETFs found for "${document.getElementById('search').value}"`;
+    return;
+  }
+  grid.style.display=''; noRes.style.display='none';
+  grid.innerHTML=filtered.map(etf=>buildCard(etf)).join('');
+  renderTable(filtered);
+}
+
+function buildCard(etf){
+  const maxW=Math.max(...etf.holdings.map(h=>h.weight));
+  const exchColor=etf.exchange.includes('BSE')?C.saffron:C.accent;
+  const topH=etf.holdings.slice(0,4).map(h=>`
+    <div class="holding-row">
+      <div class="holding-dot" style="background:${h.color};"></div>
+      <div class="holding-name">${esc(h.name)}</div>
+      ${wbar(h.weight,maxW,h.color)}
+      <div class="holding-pct">${h.weight}%</div>
+    </div>`).join('');
+  const moreH=etf.holdings.length>4?`<div class="more-holdings">+${etf.holdings.length-4} more holdings →</div>`:'';
+  return `
+  <div class="etf-card" style="--card-color:${etf.color};--card-glow:${etf.color}15;--card-hover-bg:${etf.color}08;" onclick="openModal('${etf.id}')">
+    <div class="card-body">
+      <div class="card-tags">${tag(etf.exchange,exchColor)}${tag(etf.category,etf.color)}</div>
+      <div class="card-name">${esc(etf.name)}</div>
+      <div class="card-ticker">${etf.ticker}</div>
+      <div class="card-metrics">
+        ${[['NAV',etf.nav],['AUM',etf.aum],['Expense',etf.expense]].map(([k,v])=>`
+          <div class="metric-box"><div class="metric-lbl">${k}</div><div class="metric-val">${esc(v)}</div></div>`).join('')}
+      </div>
+      <div class="index-badge" style="background:${etf.color}12;border:1px solid ${etf.color}25;">
+        <div class="index-lbl" style="color:${etf.color};">TRACKS INDEX</div>
+        <div style="font-size:12px;color:#E8F0FE;font-weight:600;">${esc(etf.index.name)}</div>
+      </div>
+      <div class="holdings-lbl">TOP HOLDINGS</div>
+      ${topH}${moreH}
+    </div>
+    <div class="card-footer">
+      <span class="card-count">${etf.holdings.length} companies mapped</span>
+      <span class="card-cta">View Details →</span>
+    </div>
+  </div>`;
+}
+
+function renderTable(filtered){
+  document.getElementById('tbl-body').innerHTML=filtered.map(etf=>`
+    <tr class="etf-row" onclick="openModal('${etf.id}')"
+      onmouseenter="this.style.background='${etf.color}08'" onmouseleave="this.style.background=''">
+      <td><div style="display:flex;align-items:center;gap:8px;">
+        <div style="width:8px;height:8px;border-radius:50%;background:${etf.color};flex-shrink:0;"></div>
+        <span style="color:#E8F0FE;font-size:12px;font-weight:600;">${esc(etf.name)}</span>
+      </div></td>
+      <td style="color:#42A5F5;font-size:11px;font-family:monospace;font-weight:600;">${etf.ticker}</td>
+      <td>${tag(etf.exchange,etf.exchange.includes('BSE')?C.saffron:C.accent)}</td>
+      <td style="color:#FFB300;font-size:12px;font-weight:700;font-family:monospace;">${esc(etf.aum)}</td>
+      <td style="color:#00C853;font-size:12px;font-weight:700;">${etf.expense}</td>
+      <td>${tag(etf.category.split(' - ')[1]||etf.category,etf.color)}</td>
+    </tr>`).join('');
+}
+
+// ── MODAL ─────────────────────────────────────────────────────────────────────
+function openModal(id){
+  activeModal=ETF_DATA.find(e=>e.id===id);
+  activeSel=null; activeSort='weight';
+  if(!activeModal) return;
+  renderModal();
+  document.getElementById('modal-overlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function closeModal(){
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow='';
+  activeModal=null; activeSel=null;
+}
+
+function setSort(s){ activeSort=s; renderModal(); }
+function toggleSel(ticker){ activeSel=activeSel===ticker?null:ticker; renderModal(); }
+
+function renderModal(){
+  const etf=activeModal;
+  if(!etf) return;
+  const sorted=[...etf.holdings].sort((a,b)=>activeSort==='weight'?b.weight-a.weight:a.name.localeCompare(b.name));
+  const maxW=Math.max(...etf.holdings.map(h=>h.weight));
+  const exchColor=etf.exchange.includes('BSE')?C.saffron:C.accent;
+
+  // sectors
+  const sMap={};
+  etf.holdings.forEach(h=>{sMap[h.sector]=(sMap[h.sector]||0)+h.weight;});
+  const sectors=Object.entries(sMap).sort((a,b)=>b[1]-a[1]);
+  const totalW=etf.holdings.reduce((s,h)=>s+h.weight,0);
+
+  const metaBoxes=[['NAV',etf.nav,C.gold],['AUM',etf.aum,C.green],['Expense',etf.expense,C.accentHi],['Exchange',etf.exchange,C.saffron]]
+    .map(([k,v,c])=>`<div class="modal-metric"><div class="modal-metric-lbl">${k}</div><div style="font-size:14px;color:${c};font-weight:800;">${esc(v)}</div></div>`).join('');
+
+  const indexMeta=[['Launched',etf.index.launched],['Methodology',etf.index.methodology],['Rebalance',etf.index.rebalance],['Companies',etf.index.companies||etf.holdings.length]]
+    .map(([k,v])=>`<div class="index-meta-box"><div style="font-size:8px;color:${C.faint};letter-spacing:2px;">${k.toUpperCase()}</div><div style="font-size:12px;color:${C.text};font-weight:700;margin-top:2px;">${esc(String(v))}</div></div>`).join('');
+
+  const sectorRows=sectors.map(([s,w])=>`
+    <div class="sector-row">
+      <div class="sector-name">${esc(s)}</div>
+      <div class="sector-bar-track"><div class="sector-bar-fill" style="width:${(w/totalW)*100}%;background:${etf.color};"></div></div>
+      <div class="sector-pct">${w.toFixed(1)}%</div>
+    </div>`).join('');
+
+  const holdingRows=sorted.map((h,i)=>{
+    const isActive=activeSel===h.ticker;
+    return `
+    <div>
+      <div class="h-row${isActive?' active':''}" style="--h-color:${h.color}12;${isActive?`background:${h.color}12;`:''};border-bottom:${i<sorted.length-1||isActive?`1px solid ${C.border}`:0};" onclick="toggleSel('${h.ticker}')">
+        <div style="display:flex;align-items:center;gap:8px;">
+          <div style="width:7px;height:7px;border-radius:50%;background:${h.color};flex-shrink:0;"></div>
+          <span style="color:#fff;font-size:12px;font-weight:600;">${esc(h.name)}</span>
+        </div>
+        <div style="color:${C.accentHi};font-size:11px;font-family:monospace;font-weight:600;">${h.ticker}</div>
+        <div>${tag(h.sector,h.color)}</div>
+        <div style="display:flex;align-items:center;gap:8px;">${wbar(h.weight,maxW,h.color)}<span style="color:${C.gold};font-size:12px;font-weight:800;min-width:38px;text-align:right;font-family:monospace;">${h.weight}%</span></div>
+      </div>
+      ${isActive?`
+      <div class="h-expand" style="--h-color-solid:${h.color};background:${h.color}08;">
+        <div style="font-size:9px;color:${h.color};letter-spacing:2px;font-weight:800;margin-bottom:5px;">ABOUT ${esc(h.name.toUpperCase())}</div>
+        <p style="color:${C.muted};font-size:12px;line-height:1.8;margin:0 0 8px;">${esc(h.description)}</p>
+        <div style="display:flex;gap:7px;flex-wrap:wrap;">${tag(h.sector,h.color)}${tag(h.weight+'% weight',C.gold)}${tag('NSE: '+h.ticker,C.green)}</div>
+      </div>`:''}
+    </div>`;
+  }).join('');
+
+  const sortBtns=['weight','name'].map(s=>`
+    <button class="sort-btn" onclick="setSort('${s}')"
+      style="background:${activeSort===s?etf.color:C.card};border:1px solid ${activeSort===s?'transparent':C.border};color:${activeSort===s?'#fff':C.muted};font-weight:${activeSort===s?700:400};">
+      ${s==='weight'?'By Weight':'A–Z'}
+    </button>`).join('');
+
+  document.getElementById('modal-panel').innerHTML=`
+    <div class="modal-hdr">
+      <div class="modal-hdr-top">
+        <div>
+          <div style="display:flex;gap:7px;margin-bottom:8px;flex-wrap:wrap;">${tag(etf.exchange,exchColor)}${tag(etf.category,etf.color)}</div>
+          <div style="color:#fff;font-size:20px;font-weight:900;font-family:Georgia,serif;margin-bottom:3px;">${esc(etf.name)}</div>
+          <div style="color:${C.muted};font-size:13px;">Ticker: <strong style="color:${C.accentHi};">${etf.ticker}</strong></div>
+        </div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-metrics">${metaBoxes}</div>
+    </div>
+    <div class="modal-body">
+      <div style="margin-bottom:24px;">
+        <div class="section-head">
+          <div class="section-bar" style="background:${etf.color};"></div>
+          <div class="section-title">📈 Index: ${esc(etf.index.name)}</div>
+        </div>
+        <div class="index-desc-wrap">
+          <p class="index-desc-p">${esc(etf.index.description)}</p>
+          <div class="index-meta">${indexMeta}</div>
+        </div>
+      </div>
+      <div class="sector-wrap">
+        <div style="font-size:10px;color:${C.faint};letter-spacing:2px;margin-bottom:12px;">SECTOR ALLOCATION</div>
+        <div class="sector-grid">${sectorRows}</div>
+      </div>
+      <div>
+        <div class="holdings-section-header">
+          <div style="display:flex;align-items:center;gap:8px;">
+            <div class="section-bar" style="background:${etf.color};"></div>
+            <div class="section-title">Holdings (${etf.holdings.length})</div>
+          </div>
+          <div class="sort-btns">${sortBtns}</div>
+        </div>
+        <div class="holdings-table">
+          <div class="holdings-thead">
+            <div class="holdings-thead-cell">COMPANY</div>
+            <div class="holdings-thead-cell">TICKER</div>
+            <div class="holdings-thead-cell">SECTOR</div>
+            <div class="holdings-thead-cell">WEIGHT</div>
+          </div>
+          ${holdingRows}
+        </div>
+        <div class="disclaimer-box">
+          <strong style="color:${C.gold};">⚠️ Disclaimer: </strong>
+          Data is for educational purposes only. Holdings, NAV and weights change daily — verify with the AMC website. Not investment advice. Consult a SEBI-registered advisor. Mutual Fund investments are subject to market risks.
+        </div>
+      </div>
+    </div>`;
+}
+
+// ── DISCLAIMER ────────────────────────────────────────────────────────────────
+function toggleDisclaimer(){
+  const b=document.getElementById('disc-bar');
+  b.style.display=b.style.display==='none'||!b.style.display?'block':'none';
+}
+
+// ── KEYBOARD ──────────────────────────────────────────────────────────────────
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') closeModal(); });
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+renderAll();
+</script>
+</body>
+</html>

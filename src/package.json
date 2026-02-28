@@ -1,0 +1,13 @@
+{
+  "name": "etfbharat-site",
+  "version": "1.0.0",
+  "description": "Static ETFBharat site build scripts",
+  "scripts": {
+    "build": "node build.js",
+    "build-dev": "node build.js --dev",
+    "minify": "node build.js --minify-only"
+   },
+  "engines": {
+    "node": ">=14"
+  }
+}
