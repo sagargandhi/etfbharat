@@ -154,10 +154,55 @@ footer{background:#070F1E;border-top:1px solid #1A2840;padding:32px 20px;text-al
 .h-expand{padding:12px 14px;border-bottom:1px solid #1A2840;}
 
 @media(max-width:640px){
+  /* ── Navbar ─────────────────────────────────────────── */
+  #navbar{padding:0 14px;}
+  .nav-inner{height:auto;min-height:50px;flex-wrap:wrap;padding:8px 0;gap:0;}
+  .nav-logo-wrap{order:1;flex:1;}
+  #nav-right{order:2;}
+  .nav-logo-sub{display:none;}
+  .live-badge{display:none;}
+  .disclaimer-btn{padding:5px 9px;font-size:9px;}
+
+  /* ── Tabs: scrollable strip below logo row ───────── */
+  .tabs-wrap{order:3;width:100%;margin-top:6px;overflow-x:auto;-webkit-overflow-scrolling:touch;
+    flex-wrap:nowrap;border-radius:0;border:none;border-top:1px solid #1A2840;
+    padding:6px 0;gap:4px;scrollbar-width:none;}
+  .tabs-wrap::-webkit-scrollbar{display:none;}
+  .tab-btn{white-space:nowrap;flex-shrink:0;padding:7px 13px;min-height:36px;}
+
+  /* ── Hero ───────────────────────────────────────── */
+  .hero{padding:28px 16px 24px;}
+  .hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:14px 20px;justify-items:center;}
+
+  /* ── Search ─────────────────────────────────────── */
+  .search-header{flex-direction:column;align-items:stretch;gap:10px;}
+  .search-wrap{width:100%;}
+  .search-input{width:100%;font-size:14px;padding:10px 14px 10px 38px;}
+
+  /* ── Cards ──────────────────────────────────────── */
   .card-grid{grid-template-columns:1fr;}
+
+  /* ── Education ──────────────────────────────────── */
   .edu-grid{grid-template-columns:1fr 1fr;}
+
+  /* ── Compare table — hide low-priority cols ──────────── */
+  table th:nth-child(5),table td:nth-child(5),
+  table th:nth-child(6),table td:nth-child(6){display:none;}
+
+  /* ── Modal full-screen ───────────────────────────── */
+  #modal-overlay{padding:0;}
+  #modal-panel{border-radius:0;max-width:100%;min-height:100vh;margin:0;}
+  .modal-hdr{padding:14px 14px 12px;}
+  .modal-body{padding:14px;}
+  .modal-metrics{gap:7px;}
+  .modal-metric{padding:7px 10px;min-width:76px;}
+
+  /* ── Sector allocation ───────────────────────────── */
   .sector-grid{grid-template-columns:1fr;}
+
+  /* ── Holdings table ──────────────────────────────── */
   .holdings-thead,.h-row{grid-template-columns:1fr 1fr;}
   .holdings-thead-cell:nth-child(3),.holdings-thead-cell:nth-child(4){display:none;}
   .h-row>*:nth-child(3),.h-row>*:nth-child(4){display:none;}
+  .h-row{padding:12px 10px;min-height:44px;}
 }
