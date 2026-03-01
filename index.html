@@ -147,7 +147,7 @@ ETFBharat.com is not SEBI registered. Data is for educational purposes. Holdings
 <div class="max-w">
 <div class="search-header">
 <div>
-<div class="dir-title">ETF Directory — <span id="tab-label">All</span></div>
+<div class="dir-title">ETF Directory — <span id="tab-label">Popular</span></div>
 <div class="dir-sub">Click any ETF card to see full index description, all holdings, % weights &amp; company profiles</div>
 </div>
 <div class="search-wrap">
@@ -158,9 +158,13 @@ onfocus="this.style.borderColor='#2196F3'" onblur="this.style.borderColor='#1A28
 </div>
 <div id="subfilter-bar"></div>
 <div class="card-grid" id="card-grid"></div>
-<div id="no-results">
+<div id="no-results" style="display:none;text-align:center;padding:60px 20px;">
 <div style="font-size:36px;margin-bottom:10px;">🔍</div>
-<div id="no-msg" style="font-size:16px;font-weight:600;"></div>
+<div id="no-msg" style="font-size:16px;font-weight:600;color:#E8F0FE;margin-bottom:8px;"></div>
+<div id="no-hint" style="display:none;margin-top:18px;">
+<div style="color:#7B93B8;font-size:13px;margin-bottom:12px;">Only <strong style="color:#42A5F5;">Popular</strong> ETFs are shown in this tab. The full directory has 300+ ETFs.</div>
+<button onclick="switchToAllTab()" style="padding:10px 24px;background:linear-gradient(135deg,#2196F3,#1565C0);color:#fff;font-weight:700;font-size:13px;border-radius:9px;border:none;cursor:pointer;" onmouseover="this.style.opacity='.82'" onmouseout="this.style.opacity='1'">Browse All 300+ ETFs →</button>
+</div>
 </div>
 </div>
 </div>
@@ -282,7 +286,28 @@ onfocus="this.style.borderColor='#2196F3'" onblur="this.style.borderColor='#1A28
 const C={bg:"#030810",surface:"#070F1E",card:"#0B1628",border:"#1A2840",accent:"#2196F3",accentHi:"#42A5F5",gold:"#FFB300",green:"#00C853",red:"#FF1744",saffron:"#FF6F00",text:"#E8F0FE",muted:"#7B93B8",faint:"#3A5070",blue:"#1565C0",purple:"#7B1FA2"};
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let ETF_DATA = [];
-let activeTab='All', activeSubFilter=null, activeModal=null, activeSel=null, activeSort='weight';
+let activeTab='Popular', activeSubFilter=null, activeModal=null, activeSel=null, activeSort='weight';
+// ── POPULAR ETFs (one per major category, curated by AUM / recognition) ────────
+const POPULAR_TICKERS = new Set([
+// Large Cap
+'NIFTYBEES','SETFNIF50','UTINIFTETF','HDFCNIFTY',
+// Mid Cap
+'MID150BEES',
+// Gold
+'GOLDBEES','HDFCGOLD','SBIETSIGOLD',
+// Silver
+'SILVERBEES',
+// Debt
+'LIQUIDBEES','GSEC10YEAR',
+// International
+'MON100','MAFANG',
+// Banking sectoral
+'BANKBEES','PVTBNKETF','PSUBNKBEES',
+// Other sectorals
+'ITBEES','PHARMABEES','FMCGBEES',
+// Thematic
+'CPSEETF','KOTAKDEF','ICICIB22','GROWWEV','INFRABEES','MOM100'
+]);
 // ── LOAD ETF DATA FROM MULTIPLE FILES ─────────────────────────────────────────
 let ETF_FILES = [];
 async function loadAllETFData() {
@@ -330,12 +355,12 @@ document.getElementById('card-grid').innerHTML = '<div style="color: #FF1744; te
 }
 }
 // ── TABS ──────────────────────────────────────────────────────────────────────
-const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International','AUM > 1000 Cr'];
+const TABS=['Popular','All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International','AUM > 1000 Cr'];
 const SUBFILTER_TABS=new Set(['Sectoral','Thematic','Commodity','Debt','International']);
 const tabsEl=document.getElementById('tabs');
 TABS.forEach(t=>{
 const b=document.createElement('button');
-b.className='tab-btn'+(t==='All'?' active':'');
+b.className='tab-btn'+(t==='Popular'?' active':'');
 b.textContent=t;
 b.onclick=()=>{
 activeTab=t; activeSubFilter=null;
@@ -343,7 +368,7 @@ document.querySelectorAll('.tab-btn').forEach(x=>x.classList.remove('active'));
 b.classList.add('active');
 document.getElementById('tab-label').textContent=t;
 const u=new URL(window.location);
-if(t==='All'){u.searchParams.delete('tab');u.searchParams.delete('sub');}else{u.searchParams.set('tab',t);u.searchParams.delete('sub');}
+if(t==='All'||t==='Popular'){u.searchParams.delete('tab');u.searchParams.delete('sub');}else{u.searchParams.set('tab',t);u.searchParams.delete('sub');}
 history.replaceState({},'',u);
 renderSubFilters();
 renderAll();
@@ -372,7 +397,7 @@ const SUBFILTER_ICONS={
 };
 function renderSubFilters(){
 const bar=document.getElementById('subfilter-bar');
-if(activeTab==='All'){
+if(activeTab==='All'||activeTab==='Popular'){
 bar.innerHTML=''; bar.style.display='none'; return;
 }
 if(!SUBFILTER_TABS.has(activeTab)){
@@ -420,7 +445,7 @@ return parseFloat(match[1].replace(/,/g,''));
 function getFiltered(){
 const q=(document.getElementById('search').value||'').toLowerCase();
 return ETF_DATA.filter(e=>{
-const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='International'?e.category.includes('International'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
+const mTab=activeTab==='All'?true:activeTab==='Popular'?POPULAR_TICKERS.has(e.ticker):activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='International'?e.category.includes('International'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
 const mSub=!activeSubFilter||e.category.includes(activeSubFilter);
 const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q)||e.category.toLowerCase().includes(q);
 return mTab&&mSub&&mQ;
@@ -433,7 +458,10 @@ const grid=document.getElementById('card-grid');
 const noRes=document.getElementById('no-results');
 if(!filtered.length){
 grid.style.display='none'; noRes.style.display='block';
-document.getElementById('no-msg').textContent=`No ETFs found for "${document.getElementById('search').value}"`;
+const q=document.getElementById('search').value;
+document.getElementById('no-msg').textContent=`No ETFs found for "${q}"`;
+const hint=document.getElementById('no-hint');
+if(hint) hint.style.display=(q&&activeTab!=='All')?'block':'none';
 return;
 }
 grid.style.display=''; noRes.style.display='none';
@@ -659,6 +687,11 @@ Data is for educational purposes only. Holdings, NAV and weights change daily �
 </div>`;
 }
 // ── DISCLAIMER ────────────────────────────────────────────────────────────────
+// ── SWITCH TO ALL TAB ────────────────────────────────────────────────────────
+function switchToAllTab(){
+const allBtn=[...document.querySelectorAll('.tab-btn')].find(b=>b.textContent.trim()==='All');
+if(allBtn) allBtn.click();
+}
 function toggleDisclaimer(){
 const b=document.getElementById('disc-bar');
 b.style.display=b.style.display==='none'||!b.style.display?'block':'none';
@@ -712,6 +745,8 @@ if(tParam && TABS.includes(tParam)){
 activeTab=tParam;
 document.querySelectorAll('.tab-btn').forEach(b=>b.classList.toggle('active',b.textContent===tParam));
 document.getElementById('tab-label').textContent=tParam;
+} else {
+document.getElementById('tab-label').textContent='Popular';
 }
 if(sParam){ activeSubFilter=sParam; }
 renderSubFilters();
