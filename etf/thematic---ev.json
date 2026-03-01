@@ -1,0 +1,101 @@
+[
+  {
+    "id": "moev",
+    "name": "Motilal Oswal Nifty EV & New Age Automotive ETF",
+    "ticker": "MOEV",
+    "nseSymbol": "MOEV",
+    "exchange": "NSE",
+    "category": "Thematic - EV",
+    "color": "#00BFA5",
+    "index": {
+      "name": "Nifty EV & New Age Automotive Index",
+      "launched": "March 2023",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Semi-Annual",
+      "companies": 30,
+      "description": "The Nifty EV & New Age Automotive Index is India's first equity benchmark purpose-built for the electric vehicle revolution — selecting companies across the entire EV value chain: OEMs (vehicle makers), battery manufacturers, charging infrastructure, auto tech, semiconductors for vehicles, and traditional auto ancillaries undergoing EV transition. India's EV market is at an inflection point: EV penetration crossed 7% of total vehicle sales in FY25 (up from 1% in FY21) with 2-wheelers leading (12% EV share), commercial 3-wheelers at 55%+ EV penetration, and passenger vehicles approaching 3%. Government policy is unambiguous: FAME-III (Faster Adoption and Manufacturing of EVs) with ₹25,000 Cr subsidy outlay, PLI scheme for Advanced Chemistry Cells (ACC batteries) with ₹18,100 Cr incentives, PM e-Bus Sewa (10,000 electric buses for cities), and 30% EV penetration target by 2030 across vehicle categories. The EV transition disrupts decades-old supply chains: internal combustion engine (ICE) vehicles have 2,000+ components while EVs have ~300, meaning traditional auto ancillaries must reinvent or perish. Index companies span those reinventing fastest — Exide's lithium-ion battery JV with SVOLT, Amara Raja's Giga corridor, Minda's EV lighting and electronics systems, Bosch India's EV powertrain software. MOEV's index also uniquely captures battery mineral beneficiaries (lithium processing, nickel refining) as India develops domestic supply chains to reduce China dependency in battery materials. Investors get exposure to one of the most powerful structural secular trends globally — electrification of transport — through Indian-listed companies anchored to domestic demand, not subject to US-China trade war risk."
+    },
+    "holdings": [
+      {
+        "name": "Tata Motors",
+        "ticker": "TATAMOTORS",
+        "weight": 18.45,
+        "sector": "EV OEM",
+        "color": "#003A8C",
+        "description": "India's undisputed EV market leader — Nexon EV, Tiago EV, Punch EV and now Curvv EV give Tata 55%+ passenger EV market share. Jaguar Land Rover's full EV lineup (Range Rover Electric, JLR EV platform) launching FY26-28 could be transformational for global revenue. Tata.ev as standalone EV brand signals intent. Tata Power EV charging network (80,000+ public chargers by FY26) creates ecosystem moat."
+      },
+      {
+        "name": "Mahindra & Mahindra",
+        "ticker": "M&M",
+        "weight": 12.87,
+        "sector": "EV OEM",
+        "color": "#E53935",
+        "description": "BE 6e and XEV 9e flagship EVs launched FY25 on the INGLO global EV platform — rave reviews for design and range. ₹40,000 Cr investment in EV business including dedicated EV plant in Pune. Mahindra's farm equipment (electric tractor Oja) and commercial EV (electric three-wheeler) fleets parallel the passenger EV story. Volkswagen invested ₹8,000 Cr for 3% stake validating the EV platform's global quality."
+      },
+      {
+        "name": "Exide Industries",
+        "ticker": "EXIDEIND",
+        "weight": 8.92,
+        "sector": "Battery",
+        "color": "#F57F17",
+        "description": "Lead-acid battery giant pivoting to lithium-ion. Exide Energy Solutions — SVOLT (China's top battery maker) JV — is building India's first large-scale lithium-ion battery gigafactory at Bengaluru (6GWh Phase 1, 12GWh Phase 2). PLI scheme beneficiary for ACC batteries. Exide's 4,000+ dealer network pre-positions it for battery swapping and EV servicing as a retail revenue stream. First mover advantage in India's domestic battery manufacturing."
+      },
+      {
+        "name": "Amara Raja Energy & Mobility",
+        "ticker": "AMARAJAB",
+        "weight": 7.65,
+        "sector": "Battery",
+        "color": "#1B5E20",
+        "description": "Second-largest battery company transitioning with purpose: 'Giga Corridor' — a 200-acre dedicated EV battery campus at Divitipally, Telangana. 16GWh total planned capacity including 4GWh NMC (Nickel Manganese Cobalt) and LFP (Lithium Iron Phosphate) lines. PLI scheme beneficiary. Strategic partnerships with Piaggio and Ather Energy for two-wheeler EV battery supply. Revenue contribution from EV segment expected to cross 30% by FY27."
+      },
+      {
+        "name": "TVS Motor Company",
+        "ticker": "TVSMOTOR",
+        "weight": 7.21,
+        "sector": "EV 2-Wheeler",
+        "color": "#004D40",
+        "description": "India's leading 2-wheeler EV OEM alongside Ola Electric. iQube scooter (8%+ 2-wheeler EV market share). TVS X (premium electric motorcycle) targeting global markets. Bavaria Industriekapital (BIG) investment in EV startup ecosystem. Singapore R&D centre for EV software and battery management systems. Revenue from EV segment growing 80%+ YoY — fastest EV growth among listed 2-wheeler makers."
+      },
+      {
+        "name": "Samvardhana Motherson",
+        "ticker": "MOTHERSON",
+        "weight": 5.87,
+        "sector": "Auto Ancillary - EV",
+        "color": "#880E4F",
+        "description": "Global auto components giant (100+ countries) aggressively pivoting to EV. Wiring harness, polymer components, vision systems, and e-drives for EV platforms. PKC Group (Finland) acquisition and SMP Manufacturing (Europe) provides EV contracts with BMW, Mercedes, VW, Stellantis. As OEMs globally go EV, Motherson's diversified presence ensures it supplies both ICE-to-EV transition components and pure-EV architectures."
+      },
+      {
+        "name": "Minda Industries",
+        "ticker": "MINDAIND",
+        "weight": 4.93,
+        "sector": "Auto Ancillary - EV",
+        "color": "#0288D1",
+        "description": "EV transition accelerant — switches, alloy wheels, sensors, lighting and EV-specific components (BMS units, charging inlets, EV-specific wire harnesses). Minda Corporation merger creates a ₹7,000 Cr EV component powerhouse. 60%+ revenues from domestic OEMs with exposure to Tata, M&M, Hero, TVS — all aggressively launching EVs. 15+ new EV-specific products in pipeline."
+      },
+      {
+        "name": "Bosch India",
+        "ticker": "BOSCHLTD",
+        "weight": 4.52,
+        "sector": "Auto Tech",
+        "color": "#C62828",
+        "description": "Robert Bosch's Indian listed subsidiary undergoing the most complex EV transition in the auto ancillary space — diesel fuel injection systems (historically 40% of revenue) being replaced by EV powertrain software, sensors and e-mobility components. Bosch's global EV software expertise is being localized in India. Battery management systems, e-axles, and regenerative braking systems for 2-wheeler, 3-wheeler and 4-wheeler OEMs."
+      },
+      {
+        "name": "Olectra Greentech",
+        "ticker": "OLECTRA",
+        "weight": 3.87,
+        "sector": "EV Bus",
+        "color": "#558B2F",
+        "description": "India's leading electric bus OEM — 3,500+ e-buses operational across 10+ state transport undertakings (KRSTC, NMMT, JNNURM cities). PM e-Bus Sewa scheme (10,000 government-procured electric buses) is Olectra's largest revenue opportunity. BYD partnership brings China's most efficient EV bus technology localised for Indian roads and charging infrastructure. Gross margins expanding as scale increases and localisation deepens."
+      },
+      {
+        "name": "Hero MotoCorp",
+        "ticker": "HEROMOTOCO",
+        "weight": 3.41,
+        "sector": "EV 2-Wheeler",
+        "color": "#4A148C",
+        "description": "World's largest 2-wheeler OEM (volume by units) entering EV segment with Vida scooter — launching multiple variants across price points. ₹10,000 Cr EV investment including Jaipur and Chittoor EV manufacturing plants. Premium EV products planned (Harley-Davidson co-brand electric motorcycle). Hero partnered with Zero (US premium electric motorcycle brand) for technology infusion. 6,000+ dealer network gives Vida unmatched distribution advantage."
+      }
+    ]
+  }
+]

@@ -21,12 +21,18 @@
     "sectoral---pharma.json",
     "sectoral---psu-banking.json",
     "sectoral---realty.json",
+    "sectoral---rail.json",
     "thematic---consumption.json",
     "thematic---defence.json",
     "thematic---equal-weight.json",
     "thematic---infrastructure.json",
     "thematic---mnc.json",
     "thematic---momentum.json",
-    "thematic---psu.json"
+    "thematic---psu.json",
+    "thematic---value.json",
+    "thematic---esg.json",
+    "thematic---bharat22.json",
+    "thematic---ev.json",
+    "international.json"
   ]
 }

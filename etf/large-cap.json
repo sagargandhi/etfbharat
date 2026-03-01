@@ -546,5 +546,63 @@
         "description": "India's leading internet classifieds platform. Naukri dominates job portals, 99acres in real estate, Jeevansathi in matrimony. Investor in Zomato and PolicyBazaar at early stages."
       }
     ]
+  },
+  {
+    "id": "sbietnif50",
+    "name": "SBI ETF Nifty 50",
+    "ticker": "SETFNIF50",
+    "nseSymbol": "SETFNIF50",
+    "exchange": "NSE",
+    "category": "Large Cap",
+    "color": "#1565C0",
+    "index": {
+      "name": "Nifty 50",
+      "launched": "March 2015",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Semi-Annual",
+      "companies": 50,
+      "description": "SBI ETF Nifty 50 is India's single largest ETF by AUM — managing ₹2.44 lakh crore, it dwarfs every other ETF on NSE by an order of magnitude. This extraordinary scale stems from government mandate: EPFO (Employees' Provident Fund Organisation) channels 15% of incremental corpus into this ETF, making it the vehicle for India's retirement savings entering equity markets. Every Indian formal-sector employee's PF contribution partly flows into SETFNIF50. The ETF tracks Nifty 50 identically to NIFTYBEES and UTINIFTETF, but its size creates unique market dynamics — large block deals during EPFO rebalancing move the entire market. Expense ratio at 0.07% is among the lowest available. Unlike retail-facing ETFs, the majority of SETFNIF50 units are held institutionally (EPFO, insurance companies, government pension funds), giving it the lowest daily trading volume relative to AUM. Retail investors can buy it freely on NSE at minimal cost, enjoying the same Nifty 50 exposure as government pension funds. SBI Mutual Fund is India's largest AMC, providing institutional-grade reliability and zero AMC failure risk."
+    },
+    "holdings": [
+      { "name": "Reliance Industries", "ticker": "RELIANCE", "weight": 9.87, "sector": "Energy & Telecom", "color": "#FF6F00", "description": "India's largest conglomerate — refining, petrochemicals, Jio (450M+ subscribers), Reliance Retail (15,000+ stores). Mukesh Ambani's ₹19 lakh crore empire spans new energy investments of ₹75,000 Cr in solar and hydrogen." },
+      { "name": "HDFC Bank", "ticker": "HDFCBANK", "weight": 8.45, "sector": "BFSI", "color": "#1565C0", "description": "India's largest private bank by assets post-HDFC merger. ₹25L Cr+ balance sheet. 8,700+ branches. Best-in-class credit quality with sub-1.5% GNPA. Consistent 18% ROE through credit cycles." },
+      { "name": "ICICI Bank", "ticker": "ICICIBANK", "weight": 7.23, "sector": "BFSI", "color": "#F57C00", "description": "India's second-largest private bank on a vigorous digital-first transformation. iMobile Pay with 20M+ users. Strong SME and retail lending book. ROE expanded from 14% to 18%+ under Sandeep Bakhshi's leadership." },
+      { "name": "Infosys", "ticker": "INFY", "weight": 6.15, "sector": "IT Services", "color": "#00BCD4", "description": "Global IT services leader with Cobalt cloud platform. $4B+ TCV per quarter in large deal wins. AI-first strategy with Infosys Topaz for enterprise AI transformation. Carbon-neutral since 2020." },
+      { "name": "TCS", "ticker": "TCS", "weight": 5.87, "sector": "IT Services", "color": "#006064", "description": "India's largest IT company — 600,000+ employees, 1,200+ clients across 150 locations. Market leader in BFSI, retail and manufacturing verticals. GenAI deals accelerating with 100+ AI-driven large deal wins in FY25." },
+      { "name": "Bharti Airtel", "ticker": "BHARTIARTL", "weight": 4.25, "sector": "Telecom", "color": "#E53935", "description": "India's #2 telecom operator and Africa's largest. 550M+ global subscribers. ARPU rising sharply post price hikes. Airtel Business (enterprise B2B) and home broadband (Xstream Fiber) diversify revenue. 5G rollout complete in 1,000+ cities." },
+      { "name": "ITC Ltd", "ticker": "ITC", "weight": 3.85, "sector": "FMCG", "color": "#558B2F", "description": "Diversified conglomerate transitioning from cigarettes to FMCG giant. Aashirvaad atta, Sunfeast biscuits, Bingo chips, Fiama soaps growing at 15%+ CAGR. Hotels, agri-business, paperboards and packaging diversify revenue. 87% dividend payout ratio." },
+      { "name": "L&T (Larsen & Toubro)", "ticker": "LT", "weight": 3.42, "sector": "Engineering", "color": "#37474F", "description": "India's premier engineering and construction conglomerate. ₹5L Cr+ order book in infrastructure, defence, nuclear, hydrocarbon and data centres. L&T Technology Services and Mindtree extend into IT. Zero-debt infra projects with strong execution track record." },
+      { "name": "Axis Bank", "ticker": "AXISBANK", "weight": 2.98, "sector": "BFSI", "color": "#880E4F", "description": "India's third-largest private bank. Citibank retail acquisition transformed premium card and wealth management franchise. Burgundy Private for HNI/UHNI clients. Digital banking investments (Axis Mobile, WhatsApp Banking) driving CASA growth." },
+      { "name": "Kotak Mahindra Bank", "ticker": "KOTAKBANK", "weight": 2.74, "sector": "BFSI", "color": "#E91E63", "description": "Uday Kotak-founded bank known for conservative lending and superior asset quality. Among the highest CASA ratios (50%+) in Indian banking. Strong wealth management arm (Kotak Securities, Kotak Wealth). Post-RBI action on digital onboarding — recovery underway." }
+    ]
+  },
+  {
+    "id": "sensexbees",
+    "name": "Nippon India ETF Sensex BeES",
+    "ticker": "SENSEXBEES",
+    "nseSymbol": "SENSEXBEES",
+    "exchange": "NSE",
+    "category": "Large Cap",
+    "color": "#FF6F00",
+    "index": {
+      "name": "BSE Sensex",
+      "launched": "November 2021",
+      "methodology": "Free-Float Market Cap",
+      "rebalance": "Semi-Annual",
+      "companies": 30,
+      "description": "BSE Sensex is India's oldest equity benchmark — launched January 1, 1986 at base value 100, now surpassing 85,000 (850x return = 20%+ CAGR over 40 years including dividends). SENSEXBEES is the NSE-listed ETF tracking BSE's flagship 30-stock index — an ideal product for investors who want India's most iconic benchmark in ETF wrapper. Sensex is more concentrated than Nifty 50 (30 vs 50 stocks) meaning its top-10 holdings have larger per-stock weights. Historically, Sensex and Nifty 50 deliver near-identical returns (correlation >0.99) because 28 of Sensex's 30 constituents are also in Nifty 50. The key difference: Sensex excludes some mid-large caps like BPCL, Coal India, Grasim that feature in Nifty 50, keeping it purer large-cap. SENSEXBEES carries the same structural tailwinds as Nifty 50 ETFs — India's GDP growth (6.5-7% real), corporate earnings compounding, rupee appreciation vs EM peers, and global risk-on capital flows into emerging markets. Best used interchangeably with NIFTYBEES or SETFNIF50 depending on broker availability and spread."
+    },
+    "holdings": [
+      { "name": "Reliance Industries", "ticker": "RELIANCE", "weight": 11.2, "sector": "Energy & Telecom", "color": "#FF6F00", "description": "Sensex's largest constituent with slightly higher weight than Nifty 50 due to the more concentrated 30-stock index. Jio's 5G rollout and Jio Financial Services listing are incremental value drivers. New Energy green hydrogen projects are 5-year horizon catalysts." },
+      { "name": "HDFC Bank", "ticker": "HDFCBANK", "weight": 9.85, "sector": "BFSI", "color": "#1565C0", "description": "Largest private sector bank in India. Post-HDFC merger integration progressing — loan book, CASA mobilisation and branch expansion on track. Credit cost normalization expected to boost ROA above 2% by FY26. Consistent dividend payer." },
+      { "name": "ICICI Bank", "ticker": "ICICIBANK", "weight": 8.12, "sector": "BFSI", "color": "#F57C00", "description": "Premium private bank executing 'One Bank' strategy across retail, SME, corporate and international. 360° customer view via tech APIs drives cross-sell. Consistent NIMs above 4.3%. ROE trajectory heading toward 20%." },
+      { "name": "Infosys", "ticker": "INFY", "weight": 6.93, "sector": "IT Services", "color": "#00BCD4", "description": "Global IT delivery powerhouse with 340,000+ employees. Revenue guidance 4.5-5% growth in FY25. Cobalt platform for cloud and Topaz for AI signal strong next-gen positioning. European and Australian clients driving growth even in US budget-cautious environment." },
+      { "name": "TCS", "ticker": "TCS", "weight": 6.54, "sector": "IT Services", "color": "#006064", "description": "India's IT flagship and top Sensex constituent by historical contribution to index returns. Dividend payout 90%+ of free cash flow making it India's largest corporate dividend payer. ₹1 lakh crore+ buybacks executed since 2017." },
+      { "name": "Bharti Airtel", "ticker": "BHARTIARTL", "weight": 4.76, "sector": "Telecom", "color": "#E53935", "description": "Leading the Indian telecom industry after Vodafone's slow withdrawal. 5G capex cycle nearing completion — FCF inflection point approaching. Africa (Airtel Africa, separately listed) provides high-growth EM diversification at no extra cost." },
+      { "name": "ITC Ltd", "ticker": "ITC", "weight": 4.28, "sector": "FMCG", "color": "#558B2F", "description": "Conglomerate demerging hotels business to unlock value. FMCG branded businesses growing at 15%+ revenues. ESGrating among India's highest corporates. Cash-generative cigarettes business funds FMCG scale-up — unique capital allocation model." },
+      { "name": "L&T", "ticker": "LT", "weight": 3.95, "sector": "Engineering", "color": "#37474F", "description": "Infrastructure order book at ₹5 lakh crore — record high. Defence manufacturing (submarines, artillery, missiles) provides long-duration revenue. L&T Semiconductor venture into chip design and packaging aligns with India's fab ambitions." },
+      { "name": "Kotak Mahindra Bank", "ticker": "KOTAKBANK", "weight": 3.18, "sector": "BFSI", "color": "#E91E63", "description": "Premium private bank with India's best wealth management franchise. Kotak Securities (discount broking), Kotak Life Insurance, and Kotak AMC make it India's most complete financial services group under one roof. Conservative provisioning provides earnings buffer during credit cycles." },
+      { "name": "Bajaj Finance", "ticker": "BAJFINANCE", "weight": 2.87, "sector": "NBFC", "color": "#0288D1", "description": "India's premier consumer lending NBFC — 90M+ customers across 4,000+ towns. 35+ consumer products from EMI cards to home loans. Cross-sell rate (products per customer) rising consistently. Digital-first expansion with Bajaj Finserv app crossing 50M downloads." }
+    ]
   }
 ]

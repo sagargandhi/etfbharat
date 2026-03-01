@@ -6,7 +6,7 @@
 
 <!-- ── Primary SEO ──────────────────────────────────────────────────────── -->
 <title>ETFBharat — India ETF Directory | NSE & BSE ETF Guide</title>
-<meta name="description" content="India's most comprehensive ETF directory. Explore 40+ NSE and BSE ETFs — index tracked, all holdings with % weights, live prices, AUM, expense ratios and company profiles. Free educational platform."/>
+<meta name="description" content="India's most comprehensive ETF directory. Explore 46+ NSE and BSE ETFs — index tracked, all holdings with % weights, live prices, AUM, expense ratios and company profiles. Free educational platform."/>
 <meta name="keywords" content="India ETF, NSE ETF, BSE ETF, ETF directory, Nifty ETF, gold ETF, sectoral ETF, ETF holdings, ETF expense ratio, ETF AUM, NIFTYBEES, GOLDBEES, LIQUIDBEES, ETF India, index fund India, ETF investment India"/>
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="author" content="ETFBharat"/>
@@ -17,7 +17,7 @@
 <meta property="og:url" content="https://etfbharat.com/"/>
 <meta property="og:site_name" content="ETFBharat"/>
 <meta property="og:title" content="ETFBharat — India ETF Directory | NSE & BSE ETF Guide"/>
-<meta property="og:description" content="Explore 40+ Indian ETFs with full holdings, % weights, live prices, AUM and expense ratios. India's comprehensive ETF education platform."/>
+<meta property="og:description" content="Explore 46+ Indian ETFs with full holdings, % weights, live prices, AUM and expense ratios. India's comprehensive ETF education platform."/>
 <meta property="og:image" content="https://etfbharat.com/og-image.png"/>
 <meta property="og:image:width" content="1200"/>
 <meta property="og:image:height" content="630"/>
@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@etfbharat"/>
 <meta name="twitter:title" content="ETFBharat — India ETF Directory"/>
-<meta name="twitter:description" content="Explore 40+ Indian ETFs with full holdings, live prices, AUM and expense ratios. Free educational platform."/>
+<meta name="twitter:description" content="Explore 46+ Indian ETFs with full holdings, live prices, AUM and expense ratios. Free educational platform."/>
 <meta name="twitter:image" content="https://etfbharat.com/og-image.png"/>
 
 <!-- ── JSON-LD Structured Data ──────────────────────────────────────────── -->
@@ -65,7 +65,7 @@
       "name": "ETFBharat — India ETF Directory | NSE & BSE ETF Guide",
       "isPartOf": { "@id": "https://etfbharat.com/#website" },
       "about": { "@id": "https://etfbharat.com/#organization" },
-      "description": "Browse and compare 40+ Indian ETFs listed on NSE and BSE. Full holdings breakdown, live prices, AUM, expense ratios and index methodology.",
+      "description": "Browse and compare 44+ Indian ETFs listed on NSE and BSE. Full holdings breakdown, live prices, AUM, expense ratios and index methodology.",
       "inLanguage": "en-IN",
       "breadcrumb": {
         "@type": "BreadcrumbList",
@@ -151,9 +151,9 @@
     <h1 class="hero-h1">Understand Every<br/><span class="hero-grad">Indian ETF</span></h1>
     <p class="hero-p">Deep-dive into every ETF on NSE &amp; BSE. Know the index it tracks, every holding with % weight, and a clear description of what each company does.</p>
     <div class="hero-stats">
-      <div><div class="stat-num">40+</div><div class="stat-lbl">ETFs COVERED</div></div>
-      <div><div class="stat-num">500+</div><div class="stat-lbl">HOLDINGS MAPPED</div></div>
-      <div><div class="stat-num">₹2.8L+ Cr</div><div class="stat-lbl">AUM COVERED</div></div>
+      <div><div class="stat-num">48+</div><div class="stat-lbl">ETFs COVERED</div></div>
+      <div><div class="stat-num">590+</div><div class="stat-lbl">HOLDINGS MAPPED</div></div>
+      <div><div class="stat-num">₹6.5L+ Cr</div><div class="stat-lbl">AUM COVERED</div></div>
       <div><div class="stat-num">NSE + BSE</div><div class="stat-lbl">BOTH EXCHANGES</div></div>
     </div>
   </div>
@@ -289,8 +289,8 @@ async function loadAllETFData() {
 }
 
 // ── TABS ──────────────────────────────────────────────────────────────────────
-const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','AUM > 1000 Cr'];
-const SUBFILTER_TABS=new Set(['Sectoral','Thematic','Commodity','Debt']);
+const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International','Rail','AUM > 1000 Cr'];
+const SUBFILTER_TABS=new Set(['Sectoral','Thematic','Commodity','Debt','International']);
 const tabsEl=document.getElementById('tabs');
 TABS.forEach(t=>{
   const b=document.createElement('button');
@@ -312,7 +312,7 @@ TABS.forEach(t=>{
 const SUBFILTER_ICONS={
   // Sectoral
   'Auto':'🚗','Banking':'🏦','Energy':'⚡','Financial Services':'💹','FMCG':'🛒',
-  'Healthcare':'♥️','IT':'💻','Metals':'⚙️','Pharma':'💊','PSU Banking':'🏥','Realty':'🏗️',
+  'Healthcare':'♥️','IT':'💻','Metals':'⚙️','Pharma':'💊','PSU Banking':'🏥','Realty':'🏗️','Rail':'🚂',
   // Thematic
   'Consumption':'🥂','Defence':'🛡️','Equal Weight':'⚖️','Infrastructure':'🏗️',
   'MNC':'🌐','Momentum':'🚀','PSU':'🏢',
@@ -320,10 +320,28 @@ const SUBFILTER_ICONS={
   'Gold':'🪩','Silver':'🪨',
   // Debt
   'G-Sec':'📜','Liquid':'💧','SDL':'📊','Target Maturity':'📅',
+  // International
+  'US Tech':'🇺🇸','China Tech':'🇨🇳','Hang Seng':'🇭🇰','Nasdaq':'📡',
+  // Thematic extra
+  'Value':'💎','ESG':'🌿','Bharat 22':'🇳','EV':'⚡',
+  // Top-level categories (shown on All tab)
+  'Large Cap':'🏙️','Mid Cap':'🏗️','Sectoral':'🏭','Thematic':'🎯','Commodity':'🍬','Debt':'📊','International':'🌍',
 };
 
 function renderSubFilters(){
   const bar=document.getElementById('subfilter-bar');
+  if(activeTab==='All'){
+    const TOP=['Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International'];
+    const chips=TOP.map(s=>{
+      const active=activeSubFilter===s;
+      const icon=SUBFILTER_ICONS[s]||'●';
+      return `<button class="sf-chip${active?' sf-chip--active':''}" onclick="setSubFilter('${s}')">${icon} ${s}</button>`;
+    }).join('');
+    const clearBtn=activeSubFilter?`<button class="sf-chip sf-chip--clear" onclick="setSubFilter(null)">✕ Clear</button>`:'';
+    bar.innerHTML=clearBtn+chips;
+    bar.style.display='flex';
+    return;
+  }
   if(!SUBFILTER_TABS.has(activeTab)){
     bar.innerHTML=''; bar.style.display='none'; return;
   }
@@ -371,7 +389,7 @@ function parseAUM(aumStr){
 function getFiltered(){
   const q=(document.getElementById('search').value||'').toLowerCase();
   return ETF_DATA.filter(e=>{
-    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
+    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='International'?e.category.includes('International'):activeTab==='Rail'?e.category.includes('Rail'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
     const mSub=!activeSubFilter||e.category.includes(activeSubFilter);
     const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q)||e.category.toLowerCase().includes(q);
     return mTab&&mSub&&mQ;

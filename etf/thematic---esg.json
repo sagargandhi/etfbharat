@@ -1,0 +1,101 @@
+[
+  {
+    "id": "kotakesg",
+    "name": "Kotak ESG Opportunities ETF",
+    "ticker": "KOTAKESG",
+    "nseSymbol": "KOTAKESG",
+    "exchange": "NSE",
+    "category": "Thematic - ESG",
+    "color": "#2E7D32",
+    "index": {
+      "name": "Nifty100 ESG Sector Leaders Index",
+      "launched": "December 2020",
+      "methodology": "ESG Score Weighted",
+      "rebalance": "Semi-Annual",
+      "companies": 75,
+      "description": "Nifty100 ESG Sector Leaders Index is India's premium ESG (Environmental, Social & Governance) benchmark — selecting the highest ESG-rated companies from Nifty 100, sector by sector, while excluding industries that are fundamentally incompatible with ESG criteria. Excluded sectors include tobacco (so ITC is absent), controversial weapons, thermal coal mining, adult entertainment, and gambling. Each remaining sector nominates its top ESG-scoring company or companies, ensuring sector diversification while maintaining ESG integrity. KOTAKESG tracks this index — it's India's first ETF purpose-built for ESG-conscious investors who want equity returns without funding businesses that harm environment, labor rights or governance standards. ESG investing in India gained regulatory tailwind when SEBI mandated ESG disclosures for top-1000 listed companies via Business Responsibility and Sustainability Reporting (BRSR) from FY23. As BRSR data matures, ESG scoring improves, making this product more defensible year over year. KOTAKESG typically overweights IT services, private banks, healthcare and consumer companies — sectors that score highly on ESG metrics due to lower environmental footprint, progressive labor practices and robust board governance. It underweights PSUs (often weak on governance scores) and commodity cyclicals (high environmental impact). Long-term, ESG portfolios have shown comparable or superior risk-adjusted returns to broad market indices while demonstrably lower drawdowns during ESG-risk events (corporate fraud, pollution scandals, labor strikes). An ideal satellite holding of 5-10% for investors wanting values-aligned growth exposure."
+    },
+    "holdings": [
+      {
+        "name": "HDFC Bank",
+        "ticker": "HDFCBANK",
+        "weight": 9.85,
+        "sector": "BFSI",
+        "color": "#1565C0",
+        "description": "Top ESG-ranked Indian bank. Board independence above 50%, zero material financial fraud history, robust KYC/AML framework, carbon-neutral banking operations target 2032. Excluded from ESG controversy lists every year. Strong whistleblower policy and independent audit committee."
+      },
+      {
+        "name": "Infosys",
+        "ticker": "INFY",
+        "weight": 8.43,
+        "sector": "IT Services",
+        "color": "#00BCD4",
+        "description": "Carbon-neutral since 2020 — one of India's first large-cap corporates to achieve net zero. 100% renewable electricity; 53 LEED-certified buildings campus-wide. Infosys ranked #1 Indian company in Dow Jones Sustainability Index. Extensive reskilling programs (Digital Reskilling Academy) for 300,000+ employees. ESG Grade: AAA (MSCI)."
+      },
+      {
+        "name": "TCS",
+        "ticker": "TCS",
+        "weight": 7.92,
+        "sector": "IT Services",
+        "color": "#006064",
+        "description": "Top ESG score in IT sector. Net-zero target 2030. 600,000+ employees with 36% women — best gender ratio among Nifty 50 peers. Zero litigation with tax authorities and suppliers. 99.9% employee satisfaction scores. Tata Group's founding ethos of ethical capitalism permeates TCS's governance — majority of Tata Trust profits fund education and healthcare."
+      },
+      {
+        "name": "ICICI Bank",
+        "ticker": "ICICIBANK",
+        "weight": 7.21,
+        "sector": "BFSI",
+        "color": "#F57C00",
+        "description": "Strong ESG progress post-2018 governance restructuring. BRSR-compliant disclosures from FY21 — two years ahead of regulatory deadline. Green bond issuance for renewable energy financing. Digital banking (iMobile Pay) reduces paper-based processes by 90%. Board gender diversity above Nifty 50 average."
+      },
+      {
+        "name": "Asian Paints",
+        "ticker": "ASIANPAINT",
+        "weight": 4.87,
+        "sector": "Chemicals",
+        "color": "#E91E63",
+        "description": "Consistently rated top-decile in manufacturing sector ESG. Water recycling at 60%+ across factories. Lower VOC (volatile organic compounds) paint formulas. 26 countries with local environmental compliance at each site. Supplier ESG audit program covers 100% of tier-1 vendors. Zero forced or child labour incidents in 80-year history."
+      },
+      {
+        "name": "Divi's Laboratories",
+        "ticker": "DIVISLAB",
+        "weight": 4.12,
+        "sector": "Pharmaceuticals",
+        "color": "#9C27B0",
+        "description": "India's cleanest large pharma by environmental metrics. Effluent treatment at 100% compliance with CPCB standards — achieved despite bulk API manufacturing (typically high-pollutant). ISO 14001 environment management systems at all plants. Zero regulatory observations from US FDA on environmental grounds. Revenue 90%+ from exports to stringent EU/US regulated markets confirms quality culture."
+      },
+      {
+        "name": "Wipro",
+        "ticker": "WIPRO",
+        "weight": 3.95,
+        "sector": "IT Services",
+        "color": "#1B5E20",
+        "description": "Net-zero target 2040. Premji Philanthropic Foundation (Azim Premji donated $21B+ to education charity — largest philanthropy by an Indian) makes Wipro ESG poster child for Social pillar. 50% women in global workforce. Carbon intensity reduction 37% in 5 years. CDP (Carbon Disclosure Project) A- score."
+      },
+      {
+        "name": "Titan Company",
+        "ticker": "TITAN",
+        "weight": 3.67,
+        "sector": "Consumer Discretionary",
+        "color": "#FF6F00",
+        "description": "Tata Group subsidiary with exceptional Social ESG scores. CaratLane's ethical gold sourcing policy traces metal to responsible mines. Engages 900+ artisans as direct suppliers improving rural livelihoods. Highest-ranked watch/jewellery company in India ESG assessments. Energy efficiency at manufacturing plants 25% better than industry benchmark."
+      },
+      {
+        "name": "Kotak Mahindra Bank",
+        "ticker": "KOTAKBANK",
+        "weight": 3.42,
+        "sector": "BFSI",
+        "color": "#E91E63",
+        "description": "Among best governance-rated Indian private banks. Board-level Risk Committee with external domain experts. Digital banking reduces physical infrastructure's environmental footprint. Kotak Mahindra Foundation runs financial literacy programs across 100,000 rural villages. Consistently top-3 in institutional investor governance surveys."
+      },
+      {
+        "name": "Dr. Reddy's Laboratories",
+        "ticker": "DRREDDY",
+        "weight": 3.18,
+        "sector": "Pharmaceuticals",
+        "color": "#C62828",
+        "description": "Affordable medicine access mission (Good Health Can't Wait) drives social pillar score. Operates in 26 countries including generic medicine supply to sub-Saharan Africa. ISO 45001 safety systems across plants with zero fatalities in 5 consecutive years. Board gender diversity at 33% exceeds industry average. MSCI ESG Rating: A."
+      }
+    ]
+  }
+]
