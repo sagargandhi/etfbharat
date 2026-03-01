@@ -1,0 +1,36 @@
+name: Update ETF Prices
+
+on:
+  schedule:
+    # Runs at 16:30 IST (11:00 UTC) on weekdays (Mon–Fri)
+    - cron: '0 11 * * 1-5'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run price update script
+        run: python src/update_etf_prices.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add etf-prices.json
+          git diff --cached --quiet || git commit -m "chore: update ETF prices [$(date +'%Y-%m-%d')]"
+          git push
