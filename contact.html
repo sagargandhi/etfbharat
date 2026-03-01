@@ -120,7 +120,7 @@
   <div class="lp-section">
     <div class="lp-h2">DIRECT EMAIL</div>
     <h2 class="lp-h3">Prefer Email?</h2>
-    <p class="lp-p">You can also reach us directly at <a href="mailto:hello@etfbharat.com" style="color:#00C853;">hello@etfbharat.com</a>. We typically respond within 2–3 business days.</p>
+    <p class="lp-p">You can also reach us directly at <a href="mailto:contactus@etfbharat.com" style="color:#00C853;">contactus@etfbharat.com</a>. We typically respond within 2–3 business days.</p>
     <p class="lp-p">Please note: ETFBharat is not a SEBI-registered advisor. We cannot provide personalised investment advice or portfolio recommendations. For financial advice, please consult a SEBI-registered investment advisor.</p>
   </div>
 
@@ -146,7 +146,7 @@ function handleSubmit(e) {
   const subject = document.getElementById('subject').value;
   const message = document.getElementById('message').value;
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`);
-  window.location.href = `mailto:hello@etfbharat.com?subject=ETFBharat%20Contact%3A%20${encodeURIComponent(subject)}&body=${body}`;
+  window.location.href = `mailto:contactus@etfbharat.com?subject=ETFBharat%20Contact%3A%20${encodeURIComponent(subject)}&body=${body}`;
   document.getElementById('successMsg').style.display = 'block';
   document.getElementById('contactForm').reset();
 }
