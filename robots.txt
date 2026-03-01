@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block dynamic/non-content paths
+Disallow: /etf/
+Disallow: /src/
+
+Sitemap: https://etfbharat.com/sitemap.xml
