@@ -221,7 +221,6 @@
       <a href="/?tab=Sectoral&amp;sub=Pharma" class="hub-card"><span class="hub-icon">💊</span><span class="hub-title">Pharma ETFs</span><span class="hub-sub">PHARMABEES &amp; healthcare</span></a>
       <a href="/?tab=Thematic&amp;sub=Defence" class="hub-card"><span class="hub-icon">🛡️</span><span class="hub-title">Defence ETFs</span><span class="hub-sub">KOTAKDEF, MODEFENCE</span></a>
       <a href="/?tab=Thematic&amp;sub=EV" class="hub-card"><span class="hub-icon">⚡</span><span class="hub-title">EV ETFs</span><span class="hub-sub">Electric vehicle &amp; auto ETFs</span></a>
-      <a href="/?tab=Rail" class="hub-card"><span class="hub-icon">🚂</span><span class="hub-title">Rail ETFs</span><span class="hub-sub">India Railways PSU ETFs</span></a>
       <a href="/?tab=Debt" class="hub-card"><span class="hub-icon">📊</span><span class="hub-title">Debt ETFs</span><span class="hub-sub">G-Sec, Liquid, SDL &amp; target maturity</span></a>
       <a href="/?tab=International" class="hub-card"><span class="hub-icon">🌍</span><span class="hub-title">International ETFs</span><span class="hub-sub">NASDAQ 100, Hang Seng, FANG</span></a>
       <a href="/?tab=Thematic&amp;sub=PSU" class="hub-card"><span class="hub-icon">🏢</span><span class="hub-title">PSU ETFs</span><span class="hub-sub">CPSEETF, Bharat 22</span></a>
@@ -374,7 +373,7 @@ async function loadAllETFData() {
 }
 
 // ── TABS ──────────────────────────────────────────────────────────────────────
-const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International','Rail','AUM > 1000 Cr'];
+const TABS=['All','NSE','BSE','Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International','AUM > 1000 Cr'];
 const SUBFILTER_TABS=new Set(['Sectoral','Thematic','Commodity','Debt','International']);
 const tabsEl=document.getElementById('tabs');
 TABS.forEach(t=>{
@@ -419,16 +418,7 @@ const SUBFILTER_ICONS={
 function renderSubFilters(){
   const bar=document.getElementById('subfilter-bar');
   if(activeTab==='All'){
-    const TOP=['Large Cap','Mid Cap','Sectoral','Thematic','Commodity','Debt','International'];
-    const chips=TOP.map(s=>{
-      const active=activeSubFilter===s;
-      const icon=SUBFILTER_ICONS[s]||'●';
-      return `<button class="sf-chip${active?' sf-chip--active':''}" onclick="setSubFilter('${s}')">${icon} ${s}</button>`;
-    }).join('');
-    const clearBtn=activeSubFilter?`<button class="sf-chip sf-chip--clear" onclick="setSubFilter(null)">✕ Clear</button>`:'';
-    bar.innerHTML=clearBtn+chips;
-    bar.style.display='flex';
-    return;
+    bar.innerHTML=''; bar.style.display='none'; return;
   }
   if(!SUBFILTER_TABS.has(activeTab)){
     bar.innerHTML=''; bar.style.display='none'; return;
@@ -480,7 +470,7 @@ function parseAUM(aumStr){
 function getFiltered(){
   const q=(document.getElementById('search').value||'').toLowerCase();
   return ETF_DATA.filter(e=>{
-    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='International'?e.category.includes('International'):activeTab==='Rail'?e.category.includes('Rail'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
+    const mTab=activeTab==='All'?true:activeTab==='NSE'?e.exchange.includes('NSE'):activeTab==='BSE'?e.exchange.includes('BSE'):activeTab==='Large Cap'?e.category.includes('Large Cap'):activeTab==='Mid Cap'?e.category.includes('Mid Cap'):activeTab==='Sectoral'?e.category.includes('Sectoral'):activeTab==='Thematic'?e.category.includes('Thematic'):activeTab==='Commodity'?e.category.includes('Commodity'):activeTab==='Debt'?e.category.includes('Debt'):activeTab==='International'?e.category.includes('International'):activeTab==='AUM > 1000 Cr'?parseAUM(e.aum)>1000:true;
     const mSub=!activeSubFilter||e.category.includes(activeSubFilter);
     const mQ=!q||e.name.toLowerCase().includes(q)||e.ticker.toLowerCase().includes(q)||e.index.name.toLowerCase().includes(q)||e.category.toLowerCase().includes(q);
     return mTab&&mSub&&mQ;
