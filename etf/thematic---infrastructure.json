@@ -1,101 +1,369 @@
 [
-  {
-    "id": "niftyinfra",
-    "name": "ICICI Prudential Nifty Infrastructure ETF",
-    "ticker": "INFRAETF",
-    "nseSymbol": "INFRAIETF",
-    "exchange": "NSE",
-    "category": "Thematic - Infrastructure",
-    "color": "#FF5722",
-    "index": {
-      "name": "Nifty Infrastructure Index",
-      "launched": "January 2005",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 25,
-      "description": "Nifty Infrastructure tracks 25 companies spanning roads, ports, airports, power, telecom, construction, and building materials — sectors receiving ₹111 Lakh Cr investment through National Infrastructure Pipeline and ₹11 Lakh Cr Government capex (FY26). Infrastructure spending is key driver of 7-8% GDP growth. Margin profiles vary: toll roads (BOT model) 20%+ EBITDA margins and 15%+ IRRs; port operations 50%+ margins; power transmission (regulated utilities) 25-30% EBITDA; EPC contractors 8-12% EBITDA margins. Capital intensity: ₹100 Cr capex generates ₹20-30 Cr annual EBITDA. Government focus: NHAI (₹10K Cr annual spending, 10,000 km/year built privately then transferred), Sagarmala port expansion (100+ projects), airports (triple-digit capacity additions), and power transmission (ultra-high-voltage DC corridors for renewable evacuation). Leverage opportunity: infrastructure assets finance through 70-80% debt enabling 15-20% equity returns. Currency benefit: rupee-denominated toll revenues maintain value; forex-denominated contracts appreciated when rupee weakens. Cyclical headwind: if GDP growth slows to 3%, traffic volumes decline 5-7%, creating margin compression. Interest rate risk: capex financing costs rise during RBI tightening cycles, suppressing ROE."
-    },
-    "holdings": [
-      {
-        "name": "Larsen & Toubro",
-        "ticker": "LT",
-        "weight": 16.78,
-        "sector": "EPC & Construction",
+    {
+        "id": "niftyinfra",
+        "name": "ICICI Prudential Nifty Infrastructure ETF",
+        "ticker": "INFRAETF",
+        "nseSymbol": "INFRAIETF",
+        "exchange": "NSE",
+        "category": "Thematic - Infrastructure",
         "color": "#FF5722",
-        "description": "India's largest EPC conglomerate. ₹4 lakh crore order book covering metros, highways, airports, nuclear power plants, warships and data centers. Exports defence equipment (K9 Vajra). LTIMindtree and L&T Technology Services add high-margin IT services."
-      },
-      {
-        "name": "Adani Ports & SEZ",
-        "ticker": "ADANIPORTS",
-        "weight": 9.34,
-        "sector": "Ports & Logistics",
-        "color": "#1565C0",
-        "description": "India's largest private port operator. 13 ports handling 25%+ of India's cargo. Mundra (Gujarat) is India's largest container port. Logistics park network expanding via APSEZ. Benefiting from India's EXIM trade boom targeting $2T exports by 2030."
-      },
-      {
-        "name": "Bharti Airtel",
-        "ticker": "BHARTIARTL",
-        "weight": 8.9,
-        "sector": "Telecom Infrastructure",
-        "color": "#E91E63",
-        "description": "India's largest telecom infrastructure provider. 380M+ subscribers. 5G rolled out in 5,000+ cities. Airtel Business: enterprise connectivity and cloud for 3,000+ corporates. Africa operations (Airtel Africa) across 14 countries add diversification."
-      },
-      {
-        "name": "UltraTech Cement",
-        "ticker": "ULTRACEMCO",
-        "weight": 7.56,
-        "sector": "Building Materials",
-        "color": "#607D8B",
-        "description": "India's largest and world's 3rd largest cement company with 130 MT capacity. Aditya Birla Group flagship. 23+ integrated plants pan-India. Acquiring Kesoram and Heidelberg India to consolidate leadership. Pricing power in key Western and Southern markets."
-      },
-      {
-        "name": "NTPC",
-        "ticker": "NTPC",
-        "weight": 6.89,
-        "sector": "Power Generation",
-        "color": "#4CAF50",
-        "description": "India's largest power generator (73 GW operational). Building India's largest single solar project (7.5 GW at Rajasthan). Targeting 130 GW total capacity by 2032 with 50% from renewables. NTPC Green Energy subsidiary for renewable assets."
-      },
-      {
-        "name": "Power Grid Corporation",
-        "ticker": "POWERGRID",
-        "weight": 6.45,
-        "sector": "Transmission",
-        "color": "#009688",
-        "description": "Backbone of India's electricity grid. 70% of inter-state transmission. Building ultra-high-voltage DC corridors for renewable energy integration from Rajasthan and Gujarat solar/wind zones to demand centers. Regulated monopoly."
-      },
-      {
-        "name": "Adani Enterprises",
-        "ticker": "ADANIENT",
-        "weight": 5.67,
-        "sector": "Diversified Infrastructure",
-        "color": "#795548",
-        "description": "Adani Group's incubation engine. 7 Indian airports (60M+ passengers/year), national highway roads, copper manufacturing (Mundra), data centers and solar panel factory (world's largest integrated solar module plant)."
-      },
-      {
-        "name": "Ambuja Cements",
-        "ticker": "AMBUJACEM",
-        "weight": 4.89,
-        "sector": "Building Materials",
-        "color": "#9E9E9E",
-        "description": "India's 2nd largest cement group (post Adani acquisition of Holcim India). 78 MT capacity. Strong Western and Northern market presence. Synergy benefits from limestone mines, railways and port infrastructure of Adani Group."
-      },
-      {
-        "name": "Hindustan Construction Company",
-        "ticker": "HCC",
-        "weight": 2.34,
-        "sector": "Construction",
-        "color": "#B71C1C",
-        "description": "Pioneer in tunnelling, bridges, hydroelectric dams and nuclear power civil construction. Tehri Dam, Mumbai Metro, Zojila Tunnel. Largest hydro-power EPC contractor in India. Debt restructured, order book recovering strongly."
-      },
-      {
-        "name": "IRB Infrastructure",
-        "ticker": "IRB",
-        "weight": 2.12,
-        "sector": "Roads & Highways",
-        "color": "#F57F17",
-        "description": "India's largest private roads developer with 20,000+ km of highway portfolio under HAM and BOT models. NHAI's premium partner for NH development. IRB InvIT generates stable toll fee income. 10+ GW operational road assets."
-      }
-    ]
-  }
+        "index": {
+            "name": "Nifty Infrastructure Index",
+            "launched": "January 2005",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 25,
+            "description": "Nifty Infrastructure tracks 25 companies spanning roads, ports, airports, power, telecom, construction, and building materials — sectors receiving ₹111 Lakh Cr investment through National Infrastructure Pipeline and ₹11 Lakh Cr Government capex (FY26). Infrastructure spending is key driver of 7-8% GDP growth. Margin profiles vary: toll roads (BOT model) 20%+ EBITDA margins and 15%+ IRRs; port operations 50%+ margins; power transmission (regulated utilities) 25-30% EBITDA; EPC contractors 8-12% EBITDA margins. Capital intensity: ₹100 Cr capex generates ₹20-30 Cr annual EBITDA. Government focus: NHAI (₹10K Cr annual spending, 10,000 km/year built privately then transferred), Sagarmala port expansion (100+ projects), airports (triple-digit capacity additions), and power transmission (ultra-high-voltage DC corridors for renewable evacuation). Leverage opportunity: infrastructure assets finance through 70-80% debt enabling 15-20% equity returns. Currency benefit: rupee-denominated toll revenues maintain value; forex-denominated contracts appreciated when rupee weakens. Cyclical headwind: if GDP growth slows to 3%, traffic volumes decline 5-7%, creating margin compression. Interest rate risk: capex financing costs rise during RBI tightening cycles, suppressing ROE."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 16.78,
+                "sector": "EPC & Construction",
+                "color": "#FF5722",
+                "description": "India's largest EPC conglomerate. ₹4 lakh crore order book covering metros, highways, airports, nuclear power plants, warships and data centers. Exports defence equipment (K9 Vajra). LTIMindtree and L&T Technology Services add high-margin IT services."
+            },
+            {
+                "name": "Adani Ports & SEZ",
+                "ticker": "ADANIPORTS",
+                "weight": 9.34,
+                "sector": "Ports & Logistics",
+                "color": "#1565C0",
+                "description": "India's largest private port operator. 13 ports handling 25%+ of India's cargo. Mundra (Gujarat) is India's largest container port. Logistics park network expanding via APSEZ. Benefiting from India's EXIM trade boom targeting $2T exports by 2030."
+            },
+            {
+                "name": "Bharti Airtel",
+                "ticker": "BHARTIARTL",
+                "weight": 8.9,
+                "sector": "Telecom Infrastructure",
+                "color": "#E91E63",
+                "description": "India's largest telecom infrastructure provider. 380M+ subscribers. 5G rolled out in 5,000+ cities. Airtel Business: enterprise connectivity and cloud for 3,000+ corporates. Africa operations (Airtel Africa) across 14 countries add diversification."
+            },
+            {
+                "name": "UltraTech Cement",
+                "ticker": "ULTRACEMCO",
+                "weight": 7.56,
+                "sector": "Building Materials",
+                "color": "#607D8B",
+                "description": "India's largest and world's 3rd largest cement company with 130 MT capacity. Aditya Birla Group flagship. 23+ integrated plants pan-India. Acquiring Kesoram and Heidelberg India to consolidate leadership. Pricing power in key Western and Southern markets."
+            },
+            {
+                "name": "NTPC",
+                "ticker": "NTPC",
+                "weight": 6.89,
+                "sector": "Power Generation",
+                "color": "#4CAF50",
+                "description": "India's largest power generator (73 GW operational). Building India's largest single solar project (7.5 GW at Rajasthan). Targeting 130 GW total capacity by 2032 with 50% from renewables. NTPC Green Energy subsidiary for renewable assets."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 6.45,
+                "sector": "Transmission",
+                "color": "#009688",
+                "description": "Backbone of India's electricity grid. 70% of inter-state transmission. Building ultra-high-voltage DC corridors for renewable energy integration from Rajasthan and Gujarat solar/wind zones to demand centers. Regulated monopoly."
+            },
+            {
+                "name": "Adani Enterprises",
+                "ticker": "ADANIENT",
+                "weight": 5.67,
+                "sector": "Diversified Infrastructure",
+                "color": "#795548",
+                "description": "Adani Group's incubation engine. 7 Indian airports (60M+ passengers/year), national highway roads, copper manufacturing (Mundra), data centers and solar panel factory (world's largest integrated solar module plant)."
+            },
+            {
+                "name": "Ambuja Cements",
+                "ticker": "AMBUJACEM",
+                "weight": 4.89,
+                "sector": "Building Materials",
+                "color": "#9E9E9E",
+                "description": "India's 2nd largest cement group (post Adani acquisition of Holcim India). 78 MT capacity. Strong Western and Northern market presence. Synergy benefits from limestone mines, railways and port infrastructure of Adani Group."
+            },
+            {
+                "name": "Hindustan Construction Company",
+                "ticker": "HCC",
+                "weight": 2.34,
+                "sector": "Construction",
+                "color": "#B71C1C",
+                "description": "Pioneer in tunnelling, bridges, hydroelectric dams and nuclear power civil construction. Tehri Dam, Mumbai Metro, Zojila Tunnel. Largest hydro-power EPC contractor in India. Debt restructured, order book recovering strongly."
+            },
+            {
+                "name": "IRB Infrastructure",
+                "ticker": "IRB",
+                "weight": 2.12,
+                "sector": "Roads & Highways",
+                "color": "#F57F17",
+                "description": "India's largest private roads developer with 20,000+ km of highway portfolio under HAM and BOT models. NHAI's premium partner for NH development. IRB InvIT generates stable toll fee income. 10+ GW operational road assets."
+            }
+        ]
+    },
+    {
+        "id": "infrabees",
+        "name": "Nippon India ETF Nifty Infrastructure BeES",
+        "ticker": "INFRABEES",
+        "nseSymbol": "INFRABEES",
+        "exchange": "NSE",
+        "category": "Thematic - Infrastructure",
+        "color": "#E65100",
+        "index": {
+            "name": "Nifty Infrastructure Index",
+            "launched": "April 2010",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 25,
+            "description": "Nifty Infrastructure tracks 25 companies across roads, ports, power, telecom, construction and building materials. Nippon India's INFRABEES was one of India's first infrastructure ETFs, offering passive exposure to the National Infrastructure Pipeline beneficiaries. The index covers regulated utilities (Power Grid, NTPC), toll-road BOT operators, port concessionaires, EPC giants and cement majors — all key components of India's ₹111 lakh crore infrastructure investment plan."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 16.5,
+                "sector": "EPC & Construction",
+                "color": "#FF5722",
+                "description": "India's largest EPC conglomerate with a ₹4 lakh crore order book spanning metros, highways, airports, nuclear power plants and defence. Dominant across EPC, IT services (LTIMindtree) and financial services."
+            },
+            {
+                "name": "Adani Ports & SEZ",
+                "ticker": "ADANIPORTS",
+                "weight": 9.2,
+                "sector": "Ports & Logistics",
+                "color": "#1565C0",
+                "description": "India's largest private port operator running 13 ports handling over 25% of national cargo volume. Mundra is India's largest container port. Rapidly expanding inland logistics and container terminals."
+            },
+            {
+                "name": "Bharti Airtel",
+                "ticker": "BHARTIARTL",
+                "weight": 8.8,
+                "sector": "Telecom Infrastructure",
+                "color": "#E91E63",
+                "description": "India's telecom infrastructure backbone with 380M+ subscribers and 5G in 5,000+ cities. Passive tower assets (Infratel), enterprise connectivity, and growing Africa operations across 14 countries."
+            },
+            {
+                "name": "UltraTech Cement",
+                "ticker": "ULTRACEMCO",
+                "weight": 7.4,
+                "sector": "Building Materials",
+                "color": "#607D8B",
+                "description": "India's largest cement company with 130 MT capacity. Every infrastructure project from highways to airports to housing requires cement. UltraTech commands pricing power across Western and Southern markets."
+            },
+            {
+                "name": "NTPC",
+                "ticker": "NTPC",
+                "weight": 6.8,
+                "sector": "Power Generation",
+                "color": "#4CAF50",
+                "description": "India's largest power generator at 73 GW. Building 7.5 GW solar in Rajasthan and targeting 130 GW total by 2032. NTPC Green Energy subsidiary drives renewable energy transition."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 6.3,
+                "sector": "Transmission",
+                "color": "#009688",
+                "description": "Backbone of India's electricity grid controlling 70% of inter-state transmission. Building ultra-high-voltage DC corridors to carry renewable power from solar-rich states to demand centers. Regulated, predictable returns."
+            }
+        ]
+    },
+    {
+        "id": "manufgbees",
+        "name": "Nippon India Nifty India Manufacturing ETF",
+        "ticker": "MANUFGBEES",
+        "nseSymbol": "MANUFGBEES",
+        "exchange": "NSE",
+        "category": "Thematic - Infrastructure",
+        "color": "#E65100",
+        "index": {
+            "name": "Nifty India Manufacturing TRI",
+            "launched": "October 2022",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 250,
+            "description": "Nifty India Manufacturing TRI covers 250 companies from manufacturing-oriented sectors including autos, pharmaceuticals, metals, FMCG, chemicals and engineering. It represents India's Make in India ambition — tracking companies that actually produce goods, from cars and drugs to steel and consumer products. Broad diversification across the entire manufacturing value chain makes it a proxy for India's industrial economy."
+        },
+        "holdings": [
+            {
+                "name": "Reliance Industries",
+                "ticker": "RELIANCE",
+                "weight": 8.2,
+                "sector": "Oil & Gas / Petchem",
+                "color": "#1A237E",
+                "description": "India's largest company by revenue, with massive refining, petrochemical, textiles and retail manufacturing operations. Jamnagar refinery is world's largest. New energy manufacturing (solar cells, batteries, electrolyzers) being built at Dhirubhai Ambani Green Energy Giga Complex."
+            },
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 6.1,
+                "sector": "Engineering & Manufacturing",
+                "color": "#FF5722",
+                "description": "India's premier engineering and manufacturing giant. Builds defence equipment (K9 Vajra tanks, warships), heavy electrical equipment, industrial machinery, and large-scale infrastructure. Manufacturing arm complements its EPC strength."
+            },
+            {
+                "name": "Tata Motors",
+                "ticker": "TATAMOTORS",
+                "weight": 4.8,
+                "sector": "Automobiles",
+                "color": "#0D47A1",
+                "description": "India's largest commercial vehicle manufacturer and owner of Jaguar Land Rover. EV-first strategy with Tata Nexon EV leading domestic EV sales. JLR's Range Rover and Defender drives high-margin luxury revenue from global markets."
+            },
+            {
+                "name": "Maruti Suzuki",
+                "ticker": "MARUTI",
+                "weight": 4.3,
+                "sector": "Automobiles",
+                "color": "#E65100",
+                "description": "India's largest passenger vehicle maker with 40%+ market share. Suzuki's Indian arm manufactures 2M+ cars annually at Gurugram and Manesar. Expanding into hybrids and CNG ahead of EV transition, targeting rural and sub-₹10 lakh segments."
+            },
+            {
+                "name": "Sun Pharmaceuticals",
+                "ticker": "SUNPHARMA",
+                "weight": 3.6,
+                "sector": "Pharmaceuticals",
+                "color": "#880E4F",
+                "description": "India's largest pharma company and among the world's top 5 specialty pharma manufacturers. 40+ manufacturing facilities globally. Speciality dermatology, oncology and ophthalmic drugs drive high-margin international revenues."
+            },
+            {
+                "name": "Bajaj Auto",
+                "ticker": "BAJAJ-AUTO",
+                "weight": 3.1,
+                "sector": "Automobiles",
+                "color": "#BF360C",
+                "description": "World's largest 3-wheeler and among the largest 2-wheeler manufacturers. Pulsar and Platina dominate Indian 2-wheeler segments. Exports to Africa, ASEAN and Latin America account for 40%+ of volumes. CNG 3-wheelers growing rapidly."
+            }
+        ]
+    },
+    {
+        "id": "infra",
+        "name": "Mirae Asset Nifty India Infrastructure & Logistics ETF",
+        "ticker": "INFRA",
+        "nseSymbol": "INFRA",
+        "exchange": "NSE",
+        "category": "Thematic - Infrastructure",
+        "color": "#E65100",
+        "index": {
+            "name": "Nifty India Infrastructure & Logistics",
+            "launched": "January 2023",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 50,
+            "description": "Nifty India Infrastructure & Logistics broadens the traditional infra universe to explicitly include the logistics sector — railways, logistics parks, warehousing and supply-chain companies. With PM GatiShakti driving multimodal connectivity and Dedicated Freight Corridors (DFC) transforming rail logistics, this index captures both physical infrastructure builders and logistics operators that move goods across India."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 14.2,
+                "sector": "EPC & Construction",
+                "color": "#FF5722",
+                "description": "India's largest EPC and engineering conglomerate. Core infrastructure beneficiary across every sub-sector: highways, metros, airports, ports, water and power. Unmatched execution track record with 200,000+ employees."
+            },
+            {
+                "name": "NTPC",
+                "ticker": "NTPC",
+                "weight": 8.5,
+                "sector": "Power Generation",
+                "color": "#4CAF50",
+                "description": "India's largest power company powering 73 GW currently and targeting 130 GW by 2032. Flagship of India's energy infrastructure. Building India's largest solar park (7.5 GW, Rajasthan). NTPC Green Energy subsidiary listed separately."
+            },
+            {
+                "name": "Adani Ports & SEZ",
+                "ticker": "ADANIPORTS",
+                "weight": 7.8,
+                "sector": "Ports & Logistics",
+                "color": "#1565C0",
+                "description": "India's largest port operator and a key logistics beneficiary. Beyond ports, APSEZ operates logistics parks, inland container depots, and free-trade warehousing zones. A pure-play on India's trade-led growth story."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 7.1,
+                "sector": "Transmission",
+                "color": "#009688",
+                "description": "India's grid backbone transmitting 70%+ of inter-state electricity. Regulated utility with predictable ROE of 15-16%. Building new HVDC corridors for renewable energy evacuation from Rajasthan and Gujarat to load centers."
+            },
+            {
+                "name": "Container Corporation of India",
+                "ticker": "CONCOR",
+                "weight": 4.2,
+                "sector": "Rail Logistics",
+                "color": "#37474F",
+                "description": "India's dominant rail-logistics operator running 61 inland container depots across the country. Biggest beneficiary of Dedicated Freight Corridors (EDFC, WDFC) which cut transit times 40-50%. CONCOR moves 70%+ of India's containerized rail freight."
+            },
+            {
+                "name": "Adani Enterprises",
+                "ticker": "ADANIENT",
+                "weight": 5.3,
+                "sector": "Diversified Infrastructure",
+                "color": "#795548",
+                "description": "Adani Group's incubation engine managing airports (7 across India), national highway projects, solar manufacturing and data centers. Each new business eventually lists separately, making ADANIENT a venture vehicle for next-generation infrastructure."
+            }
+        ]
+    },
+    {
+        "id": "moinfra",
+        "name": "Motilal Oswal BSE India Infrastructure ETF",
+        "ticker": "MOINFRA",
+        "nseSymbol": "MOINFRA",
+        "exchange": "NSE",
+        "category": "Thematic - Infrastructure",
+        "color": "#E65100",
+        "index": {
+            "name": "BSE India Infrastructure Total Return Index",
+            "launched": "March 2023",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 30,
+            "description": "BSE India Infrastructure Total Return Index selects 30 listed infrastructure companies from the BSE universe covering energy, transport, utilities and construction. The BSE variant differs from its Nifty counterpart in constituent selection criteria and sector weights, giving moderate exposure to cement and construction over telecom. Total Return variant reinvests dividends, compounding long-term returns."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 18.4,
+                "sector": "EPC & Construction",
+                "color": "#FF5722",
+                "description": "Dominant EPC and engineering group — the single largest infrastructure company in India by order book, revenue and market cap. Executes projects across all infra verticals from nuclear plants to metro rail."
+            },
+            {
+                "name": "NTPC",
+                "ticker": "NTPC",
+                "weight": 10.2,
+                "sector": "Power Generation",
+                "color": "#4CAF50",
+                "description": "India's state-owned power giant generating nearly 25% of India's electricity. Expanding rapidly into renewables (solar, wind, hydro) through NTPC Green Energy. Preferred buyer of power for state discoms, ensuring revenue visibility."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 8.7,
+                "sector": "Transmission",
+                "color": "#009688",
+                "description": "India's electricity transmission monopoly. Regulated tariff model ensures stable 15-16% ROE. HVDC Green Energy Corridors being built to transmit solar and wind power from generation-rich states to consumption-heavy metros."
+            },
+            {
+                "name": "UltraTech Cement",
+                "ticker": "ULTRACEMCO",
+                "weight": 7.9,
+                "sector": "Building Materials",
+                "color": "#607D8B",
+                "description": "India's cement behemoth with 130 MT capacity — more than the next two competitors combined. Infrastructure boom translates directly to cement demand: each km of national highway requires 3,000+ tonnes; housing for all adds millions of units annually."
+            },
+            {
+                "name": "Adani Ports & SEZ",
+                "ticker": "ADANIPORTS",
+                "weight": 7.3,
+                "sector": "Ports & Logistics",
+                "color": "#1565C0",
+                "description": "India's largest commercial port operator with unmatched coastal infrastructure. Mundra, Hazira, Kattupalli, Dhamra and other ports serve as gateways for India's $1T+ merchandise trade. Sagarmala program works in tandem with APSEZ expansion."
+            },
+            {
+                "name": "Bharti Airtel",
+                "ticker": "BHARTIARTL",
+                "weight": 6.5,
+                "sector": "Telecom Infrastructure",
+                "color": "#E91E63",
+                "description": "Digital infrastructure backbone of India. 380M+ subscribers on 4G/5G. Tower infrastructure (shared via Indus Towers), fiber rollout across cities and enterprise connectivity form the digital infra layer of every new smart city and industrial corridor."
+            }
+        ]
+    }
 ]

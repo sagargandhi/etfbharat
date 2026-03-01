@@ -1,0 +1,1387 @@
+{
+  "NIFTYBEES": {
+    "aum": "₹57,585 Cr",
+    "expense": "0.04%",
+    "nav": "₹285.9"
+  },
+  "BANKBEES": {
+    "aum": "₹7,984 Cr",
+    "expense": "0.20%",
+    "nav": "₹623.84"
+  },
+  "GOLDBEES": {
+    "aum": "₹58,453 Cr",
+    "expense": "0.49%",
+    "nav": "₹131.65"
+  },
+  "HDFCGOLD": {
+    "aum": "₹23,158 Cr",
+    "expense": "0.59%",
+    "nav": "₹136"
+  },
+  "PHARMABEES": {
+    "aum": "₹1,059 Cr",
+    "expense": "0.38%",
+    "nav": "₹23.57"
+  },
+  "SILVERBEES": {
+    "aum": "₹35,414 Cr",
+    "expense": "0.50%",
+    "nav": "₹253"
+  },
+  "LIQUIDBEES": {
+    "aum": "₹11,674 Cr",
+    "expense": "0.05%",
+    "nav": "₹1,000"
+  },
+  "CPSEETF": {
+    "aum": "₹25,924 Cr",
+    "expense": "0.01%",
+    "nav": "₹103.48"
+  },
+  "AUTOBEES": {
+    "aum": "₹180.0 Cr",
+    "expense": "0.30%",
+    "nav": "₹29.04"
+  },
+  "PSUBNKBEES": {
+    "aum": "₹2,687 Cr",
+    "expense": "0.25%",
+    "nav": "₹983.99"
+  },
+  "MIDCAPETF": {
+    "aum": "₹634.6 Cr",
+    "expense": "0.25%",
+    "nav": "₹22.58"
+  },
+  "JUNIORBEES": {
+    "aum": "₹7,282 Cr",
+    "expense": "0.15%",
+    "nav": "₹750"
+  },
+  "MOMENTUM": {
+    "aum": "₹6.5 Cr",
+    "expense": "0.18%",
+    "nav": "₹33"
+  },
+  "GSEC10YEAR": {
+    "aum": "₹736.8 Cr",
+    "expense": "0.10%",
+    "nav": "₹260.2"
+  },
+  "GILT5YBEES": {
+    "aum": "₹25.7 Cr",
+    "expense": "0.10%",
+    "nav": "₹65.24"
+  },
+  "SDL26BEES": {
+    "aum": "₹4,946 Cr",
+    "expense": "0.15%",
+    "nav": "₹136.55"
+  },
+  "MODEFENCE": {
+    "aum": "₹1,283 Cr",
+    "expense": "0.41%",
+    "nav": "₹89.37"
+  },
+  "HEALTHIETF": {
+    "aum": "₹71 Cr",
+    "expense": "0.18%",
+    "nav": "₹19.45"
+  },
+  "ITIETF": {
+    "aum": "₹262 Cr",
+    "expense": "0.10%",
+    "nav": "₹32.75"
+  },
+  "TATSILV": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.68"
+  },
+  "LIQUIDIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs999.99"
+  },
+  "LIQUIDETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,000"
+  },
+  "HDFCSILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs253.5"
+  },
+  "SILVERIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs263.8"
+  },
+  "LIQUIDCASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs112.95"
+  },
+  "TATAGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.42"
+  },
+  "GOLDIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs136.34"
+  },
+  "LIQUIDADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,115.46"
+  },
+  "SILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs263.6"
+  },
+  "ITBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs33.8"
+  },
+  "SBISILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs259"
+  },
+  "LIQUID1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,093.32"
+  },
+  "SILVERCASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs26.79"
+  },
+  "LIQUIDPLUS": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,074.63"
+  },
+  "LIQUIDBETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,071.05"
+  },
+  "GOLD1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs132.74"
+  },
+  "SILVER1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.76"
+  },
+  "SILVERBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs254.8"
+  },
+  "AXISILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs263.5"
+  },
+  "NIFTYIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs284"
+  },
+  "GOLDCASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.07"
+  },
+  "LIQUID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,000"
+  },
+  "SILVERADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs255.2"
+  },
+  "HDFCSML250": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs160.53"
+  },
+  "LIQGRWBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,029.66"
+  },
+  "CASHIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,051.6"
+  },
+  "GOLDETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs154.4"
+  },
+  "MOGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs157.2"
+  },
+  "ESILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs264.25"
+  },
+  "NIFTY1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs278.35"
+  },
+  "GROWWSLVR": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.9"
+  },
+  "AXISGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs133.1"
+  },
+  "BANKIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs61.93"
+  },
+  "NIFTYETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs272.4"
+  },
+  "MID150BEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs226.48"
+  },
+  "SBILIQETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,028.69"
+  },
+  "METAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs12.32"
+  },
+  "SILVERAG": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs257"
+  },
+  "GOLDADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs153"
+  },
+  "HDFCNIFIT": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs32.44"
+  },
+  "MOVALUE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs127.15"
+  },
+  "GOLDBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs133.9"
+  },
+  "HDFCLIQUID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,050.17"
+  },
+  "OILIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs12.37"
+  },
+  "NEXT50IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs73.28"
+  },
+  "BSLGOLDETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs139.64"
+  },
+  "ALPHA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs48.6"
+  },
+  "GROWWGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.5"
+  },
+  "HDFCNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs282.91"
+  },
+  "LICMFGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs14,301.1"
+  },
+  "ALPL30IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs28.14"
+  },
+  "LIQUIDSBI": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs999.99"
+  },
+  "BSLNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.51"
+  },
+  "LOWVOLIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs22.52"
+  },
+  "MOCAPITAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs46.32"
+  },
+  "MULTICAP": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs16.08"
+  },
+  "MONIFTY500": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs23.68"
+  },
+  "LTGILTBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.36"
+  },
+  "MOM30IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs31.91"
+  },
+  "GOLDBND": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs159.7"
+  },
+  "IT": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs33.88"
+  },
+  "MOMENTUM50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs52.4"
+  },
+  "PSUBNKIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs100.05"
+  },
+  "SETFNN50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs747.6"
+  },
+  "GROWWLIQID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs108.04"
+  },
+  "NIFTYCASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.06"
+  },
+  "BANKBETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs61.24"
+  },
+  "SILVER360": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs257.49"
+  },
+  "TOP10ADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs94.19"
+  },
+  "MOSMALL250": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs16.02"
+  },
+  "SENSEXIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs927"
+  },
+  "MOSILVER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs260.5"
+  },
+  "GROWWDEFNC": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs80.8"
+  },
+  "TOP100CASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.85"
+  },
+  "BANKNIFTY1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs62.85"
+  },
+  "MID150CASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.04"
+  },
+  "FINIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs32.2"
+  },
+  "NEXT50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs715.94"
+  },
+  "INFRABEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs990.9"
+  },
+  "MASPTOP50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs70.45"
+  },
+  "VAL30IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs16.42"
+  },
+  "MOENERGY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs37.24"
+  },
+  "SENSEXETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs83.47"
+  },
+  "CONSUMBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs128.45"
+  },
+  "EBBETF0431": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,404.26"
+  },
+  "AXISNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs277.36"
+  },
+  "ITADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs32.5"
+  },
+  "LIQUIDSHRI": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,093.97"
+  },
+  "NIF100BEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs276"
+  },
+  "SETFNIFBK": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs618.83"
+  },
+  "MAKEINDIA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs159.58"
+  },
+  "ALPHAETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.43"
+  },
+  "BBNPPGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs153.75"
+  },
+  "GROWWPOWER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.6"
+  },
+  "SILVERBND": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs264.11"
+  },
+  "SBIBPB": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs57.18"
+  },
+  "HDFCMID150": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs22.22"
+  },
+  "GROWWMETAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.74"
+  },
+  "MIDSMALL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs47.13"
+  },
+  "PSUBANKADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs99.5"
+  },
+  "AONEGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs14.8"
+  },
+  "SML100CASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs9.6"
+  },
+  "TNIDETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs83.88"
+  },
+  "AONELIQUID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,048.88"
+  },
+  "COMMOIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs101.24"
+  },
+  "MONQ50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs98.93"
+  },
+  "HDFCNEXT50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs71.49"
+  },
+  "QGOLDHALF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs131.72"
+  },
+  "HDFCNIFBAN": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs62.22"
+  },
+  "MIDCAP": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs17.16"
+  },
+  "GOLD360": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs154.1"
+  },
+  "ELM250": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs16.64"
+  },
+  "BANKETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs614.33"
+  },
+  "SBIETFIT": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs337.78"
+  },
+  "NV20IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs14.85"
+  },
+  "CHEMICAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs28.4"
+  },
+  "SETF10GILT": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs261.25"
+  },
+  "AXISVALUE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs34.41"
+  },
+  "ECAPINSURE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs24.75"
+  },
+  "GROWWCAPM": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs9.81"
+  },
+  "SMALL250": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.9"
+  },
+  "SENSEXBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs905"
+  },
+  "LTGILTCASE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.93"
+  },
+  "NEXT50BETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs75.4"
+  },
+  "CHOICEGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs157.4"
+  },
+  "HEALTHY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.19"
+  },
+  "IVZINGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs13,801"
+  },
+  "AXISTECETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs335.7"
+  },
+  "GROWWRLTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs8.76"
+  },
+  "BBETF0432": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,321.4"
+  },
+  "NV20": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.14"
+  },
+  "MID150": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs22.28"
+  },
+  "ABSLPSE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.8"
+  },
+  "EQUAL50ADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs345.99"
+  },
+  "AONENIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.39"
+  },
+  "BSE500IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs39.35"
+  },
+  "LICNETFGSC": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs28.87"
+  },
+  "EVINDIA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs30.99"
+  },
+  "NIFTYADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs263.89"
+  },
+  "GROWWNET": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs8.89"
+  },
+  "GROWWNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.14"
+  },
+  "HDFCMOMENT": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs31.77"
+  },
+  "BANKBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs62.36"
+  },
+  "SHARIABEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs481"
+  },
+  "GROWWEV": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs31"
+  },
+  "ELIQUID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,020.48"
+  },
+  "EGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs158.3"
+  },
+  "MOTOUR": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs79.02"
+  },
+  "MOHEALTH": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs44.66"
+  },
+  "MOMOMENTUM": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs64.49"
+  },
+  "AONETOTAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.78"
+  },
+  "DIVOPPBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs82.75"
+  },
+  "HDFCPSUBK": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs99.7"
+  },
+  "MOGSEC": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs64.11"
+  },
+  "CONSUMIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs119.9"
+  },
+  "AXSENSEX": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs83.95"
+  },
+  "MANUFGBEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs161.75"
+  },
+  "BANKPSU": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs98.35"
+  },
+  "MOMIDMTM": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs64.16"
+  },
+  "INTERNET": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.82"
+  },
+  "QNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs276"
+  },
+  "LICNETFN50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs281.46"
+  },
+  "NIFTYBETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs257.94"
+  },
+  "NIF100IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs28.92"
+  },
+  "NIFTY100EW": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs34.15"
+  },
+  "MIDQ50ADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs240.18"
+  },
+  "SBIETFCON": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs119.89"
+  },
+  "TECH": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs33.5"
+  },
+  "MIDSELIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs17.75"
+  },
+  "CONSUMER": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.17"
+  },
+  "ABSLBANETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs61.86"
+  },
+  "ABSLLIQUID": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs1,000"
+  },
+  "FLEXIADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.04"
+  },
+  "MONIFTY100": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs26"
+  },
+  "GROWWNXT50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs69.91"
+  },
+  "HDFCGROWTH": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs120.2"
+  },
+  "QUAL30IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21.2"
+  },
+  "EMULTIMQ": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs40.8"
+  },
+  "SBIETFPB": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs291.75"
+  },
+  "EVIETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs30.97"
+  },
+  "AXISBPSETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs13.24"
+  },
+  "HDFCPVTBAN": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.5"
+  },
+  "UNIONGOLD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs155.85"
+  },
+  "GSEC5IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs64.67"
+  },
+  "TOP15IETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.66"
+  },
+  "GROWWMOM50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.61"
+  },
+  "NETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs273.39"
+  },
+  "GROWWSC250": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs9.27"
+  },
+  "NIFTYQLITY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21.45"
+  },
+  "BANKADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs61.7"
+  },
+  "MOM50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs262.23"
+  },
+  "HDFCBSE500": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs37.43"
+  },
+  "HEALTHADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs150.89"
+  },
+  "HDFCQUAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs57.99"
+  },
+  "LOWVOL1": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21.63"
+  },
+  "ABSLNN50ET": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs73.75"
+  },
+  "GROWWCHEM": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs27.8"
+  },
+  "ITBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs319.15"
+  },
+  "PVTBANKADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.01"
+  },
+  "GROWWN200": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.46"
+  },
+  "GROWWPSE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs102.2"
+  },
+  "SMALLADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs15.8"
+  },
+  "ESG": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs42.43"
+  },
+  "HDFCNIF100": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs27"
+  },
+  "TOP20": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs9.29"
+  },
+  "AONETMMQ50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs9.8"
+  },
+  "MOLOWVOL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs38.3"
+  },
+  "HDFCLOWVOL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21.09"
+  },
+  "IDFNIFTYET": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs276.98"
+  },
+  "SNXT30BEES": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs41.99"
+  },
+  "LICNMID100": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs59.53"
+  },
+  "MIDCAPBETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs221.2"
+  },
+  "EQUAL50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs333.61"
+  },
+  "IVZINNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs2,879.8"
+  },
+  "BBNPNBETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs60.54"
+  },
+  "HDFCVALUE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs136.27"
+  },
+  "AXISHCETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs150.49"
+  },
+  "BSLSENETFG": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs81.56"
+  },
+  "NEXT50ETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs70.1"
+  },
+  "QUALITY30": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21"
+  },
+  "SELECTIPO": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs42.23"
+  },
+  "AXISBNKETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs622.37"
+  },
+  "SNXT50BETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs91.93"
+  },
+  "SBIETFQLTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs220.96"
+  },
+  "LICNFNHGP": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs282.95"
+  },
+  "INFRA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs11.43"
+  },
+  "NEXT50ADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs69.78"
+  },
+  "NEXT30ADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs41.45"
+  },
+  "MOQUALITY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs193.37"
+  },
+  "MOINFRA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs61.28"
+  },
+  "MSCIINDIA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs30.64"
+  },
+  "MOMNC": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs31.55"
+  },
+  "MOALPHA50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs51.28"
+  },
+  "NPBET": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs296.14"
+  },
+  "AXISCETF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs118.75"
+  },
+  "MONEXT50": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs69.42"
+  },
+  "DIVIDEND": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs36.76"
+  },
+  "EBANKNIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs60.97"
+  },
+  "MOPSE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs105.8"
+  },
+  "GROWWLOVOL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs10.88"
+  },
+  "ENIFTY": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs25.28"
+  },
+  "MOSERVICE": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs33.74"
+  },
+  "SENSEXADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs83.39"
+  },
+  "EQUAL200": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs13.36"
+  },
+  "LICNETFSEN": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs909.21"
+  },
+  "MOMGF": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs156.5"
+  },
+  "GROWWMC150": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs218.53"
+  },
+  "ESENSEX": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs81.6"
+  },
+  "MOIPO": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs42.37"
+  },
+  "MON50EQUAL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs33.75"
+  },
+  "GILT10BETA": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs26.23"
+  },
+  "ABSLMSCIN": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.95"
+  },
+  "LOWVOL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs210.11"
+  },
+  "ABGSEC": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs112.07"
+  },
+  "MSCIADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs29.98"
+  },
+  "MIDCAPADD": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs21.9"
+  },
+  "GSEC10ABSL": {
+    "aum": "—",
+    "expense": "—",
+    "nav": "Rs111.02"
+  }
+}

@@ -1,93 +1,489 @@
 [
-  {
-    "id": "cpse",
-    "name": "Nippon India ETF CPSE",
-    "ticker": "CPSEETF",
-    "nseSymbol": "CPSEETF",
-    "exchange": "NSE & BSE",
-    "category": "Thematic - PSU",
-    "color": "#FF6F00",
-    "index": {
-      "name": "Nifty CPSE Index",
-      "launched": "December 2014",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 12,
-      "description": "Nifty CPSE (Central Public Sector Enterprise) Index tracks 12 largest government-owned companies, launched Dec 2014 as part of Government Disinvestment Program — pioneering use of ETF for stake sales (₹40K Cr raised through tranches). Current holdings: ONGC (20.3%), Coal India (18.9%), NTPC (16.4%), Power Grid (12.3%), BEL (10.2%), GAIL (8.4%), IOC (6.8%), BHEL (3.8%). Ultra-low expense ratio 0.01% makes it India's cheapest equity ETF. Three investment theses: (1) Dividend yield play: PSU index yields 5-6% annually via mandatory dividend payouts from government; (2) Valuation recovery: PSUs trade at 0.8-1.0x book (vs Nifty 50 valuations 2.5-3.0x book), suggesting 3-4x upside if P/BV normalizes; (3) Capex leverage: ₹9 Lakh Cr government capex (FY25-27) flows through PSU order books, driving earnings 15-20% CAGR. Government shareholding: 50-60% ensures dividend commitment (no free cash flow diversion). Reform tailwinds: privatization talk of BHEL/Air India creates optionality; Disinvestment Commissioner replacing PSU heads with professional management improving ROE. Risk: political interference in dividend policy (if government needs fiscal space, dividend cuts enacted), commodity price collapses (Coal India, ONGC sensitive to global prices), and interest rate hikes (PSU capex financing costs rise). Offered typically at 5-10% discount during ETF NFO tranches."
-    },
-    "holdings": [
-      {
-        "name": "ONGC",
-        "ticker": "ONGC",
-        "weight": 20.34,
-        "sector": "Oil & Gas",
-        "color": "#4CAF50",
-        "description": "Oil and Natural Gas Corporation — India's largest oil producer. Produces 70% of India's domestic crude oil and 62% of natural gas. Government holds 58% stake. Consistent dividend payer with high dividend yield. Owns HPCL (downstream) and ONGC Videsh for overseas exploration."
-      },
-      {
-        "name": "Coal India",
-        "ticker": "COALINDIA",
-        "weight": 18.9,
-        "sector": "Coal Mining",
-        "color": "#212121",
-        "description": "World's largest coal mining company. Produces 700+ million tonnes annually — monopoly in Indian coal sector. Government holds 63% stake. Dividend yield of 6-8%. Essential for India's thermal power generation and energy security."
-      },
-      {
-        "name": "NTPC",
-        "ticker": "NTPC",
-        "weight": 16.45,
-        "sector": "Power Generation",
-        "color": "#2196F3",
-        "description": "India's largest power generation utility with 73 GW operational capacity. Government holds 51% stake. Transitioning to renewables: 60 GW renewable target by 2032. Regulated returns, consistent dividends and government backing provide stability."
-      },
-      {
-        "name": "Power Grid Corp",
-        "ticker": "POWERGRID",
-        "weight": 12.34,
-        "sector": "Power Transmission",
-        "color": "#009688",
-        "description": "India's monopoly inter-state power transmission utility. Government holds 51%. Owns 70% of India's inter-state transmission network (175,000+ circuit km). Regulated 15.5% post-tax returns. Building green energy corridors."
-      },
-      {
-        "name": "Bharat Electronics",
-        "ticker": "BEL",
-        "weight": 10.23,
-        "sector": "Defence Electronics",
+    {
+        "id": "cpse",
+        "name": "Nippon India ETF CPSE",
+        "ticker": "CPSEETF",
+        "nseSymbol": "CPSEETF",
+        "exchange": "NSE & BSE",
+        "category": "Thematic - PSU",
         "color": "#FF6F00",
-        "description": "Defence electronics PSU making radar, sonar, communication and electronic warfare systems. Government holds 51.14%. ₹65,000+ Cr order backlog with 5+ year visibility. Growing export business to SE Asia and Middle East."
-      },
-      {
-        "name": "GAIL India",
-        "ticker": "GAIL",
-        "weight": 8.45,
-        "sector": "Gas Transmission",
-        "color": "#00897B",
-        "description": "India's largest natural gas marketing and transmission company. 12,000+ km cross-country pipeline network. Government holds 51%. Beneficiary of India's city gas distribution (CGD) expansion and natural gas economy push."
-      },
-      {
-        "name": "Indian Oil Corporation",
-        "ticker": "IOC",
-        "weight": 6.78,
-        "sector": "Oil Refining",
-        "color": "#F44336",
-        "description": "India's largest oil company by revenue. 11 refineries (80 MMTPA capacity), 33,000+ fuel stations, Indane LPG and SERVO lubricants brands. Government holds 52%. India's highest revenue company and Fortune 500 entrant."
-      },
-      {
-        "name": "BHEL",
-        "ticker": "BHEL",
-        "weight": 3.78,
-        "sector": "Heavy Electricals",
-        "color": "#7B1FA2",
-        "description": "Bharat Heavy Electricals — India's largest power equipment manufacturer. Makes turbines, generators, transformers and boilers. Government holds 63%. Reviving order book from thermal power and defence electronics diversification."
-      },
-      {
-        "name": "Container Corp of India",
-        "ticker": "CONCOR",
-        "weight": 2.73,
-        "sector": "Logistics",
-        "color": "#00BCD4",
-        "description": "India's largest container rail logistics company operating 89 rail terminals across India. Government holds 54% via Ministry of Railways. Beneficiary of dedicated freight corridors (DFC) improving container rail efficiency."
-      }
-    ]
-  }
+        "index": {
+            "name": "Nifty CPSE Index",
+            "launched": "December 2014",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 12,
+            "description": "Nifty CPSE (Central Public Sector Enterprise) Index tracks 12 largest government-owned companies, launched Dec 2014 as part of Government Disinvestment Program — pioneering use of ETF for stake sales (₹40K Cr raised through tranches). Current holdings: ONGC (20.3%), Coal India (18.9%), NTPC (16.4%), Power Grid (12.3%), BEL (10.2%), GAIL (8.4%), IOC (6.8%), BHEL (3.8%). Ultra-low expense ratio 0.01% makes it India's cheapest equity ETF. Three investment theses: (1) Dividend yield play: PSU index yields 5-6% annually via mandatory dividend payouts from government; (2) Valuation recovery: PSUs trade at 0.8-1.0x book (vs Nifty 50 valuations 2.5-3.0x book), suggesting 3-4x upside if P/BV normalizes; (3) Capex leverage: ₹9 Lakh Cr government capex (FY25-27) flows through PSU order books, driving earnings 15-20% CAGR. Government shareholding: 50-60% ensures dividend commitment (no free cash flow diversion). Reform tailwinds: privatization talk of BHEL/Air India creates optionality; Disinvestment Commissioner replacing PSU heads with professional management improving ROE. Risk: political interference in dividend policy (if government needs fiscal space, dividend cuts enacted), commodity price collapses (Coal India, ONGC sensitive to global prices), and interest rate hikes (PSU capex financing costs rise). Offered typically at 5-10% discount during ETF NFO tranches."
+        },
+        "holdings": [
+            {
+                "name": "ONGC",
+                "ticker": "ONGC",
+                "weight": 20.34,
+                "sector": "Oil & Gas",
+                "color": "#4CAF50",
+                "description": "Oil and Natural Gas Corporation — India's largest oil producer. Produces 70% of India's domestic crude oil and 62% of natural gas. Government holds 58% stake. Consistent dividend payer with high dividend yield. Owns HPCL (downstream) and ONGC Videsh for overseas exploration."
+            },
+            {
+                "name": "Coal India",
+                "ticker": "COALINDIA",
+                "weight": 18.9,
+                "sector": "Coal Mining",
+                "color": "#212121",
+                "description": "World's largest coal mining company. Produces 700+ million tonnes annually — monopoly in Indian coal sector. Government holds 63% stake. Dividend yield of 6-8%. Essential for India's thermal power generation and energy security."
+            },
+            {
+                "name": "NTPC",
+                "ticker": "NTPC",
+                "weight": 16.45,
+                "sector": "Power Generation",
+                "color": "#2196F3",
+                "description": "India's largest power generation utility with 73 GW operational capacity. Government holds 51% stake. Transitioning to renewables: 60 GW renewable target by 2032. Regulated returns, consistent dividends and government backing provide stability."
+            },
+            {
+                "name": "Power Grid Corp",
+                "ticker": "POWERGRID",
+                "weight": 12.34,
+                "sector": "Power Transmission",
+                "color": "#009688",
+                "description": "India's monopoly inter-state power transmission utility. Government holds 51%. Owns 70% of India's inter-state transmission network (175,000+ circuit km). Regulated 15.5% post-tax returns. Building green energy corridors."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 10.23,
+                "sector": "Defence Electronics",
+                "color": "#FF6F00",
+                "description": "Defence electronics PSU making radar, sonar, communication and electronic warfare systems. Government holds 51.14%. ₹65,000+ Cr order backlog with 5+ year visibility. Growing export business to SE Asia and Middle East."
+            },
+            {
+                "name": "GAIL India",
+                "ticker": "GAIL",
+                "weight": 8.45,
+                "sector": "Gas Transmission",
+                "color": "#00897B",
+                "description": "India's largest natural gas marketing and transmission company. 12,000+ km cross-country pipeline network. Government holds 51%. Beneficiary of India's city gas distribution (CGD) expansion and natural gas economy push."
+            },
+            {
+                "name": "Indian Oil Corporation",
+                "ticker": "IOC",
+                "weight": 6.78,
+                "sector": "Oil Refining",
+                "color": "#F44336",
+                "description": "India's largest oil company by revenue. 11 refineries (80 MMTPA capacity), 33,000+ fuel stations, Indane LPG and SERVO lubricants brands. Government holds 52%. India's highest revenue company and Fortune 500 entrant."
+            },
+            {
+                "name": "BHEL",
+                "ticker": "BHEL",
+                "weight": 3.78,
+                "sector": "Heavy Electricals",
+                "color": "#7B1FA2",
+                "description": "Bharat Heavy Electricals — India's largest power equipment manufacturer. Makes turbines, generators, transformers and boilers. Government holds 63%. Reviving order book from thermal power and defence electronics diversification."
+            },
+            {
+                "name": "Container Corp of India",
+                "ticker": "CONCOR",
+                "weight": 2.73,
+                "sector": "Logistics",
+                "color": "#00BCD4",
+                "description": "India's largest container rail logistics company operating 89 rail terminals across India. Government holds 54% via Ministry of Railways. Beneficiary of dedicated freight corridors (DFC) improving container rail efficiency."
+            }
+        ]
+    },
+    {
+        "id": "makeindia",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty India Manufacturing ETF",
+        "ticker": "MAKEINDIA",
+        "nseSymbol": "MAKEINDIA",
+        "exchange": "NSE",
+        "category": "Thematic - PSU",
+        "color": "#006064",
+        "index": {
+            "name": "Nifty India Manufacturing Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty India Manufacturing ETF tracks the Nifty India Manufacturing Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 15.45,
+                "sector": "Engineering & Construction",
+                "color": "#1565C0",
+                "description": "India's largest engineering conglomerate. Defence, nuclear, railways, semiconductor fab projects. Nifty India Manufacturing anchor."
+            },
+            {
+                "name": "HAL",
+                "ticker": "HAL",
+                "weight": 12.89,
+                "sector": "Defence Aerospace",
+                "color": "#4A148C",
+                "description": "India's sole military aircraft manufacturer. LCA Tejas and Dhruv helicopter production. Government holds 71%. Rs 1.3 lakh Cr order book."
+            },
+            {
+                "name": "Siemens India",
+                "ticker": "SIEMENS",
+                "weight": 9.34,
+                "sector": "Industrial Machinery",
+                "color": "#1E88E5",
+                "description": "Digital industries, smart infrastructure and mobility. Power T&D and railway systems. Germany-parent technology transfer."
+            },
+            {
+                "name": "ABB India",
+                "ticker": "ABB",
+                "weight": 8.78,
+                "sector": "Power & Automation",
+                "color": "#FF6F00",
+                "description": "Power grids, industrial automation and robotics. Electrification products — transformers, motors, drives for infrastructure build-out."
+            },
+            {
+                "name": "BEL",
+                "ticker": "BEL",
+                "weight": 7.56,
+                "sector": "Defence Electronics",
+                "color": "#9C27B0",
+                "description": "Radar, sonar, electronic warfare manufacturing PSU. Rs 65,000 Cr backlog. Exports to 25+ countries. Government holds 51%."
+            },
+            {
+                "name": "Bharat Forge",
+                "ticker": "BHARATFORG",
+                "weight": 6.89,
+                "sector": "Auto Components",
+                "color": "#880E4F",
+                "description": "Global forged components leader for trucks, passenger cars and defence vehicles. European and North American supply chain."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 5.78,
+                "sector": "Electronics Mfg",
+                "color": "#7B1FA2",
+                "description": "Aerospace, defence and medical EMS. ITAR-certified for US defence contracts. Highest growth EMS play in Indian manufacturing."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 5.23,
+                "sector": "Electronics Mfg",
+                "color": "#283593",
+                "description": "PLI electronics manufacturer — smartphones, LED TVs, washing machines. India's largest CE contract manufacturer."
+            },
+            {
+                "name": "Thermax",
+                "ticker": "THERMAX",
+                "weight": 4.67,
+                "sector": "Industrial Engineering",
+                "color": "#0D47A1",
+                "description": "Energy and environment solutions — boilers, heat exchangers, green hydrogen equipment. Industrial decarbonisation and export growth."
+            },
+            {
+                "name": "CG Power",
+                "ticker": "CGPOWER",
+                "weight": 3.89,
+                "sector": "Power Equipment",
+                "color": "#00897B",
+                "description": "Transformers, switchgear, motors and railway traction. Murugappa Group turnaround. Railway electrification driving order wins."
+            }
+        ]
+    },
+    {
+        "id": "abslpse",
+        "name": "Aditya Birla Sun Life Mutual Fund-Aditya Birla Sun Life Nifty PSE ETF",
+        "ticker": "ABSLPSE",
+        "nseSymbol": "ABSLPSE",
+        "exchange": "NSE",
+        "category": "Thematic - PSU",
+        "color": "#006064",
+        "index": {
+            "name": "Aditya Birla Sun Life Nifty PSE ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Aditya Birla Sun Life Mutual Fund-Aditya Birla Sun Life Nifty PSE ETF tracks the Aditya Birla Sun Life Nifty PSE ETF index."
+        },
+        "holdings": [
+            {
+                "name": "NTPC Ltd",
+                "ticker": "NTPC",
+                "weight": 18.45,
+                "sector": "Power Generation",
+                "color": "#2196F3",
+                "description": "India's largest power utility with 73 GW operational capacity. Government holds 51%. Transitioning to renewables with 60 GW RE target by 2032. Regulated tariff model."
+            },
+            {
+                "name": "Coal India",
+                "ticker": "COALINDIA",
+                "weight": 15.89,
+                "sector": "Coal Mining",
+                "color": "#212121",
+                "description": "World's largest coal miner producing 700+ MT annually. Government holds 63%. Dividend yield 6-8%. Essential for India's thermal power generation."
+            },
+            {
+                "name": "ONGC",
+                "ticker": "ONGC",
+                "weight": 13.34,
+                "sector": "Oil & Gas",
+                "color": "#4CAF50",
+                "description": "India's largest oil and gas explorer producing 70% of domestic crude. Government holds 58%. KG deepwater field adding production."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 10.78,
+                "sector": "Power Transmission",
+                "color": "#009688",
+                "description": "India's monopoly inter-state power transmission PSU owning 175,000+ circuit km. Government holds 51%. Regulated 15.5% post-tax ROE."
+            },
+            {
+                "name": "Indian Oil Corporation",
+                "ticker": "IOC",
+                "weight": 8.56,
+                "sector": "Oil Refining",
+                "color": "#F44336",
+                "description": "India's largest oil company by revenue with 80 MMTPA refining capacity. 33,000+ fuel stations. Government holds 52%."
+            },
+            {
+                "name": "BPCL",
+                "ticker": "BPCL",
+                "weight": 7.23,
+                "sector": "Oil Marketing",
+                "color": "#FF6F00",
+                "description": "Third-largest PSU oil company. Kochi, Mumbai and Bina refineries. Gas, LNG and EV charging diversification. Privatisation narrative creates re-rating events."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 6.45,
+                "sector": "Defence Electronics",
+                "color": "#9C27B0",
+                "description": "Defence electronics PSU with Rs 65,000+ Cr order backlog. Radar, sonar, electronic warfare systems. Government holds 51%."
+            },
+            {
+                "name": "GAIL India",
+                "ticker": "GAIL",
+                "weight": 5.67,
+                "sector": "Gas Transmission",
+                "color": "#00897B",
+                "description": "India's largest natural gas marketing and transmission company. 12,000+ km pipeline network. Government holds 51%."
+            },
+            {
+                "name": "SAIL",
+                "ticker": "SAIL",
+                "weight": 4.23,
+                "sector": "Steel",
+                "color": "#37474F",
+                "description": "India's largest integrated steel producer with 19+ MT capacity. Government holds 65%. Five integrated plants across Eastern India."
+            },
+            {
+                "name": "HAL",
+                "ticker": "HAL",
+                "weight": 3.45,
+                "sector": "Defence Aerospace",
+                "color": "#4A148C",
+                "description": "India's sole military aircraft manufacturer. LCA Tejas, Dhruv helicopter. Rs 1.3 lakh Cr order book. Government holds 71%."
+            }
+        ]
+    },
+    {
+        "id": "growwpse",
+        "name": "Groww Mutual Fund - Groww Nifty PSE ETF",
+        "ticker": "GROWWPSE",
+        "nseSymbol": "GROWWPSE",
+        "exchange": "NSE",
+        "category": "Thematic - PSU",
+        "color": "#006064",
+        "index": {
+            "name": "Nifty PSE Index - TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Nifty PSE ETF tracks the Nifty PSE Index - TRI index."
+        },
+        "holdings": [
+            {
+                "name": "NTPC Ltd",
+                "ticker": "NTPC",
+                "weight": 18.45,
+                "sector": "Power Generation",
+                "color": "#2196F3",
+                "description": "India's largest power utility with 73 GW operational capacity. Government holds 51%. Transitioning to renewables with 60 GW RE target by 2032. Regulated tariff model."
+            },
+            {
+                "name": "Coal India",
+                "ticker": "COALINDIA",
+                "weight": 15.89,
+                "sector": "Coal Mining",
+                "color": "#212121",
+                "description": "World's largest coal miner producing 700+ MT annually. Government holds 63%. Dividend yield 6-8%. Essential for India's thermal power generation."
+            },
+            {
+                "name": "ONGC",
+                "ticker": "ONGC",
+                "weight": 13.34,
+                "sector": "Oil & Gas",
+                "color": "#4CAF50",
+                "description": "India's largest oil and gas explorer producing 70% of domestic crude. Government holds 58%. KG deepwater field adding production."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 10.78,
+                "sector": "Power Transmission",
+                "color": "#009688",
+                "description": "India's monopoly inter-state power transmission PSU owning 175,000+ circuit km. Government holds 51%. Regulated 15.5% post-tax ROE."
+            },
+            {
+                "name": "Indian Oil Corporation",
+                "ticker": "IOC",
+                "weight": 8.56,
+                "sector": "Oil Refining",
+                "color": "#F44336",
+                "description": "India's largest oil company by revenue with 80 MMTPA refining capacity. 33,000+ fuel stations. Government holds 52%."
+            },
+            {
+                "name": "BPCL",
+                "ticker": "BPCL",
+                "weight": 7.23,
+                "sector": "Oil Marketing",
+                "color": "#FF6F00",
+                "description": "Third-largest PSU oil company. Kochi, Mumbai and Bina refineries. Gas, LNG and EV charging diversification. Privatisation narrative creates re-rating events."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 6.45,
+                "sector": "Defence Electronics",
+                "color": "#9C27B0",
+                "description": "Defence electronics PSU with Rs 65,000+ Cr order backlog. Radar, sonar, electronic warfare systems. Government holds 51%."
+            },
+            {
+                "name": "GAIL India",
+                "ticker": "GAIL",
+                "weight": 5.67,
+                "sector": "Gas Transmission",
+                "color": "#00897B",
+                "description": "India's largest natural gas marketing and transmission company. 12,000+ km pipeline network. Government holds 51%."
+            },
+            {
+                "name": "SAIL",
+                "ticker": "SAIL",
+                "weight": 4.23,
+                "sector": "Steel",
+                "color": "#37474F",
+                "description": "India's largest integrated steel producer with 19+ MT capacity. Government holds 65%. Five integrated plants across Eastern India."
+            },
+            {
+                "name": "HAL",
+                "ticker": "HAL",
+                "weight": 3.45,
+                "sector": "Defence Aerospace",
+                "color": "#4A148C",
+                "description": "India's sole military aircraft manufacturer. LCA Tejas, Dhruv helicopter. Rs 1.3 lakh Cr order book. Government holds 71%."
+            }
+        ]
+    },
+    {
+        "id": "mopse",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty PSE ETF",
+        "ticker": "MOPSE",
+        "nseSymbol": "MOPSE",
+        "exchange": "NSE",
+        "category": "Thematic - PSU",
+        "color": "#006064",
+        "index": {
+            "name": "Nifty PSE Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty PSE ETF tracks the Nifty PSE Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "NTPC Ltd",
+                "ticker": "NTPC",
+                "weight": 18.45,
+                "sector": "Power Generation",
+                "color": "#2196F3",
+                "description": "India's largest power utility with 73 GW operational capacity. Government holds 51%. Transitioning to renewables with 60 GW RE target by 2032. Regulated tariff model."
+            },
+            {
+                "name": "Coal India",
+                "ticker": "COALINDIA",
+                "weight": 15.89,
+                "sector": "Coal Mining",
+                "color": "#212121",
+                "description": "World's largest coal miner producing 700+ MT annually. Government holds 63%. Dividend yield 6-8%. Essential for India's thermal power generation."
+            },
+            {
+                "name": "ONGC",
+                "ticker": "ONGC",
+                "weight": 13.34,
+                "sector": "Oil & Gas",
+                "color": "#4CAF50",
+                "description": "India's largest oil and gas explorer producing 70% of domestic crude. Government holds 58%. KG deepwater field adding production."
+            },
+            {
+                "name": "Power Grid Corporation",
+                "ticker": "POWERGRID",
+                "weight": 10.78,
+                "sector": "Power Transmission",
+                "color": "#009688",
+                "description": "India's monopoly inter-state power transmission PSU owning 175,000+ circuit km. Government holds 51%. Regulated 15.5% post-tax ROE."
+            },
+            {
+                "name": "Indian Oil Corporation",
+                "ticker": "IOC",
+                "weight": 8.56,
+                "sector": "Oil Refining",
+                "color": "#F44336",
+                "description": "India's largest oil company by revenue with 80 MMTPA refining capacity. 33,000+ fuel stations. Government holds 52%."
+            },
+            {
+                "name": "BPCL",
+                "ticker": "BPCL",
+                "weight": 7.23,
+                "sector": "Oil Marketing",
+                "color": "#FF6F00",
+                "description": "Third-largest PSU oil company. Kochi, Mumbai and Bina refineries. Gas, LNG and EV charging diversification. Privatisation narrative creates re-rating events."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 6.45,
+                "sector": "Defence Electronics",
+                "color": "#9C27B0",
+                "description": "Defence electronics PSU with Rs 65,000+ Cr order backlog. Radar, sonar, electronic warfare systems. Government holds 51%."
+            },
+            {
+                "name": "GAIL India",
+                "ticker": "GAIL",
+                "weight": 5.67,
+                "sector": "Gas Transmission",
+                "color": "#00897B",
+                "description": "India's largest natural gas marketing and transmission company. 12,000+ km pipeline network. Government holds 51%."
+            },
+            {
+                "name": "SAIL",
+                "ticker": "SAIL",
+                "weight": 4.23,
+                "sector": "Steel",
+                "color": "#37474F",
+                "description": "India's largest integrated steel producer with 19+ MT capacity. Government holds 65%. Five integrated plants across Eastern India."
+            },
+            {
+                "name": "HAL",
+                "ticker": "HAL",
+                "weight": 3.45,
+                "sector": "Defence Aerospace",
+                "color": "#4A148C",
+                "description": "India's sole military aircraft manufacturer. LCA Tejas, Dhruv helicopter. Rs 1.3 lakh Cr order book. Government holds 71%."
+            }
+        ]
+    }
 ]

@@ -1,200 +1,1272 @@
 [
-  {
-    "id": "niftybank",
-    "name": "Nippon India ETF Bank BeES",
-    "ticker": "BANKBEES",
-    "nseSymbol": "BANKBEES",
-    "exchange": "NSE",
-    "category": "Sectoral - Banking",
-    "color": "#1565C0",
-    "index": {
-      "name": "Nifty Bank",
-      "launched": "September 2003",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Quarterly",
-      "companies": 12,
-      "description": "Nifty Bank tracks 12 largest, most liquid banking stocks on NSE. De facto barometer of RBI monetary policy transmission — bank NIM (Net Interest Margin) expands during high-rate environments, compresses during rate cuts. Most actively traded index globally (weekly options volume exceeds $100B notional). Private banks dominate: HDFC Bank (28.5%), ICICI Bank (22.3%), Kotak (12.6%) control ~63% weight. Banks leverage economic growth through credit creation — rural credit (MSME, agriculture, auto loans) provides 40% incremental NPL risk during downturns but generates explosive growth during recoveries. Credit-to-GDP ratio of 50% in India vs 70% in US suggests 4-5 years of runway for incremental lending. Asset quality improved dramatically post-2019 (NPA cleanup, ₹3.5 Lakh Cr Govt recapitalization, SARFAESI recovery machinery). Current tailwinds: PM Mudra (50M small businesses), PM Kisan (₹500K farming loans), PM Awas (affordable housing mortgages). Headwind: deposit growth lagging credit growth (creating negative liquidity), forcing banks to pay depositors higher interest rates squeezing NIMs."
-    },
-    "holdings": [
-      {
-        "name": "HDFC Bank",
-        "ticker": "HDFCBANK",
-        "weight": 28.45,
-        "sector": "Private Bank",
-        "color": "#2196F3",
-        "description": "Post-merger with HDFC Ltd, a financial colossus with ₹25 lakh crore in assets. India's largest private bank by market cap. Processes 1 in 5 retail credit card transactions in India. 8,700+ branches and 21,000+ ATMs."
-      },
-      {
-        "name": "ICICI Bank",
-        "ticker": "ICICIBANK",
-        "weight": 22.34,
-        "sector": "Private Bank",
+    {
+        "id": "niftybank",
+        "name": "Nippon India ETF Bank BeES",
+        "ticker": "BANKBEES",
+        "nseSymbol": "BANKBEES",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
         "color": "#1565C0",
-        "description": "Aggressive growth under CEO Sandeep Bakhshi. Industry-best ROE of 18%+ among large private banks. iMobile Pay has 10M+ users. Strong in all segments — retail mortgages, corporate, SME and international banking."
-      },
-      {
-        "name": "Kotak Mahindra Bank",
-        "ticker": "KOTAKBANK",
-        "weight": 12.56,
-        "sector": "Private Bank",
-        "color": "#FF3D00",
-        "description": "Premium banking franchise with exceptional asset quality — GNPA below 2%. Converted from NBFC in 2003. Burgundy Wealth management for HNIs and 811 zero-balance digital account are standout differentiated products."
-      },
-      {
-        "name": "State Bank of India",
-        "ticker": "SBIN",
-        "weight": 11.23,
-        "sector": "Public Bank",
-        "color": "#FF6F00",
-        "description": "India's largest bank with ₹55 lakh crore in assets, 22,000+ branches and 65,000+ ATMs. YONO app has 40M+ registered users. Dominant in MSME, agri and government-backed lending. Consistent dividend payer."
-      },
-      {
-        "name": "Axis Bank",
-        "ticker": "AXISBANK",
-        "weight": 8.9,
-        "sector": "Private Bank",
-        "color": "#9C27B0",
-        "description": "Third-largest private bank with 10,000+ touch points. Citibank India acquisition in 2023 strengthened wealth management (AUM doubled) and credit cards (now top 3 issuer). Digital-first under CEO Amitabh Chaudhry."
-      },
-      {
-        "name": "Bank of Baroda",
-        "ticker": "BANKBARODA",
-        "weight": 4.56,
-        "sector": "Public Bank",
-        "color": "#F44336",
-        "description": "Second-largest PSU bank post Vijaya Bank and Dena Bank merger in 2019. International presence in 100+ countries. Post-NPA cleanup showing sustainable ROE improvement and strong loan growth."
-      },
-      {
-        "name": "IndusInd Bank",
-        "ticker": "INDUSINDBK",
-        "weight": 4.12,
-        "sector": "Private Bank",
-        "color": "#00BCD4",
-        "description": "Mid-size private bank with stronghold in vehicle finance (CV and 2W loans accounting for 30% book) and microfinance. Nexxt credit card. Strong corporate banking franchise and growing retail deposit franchise."
-      },
-      {
-        "name": "Punjab National Bank",
-        "ticker": "PNB",
-        "weight": 3.45,
-        "sector": "Public Bank",
-        "color": "#8BC34A",
-        "description": "India's second-largest PSU bank by branches, founded in 1894 in Lahore. Post-NPA cleanup showing sustainable profitability improvement. Government ownership provides stability. Strong in MSME, agri and priority sector lending."
-      },
-      {
-        "name": "Federal Bank",
-        "ticker": "FEDERALBNK",
-        "weight": 2.34,
-        "sector": "Private Bank",
-        "color": "#FF9800",
-        "description": "Kerala-headquartered private bank with 1,400+ branches. Strong NRI deposit franchise (Kerala diaspora in Gulf). Fintech partnerships (Google Pay, Paytm) drive digital transactions. Consistent performer with improving ROA."
-      },
-      {
-        "name": "IDFC First Bank",
-        "ticker": "IDFCFIRSTB",
-        "weight": 2.05,
-        "sector": "Private Bank",
-        "color": "#00ACC1",
-        "description": "Transformed from an infrastructure NBFC to a full-service retail bank under MD V. Vaidyanathan. Rapid deposit mobilisation, strong microfinance and vehicle finance franchises. Merged with IDFC Ltd creating a clean balance sheet."
-      }
-    ]
-  },
-  {
-    "id": "niftyprivbank",
-    "name": "Kotak Nifty Private Bank ETF",
-    "ticker": "PVTBNKETF",
-    "nseSymbol": "PVTBANIETF",
-    "exchange": "NSE",
-    "category": "Sectoral - Banking",
-    "color": "#1976D2",
-    "index": {
-      "name": "Nifty Private Bank Index",
-      "launched": "April 2005",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 10,
-      "description": "Tracks only private sector banks within the Nifty Banking universe. Excludes PSU banks (SBI, PNB, BOB). Private banks historically deliver higher ROE, better asset quality, and superior earnings growth due to technology investment and retail banking penetration."
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "September 2003",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Quarterly",
+            "companies": 12,
+            "description": "Nifty Bank tracks 12 largest, most liquid banking stocks on NSE. De facto barometer of RBI monetary policy transmission — bank NIM (Net Interest Margin) expands during high-rate environments, compresses during rate cuts. Most actively traded index globally (weekly options volume exceeds $100B notional). Private banks dominate: HDFC Bank (28.5%), ICICI Bank (22.3%), Kotak (12.6%) control ~63% weight. Banks leverage economic growth through credit creation — rural credit (MSME, agriculture, auto loans) provides 40% incremental NPL risk during downturns but generates explosive growth during recoveries. Credit-to-GDP ratio of 50% in India vs 70% in US suggests 4-5 years of runway for incremental lending. Asset quality improved dramatically post-2019 (NPA cleanup, ₹3.5 Lakh Cr Govt recapitalization, SARFAESI recovery machinery). Current tailwinds: PM Mudra (50M small businesses), PM Kisan (₹500K farming loans), PM Awas (affordable housing mortgages). Headwind: deposit growth lagging credit growth (creating negative liquidity), forcing banks to pay depositors higher interest rates squeezing NIMs."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 28.45,
+                "sector": "Private Bank",
+                "color": "#2196F3",
+                "description": "Post-merger with HDFC Ltd, a financial colossus with ₹25 lakh crore in assets. India's largest private bank by market cap. Processes 1 in 5 retail credit card transactions in India. 8,700+ branches and 21,000+ ATMs."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 22.34,
+                "sector": "Private Bank",
+                "color": "#1565C0",
+                "description": "Aggressive growth under CEO Sandeep Bakhshi. Industry-best ROE of 18%+ among large private banks. iMobile Pay has 10M+ users. Strong in all segments — retail mortgages, corporate, SME and international banking."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.56,
+                "sector": "Private Bank",
+                "color": "#FF3D00",
+                "description": "Premium banking franchise with exceptional asset quality — GNPA below 2%. Converted from NBFC in 2003. Burgundy Wealth management for HNIs and 811 zero-balance digital account are standout differentiated products."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 11.23,
+                "sector": "Public Bank",
+                "color": "#FF6F00",
+                "description": "India's largest bank with ₹55 lakh crore in assets, 22,000+ branches and 65,000+ ATMs. YONO app has 40M+ registered users. Dominant in MSME, agri and government-backed lending. Consistent dividend payer."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 8.9,
+                "sector": "Private Bank",
+                "color": "#9C27B0",
+                "description": "Third-largest private bank with 10,000+ touch points. Citibank India acquisition in 2023 strengthened wealth management (AUM doubled) and credit cards (now top 3 issuer). Digital-first under CEO Amitabh Chaudhry."
+            },
+            {
+                "name": "Bank of Baroda",
+                "ticker": "BANKBARODA",
+                "weight": 4.56,
+                "sector": "Public Bank",
+                "color": "#F44336",
+                "description": "Second-largest PSU bank post Vijaya Bank and Dena Bank merger in 2019. International presence in 100+ countries. Post-NPA cleanup showing sustainable ROE improvement and strong loan growth."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 4.12,
+                "sector": "Private Bank",
+                "color": "#00BCD4",
+                "description": "Mid-size private bank with stronghold in vehicle finance (CV and 2W loans accounting for 30% book) and microfinance. Nexxt credit card. Strong corporate banking franchise and growing retail deposit franchise."
+            },
+            {
+                "name": "Punjab National Bank",
+                "ticker": "PNB",
+                "weight": 3.45,
+                "sector": "Public Bank",
+                "color": "#8BC34A",
+                "description": "India's second-largest PSU bank by branches, founded in 1894 in Lahore. Post-NPA cleanup showing sustainable profitability improvement. Government ownership provides stability. Strong in MSME, agri and priority sector lending."
+            },
+            {
+                "name": "Federal Bank",
+                "ticker": "FEDERALBNK",
+                "weight": 2.34,
+                "sector": "Private Bank",
+                "color": "#FF9800",
+                "description": "Kerala-headquartered private bank with 1,400+ branches. Strong NRI deposit franchise (Kerala diaspora in Gulf). Fintech partnerships (Google Pay, Paytm) drive digital transactions. Consistent performer with improving ROA."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 2.05,
+                "sector": "Private Bank",
+                "color": "#00ACC1",
+                "description": "Transformed from an infrastructure NBFC to a full-service retail bank under MD V. Vaidyanathan. Rapid deposit mobilisation, strong microfinance and vehicle finance franchises. Merged with IDFC Ltd creating a clean balance sheet."
+            }
+        ]
     },
-    "holdings": [
-      {
-        "name": "HDFC Bank",
-        "ticker": "HDFCBANK",
-        "weight": 31.45,
-        "sector": "Private Banking",
-        "color": "#1A237E",
-        "description": "India's largest private bank post HDFC merger. ₹25 trillion balance sheet. Stable asset quality with GNPA ~1.3%. Largest home loan book via HDFC Ltd integration. Digital: 90M+ customers on mobile banking."
-      },
-      {
-        "name": "ICICI Bank",
-        "ticker": "ICICIBANK",
-        "weight": 26.78,
-        "sector": "Private Banking",
-        "color": "#283593",
-        "description": "Second-largest private bank. Transformation under CEO Sandeep Bakhshi — NIMs expanded, opex controlled, ROE 17%+. Loan book well-diversified across retail, SME, and corporate. iMobile Pay has 9M+ users."
-      },
-      {
-        "name": "Kotak Mahindra Bank",
-        "ticker": "KOTAKBANK",
-        "weight": 12.34,
-        "sector": "Private Banking",
-        "color": "#303F9F",
-        "description": "Premium private bank with one of the industry's best asset quality records. GNPA consistently below 2%. Uday Kotak's franchise known for conservative underwriting. Kotak 811 digital bank has 4M+ accounts."
-      },
-      {
-        "name": "Axis Bank",
-        "ticker": "AXISBANK",
-        "weight": 11.23,
-        "sector": "Private Banking",
-        "color": "#3949AB",
-        "description": "Third-largest private bank. Citibank India retail portfolio acquisition added 3M premium credit card customers. Ultra FD and premium banking products. ROE improving trajectory with credit cost normalisation."
-      },
-      {
-        "name": "IndusInd Bank",
-        "ticker": "INDUSINDBK",
-        "weight": 7.45,
-        "sector": "Private Banking",
-        "color": "#3F51B5",
-        "description": "Wholesale and commercial banking with Bharat Financial Inclusion (microfinance) subsidiary. Vehicle financing market leader. Consumer finance growing rapidly. Mid-size bank with high NIM profile."
-      },
-      {
-        "name": "Federal Bank",
-        "ticker": "FEDERALBNK",
-        "weight": 4.56,
-        "sector": "Private Banking",
-        "color": "#5C6BC0",
-        "description": "Kerala-headquartered private bank with pan-India ambitions. NRI remittances from Gulf a key low-cost float source. Well-capitalized with strong retail and SME loan growth. Strong South India brand."
-      },
-      {
-        "name": "IDFC First Bank",
-        "ticker": "IDFCFIRSTB",
-        "weight": 3.23,
-        "sector": "Private Banking",
-        "color": "#7986CB",
-        "description": "Transformed from infrastructure NBFC to retail bank under V. Vaidyanathan. Zero-fee savings account and high-interest FD strategy. Retail loan growth, credit card and personal loan momentum strong."
-      },
-      {
-        "name": "Bandhan Bank",
-        "ticker": "BANDHANBNK",
-        "weight": 2.12,
-        "sector": "Micro Banking",
-        "color": "#9FA8DA",
-        "description": "Microfinance-turned-bank serving rural and semi-urban India. West Bengal and Northeast concentration risk. Highest NIM in banking (~7%). Diversifying into housing finance and SME banking."
-      },
-      {
-        "name": "RBL Bank",
-        "ticker": "RBLBANK",
-        "weight": 1.45,
-        "sector": "Private Banking",
-        "color": "#C5CAE9",
-        "description": "Specialty banking in credit cards (co-branded with Bajaj Finance) and microfinance. Niche SME banking franchise. Turnaround story under new management post CEO transition in 2022."
-      },
-      {
-        "name": "Yes Bank",
-        "ticker": "YESBANK",
-        "weight": 0.39,
-        "sector": "Private Banking",
-        "color": "#E8EAF6",
-        "description": "Reconstructed bank post 2020 RBI intervention. Now owned by SBI (26%) + consortium of banks. Clean balance sheet, improving operational metrics. Small weighting due to reduced free-float market cap."
-      }
-    ]
-  }
+    {
+        "id": "niftyprivbank",
+        "name": "Kotak Nifty Private Bank ETF",
+        "ticker": "PVTBNKETF",
+        "nseSymbol": "PVTBANIETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#1976D2",
+        "index": {
+            "name": "Nifty Private Bank Index",
+            "launched": "April 2005",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 10,
+            "description": "Tracks only private sector banks within the Nifty Banking universe. Excludes PSU banks (SBI, PNB, BOB). Private banks historically deliver higher ROE, better asset quality, and superior earnings growth due to technology investment and retail banking penetration."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 31.45,
+                "sector": "Private Banking",
+                "color": "#1A237E",
+                "description": "India's largest private bank post HDFC merger. ₹25 trillion balance sheet. Stable asset quality with GNPA ~1.3%. Largest home loan book via HDFC Ltd integration. Digital: 90M+ customers on mobile banking."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 26.78,
+                "sector": "Private Banking",
+                "color": "#283593",
+                "description": "Second-largest private bank. Transformation under CEO Sandeep Bakhshi — NIMs expanded, opex controlled, ROE 17%+. Loan book well-diversified across retail, SME, and corporate. iMobile Pay has 9M+ users."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.34,
+                "sector": "Private Banking",
+                "color": "#303F9F",
+                "description": "Premium private bank with one of the industry's best asset quality records. GNPA consistently below 2%. Uday Kotak's franchise known for conservative underwriting. Kotak 811 digital bank has 4M+ accounts."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.23,
+                "sector": "Private Banking",
+                "color": "#3949AB",
+                "description": "Third-largest private bank. Citibank India retail portfolio acquisition added 3M premium credit card customers. Ultra FD and premium banking products. ROE improving trajectory with credit cost normalisation."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 7.45,
+                "sector": "Private Banking",
+                "color": "#3F51B5",
+                "description": "Wholesale and commercial banking with Bharat Financial Inclusion (microfinance) subsidiary. Vehicle financing market leader. Consumer finance growing rapidly. Mid-size bank with high NIM profile."
+            },
+            {
+                "name": "Federal Bank",
+                "ticker": "FEDERALBNK",
+                "weight": 4.56,
+                "sector": "Private Banking",
+                "color": "#5C6BC0",
+                "description": "Kerala-headquartered private bank with pan-India ambitions. NRI remittances from Gulf a key low-cost float source. Well-capitalized with strong retail and SME loan growth. Strong South India brand."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 3.23,
+                "sector": "Private Banking",
+                "color": "#7986CB",
+                "description": "Transformed from infrastructure NBFC to retail bank under V. Vaidyanathan. Zero-fee savings account and high-interest FD strategy. Retail loan growth, credit card and personal loan momentum strong."
+            },
+            {
+                "name": "Bandhan Bank",
+                "ticker": "BANDHANBNK",
+                "weight": 2.12,
+                "sector": "Micro Banking",
+                "color": "#9FA8DA",
+                "description": "Microfinance-turned-bank serving rural and semi-urban India. West Bengal and Northeast concentration risk. Highest NIM in banking (~7%). Diversifying into housing finance and SME banking."
+            },
+            {
+                "name": "RBL Bank",
+                "ticker": "RBLBANK",
+                "weight": 1.45,
+                "sector": "Private Banking",
+                "color": "#C5CAE9",
+                "description": "Specialty banking in credit cards (co-branded with Bajaj Finance) and microfinance. Niche SME banking franchise. Turnaround story under new management post CEO transition in 2022."
+            },
+            {
+                "name": "Yes Bank",
+                "ticker": "YESBANK",
+                "weight": 0.39,
+                "sector": "Private Banking",
+                "color": "#E8EAF6",
+                "description": "Reconstructed bank post 2020 RBI intervention. Now owned by SBI (26%) + consortium of banks. Clean balance sheet, improving operational metrics. Small weighting due to reduced free-float market cap."
+            }
+        ]
+    },
+    {
+        "id": "bankietf",
+        "name": "ICICI Prudential Nifty Bank ETF - NIFTY BANK INDEX",
+        "ticker": "BANKIETF",
+        "nseSymbol": "BANKIETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Nifty Bank ETF - NIFTY BANK INDEX tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "bankbetf",
+        "name": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty Bank ETF",
+        "ticker": "BANKBETF",
+        "nseSymbol": "BANKBETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Bajaj Finserv Nifty Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Bajaj Finserv Mutual Fund - Bajaj Finserv Nifty Bank ETF tracks the Bajaj Finserv Nifty Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "banknifty1",
+        "name": "Kotak Nifty Bank ETF",
+        "ticker": "BANKNIFTY1",
+        "nseSymbol": "BANKNIFTY1",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Nifty Bank ETF tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "setfnifbk",
+        "name": "SBI-ETF Nifty Bank",
+        "ticker": "SETFNIFBK",
+        "nseSymbol": "SETFNIFBK",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "SBI-ETF Nifty Bank tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "hdfcnifban",
+        "name": "HDFC NIFTY Bank ETF",
+        "ticker": "HDFCNIFBAN",
+        "nseSymbol": "HDFCNIFBAN",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC NIFTY Bank ETF tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "banketf",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Bank ETF",
+        "ticker": "BANKETF",
+        "nseSymbol": "BANKETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Mirae Asset Nifty Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty Bank ETF tracks the Mirae Asset Nifty Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "bankbeta",
+        "name": "UTI Nifty Bank ETF",
+        "ticker": "BANKBETA",
+        "nseSymbol": "BANKBETA",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "UTI Nifty Bank ETF tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "abslbanetf",
+        "name": "Aditya Birla Sun Life Nifty Bank ETF",
+        "ticker": "ABSLBANETF",
+        "nseSymbol": "ABSLBANETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Aditya Birla Sun Life Nifty Bank ETF tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "sbietfpb",
+        "name": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank",
+        "ticker": "SBIETFPB",
+        "nseSymbol": "SBIETFPB",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Private Bank Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "SBI Mutual Fund - SBI ETF Private Bank - SBI ETF Private Bank tracks the Nifty Private Bank Index index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 36.2,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Dominant in private banking index — 36%+ weight. Post-HDFC merger universal bank with home loan + retail bank + SME powerhouse. Predictable NIMs (~4%) and industry-lowest NPA (<1.4% GNPA) justify premium valuation."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 30.1,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest private bank weight. Best risk-reward among large banks — ROE 18%, growth 18%, P/B expanding. iMobile app success and Kuda (Africa) partnerships drive next growth chapter beyond domestic retail."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 15.8,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "3rd largest private bank weight. Known as 'fortress balance sheet' — near-zero NPAs, massive capital cushion. Kotak 811 breakthrough in digital savings. Uday Kotak succession completed; Ashok Vaswani as MD rebuilding growth momentum."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.2,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "4th. Turnaround complete — net NPA <0.5%, ROE recovering to 15%. Citibank India (cards, wealth, mortgages) acquisition added 3M+ premium customers. Burgundy private banking platform for HNI/UHNI growing fast."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 4.3,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "5th. Commercial vehicle, gem & jewellery and consumer finance specialist. Strong in South India through BFIL microfinance network. Management focused on LDR (Loan-to-Deposit) normalisation and liability franchise strengthening."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 2.4,
+                "sector": "Private Banking",
+                "color": "#6A1B9A",
+                "description": "Youngest of the large private banks, transformed from an infrastructure NBFC. Retail liability (savings account) franchise building rapidly. V. Vaidyanathan's customer-first strategy driving low-cost CASA growth. EV financing a new vertical."
+            }
+        ]
+    },
+    {
+        "id": "hdfcpvtban",
+        "name": "HDFC Mutual Fund - HDFC NIFTY Private Bank ETF",
+        "ticker": "HDFCPVTBAN",
+        "nseSymbol": "HDFCPVTBAN",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "HDFC NIFTY Private Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC Mutual Fund - HDFC NIFTY Private Bank ETF tracks the HDFC NIFTY Private Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 36.2,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Dominant in private banking index — 36%+ weight. Post-HDFC merger universal bank with home loan + retail bank + SME powerhouse. Predictable NIMs (~4%) and industry-lowest NPA (<1.4% GNPA) justify premium valuation."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 30.1,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest private bank weight. Best risk-reward among large banks — ROE 18%, growth 18%, P/B expanding. iMobile app success and Kuda (Africa) partnerships drive next growth chapter beyond domestic retail."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 15.8,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "3rd largest private bank weight. Known as 'fortress balance sheet' — near-zero NPAs, massive capital cushion. Kotak 811 breakthrough in digital savings. Uday Kotak succession completed; Ashok Vaswani as MD rebuilding growth momentum."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.2,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "4th. Turnaround complete — net NPA <0.5%, ROE recovering to 15%. Citibank India (cards, wealth, mortgages) acquisition added 3M+ premium customers. Burgundy private banking platform for HNI/UHNI growing fast."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 4.3,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "5th. Commercial vehicle, gem & jewellery and consumer finance specialist. Strong in South India through BFIL microfinance network. Management focused on LDR (Loan-to-Deposit) normalisation and liability franchise strengthening."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 2.4,
+                "sector": "Private Banking",
+                "color": "#6A1B9A",
+                "description": "Youngest of the large private banks, transformed from an infrastructure NBFC. Retail liability (savings account) franchise building rapidly. V. Vaidyanathan's customer-first strategy driving low-cost CASA growth. EV financing a new vertical."
+            }
+        ]
+    },
+    {
+        "id": "bankadd",
+        "name": "DSP  Mutual Fund - DSP Nifty Bank ETF",
+        "ticker": "BANKADD",
+        "nseSymbol": "BANKADD",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "DSP Nifty Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP  Mutual Fund - DSP Nifty Bank ETF tracks the DSP Nifty Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "pvtbankadd",
+        "name": "DSP Mutual Fund - DSP Nifty Private Bank ETF",
+        "ticker": "PVTBANKADD",
+        "nseSymbol": "PVTBANKADD",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "DSP Nifty Private Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP Mutual Fund - DSP Nifty Private Bank ETF tracks the DSP Nifty Private Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 36.2,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Dominant in private banking index — 36%+ weight. Post-HDFC merger universal bank with home loan + retail bank + SME powerhouse. Predictable NIMs (~4%) and industry-lowest NPA (<1.4% GNPA) justify premium valuation."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 30.1,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest private bank weight. Best risk-reward among large banks — ROE 18%, growth 18%, P/B expanding. iMobile app success and Kuda (Africa) partnerships drive next growth chapter beyond domestic retail."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 15.8,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "3rd largest private bank weight. Known as 'fortress balance sheet' — near-zero NPAs, massive capital cushion. Kotak 811 breakthrough in digital savings. Uday Kotak succession completed; Ashok Vaswani as MD rebuilding growth momentum."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.2,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "4th. Turnaround complete — net NPA <0.5%, ROE recovering to 15%. Citibank India (cards, wealth, mortgages) acquisition added 3M+ premium customers. Burgundy private banking platform for HNI/UHNI growing fast."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 4.3,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "5th. Commercial vehicle, gem & jewellery and consumer finance specialist. Strong in South India through BFIL microfinance network. Management focused on LDR (Loan-to-Deposit) normalisation and liability franchise strengthening."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 2.4,
+                "sector": "Private Banking",
+                "color": "#6A1B9A",
+                "description": "Youngest of the large private banks, transformed from an infrastructure NBFC. Retail liability (savings account) franchise building rapidly. V. Vaidyanathan's customer-first strategy driving low-cost CASA growth. EV financing a new vertical."
+            }
+        ]
+    },
+    {
+        "id": "bbnpnbetf",
+        "name": "Baroda BNP Paribas Mutual Fund\r - Baroda BNP Paribas Nifty Bank ETF",
+        "ticker": "BBNPNBETF",
+        "nseSymbol": "BBNPNBETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Baroda BNP Paribas NIFTY Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Baroda BNP Paribas Mutual Fund\r - Baroda BNP Paribas Nifty Bank ETF tracks the Baroda BNP Paribas NIFTY Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "axisbnketf",
+        "name": "AXIS MUTUAL FUND - Axis NIFTY Bank ETF",
+        "ticker": "AXISBNKETF",
+        "nseSymbol": "AXISBNKETF",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Bank",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "AXIS MUTUAL FUND - Axis NIFTY Bank ETF tracks the Nifty Bank index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    },
+    {
+        "id": "npbet",
+        "name": "Tata Nifty Private Bank Exchange Traded Fund",
+        "ticker": "NPBET",
+        "nseSymbol": "NPBET",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Nifty Private Bank Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Tata Nifty Private Bank Exchange Traded Fund tracks the Nifty Private Bank Index index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 36.2,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Dominant in private banking index — 36%+ weight. Post-HDFC merger universal bank with home loan + retail bank + SME powerhouse. Predictable NIMs (~4%) and industry-lowest NPA (<1.4% GNPA) justify premium valuation."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 30.1,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest private bank weight. Best risk-reward among large banks — ROE 18%, growth 18%, P/B expanding. iMobile app success and Kuda (Africa) partnerships drive next growth chapter beyond domestic retail."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 15.8,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "3rd largest private bank weight. Known as 'fortress balance sheet' — near-zero NPAs, massive capital cushion. Kotak 811 breakthrough in digital savings. Uday Kotak succession completed; Ashok Vaswani as MD rebuilding growth momentum."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.2,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "4th. Turnaround complete — net NPA <0.5%, ROE recovering to 15%. Citibank India (cards, wealth, mortgages) acquisition added 3M+ premium customers. Burgundy private banking platform for HNI/UHNI growing fast."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 4.3,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "5th. Commercial vehicle, gem & jewellery and consumer finance specialist. Strong in South India through BFIL microfinance network. Management focused on LDR (Loan-to-Deposit) normalisation and liability franchise strengthening."
+            },
+            {
+                "name": "IDFC First Bank",
+                "ticker": "IDFCFIRSTB",
+                "weight": 2.4,
+                "sector": "Private Banking",
+                "color": "#6A1B9A",
+                "description": "Youngest of the large private banks, transformed from an infrastructure NBFC. Retail liability (savings account) franchise building rapidly. V. Vaidyanathan's customer-first strategy driving low-cost CASA growth. EV financing a new vertical."
+            }
+        ]
+    },
+    {
+        "id": "ebanknifty",
+        "name": "Edelweiss Mutual Fund - Edelweiss Nifty Bank ETF",
+        "ticker": "EBANKNIFTY",
+        "nseSymbol": "EBANKNIFTY",
+        "exchange": "NSE",
+        "category": "Sectoral - Banking",
+        "color": "#0D47A1",
+        "index": {
+            "name": "Edelweiss Nifty Bank ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Edelweiss Mutual Fund - Edelweiss Nifty Bank ETF tracks the Edelweiss Nifty Bank ETF index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 27.8,
+                "sector": "Private Banking",
+                "color": "#004C91",
+                "description": "Largest Nifty Bank constituent. Post-merger with HDFC Ltd, now India's largest home loan lender and most profitable private bank. NIM ~4%, GNPA <1.5%. 8,000+ branches, 25M+ customers. Retail, SME and wholesale banking in balance."
+            },
+            {
+                "name": "ICICI Bank",
+                "ticker": "ICICIBANK",
+                "weight": 23.2,
+                "sector": "Private Banking",
+                "color": "#B71C1C",
+                "description": "2nd largest. ROE 18%+, NIM 4.3%. Best-in-class digital app (iMobile, 40M+ users). High-quality retail portfolio; corporate and SME loan book growing at 20%+. International business (UK, US, Singapore) adds diversification."
+            },
+            {
+                "name": "Kotak Mahindra Bank",
+                "ticker": "KOTAKBANK",
+                "weight": 12.7,
+                "sector": "Private Banking",
+                "color": "#E65100",
+                "description": "Ultra-conservative private bank. Low NPA (<1% GNPA), high CET1 ratio (18%+), no large corporate stress. Kotak 811 digital bank has 50M+ accounts. Kotak Securities, AMC and Life Insurance subsidiaries add wealth management value."
+            },
+            {
+                "name": "Axis Bank",
+                "ticker": "AXISBANK",
+                "weight": 11.6,
+                "sector": "Private Banking",
+                "color": "#880E4F",
+                "description": "3rd largest private bank by assets. ROE recovering to 15-16% post-Citibank consumer business acquisition. Axis Pay UPI and Magnus card lead premium segment. Rural lending expanding via GPS mapping and fintech partnerships."
+            },
+            {
+                "name": "State Bank of India",
+                "ticker": "SBIN",
+                "weight": 7.3,
+                "sector": "Public Banking",
+                "color": "#1B5E20",
+                "description": "India's largest bank by assets with 22,000+ branches. YONO super app has 70M+ users. NPA cleanup complete; return ratios recovering. Key beneficiary of PSU credit upcycle. SBI Cards and SBI Life are highvalue subsidiaries."
+            },
+            {
+                "name": "IndusInd Bank",
+                "ticker": "INDUSINDBK",
+                "weight": 5.1,
+                "sector": "Private Banking",
+                "color": "#BF360C",
+                "description": "Focused on commercial vehicles (25% of book), diamond merchants and consumer finance. Microfinance arm Bharat Financial (BFIL) provides rural reach. Derivative income and non-credit revenue contribute 30%+ of total income."
+            }
+        ]
+    }
 ]

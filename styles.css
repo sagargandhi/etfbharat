@@ -219,3 +219,23 @@ footer{background:#070F1E;border-top:1px solid #1A2840;padding:32px 20px;text-al
 .sf-chip--active{background:linear-gradient(135deg,#2196F3,#1565C0);border-color:transparent;color:#fff;}
 .sf-chip--clear{background:#FF174415;border-color:#FF174430;color:#FF1744;order:-1;}
 .sf-chip--clear:hover{background:#FF174425;border-color:#FF1744;}
+
+/* ── Category hub cards ───────────────────────────────────────────────────── */
+.hub-card{display:flex;flex-direction:column;gap:4px;padding:16px;background:#0B1628;border:1px solid #1A2840;border-radius:12px;text-decoration:none;transition:all 0.2s;cursor:pointer;}
+.hub-card:hover{border-color:#2196F3;background:#2196F308;transform:translateY(-2px);box-shadow:0 4px 20px #2196F315;}
+.hub-icon{font-size:22px;line-height:1;}
+.hub-title{color:#E8F0FE;font-size:13px;font-weight:700;margin-top:2px;}
+.hub-sub{color:#7B93B8;font-size:11px;line-height:1.4;}
+
+/* ── Edu-card clickable FAQ trigger ──────────────────────────────────────── */
+.edu-clickable{cursor:pointer;}
+.edu-clickable:hover{border-top-color:#2196F3;transform:translateY(-3px);}
+.edu-learn{color:#2196F3;font-size:11px;font-weight:700;margin-top:10px;letter-spacing:0.3px;transition:text-decoration 0.15s;}
+.edu-clickable:hover .edu-learn{text-decoration:underline;}
+
+/* ── Guide hub cards ─────────────────────────────────────────────────────── */
+.guide-card{background:#0B1628;border:1px solid #1A2840;border-radius:12px;padding:20px 18px;text-decoration:none;display:block;transition:all 0.2s;}
+.guide-card:hover{border-color:#2196F3;transform:translateY(-2px);box-shadow:0 4px 20px #2196F315;}
+.guide-title{color:#E8F0FE;font-weight:700;font-size:14px;margin-bottom:7px;font-family:Georgia,serif;}
+.guide-sub{color:#7B93B8;font-size:12px;line-height:1.7;margin-bottom:12px;}
+.guide-arrow{color:#2196F3;font-size:12px;font-weight:800;letter-spacing:0.3px;}

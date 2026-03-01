@@ -1,115 +1,885 @@
 [
-  {
-    "id": "goldetf",
-    "name": "SBI ETF Gold",
-    "ticker": "SBIETSIGOLD",
-    "nseSymbol": "SETFGOLD",
-    "exchange": "NSE & BSE",
-    "category": "Commodity - Gold",
-    "color": "#FFB300",
-    "index": {
-      "name": "Domestic Gold Price",
-      "launched": "March 2007",
-      "methodology": "Physical Gold Backing",
-      "rebalance": "N/A",
-      "companies": 0,
-      "description": "SBI ETF Gold provides exchange-traded access to physical gold for buy-and-hold wealth preservation and portfolio diversification. Gold serves as a long-term inflation and currency hedge — during periods of rupee weakness, international gold prices translate to greater rupee appreciation (e.g., 5% rupee depreciation yields ~5% gold ETF gain). Optimal allocation: 5-10% of investment portfolio for institutional and retail investors. Physical gold backing at 99.5% purity eliminates counterparty risk — investors own actual ounces, not custodian promises. NAV fluctuates with London spot prices adjusted for INR/USD forex rates and India's 10.75% import duty (creating domestic 'Indian gold premium'). Tax-advantaged: held as commodity receiving 20-year indexation on long-term gains, no TDS on redemptions. Critical for rural wealth preservation where gold represents 40% of household assets; ideal retirement corpus diversification when market valuations peak."
-    },
-    "holdings": [
-      {
-        "name": "Physical Gold (99.5%)",
-        "ticker": "GOLD",
-        "weight": 98.5,
-        "sector": "Commodity",
+    {
+        "id": "goldetf",
+        "name": "SBI ETF Gold",
+        "ticker": "SBIETSIGOLD",
+        "nseSymbol": "SETFGOLD",
+        "exchange": "NSE & BSE",
+        "category": "Commodity - Gold",
         "color": "#FFB300",
-        "description": "Investment-grade 99.5% purity gold (London Precious Metals Association certified) stored in bank-operated secure vaults with advanced surveillance (CCTV + motion sensors), 24-hour armed security, and trespass alert systems. HSBC and SBI custodial arrangements provide AAA sovereign credit quality. Each ETF unit = ~1 gram of granulated gold (granules enable rapid buy/sell mechanisms). SEBI mandates independent annual purity audits by NSDL/CDSL. Full insurance coverage against theft, fire, weather events. Completely eliminates counterparty risk — holdings segregated and ring-fenced, protected separately even if custodian becomes insolvent (per Section 139 of Bharatiya Reserve Bank Act). Zero impurity risk that exists with physical jewellery ownership."
-      },
-      {
-        "name": "Cash & Liquid Instruments",
-        "ticker": "CASH",
-        "weight": 1.0,
-        "sector": "Liquid Assets",
-        "color": "#78909C",
-        "description": "Short-term T-bills and overnight instruments held for liquidity management and redemption purposes. Maintained at minimum levels to maximize gold price exposure for investors."
-      },
-      {
-        "name": "Sovereign Gold Bonds (SGB)",
-        "ticker": "SGB",
-        "weight": 0.5,
-        "sector": "Govt Securities",
-        "color": "#4CAF50",
-        "description": "Government of India bonds backed by gold, issued by RBI with 2.5% annual interest and sovereign guarantee. Permitted as a substitute for physical gold up to 10% of the scheme. Matures at prevailing gold price."
-      }
-    ]
-  },
-  {
-    "id": "goldetf2",
-    "name": "Nippon India ETF Gold BeES",
-    "ticker": "GOLDBEES",
-    "nseSymbol": "GOLDBEES",
-    "exchange": "NSE",
-    "category": "Commodity - Gold",
-    "color": "#FFA000",
-    "index": {
-      "name": "Domestic Gold Price",
-      "launched": "March 2007",
-      "methodology": "Physical Gold Backing",
-      "rebalance": "N/A",
-      "companies": 0,
-      "description": "GOLDBEES (Gold BeES) is India's most liquid, extensively traded gold ETF with tens of thousands of daily NSE transactions, providing bid-ask spreads near spot prices. Pioneered the 'BeES' (Beyond Exchange Traded Securities) template in 2007, opening commodity access to retail India. Each unit = ~1 gram of 99.5% physical gold stored in HSBC's mega vault in Mumbai. During currency depreciation cycles (e.g., when rupee falls 5%), GOLDBEES captures additional rupee-weakness premium layered on international gold price appreciation. Replaces physical gold purchase with superior economics: ~40% cheaper than jewellery (eliminates making charges, wastage, jeweller margins). Tax-efficient: 20-year indexation on long-term capital gains. Ideal substitute for traditional goldsmith loans or wedding investments. Serves as proxy short during Fed rate hike cycles when DXI (Dollar Index) strengthens and gold prices decline in rupee terms."
+        "index": {
+            "name": "Domestic Gold Price",
+            "launched": "March 2007",
+            "methodology": "Physical Gold Backing",
+            "rebalance": "N/A",
+            "companies": 0,
+            "description": "SBI ETF Gold provides exchange-traded access to physical gold for buy-and-hold wealth preservation and portfolio diversification. Gold serves as a long-term inflation and currency hedge — during periods of rupee weakness, international gold prices translate to greater rupee appreciation (e.g., 5% rupee depreciation yields ~5% gold ETF gain). Optimal allocation: 5-10% of investment portfolio for institutional and retail investors. Physical gold backing at 99.5% purity eliminates counterparty risk — investors own actual ounces, not custodian promises. NAV fluctuates with London spot prices adjusted for INR/USD forex rates and India's 10.75% import duty (creating domestic 'Indian gold premium'). Tax-advantaged: held as commodity receiving 20-year indexation on long-term gains, no TDS on redemptions. Critical for rural wealth preservation where gold represents 40% of household assets; ideal retirement corpus diversification when market valuations peak."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5%)",
+                "ticker": "GOLD",
+                "weight": 98.5,
+                "sector": "Commodity",
+                "color": "#FFB300",
+                "description": "Investment-grade 99.5% purity gold (London Precious Metals Association certified) stored in bank-operated secure vaults with advanced surveillance (CCTV + motion sensors), 24-hour armed security, and trespass alert systems. HSBC and SBI custodial arrangements provide AAA sovereign credit quality. Each ETF unit = ~1 gram of granulated gold (granules enable rapid buy/sell mechanisms). SEBI mandates independent annual purity audits by NSDL/CDSL. Full insurance coverage against theft, fire, weather events. Completely eliminates counterparty risk — holdings segregated and ring-fenced, protected separately even if custodian becomes insolvent (per Section 139 of Bharatiya Reserve Bank Act). Zero impurity risk that exists with physical jewellery ownership."
+            },
+            {
+                "name": "Cash & Liquid Instruments",
+                "ticker": "CASH",
+                "weight": 1.0,
+                "sector": "Liquid Assets",
+                "color": "#78909C",
+                "description": "Short-term T-bills and overnight instruments held for liquidity management and redemption purposes. Maintained at minimum levels to maximize gold price exposure for investors."
+            },
+            {
+                "name": "Sovereign Gold Bonds (SGB)",
+                "ticker": "SGB",
+                "weight": 0.5,
+                "sector": "Govt Securities",
+                "color": "#4CAF50",
+                "description": "Government of India bonds backed by gold, issued by RBI with 2.5% annual interest and sovereign guarantee. Permitted as a substitute for physical gold up to 10% of the scheme. Matures at prevailing gold price."
+            }
+        ]
     },
-    "holdings": [
-      {
-        "name": "Physical Gold (99.5%)",
-        "ticker": "GOLD",
-        "weight": 99.0,
-        "sector": "Commodity",
+    {
+        "id": "goldetf2",
+        "name": "Nippon India ETF Gold BeES",
+        "ticker": "GOLDBEES",
+        "nseSymbol": "GOLDBEES",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
         "color": "#FFA000",
-        "description": "Physical gold bullion of 99.5% purity stored in HSBC custody vaults in Mumbai. One of the most audited and transparent gold holdings in India. Regular NSDL/CDSL audit trail ensures unit holders confidence in the backing."
-      },
-      {
-        "name": "Cash & CBLO",
-        "ticker": "CASH",
-        "weight": 1.0,
-        "sector": "Liquid Assets",
-        "color": "#78909C",
-        "description": "Overnight money market instruments (Collateralized Borrowing & Lending Obligations and T-bills) to meet redemption obligations. Kept minimal to maximize gold exposure at all times."
-      }
-    ]
-  },
-  {
-    "id": "goldetf3",
-    "name": "HDFC Gold ETF",
-    "ticker": "HDFCGOLD",
-    "nseSymbol": "HDFCGOLD",
-    "exchange": "NSE & BSE",
-    "category": "Commodity - Gold",
-    "color": "#F57F17",
-    "index": {
-      "name": "Domestic Gold Price",
-      "launched": "August 2010",
-      "methodology": "Physical Gold Backing",
-      "rebalance": "N/A",
-      "companies": 0,
-      "description": "HDFC Gold ETF offers investors exposure to gold price without holding physical gold. Each unit is backed by high-purity gold stored with Deutsche Bank custodian. A convenient and cost-efficient way to include gold in a diversified investment portfolio, recommended as 5-10% of total portfolio allocation."
+        "index": {
+            "name": "Domestic Gold Price",
+            "launched": "March 2007",
+            "methodology": "Physical Gold Backing",
+            "rebalance": "N/A",
+            "companies": 0,
+            "description": "GOLDBEES (Gold BeES) is India's most liquid, extensively traded gold ETF with tens of thousands of daily NSE transactions, providing bid-ask spreads near spot prices. Pioneered the 'BeES' (Beyond Exchange Traded Securities) template in 2007, opening commodity access to retail India. Each unit = ~1 gram of 99.5% physical gold stored in HSBC's mega vault in Mumbai. During currency depreciation cycles (e.g., when rupee falls 5%), GOLDBEES captures additional rupee-weakness premium layered on international gold price appreciation. Replaces physical gold purchase with superior economics: ~40% cheaper than jewellery (eliminates making charges, wastage, jeweller margins). Tax-efficient: 20-year indexation on long-term capital gains. Ideal substitute for traditional goldsmith loans or wedding investments. Serves as proxy short during Fed rate hike cycles when DXI (Dollar Index) strengthens and gold prices decline in rupee terms."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5%)",
+                "ticker": "GOLD",
+                "weight": 99.0,
+                "sector": "Commodity",
+                "color": "#FFA000",
+                "description": "Physical gold bullion of 99.5% purity stored in HSBC custody vaults in Mumbai. One of the most audited and transparent gold holdings in India. Regular NSDL/CDSL audit trail ensures unit holders confidence in the backing."
+            },
+            {
+                "name": "Cash & CBLO",
+                "ticker": "CASH",
+                "weight": 1.0,
+                "sector": "Liquid Assets",
+                "color": "#78909C",
+                "description": "Overnight money market instruments (Collateralized Borrowing & Lending Obligations and T-bills) to meet redemption obligations. Kept minimal to maximize gold exposure at all times."
+            }
+        ]
     },
-    "holdings": [
-      {
-        "name": "Physical Gold (99.5%)",
-        "ticker": "GOLD",
-        "weight": 98.8,
-        "sector": "Commodity",
+    {
+        "id": "goldetf3",
+        "name": "HDFC Gold ETF",
+        "ticker": "HDFCGOLD",
+        "nseSymbol": "HDFCGOLD",
+        "exchange": "NSE & BSE",
+        "category": "Commodity - Gold",
         "color": "#F57F17",
-        "description": "Physical gold of 99.5% purity held with Deutsche Bank Mumbai custody. Fully insured. SEBI audit compliance ensures unit holder assets are safe and segregated from AMC assets at all times."
-      },
-      {
-        "name": "Cash & Money Market",
-        "ticker": "CASH",
-        "weight": 1.2,
-        "sector": "Liquid Assets",
-        "color": "#78909C",
-        "description": "Money market instruments including T-bills and CPs held for day-to-day operational liquidity and redemption management."
-      }
-    ]
-  }
+        "index": {
+            "name": "Domestic Gold Price",
+            "launched": "August 2010",
+            "methodology": "Physical Gold Backing",
+            "rebalance": "N/A",
+            "companies": 0,
+            "description": "HDFC Gold ETF offers investors exposure to gold price without holding physical gold. Each unit is backed by high-purity gold stored with Deutsche Bank custodian. A convenient and cost-efficient way to include gold in a diversified investment portfolio, recommended as 5-10% of total portfolio allocation."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5%)",
+                "ticker": "GOLD",
+                "weight": 98.8,
+                "sector": "Commodity",
+                "color": "#F57F17",
+                "description": "Physical gold of 99.5% purity held with Deutsche Bank Mumbai custody. Fully insured. SEBI audit compliance ensures unit holder assets are safe and segregated from AMC assets at all times."
+            },
+            {
+                "name": "Cash & Money Market",
+                "ticker": "CASH",
+                "weight": 1.2,
+                "sector": "Liquid Assets",
+                "color": "#78909C",
+                "description": "Money market instruments including T-bills and CPs held for day-to-day operational liquidity and redemption management."
+            }
+        ]
+    },
+    {
+        "id": "tatagold",
+        "name": "Tata Mutual Fund Tata Gold Exchange Traded Fund",
+        "ticker": "TATAGOLD",
+        "nseSymbol": "TATAGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Tata Gold Exchange Traded Fund",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Tata Mutual Fund Tata Gold Exchange Traded Fund tracks the Tata Gold Exchange Traded Fund index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldietf",
+        "name": "ICICI Prudential Gold ETF",
+        "ticker": "GOLDIETF",
+        "nseSymbol": "GOLDIETF",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Gold ETF tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "gold1",
+        "name": "Kotak Mutual Fund - Gold Exchange Traded Fund",
+        "ticker": "GOLD1",
+        "nseSymbol": "GOLD1",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Mutual Fund - Gold Exchange Traded Fund tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldcase",
+        "name": "Zerodha Fund House - Zerodha Gold ETF",
+        "ticker": "GOLDCASE",
+        "nseSymbol": "GOLDCASE",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Zerodha Gold ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Zerodha Fund House - Zerodha Gold ETF tracks the Zerodha Gold ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldetf",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Gold ETF",
+        "ticker": "GOLDETF",
+        "nseSymbol": "GOLDETF",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Mirae Asset Gold ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Gold ETF tracks the Mirae Asset Gold ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "mogold",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Gold ETF",
+        "ticker": "MOGOLD",
+        "nseSymbol": "MOGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Domestic Price of Physical Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Gold ETF tracks the Domestic Price of Physical Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "axisgold",
+        "name": "Axis Mutual Fund - Axis Gold ETF",
+        "ticker": "AXISGOLD",
+        "nseSymbol": "AXISGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Axis Mutual Fund - Axis Gold ETF tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldadd",
+        "name": "DSP Mutual Fund - DSP Gold ETF",
+        "ticker": "GOLDADD",
+        "nseSymbol": "GOLDADD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "DSP Gold ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP Mutual Fund - DSP Gold ETF tracks the DSP Gold ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldbeta",
+        "name": "UTI Mutual Fund - UTI Gold Exchange Traded Fund",
+        "ticker": "GOLDBETA",
+        "nseSymbol": "GOLDBETA",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "UTI Mutual Fund - UTI Gold Exchange Traded Fund tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "bslgoldetf",
+        "name": "Aditya Birla Sun Life Gold ETF - Growth",
+        "ticker": "BSLGOLDETF",
+        "nseSymbol": "BSLGOLDETF",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Aditya Birla Sun Life Gold ETF - Growth tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "growwgold",
+        "name": "Groww Mutual Fund - Groww Gold ETF",
+        "ticker": "GROWWGOLD",
+        "nseSymbol": "GROWWGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Commodity",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Gold ETF tracks the Commodity index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "licmfgold",
+        "name": "LIC MF Gold EXCHANGE TRADED FUND",
+        "ticker": "LICMFGOLD",
+        "nseSymbol": "LICMFGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "LIC MF Gold EXCHANGE TRADED FUND tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "goldbnd",
+        "name": "Bandhan Mutual Fund - Bandhan Gold ETF",
+        "ticker": "GOLDBND",
+        "nseSymbol": "GOLDBND",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Commodity - Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Bandhan Mutual Fund - Bandhan Gold ETF tracks the Commodity - Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "bbnppgold",
+        "name": "Baroda BNP Paribas Mutual Fund - Baroda BNP Paribas Gold ETF",
+        "ticker": "BBNPPGOLD",
+        "nseSymbol": "BBNPPGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Baroda BNP Paribas Gold ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Baroda BNP Paribas Mutual Fund - Baroda BNP Paribas Gold ETF tracks the Baroda BNP Paribas Gold ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "aonegold",
+        "name": "Angel One Mutual Fund - Angel One Gold ETF",
+        "ticker": "AONEGOLD",
+        "nseSymbol": "AONEGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Domestic price of Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Angel One Mutual Fund - Angel One Gold ETF tracks the Domestic price of Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "commoietf",
+        "name": "ICICI Prudential Mutual Fund - ICICI Prudential Nifty Commodities ETF",
+        "ticker": "COMMOIETF",
+        "nseSymbol": "COMMOIETF",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "ICICI Prudential Nifty Commodities ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Mutual Fund - ICICI Prudential Nifty Commodities ETF tracks the ICICI Prudential Nifty Commodities ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "qgoldhalf",
+        "name": "Quantum Gold Fund -Exchange Traded Fund (ETF)",
+        "ticker": "QGOLDHALF",
+        "nseSymbol": "QGOLDHALF",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Quantum Gold Fund -Exchange Traded Fund (ETF) tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "gold360",
+        "name": "360 ONE Mutual Fund - 360 ONE Gold ETF",
+        "ticker": "GOLD360",
+        "nseSymbol": "GOLD360",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Commodity-Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "360 ONE Mutual Fund - 360 ONE Gold ETF tracks the Commodity-Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "choicegold",
+        "name": "Choice Mutual Fund - Choice Gold ETF",
+        "ticker": "CHOICEGOLD",
+        "nseSymbol": "CHOICEGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Choice Mutual Fund - Choice Gold ETF tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "ivzingold",
+        "name": "Invesco India Gold Exchange Traded Fund",
+        "ticker": "IVZINGOLD",
+        "nseSymbol": "IVZINGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Invesco India Gold Exchange Traded Fund tracks the Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "egold",
+        "name": "Edelweiss Mutual Fund -Edelweiss Gold ETF",
+        "ticker": "EGOLD",
+        "nseSymbol": "EGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Edelweiss Gold ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Edelweiss Mutual Fund -Edelweiss Gold ETF tracks the Edelweiss Gold ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "uniongold",
+        "name": "Union Mutual Fund - Union Gold ETF",
+        "ticker": "UNIONGOLD",
+        "nseSymbol": "UNIONGOLD",
+        "exchange": "NSE",
+        "category": "Commodity - Gold",
+        "color": "#FF8F00",
+        "index": {
+            "name": "Commodity Gold",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Union Mutual Fund - Union Gold ETF tracks the Commodity Gold index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Gold (99.5% purity)",
+                "ticker": "GOLD",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#FF8F00",
+                "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    }
 ]

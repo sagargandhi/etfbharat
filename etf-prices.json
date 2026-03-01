@@ -70,19 +70,19 @@
     "nav": "₹54.95"
   },
   "AUTOBEES": {
-    "aum": "₹180.0 Cr",
+    "aum": "₹419.7 Cr",
     "expense": "0.30%",
-    "nav": "₹29.04"
+    "nav": "₹294.5"
   },
   "PSUBNKBEES": {
-    "aum": "₹2,687 Cr",
+    "aum": "₹4,650 Cr",
     "expense": "0.25%",
-    "nav": "₹983.99"
+    "nav": "₹109.44"
   },
   "MIDCAPETF": {
-    "aum": "₹634.6 Cr",
+    "aum": "₹1,469 Cr",
     "expense": "0.25%",
-    "nav": "₹22.58"
+    "nav": "₹22.29"
   },
   "ENERGYETF": {
     "aum": "₹216.3 Cr",
@@ -135,9 +135,9 @@
     "nav": "₹41.78"
   },
   "MOMENTUM": {
-    "aum": "₹6.5 Cr",
+    "aum": "₹44.4 Cr",
     "expense": "0.18%",
-    "nav": "₹33"
+    "nav": "₹32.1"
   },
   "CONSCIETF": {
     "aum": "₹35.0 Cr",
@@ -160,14 +160,14 @@
     "nav": "₹1,277.91"
   },
   "GSEC10YEAR": {
-    "aum": "₹736.8 Cr",
+    "aum": "₹94.1 Cr",
     "expense": "0.10%",
-    "nav": "₹260.2"
+    "nav": "₹29.73"
   },
   "GILT5YBEES": {
-    "aum": "₹25.7 Cr",
+    "aum": "₹247.5 Cr",
     "expense": "0.10%",
-    "nav": "₹65.24"
+    "nav": "₹64.35"
   },
   "SDL26BEES": {
     "aum": "₹4,946 Cr",
@@ -238,5 +238,125 @@
     "aum": "₹285.7 Cr",
     "expense": "0.49%",
     "nav": "₹28.4"
+  },
+  "KOTAKSILVER": {
+    "aum": "₹1,834 Cr",
+    "expense": "0.50%",
+    "nav": "₹87.65"
+  },
+  "SETFLIQETF": {
+    "aum": "₹823 Cr",
+    "expense": "0.05%",
+    "nav": "₹1,000"
+  },
+  "HDFCSDL2026": {
+    "aum": "₹2,140 Cr",
+    "expense": "0.12%",
+    "nav": "₹107.54"
+  },
+  "KOTAKAUTOETF": {
+    "aum": "₹245 Cr",
+    "expense": "0.30%",
+    "nav": "₹29.50"
+  },
+  "HDFCENERGY": {
+    "aum": "₹195 Cr",
+    "expense": "0.30%",
+    "nav": "₹36.80"
+  },
+  "SETFBFSI": {
+    "aum": "₹312 Cr",
+    "expense": "0.12%",
+    "nav": "₹29.45"
+  },
+  "HDFCFMCG": {
+    "aum": "₹213 Cr",
+    "expense": "0.30%",
+    "nav": "₹58.90"
+  },
+  "HEALTHIETF": {
+    "aum": "₹152.4 Cr",
+    "expense": "0.18%",
+    "nav": "₹154.4"
+  },
+  "ITIETF": {
+    "aum": "₹446.1 Cr",
+    "expense": "0.10%",
+    "nav": "₹33.79"
+  },
+  "HDFCMETAL": {
+    "aum": "₹198 Cr",
+    "expense": "0.20%",
+    "nav": "₹12.85"
+  },
+  "SETFPHARMA": {
+    "aum": "₹485 Cr",
+    "expense": "0.32%",
+    "nav": "₹24.10"
+  },
+  "HDFCPSUBNK": {
+    "aum": "₹345 Cr",
+    "expense": "0.25%",
+    "nav": "₹993.45"
+  },
+  "ICICIMAIL": {
+    "aum": "₹1,043 Cr",
+    "expense": "0.35%",
+    "nav": "₹83.20"
+  },
+  "HDFCREETF": {
+    "aum": "₹124 Cr",
+    "expense": "0.49%",
+    "nav": "₹76.40"
+  },
+  "HDFCBHARAT": {
+    "aum": "₹4,210 Cr",
+    "expense": "0.07%",
+    "nav": "₹106.84"
+  },
+  "ABSLCON": {
+    "aum": "₹58 Cr",
+    "expense": "0.40%",
+    "nav": "₹13.25"
+  },
+  "HDFCEQWT": {
+    "aum": "₹95 Cr",
+    "expense": "0.30%",
+    "nav": "₹34.65"
+  },
+  "MIRAEESG": {
+    "aum": "₹89 Cr",
+    "expense": "0.45%",
+    "nav": "₹29.30"
+  },
+  "SBIETFEV": {
+    "aum": "₹68 Cr",
+    "expense": "0.48%",
+    "nav": "₹18.45"
+  },
+  "HDFCINFRA": {
+    "aum": "₹235 Cr",
+    "expense": "0.30%",
+    "nav": "₹101.25"
+  },
+  "UTIMNCETF": {
+    "aum": "₹38 Cr",
+    "expense": "0.49%",
+    "nav": "₹34.10"
+  },
+  "MOM30BEES": {
+    "aum": "₹118 Cr",
+    "expense": "0.18%",
+    "nav": "₹34.75"
+  },
+  "SETFPSU": {
+    "aum": "₹8,450 Cr",
+    "expense": "0.01%",
+    "nav": "₹106.25"
+  },
+  "HDFCNV20": {
+    "aum": "₹445 Cr",
+    "expense": "0.20%",
+    "nav": "₹108.35"
   }
 }

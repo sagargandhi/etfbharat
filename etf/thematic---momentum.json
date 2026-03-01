@@ -1,101 +1,1883 @@
 [
-  {
-    "id": "niftymomentum",
-    "name": "Mirae Asset Nifty 200 Momentum 30 ETF",
-    "ticker": "MOMENTUM",
-    "nseSymbol": "MOMENTUM30",
-    "exchange": "NSE",
-    "category": "Thematic - Momentum",
-    "color": "#FF6F00",
-    "index": {
-      "name": "Nifty 200 Momentum 30 Index",
-      "launched": "August 2020",
-      "methodology": "Momentum Factor (12M-1M returns)",
-      "rebalance": "Semi-Annual",
-      "companies": 30,
-      "description": "Nifty 200 Momentum 30 selects 30 stocks with highest momentum from Nifty 200 (ranked 51-250) based on 12-month-minus-1-month returns (volatility-adjusted). Momentum factor delivers 2-3% annual alpha through systematic 'winners keep winning' advantage. Three mechanisms: (1) Fundamental: accelerating earnings attract analyst upgrades + institutional flows; (2) Technical: algorithmic trend-following stacks into winners creating momentum cascades; (3) Behavioral: extrapolation of recent outperformance attracts retail flows. Current leaders (2025): Zomato (+250% YTD, 6.8% weight — Blinkit quick-commerce disruption), Trent (+180%, 6.3% — Zudio retail chain), BSE (+150%, 5.9% — derivatives volume boom). Semi-annual rebalancing = systematic profit-taking from 6-month winners and rotation into emerging leaders. Risk profile: 40-50% drawdown potential during recessions when risk-off reverses momentum entirely; mean-reversion from 40x PE to 18x PE when earnings miss. 2-3x Nifty 50 volatility requires 5-7 year horizon. Currency neutral: mostly domestic-focused companies. Psychological challenge: holding during 20-30% single-quarter crashes tests investor discipline. Positive: momentum factor is uncorrelated to value factor, providing hedge diversification."
+    {
+        "id": "niftymomentum",
+        "name": "Mirae Asset Nifty 200 Momentum 30 ETF",
+        "ticker": "MOMENTUM",
+        "nseSymbol": "MOMENTUM30",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#FF6F00",
+        "index": {
+            "name": "Nifty 200 Momentum 30 Index",
+            "launched": "August 2020",
+            "methodology": "Momentum Factor (12M-1M returns)",
+            "rebalance": "Semi-Annual",
+            "companies": 30,
+            "description": "Nifty 200 Momentum 30 selects 30 stocks with highest momentum from Nifty 200 (ranked 51-250) based on 12-month-minus-1-month returns (volatility-adjusted). Momentum factor delivers 2-3% annual alpha through systematic 'winners keep winning' advantage. Three mechanisms: (1) Fundamental: accelerating earnings attract analyst upgrades + institutional flows; (2) Technical: algorithmic trend-following stacks into winners creating momentum cascades; (3) Behavioral: extrapolation of recent outperformance attracts retail flows. Current leaders (2025): Zomato (+250% YTD, 6.8% weight — Blinkit quick-commerce disruption), Trent (+180%, 6.3% — Zudio retail chain), BSE (+150%, 5.9% — derivatives volume boom). Semi-annual rebalancing = systematic profit-taking from 6-month winners and rotation into emerging leaders. Risk profile: 40-50% drawdown potential during recessions when risk-off reverses momentum entirely; mean-reversion from 40x PE to 18x PE when earnings miss. 2-3x Nifty 50 volatility requires 5-7 year horizon. Currency neutral: mostly domestic-focused companies. Psychological challenge: holding during 20-30% single-quarter crashes tests investor discipline. Positive: momentum factor is uncorrelated to value factor, providing hedge diversification."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Consistent positive momentum driven by profitability milestone. Blinkit quick-commerce expansion driving re-rating. Institutional ownership increasing. Strong 12-month price return qualifies for momentum index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio stores' rapid expansion driving exceptional revenue and earnings growth. Consecutive quarterly earnings beats. Strong price momentum with consistent upward earnings revisions."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "India's oldest stock exchange, beneficiary of retail investor participation boom. Derivatives volumes surging. GIFT City exchange operations growing. Revenue diversification into insurance and other verticals."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata Group's hotel company. Taj brand globally recognized. Leisure travel boom post-COVID. New hotel openings and Qmin food delivery brand. Strong forward booking visibility."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated and merchant power utility. Distribution franchise in Ahmedabad, Surat, Agra. Renewable capacity addition. Power sector re-rating on India's energy transition theme."
+            },
+            {
+                "name": "CESC Ltd",
+                "ticker": "CESC",
+                "weight": 4.78,
+                "sector": "Power",
+                "color": "#FFB300",
+                "description": "Kolkata's dominant power utility. Regulated ROE provides stable base. Surya Vidyut renewable subsidiary growing. Spencer's Retail stake provides consumer exposure."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway - PSU",
+                "color": "#2196F3",
+                "description": "Indian Railways' exclusive catering, tourism, and ticketing arm. Internet ticketing monopoly generates massive cash flows. Train travel boom post-COVID. Convenience fee regime restored to full level."
+            },
+            {
+                "name": "PB Fintech (Policybazaar)",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator and credit marketplace. Policybazaar dominates online term and health insurance. Paisabazaar is India's largest credit marketplace. Path to profitability ahead of schedule."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT services with strong generative AI and digital engineering positioning. Revenue growth consistently above tier-1 peers. US healthcare, BFSI, and hitech verticals. One of the best performing IT stocks in recent years."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Manufacturing",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary. Assembles smartphones (Samsung, Motorola, Nokia), LED TVs, washing machines. Expanding into set-top boxes and laptops."
+            }
+        ]
     },
-    "holdings": [
-      {
-        "name": "Zomato",
-        "ticker": "ZOMATO",
-        "weight": 6.78,
-        "sector": "Food Tech",
-        "color": "#E91E63",
-        "description": "Consistent positive momentum driven by profitability milestone. Blinkit quick-commerce expansion driving re-rating. Institutional ownership increasing. Strong 12-month price return qualifies for momentum index."
-      },
-      {
-        "name": "Trent Ltd",
-        "ticker": "TRENT",
-        "weight": 6.34,
-        "sector": "Retail",
-        "color": "#7B1FA2",
-        "description": "Zudio stores' rapid expansion driving exceptional revenue and earnings growth. Consecutive quarterly earnings beats. Strong price momentum with consistent upward earnings revisions."
-      },
-      {
-        "name": "BSE Ltd",
-        "ticker": "BSE",
-        "weight": 5.89,
-        "sector": "Capital Markets",
-        "color": "#F57F17",
-        "description": "India's oldest stock exchange, beneficiary of retail investor participation boom. Derivatives volumes surging. GIFT City exchange operations growing. Revenue diversification into insurance and other verticals."
-      },
-      {
-        "name": "Indian Hotels",
-        "ticker": "INDHOTEL",
-        "weight": 5.45,
-        "sector": "Hospitality",
-        "color": "#00695C",
-        "description": "Tata Group's hotel company. Taj brand globally recognized. Leisure travel boom post-COVID. New hotel openings and Qmin food delivery brand. Strong forward booking visibility."
-      },
-      {
-        "name": "Torrent Power",
-        "ticker": "TORNTPOWER",
-        "weight": 5.12,
-        "sector": "Power",
-        "color": "#FF8F00",
-        "description": "Regulated and merchant power utility. Distribution franchise in Ahmedabad, Surat, Agra. Renewable capacity addition. Power sector re-rating on India's energy transition theme."
-      },
-      {
-        "name": "CESC Ltd",
-        "ticker": "CESC",
-        "weight": 4.78,
-        "sector": "Power",
-        "color": "#FFB300",
-        "description": "Kolkata's dominant power utility. Regulated ROE provides stable base. Surya Vidyut renewable subsidiary growing. Spencer's Retail stake provides consumer exposure."
-      },
-      {
-        "name": "IRCTC",
-        "ticker": "IRCTC",
-        "weight": 4.56,
-        "sector": "Railway - PSU",
-        "color": "#2196F3",
-        "description": "Indian Railways' exclusive catering, tourism, and ticketing arm. Internet ticketing monopoly generates massive cash flows. Train travel boom post-COVID. Convenience fee regime restored to full level."
-      },
-      {
-        "name": "PB Fintech (Policybazaar)",
-        "ticker": "POLICYBZR",
-        "weight": 4.23,
-        "sector": "InsurTech",
-        "color": "#1976D2",
-        "description": "India's largest insurance aggregator and credit marketplace. Policybazaar dominates online term and health insurance. Paisabazaar is India's largest credit marketplace. Path to profitability ahead of schedule."
-      },
-      {
-        "name": "Persistent Systems",
-        "ticker": "PERSISTENT",
-        "weight": 3.89,
-        "sector": "IT Services",
-        "color": "#1565C0",
-        "description": "Mid-cap IT services with strong generative AI and digital engineering positioning. Revenue growth consistently above tier-1 peers. US healthcare, BFSI, and hitech verticals. One of the best performing IT stocks in recent years."
-      },
-      {
-        "name": "Dixon Technologies",
-        "ticker": "DIXON",
-        "weight": 3.67,
-        "sector": "Electronics Manufacturing",
-        "color": "#0D47A1",
-        "description": "India's largest electronics manufacturer. PLI scheme beneficiary. Assembles smartphones (Samsung, Motorola, Nokia), LED TVs, washing machines. Expanding into set-top boxes and laptops."
-      }
-    ]
-  }
+    {
+        "id": "alpha",
+        "name": "Kotak Mahindra Mutual Fund - Kotak Nifty Alpha 50 ETF",
+        "ticker": "ALPHA",
+        "nseSymbol": "ALPHA",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "NIFTY Alpha 50 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Mahindra Mutual Fund - Kotak Nifty Alpha 50 ETF tracks the NIFTY Alpha 50 Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 7.23,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Highest alpha generator among Nifty 200. Blinkit disruption and margin improvement driving excess returns above benchmark."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.89,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Alpha from Zudio expansion outpacing FMCG and retail sector peers by 3-4x. Consecutive earnings beats vs consensus estimates."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 6.45,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Capital markets alpha play. Derivatives volume and GIFT City exchanges creating earnings surprise vs sell-side estimates."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 5.98,
+                "sector": "Electronics",
+                "color": "#4A148C",
+                "description": "Electronics manufacturing services with aerospace and defence contracts. Revenue compounding at 50%+ CAGR. Highest alpha in EMS segment."
+            },
+            {
+                "name": "Cochin Shipyard",
+                "ticker": "COCHINSHIP",
+                "weight": 5.56,
+                "sector": "Defence Shipbuilding",
+                "color": "#1A237E",
+                "description": "Naval GDP beneficiary. INS Vikrant domestic aircraft carrier. Massive order backlog generating alpha vs PSU peers."
+            },
+            {
+                "name": "Varun Beverages",
+                "ticker": "VBL",
+                "weight": 5.12,
+                "sector": "Beverages",
+                "color": "#388E3C",
+                "description": "PepsiCo bottler growing faster than parent. International franchise expansion (Africa, Nepal) generating excess returns vs consumer staples index."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.78,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Loss-to-profit inflection creating sustained alpha. Insurance penetration expansion creates decade-long earnings growth runway."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 4.34,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Consistent outperformer vs IT sector. Revenue growth 25-30% vs sector 8-12%. Healthcare IT and GenAI positioning drives ongoing alpha."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.89,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "PLI alpha play with smartphone and laptop assembly scaling. Contract wins from Samsung expansion creating earnings surprise."
+            },
+            {
+                "name": "REC Ltd",
+                "ticker": "REC",
+                "weight": 3.45,
+                "sector": "Power Finance",
+                "color": "#00838F",
+                "description": "Power sector financing PSU benefiting from infrastructure capex. Loan book growing 20%+ with improving asset quality."
+            }
+        ]
+    },
+    {
+        "id": "alpl30ietf",
+        "name": "ICICI Prudential Nifty Alpha Low Volatility 30 ETF",
+        "ticker": "ALPL30IETF",
+        "nseSymbol": "ALPL30IETF",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty Alpha Low-Volatility 30 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Nifty Alpha Low Volatility 30 ETF tracks the Nifty Alpha Low-Volatility 30 Index index."
+        },
+        "holdings": [
+            {
+                "name": "HDFC Bank",
+                "ticker": "HDFCBANK",
+                "weight": 9.87,
+                "sector": "Banking",
+                "color": "#1565C0",
+                "description": "Low-volatility anchor. Consistent 16-18% ROE, stable NIM, low NPA. Provides volatility dampening in alpha-low-vol composite index."
+            },
+            {
+                "name": "Infosys",
+                "ticker": "INFY",
+                "weight": 8.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "Large-cap IT with consistent dividend yield (2%+) and low price volatility. GenAI deals providing alpha on stable base."
+            },
+            {
+                "name": "HUL",
+                "ticker": "HINDUNILVR",
+                "weight": 7.23,
+                "sector": "FMCG",
+                "color": "#1E88E5",
+                "description": "FMCG defensive with 50%+ ROCE. Low beta stock providing volatility shield. Premium to broader market justified by earnings consistency."
+            },
+            {
+                "name": "TCS",
+                "ticker": "TCS",
+                "weight": 6.89,
+                "sector": "IT Services",
+                "color": "#283593",
+                "description": "India's largest IT with highest earnings consistency and dividend yield in sector. Low volatility anchor in factor blend."
+            },
+            {
+                "name": "Bajaj Finance",
+                "ticker": "BAJFINANCE",
+                "weight": 6.34,
+                "sector": "NBFC",
+                "color": "#4527A0",
+                "description": "King of consumer lending with strong moat. Alpha from credit expansion at controlled risk providing composite factor exposure."
+            },
+            {
+                "name": "Asian Paints",
+                "ticker": "ASIANPAINT",
+                "weight": 5.78,
+                "sector": "Paints",
+                "color": "#7B1FA2",
+                "description": "Duopoly paints market leader. 60%+ gross margins, asset-light model, low earnings volatility. Stable re-decorating cycle."
+            },
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 5.12,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Alpha contributor from profitability milestone. Blinkit driving growth acceleration creating alpha in otherwise low-volatility composite."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 4.78,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Controlled alpha exposure from Zudio expansion. Higher alpha with relatively controlled fundamental risk profile."
+            },
+            {
+                "name": "Titan Company",
+                "ticker": "TITAN",
+                "weight": 4.45,
+                "sector": "Consumer",
+                "color": "#E65100",
+                "description": "Watches, jewellery, eyewear — premium consumer market. Stable earnings with aspirational consumption alpha. Tata Group backing."
+            },
+            {
+                "name": "Nestle India",
+                "ticker": "NESTLEIND",
+                "weight": 4.12,
+                "sector": "FMCG",
+                "color": "#388E3C",
+                "description": "Low-volatility consumer staple. Maggi monopoly with premium portfolio of Munch, KitKat, Nescafe. High ROCE with minimal capital requirement."
+            }
+        ]
+    },
+    {
+        "id": "mom30ietf",
+        "name": "ICICI Prudential Mutual Fund -  ICICI Pru Nifty 200 Momentum 30 ETF",
+        "ticker": "MOM30IETF",
+        "nseSymbol": "MOM30IETF",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "ICICI Prudential Nifty 200 Momentum 30 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Mutual Fund -  ICICI Pru Nifty 200 Momentum 30 ETF tracks the ICICI Prudential Nifty 200 Momentum 30 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "momentum50",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 500 Momentum 50 ETF",
+        "ticker": "MOMENTUM50",
+        "nseSymbol": "MOMENTUM50",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty 500 Momentum 50 Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 500 Momentum 50 ETF tracks the Nifty 500 Momentum 50 Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "alphaetf",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty 200 Alpha 30 ETF",
+        "ticker": "ALPHAETF",
+        "nseSymbol": "ALPHAETF",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Mirae Asset Nifty 200 Alpha 30 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty 200 Alpha 30 ETF tracks the Mirae Asset Nifty 200 Alpha 30 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 7.23,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Highest alpha generator among Nifty 200. Blinkit disruption and margin improvement driving excess returns above benchmark."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.89,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Alpha from Zudio expansion outpacing FMCG and retail sector peers by 3-4x. Consecutive earnings beats vs consensus estimates."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 6.45,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Capital markets alpha play. Derivatives volume and GIFT City exchanges creating earnings surprise vs sell-side estimates."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 5.98,
+                "sector": "Electronics",
+                "color": "#4A148C",
+                "description": "Electronics manufacturing services with aerospace and defence contracts. Revenue compounding at 50%+ CAGR. Highest alpha in EMS segment."
+            },
+            {
+                "name": "Cochin Shipyard",
+                "ticker": "COCHINSHIP",
+                "weight": 5.56,
+                "sector": "Defence Shipbuilding",
+                "color": "#1A237E",
+                "description": "Naval GDP beneficiary. INS Vikrant domestic aircraft carrier. Massive order backlog generating alpha vs PSU peers."
+            },
+            {
+                "name": "Varun Beverages",
+                "ticker": "VBL",
+                "weight": 5.12,
+                "sector": "Beverages",
+                "color": "#388E3C",
+                "description": "PepsiCo bottler growing faster than parent. International franchise expansion (Africa, Nepal) generating excess returns vs consumer staples index."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.78,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Loss-to-profit inflection creating sustained alpha. Insurance penetration expansion creates decade-long earnings growth runway."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 4.34,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Consistent outperformer vs IT sector. Revenue growth 25-30% vs sector 8-12%. Healthcare IT and GenAI positioning drives ongoing alpha."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.89,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "PLI alpha play with smartphone and laptop assembly scaling. Contract wins from Samsung expansion creating earnings surprise."
+            },
+            {
+                "name": "REC Ltd",
+                "ticker": "REC",
+                "weight": 3.45,
+                "sector": "Power Finance",
+                "color": "#00838F",
+                "description": "Power sector financing PSU benefiting from infrastructure capex. Loan book growing 20%+ with improving asset quality."
+            }
+        ]
+    },
+    {
+        "id": "midsmall",
+        "name": "MiraeAssetMF-Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF",
+        "ticker": "MIDSMALL",
+        "nseSymbol": "MIDSMALL",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "MiraeAssetMF-Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF tracks the Mirae Asset Nifty MidSmallcap400 Momentum Quality 100 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Cochin Shipyard",
+                "ticker": "COCHINSHIP",
+                "weight": 7.45,
+                "sector": "Defence Shipbuilding",
+                "color": "#1A237E",
+                "description": "Defence and commercial shipbuilding. INS Vikrant manufacturing. Navy modernisation driving multi-year order book and price momentum."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 6.89,
+                "sector": "Electronics Mfg",
+                "color": "#4A148C",
+                "description": "Electronics manufacturing services rapidly scaling. Aerospace, defence and industrial electronics. 50%+ revenue CAGR driving midcap momentum index inclusion."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 6.34,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Mid-cap capital markets re-rating. Derivatives and GIFT City revenues scaling rapidly. Consistent quarterly earnings upgrades sustaining price momentum."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.78,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Taj brand domestic and international expansion. Leisure and business travel recovery with new hotel pipeline adding visibility."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.35,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with renewable optionality. Ahmedabad distribution franchise re-rating on energy transition theme."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.89,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Insurance aggregator at profitability inflection. Midcap momentum inclusion from loss-to-profit transition driving institutional accumulation."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 4.45,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "IT mid-cap with highest revenue growth rate. GenAI positioning and US healthcare deals sustaining momentum."
+            },
+            {
+                "name": "Varun Beverages",
+                "ticker": "VBL",
+                "weight": 4.12,
+                "sector": "Beverages",
+                "color": "#388E3C",
+                "description": "PepsiCo franchise bottler growing into Africa and South Asia. Volume growth and margin expansion driving mid-cap consumer momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.78,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "PLI scheme electronics manufacturing scaling rapidly. Samsung, Motorola smartphone assembly plus laptop and LED TV manufacturing."
+            },
+            {
+                "name": "Carborundum Universal",
+                "ticker": "CARBORUNIV",
+                "weight": 3.45,
+                "sector": "Industrials",
+                "color": "#37474F",
+                "description": "Abrasives and advanced ceramics leader. Industrial cycle recovery driving mid-cap industrial momentum. Export growth to Middle East and Europe."
+            }
+        ]
+    },
+    {
+        "id": "hdfcmoment",
+        "name": "HDFC Mutual Fund - HDFC NIFTY200 Momentum 30 ETF",
+        "ticker": "HDFCMOMENT",
+        "nseSymbol": "HDFCMOMENT",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "HDFC NIFTY200 Momentum 30 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC Mutual Fund - HDFC NIFTY200 Momentum 30 ETF tracks the HDFC NIFTY200 Momentum 30 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "momomentum",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 200 Momentum 30 ETF",
+        "ticker": "MOMOMENTUM",
+        "nseSymbol": "MOMOMENTUM",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty 200 Momentum 30 Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty 200 Momentum 30 ETF tracks the Nifty 200 Momentum 30 Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "momidmtm",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Midcap150 Momentum 50",
+        "ticker": "MOMIDMTM",
+        "nseSymbol": "MOMIDMTM",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty Midcap 150 Momentum 50 Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Midcap150 Momentum 50 tracks the Nifty Midcap 150 Momentum 50 Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Cochin Shipyard",
+                "ticker": "COCHINSHIP",
+                "weight": 7.45,
+                "sector": "Defence Shipbuilding",
+                "color": "#1A237E",
+                "description": "Defence and commercial shipbuilding. INS Vikrant manufacturing. Navy modernisation driving multi-year order book and price momentum."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 6.89,
+                "sector": "Electronics Mfg",
+                "color": "#4A148C",
+                "description": "Electronics manufacturing services rapidly scaling. Aerospace, defence and industrial electronics. 50%+ revenue CAGR driving midcap momentum index inclusion."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 6.34,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Mid-cap capital markets re-rating. Derivatives and GIFT City revenues scaling rapidly. Consistent quarterly earnings upgrades sustaining price momentum."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.78,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Taj brand domestic and international expansion. Leisure and business travel recovery with new hotel pipeline adding visibility."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.35,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with renewable optionality. Ahmedabad distribution franchise re-rating on energy transition theme."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.89,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Insurance aggregator at profitability inflection. Midcap momentum inclusion from loss-to-profit transition driving institutional accumulation."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 4.45,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "IT mid-cap with highest revenue growth rate. GenAI positioning and US healthcare deals sustaining momentum."
+            },
+            {
+                "name": "Varun Beverages",
+                "ticker": "VBL",
+                "weight": 4.12,
+                "sector": "Beverages",
+                "color": "#388E3C",
+                "description": "PepsiCo franchise bottler growing into Africa and South Asia. Volume growth and margin expansion driving mid-cap consumer momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.78,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "PLI scheme electronics manufacturing scaling rapidly. Samsung, Motorola smartphone assembly plus laptop and LED TV manufacturing."
+            },
+            {
+                "name": "Carborundum Universal",
+                "ticker": "CARBORUNIV",
+                "weight": 3.45,
+                "sector": "Industrials",
+                "color": "#37474F",
+                "description": "Abrasives and advanced ceramics leader. Industrial cycle recovery driving mid-cap industrial momentum. Export growth to Middle East and Europe."
+            }
+        ]
+    },
+    {
+        "id": "momentum",
+        "name": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty 200 Mo",
+        "ticker": "MOMENTUM",
+        "nseSymbol": "MOMENTUM",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Aditya Birla Sun Life Nifty 200 Momentum 30 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty 200 Mo tracks the Aditya Birla Sun Life Nifty 200 Momentum 30 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "emultimq",
+        "name": "Edelweiss MF - Edelweiss Nifty500 Multicap Momentum Quality 50 ETF",
+        "ticker": "EMULTIMQ",
+        "nseSymbol": "EMULTIMQ",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty500 Multicap Momentum Quality 50 Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Edelweiss MF - Edelweiss Nifty500 Multicap Momentum Quality 50 ETF tracks the Nifty500 Multicap Momentum Quality 50 Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "growwmom50",
+        "name": "Groww Mutual Fund - Groww Nifty 500 Momentum 50 ETF",
+        "ticker": "GROWWMOM50",
+        "nseSymbol": "GROWWMOM50",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty 500 Momentum 50 Index- Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Nifty 500 Momentum 50 ETF tracks the Nifty 500 Momentum 50 Index- Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "mom50",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal M50 ETF",
+        "ticker": "MOM50",
+        "nseSymbol": "MOM50",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty 50",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal M50 ETF tracks the Nifty 50 index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "aonetmmq50",
+        "name": "Angel One MF - Angel One Nifty Total Market Momentum Quality 50 ETF",
+        "ticker": "AONETMMQ50",
+        "nseSymbol": "AONETMMQ50",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty Total Market Momentum Quality 50 TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Angel One MF - Angel One Nifty Total Market Momentum Quality 50 ETF tracks the Nifty Total Market Momentum Quality 50 TRI index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 6.78,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "High-momentum food-tech leader. Blinkit quick-commerce driving re-rating. Consistent 12-month price momentum qualifies for Nifty 200 Momentum 30 index."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.34,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Zudio rapid store expansion driving exceptional earnings growth. One of India's best momentum stories across consumer discretionary."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 5.89,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Derivatives volume surge and GIFT City expansion creating multi-year price momentum. Consistent earnings upgrades."
+            },
+            {
+                "name": "Indian Hotels",
+                "ticker": "INDHOTEL",
+                "weight": 5.45,
+                "sector": "Hospitality",
+                "color": "#00695C",
+                "description": "Tata's Taj brand re-rating on leisure travel boom. New hotel openings and Qmin food delivery brand adding revenue streams."
+            },
+            {
+                "name": "Torrent Power",
+                "ticker": "TORNTPOWER",
+                "weight": 5.12,
+                "sector": "Power",
+                "color": "#FF8F00",
+                "description": "Regulated utility with merchant exposure. Ahmedabad and Surat distribution franchise. Renewable capacity addition driving 15-18% earnings CAGR."
+            },
+            {
+                "name": "IRCTC",
+                "ticker": "IRCTC",
+                "weight": 4.56,
+                "sector": "Railway PSU",
+                "color": "#2196F3",
+                "description": "Monopoly railway catering and internet ticketing. Convenience fee regime fully restored. Travel boom post-COVID driving sustained momentum."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.23,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "India's largest insurance aggregator achieving path-to-profitability ahead of schedule. Institutional accumulation supporting price momentum."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 3.89,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Mid-cap IT with consistent above-peer revenue growth. GenAI positioning and US healthcare vertical driving multi-year earnings momentum."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.67,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "India's largest electronics manufacturer. PLI scheme beneficiary assembling Samsung, Motorola phones. Laptop and set-top-box expansion."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 3.45,
+                "sector": "IT Services",
+                "color": "#0277BD",
+                "description": "BFSI-focused IT services with consistent deal wins. Revenue growth above tier-1 peers. Strong order book visibility across insurance and banking verticals."
+            }
+        ]
+    },
+    {
+        "id": "selectipo",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset BSE Select IPO ETF",
+        "ticker": "SELECTIPO",
+        "nseSymbol": "SELECTIPO",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "BSE Select IPO Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset BSE Select IPO ETF tracks the BSE Select IPO Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 12.45,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Listed 2021. BSE Select IPO largest weight. Profitability milestone achieved. Blinkit quick-commerce expanding nationally."
+            },
+            {
+                "name": "LIC of India",
+                "ticker": "LICI",
+                "weight": 10.89,
+                "sector": "Life Insurance",
+                "color": "#1A237E",
+                "description": "Listed 2022. India's largest insurer. IPO raised Rs 21,000 Cr — India's largest IPO. Government retains 96%+ stake."
+            },
+            {
+                "name": "Mankind Pharma",
+                "ticker": "MANKIND",
+                "weight": 9.34,
+                "sector": "Pharmaceuticals",
+                "color": "#7B1FA2",
+                "description": "Listed 2023. Branded generics across India. Pan-India distribution with 50,000+ outlets. Consumer healthcare brands — Prega News, AcneStar."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 8.78,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Listed 2021. Policybazaar and Paisabazaar platforms. Profitability achieved. India's largest online insurance aggregator."
+            },
+            {
+                "name": "Nykaa",
+                "ticker": "NYKAA",
+                "weight": 7.56,
+                "sector": "Beauty Retail",
+                "color": "#E91E63",
+                "description": "Listed 2021. India's largest beauty and personal care platform. House of brands — Kay Beauty, Nykd. Omnichannel physical + digital."
+            },
+            {
+                "name": "JSW Infrastructure",
+                "ticker": "JSWINFRA",
+                "weight": 6.89,
+                "sector": "Port Infrastructure",
+                "color": "#0277BD",
+                "description": "Listed 2023. India's second-largest private port operator. Mangalore, Goa and Paradip ports. Leveraging JSW Steel captive volumes."
+            },
+            {
+                "name": "Honasa Consumer",
+                "ticker": "HONASA",
+                "weight": 5.78,
+                "sector": "D2C Beauty",
+                "color": "#558B2F",
+                "description": "Listed 2023. Mamaearth, The Derma Co, Aqualogica brands. Direct-to-consumer personal care with digital marketing capabilities."
+            },
+            {
+                "name": "SBFC Finance",
+                "ticker": "SBFC",
+                "weight": 4.56,
+                "sector": "NBFC",
+                "color": "#FF8F00",
+                "description": "Listed 2023. MSME-focused secured lender. Small business loans with gold loan component. Growing rural and semi-urban credit book."
+            },
+            {
+                "name": "Godigit Insurance",
+                "ticker": "GODIGIT",
+                "weight": 3.89,
+                "sector": "General Insurance",
+                "color": "#00897B",
+                "description": "Listed 2024. India's fastest growing general insurer. Digital-first motor and health insurance platform."
+            },
+            {
+                "name": "Ola Electric",
+                "ticker": "OLAELECTRIC",
+                "weight": 3.45,
+                "sector": "EV Mobility",
+                "color": "#FF6F00",
+                "description": "Listed 2024. India's largest EV scooter maker. S1 platform with Ola Gig B2B electric scooter for delivery partners."
+            }
+        ]
+    },
+    {
+        "id": "moalpha50",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Alpha 50 ETF",
+        "ticker": "MOALPHA50",
+        "nseSymbol": "MOALPHA50",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty Alpha 50 Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Alpha 50 ETF tracks the Nifty Alpha 50 Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 7.23,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Highest alpha generator among Nifty 200. Blinkit disruption and margin improvement driving excess returns above benchmark."
+            },
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 6.89,
+                "sector": "Retail",
+                "color": "#7B1FA2",
+                "description": "Alpha from Zudio expansion outpacing FMCG and retail sector peers by 3-4x. Consecutive earnings beats vs consensus estimates."
+            },
+            {
+                "name": "BSE Ltd",
+                "ticker": "BSE",
+                "weight": 6.45,
+                "sector": "Capital Markets",
+                "color": "#F57F17",
+                "description": "Capital markets alpha play. Derivatives volume and GIFT City exchanges creating earnings surprise vs sell-side estimates."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 5.98,
+                "sector": "Electronics",
+                "color": "#4A148C",
+                "description": "Electronics manufacturing services with aerospace and defence contracts. Revenue compounding at 50%+ CAGR. Highest alpha in EMS segment."
+            },
+            {
+                "name": "Cochin Shipyard",
+                "ticker": "COCHINSHIP",
+                "weight": 5.56,
+                "sector": "Defence Shipbuilding",
+                "color": "#1A237E",
+                "description": "Naval GDP beneficiary. INS Vikrant domestic aircraft carrier. Massive order backlog generating alpha vs PSU peers."
+            },
+            {
+                "name": "Varun Beverages",
+                "ticker": "VBL",
+                "weight": 5.12,
+                "sector": "Beverages",
+                "color": "#388E3C",
+                "description": "PepsiCo bottler growing faster than parent. International franchise expansion (Africa, Nepal) generating excess returns vs consumer staples index."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 4.78,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Loss-to-profit inflection creating sustained alpha. Insurance penetration expansion creates decade-long earnings growth runway."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 4.34,
+                "sector": "IT Services",
+                "color": "#1565C0",
+                "description": "Consistent outperformer vs IT sector. Revenue growth 25-30% vs sector 8-12%. Healthcare IT and GenAI positioning drives ongoing alpha."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 3.89,
+                "sector": "Electronics Mfg",
+                "color": "#0D47A1",
+                "description": "PLI alpha play with smartphone and laptop assembly scaling. Contract wins from Samsung expansion creating earnings surprise."
+            },
+            {
+                "name": "REC Ltd",
+                "ticker": "REC",
+                "weight": 3.45,
+                "sector": "Power Finance",
+                "color": "#00838F",
+                "description": "Power sector financing PSU benefiting from infrastructure capex. Loan book growing 20%+ with improving asset quality."
+            }
+        ]
+    },
+    {
+        "id": "momgf",
+        "name": "Motilal Oswal Mutual Fund-Motilal Oswal Nifty India Manufacturing ETF",
+        "ticker": "MOMGF",
+        "nseSymbol": "MOMGF",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "Nifty India Manufacturing Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund-Motilal Oswal Nifty India Manufacturing ETF tracks the Nifty India Manufacturing Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Larsen & Toubro",
+                "ticker": "LT",
+                "weight": 12.34,
+                "sector": "Engineering & Construction",
+                "color": "#1565C0",
+                "description": "India's largest engineering and construction conglomerate. Defence, railways, nuclear, green hydrogen projects. Rs 5+ lakh Cr order backlog."
+            },
+            {
+                "name": "Siemens India",
+                "ticker": "SIEMENS",
+                "weight": 9.87,
+                "sector": "Industrial Machinery",
+                "color": "#1E88E5",
+                "description": "Digital industries, smart infrastructure and mobility. Power T&D, railway systems and building automation. Germany-parent technology transfer."
+            },
+            {
+                "name": "ABB India",
+                "ticker": "ABB",
+                "weight": 8.56,
+                "sector": "Power & Automation",
+                "color": "#FF6F00",
+                "description": "Power grids, industrial automation and robotics. Electrification products for India's transformer and motor market. High-margin short-cycle products."
+            },
+            {
+                "name": "HAL",
+                "ticker": "HAL",
+                "weight": 7.89,
+                "sector": "Defence Aerospace",
+                "color": "#4A148C",
+                "description": "India's sole military aircraft manufacturer. LCA Tejas, Dhruv helicopter, HTT-40 trainer. Rs 1.3 lakh Cr order book with export optionality."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 7.23,
+                "sector": "Defence Electronics",
+                "color": "#37474F",
+                "description": "Radar, sonar, electronic warfare, communication systems for India's armed forces. Rs 65,000 Cr order book. Exports to 25+ countries."
+            },
+            {
+                "name": "Bharat Forge",
+                "ticker": "BHARATFORG",
+                "weight": 6.67,
+                "sector": "Auto Components",
+                "color": "#880E4F",
+                "description": "Global leader in forged components for trucks, cars and industrial applications. Defence vehicle components growing. European and North American supply chain."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 5.89,
+                "sector": "Electronics Mfg",
+                "color": "#7B1FA2",
+                "description": "Aerospace, defence and medical electronics manufacturing services. ITAR-certified Indian EMS company for US defence contracts."
+            },
+            {
+                "name": "Thermax",
+                "ticker": "THERMAX",
+                "weight": 5.34,
+                "sector": "Industrial Engineering",
+                "color": "#0D47A1",
+                "description": "Energy and environment engineering. Boilers, heat exchangers, chillers. Green hydrogen equipment for industrial decarbonisation."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 4.78,
+                "sector": "Electronics Mfg",
+                "color": "#283593",
+                "description": "PLI scheme electronics manufacturer. Smartphones, LED TVs, washing machines, set-top boxes. India's largest CE contract manufacturer."
+            },
+            {
+                "name": "CG Power",
+                "ticker": "CGPOWER",
+                "weight": 4.23,
+                "sector": "Power Equipment",
+                "color": "#00897B",
+                "description": "Transformers, switchgear, motors and railway traction systems. Murugappa Group turnaround. Railway electrification boom driving order inflows."
+            }
+        ]
+    },
+    {
+        "id": "moipo",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal BSE Select IPO ETF",
+        "ticker": "MOIPO",
+        "nseSymbol": "MOIPO",
+        "exchange": "NSE",
+        "category": "Thematic - Momentum",
+        "color": "#AD1457",
+        "index": {
+            "name": "BSE Select IPO Total Return Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal BSE Select IPO ETF tracks the BSE Select IPO Total Return Index index."
+        },
+        "holdings": [
+            {
+                "name": "Zomato",
+                "ticker": "ZOMATO",
+                "weight": 12.45,
+                "sector": "Food Tech",
+                "color": "#E91E63",
+                "description": "Listed 2021. BSE Select IPO largest weight. Profitability milestone achieved. Blinkit quick-commerce expanding nationally."
+            },
+            {
+                "name": "LIC of India",
+                "ticker": "LICI",
+                "weight": 10.89,
+                "sector": "Life Insurance",
+                "color": "#1A237E",
+                "description": "Listed 2022. India's largest insurer. IPO raised Rs 21,000 Cr — India's largest IPO. Government retains 96%+ stake."
+            },
+            {
+                "name": "Mankind Pharma",
+                "ticker": "MANKIND",
+                "weight": 9.34,
+                "sector": "Pharmaceuticals",
+                "color": "#7B1FA2",
+                "description": "Listed 2023. Branded generics across India. Pan-India distribution with 50,000+ outlets. Consumer healthcare brands — Prega News, AcneStar."
+            },
+            {
+                "name": "PB Fintech",
+                "ticker": "POLICYBZR",
+                "weight": 8.78,
+                "sector": "InsurTech",
+                "color": "#1976D2",
+                "description": "Listed 2021. Policybazaar and Paisabazaar platforms. Profitability achieved. India's largest online insurance aggregator."
+            },
+            {
+                "name": "Nykaa",
+                "ticker": "NYKAA",
+                "weight": 7.56,
+                "sector": "Beauty Retail",
+                "color": "#E91E63",
+                "description": "Listed 2021. India's largest beauty and personal care platform. House of brands — Kay Beauty, Nykd. Omnichannel physical + digital."
+            },
+            {
+                "name": "JSW Infrastructure",
+                "ticker": "JSWINFRA",
+                "weight": 6.89,
+                "sector": "Port Infrastructure",
+                "color": "#0277BD",
+                "description": "Listed 2023. India's second-largest private port operator. Mangalore, Goa and Paradip ports. Leveraging JSW Steel captive volumes."
+            },
+            {
+                "name": "Honasa Consumer",
+                "ticker": "HONASA",
+                "weight": 5.78,
+                "sector": "D2C Beauty",
+                "color": "#558B2F",
+                "description": "Listed 2023. Mamaearth, The Derma Co, Aqualogica brands. Direct-to-consumer personal care with digital marketing capabilities."
+            },
+            {
+                "name": "SBFC Finance",
+                "ticker": "SBFC",
+                "weight": 4.56,
+                "sector": "NBFC",
+                "color": "#FF8F00",
+                "description": "Listed 2023. MSME-focused secured lender. Small business loans with gold loan component. Growing rural and semi-urban credit book."
+            },
+            {
+                "name": "Godigit Insurance",
+                "ticker": "GODIGIT",
+                "weight": 3.89,
+                "sector": "General Insurance",
+                "color": "#00897B",
+                "description": "Listed 2024. India's fastest growing general insurer. Digital-first motor and health insurance platform."
+            },
+            {
+                "name": "Ola Electric",
+                "ticker": "OLAELECTRIC",
+                "weight": 3.45,
+                "sector": "EV Mobility",
+                "color": "#FF6F00",
+                "description": "Listed 2024. India's largest EV scooter maker. S1 platform with Ola Gig B2B electric scooter for delivery partners."
+            }
+        ]
+    }
 ]

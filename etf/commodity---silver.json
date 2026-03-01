@@ -1,37 +1,597 @@
 [
-  {
-    "id": "silverbees",
-    "name": "Nippon India ETF Silver BeES",
-    "ticker": "SILVERBEES",
-    "nseSymbol": "SILVERBEES",
-    "exchange": "NSE",
-    "category": "Commodity - Silver",
-    "color": "#90A4AE",
-    "index": {
-      "name": "Domestic Silver Price",
-      "launched": "January 2022",
-      "methodology": "Physical Silver Backing",
-      "rebalance": "N/A",
-      "companies": 0,
-      "description": "SILVERBEES provides leveraged commodity exposure compared to gold — silver exhibits 2-3x price volatility creating both opportunity and risk. Silver has dual-demand structure: ~55% industrial use (solar PV requires 120mg per panel, EVs use silver in switches/contacts, electronics/semiconductors, brazing alloys) and ~45% investment/jewellery. Structural tailwind from global solar capacity additions (targeting 2,000 GW by 2030) ensures industrial demand remains inelastic. Silver's industrial premium to gold means silver surges during manufacturing/capex upcycles but crashes during downturns. Perfect hedge for investors bullish on both inflation AND green energy transition. More volatile than gold but lower entry price (₹70/gm vs ₹7,000/gm gold) enables retail portfolio allocation. India is world's largest silver importer (70% of supply), making rupee depreciation a double tailwind (import duty adjustment + currency leverage)."
-    },
-    "holdings": [
-      {
-        "name": "Physical Silver (99.9%)",
-        "ticker": "SILVER",
-        "weight": 98.8,
-        "sector": "Commodity",
+    {
+        "id": "silverbees",
+        "name": "Nippon India ETF Silver BeES",
+        "ticker": "SILVERBEES",
+        "nseSymbol": "SILVERBEES",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
         "color": "#90A4AE",
-        "description": "High-purity silver bullion of 99.9% fineness stored in LBMA-certified insured vaults. SEBI-mandated regular independent audits ensure unit-holder protection. Growing industrial demand from solar PV (120mg silver per panel) and EV batteries is a structural tailwind."
-      },
-      {
-        "name": "Cash & Equivalents",
-        "ticker": "CASH",
-        "weight": 1.2,
-        "sector": "Liquid Assets",
-        "color": "#78909C",
-        "description": "Overnight instruments and T-bills maintained for liquidity and daily redemption management. Kept minimal to maximize silver price exposure for investors at all times."
-      }
-    ]
-  }
+        "index": {
+            "name": "Domestic Silver Price",
+            "launched": "January 2022",
+            "methodology": "Physical Silver Backing",
+            "rebalance": "N/A",
+            "companies": 0,
+            "description": "SILVERBEES provides leveraged commodity exposure compared to gold — silver exhibits 2-3x price volatility creating both opportunity and risk. Silver has dual-demand structure: ~55% industrial use (solar PV requires 120mg per panel, EVs use silver in switches/contacts, electronics/semiconductors, brazing alloys) and ~45% investment/jewellery. Structural tailwind from global solar capacity additions (targeting 2,000 GW by 2030) ensures industrial demand remains inelastic. Silver's industrial premium to gold means silver surges during manufacturing/capex upcycles but crashes during downturns. Perfect hedge for investors bullish on both inflation AND green energy transition. More volatile than gold but lower entry price (₹70/gm vs ₹7,000/gm gold) enables retail portfolio allocation. India is world's largest silver importer (70% of supply), making rupee depreciation a double tailwind (import duty adjustment + currency leverage)."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9%)",
+                "ticker": "SILVER",
+                "weight": 98.8,
+                "sector": "Commodity",
+                "color": "#90A4AE",
+                "description": "High-purity silver bullion of 99.9% fineness stored in LBMA-certified insured vaults. SEBI-mandated regular independent audits ensure unit-holder protection. Growing industrial demand from solar PV (120mg silver per panel) and EV batteries is a structural tailwind."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 1.2,
+                "sector": "Liquid Assets",
+                "color": "#78909C",
+                "description": "Overnight instruments and T-bills maintained for liquidity and daily redemption management. Kept minimal to maximize silver price exposure for investors at all times."
+            }
+        ]
+    },
+    {
+        "id": "tatsilv",
+        "name": "Tata Mutual Fund Tata Silver Exchange Traded Fund",
+        "ticker": "TATSILV",
+        "nseSymbol": "TATSILV",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Tata Silver Exchange Traded Fund",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Tata Mutual Fund Tata Silver Exchange Traded Fund tracks the Tata Silver Exchange Traded Fund index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "hdfcsilver",
+        "name": "HDFC Mutual Fund - HDFC Silver ETF",
+        "ticker": "HDFCSILVER",
+        "nseSymbol": "HDFCSILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "HDFC Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC Mutual Fund - HDFC Silver ETF tracks the HDFC Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silverietf",
+        "name": "ICICI Prudential Mutual Fund - ICICI Prudential Silver ETF",
+        "ticker": "SILVERIETF",
+        "nseSymbol": "SILVERIETF",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Domestic Price of Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential Mutual Fund - ICICI Prudential Silver ETF tracks the Domestic Price of Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silver",
+        "name": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Silver ETF",
+        "ticker": "SILVER",
+        "nseSymbol": "SILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Physical price of Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Silver ETF tracks the Physical price of Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "sbisilver",
+        "name": "SBI Mutual Fund - SBI SILVER ETF",
+        "ticker": "SBISILVER",
+        "nseSymbol": "SBISILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "SBI SILVER ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "SBI Mutual Fund - SBI SILVER ETF tracks the SBI SILVER ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silvercase",
+        "name": "Zerodha Fund House - Zerodha Silver ETF",
+        "ticker": "SILVERCASE",
+        "nseSymbol": "SILVERCASE",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Commodity-Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Zerodha Fund House - Zerodha Silver ETF tracks the Commodity-Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silver1",
+        "name": "Kotak Mahindra Mutual Fund - Kotak Silver ETF",
+        "ticker": "SILVER1",
+        "nseSymbol": "SILVER1",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Kotak Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Mahindra Mutual Fund - Kotak Silver ETF tracks the Kotak Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silverbeta",
+        "name": "UTI Mutual Fund - UTI Silver Exchange Traded Fund (UTI Silver ETF)",
+        "ticker": "SILVERBETA",
+        "nseSymbol": "SILVERBETA",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "UTI Silver Exchange Traded Fund (UTI Silver ETF)",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "UTI Mutual Fund - UTI Silver Exchange Traded Fund (UTI Silver ETF) tracks the UTI Silver Exchange Traded Fund (UTI Silver ETF) index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "axisilver",
+        "name": "Axis Mutual Fund - Axis Silver ETF",
+        "ticker": "AXISILVER",
+        "nseSymbol": "AXISILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Axis Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Axis Mutual Fund - Axis Silver ETF tracks the Axis Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silveradd",
+        "name": "DSP  Mutual Fund - DSP Silver ETF",
+        "ticker": "SILVERADD",
+        "nseSymbol": "SILVERADD",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "DSP Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP  Mutual Fund - DSP Silver ETF tracks the DSP Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "esilver",
+        "name": "Edelweiss Mutual Fund - Edelweiss Silver ETF",
+        "ticker": "ESILVER",
+        "nseSymbol": "ESILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Edelweiss Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Edelweiss Mutual Fund - Edelweiss Silver ETF tracks the Edelweiss Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "growwslvr",
+        "name": "Groww Mutual Fund - Groww Silver ETF",
+        "ticker": "GROWWSLVR",
+        "nseSymbol": "GROWWSLVR",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Commodity-Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Silver ETF tracks the Commodity-Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silverag",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Silver ETF",
+        "ticker": "SILVERAG",
+        "nseSymbol": "SILVERAG",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Mirae Asset Silver ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Silver ETF tracks the Mirae Asset Silver ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silver360",
+        "name": "360 ONE Mutual Fund - 360 ONE Silver ETF",
+        "ticker": "SILVER360",
+        "nseSymbol": "SILVER360",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Commodity-Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "360 ONE Mutual Fund - 360 ONE Silver ETF tracks the Commodity-Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "mosilver",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Silver ETF",
+        "ticker": "MOSILVER",
+        "nseSymbol": "MOSILVER",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Domestic Price of Physical Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Silver ETF tracks the Domestic Price of Physical Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    },
+    {
+        "id": "silverbnd",
+        "name": "Bandhan Mutual Fund - Bandhan Silver ETF",
+        "ticker": "SILVERBND",
+        "nseSymbol": "SILVERBND",
+        "exchange": "NSE",
+        "category": "Commodity - Silver",
+        "color": "#607D8B",
+        "index": {
+            "name": "Commodity - Silver",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Bandhan Mutual Fund - Bandhan Silver ETF tracks the Commodity - Silver index."
+        },
+        "holdings": [
+            {
+                "name": "Physical Silver (99.9% purity)",
+                "ticker": "SILVER",
+                "weight": 99.5,
+                "sector": "Commodity - Precious Metal",
+                "color": "#607D8B",
+                "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+            },
+            {
+                "name": "Cash & Equivalents",
+                "ticker": "CASH",
+                "weight": 0.5,
+                "sector": "Cash",
+                "color": "#9E9E9E",
+                "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+            }
+        ]
+    }
 ]

@@ -1,245 +1,1588 @@
 [
-  {
-    "id": "niftymidcap",
-    "name": "ICICI Prudential Nifty Midcap 150 ETF",
-    "ticker": "MIDCAPETF",
-    "nseSymbol": "MIDCAPIETF",
-    "exchange": "NSE",
-    "category": "Mid Cap",
-    "color": "#9C27B0",
-    "index": {
-      "name": "Nifty Midcap 150",
-      "launched": "January 2005",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 150,
-      "description": "Nifty Midcap 150 captures companies ranked 101-250 by market cap (market cap ₹20K Cr to ₹2 Lakh Cr approximately) — the 'future large-caps' of India's economy. Offers superior 3-4% outper formance vs Nifty 50 over 20+ year periods due to earlier stage growth profiles. Higher volatility but reasonable liquidity enabling retail investment. Ideal for 5-7 year investment horizons where investors tolerate 30-50% drawdowns for 15-20% annual upside capturing. Sector diversity higher than large-caps — includes retail (Trent +2.89%), electronics manufacturing (Dixon +2.34%), emerging realty (Prestige +2.12%), diversified engineering (CG Power, Tube Investments). Captures India's domestic consumption boom through housing, automotive, appliances, and retail. Perfect complement to large-cap SIP — aggressive portion (40% of equity allocation) goes to Nifty 50, remaining 60% to Midcap 150 creating barbell that captures both stability and growth. Rebalance semi-annually provides systematic profit-booking from outperformers (e.g., Trent when Zudio hits 1,000 stores) and reinvestment into laggards (systematic buying low, selling high)."
+    {
+        "id": "niftymidcap",
+        "name": "ICICI Prudential Nifty Midcap 150 ETF",
+        "ticker": "MIDCAPETF",
+        "nseSymbol": "MIDCAPIETF",
+        "exchange": "NSE",
+        "category": "Mid Cap",
+        "color": "#9C27B0",
+        "index": {
+            "name": "Nifty Midcap 150",
+            "launched": "January 2005",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 150,
+            "description": "Nifty Midcap 150 captures companies ranked 101-250 by market cap (market cap ₹20K Cr to ₹2 Lakh Cr approximately) — the 'future large-caps' of India's economy. Offers superior 3-4% outper formance vs Nifty 50 over 20+ year periods due to earlier stage growth profiles. Higher volatility but reasonable liquidity enabling retail investment. Ideal for 5-7 year investment horizons where investors tolerate 30-50% drawdowns for 15-20% annual upside capturing. Sector diversity higher than large-caps — includes retail (Trent +2.89%), electronics manufacturing (Dixon +2.34%), emerging realty (Prestige +2.12%), diversified engineering (CG Power, Tube Investments). Captures India's domestic consumption boom through housing, automotive, appliances, and retail. Perfect complement to large-cap SIP — aggressive portion (40% of equity allocation) goes to Nifty 50, remaining 60% to Midcap 150 creating barbell that captures both stability and growth. Rebalance semi-annually provides systematic profit-booking from outperformers (e.g., Trent when Zudio hits 1,000 stores) and reinvestment into laggards (systematic buying low, selling high)."
+        },
+        "holdings": [
+            {
+                "name": "Trent Ltd",
+                "ticker": "TRENT",
+                "weight": 2.89,
+                "sector": "Retail",
+                "color": "#E91E63",
+                "description": "Tata Group's retail powerhouse. Zudio — India's fastest-growing value fashion chain (500+ stores). Westside department stores for premium fashion. Star Bazaar hypermarkets. Inditex JV for Zara in India. 35%+ revenue CAGR making it a structural growth story."
+            },
+            {
+                "name": "Dixon Technologies",
+                "ticker": "DIXON",
+                "weight": 2.34,
+                "sector": "Electronics Manufacturing",
+                "color": "#2196F3",
+                "description": "India's largest EMS (Electronics Manufacturing Services) company. Makes LED TVs (for Samsung, Panasonic), mobile phones (for Motorola, Nokia), washing machines, LED lighting. Pure-play on India's PLI scheme and Make in India electronics manufacturing."
+            },
+            {
+                "name": "Prestige Estates",
+                "ticker": "PRESTIGE",
+                "weight": 2.12,
+                "sector": "Real Estate",
+                "color": "#795548",
+                "description": "Bangalore-based premium real estate developer. Builds residential (prestige city), commercial offices, retail malls and hospitality properties. Strong brand in South India's property market. NCR expansion adding new growth leg."
+            },
+            {
+                "name": "Kaynes Technology",
+                "ticker": "KAYNES",
+                "weight": 2.05,
+                "sector": "Electronics",
+                "color": "#00BCD4",
+                "description": "Electronic Manufacturing Services company focusing on IoT, industrial electronics and automotive embedded electronics. One of India's fastest-growing EMS players benefiting from domestic electronics production growth and import substitution."
+            },
+            {
+                "name": "Jindal Steel & Power",
+                "ticker": "JINDALSTEL",
+                "weight": 1.98,
+                "sector": "Steel",
+                "color": "#607D8B",
+                "description": "Integrated steel producer (9 MMTPA capacity) with captive iron ore mines in Odisha and coal mines. Operates India's largest single-location blast furnace at Angul, Odisha. Beneficiary of infrastructure capex and PLI for specialty steel."
+            },
+            {
+                "name": "Voltas Ltd",
+                "ticker": "VOLTAS",
+                "weight": 1.87,
+                "sector": "Consumer Durables",
+                "color": "#00897B",
+                "description": "Tata Group's cooling products and engineering company. India's #1 AC brand by market share (22%). Also into engineering, electro-mechanical projects (MEP in buildings) and refrigeration. Voltas Beko JV for washing machines and refrigerators."
+            },
+            {
+                "name": "Tube Investments of India",
+                "ticker": "TIINDIA",
+                "weight": 1.76,
+                "sector": "Diversified Engineering",
+                "color": "#FF5722",
+                "description": "Murugappa Group flagship. Metal formed products (tubes, cylinders for auto). TI Cycles (BSA, Hercules, Montra brands). Acquired CG Power (power equipment). New-age mobility investments through Cellestial E-Mobility and Vidhyut-Tech EV drivetrains."
+            },
+            {
+                "name": "Indian Hotels Company",
+                "ticker": "INDHOTEL",
+                "weight": 1.65,
+                "sector": "Hospitality",
+                "color": "#8D6E63",
+                "description": "Tata Group's hospitality arm. Taj Hotels — India's most iconic luxury hotel brand. Vivanta (upscale), SeleQtions, and Ginger (budget). 250+ hotels in 100+ locations globally. Strong RevPAR recovery post-COVID and robust MICE segment."
+            },
+            {
+                "name": "Max Financial Services",
+                "ticker": "MFSL",
+                "weight": 1.54,
+                "sector": "Insurance",
+                "color": "#7B1FA2",
+                "description": "Parent company of Max Life Insurance — India's 4th largest private life insurer. Strong bancassurance channel via Axis Bank JV. Term and ULIP products growing. Embedded value (EV) growth of 20%+ driving shareholder value creation."
+            },
+            {
+                "name": "Coromandel International",
+                "ticker": "COROMANDEL",
+                "weight": 1.43,
+                "sector": "Agri-inputs",
+                "color": "#558B2F",
+                "description": "India's 2nd largest phosphatic fertiliser company. Makes DAP, NPK fertilisers, specialty nutrients, crop protection chemicals and organic nutrients. Strong South India distribution. Murugappa Group company with consistent 20%+ ROE."
+            },
+            {
+                "name": "Bharat Forge",
+                "ticker": "BHARATFORG",
+                "weight": 1.32,
+                "sector": "Forging",
+                "color": "#5D4037",
+                "description": "World's 2nd largest forging company. Makes crankshafts, front axle beams and connecting rods for global auto OEMs. Pivoting to high-margin defence (ATAGS artillery guns) and aerospace components. 40% revenue from exports."
+            },
+            {
+                "name": "Page Industries",
+                "ticker": "PAGEIND",
+                "weight": 1.21,
+                "sector": "Textiles",
+                "color": "#F06292",
+                "description": "Exclusive licensee of Jockey brand in India, Sri Lanka, Bangladesh and UAE since 1994. India's premium innerwear market leader. Also holds Speedo license for India. Asset-light franchise model with 80%+ ROCE and premium brand positioning."
+            }
+        ]
     },
-    "holdings": [
-      {
-        "name": "Trent Ltd",
-        "ticker": "TRENT",
-        "weight": 2.89,
-        "sector": "Retail",
-        "color": "#E91E63",
-        "description": "Tata Group's retail powerhouse. Zudio — India's fastest-growing value fashion chain (500+ stores). Westside department stores for premium fashion. Star Bazaar hypermarkets. Inditex JV for Zara in India. 35%+ revenue CAGR making it a structural growth story."
-      },
-      {
-        "name": "Dixon Technologies",
-        "ticker": "DIXON",
-        "weight": 2.34,
-        "sector": "Electronics Manufacturing",
-        "color": "#2196F3",
-        "description": "India's largest EMS (Electronics Manufacturing Services) company. Makes LED TVs (for Samsung, Panasonic), mobile phones (for Motorola, Nokia), washing machines, LED lighting. Pure-play on India's PLI scheme and Make in India electronics manufacturing."
-      },
-      {
-        "name": "Prestige Estates",
-        "ticker": "PRESTIGE",
-        "weight": 2.12,
-        "sector": "Real Estate",
-        "color": "#795548",
-        "description": "Bangalore-based premium real estate developer. Builds residential (prestige city), commercial offices, retail malls and hospitality properties. Strong brand in South India's property market. NCR expansion adding new growth leg."
-      },
-      {
-        "name": "Kaynes Technology",
-        "ticker": "KAYNES",
-        "weight": 2.05,
-        "sector": "Electronics",
-        "color": "#00BCD4",
-        "description": "Electronic Manufacturing Services company focusing on IoT, industrial electronics and automotive embedded electronics. One of India's fastest-growing EMS players benefiting from domestic electronics production growth and import substitution."
-      },
-      {
-        "name": "Jindal Steel & Power",
-        "ticker": "JINDALSTEL",
-        "weight": 1.98,
-        "sector": "Steel",
-        "color": "#607D8B",
-        "description": "Integrated steel producer (9 MMTPA capacity) with captive iron ore mines in Odisha and coal mines. Operates India's largest single-location blast furnace at Angul, Odisha. Beneficiary of infrastructure capex and PLI for specialty steel."
-      },
-      {
-        "name": "Voltas Ltd",
-        "ticker": "VOLTAS",
-        "weight": 1.87,
-        "sector": "Consumer Durables",
-        "color": "#00897B",
-        "description": "Tata Group's cooling products and engineering company. India's #1 AC brand by market share (22%). Also into engineering, electro-mechanical projects (MEP in buildings) and refrigeration. Voltas Beko JV for washing machines and refrigerators."
-      },
-      {
-        "name": "Tube Investments of India",
-        "ticker": "TIINDIA",
-        "weight": 1.76,
-        "sector": "Diversified Engineering",
-        "color": "#FF5722",
-        "description": "Murugappa Group flagship. Metal formed products (tubes, cylinders for auto). TI Cycles (BSA, Hercules, Montra brands). Acquired CG Power (power equipment). New-age mobility investments through Cellestial E-Mobility and Vidhyut-Tech EV drivetrains."
-      },
-      {
-        "name": "Indian Hotels Company",
-        "ticker": "INDHOTEL",
-        "weight": 1.65,
-        "sector": "Hospitality",
-        "color": "#8D6E63",
-        "description": "Tata Group's hospitality arm. Taj Hotels — India's most iconic luxury hotel brand. Vivanta (upscale), SeleQtions, and Ginger (budget). 250+ hotels in 100+ locations globally. Strong RevPAR recovery post-COVID and robust MICE segment."
-      },
-      {
-        "name": "Max Financial Services",
-        "ticker": "MFSL",
-        "weight": 1.54,
-        "sector": "Insurance",
-        "color": "#7B1FA2",
-        "description": "Parent company of Max Life Insurance — India's 4th largest private life insurer. Strong bancassurance channel via Axis Bank JV. Term and ULIP products growing. Embedded value (EV) growth of 20%+ driving shareholder value creation."
-      },
-      {
-        "name": "Coromandel International",
-        "ticker": "COROMANDEL",
-        "weight": 1.43,
-        "sector": "Agri-inputs",
-        "color": "#558B2F",
-        "description": "India's 2nd largest phosphatic fertiliser company. Makes DAP, NPK fertilisers, specialty nutrients, crop protection chemicals and organic nutrients. Strong South India distribution. Murugappa Group company with consistent 20%+ ROE."
-      },
-      {
-        "name": "Bharat Forge",
-        "ticker": "BHARATFORG",
-        "weight": 1.32,
-        "sector": "Forging",
-        "color": "#5D4037",
-        "description": "World's 2nd largest forging company. Makes crankshafts, front axle beams and connecting rods for global auto OEMs. Pivoting to high-margin defence (ATAGS artillery guns) and aerospace components. 40% revenue from exports."
-      },
-      {
-        "name": "Page Industries",
-        "ticker": "PAGEIND",
-        "weight": 1.21,
-        "sector": "Textiles",
-        "color": "#F06292",
-        "description": "Exclusive licensee of Jockey brand in India, Sri Lanka, Bangladesh and UAE since 1994. India's premium innerwear market leader. Also holds Speedo license for India. Asset-light franchise model with 80%+ ROCE and premium brand positioning."
-      }
-    ]
-  },
-  {
-    "id": "niftysmallcap",
-    "name": "Nippon India Nifty SmallCap 250 ETF",
-    "ticker": "SMALLCAPETF",
-    "nseSymbol": "SMALLCAP",
-    "exchange": "NSE",
-    "category": "Mid Cap",
-    "color": "#7CB342",
-    "index": {
-      "name": "Nifty SmallCap 250 Index",
-      "launched": "April 2004",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 250,
-      "description": "Tracks the Nifty SmallCap 250 index — stocks ranked 251-500 by market cap. Higher risk, higher potential returns over long horizons. Best suited for SIP investors with 7+ year horizon. Captures India's emerging leaders before they become mid or large cap."
-    },
-    "holdings": [
-      {
-        "name": "Karur Vysya Bank",
-        "ticker": "KARURVYSYA",
-        "weight": 1.12,
-        "sector": "Banking",
-        "color": "#33691E",
-        "description": "Tamil Nadu-based private bank with strong South India presence. Vehicle finance, SME, and retail loans. Consistent dividend payer with improving asset quality and expanding digital banking."
-      },
-      {
-        "name": "KPR Mill",
-        "ticker": "KPRMILL",
-        "weight": 0.98,
-        "sector": "Textiles",
-        "color": "#558B2F",
-        "description": "Vertically integrated textile company. Yarn, fabric, garments (FASO brand). Captive power via wind and solar. Ethanol plant from damaged sugarcane. One of the most efficient textile exporters."
-      },
-      {
-        "name": "Galaxy Surfactants",
-        "ticker": "GALAXYSURF",
-        "weight": 0.87,
-        "sector": "Specialty Chemicals",
-        "color": "#689F38",
-        "description": "Specialty surfactants and performance chemicals for FMCG companies globally. Key supplier to HUL, Nestle, P&G. Export revenues >55%. Fatty acid derivatives command premium margins."
-      },
-      {
-        "name": "Blue Star Ltd",
-        "ticker": "BLUESTARCO",
-        "weight": 0.85,
-        "sector": "Consumer Durables",
+    {
+        "id": "niftysmallcap",
+        "name": "Nippon India Nifty SmallCap 250 ETF",
+        "ticker": "SMALLCAPETF",
+        "nseSymbol": "SMALLCAP",
+        "exchange": "NSE",
+        "category": "Mid Cap",
         "color": "#7CB342",
-        "description": "India's second-largest air conditioner brand after Voltas. Commercial refrigeration and HVAC systems for IT parks, malls, and hospitals. Strong after-sales service network."
-      },
-      {
-        "name": "Chalet Hotels",
-        "ticker": "CHALET",
-        "weight": 0.76,
-        "sector": "Hospitality",
-        "color": "#8BC34A",
-        "description": "Upscale hotel developer and operator. Properties co-located with commercial offices in Bengaluru, Mumbai, Hyderabad. Marriott franchised properties. Asset-light management contracts added post-COVID."
-      },
-      {
-        "name": "CAMS (CAMS Services)",
-        "ticker": "CAMSSEBI",
-        "weight": 0.74,
-        "sector": "Financial Services",
-        "color": "#9CCC65",
-        "description": "Computer Age Management Services — India's largest mutual fund RTA with 68% market share. Processes 70% of all MF transactions. Insurance repository and KYC businesses diversify revenue."
-      },
-      {
-        "name": "Sudarshan Chemical",
-        "ticker": "SUDARSCHEM",
-        "weight": 0.67,
-        "sector": "Specialty Chemicals",
-        "color": "#AED581",
-        "description": "India's largest pigment manufacturer. Exports to over 80 countries. High-performance pigments for automotive coatings, printing inks, and plastics. R&D investments for effect pigments growing."
-      },
-      {
-        "name": "Birlasoft",
-        "ticker": "BSOFT",
-        "weight": 0.65,
-        "sector": "IT Services",
-        "color": "#C5E1A5",
-        "description": "Mid-size IT services company spun out of KPIT after merger. ERP (SAP, Oracle), cloud, and digital transformation for manufacturing, BFSI, and life sciences verticals globally."
-      },
-      {
-        "name": "Mtar Technologies",
-        "ticker": "MTARTECH",
-        "weight": 0.62,
-        "sector": "Defence & Space",
-        "color": "#DCEDC8",
-        "description": "Precision manufacturing for nuclear, space, and defence sectors. ISRO and DRDO supplier. Fuel cells for defence UAVs. Clean energy components for proton exchange membrane fuel cells."
-      },
-      {
-        "name": "Shyam Metalics",
-        "ticker": "SHYAMMETL",
-        "weight": 0.58,
-        "sector": "Metals",
-        "color": "#F1F8E9",
-        "description": "Integrated metals company: sponge iron, billets, wire rods, ferro alloys. Captive power plants lower opex. Eastern India concentration with proximity to coal and iron ore mines in Jharkhand."
-      }
-    ]
-  },
-  {
-    "id": "mom100",
-    "name": "Motilal Oswal Nifty Midcap 100 ETF",
-    "ticker": "MOM100",
-    "nseSymbol": "MOM100",
-    "exchange": "NSE",
-    "category": "Mid Cap",
-    "color": "#FF6D00",
-    "index": {
-      "name": "Nifty Midcap 100",
-      "launched": "June 2011",
-      "methodology": "Free-Float Market Cap",
-      "rebalance": "Semi-Annual",
-      "companies": 100,
-      "description": "Nifty Midcap 100 captures India's 101st to 200th largest listed companies by free-float market cap — the sweet spot of companies that have proven their business model but still retain significant growth headroom. Historically, Indian midcap indices have outperformed largecaps over 10-year periods owing to higher earnings growth, lower analyst coverage (less efficient pricing), and the 'size premium' rewarding investors for illiquidity risk. MOM100 by Motilal Oswal AMC has been India's go-to passive midcap product since 2011. Motilal pioneered passive investing in India with their first NASDAQ 100 fund and followed with midcap products. Nifty Midcap 100 includes companies across diverse sectors — chemicals, textiles, FMCG, healthcare, industrials, IT — providing balanced exposure to India's growth engine. The index is more volatile than Nifty 50 (beta ~1.3) with higher drawdown risk during corrections (-40% to -50% in bear markets). However, the recovery is equally sharp — post-2020 COVID crash, midcap 100 delivered 120%+ returns in 18 months. Best suited for investors with 7+ year horizon willing to endure volatility for superior compounding. SIP suits midcap ETFs better than lump sum owing to volatility."
+        "index": {
+            "name": "Nifty SmallCap 250 Index",
+            "launched": "April 2004",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 250,
+            "description": "Tracks the Nifty SmallCap 250 index — stocks ranked 251-500 by market cap. Higher risk, higher potential returns over long horizons. Best suited for SIP investors with 7+ year horizon. Captures India's emerging leaders before they become mid or large cap."
+        },
+        "holdings": [
+            {
+                "name": "Karur Vysya Bank",
+                "ticker": "KARURVYSYA",
+                "weight": 1.12,
+                "sector": "Banking",
+                "color": "#33691E",
+                "description": "Tamil Nadu-based private bank with strong South India presence. Vehicle finance, SME, and retail loans. Consistent dividend payer with improving asset quality and expanding digital banking."
+            },
+            {
+                "name": "KPR Mill",
+                "ticker": "KPRMILL",
+                "weight": 0.98,
+                "sector": "Textiles",
+                "color": "#558B2F",
+                "description": "Vertically integrated textile company. Yarn, fabric, garments (FASO brand). Captive power via wind and solar. Ethanol plant from damaged sugarcane. One of the most efficient textile exporters."
+            },
+            {
+                "name": "Galaxy Surfactants",
+                "ticker": "GALAXYSURF",
+                "weight": 0.87,
+                "sector": "Specialty Chemicals",
+                "color": "#689F38",
+                "description": "Specialty surfactants and performance chemicals for FMCG companies globally. Key supplier to HUL, Nestle, P&G. Export revenues >55%. Fatty acid derivatives command premium margins."
+            },
+            {
+                "name": "Blue Star Ltd",
+                "ticker": "BLUESTARCO",
+                "weight": 0.85,
+                "sector": "Consumer Durables",
+                "color": "#7CB342",
+                "description": "India's second-largest air conditioner brand after Voltas. Commercial refrigeration and HVAC systems for IT parks, malls, and hospitals. Strong after-sales service network."
+            },
+            {
+                "name": "Chalet Hotels",
+                "ticker": "CHALET",
+                "weight": 0.76,
+                "sector": "Hospitality",
+                "color": "#8BC34A",
+                "description": "Upscale hotel developer and operator. Properties co-located with commercial offices in Bengaluru, Mumbai, Hyderabad. Marriott franchised properties. Asset-light management contracts added post-COVID."
+            },
+            {
+                "name": "CAMS (CAMS Services)",
+                "ticker": "CAMSSEBI",
+                "weight": 0.74,
+                "sector": "Financial Services",
+                "color": "#9CCC65",
+                "description": "Computer Age Management Services — India's largest mutual fund RTA with 68% market share. Processes 70% of all MF transactions. Insurance repository and KYC businesses diversify revenue."
+            },
+            {
+                "name": "Sudarshan Chemical",
+                "ticker": "SUDARSCHEM",
+                "weight": 0.67,
+                "sector": "Specialty Chemicals",
+                "color": "#AED581",
+                "description": "India's largest pigment manufacturer. Exports to over 80 countries. High-performance pigments for automotive coatings, printing inks, and plastics. R&D investments for effect pigments growing."
+            },
+            {
+                "name": "Birlasoft",
+                "ticker": "BSOFT",
+                "weight": 0.65,
+                "sector": "IT Services",
+                "color": "#C5E1A5",
+                "description": "Mid-size IT services company spun out of KPIT after merger. ERP (SAP, Oracle), cloud, and digital transformation for manufacturing, BFSI, and life sciences verticals globally."
+            },
+            {
+                "name": "Mtar Technologies",
+                "ticker": "MTARTECH",
+                "weight": 0.62,
+                "sector": "Defence & Space",
+                "color": "#DCEDC8",
+                "description": "Precision manufacturing for nuclear, space, and defence sectors. ISRO and DRDO supplier. Fuel cells for defence UAVs. Clean energy components for proton exchange membrane fuel cells."
+            },
+            {
+                "name": "Shyam Metalics",
+                "ticker": "SHYAMMETL",
+                "weight": 0.58,
+                "sector": "Metals",
+                "color": "#F1F8E9",
+                "description": "Integrated metals company: sponge iron, billets, wire rods, ferro alloys. Captive power plants lower opex. Eastern India concentration with proximity to coal and iron ore mines in Jharkhand."
+            }
+        ]
     },
-    "holdings": [
-      { "name": "Voltas", "ticker": "VOLTAS", "weight": 1.65, "sector": "Consumer Durables", "color": "#0277BD", "description": "India's #1 room AC brand owned by Tata Group. AC penetration in India is <10% vs >90% in developed markets — massive runway. Voltas-Beko JV expanding into washing machines, refrigerators. Unified Comfort Systems (UCS) division for commercial chillers and HVAC." },
-      { "name": "Bharat Electronics", "ticker": "BEL", "weight": 1.58, "sector": "Defence Electronics", "color": "#1A237E", "description": "India's premier defence electronics PSU. ₹70,000 Cr+ order book in radars, avionics, EW systems, night vision. Beneficiary of ₹3L Cr defence capex push over 5 years. Rising export orders from Southeast Asia and Middle East." },
-      { "name": "Persistent Systems", "ticker": "PERSISTENT", "weight": 1.45, "sector": "IT Services", "color": "#1976D2", "description": "Mid-tier IT with fastest revenue growth in sector (35%+ CAGR last 3 years). Product engineering and digital transformation focus. Microsoft Azure and Salesforce partnerships driving deal wins. North America revenue >60% with rising Europe mix." },
-      { "name": "Coforge", "ticker": "COFORGE", "weight": 1.38, "sector": "IT Services", "color": "#E53935", "description": "Insurance and BFSI-specialist IT services. Cigniti acquisition expanded testing capabilities. NIIT parentage brings institutional credibility. Revenue guidance upgraded consistently. In-house BFS platform accelerates client onboarding and reduces sales cycle." },
-      { "name": "Cholamandalam Finance", "ticker": "CHOLAFIN", "weight": 1.31, "sector": "NBFC", "color": "#FF6F00", "description": "Murugappa Group's NBFC dominant in commercial vehicle, tractor and gold loans. Vehicle finance market share rising. Chola MS General Insurance subsidiary unlocking value. Strong asset quality with deep rural distribution advantage." },
-      { "name": "MRF Tyres", "ticker": "MRF", "weight": 1.25, "sector": "Auto Ancillary", "color": "#212121", "description": "India's largest and most expensive stock (₹1.2L+ per share). Tyre market leader with 32% market share in truck tyres. Brand synonymous with quality. Radial tyre export opportunity to Middle East and ASEAN. 65%+ capacity utilisation leaving headroom for growth without capex surge." },
-      { "name": "Crompton Greaves Consumer", "ticker": "CROMPTON", "weight": 1.18, "sector": "Consumer Durables", "color": "#C62828", "description": "Leading fan, pump and domestic appliance brand. Butterfly Gandhimati kitchen appliances acquisition expanded South India presence. Premium fans (BLDC energy-efficient) growing at 30%+ with premiumisation trend. Working capital-light model with strong FCF generation." },
-      { "name": "Navin Fluorine", "ticker": "NAVINFLUOR", "weight": 1.12, "sector": "Specialty Chemicals", "color": "#00897B", "description": "Fluorine chemistry specialist with applications in agrochem, pharma and refrigerants. CRAMS (contract R&D and manufacturing) growth from global agrochemical and pharmaceutical innovators. High barriers to entry in fluorination chemistry create sustainable moat." },
-      { "name": "LIC Housing Finance", "ticker": "LICHSGFIN", "weight": 1.08, "sector": "Housing Finance", "color": "#283593", "description": "LIC-backed housing finance company. Affordable housing focus in Tier-2/3 cities. Beneficiary of PMAY (housing for all) government scheme. NIM expansion as high-cost borrowings mature. Parent LIC's distribution network provides low-cost loan origination." },
-      { "name": "Mphasis", "ticker": "MPHASIS", "weight": 1.02, "sector": "IT Services", "color": "#00BCD4", "description": "Blackstone-owned IT services focused on BFSI and mortgage technology. DirectCore cloud platform for financial services. Revenue growth rebounding post US mortgage market correction. Frontier Tech unit building AI, ML and blockchain-based solutions for capital markets." }
-    ]
-  }
+    {
+        "id": "mom100",
+        "name": "Motilal Oswal Nifty Midcap 100 ETF",
+        "ticker": "MOM100",
+        "nseSymbol": "MOM100",
+        "exchange": "NSE",
+        "category": "Mid Cap",
+        "color": "#FF6D00",
+        "index": {
+            "name": "Nifty Midcap 100",
+            "launched": "June 2011",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 100,
+            "description": "Nifty Midcap 100 captures India's 101st to 200th largest listed companies by free-float market cap — the sweet spot of companies that have proven their business model but still retain significant growth headroom. Historically, Indian midcap indices have outperformed largecaps over 10-year periods owing to higher earnings growth, lower analyst coverage (less efficient pricing), and the 'size premium' rewarding investors for illiquidity risk. MOM100 by Motilal Oswal AMC has been India's go-to passive midcap product since 2011. Motilal pioneered passive investing in India with their first NASDAQ 100 fund and followed with midcap products. Nifty Midcap 100 includes companies across diverse sectors — chemicals, textiles, FMCG, healthcare, industrials, IT — providing balanced exposure to India's growth engine. The index is more volatile than Nifty 50 (beta ~1.3) with higher drawdown risk during corrections (-40% to -50% in bear markets). However, the recovery is equally sharp — post-2020 COVID crash, midcap 100 delivered 120%+ returns in 18 months. Best suited for investors with 7+ year horizon willing to endure volatility for superior compounding. SIP suits midcap ETFs better than lump sum owing to volatility."
+        },
+        "holdings": [
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 1.65,
+                "sector": "Consumer Durables",
+                "color": "#0277BD",
+                "description": "India's #1 room AC brand owned by Tata Group. AC penetration in India is <10% vs >90% in developed markets — massive runway. Voltas-Beko JV expanding into washing machines, refrigerators. Unified Comfort Systems (UCS) division for commercial chillers and HVAC."
+            },
+            {
+                "name": "Bharat Electronics",
+                "ticker": "BEL",
+                "weight": 1.58,
+                "sector": "Defence Electronics",
+                "color": "#1A237E",
+                "description": "India's premier defence electronics PSU. ₹70,000 Cr+ order book in radars, avionics, EW systems, night vision. Beneficiary of ₹3L Cr defence capex push over 5 years. Rising export orders from Southeast Asia and Middle East."
+            },
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 1.45,
+                "sector": "IT Services",
+                "color": "#1976D2",
+                "description": "Mid-tier IT with fastest revenue growth in sector (35%+ CAGR last 3 years). Product engineering and digital transformation focus. Microsoft Azure and Salesforce partnerships driving deal wins. North America revenue >60% with rising Europe mix."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 1.38,
+                "sector": "IT Services",
+                "color": "#E53935",
+                "description": "Insurance and BFSI-specialist IT services. Cigniti acquisition expanded testing capabilities. NIIT parentage brings institutional credibility. Revenue guidance upgraded consistently. In-house BFS platform accelerates client onboarding and reduces sales cycle."
+            },
+            {
+                "name": "Cholamandalam Finance",
+                "ticker": "CHOLAFIN",
+                "weight": 1.31,
+                "sector": "NBFC",
+                "color": "#FF6F00",
+                "description": "Murugappa Group's NBFC dominant in commercial vehicle, tractor and gold loans. Vehicle finance market share rising. Chola MS General Insurance subsidiary unlocking value. Strong asset quality with deep rural distribution advantage."
+            },
+            {
+                "name": "MRF Tyres",
+                "ticker": "MRF",
+                "weight": 1.25,
+                "sector": "Auto Ancillary",
+                "color": "#212121",
+                "description": "India's largest and most expensive stock (₹1.2L+ per share). Tyre market leader with 32% market share in truck tyres. Brand synonymous with quality. Radial tyre export opportunity to Middle East and ASEAN. 65%+ capacity utilisation leaving headroom for growth without capex surge."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 1.18,
+                "sector": "Consumer Durables",
+                "color": "#C62828",
+                "description": "Leading fan, pump and domestic appliance brand. Butterfly Gandhimati kitchen appliances acquisition expanded South India presence. Premium fans (BLDC energy-efficient) growing at 30%+ with premiumisation trend. Working capital-light model with strong FCF generation."
+            },
+            {
+                "name": "Navin Fluorine",
+                "ticker": "NAVINFLUOR",
+                "weight": 1.12,
+                "sector": "Specialty Chemicals",
+                "color": "#00897B",
+                "description": "Fluorine chemistry specialist with applications in agrochem, pharma and refrigerants. CRAMS (contract R&D and manufacturing) growth from global agrochemical and pharmaceutical innovators. High barriers to entry in fluorination chemistry create sustainable moat."
+            },
+            {
+                "name": "LIC Housing Finance",
+                "ticker": "LICHSGFIN",
+                "weight": 1.08,
+                "sector": "Housing Finance",
+                "color": "#283593",
+                "description": "LIC-backed housing finance company. Affordable housing focus in Tier-2/3 cities. Beneficiary of PMAY (housing for all) government scheme. NIM expansion as high-cost borrowings mature. Parent LIC's distribution network provides low-cost loan origination."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.02,
+                "sector": "IT Services",
+                "color": "#00BCD4",
+                "description": "Blackstone-owned IT services focused on BFSI and mortgage technology. DirectCore cloud platform for financial services. Revenue growth rebounding post US mortgage market correction. Frontier Tech unit building AI, ML and blockchain-based solutions for capital markets."
+            }
+        ]
+    },
+    {
+        "id": "hdfcsml250",
+        "name": "HDFC Mutual Fund - HDFC NIFTY Smallcap 250 ETF",
+        "ticker": "HDFCSML250",
+        "nseSymbol": "HDFCSML250",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "HDFC NIFTY Smallcap 250 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC Mutual Fund - HDFC NIFTY Smallcap 250 ETF tracks the HDFC NIFTY Smallcap 250 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "mid150bees",
+        "name": "NIPPON INDIA ETF NIFTY MIDCAP 150",
+        "ticker": "MID150BEES",
+        "nseSymbol": "MID150BEES",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 150 TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "NIPPON INDIA ETF NIFTY MIDCAP 150 tracks the Nifty Midcap 150 TRI index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "midcapetf",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Midcap 150 ETF",
+        "ticker": "MIDCAPETF",
+        "nseSymbol": "MIDCAPETF",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Midcap 150 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty Midcap 150 ETF tracks the Mirae Asset Mutual Fund - Mirae Asset Nifty Midcap 150 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "mosmall250",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Smallcap 250 ETF",
+        "ticker": "MOSMALL250",
+        "nseSymbol": "MOSMALL250",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Motilal Oswal Nifty Smallcap 250 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Smallcap 250 ETF tracks the Motilal Oswal Nifty Smallcap 250 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "mid150case",
+        "name": "Zerodha Fund House - Zerodha Nifty Midcap 150 ETF",
+        "ticker": "MID150CASE",
+        "nseSymbol": "MID150CASE",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Zerodha Nifty Midcap 150 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Zerodha Fund House - Zerodha Nifty Midcap 150 ETF tracks the Zerodha Nifty Midcap 150 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "hdfcmid150",
+        "name": "HDFC Mutual Fund - HDFC NIFTY Midcap 150 ETF",
+        "ticker": "HDFCMID150",
+        "nseSymbol": "HDFCMID150",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "HDFC NIFTY Midcap 150 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "HDFC Mutual Fund - HDFC NIFTY Midcap 150 ETF tracks the HDFC NIFTY Midcap 150 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "sml100case",
+        "name": "Zerodha Fund House - Zerodha Nifty Smallcap 100 ETF",
+        "ticker": "SML100CASE",
+        "nseSymbol": "SML100CASE",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Smallcap 100 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Zerodha Fund House - Zerodha Nifty Smallcap 100 ETF tracks the Nifty Smallcap 100 Index index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "midcap",
+        "name": "Kotak Nifty Midcap 50 ETF",
+        "ticker": "MIDCAP",
+        "nseSymbol": "MIDCAP",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 50 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Nifty Midcap 50 ETF tracks the Nifty Midcap 50 Index index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "elm250",
+        "name": "Edelweiss Mutual Fund - Edelweiss Nifty LargeMidcap 250 ETF",
+        "ticker": "ELM250",
+        "nseSymbol": "ELM250",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty LargeMidcap 250 TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Edelweiss Mutual Fund - Edelweiss Nifty LargeMidcap 250 ETF tracks the Nifty LargeMidcap 250 TRI index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "small250",
+        "name": "Mirae Asset Mutual Fund - Mirae Asset Nifty Smallcap 250 ETF",
+        "ticker": "SMALL250",
+        "nseSymbol": "SMALL250",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Smallcap 250",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty Smallcap 250 ETF tracks the Nifty Smallcap 250 index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "mid150",
+        "name": "Kotak Mahindra Mutual Fund - Kotak Nifty Midcap 150 ETF",
+        "ticker": "MID150",
+        "nseSymbol": "MID150",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 150 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Kotak Mahindra Mutual Fund - Kotak Nifty Midcap 150 ETF tracks the Nifty Midcap 150 Index index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "midselietf",
+        "name": "ICICI Prudential BSE Midcap Select ETF",
+        "ticker": "MIDSELIETF",
+        "nseSymbol": "MIDSELIETF",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "S&P BSE Midcap Select Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "ICICI Prudential BSE Midcap Select ETF tracks the S&P BSE Midcap Select Index index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "growwsc250",
+        "name": "Groww Mutual Fund - Groww Nifty Smallcap 250 ETF",
+        "ticker": "GROWWSC250",
+        "nseSymbol": "GROWWSC250",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Smallcap 250 Index - TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Nifty Smallcap 250 ETF tracks the Nifty Smallcap 250 Index - TRI index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "smalladd",
+        "name": "DSP Mutual Fund - DSP Nifty Smallcap 250 ETF",
+        "ticker": "SMALLADD",
+        "nseSymbol": "SMALLADD",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Smallcap 250 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP Mutual Fund - DSP Nifty Smallcap 250 ETF tracks the Nifty Smallcap 250 Index index."
+        },
+        "holdings": [
+            {
+                "name": "NLC India",
+                "ticker": "NLCINDIA",
+                "weight": 1.4,
+                "sector": "Power / Lignite Mining",
+                "color": "#4CAF50",
+                "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+            },
+            {
+                "name": "Radico Khaitan",
+                "ticker": "RADICO",
+                "weight": 1.3,
+                "sector": "FMCG - Spirits",
+                "color": "#880E4F",
+                "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+            },
+            {
+                "name": "Star Health Insurance",
+                "ticker": "STARHEALTH",
+                "weight": 1.2,
+                "sector": "Insurance",
+                "color": "#B71C1C",
+                "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+            },
+            {
+                "name": "CEAT Ltd",
+                "ticker": "CEATLTD",
+                "weight": 1.1,
+                "sector": "Auto Ancillary",
+                "color": "#37474F",
+                "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+            },
+            {
+                "name": "Piramal Enterprises",
+                "ticker": "PEL",
+                "weight": 1.0,
+                "sector": "Financial Services",
+                "color": "#1A237E",
+                "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+            },
+            {
+                "name": "Cyient Ltd",
+                "ticker": "CYIENT",
+                "weight": 0.9,
+                "sector": "IT Engineering Services",
+                "color": "#006064",
+                "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+            }
+        ]
+    },
+    {
+        "id": "molowvol",
+        "name": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Low Volatility ETF",
+        "ticker": "MOLOWVOL",
+        "nseSymbol": "MOLOWVOL",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 100 TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Motilal Oswal Mutual Fund - Motilal Oswal S&P BSE Low Volatility ETF tracks the Nifty Midcap 100 TRI index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "licnmid100",
+        "name": "LIC Mutual Fund - LIC MF Nifty Midcap 100 ETF",
+        "ticker": "LICNMID100",
+        "nseSymbol": "LICNMID100",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "LIC MF Nifty Midcap 100 ETF",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "LIC Mutual Fund - LIC MF Nifty Midcap 100 ETF tracks the LIC MF Nifty Midcap 100 ETF index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "midcapbeta",
+        "name": "UTI Mutual Fund - UTI Nifty Midcap 150 Exchange Traded Fund (ETF)",
+        "ticker": "MIDCAPBETA",
+        "nseSymbol": "MIDCAPBETA",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "UTI Nifty Midcap 150 Exchange Traded Fund (ETF)",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "UTI Mutual Fund - UTI Nifty Midcap 150 Exchange Traded Fund (ETF) tracks the UTI Nifty Midcap 150 Exchange Traded Fund (ETF) index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "growwmc150",
+        "name": "Groww Mutual Fund - Groww Nifty Midcap 150 ETF",
+        "ticker": "GROWWMC150",
+        "nseSymbol": "GROWWMC150",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 150 Index - TRI",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "Groww Mutual Fund - Groww Nifty Midcap 150 ETF tracks the Nifty Midcap 150 Index - TRI index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    },
+    {
+        "id": "midcapadd",
+        "name": "DSP Mutual Fund - DSP Nifty Midcap 150 ETF",
+        "ticker": "MIDCAPADD",
+        "nseSymbol": "MIDCAPADD",
+        "exchange": "NSE",
+        "category": "Mid & Small Cap",
+        "color": "#37474F",
+        "index": {
+            "name": "Nifty Midcap 150 Index",
+            "launched": "",
+            "methodology": "Free-Float Market Cap",
+            "rebalance": "Semi-Annual",
+            "companies": 0,
+            "description": "DSP Mutual Fund - DSP Nifty Midcap 150 ETF tracks the Nifty Midcap 150 Index index."
+        },
+        "holdings": [
+            {
+                "name": "Persistent Systems",
+                "ticker": "PERSISTENT",
+                "weight": 2.9,
+                "sector": "IT Services",
+                "color": "#006064",
+                "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+            },
+            {
+                "name": "Coforge",
+                "ticker": "COFORGE",
+                "weight": 2.6,
+                "sector": "IT Services",
+                "color": "#004D40",
+                "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+            },
+            {
+                "name": "Voltas",
+                "ticker": "VOLTAS",
+                "weight": 2.3,
+                "sector": "Consumer Durables",
+                "color": "#E65100",
+                "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+            },
+            {
+                "name": "Balkrishna Industries",
+                "ticker": "BALKRISIND",
+                "weight": 2.1,
+                "sector": "Auto Ancillary",
+                "color": "#4E342E",
+                "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+            },
+            {
+                "name": "Crompton Greaves Consumer",
+                "ticker": "CROMPTON",
+                "weight": 2.0,
+                "sector": "Consumer Durables",
+                "color": "#607D8B",
+                "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+            },
+            {
+                "name": "Mphasis",
+                "ticker": "MPHASIS",
+                "weight": 1.9,
+                "sector": "IT Services",
+                "color": "#7B1FA2",
+                "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+            }
+        ]
+    }
 ]
