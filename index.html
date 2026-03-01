@@ -225,7 +225,7 @@ return `
 <div class="card-name">${esc(etf.name)}</div>
 <div class="card-ticker">${etf.ticker}</div>
 <div class="card-metrics">
-${[['NAV',etf.nav],['AUM',etf.aum],['Expense',etf.expense]].map(([k,v])=>`
+${[['Price',etf.nav],['AUM',etf.aum],['Expense',etf.expense]].map(([k,v])=>`
 <div class="metric-box"><div class="metric-lbl">${k}</div><div class="metric-val">${esc(v)}</div></div>`).join('')}
 </div>
 <div class="index-badge" style="background:${etf.color}12;border:1px solid ${etf.color}25;">
@@ -256,6 +256,43 @@ style="cursor:pointer;">
 <td>${tag(etf.category.split(' - ')[1]||etf.category,etf.color)}</td>
 </tr>`).join('');
 }
+// ── LIVE PRICE (Yahoo Finance) ───────────────────────────────────────────────
+function yahooTicker(etf){
+// BSE-only ETFs use .BO suffix; everything else uses .NS (NSE preferred)
+const bseOnly = etf.exchange.trim() === 'BSE';
+return etf.ticker + (bseOnly ? '.BO' : '.NS');
+}
+async function fetchLivePrice(etf){
+const el = document.getElementById('modal-live-price');
+if(!el) return;
+el.style.opacity='0.5';
+el.textContent='...';
+const sym = yahooTicker(etf);
+const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=1d&includePrePost=false`;
+try{
+const res = await fetch(url);
+if(!res.ok) throw new Error(`HTTP ${res.status}`);
+const data = await res.json();
+const meta = data?.chart?.result?.[0]?.meta;
+const price = meta?.regularMarketPrice;
+if(price == null) throw new Error('no price');
+const prev = meta?.chartPreviousClose || meta?.previousClose;
+const change= prev ? ((price - prev) / prev * 100) : null;
+const color = change == null ? C.gold : change >= 0 ? C.green : C.red;
+const sign = change == null ? '' : change >= 0 ? '▲' : '▼';
+const chStr = change == null ? '' : ` <span style="font-size:11px;">${sign}${Math.abs(change).toFixed(2)}%</span>`;
+el.style.opacity='1';
+el.style.color=color;
+el.innerHTML=`₹${price.toLocaleString('en-IN',{minimumFractionDigits:2,maximumFractionDigits:2})}${chStr}`;
+gtag('event','live_price_loaded',{ticker:etf.ticker,price});
+} catch(err){
+// Silently fall back to static price
+const staticVal = el.getAttribute('data-static') || etf.nav;
+el.style.opacity='1';
+el.style.color=C.gold;
+el.textContent=staticVal;
+}
+}
 // ── MODAL ─────────────────────────────────────────────────────────────────────
 let _searchTimer=null;
 function trackSearch(q){
@@ -271,6 +308,7 @@ renderModal();
 document.getElementById('modal-overlay').classList.add('open');
 document.body.style.overflow='hidden';
 gtag('event','view_etf',{etf_id:activeModal.id,etf_name:activeModal.name,etf_category:activeModal.category});
+fetchLivePrice(activeModal);
 }
 function closeModal(){
 document.getElementById('modal-overlay').classList.remove('open');
@@ -295,8 +333,13 @@ const sMap={};
 etf.holdings.forEach(h=>{sMap[h.sector]=(sMap[h.sector]||0)+h.weight;});
 const sectors=Object.entries(sMap).sort((a,b)=>b[1]-a[1]);
 const totalW=etf.holdings.reduce((s,h)=>s+h.weight,0);
-const metaBoxes=[['NAV',etf.nav,C.gold],['AUM',etf.aum,C.green],['Expense',etf.expense,C.accentHi],['Exchange',etf.exchange,C.saffron]]
-.map(([k,v,c])=>`<div class="modal-metric"><div class="modal-metric-lbl">${k}</div><div style="font-size:14px;color:${c};font-weight:800;">${esc(v)}</div></div>`).join('');
+const metaBoxes=[
+`<div class="modal-metric"><div class="modal-metric-lbl">PRICE <span style="font-size:7px;color:${C.faint};font-weight:400;">~15min delay</span></div><div id="modal-live-price" data-static="${esc(etf.nav)}" style="font-size:14px;color:${C.gold};font-weight:800;">${esc(etf.nav)}</div></div>`,
+...['AUM','Expense','Exchange'].map((k,i)=>{
+const [v,c]=[[etf.aum,C.green],[etf.expense,C.accentHi],[etf.exchange,C.saffron]][i];
+return `<div class="modal-metric"><div class="modal-metric-lbl">${k}</div><div style="font-size:14px;color:${c};font-weight:800;">${esc(v)}</div></div>`;
+})
+].join('');
 const indexMeta=[['Launched',etf.index.launched],['Methodology',etf.index.methodology],['Rebalance',etf.index.rebalance],['Companies',etf.index.companies||etf.holdings.length]]
 .map(([k,v])=>`<div class="index-meta-box"><div style="font-size:8px;color:${C.faint};letter-spacing:2px;">${k.toUpperCase()}</div><div style="font-size:12px;color:${C.text};font-weight:700;margin-top:2px;">${esc(String(v))}</div></div>`).join('');
 const sectorRows=sectors.map(([s,w])=>`
