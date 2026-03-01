@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Quarterly",
       "companies": 12,
-      "description": "The Nifty Bank Index tracks 12 most liquid and large-cap Indian banking stocks on NSE. Serves as benchmark for banking ETFs and F&O derivatives. Heavily influenced by RBI monetary policy, credit growth cycles, and NPA trends. One of the most actively traded indices globally — Nifty Bank weekly options are among the world's highest volume derivative contracts."
+      "description": "Nifty Bank tracks 12 largest, most liquid banking stocks on NSE. De facto barometer of RBI monetary policy transmission — bank NIM (Net Interest Margin) expands during high-rate environments, compresses during rate cuts. Most actively traded index globally (weekly options volume exceeds $100B notional). Private banks dominate: HDFC Bank (28.5%), ICICI Bank (22.3%), Kotak (12.6%) control ~63% weight. Banks leverage economic growth through credit creation — rural credit (MSME, agriculture, auto loans) provides 40% incremental NPL risk during downturns but generates explosive growth during recoveries. Credit-to-GDP ratio of 50% in India vs 70% in US suggests 4-5 years of runway for incremental lending. Asset quality improved dramatically post-2019 (NPA cleanup, ₹3.5 Lakh Cr Govt recapitalization, SARFAESI recovery machinery). Current tailwinds: PM Mudra (50M small businesses), PM Kisan (₹500K farming loans), PM Awas (affordable housing mortgages). Headwind: deposit growth lagging credit growth (creating negative liquidity), forcing banks to pay depositors higher interest rates squeezing NIMs."
     },
     "holdings": [
       {

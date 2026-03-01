@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Semi-Annual",
       "companies": 20,
-      "description": "Tracks the Nifty Financial Services index — the broadest financial sector index covering banks, NBFCs, insurance, housing finance, and wealth management. India's financial sector is a proxy for the entire economy's growth, driven by credit expansion, insurance penetration, and capital markets deepening."
+      "description": "Nifty Financial Services (BFSI) tracks 20 companies spanning entire financial ecosystem: banks (HDFC 28.5%, ICICI 20.3%, Kotak 9.2%), NBFCs (Bajaj Finance 5.9%), life insurance (SBI Life 6.8%, HDFC Life 6.5%), general insurance (ICICI Lombard 4.2%), and asset managers (Kotak AMC embedded in bank stock). Broadest financial sector proxy — as India financializes (credit-to-GDP rising, insurance penetration ~3% vs 8% global average), this index captures entire structural upgrade. Three investment cycles: (1) Credit growth cycle — when credit expands faster than deposits, NIMs widen, bank profits surge 30%+ YoY; (2) Insurance penetration cycle — as incomes rise, term insurance adoption accelerates from 10% to 30% of working population; (3) Capital markets cycle — when Nifty rises, retail inflows to mutual funds rise, creating AUM growth for asset managers. Correlated to INR strength — RBI holding $600B forex reserves creates credibility, attracting capital inflows that fuel equity markets. Negative correlation to US 10-year yields — when US rates fall, Indian rates fall, pushing financial stocks up."
     },
     "holdings": [
       {

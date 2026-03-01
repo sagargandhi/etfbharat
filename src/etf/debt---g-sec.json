@@ -13,7 +13,7 @@
       "methodology": "Constant Maturity Government Securities",
       "rebalance": "Monthly (roll to on-the-run 10yr bond)",
       "companies": 1,
-      "description": "Tracks the current on-the-run 10-year Indian Government Security (benchmark G-Sec). Pure sovereign credit — zero default risk. Ideal for interest rate plays: buy when rates are expected to fall, as G-Sec prices rise when yields fall. Included in JP Morgan GBI-EM index (June 2024) — massive global demand catalyst. RBI's benchmark rate instrument."
+      "description": "Government of India Securities (G-Secs) represent pure sovereign credit — zero default risk. The 10-year benchmark G-Sec is RBI's primary policy transmission instrument. In June 2024, India's 10-year G-Sec inclusion in JP Morgan GBI-EM (Global Bond Index) triggered ~$25 billion passive foreign inflows, creating structural demand. Investors benefit from dual returns: (1) coupon income (7-8% annualized), (2) capital appreciation when RBI cuts rates (inverse relationship: rate ↓ → price ↑). Ideal for retirees seeking stable income, long-term wealth preservation, and tax efficiency (indexation benefit on long-term gains). G-Secs suitable for laddering strategy where 5-year, 10-year and 20-year bonds provide staggered maturity. RBI Open Market Operations use benchmark G-Secs as primary instrument, making them most liquid debt securities globally. During Fed rate hike cycles, G-Secs suffer from capital losses (rate ↑ → price ↓), but during easing cycles (post-2025 expected), substantial capital gains likely."
     },
     "holdings": [
       {

@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Semi-Annual",
       "companies": 15,
-      "description": "Tracks the Nifty Metal index representing India's metals and mining sector. Beneficiary of global commodity cycles, infrastructure buildout, and China demand recovery. Covers steel, aluminium, zinc, copper, and diversified miners."
+      "description": "Nifty Metal tracks 15 companies spanning steel (Tata Steel 18.5%, JSW Steel 15.7%, SAIL 7.6%), aluminium (Hindalco 17.2% through Novelis), zinc (Hindustan Zinc 8.9% within Vedanta 10.3%), and diversified miners (Vedanta). Highly cyclical with commodity price correlation — when global growth accelerates, construction/manufacturing demand surge; metals rally. Chinese demand drives 40%+ of global commodity prices, thus India metals benefit from China's stimulus cycles. Structural tailwind: India's infrastructure capex targeting ₹200 Lakh Cr through 2030 (roads, rail, ports) requires 10x current steel production. Steel sector capacity utter utilization currently 70%, suggesting 30-50% margin for organic growth without capex. Novelis (Hindalco subsidiary) generates 60%+ value — aluminium foil for beverage cans in structural deficit (demand growing 8% annually as can penetration in India rises). Currency headwind: when rupee weakens, imported scrap iron/coal costs rise, compressing margins. Margin expansion cycle: when ore prices collapse (e.g., due to China oversupply), revenue falls but EBITDA margins expand from 25% to 35% if fixed costs absorb. Debt concerns: sector historically financed through leverage (debt-to-EBITDA 3-4x); rising rates constrain expansion."
     },
     "holdings": [
       {

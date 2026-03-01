@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Semi-Annual",
       "companies": 50,
-      "description": "The NIFTY 50 is India's flagship index representing the 50 largest companies on NSE. Covers 13 sectors and ~65% of NSE's free-float market cap. Most widely tracked equity benchmark in India. Uses free-float market capitalization methodology. Base value of 1000 set on November 3, 1995."
+      "description": "NIFTY 50 is India's premier blue-chip equity benchmark tracking the 50 largest and most liquid companies spanning 13 sectors. Represents ~65% of NSE's free-float market capitalization, serving as barometer for India's economic health. Launched November 3, 1995 with base index of 1,000, now surpassed 25,000 milestone (25x return over 30 years = 16.5% CAGR including dividends). Free-float market cap methodology ensures larger, fundamentally stronger companies dominate allocation — Reliance (9.8%), HDFC Bank (8.5%), ICICI Bank (7.2%) control ~25% index weight. Most liquid large-cap index globally with derivatives volume exceeding ₹5 lakh crore daily (Nifty futures, options, mini contracts). Perfect core equity holding for conservative long-term investors, retirement portfolios, and index-replicating passive strategies. Nifty 50 beta=1 by definition, thus returns track both bull and bear markets. Lowest expense ratio (0.05-0.10%) for passive equity exposure. Includes Reliance's O2C + Jio bundle, HDFC-HDFC Bank combined financial behemoth, TCS/Infosys IT export powerhouse, and PSU revival (ONGC, Coal India, NTPC)."
     },
     "holdings": [
       {

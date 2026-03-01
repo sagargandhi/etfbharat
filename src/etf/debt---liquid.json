@@ -13,7 +13,7 @@
       "methodology": "Money Market Instruments",
       "rebalance": "Daily",
       "companies": 0,
-      "description": "India's first and largest liquid ETF — launched in 2003. Provides instant exchange-traded liquidity with money market returns. Invests in T-bills, commercial papers and certificates of deposit with maturity up to 91 days. Popular with traders and arbitrageurs for parking idle cash overnight. Pays daily dividend (reinvested as units), effectively functioning as a savings account that trades on NSE."
+      "description": "India's first (2003) and largest liquid ETF providing institutional-grade cash management via exchange-traded mechanism. LIQUIDBEES bridges gap between savings account (0.5% yield) and fixed deposits (6-7% yield with lock-in). Invests exclusively in 91-day-or-less instruments (T-bills, CPs, CDs) ensuring minimal interest rate risk. Daily rebalancing competes with money market funds, offering superior liquidity (trades NSE 09:15-15:30 with market-simulated pricing vs mutual funds settling T+1). Daily dividend reinvested as additional units creates compounding effect. Yield currently 6.5-7% (tracks RBI repo rate minus 10-30 bps). Perfect for traders needing overnight cash parking, corporations managing working capital, and retail investors seeking savings-like accessibility with money market returns. During RBI hike cycles, LIQUIDBEES yield rises synchronously; during cuts, yield compresses creating mark-to-market losses offset by lower coupon reinvestment rates."
     },
     "holdings": [
       {

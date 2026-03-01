@@ -13,7 +13,7 @@
       "methodology": "Physical Gold Backing",
       "rebalance": "N/A",
       "companies": 0,
-      "description": "Gold ETFs invest in 99.5% pure physical gold held in secure vaults. Each unit is backed by approximately 1 gram of gold. Unlike physical gold, there are zero making charges, no storage risk and no purity concerns. NAV tracks domestic gold prices influenced by international spot price (USD), INR/USD exchange rate and import duties. India's first Gold ETF was launched in 2007 by Benchmark AMC."
+      "description": "SBI ETF Gold provides exchange-traded access to physical gold for buy-and-hold wealth preservation and portfolio diversification. Gold serves as a long-term inflation and currency hedge — during periods of rupee weakness, international gold prices translate to greater rupee appreciation (e.g., 5% rupee depreciation yields ~5% gold ETF gain). Optimal allocation: 5-10% of investment portfolio for institutional and retail investors. Physical gold backing at 99.5% purity eliminates counterparty risk — investors own actual ounces, not custodian promises. NAV fluctuates with London spot prices adjusted for INR/USD forex rates and India's 10.75% import duty (creating domestic 'Indian gold premium'). Tax-advantaged: held as commodity receiving 20-year indexation on long-term gains, no TDS on redemptions. Critical for rural wealth preservation where gold represents 40% of household assets; ideal retirement corpus diversification when market valuations peak."
     },
     "holdings": [
       {
@@ -22,7 +22,7 @@
         "weight": 98.5,
         "sector": "Commodity",
         "color": "#FFB300",
-        "description": "24-karat gold of 99.5% purity stored in secure insured vaults with HSBC/SBI as custodians. Each ETF unit represents approximately 1 gram of gold. SEBI-mandated regular independent audits. Zero counterparty risk — fully backed by actual physical metal."
+        "description": "Investment-grade 99.5% purity gold (London Precious Metals Association certified) stored in bank-operated secure vaults with advanced surveillance (CCTV + motion sensors), 24-hour armed security, and trespass alert systems. HSBC and SBI custodial arrangements provide AAA sovereign credit quality. Each ETF unit = ~1 gram of granulated gold (granules enable rapid buy/sell mechanisms). SEBI mandates independent annual purity audits by NSDL/CDSL. Full insurance coverage against theft, fire, weather events. Completely eliminates counterparty risk — holdings segregated and ring-fenced, protected separately even if custodian becomes insolvent (per Section 139 of Bharatiya Reserve Bank Act). Zero impurity risk that exists with physical jewellery ownership."
       },
       {
         "name": "Cash & Liquid Instruments",
@@ -56,7 +56,7 @@
       "methodology": "Physical Gold Backing",
       "rebalance": "N/A",
       "companies": 0,
-      "description": "India's largest and most liquid Gold ETF. GOLDBEES was launched as one of India's first Gold ETFs in 2007 by Benchmark AMC (now Nippon India). Each unit approximately equals 1 gram of physical gold stored in HSBC custody vaults. Extremely popular among retail investors for hassle-free gold exposure without physical gold risks."
+      "description": "GOLDBEES (Gold BeES) is India's most liquid, extensively traded gold ETF with tens of thousands of daily NSE transactions, providing bid-ask spreads near spot prices. Pioneered the 'BeES' (Beyond Exchange Traded Securities) template in 2007, opening commodity access to retail India. Each unit = ~1 gram of 99.5% physical gold stored in HSBC's mega vault in Mumbai. During currency depreciation cycles (e.g., when rupee falls 5%), GOLDBEES captures additional rupee-weakness premium layered on international gold price appreciation. Replaces physical gold purchase with superior economics: ~40% cheaper than jewellery (eliminates making charges, wastage, jeweller margins). Tax-efficient: 20-year indexation on long-term capital gains. Ideal substitute for traditional goldsmith loans or wedding investments. Serves as proxy short during Fed rate hike cycles when DXI (Dollar Index) strengthens and gold prices decline in rupee terms."
     },
     "holdings": [
       {
