@@ -41,49 +41,6 @@ if (!fs.existsSync(inputPath)) {
 // ── Copy input.html to index.html ─────────────────────────────────────────────
 let out = fs.readFileSync(inputPath, 'utf8');
 
-// ── Load ETF configuration ────────────────────────────────────────────────────
-const configPath = path.join(srcDir, 'etf-config.json');
-let etfConfig = { etfFiles: [] };
-if (fs.existsSync(configPath)) {
-  const configContent = fs.readFileSync(configPath, 'utf8');
-  etfConfig = JSON.parse(configContent);
-}
-
-// ── Copy etf folder to root ───────────────────────────────────────────────────
-const srcEtfDir = path.join(srcDir, 'etf');
-const destEtfDir = path.join(root, 'etf');
-
-// Create etf directory in root if it doesn't exist
-if (!fs.existsSync(destEtfDir)) {
-  fs.mkdirSync(destEtfDir, { recursive: true });
-}
-
-// Copy ETF JSON files listed in config
-if (fs.existsSync(srcEtfDir)) {
-  let copiedCount = 0;
-  etfConfig.etfFiles.forEach(file => {
-    const srcFile = path.join(srcEtfDir, file);
-    const destFile = path.join(destEtfDir, file);
-    if (fs.existsSync(srcFile)) {
-      fs.copyFileSync(srcFile, destFile);
-      copiedCount++;
-    } else {
-      console.warn(`  Warning: ETF file not found: ${file}`);
-    }
-  });
-  console.log(`Copied ${copiedCount} ETF JSON files (from config)`);
-  
-  // Also copy the config file itself
-  fs.copyFileSync(configPath, path.join(root, 'etf-config.json'));
-  console.log(`Copied etf-config.json`);
-}
-
-// ── Copy etf-prices.json to root ──────────────────────────────────────────────
-const pricesPath = path.join(srcDir, 'etf-prices.json');
-if (fs.existsSync(pricesPath)) {
-  fs.copyFileSync(pricesPath, path.join(root, 'etf-prices.json'));
-}
-
 // ── Minify (production only) ──────────────────────────────────────────────────
 if (!dev) out = minify(out);
 

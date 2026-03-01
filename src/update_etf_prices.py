@@ -11,8 +11,11 @@ Updates etf-prices.json with NAV and AUM for every ETF.
 Run once after 4 PM IST on any trading day to get closing prices.
 """
 
-import json, time
+import json, os, time
 import requests
+
+# Project root is one level up from this script (src/)
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # ── NSE session setup ─────────────────────────────────────────────────────────
 # NSE requires cookies from a browser visit before the API works.
@@ -89,8 +92,6 @@ def fetch_nse_outstanding(symbols):
     return out
 
 # ── Load all ETF data from sector JSON files ──────────────────────────────────
-import os
-
 def load_etf_data_from_config(config_file='etf-config.json', etf_folder='etf'):
     """Load all ETF data from individual sector/theme JSON files using config."""
     etf_data = []
@@ -124,11 +125,15 @@ def load_etf_data_from_config(config_file='etf-config.json', etf_folder='etf'):
     return etf_data
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-with open('etf-prices.json', 'r', encoding='utf-8') as f:
+prices_file = os.path.join(ROOT_DIR, 'etf-prices.json')
+with open(prices_file, 'r', encoding='utf-8') as f:
     etf_prices = json.load(f)
 
 print("Loading ETF data from etf/ folder using config...")
-etf_data = load_etf_data_from_config('etf-config.json', 'etf')
+etf_data = load_etf_data_from_config(
+    os.path.join(ROOT_DIR, 'etf-config.json'),
+    os.path.join(ROOT_DIR, 'etf')
+)
 print(f"  Total: {len(etf_data)} ETFs loaded")
 
 print("\nInitialising NSE session...")
@@ -205,7 +210,7 @@ for etf in etf_data:
     print(f"  {ticker} (NSE: {nse_symbol}): NAV={nav_str or '—'}  AUM={aum_str or '—'}")
     time.sleep(0.2)
 
-with open('etf-prices.json', 'w', encoding='utf-8') as f:
+with open(prices_file, 'w', encoding='utf-8') as f:
     json.dump(etf_prices, f, indent=2, ensure_ascii=False)
 
 print(f"\nDone. NAV updated: {updated_nav} | AUM updated: {updated_aum}")
