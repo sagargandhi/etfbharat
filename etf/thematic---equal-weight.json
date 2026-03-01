@@ -13,7 +13,7 @@
       "methodology": "Equal Weight (2% each stock)",
       "rebalance": "Quarterly",
       "companies": 50,
-      "description": "Assigns equal 2% weight to all 50 Nifty stocks regardless of market cap. Reduces concentration risk from HDFC Bank, Reliance, and ICICI Bank dominating market-cap indices. Historically outperforms cap-weighted Nifty in mid-cycle recoveries and small-cap rallies. Ideal for investors believing in broader market participation."
+      "description": "The DSP Nifty 50 Equal Weight ETF tracks the Nifty 50 Equal Weight Index, which assigns an identical 2% weight to each of the 50 Nifty constituents, regardless of their market capitalization. This methodology eliminates the dominance of mega-cap stocks like HDFC Bank, Reliance Industries, and ICICI Bank, which often skew returns in traditional cap-weighted indices. By ensuring every company has the same influence on index performance, the ETF promotes true diversification and reduces single-stock and sector concentration risk. Historically, equal-weighted indices have outperformed their cap-weighted counterparts during mid-cycle recoveries, small- and mid-cap rallies, and periods of broad-based market participation. The ETF is rebalanced quarterly to maintain equal weights, which involves systematic profit booking from outperformers and reinvestment into laggards, enforcing a disciplined buy-low, sell-high approach. This product is ideal for investors who believe in the long-term growth of the Indian equity market and want to avoid overexposure to a handful of large companies, while benefiting from a transparent, rules-based, and liquid investment vehicle."
     },
     "holdings": [
       {
@@ -22,7 +22,7 @@
         "weight": 2.0,
         "sector": "Conglomerate",
         "color": "#1A237E",
-        "description": "Equal weight means Reliance gets 2% vs 10%+ in cap-weighted Nifty. Reduces single-stock concentration. Retail, Jio, and O2C segments driving diversified revenue."
+        "description": "Reliance Industries, India's largest private sector conglomerate, receives the same 2% allocation as every other Nifty constituent in this ETF, compared to over 10% in the cap-weighted index. This approach significantly reduces single-stock risk. Reliance's diversified business spans energy (O2C), telecom (Jio), retail (India's largest), and new energy initiatives, making it a bellwether for India's economic transformation. The equal-weight methodology ensures that Reliance's performance does not disproportionately impact the ETF, while still capturing its growth across multiple sectors."
       },
       {
         "name": "HDFC Bank",
@@ -30,7 +30,7 @@
         "weight": 2.0,
         "sector": "Banking",
         "color": "#283593",
-        "description": "Same 2% as all others vs 13%+ in cap-weighted Nifty. Equal weight reduces excessive banking sector concentration."
+        "description": "HDFC Bank, India's largest private sector lender, is capped at 2% in this ETF, compared to 13%+ in the cap-weighted Nifty. This reduces the outsized influence of the banking sector and provides a more balanced exposure to the broader market. HDFC Bank is known for its robust asset quality, digital banking leadership, and consistent growth, but the equal-weight approach ensures that investors are not overly reliant on a single bank's performance for their returns."
       },
       {
         "name": "Infosys",
@@ -38,7 +38,7 @@
         "weight": 2.0,
         "sector": "IT Services",
         "color": "#1565C0",
-        "description": "Equal 2% weight. Reduces IT sector dominance of market-cap index. Cobalt AI platform and generative AI services driving new revenue streams."
+        "description": "Infosys, a global leader in IT services and consulting, is assigned a 2% weight, reducing the IT sector's dominance compared to cap-weighted indices. Infosys is at the forefront of digital transformation, cloud, and AI-driven services, with its Cobalt platform and investments in generative AI. The equal-weight structure allows investors to benefit from Infosys's innovation and export-driven growth, while maintaining balanced exposure to other sectors."
       },
       {
         "name": "ICICI Bank",
@@ -46,7 +46,7 @@
         "weight": 2.0,
         "sector": "Banking",
         "color": "#303F9F",
-        "description": "Equal 2% gives same importance as smaller Nifty constituents. Transformation under CEO Bakhshi continues to deliver."
+        "description": "ICICI Bank, a major private sector bank, is given the same 2% weight as all other constituents, ensuring no single bank dominates the portfolio. Under CEO Sandeep Bakhshi, ICICI Bank has undergone a successful transformation, improving asset quality, digital adoption, and profitability. The equal-weight approach allows investors to participate in ICICI Bank's growth without excessive sector or stock concentration."
       },
       {
         "name": "TCS",
@@ -54,7 +54,7 @@
         "weight": 2.0,
         "sector": "IT Services",
         "color": "#0D47A1",
-        "description": "India's largest IT exporter. Equal weighting reduces exposure to mega-cap IT. AI and cloud services growing share of revenues."
+        "description": "Tata Consultancy Services (TCS), India's largest IT exporter and a global technology powerhouse, is capped at 2% in this ETF. TCS leads in digital, cloud, and AI services, serving Fortune 500 clients worldwide. The equal-weight methodology ensures that TCS's size does not overshadow other companies, providing investors with diversified access to India's IT sector and the broader economy."
       },
       {
         "name": "Bajaj Finance",
@@ -62,7 +62,7 @@
         "weight": 2.0,
         "sector": "NBFC",
         "color": "#004D40",
-        "description": "India's largest NBFC. Equal weight elevates Bajaj Finance to same prominence as banking giants. Consumer lending and EMI financing."
+        "description": "Bajaj Finance, India's largest non-banking financial company (NBFC), is given equal prominence alongside banking giants in this ETF. Bajaj Finance is renowned for its innovative consumer lending, EMI financing, and digital credit platforms, driving rapid growth and high profitability. The equal-weight structure allows investors to benefit from the NBFC's growth potential without being overshadowed by larger banks."
       },
       {
         "name": "Larsen & Toubro",
@@ -70,7 +70,7 @@
         "weight": 2.0,
         "sector": "Engineering & Construction",
         "color": "#F57F17",
-        "description": "Equal weight elevates L&T vs cap-weighted index. Order book ₹4.7 trillion across infrastructure, defence, and technology segments."
+        "description": "Larsen & Toubro (L&T), India's premier engineering and construction conglomerate, receives a 2% allocation, elevating its importance relative to cap-weighted indices. L&T's ₹4.7 trillion order book spans infrastructure, defence, hydrocarbon, and technology projects, making it a key beneficiary of India's infrastructure push. The equal-weight approach ensures L&T's diverse business is adequately represented in the portfolio."
       },
       {
         "name": "Sun Pharmaceutical",
@@ -78,7 +78,7 @@
         "weight": 2.0,
         "sector": "Pharma",
         "color": "#F44336",
-        "description": "Equal weight gives pharma same prominence as banks. US specialty products (Ilumya, Cequa, Winlevi) diversifying beyond Indian formulations."
+        "description": "Sun Pharmaceutical, India's largest pharmaceutical company, is given the same 2% weight as banks and IT majors, highlighting the importance of healthcare in the portfolio. Sun Pharma is a global leader in specialty generics, with a strong US presence and a growing portfolio of innovative products like Ilumya, Cequa, and Winlevi. The equal-weight methodology ensures balanced exposure to the pharma sector's growth and resilience."
       },
       {
         "name": "Kotak Mahindra Bank",
@@ -86,7 +86,7 @@
         "weight": 2.0,
         "sector": "Banking",
         "color": "#3F51B5",
-        "description": "Conservative underwriting culture. Equal weight philosophy aligns with fundamental value approach rather than market-cap momentum."
+        "description": "Kotak Mahindra Bank, known for its conservative risk management and strong capital position, is assigned a 2% weight, aligning with the ETF's philosophy of fundamental value over market-cap momentum. Kotak's diversified financial services, digital initiatives, and prudent lending practices make it a stable component of the portfolio, with equal weight ensuring no single bank dominates returns."
       },
       {
         "name": "Axis Bank",
@@ -94,7 +94,7 @@
         "weight": 2.0,
         "sector": "Banking",
         "color": "#5C6BC0",
-        "description": "Post-Citi integration bank with premium credit card franchise. Equal weight treats Axis at same level as larger banking peers."
+        "description": "Axis Bank, a leading private sector bank, is given the same 2% allocation as larger peers, reflecting the ETF's commitment to balanced sector representation. Axis Bank has strengthened its retail and credit card franchise post-Citi integration, and the equal-weight approach allows investors to benefit from its growth without overexposure to any single financial institution."
       }
     ]
   }
