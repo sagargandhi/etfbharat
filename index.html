@@ -720,6 +720,7 @@ return;
 });
 // ── TABLE ROW HOVER ───────────────────────────────────────────────────────────
 document.addEventListener('mouseenter', (e) => {
+if(!(e.target instanceof Element)) return;
 const row = e.target.closest('.etf-row');
 if (row) {
 const etf = ETF_DATA.find(et => et.id === row.getAttribute('data-etf-id'));
@@ -727,6 +728,7 @@ if (etf) row.style.background = etf.color + '08';
 }
 }, true);
 document.addEventListener('mouseleave', (e) => {
+if(!(e.target instanceof Element)) return;
 const row = e.target.closest('.etf-row');
 if (row) row.style.background = '';
 }, true);
