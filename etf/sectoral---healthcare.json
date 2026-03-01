@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Semi-Annual",
       "companies": 20,
-      "description": "Tracks the Nifty Healthcare index covering pharma, hospitals, diagnostics, and healthcare services. India's healthcare sector is a structural multi-decade opportunity with chronic disease burden, hospital underpenetration, and pharma exports as tailwinds."
+      "description": "Nifty Healthcare tracks 20 companies spanning pharma (Sun Pharma 24.6%, Dr Reddy's 13.5%, Cipla 11.2%), APIs (Divi's Labs 8.9%), and hospital operators (Apollo 8.5%, Max Healthcare 6.8%). Defensive sector with low correlation to economic cycles — chronic disease burden (diabetes, hypertension, cancer) creates mandatory consumption. Dual growth engines: (1) Global generics export — India supplies 20% of world's generic medicines, 60% of vaccines to 180+ countries. Structural advantage: 60-70% cost discount vs US/Europe due to labor arbitrage and scale manufacturing. (2) Domestic branded generics — rising incomes, growing insurance coverage (Ayushman Bharat + private health insurance) driving 15-20% annual growth. Currency tailwind: pharma exports denominated in USD/EUR; when rupee weakens 10%, export profitability rises proportionally. Regulatory risk: US FDA denials create profit volatility, biosimilars margins compress from 50% to 20% as complexity increases. Long-term secular growth: India's per-capita healthcare spending ₹700 vs US ₹6,000 suggests 8-10 year runway for 20% annual growth."
     },
     "holdings": [
       {

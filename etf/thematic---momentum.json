@@ -13,7 +13,7 @@
       "methodology": "Momentum Factor (12M-1M returns)",
       "rebalance": "Semi-Annual",
       "companies": 30,
-      "description": "Selects 30 highest-momentum stocks from Nifty 200 based on 12-month minus 1-month price return, adjusted for volatility. Momentum as a factor has delivered alpha across global markets. Concentrated 30-stock portfolio with higher tracking error vs broad market indices."
+      "description": "Nifty 200 Momentum 30 selects 30 stocks with highest momentum from Nifty 200 (ranked 51-250) based on 12-month-minus-1-month returns (volatility-adjusted). Momentum factor delivers 2-3% annual alpha through systematic 'winners keep winning' advantage. Three mechanisms: (1) Fundamental: accelerating earnings attract analyst upgrades + institutional flows; (2) Technical: algorithmic trend-following stacks into winners creating momentum cascades; (3) Behavioral: extrapolation of recent outperformance attracts retail flows. Current leaders (2025): Zomato (+250% YTD, 6.8% weight — Blinkit quick-commerce disruption), Trent (+180%, 6.3% — Zudio retail chain), BSE (+150%, 5.9% — derivatives volume boom). Semi-annual rebalancing = systematic profit-taking from 6-month winners and rotation into emerging leaders. Risk profile: 40-50% drawdown potential during recessions when risk-off reverses momentum entirely; mean-reversion from 40x PE to 18x PE when earnings miss. 2-3x Nifty 50 volatility requires 5-7 year horizon. Currency neutral: mostly domestic-focused companies. Psychological challenge: holding during 20-30% single-quarter crashes tests investor discipline. Positive: momentum factor is uncorrelated to value factor, providing hedge diversification."
     },
     "holdings": [
       {

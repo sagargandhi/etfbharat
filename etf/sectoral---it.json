@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Quarterly",
       "companies": 10,
-      "description": "Tracks Indian IT sector companies on NSE. India's IT sector generates $250B+ in annual exports employing 5.4M professionals. Index influenced by INR/USD exchange rates, US tech spending cycles, BFSI demand, and digital transformation adoption. Generative AI is providing a once-in-a-decade demand tailwind for Indian IT services."
+      "description": "Nifty IT tracks 10 companies generating $250B+ annual exports — 15% of India's total exports. Tier-1 majors: TCS (28.9%), Infosys (24.6%), HCL Tech (14.8%), Wipro (12.3%). India's IT sector accounts for 5.4M jobs, ~5% of India's GDP. Structural advantages: English-language competency, timezone arbitrage (US daytime = India nighttime), cost advantage (developer salary ₹40L vs $150K US), and global onsite-offshore model. Currency play: 60%+ revenues earned in USD; when rupee weakens 10%, reported rupee revenues rise equivalently. Bull cycle driver: Generative AI adoption in enterprise — IT spending growth accelerating from 6% to 12%+ in AI-driven consulting, platform modernization, and custom software development. Bear cycle driver: US tech spending contraction — most revenue from BFSI, telecom, and hi-tech verticals which curtail IT budgets during recessions. Leverage to market multiples: during risk-on sentiment, IT trades at 25-30x PE; during risk-off, contracts to 15-18x PE. Margin compression risk: wage inflation in India (30% CAGR for fresher salaries from 2010-2023) eroding profitability despite revenue growth."
     },
     "holdings": [
       {

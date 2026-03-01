@@ -13,7 +13,7 @@
       "methodology": "Free-Float Market Cap",
       "rebalance": "Semi-Annual",
       "companies": 15,
-      "description": "Tracks automobile and auto component companies. Cyclical sector benefiting from rising incomes, premiumisation, vehicle electrification, and export growth. India is the world's 3rd largest auto market and #1 in 2-wheelers. Includes passenger vehicles, 2-wheelers, commercial vehicles, tractors and auto ancillaries. EV transition is accelerating across all segments."
+      "description": "Nifty Auto Index tracks 15 automobile and auto-component companies spanning passenger vehicles (Maruti: 41% share), SUVs (M&M, Tata Motors), 2-wheelers (Bajaj, Hero), CVs (Tata, Ashok Leyland), and ancillaries (Bharat Forge, Bosch). Auto sector cycles with credit availability, interest rates, and infrastructure spending. Sweet spot: when RBI cuts rates (auto loans become affordable, financing costs drop 150-200 bps), industry enters upcycle. High leverage to rural consumption— 60% Indian vehicles purchased for commercial use (taxis, delivery, farming), thus GDP growth directly stimulates volumes. EV transition headwind: petrol two-wheelers declining, EV penetration reaching 5% in motorcycles/scooters (Ather, Hero MotoCorp). Auto ancillaries benefit from EV transition (electronic components, braking systems, lightweight structures). Maruti's exports to 100+ countries provide forex diversification. Sector suffers during China trade wars (component imports spike in cost) and geopolitical tensions disrupting semiconductor supply. Current cycle: strong rural consumption post-monsoon, festive season demand, and electrification tailwinds."
     },
     "holdings": [
       {
