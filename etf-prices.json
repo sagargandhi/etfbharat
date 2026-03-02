@@ -64,11 +64,21 @@
     "expense": "0.18%",
     "nav": "₹154.4"
   },
+  "HDFCGOLD": {
+    "aum": "₹25,140 Cr",
+    "expense": "0.59%",
+    "nav": "₹152.1"
+  },
   "ITIETF": {
     "aum": "₹446.1 Cr",
     "expense": "0.10%",
     "nav": "₹33.79"
   },
+  "PHARMABEES": {
+    "aum": "₹1007.4 Cr",
+    "expense": "0.21%",
+    "nav": "₹23.59"
+  },  
   "TATSILV": {
     "aum": "₹5,705 Cr",
     "expense": "0.44%",
