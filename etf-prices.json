@@ -34,25 +34,10 @@
     "expense": "0.56%",
     "nav": "₹253"
   },
-  "NIFTYETF": {
-    "aum": "₹4,759 Cr",
-    "expense": "0.04%",
-    "nav": "₹272.4"
-  },
   "SETFNIF50": {
     "aum": "₹214,289 Cr",
     "expense": "0.07%",
     "nav": "₹270.3"
-  },
-  "SENSEXIETF": {
-    "aum": "₹26,566 Cr",
-    "expense": "0.05%",
-    "nav": "₹927"
-  },
-  "SBILIQETF": {
-    "aum": "₹85.3 Cr",
-    "expense": "0.20%",
-    "nav": "₹1,028.69"
   },
   "UTINIFTETF": {
     "aum": "₹69,235 Cr",
@@ -1379,11 +1364,6 @@
     "expense": "0.01%",
     "nav": "₹1,571.24"
   },
-  "BBETF0432": {
-    "aum": "₹10,680 Cr",
-    "expense": "0.01%",
-    "nav": "₹1,321.4"
-  },
   "BBETF0433": {
     "aum": "₹6,414 Cr",
     "expense": "0.02%",
@@ -1504,19 +1484,9 @@
     "expense": "0.00%",
     "nav": "₹136"
   },
-  "SETFNIF50": {
-    "aum": "₹214,289 Cr",
-    "expense": "0.07%",
-    "nav": "₹270.3"
-  },
   "SMALLCAPETF": {
     "aum": "₹799.6 Cr",
     "expense": "0.25%",
     "nav": "₹41.78"
-  },
-  "UTINIFTETF": {
-    "aum": "₹69,235 Cr",
-    "expense": "0.12%",
-    "nav": "₹278.35"
   }
 }
