@@ -149,6 +149,11 @@
     "expense": "0.55%",
     "nav": "₹26.79"
   },
+  "GSEC10YEAR": {
+    "aum": "₹93.61 Cr",
+    "expense": "0.10%",
+    "nav": "₹29.73"
+  },
   "LIQUIDPLUS": {
     "aum": "₹1,000.0 Cr",
     "expense": "0.20%",
@@ -158,6 +163,11 @@
     "aum": "₹563.8 Cr",
     "expense": "0.15%",
     "nav": "₹1,071.05"
+  },
+    "LIQUIDBEES": {
+    "aum": "₹10,944.95 Cr",
+    "expense": "0.69%",
+    "nav": "₹999.99"
   },
   "GOLD1": {
     "aum": "₹13,496 Cr",
