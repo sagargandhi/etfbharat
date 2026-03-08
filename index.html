@@ -323,14 +323,16 @@ const etfsDict = config.etfs || {};
 const companiesDict = companiesData.companies || {};
 ETF_DATA = Object.entries(etfsDict).map(([nseSymbol, etf]) => {
 const prices = priceData[nseSymbol] || {};
-// Enrich holdings: {ticker, weight} → {ticker, weight, name, color}
+// Enrich holdings: {ticker, weight} → {ticker, weight, name, color, sector, description}
 const holdings = (etf.holdings || []).map(h => {
 const co = companiesDict[h.ticker] || {};
 return {
 ticker: h.ticker,
 weight: h.weight,
 name: co.name || h.ticker,
-color: co.color || '#9E9E9E'
+color: co.color || '#9E9E9E',
+sector: co.sector || '',
+description: co.description || ''
 };
 });
 return {
