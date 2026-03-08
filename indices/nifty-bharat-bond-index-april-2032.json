@@ -1,0 +1,64 @@
+{
+  "indexName": "Nifty BHARAT Bond Index - April 2032",
+  "slug": "nifty-bharat-bond-index-april-2032",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NHAI 7.35% 2032",
+      "ticker": "NHAI2032",
+      "weight": 16.0,
+      "sector": "PSU Bond - Infrastructure",
+      "color": "#1565C0",
+      "description": "NHAI AAA bond maturing December 2032. Slightly longer duration than 2031 bonds, offering marginally higher yield. NHAI has never defaulted and carries implicit government guarantee via Ministry of Road Transport."
+    },
+    {
+      "name": "Power Finance Corporation 2032",
+      "ticker": "PFC2032",
+      "weight": 14.5,
+      "sector": "PSU Bond - NBFC",
+      "color": "#1976D2",
+      "description": "PFC AAA bond maturing 2032. Power Finance Corporation is India's systemically important NBFC financing power sector capital expenditure. Rated AAA by both CRISIL and ICRA."
+    },
+    {
+      "name": "IRFC 7.15% 2032",
+      "ticker": "IRFC2032",
+      "weight": 13.5,
+      "sector": "PSU Bond - Railways",
+      "color": "#1E88E5",
+      "description": "Indian Railway Finance Corporation Bharat Bond constituent. IRFC is a 100% Ministry of Finance-owned entity that serves as the financing arm of Indian Railways. All bonds guaranteed by Government of India."
+    },
+    {
+      "name": "REC Limited 2032",
+      "ticker": "REC2032",
+      "weight": 12.0,
+      "sector": "PSU Bond - NBFC",
+      "color": "#42A5F5",
+      "description": "REC Limited AAA bond for 2032 maturity. REC finances power sector lending across India with special focus on rural electrification. Navratna PSU; consistently profitable for 20+ years."
+    },
+    {
+      "name": "HUDCO 2032",
+      "ticker": "HUDCO2032",
+      "weight": 10.5,
+      "sector": "PSU Bond - Housing",
+      "color": "#66BB6A",
+      "description": "Housing Urban Development Corporation (HUDCO) AAA bond. Finances affordable housing and urban infrastructure projects. Backed by Ministry of Housing & Urban Affairs. Key instrument for PM Awas Yojana funding."
+    },
+    {
+      "name": "NABARD 2032",
+      "ticker": "NABARD2032",
+      "weight": 10.0,
+      "sector": "PSU Bond - Agriculture",
+      "color": "#4CAF50",
+      "description": "NABARD Bharat Bond 2032 constituent. Quasi-sovereign issuer (RBI + Government of India stakeholders). Supports rural credit cooperatives, microfinance institutions and agricultural development banks."
+    },
+    {
+      "name": "Cash & Liquid Assets",
+      "ticker": "CASH",
+      "weight": 23.5,
+      "sector": "Cash",
+      "color": "#9E9E9E",
+      "description": "Residual cash managed actively as bonds are rolled from December 2032 target. Invested in short-term G-Secs and tri-party repo."
+    }
+  ]
+}

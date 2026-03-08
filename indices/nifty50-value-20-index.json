@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty50 Value 20 Index",
+  "slug": "nifty50-value-20-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 11.45,
+      "sector": "FMCG & Conglomerates",
+      "color": "#558B2F",
+      "description": "ITC is the quintessential Indian value stock — cigarettes generate Rs 16,000 Cr+ EBIT at 65%+ margins, funding FMCG brand building across Aashirvaad, Sunfeast, Bingo, Classmate. Hotels demerger unlocking value. Trading at 25x PE vs global FMCG peers at 35-40x. Highest dividend yield among Nifty 50 blue chips at 3%+. ROCE above 25% consistently."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 9.87,
+      "sector": "Energy - Mining",
+      "color": "#37474F",
+      "description": "World's largest coal mining company producing 700+ million tonnes annually. India's baseload power dominance ensures coal demand for 15+ years. Dividend yield 5%+ with government mandated payouts. ROCE above 50% on minimal reinvestment capex. Transition risk is a 15-year horizon concern, not immediate."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 8.95,
+      "sector": "Oil & Gas",
+      "color": "#F57F17",
+      "description": "India's largest oil and gas explorer with 80%+ domestic crude reserves ownership. KG-DWN-98/2 deepwater project adding 40,000+ bopd. Perpetually undervalued on market fears of government dividend extraction. P/B ratio below 1x makes it a classic Graham-style value play. ONGC Videsh provides international E&P diversification."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 8.12,
+      "sector": "Utilities",
+      "color": "#01579B",
+      "description": "India's monopoly inter-state power transmission PSU. 1.7L+ circuit km of transmission lines. Regulated return on equity (15.5%) business with near-zero earnings risk. Dividend yield 4-5% with inflation-linked tariff escalation. RE (renewable energy) push adding green energy corridors doubling capex opportunities."
+    },
+    {
+      "name": "NTPC Ltd",
+      "ticker": "NTPC",
+      "weight": 7.85,
+      "sector": "Utilities",
+      "color": "#1A237E",
+      "description": "India's largest power generator with 70GW+ installed capacity. Regulated tariff model guarantees return on equity. Green energy subsidiary NTPC Renewable targeting 60GW by 2032. Consistently trades below replacement cost. Dividend payout 45%+ of profits. NTPC Hydro provides additional regulated return streams."
+    },
+    {
+      "name": "Vedanta Ltd",
+      "ticker": "VEDL",
+      "weight": 7.23,
+      "sector": "Metals & Mining",
+      "color": "#880E4F",
+      "description": "India's largest diversified natural resources company — zinc (Hindustan Zinc), aluminium (Balco, Jharsuguda), iron ore, oil (Cairn India), copper and silver. Dividend yield has touched 15-20% in value cycles. India's only primary zinc producer with 75% global zinc from BALAMA project. Anil Agarwal's Vedanta Resources parent leverage is key risk to monitor."
+    },
+    {
+      "name": "SBI (State Bank of India)",
+      "ticker": "SBIN",
+      "weight": 6.98,
+      "sector": "Banking - PSU",
+      "color": "#1565C0",
+      "description": "India's largest bank — Rs 60 lakh crore balance sheet, 500M+ customers, 22,000+ branches. P/B ratio of 1.2-1.5x vs private bank peers at 2.5-4x despite comparable ROE (15%+). SBI Cards, SBI Life, SBI MF subsidiaries unlocking value. Agricultural and Mudra loans serve India's grassroots economy with priority sector coverage."
+    },
+    {
+      "name": "Hindustan Petroleum (HPCL)",
+      "ticker": "HINDPETRO",
+      "weight": 4.56,
+      "sector": "Oil & Gas - Refining",
+      "color": "#F44336",
+      "description": "India's second-largest public sector oil marketing company. 9,000+ petrol stations with retail fuel marketing advantage. Vizag and Mumbai refineries being upgraded for complex crude processing. Trades at significant discount to replacement cost. Earnings highly cyclical with marketing margins — value opportunity deepens in refining downcycles."
+    },
+    {
+      "name": "BPCL (Bharat Petroleum)",
+      "ticker": "BPCL",
+      "weight": 3.87,
+      "sector": "Oil & Gas - Refining",
+      "color": "#FF6F00",
+      "description": "Third-largest PSU oil company with Kochi, Mumbai and Bina refineries. Privatisation narrative (repeatedly delayed) creates periodic re-rating events. Gas, LNG and EV charging diversification reducing pure refining dependency. Free cash flow generation robust in positive marketing margin environments. Dividend yield attractive at 4%+."
+    },
+    {
+      "name": "GAIL India",
+      "ticker": "GAIL",
+      "weight": 3.42,
+      "sector": "Gas Distribution",
+      "color": "#00897B",
+      "description": "India's largest natural gas transmission and distribution company. 16,000+ km pipeline network — monopoly trunk transmission. LNG regasification capacity expanding at Dabhol and Mundra. City Gas Distribution investments (MGL, IGL stakes) provide urban upside. Petchem segment (Petronet Pata complex) improving utilisation. Trading at 10x PE with 3% dividend yield."
+    }
+  ]
+}

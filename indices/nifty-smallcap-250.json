@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Smallcap 250",
+  "slug": "nifty-smallcap-250",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NLC India",
+      "ticker": "NLCINDIA",
+      "weight": 1.4,
+      "sector": "Power / Lignite Mining",
+      "color": "#4CAF50",
+      "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+    },
+    {
+      "name": "Radico Khaitan",
+      "ticker": "RADICO",
+      "weight": 1.1724,
+      "sector": "FMCG - Spirits",
+      "color": "#880E4F",
+      "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+    },
+    {
+      "name": "Star Health Insurance",
+      "ticker": "STARHEALTH",
+      "weight": 0.5773,
+      "sector": "Insurance",
+      "color": "#B71C1C",
+      "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+    },
+    {
+      "name": "CEAT Ltd",
+      "ticker": "CEATLTD",
+      "weight": 0.3907,
+      "sector": "Auto Ancillary",
+      "color": "#37474F",
+      "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+    },
+    {
+      "name": "Piramal Enterprises",
+      "ticker": "PEL",
+      "weight": 1.0,
+      "sector": "Financial Services",
+      "color": "#1A237E",
+      "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+    },
+    {
+      "name": "Cyient Ltd",
+      "ticker": "CYIENT",
+      "weight": 0.4047,
+      "sector": "IT Engineering Services",
+      "color": "#006064",
+      "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "indexName": "Kotak Nifty 100 Low Vol 30 ETF",
+  "slug": "kotak-nifty-100-low-vol-30-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 13.5,
+      "sector": "Banking",
+      "color": "#004C91",
+      "description": "India's largest private bank with 8,000+ branches, 25M+ customers and ~4% NIM. Largest constituent of Nifty 50, Sensex and virtually all Indian large-cap indices. Dominant in retail mortgages, credit cards and SME banking post HDFC Ltd merger."
+    },
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 9.4,
+      "sector": "Conglomerate",
+      "color": "#1A237E",
+      "description": "India's largest company by revenue. Jio Platforms (450M+ subscribers), Reliance Retail (India's largest retailer) and Jamnagar refinery-petrochemical complex (world's largest single-site). New Energy: 100 GW solar plan and battery gigafactory underway."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 8.2,
+      "sector": "Banking",
+      "color": "#B71C1C",
+      "description": "India's 2nd largest private bank, ROE ~18%, NIM 4.3%. iMobile app with 40M+ users leads digital banking. Diversified across retail, corporate and SME segments. Asset quality best-in-class with PCR >80%."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 5.9,
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "India's 2nd largest IT firm with $18B+ revenue and 300,000+ employees. AI-led services (Topaz platform), Cloud migration and ERP modernisation for global Fortune 500. Steady 20-25% dividend payout ratio."
+    },
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 4.7,
+      "sector": "Engineering",
+      "color": "#FF5722",
+      "description": "India's premier EPC and engineering conglomerate with ₹4 lakh crore order book. Executes across metros, highways, airports, defence, nuclear, data centres and shipbuilding. LTIMindtree and L&T Finance add diversification."
+    },
+    {
+      "name": "DLF Limited",
+      "ticker": "DLF",
+      "weight": 3.8,
+      "sector": "Real Estate",
+      "color": "#880E4F",
+      "description": "India's largest real estate developer. ₹13,000+ Cr pre-sales in FY25 driven by luxury residences. DLF Cyber City (Gurugram) dominates Grade-A office leasing. Net debt largely cleared; entering a high-FCF phase."
+    },
+    {
+      "name": "LIC of India",
+      "ticker": "LICI",
+      "weight": 3.5,
+      "sector": "Insurance",
+      "color": "#1B5E20",
+      "description": "World's largest insurer by policy count with 300M+ policies. India's largest institutional investor managing ₹45 lakh crore AUM. Benefiting from financialisation of savings — insurance penetration rising from 3.2% to target 5%."
+    },
+    {
+      "name": "Adani Green Energy",
+      "ticker": "ADANIGREEN",
+      "weight": 3.2,
+      "sector": "Renewable Energy",
+      "color": "#4CAF50",
+      "description": "India's largest renewable energy company. 10 GW+ operational solar and wind capacity. 45 GW pipeline under development. Key beneficiary of India's 500 GW non-fossil target by 2030. Zero-carbon energy at scale."
+    }
+  ]
+}

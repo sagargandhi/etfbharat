@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Midcap 150 Momentum 50 Total Return Index",
+  "slug": "nifty-midcap-150-momentum-50-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Cochin Shipyard",
+      "ticker": "COCHINSHIP",
+      "weight": 7.45,
+      "sector": "Defence Shipbuilding",
+      "color": "#1A237E",
+      "description": "Defence and commercial shipbuilding. INS Vikrant manufacturing. Navy modernisation driving multi-year order book and price momentum."
+    },
+    {
+      "name": "Kaynes Technology",
+      "ticker": "KAYNES",
+      "weight": 6.89,
+      "sector": "Electronics Mfg",
+      "color": "#4A148C",
+      "description": "Electronics manufacturing services rapidly scaling. Aerospace, defence and industrial electronics. 50%+ revenue CAGR driving midcap momentum index inclusion."
+    },
+    {
+      "name": "BSE Ltd",
+      "ticker": "BSE",
+      "weight": 6.34,
+      "sector": "Capital Markets",
+      "color": "#F57F17",
+      "description": "Mid-cap capital markets re-rating. Derivatives and GIFT City revenues scaling rapidly. Consistent quarterly earnings upgrades sustaining price momentum."
+    },
+    {
+      "name": "Indian Hotels",
+      "ticker": "INDHOTEL",
+      "weight": 5.78,
+      "sector": "Hospitality",
+      "color": "#00695C",
+      "description": "Taj brand domestic and international expansion. Leisure and business travel recovery with new hotel pipeline adding visibility."
+    },
+    {
+      "name": "Torrent Power",
+      "ticker": "TORNTPOWER",
+      "weight": 5.35,
+      "sector": "Power",
+      "color": "#FF8F00",
+      "description": "Regulated utility with renewable optionality. Ahmedabad distribution franchise re-rating on energy transition theme."
+    },
+    {
+      "name": "PB Fintech",
+      "ticker": "POLICYBZR",
+      "weight": 4.89,
+      "sector": "InsurTech",
+      "color": "#1976D2",
+      "description": "Insurance aggregator at profitability inflection. Midcap momentum inclusion from loss-to-profit transition driving institutional accumulation."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 4.45,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "IT mid-cap with highest revenue growth rate. GenAI positioning and US healthcare deals sustaining momentum."
+    },
+    {
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "weight": 4.12,
+      "sector": "Beverages",
+      "color": "#388E3C",
+      "description": "PepsiCo franchise bottler growing into Africa and South Asia. Volume growth and margin expansion driving mid-cap consumer momentum."
+    },
+    {
+      "name": "Dixon Technologies",
+      "ticker": "DIXON",
+      "weight": 3.78,
+      "sector": "Electronics Mfg",
+      "color": "#0D47A1",
+      "description": "PLI scheme electronics manufacturing scaling rapidly. Samsung, Motorola smartphone assembly plus laptop and LED TV manufacturing."
+    },
+    {
+      "name": "Carborundum Universal",
+      "ticker": "CARBORUNIV",
+      "weight": 3.45,
+      "sector": "Industrials",
+      "color": "#37474F",
+      "description": "Abrasives and advanced ceramics leader. Industrial cycle recovery driving mid-cap industrial momentum. Export growth to Middle East and Europe."
+    }
+  ]
+}

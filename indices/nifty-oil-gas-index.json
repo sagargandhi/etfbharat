@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Oil & Gas Index",
+  "slug": "nifty-oil-gas-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 38.2,
+      "sector": "Oil & Gas / Petchem",
+      "color": "#1A237E",
+      "description": "Jamnagar refinery complex (world's largest single-location) processes 1.4 MBPD crude. Petchem margins stabilising after 3-year pressure. GRM (Gross Refining Margin) recovering as complex refinery premium expands vs simple Asian peers."
+    },
+    {
+      "name": "Oil & Natural Gas Corporation",
+      "ticker": "ONGC",
+      "weight": 14.3,
+      "sector": "Exploration & Production",
+      "color": "#E65100",
+      "description": "India's largest oil and gas explorer. Offshore Bombay High, KG Basin and global OVL subsidiaries. Targeting 2x oil production by 2030 from deep-water and EOR. Subsidiary HPCL integration strengthens downstream positioning."
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "ticker": "IOC",
+      "weight": 9.8,
+      "sector": "Fuel Retailing",
+      "color": "#BF360C",
+      "description": "35,000+ petrol pumps and 11 refineries. India's largest fuel retailer. LNG terminals, city gas distribution, EV charging hubs — diversifying the energy transition portfolio strategically."
+    },
+    {
+      "name": "Bharat Petroleum Corporation",
+      "ticker": "BPCL",
+      "weight": 8.7,
+      "sector": "Fuel Retailing",
+      "color": "#4E342E",
+      "description": "India's 2nd largest fuel retailer. Mumbai and Kochi refineries. Petrochemical expansion at Bina refinery. IFP Technip license for complex refining. Potential privatisation upside: government divesting 52.98% stake."
+    },
+    {
+      "name": "GAIL (India)",
+      "ticker": "GAIL",
+      "weight": 6.5,
+      "sector": "Gas Transmission",
+      "color": "#37474F",
+      "description": "Natural gas transmission pipeline monopoly — 16,000+ km HVJ Pipeline and DVPL network. India's gas demand growing with city gas, fertilizer and power sector consumption. LNG re-gasification terminal at Dabhol expanding."
+    },
+    {
+      "name": "Petronet LNG",
+      "ticker": "PETRONET",
+      "weight": 4.8,
+      "sector": "LNG Re-gasification",
+      "color": "#006064",
+      "description": "Dahej LNG terminal (world's 11th largest) handles 80%+ of India's LNG imports. Guaranteed throughput from Shell and ExxonMobil long-term contracts. Regulated tariff plus spot LNG income floor. 3rd terminal under development."
+    }
+  ]
+}

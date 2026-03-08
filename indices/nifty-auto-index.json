@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Auto Index",
+  "slug": "nifty-auto-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "weight": 11.8707,
+      "sector": "Passenger Vehicles",
+      "color": "#B71C1C",
+      "description": "India's largest car maker with 41%+ domestic market share. JV with Suzuki Japan since 1982. Dominates entry and mid-segments: Alto, Swift, Baleno, Dzire, Ertiga, Grand Vitara. Transitioning to strong hybrid (Invicto, Fronx) and electric (eVitara) platforms."
+    },
+    {
+      "name": "Mahindra & Mahindra",
+      "ticker": "MM",
+      "weight": 14.56,
+      "sector": "SUV & Tractors",
+      "color": "#C62828",
+      "description": "SUV market leader with blockbusters: XUV 3XO, XUV700, Scorpio-N, Thar. Farmtrac tractor dominance (40%+ domestic share). Electric: BE 6e and XEV 9e for premium EVs. Last-mile electric delivery (Treo, Zor) growing fast."
+    },
+    {
+      "name": "Tata Motors",
+      "ticker": "TATAMOTORS",
+      "weight": 12.34,
+      "sector": "Passenger & Commercial",
+      "color": "#1565C0",
+      "description": "Owns Jaguar Land Rover (contributes 70% revenue, 80% profit). Domestic PV revival: Nexon, Punch (top-10 bestsellers), Nexon EV (India's best-selling EV). Tata Ace and Prima CV franchise. Turnaround under N Chandrasekaran."
+    },
+    {
+      "name": "Bajaj Auto",
+      "ticker": "BAJAJ-AUTO",
+      "weight": 6.9578,
+      "sector": "Two Wheelers",
+      "color": "#6A1B9A",
+      "description": "India's 2nd largest 2W maker. Pulsar, Dominar, CT, Platina brands. 40% export contribution — dominates Africa and Latin America. CNG bike Bajaj Freedom 125 — world's first CNG motorcycle. Electric: Chetak scooter relaunched successfully."
+    },
+    {
+      "name": "Eicher Motors",
+      "ticker": "EICHERMOT",
+      "weight": 6.7159,
+      "sector": "Two Wheelers",
+      "color": "#37474F",
+      "description": "Royal Enfield — India's premium motorcycle brand with 90% share in 250cc+ premium segment. Himalayan 450 and Hunter 350 driving new buyer acquisition. VE Commercial Vehicles JV with Volvo Group for trucks, buses. Expanding in Southeast Asia."
+    },
+    {
+      "name": "TVS Motor Company",
+      "ticker": "TVSMOTOR",
+      "weight": 28.3929,
+      "sector": "Two Wheelers",
+      "color": "#1976D2",
+      "description": "India's 3rd largest 2W maker. Apache RTR series and Jupiter scooter are best-sellers. TVS iQube electric scooter gaining share. Acquired Norton Motorcycles UK for premium brand. Strong exports to 60+ countries."
+    },
+    {
+      "name": "Bosch India",
+      "ticker": "BOSCH",
+      "weight": 6.12,
+      "sector": "Auto Components",
+      "color": "#F44336",
+      "description": "Indian arm of Robert Bosch GmbH Germany. Leader in fuel injection systems (80%+ share), anti-lock braking (ABS), powertrain electrification and automotive electronics. Beneficiary of BS-VI upgrade, hybrid and EV transitions."
+    },
+    {
+      "name": "Motherson Wiring",
+      "ticker": "MOTHERSON",
+      "weight": 3.4944,
+      "sector": "Auto Components",
+      "color": "#FF5722",
+      "description": "Global auto components major. Wiring harnesses (India's largest), exterior mirrors, bumpers, plastic interior modules. Supplies to Mercedes-Benz, BMW, VW, Toyota globally. India's largest auto ancillary exporter at $19B+ revenue."
+    },
+    {
+      "name": "Hero MotoCorp",
+      "ticker": "HEROMOTOCO",
+      "weight": 4.5841,
+      "sector": "Two Wheelers",
+      "color": "#E91E63",
+      "description": "World's largest 2-wheeler manufacturer by volume. Splendor (world's best-selling bike), HF Deluxe, Passion dominate entry segment. Xtreme 160R premium series growing. Vida electric scooter for EV segment. Split from Honda in 2011."
+    },
+    {
+      "name": "Bharat Forge",
+      "ticker": "BHARATFORG",
+      "weight": 3.2668,
+      "sector": "Auto Components",
+      "color": "#795548",
+      "description": "World's 2nd largest forging company. Makes crankshafts, front axle beams, connecting rods for PV, CV and 2W makers globally. Customer includes Ford, Daimler, Volvo. Pivoting to defence (ATAGS artillery guns) and aerospace."
+    }
+  ]
+}

@@ -15,40 +15,7 @@
             "companies": 0,
             "description": "India's first (2003) and largest liquid ETF providing institutional-grade cash management via exchange-traded mechanism. LIQUIDBEES bridges gap between savings account (0.5% yield) and fixed deposits (6-7% yield with lock-in). Invests exclusively in 91-day-or-less instruments (T-bills, CPs, CDs) ensuring minimal interest rate risk. Daily rebalancing competes with money market funds, offering superior liquidity (trades NSE 09:15-15:30 with market-simulated pricing vs mutual funds settling T+1). Daily dividend reinvested as additional units creates compounding effect. Yield currently 6.5-7% (tracks RBI repo rate minus 10-30 bps). Perfect for traders needing overnight cash parking, corporations managing working capital, and retail investors seeking savings-like accessibility with money market returns. During RBI hike cycles, LIQUIDBEES yield rises synchronously; during cuts, yield compresses creating mark-to-market losses offset by lower coupon reinvestment rates."
         },
-        "holdings": [
-            {
-                "name": "Treasury Bills (91-day)",
-                "ticker": "TBILL",
-                "weight": 42.5,
-                "sector": "Government Securities",
-                "color": "#4CAF50",
-                "description": "Short-term Government of India securities with zero credit risk. 91-day T-bills auctioned by RBI weekly. Sovereign backing provides absolute safety. Yields track RBI repo rate with minimal duration risk."
-            },
-            {
-                "name": "Commercial Paper — AAA",
-                "ticker": "CP",
-                "weight": 28.3,
-                "sector": "Corporate Debt",
-                "color": "#2196F3",
-                "description": "Top-rated (A1+) unsecured promissory notes issued by blue-chip corporates like Reliance, TCS, HDFC and PSU entities. Short tenure of 15-90 days. Higher yield than T-bills (~25-50 bps) with minimal credit risk."
-            },
-            {
-                "name": "Certificate of Deposit",
-                "ticker": "CD",
-                "weight": 22.1,
-                "sector": "Bank Instruments",
-                "color": "#FF9800",
-                "description": "Negotiable money market instruments issued by scheduled commercial banks (HDFC, ICICI, SBI, Kotak). 7-91 day tenure. RBI-regulated and highly liquid. Credit risk very low given systemic importance of issuing banks."
-            },
-            {
-                "name": "Cash & Tri-party Repo",
-                "ticker": "CASH",
-                "weight": 7.1,
-                "sector": "Overnight Instruments",
-                "color": "#9E9E9E",
-                "description": "Overnight tri-party repos on government securities and CBLO (Collateralized Borrowing & Lending Obligations) for same-day settlement, daily operational liquidity and buffer for unexpected large redemptions."
-            }
-        ]
+        "indexKey": "crisil-liquid-fund-index"
     },
     {
         "id": "liquidietf",
@@ -66,48 +33,7 @@
             "companies": 0,
             "description": "ICICI Prudential BSE Liquid Rate ETF- IDCW tracks the S&P BSE Liquid Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "s-p-bse-liquid-rate-index"
     },
     {
         "id": "liquidetf",
@@ -125,48 +51,7 @@
             "companies": 0,
             "description": "DSP NIFTY 1D Rate Liquid ETF tracks the Nifty1D rate index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty1d-rate-index"
     },
     {
         "id": "liquidcase",
@@ -184,48 +69,7 @@
             "companies": 0,
             "description": "Zerodha Fund House - Zerodha Nifty 1D Rate Liquid ETF tracks the Zerodha Nifty 1D Rate Liquid ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "zerodha-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "liquidadd",
@@ -243,48 +87,7 @@
             "companies": 0,
             "description": "DSP BSE Liquid Rate ETF tracks the DSP S&P BSE Liquid Rate ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "dsp-s-p-bse-liquid-rate-etf"
     },
     {
         "id": "liquid1",
@@ -302,48 +105,7 @@
             "companies": 0,
             "description": "Kotak Mahindra Mutual Fund - Kotak Nifty 1D Rate Liquid ETF tracks the Kotak Nifty 1D Rate Liquid ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "kotak-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "liquidplus",
@@ -361,48 +123,7 @@
             "companies": 0,
             "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty 1D Rate Liquid ETF-Growth tracks the Nifty 1D Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty-1d-rate-index"
     },
     {
         "id": "liquidbetf",
@@ -420,48 +141,7 @@
             "companies": 0,
             "description": "Bajaj Finserv Nifty 1D Rate Liquid ETF-Growth tracks the Bajaj Finserv Nifty 1D Rate Liquid ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "bajaj-finserv-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "liquid",
@@ -479,48 +159,7 @@
             "companies": 0,
             "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty 1D Rate Liquid ETF tracks the Mirae Asset Nifty 1D Rate Liquid ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "mirae-asset-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "liqgrwbees",
@@ -538,48 +177,7 @@
             "companies": 0,
             "description": "Nippon India Mutual Fund-Nippon India Nifty 1D Rate Liquid ETF-Growth tracks the Liquid index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "liquid"
     },
     {
         "id": "cashietf",
@@ -597,48 +195,7 @@
             "companies": 0,
             "description": "ICICI Prudential MF-ICICI Prudential BSE Liquid Rate ETF-Growth tracks the BSE Liquid Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "bse-liquid-rate-index"
     },
     {
         "id": "sbiliqetf",
@@ -656,48 +213,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund - SBI NIFTY 1D Rate Liquid ETF - Growth tracks the Nifty 1D Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty-1d-rate-index"
     },
     {
         "id": "hdfcliquid",
@@ -715,48 +231,7 @@
             "companies": 0,
             "description": "HDFC Nifty 1D Rate Liquid ETF - Growth tracks the HDFC Nifty 1D Rate Liquid ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "hdfc-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "liquidsbi",
@@ -774,48 +249,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund - SBI NIFTY 1D Rate ETF tracks the SBI NIFTY 1D Rate ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "sbi-nifty-1d-rate-etf"
     },
     {
         "id": "growwliqid",
@@ -833,48 +267,7 @@
             "companies": 0,
             "description": "Groww Mutual Fund - Groww Nifty 1D Rate Liquid ETF tracks the Nifty 1D Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty-1d-rate-index"
     },
     {
         "id": "liquidshri",
@@ -892,48 +285,7 @@
             "companies": 0,
             "description": "Shriram Mutual Fund -SHRIRAM NIFTY 1D RATE LIQUID ETF tracks the SHRIRAM NIFTY 1D RATE LIQUID ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "shriram-nifty-1d-rate-liquid-etf"
     },
     {
         "id": "aoneliquid",
@@ -951,48 +303,7 @@
             "companies": 0,
             "description": "Angel One Mutual Fund - Angel One Nifty 1D Rate Liquid ETF - Growth tracks the Nifty 1D Rate Index index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty-1d-rate-index"
     },
     {
         "id": "eliquid",
@@ -1010,48 +321,7 @@
             "companies": 0,
             "description": "Edelweiss Mutual Fund - Edelweiss Nifty 1D Rate Liquid ETF tracks the Nifty 1D Rate Index (Debt Index) index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "nifty-1d-rate-index-debt-index"
     },
     {
         "id": "abslliquid",
@@ -1069,47 +339,6 @@
             "companies": 0,
             "description": "Aditya Birla Sun Life CRISIL Liquid Overnight ETF tracks the Aditya Birla Sun Life CRISIL Overnight Fund AI ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tri-Party Repo (TREPS)",
-                "ticker": "TREPS",
-                "weight": 55.0,
-                "sector": "Money Market",
-                "color": "#00838F",
-                "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
-            },
-            {
-                "name": "91-Day Treasury Bills",
-                "ticker": "TBILL91D",
-                "weight": 20.0,
-                "sector": "Government Securities",
-                "color": "#1565C0",
-                "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
-            },
-            {
-                "name": "Certificate of Deposit — HDFC Bank",
-                "ticker": "CD-HDFCBANK",
-                "weight": 12.0,
-                "sector": "Money Market",
-                "color": "#0D47A1",
-                "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
-            },
-            {
-                "name": "Commercial Paper — Reliance Retail",
-                "ticker": "CP-RELRETAIL",
-                "weight": 8.0,
-                "sector": "Money Market",
-                "color": "#BF360C",
-                "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
-            },
-            {
-                "name": "182-Day Treasury Bills",
-                "ticker": "TBILL182D",
-                "weight": 5.0,
-                "sector": "Government Securities",
-                "color": "#37474F",
-                "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
-            }
-        ]
+        "indexKey": "aditya-birla-sun-life-crisil-overnight-fund-ai-etf"
     }
 ]

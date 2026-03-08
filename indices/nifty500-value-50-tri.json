@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty500 Value 50 TRI",
+  "slug": "nifty500-value-50-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 10.23,
+      "sector": "FMCG & Conglomerates",
+      "color": "#558B2F",
+      "description": "Value index core — cigarettes fund FMCG brands. 25x PE vs global FMCG peers at 35-40x. Hotels demerger unlocking NAV. Consistent 3%+ dividend yield."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 9.12,
+      "sector": "Energy - Mining",
+      "color": "#37474F",
+      "description": "5%+ dividend yield with government-mandated payouts. 50%+ ROCE on minimal capex. Classic value with long-term energy transition risk."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 8.34,
+      "sector": "Oil & Gas",
+      "color": "#F57F17",
+      "description": "Perpetually undervalued oil producer. P/B below 1x. Value-composite score driven by high dividend yield, low PE and high ROCE."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 7.89,
+      "sector": "Utilities",
+      "color": "#01579B",
+      "description": "Regulated monopoly transmission with 4-5% dividend yield. Value inclusion from high dividend yield and low P/B relative to peers."
+    },
+    {
+      "name": "NTPC Ltd",
+      "ticker": "NTPC",
+      "weight": 7.23,
+      "sector": "Utilities",
+      "color": "#1A237E",
+      "description": "Regulated power generator. Trades below replacement cost. High-quality value with 45%+ dividend payout and renewable growth optionality."
+    },
+    {
+      "name": "SBI",
+      "ticker": "SBIN",
+      "weight": 6.78,
+      "sector": "Banking - PSU",
+      "color": "#1565C0",
+      "description": "India's largest bank at 1.2-1.5x P/B vs private peers at 2.5-4x. Value factor inclusion from high ROE-to-P/B spread. Subsidiary value ongoing."
+    },
+    {
+      "name": "Vedanta Ltd",
+      "ticker": "VEDL",
+      "weight": 6.23,
+      "sector": "Metals & Mining",
+      "color": "#880E4F",
+      "description": "Diversified metals giant. Ultra-high dividend yield in commodity upcycles. Broad value-index inclusion on composite scoring."
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "ticker": "IOC",
+      "weight": 5.45,
+      "sector": "Oil Refining",
+      "color": "#F44336",
+      "description": "India's largest oil company by revenue. Trades at 6-8x PE with 4-5% dividend yield. Value inclusion from earnings yield vs book value spread."
+    },
+    {
+      "name": "BPCL",
+      "ticker": "BPCL",
+      "weight": 4.78,
+      "sector": "Oil Marketing",
+      "color": "#FF6F00",
+      "description": "PSU oil company with privatisation optionality. Value-factor inclusion from low P/BV, high earnings yield and above-average dividend payout."
+    },
+    {
+      "name": "HPCL",
+      "ticker": "HINDPETRO",
+      "weight": 4.12,
+      "sector": "Oil Refining",
+      "color": "#E53935",
+      "description": "Upstream refiner and fuel retailer. Cyclical value opportunity — earnings yield attractive against low P/B ratio."
+    }
+  ]
+}

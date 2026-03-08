@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
 ROOT   = Path(__file__).parent.parent
-OUT    = ROOT / "companies.json"
+OUT    = ROOT / "json" / "companies.json"
 
 # ── Sector → hex color map ────────────────────────────────────────────────────
 SECTOR_COLORS: dict[str, str] = {

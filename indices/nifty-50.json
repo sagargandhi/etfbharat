@@ -1,0 +1,168 @@
+{
+  "indexName": "Nifty 50",
+  "slug": "nifty-50",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 8.5155,
+      "sector": "Energy",
+      "color": "#FF6F00",
+      "description": "India's largest conglomerate spanning petrochemicals, refining, retail (Reliance Retail — 15,000+ stores) and digital services (Jio with 450M+ subscribers). Mukesh Ambani-led ₹19 lakh crore market cap giant. New Energy investments of ₹75,000 Cr in solar, hydrogen and batteries."
+    },
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 11.758,
+      "sector": "Banking",
+      "color": "#2196F3",
+      "description": "India's largest private bank serving 85M+ customers via 8,000+ branches. Merged with HDFC Ltd in 2023 creating a financial colossus. Market leader in home loans, auto loans and credit cards. Best-in-class NPA ratios at 1.2%."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 8.4287,
+      "sector": "Banking",
+      "color": "#1565C0",
+      "description": "India's second-largest private bank with industry-best ROE of 18%+. Technology-first approach with iMobile Pay app (10M+ users). Strong in retail, corporate and SME lending. CEO Sandeep Bakhshi steering consistent outperformance."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 4.1171,
+      "sector": "IT",
+      "color": "#00BCD4",
+      "description": "Global IT services giant co-founded by N.R. Narayana Murthy in 1981 with ₹10,000. Cobalt cloud platform, AI-first strategy. Serves Fortune 500 clients in 50+ countries. India's second-largest IT firm with $18B+ annual revenue."
+    },
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 2.3433,
+      "sector": "IT",
+      "color": "#006064",
+      "description": "Tata Consultancy Services — India's largest IT company. First Indian company to cross $200B market cap. Global leader in IT services, consulting and business solutions with $25B+ annual revenue. Serves 1,200+ clients in 150 countries."
+    },
+    {
+      "name": "Bharti Airtel",
+      "ticker": "BHARTIARTL",
+      "weight": 4.6782,
+      "sector": "Telecom",
+      "color": "#E91E63",
+      "description": "India's largest telecom operator by revenue with 380M+ subscribers. Active 5G rollout across 5,000+ Indian cities. Operates across 17 African countries. Strong enterprise and home broadband growth under Airtel Business."
+    },
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 2.6775,
+      "sector": "FMCG",
+      "color": "#4CAF50",
+      "description": "Diversified conglomerate with cigarettes (60% profit), FMCG brands (Aashirvaad, Sunfeast, Yippee, Bingo), hotels (ITC Hotels chain), paperboards and agribusiness. Consistent high-dividend payer. Demerging hotels division in 2024."
+    },
+    {
+      "name": "L&T",
+      "ticker": "LT",
+      "weight": 4.1572,
+      "sector": "Capital Goods",
+      "color": "#FF5722",
+      "description": "Larsen & Toubro — India's largest engineering & construction company. Builds metros, airports, power plants, defense systems and nuclear plants. ₹4 lakh crore order book. Also strong in IT through LTIMindtree and L&T Technology Services."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 3.3806,
+      "sector": "Banking",
+      "color": "#9C27B0",
+      "description": "India's third-largest private bank with 10,000+ touch points. Acquired Citibank India's retail portfolio in 2023 significantly strengthening wealth management and credit cards. Known for Burgundy private banking and digital transformation."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 2.6453,
+      "sector": "Banking",
+      "color": "#FF3D00",
+      "description": "Premium private bank built by Uday Kotak from a bill discounting NBFC in 1985. Known for conservative lending, best-in-class asset quality and low NPAs. 811 digital banking app serves 35M+ customers."
+    },
+    {
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "weight": 1.2843,
+      "sector": "IT",
+      "color": "#0097A7",
+      "description": "India's third-largest IT company by revenue with $13B+ annual revenue. Products-led IT company with strong HCL Software business. Engineering services and infrastructure management leader. IBM software IP acquisition worth $1.8B."
+    },
+    {
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "weight": 4.239,
+      "sector": "Banking",
+      "color": "#FF9800",
+      "description": "India's largest bank commanding 23% deposit share. ₹55 lakh crore in assets, 22,000+ branches and 65,000+ ATMs. YONO digital banking app has 40M+ users. Gateway bank for government schemes and public sector lending."
+    },
+    {
+      "name": "Sun Pharmaceutical",
+      "ticker": "SUNPHARMA",
+      "weight": 1.7023,
+      "sector": "Pharma",
+      "color": "#EC407A",
+      "description": "India's largest pharma company by market cap. Dominant in US specialty dermatology (Ilumya for psoriasis, Cequa for dry eyes). Taro Pharmaceutical subsidiary adds branded Rx strength in North America."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 2.265,
+      "sector": "NBFC",
+      "color": "#FF3D00",
+      "description": "India's most valuable NBFC with 85M+ customer franchise. Built the most sophisticated consumer lending franchise — EMI cards at retail stores, FDs, insurance, and digital payments. 25%+ annual growth engine."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 1.6197,
+      "sector": "Power",
+      "color": "#4CAF50",
+      "description": "India's largest power generator with 73 GW operational capacity. State-owned utility transitioning aggressively to renewables — targeting 60 GW renewable capacity by 2032. Consistent high-dividend payer with government backing."
+    },
+    {
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "weight": 1.6631,
+      "sector": "Auto",
+      "color": "#B71C1C",
+      "description": "India's largest car manufacturer with 41%+ market share. JV with Suzuki Japan since 1982. Dominates entry and mid-segments with Alto, Swift, Baleno, Dzire, Ertiga. Transitioning to CNG and hybrid platforms with EV coming."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 1.5668,
+      "sector": "Consumer",
+      "color": "#FFD700",
+      "description": "Tata Group's jewellery and watches powerhouse. Tanishq is India's most trusted jewellery brand (₹40,000+ Cr revenue). Fastrack, Titan watches, Sonata. Expanding into eyewear (Titan Eye+) and fragrances."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 0.5017,
+      "sector": "IT",
+      "color": "#7B1FA2",
+      "description": "Azim Premji's IT conglomerate transforming under CEO Srinivas Pallia. Strategic European acquisitions (Capco for BFSI consulting, Rizing for SAP). Consumer care division (Santoor, Wipro Baby) is a profitable side business."
+    },
+    {
+      "name": "UltraTech Cement",
+      "ticker": "ULTRACEMCO",
+      "weight": 1.2741,
+      "sector": "Cement",
+      "color": "#607D8B",
+      "description": "India's largest cement manufacturer with 130 MT capacity. Aditya Birla Group flagship. Pan-India presence with 23+ integrated plants, 30+ grinding units. Consolidating via acquisitions — Kesoram, Heidelberg India."
+    },
+    {
+      "name": "Power Grid Corp",
+      "ticker": "POWERGRID",
+      "weight": 1.218,
+      "sector": "Power",
+      "color": "#009688",
+      "description": "India's monopoly power transmission utility owning 70% of inter-state transmission network. 175,000 circuit km of transmission lines. Regulated 15.5% post-tax returns. Building Green Energy Corridors for renewables integration."
+    }
+  ]
+}

@@ -127,13 +127,13 @@ def fmt_aum(aum_cr: float) -> str:
     return f"₹{aum_cr:,.1f} Cr"
 
 # ── Main ──────────────────────────────────────────────────────────────────────
-prices_file = os.path.join(ROOT_DIR, 'etf-prices.json')
+prices_file = os.path.join(ROOT_DIR, 'json', 'etf-prices.json')
 with open(prices_file, 'r', encoding='utf-8') as f:
     etf_prices = json.load(f)
 print(f"Loaded etf-prices.json: {len(etf_prices)} existing records")
 
 print("\nLoading ETF symbols from etf-config.json v2.0 ...")
-etf_config = load_etf_symbols(os.path.join(ROOT_DIR, 'etf-config.json'))
+etf_config = load_etf_symbols(os.path.join(ROOT_DIR, 'json', 'etf-config.json'))
 if not etf_config:
     print("No ETFs loaded — aborting.")
     raise SystemExit(1)

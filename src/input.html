@@ -124,10 +124,34 @@
     </a>
     <div class="tabs-wrap" id="tabs"></div>
     <div id="nav-right" style="display:flex;align-items:center;gap:10px;">
-      <a href="/about.html" class="site-nav-link">About</a>
-      <a href="/contact.html" class="site-nav-link">Contact</a>
       <button class="disclaimer-btn" onclick="toggleDisclaimer()">⚠️ Disclaimer</button>
+      <button class="site-nav-hamburger" aria-label="Menu" onclick="document.getElementById('snm').classList.toggle('open')">☰</button>
     </div>
+  </div>
+  <div class="site-nav-mobile" id="snm">
+    <div class="site-nav-mobile-section">Main</div>
+    <a href="/">🏠 ETF Directory</a>
+    <div class="site-nav-mobile-section">Guides</div>
+    <a href="/what-is-etf-india-complete-guide.html">What is an ETF?</a>
+    <a href="/how-to-buy-etf-india.html">How to Buy ETFs</a>
+    <a href="/etf-vs-index-mutual-fund-india.html">ETF vs Mutual Fund</a>
+    <a href="/etf-vs-direct-stocks-india.html">ETF vs Stocks</a>
+    <a href="/difference-between-etf-and-smallcase.html">ETF vs Smallcase</a>
+    <a href="/how-are-etfs-taxed-in-india.html">ETF Taxation</a>
+    <a href="/what-is-expense-ratio-in-etf-india.html">Expense Ratio</a>
+    <a href="/nse-vs-bse-difference-india.html">NSE vs BSE</a>
+    <div class="site-nav-mobile-section">ETF Types</div>
+    <a href="/best-nifty-50-etfs-india.html">Nifty 50 ETFs</a>
+    <a href="/best-gold-etfs-india.html">Gold ETFs</a>
+    <a href="/best-debt-etfs-india.html">Debt ETFs</a>
+    <a href="/sectoral-etfs-india-guide.html">Sectoral ETFs</a>
+    <a href="/best-banking-etfs-india.html">Banking ETFs</a>
+    <a href="/international-etf-india-nasdaq-global.html">International ETFs</a>
+    <a href="/ev-and-rail-etfs-india.html">EV &amp; Rail ETFs</a>
+    <div class="site-nav-mobile-section">More</div>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy-policy.html">Privacy Policy</a>
   </div>
 </div>
 
@@ -319,6 +343,7 @@ const C={bg:"#030810",surface:"#070F1E",card:"#0B1628",border:"#1A2840",accent:"
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let ETF_DATA = [];
+let COMPANIES_DICT = {};  // populated from companies.json; used by fetchHoldings
 let activeTab='Popular', activeSubFilter=null, activeModal=null, activeSel=null, activeSort='weight';
 
 // ── POPULAR ETFs (one per major category, curated by AUM / recognition) ────────
@@ -348,9 +373,9 @@ async function loadAllETFData() {
   try {
     // Load all three data files in parallel
     const [configRes, companiesRes, priceRes] = await Promise.all([
-      fetch('etf-config.json'),
-      fetch('companies.json').catch(() => null),
-      fetch('etf-prices.json').catch(() => null)
+      fetch('json/etf-config.json'),
+      fetch('json/companies.json').catch(() => null),
+      fetch('json/etf-prices.json').catch(() => null)
     ]);
 
     const config    = await configRes.json();
@@ -361,27 +386,16 @@ async function loadAllETFData() {
     const etfsDict      = config.etfs      || {};
     const companiesDict = companiesData.companies || {};
 
+    COMPANIES_DICT = companiesDict;
     ETF_DATA = Object.entries(etfsDict).map(([nseSymbol, etf]) => {
-      const prices   = priceData[nseSymbol] || {};
-      // Enrich holdings: {ticker, weight} → {ticker, weight, name, color, sector, description}
-      const holdings = (etf.holdings || []).map(h => {
-        const co = companiesDict[h.ticker] || {};
-        return {
-          ticker:      h.ticker,
-          weight:      h.weight,
-          name:        co.name        || h.ticker,
-          color:       co.color       || '#9E9E9E',
-          sector:      co.sector      || '',
-          description: co.description || ''
-        };
-      });
+      const prices = priceData[nseSymbol] || {};
       return {
         ...etf,
-        ticker:  nseSymbol,
-        holdings,
-        nav:     prices.nav     || '₹0.00',
-        aum:     prices.aum     || '₹0 Cr',
-        expense: prices.expense || etf.expense || '0.00%'
+        ticker:   nseSymbol,
+        holdings: [],  // loaded lazily from indices/{indexKey}.json on first modal open
+        nav:      prices.nav     || '₹0.00',
+        aum:      prices.aum     || '₹0 Cr',
+        expense:  prices.expense || etf.expense || '0.00%'
       };
     });
 
@@ -523,16 +537,10 @@ function renderAll(){
 }
 
 function buildCard(etf){
-  const maxW=Math.max(...etf.holdings.map(h=>h.weight));
   const exchColor=etf.exchange.includes('BSE')?C.saffron:C.accent;
-  const topH=etf.holdings.slice(0,4).map(h=>`
-    <div class="holding-row">
-      <div class="holding-dot" style="background:${h.color};"></div>
-      <div class="holding-name">${esc(h.name)}</div>
-      ${wbar(h.weight,maxW,h.color)}
-      <div class="holding-pct">${h.weight}%</div>
-    </div>`).join('');
-  const moreH=etf.holdings.length>4?`<div class="more-holdings">+${etf.holdings.length-4} more holdings →</div>`:'';
+  const holdingCount=etf.index.companies||0;
+  const desc=etf.index.description||'';
+  const descSnippet=desc.length>130?desc.slice(0,130)+'…':desc;
   return `
   <div class="etf-card" style="--card-color:${etf.color};--card-glow:${etf.color}15;--card-hover-bg:${etf.color}08;" data-etf-id="${etf.id}">
     <div class="card-body">
@@ -547,11 +555,10 @@ function buildCard(etf){
         <div class="index-lbl" style="color:${etf.color};">TRACKS INDEX</div>
         <div style="font-size:12px;color:#E8F0FE;font-weight:600;">${esc(etf.index.name)}</div>
       </div>
-      <div class="holdings-lbl">TOP HOLDINGS</div>
-      ${topH}${moreH}
+      ${descSnippet?`<div class="holdings-lbl">ABOUT</div><div style="font-size:11px;color:${C.muted};line-height:1.6;padding:4px 0 8px;">${esc(descSnippet)}</div>`:''}
     </div>
     <div class="card-footer">
-      <span class="card-count">${etf.holdings.length} companies mapped</span>
+      <span class="card-count">${holdingCount} companies</span>
       <span class="card-cta">View Details →</span>
     </div>
   </div>`;
@@ -620,13 +627,38 @@ function trackSearch(q){
   _searchTimer=setTimeout(()=>gtag('event','search',{search_term:q}),600);
 }
 
-function openModal(id){
+// ── HOLDINGS: lazy-load from indices/{indexKey}.json on first modal open ─────
+async function fetchHoldings(etf){
+  if(etf.holdings&&etf.holdings.length>0) return;  // already loaded
+  const key=etf.indexKey;
+  if(!key){ etf.holdings=[]; return; }
+  try{
+    const res=await fetch(`indices/${key}.json`);
+    if(!res.ok){ etf.holdings=[]; return; }
+    const data=await res.json();
+    etf.holdings=(data.holdings||[]).map(h=>{
+      const co=COMPANIES_DICT[h.ticker]||{};
+      return {
+        ticker:      h.ticker,
+        weight:      h.weight,
+        name:        co.name        ||h.name       ||h.ticker,
+        color:       co.color       ||h.color      ||'#9E9E9E',
+        sector:      co.sector      ||h.sector     ||'',
+        description: co.description ||h.description||''
+      };
+    });
+  }catch(e){ etf.holdings=[]; }
+}
+
+async function openModal(id){
   activeModal=ETF_DATA.find(e=>e.id===id);
   activeSel=null; activeSort='weight';
   if(!activeModal) return;
-  renderModal();
   document.getElementById('modal-overlay').classList.add('open');
   document.body.style.overflow='hidden';
+  renderModal();                           // show modal immediately (holdings empty on first open)
+  await fetchHoldings(activeModal);        // fetch from indices/{indexKey}.json if needed
+  renderModal();                           // re-render with holdings populated
   gtag('event','view_etf',{etf_id:activeModal.id,etf_name:activeModal.name,etf_category:activeModal.category});
   fetchLivePrice(activeModal);
 }
@@ -649,7 +681,7 @@ function renderModal(){
   const etf=activeModal;
   if(!etf) return;
   const sorted=[...etf.holdings].sort((a,b)=>activeSort==='weight'?b.weight-a.weight:a.name.localeCompare(b.name));
-  const maxW=Math.max(...etf.holdings.map(h=>h.weight));
+  const maxW=etf.holdings.length?Math.max(...etf.holdings.map(h=>h.weight)):0;
   const exchColor=etf.exchange.includes('BSE')?C.saffron:C.accent;
 
   // sectors

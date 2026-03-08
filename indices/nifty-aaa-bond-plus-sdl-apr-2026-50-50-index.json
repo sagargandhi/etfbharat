@@ -1,0 +1,16 @@
+{
+  "indexName": "Nifty AAA Bond Plus SDL Apr 2026 50:50 Index",
+  "slug": "nifty-aaa-bond-plus-sdl-apr-2026-50-50-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Axis AAA Bond Plus SDL ETF 2026 Maturity",
+      "ticker": "AXISBPSETF",
+      "weight": 100.0,
+      "sector": "Debt - SDL / AAA Bonds",
+      "color": "#2E7D32",
+      "description": "This is itself the ETF basket (CRISIL IBX AAA Bond Plus SDL Index — Jun 2026). Constituent bonds: a mix of AAA-rated PSU bonds (NABARD, NHAI, IRFC, Power Finance Corporation) and State Development Loans (SDL) across major states (Maharashtra, Gujarat, Karnataka, UP), all maturing by June 2026. Yield to maturity ~7.2-7.5%. SEBI's Target Maturity ETF category — investors who hold to maturity know their return upfront."
+    }
+  ]
+}

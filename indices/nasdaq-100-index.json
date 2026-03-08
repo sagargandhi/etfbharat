@@ -1,0 +1,88 @@
+{
+  "indexName": "NASDAQ 100 Index",
+  "slug": "nasdaq-100-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Apple Inc",
+      "ticker": "AAPL",
+      "weight": 9.12,
+      "sector": "Consumer Technology",
+      "color": "#424242",
+      "description": "World's most valuable company (~$3.5T market cap). iPhone 16 cycle plus Vision Pro spatial computing platform. Services revenue (App Store, AppleTV+, Apple Pay, iCloud) growing at 14% CAGR with 90%+ gross margins. $90B annual buyback the world's largest corporate repurchase program."
+    },
+    {
+      "name": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "weight": 8.87,
+      "sector": "Cloud & Enterprise",
+      "color": "#0078D4",
+      "description": "Azure cloud growing 28%+ annually. OpenAI partnership and Copilot integration across Office 365, Dynamics, GitHub monetising at scale. Activision Blizzard acquisition builds gaming revenue to $25B+. LinkedIn's professional network of 1B members monetising via SaaS HR tools."
+    },
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "weight": 8.23,
+      "sector": "Semiconductors",
+      "color": "#76B900",
+      "description": "AI infrastructure backbone. H100 and Blackwell GPU clusters power every major LLM (GPT-4, Gemini, Claude, Llama). Data centre revenue 400%+ YoY. CUDA software ecosystem creates insurmountable moat — switching cost to AMD or Intel is 5+ years of AI retraining. Sovereign AI deployments from India, France, Japan, UAE provide government revenue backstop."
+    },
+    {
+      "name": "Amazon.com",
+      "ticker": "AMZN",
+      "weight": 5.43,
+      "sector": "E-Commerce & Cloud",
+      "color": "#FF9900",
+      "description": "AWS (world's largest cloud at 31% market share) generates 60%+ of Amazon's operating profit at 37%+ margins. Prime membership 200M+ globally is the world's most valuable subscription. $50B+ advertising business growing 25%+ now exceeds total revenue of many Fortune 500 companies. Amazon Pharmacy and Clinic digitising US healthcare."
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "weight": 4.97,
+      "sector": "Social Media",
+      "color": "#0082FB",
+      "description": "3.3B daily active users across Facebook, Instagram, WhatsApp and Threads. Leading AI infrastructure investor ($60B+ capex 2025). Llama open-source models disrupt premium AI incumbents. Ray-Ban Meta smart glasses and Quest VR headsets point toward next computing paradigm. Advertising revenue re-accelerating post Apple ATT headwinds."
+    },
+    {
+      "name": "Alphabet Inc (Google)",
+      "ticker": "GOOGL",
+      "weight": 4.76,
+      "sector": "Digital Advertising",
+      "color": "#4285F4",
+      "description": "Search engine with 91% global market share. YouTube #2 social platform globally. Google Cloud ($36B run rate) growing 28%+. DeepMind's Gemini Ultra competing at frontier AI. Waymo robotaxis already generating commercial revenue in San Francisco and Phoenix. Trading at 20x PE — discount to peers despite AI leadership."
+    },
+    {
+      "name": "Broadcom Inc",
+      "ticker": "AVGO",
+      "weight": 4.12,
+      "sector": "Semiconductors",
+      "color": "#CC0000",
+      "description": "Custom AI ASIC chips (called XPUs) for Google, Meta and ByteDance are becoming NVIDIA alternatives for cost-efficient at-scale inference. VMware acquisition creates software subscription business with 70% gross margins. 10-year AI revenue growth road map with hyperscaler partnerships signed."
+    },
+    {
+      "name": "Tesla Inc",
+      "ticker": "TSLA",
+      "weight": 3.85,
+      "sector": "Electric Vehicles",
+      "color": "#E31937",
+      "description": "World's most valuable automaker and AI/robotics company. Full Self-Driving v12: end-to-end neural net trained on 2B+ miles. Optimus humanoid robot targeting 2026 commercial production. Energy storage (Megapack) revenue surpassing $10B. Supercharger network becoming industry standard after Ford, GM, Rivian, Hyundai adoptions."
+    },
+    {
+      "name": "Costco Wholesale",
+      "ticker": "COST",
+      "weight": 2.54,
+      "sector": "Retail",
+      "color": "#005DAA",
+      "description": "Membership-model warehouse retailer with 130M+ cardholders. 90%+ renewal rate = recurring subscription revenue. Kirkland Signature private label drives 30%+ of revenue at superior margins. Counter-cyclical: members shop more during recessions for value. Expansion into India potential long-term catalyst."
+    },
+    {
+      "name": "Netflix Inc",
+      "ticker": "NFLX",
+      "weight": 2.31,
+      "sector": "Streaming",
+      "color": "#E50914",
+      "description": "Streaming market leader with 300M+ subscribers in 190 countries. Ad-supported tier monetising 70M+ MAU. Live sports (NFL Christmas games, WWE Raw) driving incremental subscriptions. Account sharing crackdown added 30M+ paid subscribers. Free cash flow positive — moving from growth story to cash cow."
+    }
+  ]
+}

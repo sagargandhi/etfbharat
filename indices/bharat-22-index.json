@@ -1,0 +1,88 @@
+{
+  "indexName": "Bharat 22 Index",
+  "slug": "bharat-22-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 16.8,
+      "sector": "FMCG & Conglomerates",
+      "color": "#558B2F",
+      "description": "Bharat 22's largest holding — SUUTI holds ~8% of ITC representing the UTI legacy stake. ITC's unique position: cigarettes fund one of India's fastest-growing FMCG empires (Aashirvaad, Sunfeast, Bingo). Hotels demerger in progress. 87% dividend payout ratio makes ITC a consistent income stock. ESG headwind from tobacco mitigated by diversification into agribusiness, paperboards and branded foods."
+    },
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 10.2,
+      "sector": "Engineering & Construction",
+      "color": "#37474F",
+      "description": "SUUTI holds L&T stake in Bharat 22. L&T is India's engineering backbone — Rs 5 lakh crore+ order book spanning roads, bridges, metros, nuclear plants, defence systems, data centres and shipbuilding. L&T's presence in Bharat 22 alongside PSUs illustrates how India's infrastructure growth depends on both government investment and private execution."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 7.45,
+      "sector": "BFSI",
+      "color": "#880E4F",
+      "description": "SUUTI holds ~8.2% stake in Axis Bank — a legacy of UTI's original shareholding. Axis Bank is one of India's fastest-growing private banks post-Citibank acquisition, expanding its premium credit card and wealth management franchise. Being in Bharat 22 alongside government PSUs while itself being a privately-run bank illustrates the ETF's unique hybrid composition."
+    },
+    {
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "weight": 6.12,
+      "sector": "Banking - PSU",
+      "color": "#1565C0",
+      "description": "India's largest public sector bank with Rs 59 lakh crore balance sheet. Government holds 57.5% stake — SBI is systemically important to India's financial system. Finances 40%+ of India's agriculture, infrastructure and MSME credit. SBI's subsidiaries (SBI Life, SBI Cards, SBI Mutual Fund) are among India's most valuable financial services franchises."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 5.87,
+      "sector": "Oil & Gas",
+      "color": "#F57F17",
+      "description": "India's premier oil and gas explorer — government holds 58% stake. Domestic crude production powers India's energy security. KG Basin deepwater project adding new reserves. ONGC Videsh operates in 15 countries. Perpetually undervalued due to government-controlled pricing — but dividend yield 4-5%+ provides steady return regardless of capital gains."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 5.32,
+      "sector": "Utilities",
+      "color": "#01579B",
+      "description": "India's transmission monopoly — government holds 51%+ stake. 1.75 lakh+ circuit km of inter-state high voltage lines. Regulated 15.5% ROE business with near-zero earnings risk. Renewable energy corridors (HVDC lines from Ladakh, Rajasthan solar farms) are next decade's growth driver. Highest credit-rated PSU after NTPC."
+    },
+    {
+      "name": "NTPC Ltd",
+      "ticker": "NTPC",
+      "weight": 4.98,
+      "sector": "Utilities",
+      "color": "#1A237E",
+      "description": "India's largest power generator with 73GW+ installed capacity. Government holds 51.1%. NTPC Renewable Energy Ltd targeting 60GW by 2032 — the biggest green energy transition by any Indian PSU. Regulated return model guarantees earnings stability. 45%+ dividend payout means attractive yield during market corrections."
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "ticker": "IOC",
+      "weight": 4.23,
+      "sector": "Oil & Gas - Refining",
+      "color": "#FF8F00",
+      "description": "India's largest oil refining and distribution company — government holds 52%. 80+ million metric tonnes refining capacity across 9 refineries. 29,000+ petrol stations covering rural India. Petrochemical expansions at Panipat and Paradip refineries improving margins. Dividend yield 5-7%+ in normalised marketing margin years."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 3.85,
+      "sector": "Energy - Mining",
+      "color": "#4E342E",
+      "description": "World's largest coal producer — government holds 63%. 700+ million tonnes annual production. India's baseload power depends on Coal India for 50%+ of electricity generation. Dividend yield 5%+ consistently mandated by government. Volume ramp to 1BT per annum target by FY27 could significantly expand earnings. Transition risk real but 15-year timeline."
+    },
+    {
+      "name": "BPCL (Bharat Petroleum)",
+      "ticker": "BPCL",
+      "weight": 3.41,
+      "sector": "Oil & Gas - Refining",
+      "color": "#FF6F00",
+      "description": "Once scheduled for full privatisation (2020 plan abandoned), BPCL remains government-owned with 53% stake. Kochi Super Refinery (Integrated Refinery Expansion) adding complexity. City Gas distribution through wholly-owned Bharat Gas. EV charging network being expanded. Privatisation narrative can re-emerge any election cycle — creating re-rating option."
+    }
+  ]
+}

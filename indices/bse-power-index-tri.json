@@ -1,0 +1,56 @@
+{
+  "indexName": "BSE Power Index - TRI",
+  "slug": "bse-power-index-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NTPC Limited",
+      "ticker": "NTPC",
+      "weight": 25.6,
+      "sector": "Power Generation",
+      "color": "#4CAF50",
+      "description": "India's largest power company. 73 GW operational (thermal + hydro + solar) targeting 130 GW by 2032. NTPC Green Energy subsidiary (solar + wind parks) separately tracking renewable pivot. Tariff-regulated revenue ensures predictability."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 20.4,
+      "sector": "Power Transmission",
+      "color": "#009688",
+      "description": "Backbone of India's electricity grid — 70%+ inter-state transmission. Regulated ROE 15-16% on every ₹100 invested. HVDC Green Energy Corridors being built: 13 new inter-state projects to evacuate renewable power from Rajasthan/Gujarat."
+    },
+    {
+      "name": "Adani Power",
+      "ticker": "ADANIPOWER",
+      "weight": 15.2,
+      "sector": "Power Generation",
+      "color": "#795548",
+      "description": "India's largest private power generator (15 GW thermal). Supplies to 7 states under long-term PPAs. Kawai and Godda ultra-super-critical plants among most efficient. Bangladesh Godda plant exports electricity internationally."
+    },
+    {
+      "name": "Tata Power",
+      "ticker": "TATAPOWER",
+      "weight": 9.8,
+      "sector": "Power Generation / Renewables",
+      "color": "#0D47A1",
+      "description": "Diversified power play: Mumbai Coastal/Trombay thermal, Mundra UMPP, 4 GW operational solar rooftop+utility. EV charging network (Tata Power EV) — 5,000+ chargers. Captive power supply and solar EPC business growing 40%+."
+    },
+    {
+      "name": "JSW Energy",
+      "ticker": "JSWENERGY",
+      "weight": 7.3,
+      "sector": "Renewable Energy",
+      "color": "#4E342E",
+      "description": "JSW Group's energy arm. Targeting 20 GW renewable capacity by 2030 (from 7 GW today). Solar parks in Rajasthan, Karnataka and Maharashtra. Pumped hydro storage for round-the-clock renewable supply under planning."
+    },
+    {
+      "name": "Torrent Power",
+      "ticker": "TORNTPOWER",
+      "weight": 5.1,
+      "sector": "Integrated Utility",
+      "color": "#37474F",
+      "description": "Ahmedabad and Surat distribution franchise — regulated, zero bad debt. Renewables: wind + solar in Gujarat and Rajasthan. City gas distribution (Ahmedabad, Vadodara) adds gas utility revenue. High-quality management track record."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "indexName": "Liquid",
+  "slug": "liquid",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tri-Party Repo (TREPS)",
+      "ticker": "TREPS",
+      "weight": 55.0,
+      "sector": "Money Market",
+      "color": "#00838F",
+      "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
+    },
+    {
+      "name": "91-Day Treasury Bills",
+      "ticker": "TBILL91D",
+      "weight": 20.0,
+      "sector": "Government Securities",
+      "color": "#1565C0",
+      "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
+    },
+    {
+      "name": "Certificate of Deposit — HDFC Bank",
+      "ticker": "CD-HDFCBANK",
+      "weight": 12.0,
+      "sector": "Money Market",
+      "color": "#0D47A1",
+      "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
+    },
+    {
+      "name": "Commercial Paper — Reliance Retail",
+      "ticker": "CP-RELRETAIL",
+      "weight": 8.0,
+      "sector": "Money Market",
+      "color": "#BF360C",
+      "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
+    },
+    {
+      "name": "182-Day Treasury Bills",
+      "ticker": "TBILL182D",
+      "weight": 5.0,
+      "sector": "Government Securities",
+      "color": "#37474F",
+      "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
+    }
+  ]
+}

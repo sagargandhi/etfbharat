@@ -1,0 +1,104 @@
+{
+  "indexName": "Nifty Next 50",
+  "slug": "nifty-next-50",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Adani Enterprises",
+      "ticker": "ADANIENT",
+      "weight": 5.67,
+      "sector": "Diversified",
+      "color": "#FF6F00",
+      "description": "Flagship incubation platform of Adani Group. Operates 7 Indian airports (Mumbai, Ahmedabad, Lucknow, Jaipur, Guwahati, Thiruvananthapuram, Mangaluru), national highway roads, data centers and solar panel manufacturing in India."
+    },
+    {
+      "name": "Zomato",
+      "ticker": "ZOMATO",
+      "weight": 4.89,
+      "sector": "Consumer Tech",
+      "color": "#E53935",
+      "description": "India's largest food delivery platform with 250M+ users and 200,000+ restaurant partners. Blinkit quick-commerce acquisition adding grocery delivery. Turned profitable in FY24. Hyperpure (B2B food supply) and District app expanding ecosystem."
+    },
+    {
+      "name": "DLF Ltd",
+      "ticker": "DLF",
+      "weight": 1.4241,
+      "sector": "Real Estate",
+      "color": "#795548",
+      "description": "India's largest listed real estate developer. DLF Cyber City in Gurugram houses hundreds of Fortune 500 MNC offices. Premium residential (The Camellias sold at ₹100 Cr/unit), commercial and retail properties. DCCDL REIT generates stable annuity income."
+    },
+    {
+      "name": "Pidilite Industries",
+      "ticker": "PIDILITIND",
+      "weight": 1.7068,
+      "sector": "Chemicals",
+      "color": "#3F51B5",
+      "description": "Creator of Fevicol — India's most recognized brand worth $1B+. Dr. Fixit waterproofing, Fevikwik instant adhesive, M-Seal epoxy, Araldite. Dominant in adhesives with 350,000+ dealer network. Expanding into construction chemicals globally."
+    },
+    {
+      "name": "Godrej Consumer Products",
+      "ticker": "GODREJCP",
+      "weight": 1.7221,
+      "sector": "FMCG",
+      "color": "#388E3C",
+      "description": "Good Knight (India's #1 mosquito repellent), Cinthol soap, HIT spray. Africa acquisition (Godrej Africa) adds household insecticide revenue. Indonesia business (Megasari) growing fast. Target: 2x market growth rates every year."
+    },
+    {
+      "name": "Havells India",
+      "ticker": "HAVELLS",
+      "weight": 1.3078,
+      "sector": "Consumer Durables",
+      "color": "#FF9800",
+      "description": "Premium electrical and consumer durables brand. Havells switchgear, cables and fans are No.1 or No.2 in respective categories. Lloyd ACs and washing machines targeting Voltas and LG. 15,000+ dealer network across India."
+    },
+    {
+      "name": "Vedanta Ltd",
+      "ticker": "VEDL",
+      "weight": 4.7044,
+      "sector": "Metals & Mining",
+      "color": "#5D4037",
+      "description": "Natural resources major. Hindustan Zinc (67% owned) — world's largest integrated zinc-lead-silver producer. Aluminium, iron ore, oil & gas and copper operations. Anil Agarwal's Vedanta Group. High dividend payouts to parent."
+    },
+    {
+      "name": "Siemens India",
+      "ticker": "SIEMENS",
+      "weight": 1.1093,
+      "sector": "Capital Goods",
+      "color": "#009688",
+      "description": "Indian subsidiary of Siemens AG Germany. Factory automation (PLCs, drives), smart infrastructure (buildings, grids), rail electrification and digitalization solutions. Direct beneficiary of India's ₹11 lakh crore capex supercycle."
+    },
+    {
+      "name": "Torrent Pharmaceuticals",
+      "ticker": "TORNTPHARM",
+      "weight": 1.7366,
+      "sector": "Pharma",
+      "color": "#E91E63",
+      "description": "Branded generics powerhouse. Cardiovascular (Shelcal, Nikoran), CNS (Nexito, Libotryp) and diabetes franchise. Unichem India acquisition completed. Germany and Brazil branded operations contribute 40% of international revenue."
+    },
+    {
+      "name": "Interglobe Aviation",
+      "ticker": "INDIGO",
+      "weight": 2.98,
+      "sector": "Aviation",
+      "color": "#3F51B5",
+      "description": "IndiGo Airlines — India's largest airline by capacity with 60%+ domestic market share. 300+ aircraft, 100+ destinations. Ultra-low-cost model and highest on-time performance in India. Fleet expansion with 970 Airbus A320 family aircraft on order."
+    },
+    {
+      "name": "Trent Ltd",
+      "ticker": "TRENT",
+      "weight": 2.67,
+      "sector": "Retail",
+      "color": "#EC407A",
+      "description": "Tata Group's retail powerhouse. Westside department stores (fashion, home). Zudio — India's fastest-growing value fashion chain with 500+ stores at ₹200-800 price points. Star Bazaar hypermarkets. Inditex JV for Zara India."
+    },
+    {
+      "name": "Bajaj Holdings",
+      "ticker": "BAJAJHLDNG",
+      "weight": 1.755,
+      "sector": "Holding",
+      "color": "#FF6F00",
+      "description": "Core holding company of the Bajaj Group. Holds significant stakes in Bajaj Auto, Bajaj Finserv, and Bajaj Finance. Sum-of-parts valuation significantly below intrinsic value creating a structural discount play on the Bajaj conglomerate."
+    }
+  ]
+}

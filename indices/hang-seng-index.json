@@ -1,0 +1,88 @@
+{
+  "indexName": "Hang Seng Index",
+  "slug": "hang-seng-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "AIA Group",
+      "ticker": "1299.HK",
+      "weight": 9.2,
+      "sector": "Insurance",
+      "color": "#D32F2F",
+      "description": "Asia's largest independent publicly listed pan-Asian life insurance group — 42 million individual policies across 18 markets. Market leadership in Hong Kong, Thailand, Singapore, Malaysia and China. Annual premium equivalent (APE) sales growing 15%+ in Mainland China as middle class wealth grows and insurance penetration increases from under 5%. Best-in-class embedded value metrics and consistent dividend growth."
+    },
+    {
+      "name": "HSBC Holdings",
+      "ticker": "0005.HK",
+      "weight": 8.6,
+      "sector": "Global Banking",
+      "color": "#DB0011",
+      "description": "One of the world's largest banks by assets ($3T+). Uniquely positioned as the bridge bank between Western and Asian capital flows. 40M+ customers across 62 territories. Hong Kong and Asia accounts for 60%+ of pre-tax profits. Aggressive pivot to Asia under 'Pivot to Growth' strategy — divesting European and Canadian retail banking. Consistent dividend payer and buyback executor."
+    },
+    {
+      "name": "Tencent Holdings",
+      "ticker": "0700.HK",
+      "weight": 7.8,
+      "sector": "Technology",
+      "color": "#07C160",
+      "description": "China's largest technology conglomerate and the largest constituent by market cap. WeChat's 1.35B users make it China's digital highway — every business, government service and social interaction flows through it. Online games, cloud computing and fintech (WeChat Pay) are high-growth adjacencies. Tencent Music, iQIYI investment, and massive equity portfolio in Chinese internet companies add hidden NAV."
+    },
+    {
+      "name": "Alibaba Group",
+      "ticker": "9988.HK",
+      "weight": 6.5,
+      "sector": "E-Commerce & Cloud",
+      "color": "#FF6700",
+      "description": "China's e-commerce and cloud computing giant. Post-restructuring into six business units (Taobao/Tmall, Cloud Intelligence, Logistics, International, Media, Local Services) unlocks standalone valuations. Cloud business growing amid enterprise digital transformation. International segment (Lazada, AliExpress, Trendyol) capturing global e-commerce share. Buybacks accelerating given deep value (cash > market cap at certain points in 2023–24)."
+    },
+    {
+      "name": "Meituan",
+      "ticker": "3690.HK",
+      "weight": 5.3,
+      "sector": "Food Delivery",
+      "color": "#FFCC00",
+      "description": "China's dominant on-demand delivery super-app. Core food delivery (70M+ daily orders) generates high-frequency consumer touchpoints that cross-sell hotel bookings, travel, grocery and retail. Wang Xing's long-term capital allocation philosophy mirrors Amazon's — reinvesting all profits into new verticals. Keeta overseas food delivery launched in Hong Kong, Saudi Arabia, UAE — early results promising."
+    },
+    {
+      "name": "Hong Kong Exchanges (HKEX)",
+      "ticker": "0388.HK",
+      "weight": 4.9,
+      "sector": "Financial Infrastructure",
+      "color": "#C62828",
+      "description": "One of the world's largest stock exchange operators by market capitalisation. HKEX is the primary gateway for Chinese company listings accessible to global investors. Connect programmes (Stock Connect, Bond Connect, Swap Connect) channel billions of USD/CNH flows daily. LME (London Metal Exchange) ownership makes HKEX a global commodities pricing hub. Revenue highly correlated to market turnover."
+    },
+    {
+      "name": "CK Hutchison Holdings",
+      "ticker": "0001.HK",
+      "weight": 3.8,
+      "sector": "Conglomerate",
+      "color": "#546E7A",
+      "description": "Li Ka-shing's flagship conglomerate spanning ports (the world's largest port operator — 52 ports in 27 countries), telecoms (3 Group Europe — UK, Italy, Austria, Sweden, Denmark), retail (Watsons: 16,000+ stores), infrastructure and energy. Deep asset value — net asset value estimated at 2x market capitalisation. Consistent dividend payer for 30+ years. Potential sum-of-parts unlocking as conglomerate discount narrows."
+    },
+    {
+      "name": "CNOOC Limited",
+      "ticker": "0883.HK",
+      "weight": 3.5,
+      "sector": "Energy",
+      "color": "#1565C0",
+      "description": "China's largest offshore oil and gas producer and the world's largest independent E&P company by production volume. State-owned enterprise with government backing provides strategic stability. Low-cost barrel production ($35–40/barrel breakeven) creates resilient profitability even at moderate oil prices. Ambitious production growth target: 700–720 million BOE by 2025. High dividend yield (6%+) attracts income investors."
+    },
+    {
+      "name": "BYD Company",
+      "ticker": "1211.HK",
+      "weight": 3.2,
+      "sector": "Electric Vehicles",
+      "color": "#1E88E5",
+      "description": "World's top-selling EV maker, backed by Berkshire Hathaway. BYD's vertically integrated model — owning battery chemistry, semiconductor design, motor manufacture, and charging infrastructure — compresses costs below any competitor. The Seagull (cheapest BYD at $10,000) disrupts global market. Expansion into 60+ countries. BYD's DiPilot advanced driver assistance systems closing the gap with Tesla FSD."
+    },
+    {
+      "name": "Xiaomi Corporation",
+      "ticker": "1810.HK",
+      "weight": 3.0,
+      "sector": "Consumer Electronics",
+      "color": "#FF6900",
+      "description": "Ranked #3 global smartphone brand with 900M+ connected IoT devices. Xiaomi SU7 EV exceeded 100,000 delivery milestone within months of launch. Human × Car × Home unified AI ecosystem strategy distinguishes Xiaomi from pure hardware players. Strong presence in India (largest brand in online smartphone segment), Southeast Asia, and Europe. Trading at deep discount to intrinsic value on EV + IoT optionality."
+    }
+  ]
+}

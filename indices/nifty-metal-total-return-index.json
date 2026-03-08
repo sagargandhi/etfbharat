@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Metal Total Return Index",
+  "slug": "nifty-metal-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tata Steel",
+      "ticker": "TATASTEEL",
+      "weight": 18.6,
+      "sector": "Steel",
+      "color": "#37474F",
+      "description": "India's largest steel company by revenue with UK (Corus/Port Talbot) and Netherlands operations. 20 MT India capacity. Auto-grade, galvanised and construction-grade steel leader. Net-zero steel by 2045 target via EAF and green hydrogen."
+    },
+    {
+      "name": "Hindalco Industries",
+      "ticker": "HINDALCO",
+      "weight": 16.4,
+      "sector": "Aluminium",
+      "color": "#5D4037",
+      "description": "Aditya Birla Group's metals flagship. Birla Copper (India's largest copper smelter) + Novelis (world's largest aluminium recycler, via NY). Novelis recycles used beverage cans for Ford, BMW — circular economy model. Aluminium demand driven by EV battery casings, aerospace."
+    },
+    {
+      "name": "JSW Steel",
+      "ticker": "JSWSTEEL",
+      "weight": 15.2,
+      "sector": "Steel",
+      "color": "#4E342E",
+      "description": "India's most efficient steel producer. Vijayanagar (Karnataka) plant among world's lowest cost. 27 MT India capacity; Dolvi expansion complete. US JV (JSW Steel USA) diversifies geography. Downstream value-add (colour-coated, pipes) margin expansion."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 12.1,
+      "sector": "Coal Mining",
+      "color": "#212121",
+      "description": "World's largest coal mining company. 650+ MT annual production; 80%+ of India's thermal coal supply. Essential for base-load power generation while India transitions to renewables. High dividend yield (6-8%) from profitable PSU cash generation."
+    },
+    {
+      "name": "Vedanta",
+      "ticker": "VEDL",
+      "weight": 9.8,
+      "sector": "Diversified Metals",
+      "color": "#795548",
+      "description": "India's largest zinc producer (Hindustan Zinc sub — world's 2nd largest) + aluminium (BALCO, MALCO) + oil & gas (Cairn) + iron ore (Goa). Vedanta Resources (parent) delisting attempt; ongoing promoter restructuring. High FCF, high dividend payout history."
+    },
+    {
+      "name": "NMDC",
+      "ticker": "NMDC",
+      "weight": 7.3,
+      "sector": "Iron Ore",
+      "color": "#BF360C",
+      "description": "India's largest iron ore producer (35+ MT annually). Chhattisgarh and Karnataka mines feed India's entire steelmaking demand. New Nagarnar integrated steel plant (3 MT) adds downstream value. Export optionality when domestic prices exceed seaborne parity."
+    }
+  ]
+}

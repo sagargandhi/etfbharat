@@ -1,0 +1,64 @@
+{
+  "indexName": "Nifty BHARAT Bond",
+  "slug": "nifty-bharat-bond",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NHAI 7.11% 2031",
+      "ticker": "NHAI2031",
+      "weight": 15.2,
+      "sector": "PSU Bond - Infrastructure",
+      "color": "#1565C0",
+      "description": "National Highways Authority of India AAA-rated bond maturing 2031. NHAI bonds backed by Government of India guarantee. Fund National Highway development — 10,000+ km/year target. Zero default risk for all practical purposes."
+    },
+    {
+      "name": "Power Finance Corporation 2031",
+      "ticker": "PFC2031",
+      "weight": 14.1,
+      "sector": "PSU Bond - NBFC",
+      "color": "#1976D2",
+      "description": "PFC (rated AAA by CRISIL & ICRA) bond maturing 2031. PFC lends to power sector projects — generation, transmission and distribution. Backed by Ministry of Power; part of India's power sector infrastructure financing."
+    },
+    {
+      "name": "IRFC 7.00% 2031",
+      "ticker": "IRFC2031",
+      "weight": 13.8,
+      "sector": "PSU Bond - Railways",
+      "color": "#1E88E5",
+      "description": "Indian Railway Finance Corporation bond maturing 2031. IRFC borrows from markets and on-lends to Indian Railways at a spread — zero credit risk as it lends to sovereign. AAA-rated; core holding in target maturity bond ETFs."
+    },
+    {
+      "name": "REC Limited 2031",
+      "ticker": "REC2031",
+      "weight": 12.5,
+      "sector": "PSU Bond - NBFC",
+      "color": "#42A5F5",
+      "description": "REC Limited (formerly Rural Electrification Corporation) AAA-rated bond. Funds power infrastructure lending — generation, transmission, rural electrification. Systemic importance ensures full government backing."
+    },
+    {
+      "name": "NTPC Ltd 2031",
+      "ticker": "NTPC2031",
+      "weight": 11.4,
+      "sector": "PSU Bond - Power",
+      "color": "#64B5F6",
+      "description": "NTPC Ltd AAA-rated bond maturing 2031. India's largest power generator. Bond proceeds fund new thermal and renewable energy capacity addition. Maharatna PSU; guaranteed dividend payouts reinforce credit quality."
+    },
+    {
+      "name": "NABARD 2031",
+      "ticker": "NABARD2031",
+      "weight": 10.2,
+      "sector": "PSU Bond - Agriculture",
+      "color": "#4CAF50",
+      "description": "National Bank for Agriculture and Rural Development (NABARD) AAA bond. India's apex agricultural development bank. Funds rural credit, irrigation and cooperative bank refinancing. Backed by RBI + Government equity; quasi-sovereign issuer."
+    },
+    {
+      "name": "Cash & Liquid Assets",
+      "ticker": "CASH",
+      "weight": 22.8,
+      "sector": "Cash",
+      "color": "#9E9E9E",
+      "description": "Residual cash and near-maturity bonds to manage flows as constituent bonds approach April 2031 target maturity date."
+    }
+  ]
+}

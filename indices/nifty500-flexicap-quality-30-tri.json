@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty500 Flexicap Quality 30 TRI",
+  "slug": "nifty500-flexicap-quality-30-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 10.23,
+      "sector": "IT Services",
+      "color": "#283593",
+      "description": "Large-cap quality anchor. 40%+ EBITDA margin, zero debt, consistent dividend. Quality factor cornerstone across flexicap universe."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 8.67,
+      "sector": "IT Services",
+      "color": "#0277BD",
+      "description": "Large-cap quality. 30%+ EBITDA margins, GenAI positioning. Consistent dividend and buyback programme."
+    },
+    {
+      "name": "HUL",
+      "ticker": "HINDUNILVR",
+      "weight": 7.89,
+      "sector": "FMCG",
+      "color": "#1E88E5",
+      "description": "Consumer quality across market caps. 50%+ ROCE. Unilever-parent global playbook localised for India. Low earnings variability."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 7.23,
+      "sector": "NBFC",
+      "color": "#4527A0",
+      "description": "Mid-large NBFC with quality profile — 20%+ ROE, proprietary credit models, 400M+ customer dataset."
+    },
+    {
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "weight": 6.56,
+      "sector": "Paints",
+      "color": "#7B1FA2",
+      "description": "Duopoly paints quality. 60%+ gross margins, asset-light distribution. Quality-factor perennial inclusion across flexicap universe."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 5.89,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Mid-cap quality IT. Highest revenue growth in sector with consistent ROCE improvement. Flexicap bridge from mid to large quality."
+    },
+    {
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "weight": 5.34,
+      "sector": "Beverages",
+      "color": "#388E3C",
+      "description": "PepsiCo bottler with highest-quality mid-cap composite score. Geographic franchise expansion driving earnings with high ROCE."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 4.78,
+      "sector": "Consumer",
+      "color": "#E65100",
+      "description": "Premium consumer brands — watches, jewellery, eyewear. 25%+ ROCE, Tata Group governance. Quality perennial across market cap bands."
+    },
+    {
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "weight": 4.23,
+      "sector": "FMCG",
+      "color": "#388E3C",
+      "description": "Large-cap quality FMCG. Maggi duopoly, 60%+ ROCE, zero debt. Most quality-consistent brand in Nifty 500 universe."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 3.67,
+      "sector": "IT Services",
+      "color": "#006064",
+      "description": "Mid-cap IT quality. BFSI-focused deal wins, low leverage, improving margins. Flexicap quality bridge."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "indexName": "Domestic Silver Price",
+  "slug": "domestic-silver-price",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Physical Silver (99.9%)",
+      "ticker": "SILVER",
+      "weight": 98.8,
+      "sector": "Commodity",
+      "color": "#90A4AE",
+      "description": "High-purity silver bullion of 99.9% fineness stored in LBMA-certified insured vaults. SEBI-mandated regular independent audits ensure unit-holder protection. Growing industrial demand from solar PV (120mg silver per panel) and EV batteries is a structural tailwind."
+    },
+    {
+      "name": "Cash & Equivalents",
+      "ticker": "CASH",
+      "weight": 1.2,
+      "sector": "Liquid Assets",
+      "color": "#78909C",
+      "description": "Overnight instruments and T-bills maintained for liquidity and daily redemption management. Kept minimal to maximize silver price exposure for investors at all times."
+    }
+  ]
+}

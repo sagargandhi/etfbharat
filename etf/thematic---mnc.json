@@ -15,88 +15,7 @@
             "companies": 30,
             "description": "Nifty MNC Index tracks 30 multinational companies (foreign promoter holding >50%) providing exposure to world-class governance, technology transfer, global brands, consistent dividends, and lower volatility. MNCs deliver 12-15% annual returns with 25-30% lower volatility vs domestic-focused peers. Examples: Nestlé (12.6% weight) — 25%+ EBITDA margins from global economies of scale; Maruti Suzuki (10.2%) — parent Suzuki's platform engineering; Colgate (3.7%) — 60%+ ROCE from durable brand. Dividend advantage: MNCs distribute 50-70% of profits vs 30-40% for Indian companies, attracting retirees/income-focused investors. Valuation anchors: (1) Global brand recognition ensures MNCs trade at 2-3x book value vs Indian companies 1-1.2x; (2) Foreign promoter commitment protects minority shareholders — parent protects subsidiary reputation. Currency dynamics: (1) Foreign promoters hold ₹10+ Lakh Cr in equity; rupee depreciation = rupee-denominated gains; (2) MNC export exposure provides forex diversification (Maruti exports 40%, Britanni exports jam/biscuits). Structural headwinds: parent relocation to cheaper emerging markets (Vietnam, Indonesia), wage inflation eroding domestic competitiveness, or rupee depreciation raising imported component costs. Long-term: MNCs benefiting from India supply-chain re-routing from China."
         },
-        "holdings": [
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 12.56,
-                "sector": "FMCG",
-                "color": "#E53935",
-                "description": "Indian arm of Swiss food giant. Maggi noodles (dominant 60% market share), KitKat, Munch, Milkmaid. Premiumisation via Starbucks RTD, Nesplus, and Milo. Consistent 25%+ EBITDA margins over decades."
-            },
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 11.34,
-                "sector": "FMCG",
-                "color": "#1565C0",
-                "description": "Indian arm of Unilever. Surf Excel, Dove, Pond's, Lux, Kwality Wall's. 50+ brands across home care, personal care, food. GSK Consumer Healthcare merger added Horlicks, Boost."
-            },
-            {
-                "name": "Maruti Suzuki",
-                "ticker": "MARUTI",
-                "weight": 10.23,
-                "sector": "Auto",
-                "color": "#FF6F00",
-                "description": "Suzuki Motor Corp's Indian arm (58% stake). India's largest passenger vehicle maker with ~42% market share. Swift, Dzire, Baleno, Ertiga, Jimny, Grand Vitara. CNG vehicle leadership."
-            },
-            {
-                "name": "ABB India",
-                "ticker": "ABB",
-                "weight": 7.89,
-                "sector": "Capital Goods",
-                "color": "#FDD835",
-                "description": "Electrification, motion, process automation, and robotics. ABB Switzerland holds 75%. Key beneficiary of India's power T&D upgrade cycle, railways electrification, and green hydrogen projects."
-            },
-            {
-                "name": "Siemens India",
-                "ticker": "SIEMENS",
-                "weight": 7.45,
-                "sector": "Capital Goods",
-                "color": "#009688",
-                "description": "Factory automation, smart infrastructure, rail systems, digital industries. Siemens AG holds 75%. India subsidiary wins large orders from NTPC, Railways, and L&T. High-margin engineering solutions."
-            },
-            {
-                "name": "Bosch India",
-                "ticker": "BOSCHLTD",
-                "weight": 6.78,
-                "sector": "Auto Ancillary",
-                "color": "#424242",
-                "description": "Robert Bosch GmbH holds 70%. Automotive fuel systems, power tools, and home appliances. Transitioning from diesel fuel injection to EV components, ADAS systems, and hydrogen cell technology."
-            },
-            {
-                "name": "Honeywell Automation",
-                "ticker": "HONAUT",
-                "weight": 4.34,
-                "sector": "Process Automation",
-                "color": "#00BFA5",
-                "description": "Honeywell USA holds 75%. Process automation, building management, safety solutions. Chemical, refining, and pharma industries drive demand. One of the highest-quality small-cap MNCs listed in India."
-            },
-            {
-                "name": "3M India",
-                "ticker": "3MINDIA",
-                "weight": 3.89,
-                "sector": "Diversified Industrial",
-                "color": "#1976D2",
-                "description": "3M USA holds 75%. Scotch tape, Post-it, safety solutions, healthcare tapes, industrial abrasives. Diversified industrial with thousands of products across segments. Steady royalty model."
-            },
-            {
-                "name": "Colgate-Palmolive India",
-                "ticker": "COLPAL",
-                "weight": 3.67,
-                "sector": "FMCG",
-                "color": "#E91E63",
-                "description": "Oral care market leader with Colgate brand owning 52% market share in India. Palmolive personal care growing. US parent holds 51%. Resilient consumer staple with pricing power and rural distribution."
-            },
-            {
-                "name": "Abbott India",
-                "ticker": "ABBOTINDIA",
-                "weight": 3.23,
-                "sector": "Pharma",
-                "color": "#7B1FA2",
-                "description": "Abbott USA holds 75%. Prescription pharma (thyroid, women's health, metabolic), OTC (Duphalac, Digene), and branded formulations. One of the most profitable pharma companies per employee in India."
-            }
-        ]
+        "indexKey": "nifty-mnc-index"
     },
     {
         "id": "momnc",
@@ -114,55 +33,6 @@
             "companies": 30,
             "description": "BSE MNC Index tracks multinational companies listed in India where a foreign parent holds majority stake. MNC subsidiaries benefit from global brand equity, technology transfer, R&D access, export connections and superior governance (aligned with parent's international listing standards). Historically, MNC-heavy portfolios exhibit lower volatility due to stable promoter ownership, higher dividend payout discipline and operational excellence imported from global headquarters."
         },
-        "holdings": [
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 15.8,
-                "sector": "FMCG - Food",
-                "color": "#E53935",
-                "description": "Subsidiary of Swiss MNC Nestle SA (owned 62%). Maggi noodles, Nescafe, Milkmaid, KitKat — iconic brands. India's most profitable food company. Parent injects technology (R&D), global supply chain and brand architecture. Consistent 20%+ dividend payout for decades."
-            },
-            {
-                "name": "ABB India",
-                "ticker": "ABB",
-                "weight": 12.4,
-                "sector": "Industrial Electronics",
-                "color": "#FF0000",
-                "description": "ABB Ltd (Swiss MNC, 75% owned) India arm. Robots, electrification, motion and process automation. Key beneficiary of India's industrial automation boom and smart factory investments. Factory of the Future projects with Bosch, Mercedes and Indian PSUs. Exports 40%+ of output."
-            },
-            {
-                "name": "Siemens India",
-                "ticker": "SIEMENS",
-                "weight": 11.2,
-                "sector": "Industrial Conglomerate",
-                "color": "#009999",
-                "description": "Siemens AG (Germany, 75% owned) Indian subsidiary. Smart Infrastructure, Digital Industries, Mobility (metro signaling, high-speed rails) and Energy segments. Healthcare (Siemens Healthineers spun off separately). India 2030: ₹5,000 Cr factory investments under Germany-India tech partnership."
-            },
-            {
-                "name": "Maruti Suzuki India",
-                "ticker": "MARUTI",
-                "weight": 10.6,
-                "sector": "Automobiles",
-                "color": "#E65100",
-                "description": "Suzuki Motor Corporation (Japan, 56% owned) Indian subsidiary. India's largest passenger vehicle maker with 40%+ market share. Suzuki injects model development (Jimny, Grand Vitara, Fronx), factory engineering and hybrid powertrain technology. Japan-India manufacturing excellence transplanted."
-            },
-            {
-                "name": "Colgate-Palmolive India",
-                "ticker": "COLPAL",
-                "weight": 8.4,
-                "sector": "FMCG - Oral Care",
-                "color": "#E53935",
-                "description": "Colgate-Palmolive USA (51% owned). India's #1 toothpaste brand: Colgate Total, Strong Teeth, Sensitive Pro-Relief. 55%+ market share in oral care. Parent invests in whitening, sensitivity and Children's ranges via India as a key emerging market growth driver."
-            },
-            {
-                "name": "Honeywell Automation India",
-                "ticker": "HONAUT",
-                "weight": 6.1,
-                "sector": "Industrial Automation",
-                "color": "#FF8F00",
-                "description": "Honeywell International (75% owned) India arm. Process controls for petrochemicals, oil & gas, pharma plants and airports. Building controls (Honeywell Connected Plant). exports R&D and engineering services to US parent. India: Honeywell's #1 global engineering hub with 13,000+ engineers."
-            }
-        ]
+        "indexKey": "nifty-mnc-etf-total-return-index"
     }
 ]

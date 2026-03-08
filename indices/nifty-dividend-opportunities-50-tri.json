@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Dividend Opportunities 50 TRI",
+  "slug": "nifty-dividend-opportunities-50-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 14.56,
+      "sector": "Energy - Mining",
+      "color": "#37474F",
+      "description": "Highest dividend yielder in Nifty 500 at 5-8% annually. Government mandated dividend payouts — 50%+ of profits distributed. Minimal capex requirement."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 12.89,
+      "sector": "Oil & Gas",
+      "color": "#F57F17",
+      "description": "Consistent 4-5% dividend yield. Government-owned oil company with mandatory dividend policy. ONGC Videsh cash flows supporting dividend capacity."
+    },
+    {
+      "name": "IOC",
+      "ticker": "IOC",
+      "weight": 11.34,
+      "sector": "Oil Refining",
+      "color": "#F44336",
+      "description": "India's largest oil company by revenue. 4-5% dividend yield with consistent payout. Dividend Opportunities 50 inclusion from high trailing yield."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 10.12,
+      "sector": "Utilities",
+      "color": "#01579B",
+      "description": "Regulated utility mandated to distribute dividends. 4-5% yield. Inflation-indexed tariff escalation ensures growing dividend capacity."
+    },
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 9.45,
+      "sector": "FMCG & Conglomerates",
+      "color": "#558B2F",
+      "description": "Highest dividend yield among Nifty 50 FMCG at 3%+. Cigarettes generative Rs 16,000 Cr+ EBIT funding generous dividend payouts."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 8.23,
+      "sector": "IT Services",
+      "color": "#0277BD",
+      "description": "Consistent 2%+ dividend yield plus special dividends. Buyback programme supplementing regular payout. IT sector's most consistent dividend track record."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 7.67,
+      "sector": "Utilities",
+      "color": "#1A237E",
+      "description": "45%+ profit distributed as dividend. Government holds 51% requiring consistent payouts. Regulated ROE ensures dividend sustainability."
+    },
+    {
+      "name": "GAIL India",
+      "ticker": "GAIL",
+      "weight": 6.89,
+      "sector": "Gas Distribution",
+      "color": "#00897B",
+      "description": "3% dividend yield at current market price. Government-owned gas transmission monopoly with stable cash flows."
+    },
+    {
+      "name": "HPCL",
+      "ticker": "HINDPETRO",
+      "weight": 5.34,
+      "sector": "Oil Marketing",
+      "color": "#E53935",
+      "description": "High but volatile dividend yield (3-6%) tied to marketing margins. Deep value dividend play when crude prices stabilise."
+    },
+    {
+      "name": "SBI",
+      "ticker": "SBIN",
+      "weight": 4.78,
+      "sector": "Banking - PSU",
+      "color": "#1565C0",
+      "description": "Growing dividend from rising profits. Government holds 57% requiring mandatory annual dividends. PSU bank profitability normalising post-NPA cycle."
+    }
+  ]
+}

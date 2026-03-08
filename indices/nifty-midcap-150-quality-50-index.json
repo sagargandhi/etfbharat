@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Midcap 150 Quality 50 Index",
+  "slug": "nifty-midcap-150-quality-50-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 8.45,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Mid-cap quality IT leader. 30%+ revenue growth with 20%+ ROE. Consistent earnings beats. High ROCE, low debt and earnings consistency."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 7.89,
+      "sector": "IT Services",
+      "color": "#0277BD",
+      "description": "BFSI IT services with quality metrics — consistent deal wins, improving margins, low leverage. Mid-cap quality inclusion from earnings consistency."
+    },
+    {
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "weight": 7.34,
+      "sector": "Beverages",
+      "color": "#388E3C",
+      "description": "PepsiCo bottler with highest quality mid-cap profile. 25%+ ROCE, expanding geographic franchise. Earnings consistency from PepsiCo partnership."
+    },
+    {
+      "name": "Kaynes Technology",
+      "ticker": "KAYNES",
+      "weight": 6.78,
+      "sector": "Electronics Mfg",
+      "color": "#4A148C",
+      "description": "High-ROCE EMS company with aerospace and defence contracts providing revenue visibility. 50%+ revenue CAGR with consistent margin expansion."
+    },
+    {
+      "name": "Indian Hotels",
+      "ticker": "INDHOTEL",
+      "weight": 6.23,
+      "sector": "Hospitality",
+      "color": "#00695C",
+      "description": "Tata's Taj brand with consistent ROCE improvement post-COVID. Quality hospitality stock with expanding footprint and improving asset turn."
+    },
+    {
+      "name": "Torrent Pharmaceuticals",
+      "ticker": "TORNTPHARM",
+      "weight": 5.67,
+      "sector": "Pharmaceuticals",
+      "color": "#9C27B0",
+      "description": "Mid-cap pharma quality play. Germany, Brazil and emerging markets branded generics. Low debt, high margins, consistent FCF generation."
+    },
+    {
+      "name": "Voltas",
+      "ticker": "VOLTAS",
+      "weight": 5.12,
+      "sector": "Consumer Durables",
+      "color": "#0D47A1",
+      "description": "Tata's AC and cooling equipment maker. Unitary cooling market leader. Quality mid-cap consumer brand leveraging India's heat-wave driven AC penetration boom."
+    },
+    {
+      "name": "Mphasis",
+      "ticker": "MPHASIS",
+      "weight": 4.67,
+      "sector": "IT Services",
+      "color": "#283593",
+      "description": "BFSI-focused IT services with Blackstone ownership. BPS+IT convergence model. Consistent mid-teen revenue growth with quality factor driven by return metrics."
+    },
+    {
+      "name": "Blue Star",
+      "ticker": "BLUESTAR",
+      "weight": 4.23,
+      "sector": "Consumer Durables",
+      "color": "#1976D2",
+      "description": "Commercial refrigeration and AC player. B2B and B2C mix. Growing channel distribution. Quality mid-cap industrial consumer play."
+    },
+    {
+      "name": "Schaeffler India",
+      "ticker": "SCHAEFFLER",
+      "weight": 3.89,
+      "sector": "Auto Components",
+      "color": "#FF8F00",
+      "description": "German-parent bearing manufacturer for auto and industrial applications. High ROCE in import-substitute precision engineering. Mid-cap industrial quality anchor."
+    }
+  ]
+}

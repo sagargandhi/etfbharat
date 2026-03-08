@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty200 Quality 30 Index",
+  "slug": "nifty200-quality-30-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 12.45,
+      "sector": "IT Services",
+      "color": "#283593",
+      "description": "India's quality flagship. 40%+ EBITDA margin, 55%+ ROCE, near-zero debt. Consistent dividend payer with buyback track record. Quality factor anchor."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 10.89,
+      "sector": "IT Services",
+      "color": "#0277BD",
+      "description": "Second-largest IT quality blue chip. 30%+ EBITDA margins, 35%+ ROCE. Consistent earnings and dividend. GenAI via Infosys Topaz platform."
+    },
+    {
+      "name": "HUL",
+      "ticker": "HINDUNILVR",
+      "weight": 9.34,
+      "sector": "FMCG",
+      "color": "#1E88E5",
+      "description": "Consumer quality benchmark. 50%+ ROCE, 20%+ net margin, 5%+ dividend yield. Low earnings variability across economic cycles."
+    },
+    {
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "weight": 8.12,
+      "sector": "FMCG",
+      "color": "#388E3C",
+      "description": "Maggi monopoly with zero long-term debt. 60%+ ROCE. Premium portfolio of Munch, KitKat, Nescafe. Consistent quality scoring."
+    },
+    {
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "weight": 7.56,
+      "sector": "Paints",
+      "color": "#7B1FA2",
+      "description": "Duopoly paints market leader. 60%+ gross margins, asset-light distribution. B2C brand moat. Quality perennial inclusion."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 6.89,
+      "sector": "NBFC",
+      "color": "#4527A0",
+      "description": "India's highest-quality NBFC. 20%+ ROE, 400M+ customer data asset. Consumer lending with proprietary credit models."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 6.23,
+      "sector": "Consumer",
+      "color": "#E65100",
+      "description": "Watches, jewellery, eyewear — premium aspirational consumer. 25%+ ROCE, consistent cash generation. Tata Group quality governance."
+    },
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 5.67,
+      "sector": "Banking",
+      "color": "#1565C0",
+      "description": "Quality banking franchise. 16-18% ROE, 1.1-1.2% RoA, lowest NPA among peers. Consistent dividend. Largest private bank by market cap."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 5.12,
+      "sector": "IT Services",
+      "color": "#006064",
+      "description": "IT services with consistent quality metrics. Capital allocation discipline — recurring buybacks. Diversified BFSI, healthcare and energy verticals."
+    },
+    {
+      "name": "Pidilite Industries",
+      "ticker": "PIDILITIND",
+      "weight": 4.45,
+      "sector": "Adhesives",
+      "color": "#FF8F00",
+      "description": "Fevicol monopoly in wood adhesives. Consumer and construction segments. 35%+ ROCE with low debt. Massive distribution network."
+    }
+  ]
+}

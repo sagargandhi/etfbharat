@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Top 15 Equal Weight Index",
+  "slug": "nifty-top-15-equal-weight-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 2.0,
+      "sector": "Conglomerate",
+      "color": "#1A237E",
+      "description": "In equal-weight index, each Nifty 50 constituent carries the same weight (~2%) regardless of market cap. This reduces concentration in mega-caps like Reliance (which would be 9%+ in cap-weighted). Equal weighting implicitly tilts toward smaller Nifty 50 members."
+    },
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 2.0,
+      "sector": "Banking",
+      "color": "#004C91",
+      "description": "Equal-weight reduces HDFC Bank from 13-14% (cap-weighted) to ~2%, lowering banking sector concentration. Benefits sectors like metals, pharma and FMCG which have smaller Nifty 50 stocks."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 2.0,
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "Equal weight approach benefits mid-weight Nifty 50 stocks and reduces large-cap mega-stock dominance. Rebalancing quarterly or semi-annually systematically sells winners and buys underperformers."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 2.0,
+      "sector": "Power",
+      "color": "#4CAF50",
+      "description": "NTPC carries same ~2% weight as HDFC Bank in equal-weight Nifty 50. Value stocks and cyclicals get systematically higher exposure than in cap-weighted — smart-beta tilt."
+    },
+    {
+      "name": "UltraTech Cement",
+      "ticker": "ULTRACEMCO",
+      "weight": 2.0,
+      "sector": "Building Materials",
+      "color": "#607D8B",
+      "description": "Equal weight methodology redistributes weight from the 5-6 mega-cap dominators to the remaining 44-45 Nifty 50 companies. Studies show equal-weight outperforms cap-weight over long periods with higher volatility."
+    },
+    {
+      "name": "Sun Pharmaceuticals",
+      "ticker": "SUNPHARMA",
+      "weight": 2.0,
+      "sector": "Pharmaceuticals",
+      "color": "#880E4F",
+      "description": "Pharma gets significant equal-weight uplift vs cap-weight. Equal weighting = implicit value/small-ca tilt within large cap universe. Performs better in mean-reversion market environments than momentum-driven markets."
+    }
+  ]
+}

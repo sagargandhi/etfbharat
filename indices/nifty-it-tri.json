@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty IT TRI",
+  "slug": "nifty-it-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS",
+      "weight": 30.4,
+      "sector": "IT Services",
+      "color": "#0A2472",
+      "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 24.7,
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
+    },
+    {
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "weight": 13.6,
+      "sector": "IT Services / Products",
+      "color": "#E65100",
+      "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 7.9,
+      "sector": "IT Services",
+      "color": "#37474F",
+      "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
+    },
+    {
+      "name": "Tech Mahindra",
+      "ticker": "TECHM",
+      "weight": 6.8,
+      "sector": "IT Services / Telecom",
+      "color": "#1B5E20",
+      "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
+    },
+    {
+      "name": "LTIMindtree",
+      "ticker": "LTIM",
+      "weight": 5.2,
+      "sector": "IT Services",
+      "color": "#004D40",
+      "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
+    }
+  ]
+}

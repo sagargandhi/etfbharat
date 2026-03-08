@@ -1,0 +1,16 @@
+{
+  "indexName": "Nifty 5yr Benchmark G-Sec Index",
+  "slug": "nifty-5yr-benchmark-g-sec-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "GoI 7.02% 2029",
+      "ticker": "IN0020230019",
+      "weight": 100.0,
+      "sector": "Central Government Bond",
+      "color": "#F57F17",
+      "description": "Current on-the-run 5-year Government of India Security. Coupon 7.02%, maturing 2029. Shorter duration means less price volatility for same change in yield. Preferred by conservative investors wanting G-Sec exposure without duration risk. Actively traded on NDS-OM platform by banks and PDs."
+    }
+  ]
+}

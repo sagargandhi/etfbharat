@@ -1,0 +1,80 @@
+{
+  "indexName": "Nifty PSU Bank Index",
+  "slug": "nifty-psu-bank-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "weight": 64.4174,
+      "sector": "Public Bank",
+      "color": "#FF6F00",
+      "description": "India's largest bank — 23% of total banking deposits. ₹55 lakh crore in total assets. 22,500+ branches and 65,000+ ATMs. YONO super-app has 40M+ users processing millions of transactions daily. Dominant in MSME, agri, home and education loans."
+    },
+    {
+      "name": "Punjab National Bank",
+      "ticker": "PNB",
+      "weight": 5.5891,
+      "sector": "Public Bank",
+      "color": "#8BC34A",
+      "description": "India's 2nd largest PSU bank post-merger with Oriental Bank of Commerce and United Bank of India (2020). Founded in Lahore in 1894. Post-NPA cleanup ROE recovering. Strong Punjab, UP and Bihar presence. 10,000+ branches."
+    },
+    {
+      "name": "Bank of Baroda",
+      "ticker": "BANKBARODA",
+      "weight": 7.4549,
+      "sector": "Public Bank",
+      "color": "#F44336",
+      "description": "India's most international bank with operations in 100+ countries. Merged with Vijaya Bank and Dena Bank in 2019. Strong corporate, agri and overseas banking. bob World digital app. High dividend yield with improving ROE."
+    },
+    {
+      "name": "Canara Bank",
+      "ticker": "CANBK",
+      "weight": 6.7058,
+      "sector": "Public Bank",
+      "color": "#9C27B0",
+      "description": "Largest PSU bank in South India, headquartered in Bengaluru. Post-Syndicate Bank merger in 2020 increased scale significantly. 10,000+ branches. Strong MSME and agriculture lending. Improving NPA ratios and ROA trajectory."
+    },
+    {
+      "name": "Union Bank of India",
+      "ticker": "UNIONBANK",
+      "weight": 4.9682,
+      "sector": "Public Bank",
+      "color": "#3F51B5",
+      "description": "Post triple-merger entity absorbing Andhra Bank and Corporation Bank (2020). Mumbai-based with 9,000+ branches. Focus on retail, agriculture, MSME and government scheme lending. Improving profitability with GNPA below 5%."
+    },
+    {
+      "name": "Bank of India",
+      "ticker": "BANKINDIA",
+      "weight": 2.6383,
+      "sector": "Public Bank",
+      "color": "#FF9800",
+      "description": "One of India's oldest PSU banks founded in 1906 in Mumbai. Strong Maharashtra and Gujarat presence. 5,100+ branches domestically with international presence in 20+ countries. Improving credit cost trajectory driving profitability recovery."
+    },
+    {
+      "name": "Indian Bank",
+      "ticker": "INDIANB",
+      "weight": 4.5441,
+      "sector": "Public Bank",
+      "color": "#009688",
+      "description": "Chennai-headquartered PSU bank post-merger with Allahabad Bank (2020). Strong South India base with 6,000+ branches. Focus on agriculture, MSME and retail lending. INDOASIS digital banking platform driving NRI remittances."
+    },
+    {
+      "name": "UCO Bank",
+      "ticker": "UCOBANK",
+      "weight": 0.423,
+      "sector": "Public Bank",
+      "color": "#607D8B",
+      "description": "Kolkata-headquartered public sector bank. Strong eastern India presence particularly West Bengal and Bihar. Participates in all GoI schemes. RuPay card promotion, PM Jan Dhan accounts. Steady improvement in asset quality post recapitalisation."
+    },
+    {
+      "name": "Bank of Maharashtra",
+      "ticker": "MAHABANK",
+      "weight": 1.9412,
+      "sector": "Public Bank",
+      "color": "#5C6BC0",
+      "description": "Pune-headquartered PSU bank. Best performer among medium PSU banks in recent years. One of the first to report GNPA below 3%. Strong Maharashtra presence. Consistent retail deposit growth from tier-2 and tier-3 cities."
+    }
+  ]
+}

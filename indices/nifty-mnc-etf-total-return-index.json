@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty MNC ETF Total Return Index",
+  "slug": "nifty-mnc-etf-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "weight": 15.8,
+      "sector": "FMCG - Food",
+      "color": "#E53935",
+      "description": "Subsidiary of Swiss MNC Nestle SA (owned 62%). Maggi noodles, Nescafe, Milkmaid, KitKat — iconic brands. India's most profitable food company. Parent injects technology (R&D), global supply chain and brand architecture. Consistent 20%+ dividend payout for decades."
+    },
+    {
+      "name": "ABB India",
+      "ticker": "ABB",
+      "weight": 12.4,
+      "sector": "Industrial Electronics",
+      "color": "#FF0000",
+      "description": "ABB Ltd (Swiss MNC, 75% owned) India arm. Robots, electrification, motion and process automation. Key beneficiary of India's industrial automation boom and smart factory investments. Factory of the Future projects with Bosch, Mercedes and Indian PSUs. Exports 40%+ of output."
+    },
+    {
+      "name": "Siemens India",
+      "ticker": "SIEMENS",
+      "weight": 11.2,
+      "sector": "Industrial Conglomerate",
+      "color": "#009999",
+      "description": "Siemens AG (Germany, 75% owned) Indian subsidiary. Smart Infrastructure, Digital Industries, Mobility (metro signaling, high-speed rails) and Energy segments. Healthcare (Siemens Healthineers spun off separately). India 2030: ₹5,000 Cr factory investments under Germany-India tech partnership."
+    },
+    {
+      "name": "Maruti Suzuki India",
+      "ticker": "MARUTI",
+      "weight": 10.6,
+      "sector": "Automobiles",
+      "color": "#E65100",
+      "description": "Suzuki Motor Corporation (Japan, 56% owned) Indian subsidiary. India's largest passenger vehicle maker with 40%+ market share. Suzuki injects model development (Jimny, Grand Vitara, Fronx), factory engineering and hybrid powertrain technology. Japan-India manufacturing excellence transplanted."
+    },
+    {
+      "name": "Colgate-Palmolive India",
+      "ticker": "COLPAL",
+      "weight": 8.4,
+      "sector": "FMCG - Oral Care",
+      "color": "#E53935",
+      "description": "Colgate-Palmolive USA (51% owned). India's #1 toothpaste brand: Colgate Total, Strong Teeth, Sensitive Pro-Relief. 55%+ market share in oral care. Parent invests in whitening, sensitivity and Children's ranges via India as a key emerging market growth driver."
+    },
+    {
+      "name": "Honeywell Automation India",
+      "ticker": "HONAUT",
+      "weight": 6.1,
+      "sector": "Industrial Automation",
+      "color": "#FF8F00",
+      "description": "Honeywell International (75% owned) India arm. Process controls for petrochemicals, oil & gas, pharma plants and airports. Building controls (Honeywell Connected Plant). exports R&D and engineering services to US parent. India: Honeywell's #1 global engineering hub with 13,000+ engineers."
+    }
+  ]
+}

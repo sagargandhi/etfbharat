@@ -15,88 +15,7 @@
             "companies": 30,
             "description": "Nifty India Consumption tracks 30 companies benefiting from rising middle class and aspirational spending — structural multi-decade tailwind underpinned by 900M population below age 40 with ₹10L+ annual household income (650M low-income + 250M middle-income + 50M affluent). Includes FMCG (Unilever 13.5%), auto (Maruti 9.7%), retail (Avenue Supermarts DMART 6.5%, Trent 5.8%), jewellery (Titan 8.9%), paints (Asian Paints 7.3%), quick-service restaurants (Jubilant Domino's 4.2%). Dual domestic+export model: while domestic consumption captures rural-to-urban migration and income growth, auto/retail companies export (Maruti exports 40%, Trent international operations). Currency benefit: when rupee weakens, export revenues rise; when rupee strengthens, consumption companies benefit from cheaper imported raw materials. Secular trend: rural consumption converging toward urban patterns — while rural FMCG growth 12% vs urban 8%, rural penetration remains 40% vs global 65-70%, suggesting 20-year runway. Leverage cycle: when credit expansion accelerates (auto loans, retail financing), consumption stocks re-rate 20-30% as leverage multiplies turnover growth. Negative drivers: wealth effect recession (when stock market crashes, HNI spending recedes 30-40%)."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 13.45,
-                "sector": "FMCG",
-                "color": "#1565C0",
-                "description": "Largest FMCG company. Surf Excel, Dove, Pepsodent, Magnum. Rural distribution of 9M+ outlets. Premium beauty brands (Lakmé, TRESemmé) growing fast. Consistent 90%+ dividend payout ratio."
-            },
-            {
-                "name": "ITC Ltd",
-                "ticker": "ITC",
-                "weight": 11.23,
-                "sector": "FMCG / Cigarettes",
-                "color": "#388E3C",
-                "description": "Cigarettes fund FMCG (Aashirvaad, Sunfeast, Bingo) which is India's fastest-growing FMCG. Hotels, agri-business, paper. Hotels demerger unlocking value. ESG improvement with reduction in cigarette dependence."
-            },
-            {
-                "name": "Maruti Suzuki",
-                "ticker": "MARUTI",
-                "weight": 9.67,
-                "sector": "Auto",
-                "color": "#FF6F00",
-                "description": "~42% passenger vehicle market share. CNG vehicle leadership. Baleno, Swift, Ertiga top sellers. New SUV launches (Grand Vitara, Fronx, Jimny) targeting premium buyers. Export growth to 100+ countries."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 8.89,
-                "sector": "Jewellery & Retail",
-                "color": "#FFB300",
-                "description": "Tata Group's consumer lifestyle powerhouse. Tanishq jewellery (70% revenue), Fastrack/Titan watches, Taneira sarees, Mia gold jewellery. Expanding into eyewear (Titan Eye+) and premium accessories."
-            },
-            {
-                "name": "Asian Paints",
-                "ticker": "ASIANPAINT",
-                "weight": 7.34,
-                "sector": "Paints",
-                "color": "#FF5722",
-                "description": "India's dominant decorative paint company with 50%+ market share. Premium Royale and Signature brands. Services (Home Decor, Beautiful Homes) differentiating beyond paint. 26 manufacturing plants."
-            },
-            {
-                "name": "Avenue Supermarts (DMART)",
-                "ticker": "DMART",
-                "weight": 6.45,
-                "sector": "Retail - Value",
-                "color": "#E91E63",
-                "description": "India's most efficient value retailer. EDLP strategy. 300+ stores in Maharashtra, Gujarat, Andhra. Store economics with 18% ROCE. DMart Ready online for kirana-like convenience."
-            },
-            {
-                "name": "Trent Ltd",
-                "ticker": "TRENT",
-                "weight": 5.78,
-                "sector": "Retail - Fashion",
-                "color": "#7B1FA2",
-                "description": "Zudio's ultra-value fashion model disrupting apparel retail. Westside premium stores. Zara and M&S partnerships for luxury fashion. Store count growing 30%+ annually."
-            },
-            {
-                "name": "Jubilant FoodWorks",
-                "ticker": "JUBLFOOD",
-                "weight": 4.23,
-                "sector": "QSR",
-                "color": "#F44336",
-                "description": "Domino's Pizza master franchisee for India, Bangladesh, Nepal, Sri Lanka. Popeyes and Hong's Kitchen new brand launches. 1,900+ Domino's stores. Digital ordering 75%+ of revenues."
-            },
-            {
-                "name": "Varun Beverages",
-                "ticker": "VBL",
-                "weight": 3.89,
-                "sector": "Beverages",
-                "color": "#1976D2",
-                "description": "Pepsi bottler for India and international markets. Sting energy drink disrupting market. Sub-Saharan Africa expansion. Strong revenue growth 20%+ driven by energy drinks and rural distribution push."
-            },
-            {
-                "name": "Bata India",
-                "ticker": "BATAINDIA",
-                "weight": 3.12,
-                "sector": "Footwear",
-                "color": "#795548",
-                "description": "India's largest footwear company by outlets. Hush Puppies, Comfit, Marie Claire licensed brands. Power brand for affordable schools and workwear. Sneaker collaboration products targeting GenZ."
-            }
-        ]
+        "indexKey": "nifty-india-consumption-index"
     },
     {
         "id": "consumbees",
@@ -114,56 +33,7 @@
             "companies": 0,
             "description": "Nippon India ETF Nifty India Consumption tracks the Nifty India Consumption TRI index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-consumption-tri"
     },
     {
         "id": "motour",
@@ -181,56 +51,7 @@
             "companies": 0,
             "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty India Tourism ETF tracks the Nifty India Tourism Total Return Index index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-tourism-total-return-index"
     },
     {
         "id": "consumietf",
@@ -248,56 +69,7 @@
             "companies": 0,
             "description": "ICICI Prudential Nifty India Consumption ETF tracks the Nifty India Consumption Index index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-consumption-index"
     },
     {
         "id": "sbietfcon",
@@ -315,56 +87,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund - SBI ETF Consumption tracks the Nifty India Consumption Index index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-consumption-index"
     },
     {
         "id": "consumer",
@@ -382,56 +105,7 @@
             "companies": 0,
             "description": "Mirae Asset MF- Mirae Asset Nifty India New Age Consumption ETF tracks the Nifty India New AgeConsumption index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-new-ageconsumption"
     },
     {
         "id": "axiscetf",
@@ -449,56 +123,7 @@
             "companies": 0,
             "description": "AXIS MUTUAL FUND - Axis NIFTY India Consumption ETF tracks the NIFTY India Consumption Index index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-india-consumption-index"
     },
     {
         "id": "moservice",
@@ -516,55 +141,6 @@
             "companies": 0,
             "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nifty Services Sector ETF tracks the Nifty Services Sector Total Return Index index."
         },
-        "holdings": [
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 14.2,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
-            },
-            {
-                "name": "ITC Limited",
-                "ticker": "ITC",
-                "weight": 11.8,
-                "sector": "FMCG / Tobacco / Hotels",
-                "color": "#4E342E",
-                "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
-            },
-            {
-                "name": "Titan Company",
-                "ticker": "TITAN",
-                "weight": 9.4,
-                "sector": "Jewellery / Watches",
-                "color": "#FF8F00",
-                "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
-            },
-            {
-                "name": "Trent Limited",
-                "ticker": "TRENT",
-                "weight": 8.2,
-                "sector": "Retail Apparel",
-                "color": "#1A237E",
-                "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
-            },
-            {
-                "name": "Avenue Supermarts (D-Mart)",
-                "ticker": "DMART",
-                "weight": 7.3,
-                "sector": "Retail / Grocery",
-                "color": "#BF360C",
-                "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
-            },
-            {
-                "name": "Nestle India",
-                "ticker": "NESTLEIND",
-                "weight": 6.8,
-                "sector": "FMCG - Food & Beverage",
-                "color": "#E53935",
-                "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
-            }
-        ]
+        "indexKey": "nifty-services-sector-total-return-index"
     }
 ]

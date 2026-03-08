@@ -1,0 +1,88 @@
+{
+  "indexName": "Hang Seng Tech Index",
+  "slug": "hang-seng-tech-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Alibaba Group",
+      "ticker": "9988.HK",
+      "weight": 8.8,
+      "sector": "E-Commerce & Cloud",
+      "color": "#FF6700",
+      "description": "China's largest e-commerce platform (Taobao, Tmall) with 900M+ annual active consumers. Alibaba Cloud is China's largest cloud provider with 37% market share. Ant Group (33% stake) processes $17T in annual payments. Post-restructuring into six business units aimed at unlocking shareholder value. Post-crackdown value trade: stock at 10x PE vs 40x pre-crackdown peak."
+    },
+    {
+      "name": "Tencent Holdings",
+      "ticker": "0700.HK",
+      "weight": 8.5,
+      "sector": "Social Media & Gaming",
+      "color": "#07C160",
+      "description": "WeChat (Weixin) with 1.35 billion monthly active users is China's everything app — messaging, payments, mini-programs, social commerce. Tencent Games: PUBG Mobile, Honour of Kings, League of Legends (Riot Games majority stake). Cloud and enterprise software fastest growing segment. Major shareholder in Pinduoduo, JD.com, Meituan — a portfolio of China's digital economy."
+    },
+    {
+      "name": "Meituan",
+      "ticker": "3690.HK",
+      "weight": 8.3,
+      "sector": "Food Delivery & Local Services",
+      "color": "#FFCC00",
+      "description": "China's dominant food delivery platform with 70%+ market share — 40M+ daily orders. Expanding into autonomous delivery drones and self-driving vehicles for last-mile logistics. Hotel and travel ticketing (second largest in China), restaurant management SaaS, and Meituan Select community e-commerce. Profitable core delivery business cross-subsidises aggressive international expansion."
+    },
+    {
+      "name": "Baidu",
+      "ticker": "9888.HK",
+      "weight": 7.9,
+      "sector": "Search & AI",
+      "color": "#2932E1",
+      "description": "China's dominant search engine (70%+ market share) — the 'Google of China'. Ernie Bot / ERNIE 4.0 is China's leading general-purpose LLM with 200M+ users. Apollo autonomous driving platform: 100M+ km of road testing data, the most of any Chinese AV company. Baidu Cloud growing 15%+ annually on AI infrastructure demand. Deepseek partnership adds open-source AI credibility."
+    },
+    {
+      "name": "JD.com",
+      "ticker": "9618.HK",
+      "weight": 7.2,
+      "sector": "E-Commerce & Logistics",
+      "color": "#C0392B",
+      "description": "China's second-largest e-commerce platform specialising in authentic, high-quality electronics and appliances. Owns and operates its own 1,500+ warehouse logistics network — unparalleled same-day and next-day delivery. JD Logistics (separately listed) is a strategic moat serving both JD marketplace and third-party merchants. Gross merchandise value $440B+ annually."
+    },
+    {
+      "name": "Xiaomi Corporation",
+      "ticker": "1810.HK",
+      "weight": 6.8,
+      "sector": "Consumer Electronics & EV",
+      "color": "#FF6900",
+      "description": "World's 3rd largest smartphone brand with 900M+ IoT devices in its ecosystem. Xiaomi SU7 electric sedan launched 2024 — 240,000 units delivered in first year, marking a serious EV market entry. Human × Car × Home AIoT strategy creates a unified AI-powered smart home and mobility ecosystem. Aggressive international expansion across Southeast Asia, Europe and India."
+    },
+    {
+      "name": "NetEase",
+      "ticker": "9999.HK",
+      "weight": 5.9,
+      "sector": "Gaming & Music",
+      "color": "#D32F2F",
+      "description": "China's second-largest games company (after Tencent). Franchises: Fantasy Westward Journey, Identity V, Naraka: Bladepoint. NetEase Cloud Music is China's #2 music streaming platform. Youdao online education subsidiary leverages AI-powered learning tools. International game publishing expanding rapidly — Party Animals viral success in global markets."
+    },
+    {
+      "name": "BYD Company",
+      "ticker": "1211.HK",
+      "weight": 5.2,
+      "sector": "Electric Vehicles",
+      "color": "#1E88E5",
+      "description": "Warren Buffett-backed (8.98% stake via Berkshire) world's largest EV manufacturer by volume. Sells more EVs than Tesla in China. Blade Battery technology (LFP chemistry) offers superior safety and cycle life. Vertical integration: BYD owns its battery, chip, motor and charging ecosystem. EV + plug-in hybrid combined deliveries exceeded 3 million units in 2024. Expanding aggressively into Southeast Asia and Europe."
+    },
+    {
+      "name": "Kuaishou Technology",
+      "ticker": "1024.HK",
+      "weight": 4.8,
+      "sector": "Short Video & Social",
+      "color": "#FF4500",
+      "description": "China's #2 short video platform with 700M+ monthly active users — TikTok's Chinese sibling. E-commerce live-streaming gross merchandise value $250B+ annually. Strong in Tier-3/4 cities and rural China where Douyin/TikTok has less penetration. AI-generated video content tools driving creator productivity. Kuaishou Kling is China's leading video generation AI model, competing with OpenAI Sora."
+    },
+    {
+      "name": "SMIC (Semiconductor Manufacturing)",
+      "ticker": "0981.HK",
+      "weight": 4.3,
+      "sector": "Semiconductors",
+      "color": "#7B1FA2",
+      "description": "China's largest and most advanced domestic chip foundry — the strategic backbone of China's semiconductor self-sufficiency drive. Achieved 7nm production capability despite US export controls, using ASML legacy DUV equipment with multiple patterning. Major government funding recipient under 'Big Fund' initiative. Customers include Huawei HiSilicon, UNISOC and Chinese automotive chip designers."
+    }
+  ]
+}

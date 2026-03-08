@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Chemicals Index (TRI)",
+  "slug": "nifty-chemicals-index-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Pidilite Industries",
+      "ticker": "PIDILITIND",
+      "weight": 16.2,
+      "sector": "Specialty Chemicals",
+      "color": "#E65100",
+      "description": "Fevicol, M-Seal, Dr. Fixit — India's dominant adhesive and sealant brand. Construction chemicals growing 20%+ with affordable housing boom. 60%+ gross margins from branded consumer adhesives. DIY and professional products both expanding."
+    },
+    {
+      "name": "SRF Limited",
+      "ticker": "SRF",
+      "weight": 14.8,
+      "sector": "Fluorochemicals / Textiles",
+      "color": "#880E4F",
+      "description": "India's #1 fluorochemicals company and global refrigerant gas (R22, R134a) producer. Technical textiles (tyre cord, polyester, nylon) for Bridgestone, Michelin. New fluoropolymers for EV, aerospace and semiconductor applications. CapEx cycle 2022-26."
+    },
+    {
+      "name": "Deepak Nitrite",
+      "ticker": "DEEPAKNTR",
+      "weight": 11.3,
+      "sector": "Specialty Chemicals",
+      "color": "#1B5E20",
+      "description": "Midstream specialty chemicals — nitro-aromatic compounds used in dyes, agrochemicals, rubber chemicals and pharma intermediates. Deepak Phenolics (Dahej) makes phenol and acetone domestically for the first time, replacing Chinese imports."
+    },
+    {
+      "name": "Navin Fluorine International",
+      "ticker": "NAVINFLUOR",
+      "weight": 9.7,
+      "sector": "Fluorochemicals",
+      "color": "#006064",
+      "description": "CDMO for fluorinated APIs, agro-intermediates and specialty fluorochemicals. Protected mode high-value CRAMS business growing for global innovators. Per PFAS regulations in Europe boosting demand for fluorine-free alternatives NAFL develops."
+    },
+    {
+      "name": "Aarti Industries",
+      "ticker": "AARTIIND",
+      "weight": 8.5,
+      "sector": "Specialty Chemicals",
+      "color": "#4527A0",
+      "description": "India's largest benzene-based chemical company. Sulfuric acid, nitro-chloro-benzene, nitro-toluene — 100+ specialty chemicals used in dyes, pharma and agrochemicals. China+1 beneficiary as global buyers diversify sourcing from Indian manufacturers."
+    },
+    {
+      "name": "Gujarat Fluorochemicals",
+      "ticker": "FLUOROCHEM",
+      "weight": 7.4,
+      "sector": "Fluoropolymers",
+      "color": "#006064",
+      "description": "Transitioning from refrigerants to PTFE and other fluoropolymers for EV batteries, semiconductor fabrication and aerospace. India's only PTFE producer + India's first HFO (new-generation low-GWP refrigerant) maker. R&D-intensive expansion."
+    }
+  ]
+}

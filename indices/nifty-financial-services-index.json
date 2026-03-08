@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Financial Services Index",
+  "slug": "nifty-financial-services-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 28.7587,
+      "sector": "Banking",
+      "color": "#1A237E",
+      "description": "Largest private bank. Post-HDFC merger balance sheet ₹25 trillion. Dominant retail, SME, and corporate banking franchise. Consistent 17-18% ROE over cycles."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 20.6156,
+      "sector": "Banking",
+      "color": "#283593",
+      "description": "Transformed retail-first strategy under CEO Bakhshi. NIMs above 4%, best-in-class credit cost. iGrow, merchant solutions, and open banking APIs driving new revenue streams."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 6.4701,
+      "sector": "Banking",
+      "color": "#303F9F",
+      "description": "Premium franchise with conservative lending. Kotak Securities, Kotak AMC, Kotak Insurance create a financial services conglomerate under one listed entity."
+    },
+    {
+      "name": "SBI Life Insurance",
+      "ticker": "SBILIFE",
+      "weight": 1.9156,
+      "sector": "Insurance",
+      "color": "#006064",
+      "description": "India's largest private life insurer by new business premium. SBI's branch network of 22,000+ provides unmatched distribution. ULIPs and term plans drive volumes."
+    },
+    {
+      "name": "HDFC Life Insurance",
+      "ticker": "HDFCLIFE",
+      "weight": 1.5764,
+      "sector": "Insurance",
+      "color": "#00838F",
+      "description": "Premium private life insurer. Strong annuity, protection, and retirement product mix. PAR savings and non-PAR guaranteed products for risk-averse customers. Consistent VNB margin above 26%."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 5.5399,
+      "sector": "NBFC",
+      "color": "#004D40",
+      "description": "India's most profitable NBFC. 90M+ customers. Consumer finance, SME lending, rural and commercial lending. Bajaj Pay and EMI Card ecosystem create customer stickiness."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 8.2687,
+      "sector": "Banking",
+      "color": "#3949AB",
+      "description": "Post-Citi integration, axis has the largest credit card portfolio among private banks. Premium affluent segment banking growing rapidly."
+    },
+    {
+      "name": "ICICI Lombard",
+      "ticker": "ICICIGI",
+      "weight": 0.9974,
+      "sector": "General Insurance",
+      "color": "#00796B",
+      "description": "India's largest private general insurer. Motor, health, and commercial lines. Strong combined ratio management. Data-driven underwriting and claims. Acquired Bharti AXA General Insurance."
+    },
+    {
+      "name": "ICICI Prudential Life",
+      "ticker": "ICICIPRULI",
+      "weight": 0.5302,
+      "sector": "Insurance",
+      "color": "#00695C",
+      "description": "Joint venture between ICICI Bank and Prudential plc. Strong ULIP franchise with equity savings and pension products. Protection business scale-up underway. APE growth driven by direct and banca channels."
+    },
+    {
+      "name": "Bajaj Finserv",
+      "ticker": "BAJAJFINSV",
+      "weight": 2.3488,
+      "sector": "Financial Services",
+      "color": "#E65100",
+      "description": "Holding company for Bajaj Finance, Bajaj Allianz Life Insurance, and Bajaj Allianz General Insurance. Trading at structural conglomerate discount to sum-of-parts. Insurance businesses scaling rapidly."
+    }
+  ]
+}

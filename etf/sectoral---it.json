@@ -15,88 +15,7 @@
             "companies": 10,
             "description": "Nifty IT tracks 10 companies generating $250B+ annual exports — 15% of India's total exports. Tier-1 majors: TCS (28.9%), Infosys (24.6%), HCL Tech (14.8%), Wipro (12.3%). India's IT sector accounts for 5.4M jobs, ~5% of India's GDP. Structural advantages: English-language competency, timezone arbitrage (US daytime = India nighttime), cost advantage (developer salary ₹40L vs $150K US), and global onsite-offshore model. Currency play: 60%+ revenues earned in USD; when rupee weakens 10%, reported rupee revenues rise equivalently. Bull cycle driver: Generative AI adoption in enterprise — IT spending growth accelerating from 6% to 12%+ in AI-driven consulting, platform modernization, and custom software development. Bear cycle driver: US tech spending contraction — most revenue from BFSI, telecom, and hi-tech verticals which curtail IT budgets during recessions. Leverage to market multiples: during risk-on sentiment, IT trades at 25-30x PE; during risk-off, contracts to 15-18x PE. Margin compression risk: wage inflation in India (30% CAGR for fresher salaries from 2010-2023) eroding profitability despite revenue growth."
         },
-        "holdings": [
-            {
-                "name": "TCS",
-                "ticker": "TCS",
-                "weight": 28.9,
-                "sector": "IT Services",
-                "color": "#006064",
-                "description": "India's largest IT company by revenue and market cap. Serves 1,200+ clients across 150 locations in 50+ countries. Market leader in BFSI, retail and manufacturing verticals. Generative AI deals ramping rapidly — over 100 AI-driven large deal wins announced in FY25."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.56,
-                "sector": "IT Services",
-                "color": "#00BCD4",
-                "description": "Global IT pioneer with Cobalt cloud platform. Strong in consulting-led large deals — $4B+ TCV quarterly. Carbon-neutral operations since 2020. AI-first strategy with Infosys Topaz platform for enterprise AI transformation."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 14.78,
-                "sector": "IT Services",
-                "color": "#0097A7",
-                "description": "Products-led IT company with HCL Software generating $650M+ annual recurring revenue. IBM software IP portfolio acquisition a game-changer. Strong ER&D services in auto, aerospace and semiconductors."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 12.34,
-                "sector": "IT Services",
-                "color": "#7B1FA2",
-                "description": "Diversified IT services transforming with consulting-led strategy. Capco (BFSI), Rizing (SAP), Edgile (Cyber) acquisitions elevate margins. 230,000+ employees across 65 countries. Wipro Enterprise AI platform launched."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 7.23,
-                "sector": "IT Services",
-                "color": "#C62828",
-                "description": "Telecom-focused IT company under Project Reboot transformation. 5G software and infrastructure a key differentiator. TechM Business Boost AI platform for enterprise clients. Diversifying into BFSI, healthcare and manufacturing."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.67,
-                "sector": "IT Services",
-                "color": "#1565C0",
-                "description": "Merged entity of L&T Infotech and Mindtree creating a $4B+ revenue IT major. Strong in BFSI, hi-tech, media and manufacturing. Canvas AI platform driving digital transformation deals across Fortune 500 clients."
-            },
-            {
-                "name": "L&T Technology Services",
-                "ticker": "LTTS",
-                "weight": 4.89,
-                "sector": "Engineering R&D",
-                "color": "#FF5722",
-                "description": "Pure-play engineering R&D services company. Strong in automotive EV (35% revenue), industrial, telecom and medical devices verticals. Beneficiary of global ER&D spend rising to $2.4T by 2030."
-            },
-            {
-                "name": "Mphasis",
-                "ticker": "MPHASIS",
-                "weight": 4.12,
-                "sector": "IT Services",
-                "color": "#4A148C",
-                "description": "Deep BFSI-focused IT company with DXC Technology lineage. AI-first with DeepInsights platform. Strong US mortgage and banking sector exposure. CEO Nitin Rakesh driving hyper-personalization and cloud-first mandate."
-            },
-            {
-                "name": "Persistent Systems",
-                "ticker": "PERSISTENT",
-                "weight": 3.18,
-                "sector": "IT Services",
-                "color": "#2196F3",
-                "description": "Fastest-growing large mid-cap IT company. Specializes in product engineering, Salesforce, and cloud-native development. Salesforce Partner of the Year multiple times. 25%+ revenue growth for 8+ consecutive quarters."
-            },
-            {
-                "name": "Coforge",
-                "ticker": "COFORGE",
-                "weight": 2.31,
-                "sector": "IT Services",
-                "color": "#00ACC1",
-                "description": "Formerly NIIT Technologies. Transformed into a high-growth IT services company. Deep vertical expertise in travel, BFSI and insurance. Xceltrait and SLK acquisition expanding US market. Strong deal momentum at $1B+ TCV."
-            }
-        ]
+        "indexKey": "nifty-it-index"
     },
     {
         "id": "itietf",
@@ -114,56 +33,7 @@
             "companies": 10,
             "description": "Nippon India ETF IT tracks the Nifty IT Index  India's 10 largest technology services companies. India's IT sector is the world's largest IT services outsourcing ecosystem, with $254B in FY25 revenues and targeting $500B by 2030. The sector benefits from structural demand: AI transformation projects (cloud migration, GenAI implementation, enterprise automation) require massive workforce that only India can supply competitively. Wage arbitrage persists  Indian engineers cost 20-25% of US equivalents for same productivity. Key investment thesis: every $1 of AI infrastructure investment by Big Tech requires $10-15 of AI implementation services  the primary beneficiary is Indian IT services. Cyclical risk: US/Europe IT spending cuts during recession compress margins. However, discretionary project deferral is offset by non-discretionary managed services contracts (40-60% of revenues) providing floor revenues."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.8,
-                "sector": "IT Services",
-                "color": "#003A8C",
-                "description": "India's largest software exporter  $29B revenues, 600,000+ employees, 55+ countries. GenAI platform WisdomNext and AI.Cloud driving next growth cycle. Tata Group ownership ensures conservative capital allocation and governance. Best-in-class attrition, client retention and deal conversion metrics."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 22.4,
-                "sector": "IT Services",
-                "color": "#007CC2",
-                "description": "India's 2nd largest tech exporter  $19B revenue, 320,000 employees. Cobalt cloud migration platform and Topaz generative AI platform leading the AI transformation narrative. US banking and financial services vertical at $5B+ revenue. Consistent industry-leading revenue growth since CEO Salil Parekh's tenure."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 14.6,
-                "sector": "IT Services",
-                "color": "#E53935",
-                "description": "Strongest growth among large-cap IT for the past 3 years. HCL Software (IBM partnership  acquired 9 enterprise software products) creates high-margin, recurring SaaS revenues. ER&D (Engineering R&D) services growing 20%+ serving semiconductor, auto and aerospace clients."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 8.9,
-                "sector": "IT Services",
-                "color": "#1B5E20",
-                "description": "Global tech services and consulting firm. Capco (UK financial consulting) and Rizing (SAP consulting) acquisitions expanding consulting margins. Azim Premji's philanthropy ($21B donated) makes Wipro an ESG darling. Defence IT and government IT growing via GovEdge platform."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 7.2,
-                "sector": "IT Services",
-                "color": "#F57F17",
-                "description": "Post-merger of L&T Infotech and Mindtree  India's 5th largest IT company. AI-first Canvas platform for intelligent automation. Strong in financial services and manufacturing verticals. L&T Group backing provides stable deal pipeline from the conglomerate's project ecosystem."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.3,
-                "sector": "IT Services",
-                "color": "#880E4F",
-                "description": "Leading telecom IT services provider globally  partners with 150+ telecom operators for 5G BSS/OSS systems. M&M Group backing. Engineering Services (Comviva, BFL Software) and BPS (Hinduja Global Solutions) adding diversification. CEO Mohit Joshi driving Project Fortius for margin recovery."
-            }
-        ]
+        "indexKey": "nifty-it-index"
     },
     {
         "id": "itbees",
@@ -181,56 +51,7 @@
             "companies": 0,
             "description": "Nippon India Mutual Fund - Nippon India ETF Nifty IT tracks the Nifty IT TRI index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "nifty-it-tri"
     },
     {
         "id": "hdfcnifit",
@@ -248,56 +69,7 @@
             "companies": 0,
             "description": "HDFC Mutual Fund - HDFC NIFTY IT ETF tracks the HDFC NIFTY IT ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "hdfc-nifty-it-etf"
     },
     {
         "id": "it",
@@ -315,56 +87,7 @@
             "companies": 0,
             "description": "Kotak Nifty IT ETF tracks the NIFTY IT Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "nifty-it-index"
     },
     {
         "id": "itadd",
@@ -382,56 +105,7 @@
             "companies": 0,
             "description": "DSP Mutual Fund - DSP Nifty IT ETF tracks the DSP Nifty IT ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "dsp-nifty-it-etf"
     },
     {
         "id": "tnidetf",
@@ -449,56 +123,7 @@
             "companies": 0,
             "description": "Tata Mutual Fund - Tata Nifty India Digital Exchange Traded Fund tracks the Nifty India Digital Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 24.2,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "Internet-age IT bellwether transforming enterprises through cloud, AI and digital platforms. Contextual Master ecosystem and AI.Cloud services driving next-gen IT outsourcing at Fortune 500 scale."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 19.5,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "Digital-first IT partnership. Infosys Springboard (5M+ learners), Cobalt cloud platform and GenAI Topaz are redefining how global enterprises digitalise their operations."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 11.4,
-                "sector": "IT Products & Services",
-                "color": "#E65100",
-                "description": "India's most product-oriented IT firm. HCL Software business — perpetual + SaaS revenue from 20M+ enterprise users — delivering stable, high-margin internet-era software revenue."
-            },
-            {
-                "name": "Persistent Systems",
-                "ticker": "PERSISTENT",
-                "weight": 8.2,
-                "sector": "IT Engineering",
-                "color": "#006064",
-                "description": "High-growth mid-cap IT firm specialising in AI engineering, cloud-native development and BFSI digital transformation. Named a Leader in Salesforce/AWS services. 30%+ revenue growth CAGR outpacing all large-cap peers."
-            },
-            {
-                "name": "Coforge",
-                "ticker": "COFORGE",
-                "weight": 6.1,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "Travel tech (Amadeus, Sabre GDS modernisation), BFSI and insurance vertical specialist. Over 60% offshore delivery. BPS and API integration expertise driving large EMEA deal wins."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 6.0,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "Major digital services player recovering growth momentum. FullStride Cloud (engineering + migration) and Bangalore-HQ enterprise AI lab driving technology modernisation for global banks, retailers and manufacturers."
-            }
-        ]
+        "indexKey": "nifty-india-digital-index"
     },
     {
         "id": "sbietfit",
@@ -516,56 +141,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund-SBI ETF IT tracks the Nifty IT Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "nifty-it-index"
     },
     {
         "id": "axistecetf",
@@ -583,56 +159,7 @@
             "companies": 0,
             "description": "AXIS MUTUAL FUND - AXIS NIFTY IT ETF tracks the NIFTY IT Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "nifty-it-index"
     },
     {
         "id": "internet",
@@ -650,56 +177,7 @@
             "companies": 0,
             "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty India Internet ETF tracks the Equity Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "equity-index"
     },
     {
         "id": "tech",
@@ -717,56 +195,7 @@
             "companies": 0,
             "description": "Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Nifty IT ETF tracks the Nifty IT TRI Index index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "nifty-it-tri-index"
     },
     {
         "id": "itbeta",
@@ -784,55 +213,6 @@
             "companies": 0,
             "description": "UTI Mutual Fund - UTI Nifty IT ETF tracks the UTI Nifty IT ETF index."
         },
-        "holdings": [
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 30.4,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's IT bellwether and most valuable IT company. $27B+ annual revenue, 600,000+ employees. Dominant in BFSI, Retail and Life Sciences. GenAI integrated into TCS WisdomNext — sold as AI-augmented IT outsourcing to Fortune 1000 clients."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 24.7,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT firm. Infosys Topaz AI platform enables clients to build enterprise AI applications. Large deal wins in cloud migration and core banking transformation. 30-year record of dividend payments, regular buybacks."
-            },
-            {
-                "name": "HCL Technologies",
-                "ticker": "HCLTECH",
-                "weight": 13.6,
-                "sector": "IT Services / Products",
-                "color": "#E65100",
-                "description": "3rd largest with unique Products & Platforms (HCL Software) segment. ERPNext, DRYiCE AIOps, Calpont analytics — recurring SaaS revenue. Engineering R&D services (Volvo, BMW, Airbus) growing with EV and autonomous vehicle tech spending."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 7.9,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "India's 4th largest IT. Under Thierry Delaporte's restructuring — customer-centric model, fewer verticals. Capco acquisition (fintech consulting) and Edgile (cybersecurity) add high-margin consulting revenue. EBITDA margins recovering."
-            },
-            {
-                "name": "Tech Mahindra",
-                "ticker": "TECHM",
-                "weight": 6.8,
-                "sector": "IT Services / Telecom",
-                "color": "#1B5E20",
-                "description": "5G telecom IT specialist — network virtualisation (5G CNF/VNF), OSS/BSS modernisation for AT&T, Comcast, Telstra. Also strong in engineering (aerospace, auto). 'Rise with Tech' transformation under Mohit Joshi rebuilding revenue growth."
-            },
-            {
-                "name": "LTIMindtree",
-                "ticker": "LTIM",
-                "weight": 5.2,
-                "sector": "IT Services",
-                "color": "#004D40",
-                "description": "L&T's marquee IT company formed by LTI + Mindtree merger. Strong in BFSI (especially capital markets), travel & hospitality (Amadeus, Sabre integration) and manufacturing. Canvas platform accelerates cloud and data modernisation for large enterprises."
-            }
-        ]
+        "indexKey": "uti-nifty-it-etf"
     }
 ]

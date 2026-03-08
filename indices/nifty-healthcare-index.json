@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Healthcare Index",
+  "slug": "nifty-healthcare-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Sun Pharmaceutical",
+      "ticker": "SUNPHARMA",
+      "weight": 19.056,
+      "sector": "Pharma",
+      "color": "#F44336",
+      "description": "India's largest pharma company and top-5 globally in specialty generics. Taro Pharma (USA), Ilumya/Cequa specialty brands, Winlevi dermatology — building US specialty beyond generics. Strong R&D pipeline."
+    },
+    {
+      "name": "Dr Reddy's Laboratories",
+      "ticker": "DRREDDY",
+      "weight": 8.0043,
+      "sector": "Pharma",
+      "color": "#E53935",
+      "description": "Hyderabad-based generic pharma giant. US generics, branded formulations in India and Russia, API manufacturing. Revlimid (lenalidomide) para-IV authorized generic provides multi-year earnings boost."
+    },
+    {
+      "name": "Cipla Ltd",
+      "ticker": "CIPLA",
+      "weight": 7.4737,
+      "sector": "Pharma",
+      "color": "#C62828",
+      "description": "Piramal Group's pharma division — India's third largest. Strong US inhalation business (Advair generics pipeline). Africa branded generics. Cipla brand dominates respiratory and HIV in India."
+    },
+    {
+      "name": "Divi's Laboratories",
+      "ticker": "DIVISLAB",
+      "weight": 8.0643,
+      "sector": "API Manufacturing",
+      "color": "#B71C1C",
+      "description": "World's largest manufacturer of APIs for regulated markets. Key supplier to top 10 global pharma. Carotenoids business and nutraceuticals. Asset-light model with industry-leading EBITDA margins of 35%+."
+    },
+    {
+      "name": "Apollo Hospitals",
+      "ticker": "APOLLOHOSP",
+      "weight": 8.0007,
+      "sector": "Hospitals",
+      "color": "#EF9A9A",
+      "description": "India's largest private hospital network with 70+ hospitals. Apollo HealthCo digital platform and Apollo Pharmacy chain. Chronic disease management, oncology, and organ transplants as key specialities."
+    },
+    {
+      "name": "Max Healthcare",
+      "ticker": "MAXHEALTH",
+      "weight": 7.8005,
+      "sector": "Hospitals",
+      "color": "#FFCDD2",
+      "description": "North India's premium hospital chain with 17 hospitals (3,400+ beds). Oncology Centre of Excellence. Max Smart Super Speciality Hospital, Saket is flagship. IPO proceeds funding brownfield expansion."
+    },
+    {
+      "name": "Fortis Healthcare",
+      "ticker": "FORTIS",
+      "weight": 4.6795,
+      "sector": "Hospitals",
+      "color": "#FF8A80",
+      "description": "Multi-specialty hospital chain across India and overseas. IHH Healthcare (Malaysia) is majority owner providing capital. SRL Diagnostics integration strengthens pathology vertical."
+    },
+    {
+      "name": "Narayana Hrudalaya",
+      "ticker": "NH",
+      "weight": 4.23,
+      "sector": "Hospitals",
+      "color": "#FF5252",
+      "description": "Affordable cardiac care at scale. Rabindranath Tagore International Institute of Cardiac Sciences. Health City Cayman Islands offshore medical tourism. ₹5,000 open-heart surgery model."
+    },
+    {
+      "name": "Torrent Pharma",
+      "ticker": "TORNTPHARM",
+      "weight": 4.5399,
+      "sector": "Pharma",
+      "color": "#FF1744",
+      "description": "Gujarat-based pharma with strong branded domestic portfolio. Germany (Heumann Pharma) and US operations. Cardiovascular, CNS, and gastro therapies dominate India prescriptions."
+    },
+    {
+      "name": "Lupin Ltd",
+      "ticker": "LUPIN",
+      "weight": 5.6708,
+      "sector": "Pharma",
+      "color": "#D32F2F",
+      "description": "Complex generics specialist: inhalation (Spiriva generic), injectables, biosimilars (Etanercept). US and Japan market exposure. Domestic branded Lupin franchise in TB, cardiovascular, diabetology."
+    }
+  ]
+}

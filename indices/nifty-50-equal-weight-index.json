@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty 50 Equal Weight Index",
+  "slug": "nifty-50-equal-weight-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 8.5155,
+      "sector": "Conglomerate",
+      "color": "#1A237E",
+      "description": "Equal weight means Reliance gets 2% vs 10%+ in cap-weighted Nifty. Reduces single-stock concentration. Retail, Jio, and O2C segments driving diversified revenue."
+    },
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 11.758,
+      "sector": "Banking",
+      "color": "#283593",
+      "description": "Same 2% as all others vs 13%+ in cap-weighted Nifty. Equal weight reduces excessive banking sector concentration."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 4.1171,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Equal 2% weight. Reduces IT sector dominance of market-cap index. Cobalt AI platform and generative AI services driving new revenue streams."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 8.4287,
+      "sector": "Banking",
+      "color": "#303F9F",
+      "description": "Equal 2% gives same importance as smaller Nifty constituents. Transformation under CEO Bakhshi continues to deliver."
+    },
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 2.3433,
+      "sector": "IT Services",
+      "color": "#0D47A1",
+      "description": "India's largest IT exporter. Equal weighting reduces exposure to mega-cap IT. AI and cloud services growing share of revenues."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 2.265,
+      "sector": "NBFC",
+      "color": "#004D40",
+      "description": "India's largest NBFC. Equal weight elevates Bajaj Finance to same prominence as banking giants. Consumer lending and EMI financing."
+    },
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 4.1572,
+      "sector": "Engineering & Construction",
+      "color": "#F57F17",
+      "description": "Equal weight elevates L&T vs cap-weighted index. Order book ₹4.7 trillion across infrastructure, defence, and technology segments."
+    },
+    {
+      "name": "Sun Pharmaceutical",
+      "ticker": "SUNPHARMA",
+      "weight": 1.7023,
+      "sector": "Pharma",
+      "color": "#F44336",
+      "description": "Equal weight gives pharma same prominence as banks. US specialty products (Ilumya, Cequa, Winlevi) diversifying beyond Indian formulations."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 2.6453,
+      "sector": "Banking",
+      "color": "#3F51B5",
+      "description": "Conservative underwriting culture. Equal weight philosophy aligns with fundamental value approach rather than market-cap momentum."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 3.3806,
+      "sector": "Banking",
+      "color": "#5C6BC0",
+      "description": "Post-Citi integration bank with premium credit card franchise. Equal weight treats Axis at same level as larger banking peers."
+    }
+  ]
+}

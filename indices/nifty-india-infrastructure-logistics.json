@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty India Infrastructure & Logistics",
+  "slug": "nifty-india-infrastructure-logistics",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 14.2,
+      "sector": "EPC & Construction",
+      "color": "#FF5722",
+      "description": "India's largest EPC and engineering conglomerate. Core infrastructure beneficiary across every sub-sector: highways, metros, airports, ports, water and power. Unmatched execution track record with 200,000+ employees."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 8.5,
+      "sector": "Power Generation",
+      "color": "#4CAF50",
+      "description": "India's largest power company powering 73 GW currently and targeting 130 GW by 2032. Flagship of India's energy infrastructure. Building India's largest solar park (7.5 GW, Rajasthan). NTPC Green Energy subsidiary listed separately."
+    },
+    {
+      "name": "Adani Ports & SEZ",
+      "ticker": "ADANIPORTS",
+      "weight": 7.8,
+      "sector": "Ports & Logistics",
+      "color": "#1565C0",
+      "description": "India's largest port operator and a key logistics beneficiary. Beyond ports, APSEZ operates logistics parks, inland container depots, and free-trade warehousing zones. A pure-play on India's trade-led growth story."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 7.1,
+      "sector": "Transmission",
+      "color": "#009688",
+      "description": "India's grid backbone transmitting 70%+ of inter-state electricity. Regulated utility with predictable ROE of 15-16%. Building new HVDC corridors for renewable energy evacuation from Rajasthan and Gujarat to load centers."
+    },
+    {
+      "name": "Container Corporation of India",
+      "ticker": "CONCOR",
+      "weight": 4.2,
+      "sector": "Rail Logistics",
+      "color": "#37474F",
+      "description": "India's dominant rail-logistics operator running 61 inland container depots across the country. Biggest beneficiary of Dedicated Freight Corridors (EDFC, WDFC) which cut transit times 40-50%. CONCOR moves 70%+ of India's containerized rail freight."
+    },
+    {
+      "name": "Adani Enterprises",
+      "ticker": "ADANIENT",
+      "weight": 5.3,
+      "sector": "Diversified Infrastructure",
+      "color": "#795548",
+      "description": "Adani Group's incubation engine managing airports (7 across India), national highway projects, solar manufacturing and data centers. Each new business eventually lists separately, making ADANIENT a venture vehicle for next-generation infrastructure."
+    }
+  ]
+}

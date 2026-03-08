@@ -1,0 +1,88 @@
+{
+  "indexName": "NYSE FANG+ Index",
+  "slug": "nyse-fang-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "weight": 11.2,
+      "sector": "Semiconductors",
+      "color": "#76FF03",
+      "description": "World's leading GPU designer and the backbone of the AI revolution. H100 and Blackwell chips power ChatGPT, Gemini, Claude and virtually every major LLM in training and inference. Data centre revenue surpassed $40B in FY25 — up 400% YoY. Dominant 80%+ market share in AI accelerators. NVIDIA's CUDA software ecosystem creates an enormous switching cost moat."
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "weight": 10.8,
+      "sector": "Social Media & AI",
+      "color": "#1877F2",
+      "description": "Parent of Facebook, Instagram, WhatsApp and Threads — 3.27 billion daily active people. Llama open-source LLM strategy builds AI developer mindshare. Reality Labs investing $15B+ annually in AR/VR for the metaverse. Advertising precision via first-party social graph data makes Meta resilient to cookie deprecation. Massive buyback programme — $50B+ returned to shareholders in 2024."
+    },
+    {
+      "name": "Apple Inc.",
+      "ticker": "AAPL",
+      "weight": 10.5,
+      "sector": "Consumer Electronics",
+      "color": "#555555",
+      "description": "World's most valuable company by market cap ($3T+). iPhone installed base of 1.4 billion generates a $100B+ annual services flywheel (App Store, iCloud, Apple Pay, TV+). Apple Intelligence (on-device AI) embedded in iPhone 16 onwards. Services gross margin exceeds 71% vs hardware at 37%, shifting the earnings mix toward higher quality recurring revenues."
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "weight": 10.3,
+      "sector": "Cloud & E-Commerce",
+      "color": "#FF9900",
+      "description": "AWS commands 31% of global cloud infrastructure market and contributes the majority of operating profit despite being a fraction of total revenue. Amazon Bedrock and CodeWhisperer are key enterprise AI plays. Advertising segment crossed $50B revenue in 2024 — world's third-largest digital ad platform. Logistics network with 1,500+ fulfilment centres creates an impossible-to-replicate physical moat."
+    },
+    {
+      "name": "Alphabet (Google)",
+      "ticker": "GOOGL",
+      "weight": 10.1,
+      "sector": "Search & Cloud",
+      "color": "#4285F4",
+      "description": "Google Search processes 8.5 billion queries daily — 90%+ global search market share. Google Cloud growing 28%+ annually, powered by TPU AI chips and Gemini AI integration. YouTube is the world's largest video platform — 2.5B monthly users. DeepMind's AlphaFold, Gemini and Waymo position Alphabet at the frontier of AI and autonomous vehicles."
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "weight": 10.0,
+      "sector": "Enterprise Cloud & AI",
+      "color": "#00A4EF",
+      "description": "Azure cloud platform growing 29%+ annually. $13B OpenAI partnership makes Microsoft the exclusive cloud provider for ChatGPT and embeds Copilot AI across Office 365, GitHub, Dynamics and Teams — 300M commercial Office seats. Gaming: Xbox + Activision Blizzard acquisition creates $25B gaming division. Dividend growing 10%+ annually for 22 consecutive years."
+    },
+    {
+      "name": "Netflix",
+      "ticker": "NFLX",
+      "weight": 9.8,
+      "sector": "Streaming",
+      "color": "#E50914",
+      "description": "300M+ paid subscribers globally — 40% of global SVOD market. Password-sharing crackdown converted 100M+ free riders to paying accounts in 2023–24. Ad-supported tier (cheaper subscriptions with ads) creating a high-margin advertising revenue stream that could reach $10B+ by 2027. Live sports (WWE Raw, NFL Christmas games) expand serviceable audience beyond drama/film fans."
+    },
+    {
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "weight": 9.6,
+      "sector": "EV & Energy & AI",
+      "color": "#CC0000",
+      "description": "World's most valuable automaker by market cap. FSD (Full Self Driving) v13 and Cybercab robotaxi are pivotal 2025–26 catalysts. Energy storage (Megapack) growing 200%+ annually — Tesla's highest-margin product. Dojo supercomputer for AI training, Optimus humanoid robot programme. Global Supercharger network (50,000+ chargers) becomes a profit centre as other OEMs pay access fees."
+    },
+    {
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "weight": 9.4,
+      "sector": "Semiconductors & Networking",
+      "color": "#CC0000",
+      "description": "Diversified semiconductor and infrastructure software giant. Custom AI ASIC chips (XPUs) designed for Google, Meta and ByteDance are rapidly gaining share vs NVIDIA GPUs for inference workloads. VMware acquisition (2023, $69B) transforms Broadcom into an enterprise software powerhouse with $8B+ recurring software revenues. Networking silicon (Tomahawk, Jericho) runs the hyperscaler data-centre fabric."
+    },
+    {
+      "name": "Snowflake",
+      "ticker": "SNOW",
+      "weight": 8.3,
+      "sector": "Cloud Data Platform",
+      "color": "#29B6F6",
+      "description": "Cloud-native data warehouse platform with unique multi-cloud architecture. 9,800+ customers including 700 of the Global 2000. Snowflake Cortex embeds LLM capabilities (text-to-SQL, document AI, ML models) directly into the data cloud. Consumption-based pricing model means revenue tracks customer data growth — a strong secular tailwind. Net Revenue Retention consistently above 130%."
+    }
+  ]
+}

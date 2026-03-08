@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty SDL Apr 2026 Index",
+  "slug": "nifty-sdl-apr-2026-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Maharashtra SDL 2026",
+      "ticker": "MH-SDL-26",
+      "weight": 12.34,
+      "sector": "State Government Bond",
+      "color": "#8E24AA",
+      "description": "Maharashtra SDLs — India's largest state economy. Mumbai financial hub generates massive GST and stamp duty revenues. Strong fiscal position. SDL yield ~25 bps above central G-Sec."
+    },
+    {
+      "name": "Tamil Nadu SDL 2026",
+      "ticker": "TN-SDL-26",
+      "weight": 10.89,
+      "sector": "State Government Bond",
+      "color": "#9C27B0",
+      "description": "Tamil Nadu SDLs. Manufacturing hub — auto, pharma, electronics. Strong revenue base from GST, electricity tariffs. Chennai-Bengaluru-Coimbatore industrial corridor driving growth."
+    },
+    {
+      "name": "Karnataka SDL 2026",
+      "ticker": "KA-SDL-26",
+      "weight": 10.23,
+      "sector": "State Government Bond",
+      "color": "#AB47BC",
+      "description": "Karnataka SDLs. Bengaluru's IT sector makes Karnataka a high-GST state. Stamp duty from booming real estate adds to revenue. Well-managed fiscal position relative to peers."
+    },
+    {
+      "name": "Gujarat SDL 2026",
+      "ticker": "GJ-SDL-26",
+      "weight": 9.78,
+      "sector": "State Government Bond",
+      "color": "#BA68C8",
+      "description": "Gujarat SDLs. India's most industrialised state. GIFT City, petrochemicals (Jamnagar), pharmaceuticals, textiles. Low fiscal deficit ratio. Premium borrowing terms vs other states."
+    },
+    {
+      "name": "Uttar Pradesh SDL 2026",
+      "ticker": "UP-SDL-26",
+      "weight": 9.34,
+      "sector": "State Government Bond",
+      "color": "#CE93D8",
+      "description": "UP SDLs. India's most populous state and largest economy by GSDP in Hindi belt. Expressway infrastructure, defence corridor, data centers. Improving fiscal management under current government."
+    },
+    {
+      "name": "Rajasthan SDL 2026",
+      "ticker": "RJ-SDL-26",
+      "weight": 7.89,
+      "sector": "State Government Bond",
+      "color": "#E1BEE7",
+      "description": "Rajasthan SDLs. Renewable energy powerhouse — largest wind and solar installed capacity. Mining royalties from oil, lead, zinc. Higher spread due to slightly elevated fiscal deficit."
+    },
+    {
+      "name": "Andhra Pradesh SDL 2026",
+      "ticker": "AP-SDL-26",
+      "weight": 6.78,
+      "sector": "State Government Bond",
+      "color": "#F3E5F5",
+      "description": "AP SDLs. Port-led industrialisation (Visakhapatnam, Kakinada). Aquaculture and agriculture exports. New capital Amravati construction restarted. Higher yield due to fiscal stress history."
+    },
+    {
+      "name": "Telangana SDL 2026",
+      "ticker": "TS-SDL-26",
+      "weight": 6.23,
+      "sector": "State Government Bond",
+      "color": "#EDE7F6",
+      "description": "Telangana SDLs. Hyderabad pharma city, IT and biotech cluster. Youngest state with growing tax base. Infrastructure investment in ORR, Metro Phase-2, and Data Center parks driving borrowing."
+    },
+    {
+      "name": "Madhya Pradesh SDL 2026",
+      "ticker": "MP-SDL-26",
+      "weight": 5.67,
+      "sector": "State Government Bond",
+      "color": "#D1C4E9",
+      "description": "MP SDLs. Agricultural surplus state — wheat, soybean production. Tourism revenue from Khajuraho, Kanha National Park. Industrial corridors and Smart Cities investment increasing."
+    },
+    {
+      "name": "West Bengal SDL 2026",
+      "ticker": "WB-SDL-26",
+      "weight": 5.12,
+      "sector": "State Government Bond",
+      "color": "#B39DDB",
+      "description": "West Bengal SDLs. Kolkata port, jute, tea, and engineering industries. Highest SDL spread among major states due to elevated debt-to-GSDP. Compensated by higher yield for risk-tolerant investors."
+    }
+  ]
+}

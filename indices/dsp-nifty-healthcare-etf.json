@@ -1,0 +1,56 @@
+{
+  "indexName": "DSP Nifty Healthcare ETF",
+  "slug": "dsp-nifty-healthcare-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Sun Pharmaceuticals",
+      "ticker": "SUNPHARMA",
+      "weight": 24.8,
+      "sector": "Pharmaceuticals",
+      "color": "#880E4F",
+      "description": "India's largest pharma company and top 5 globally in specialty. Dermatology (Winlevi, Cequa), oncology and ophthalmics drive US margins of 30%+. 40 manufacturing facilities globally. Ilumya (US) and Levulan ramp the specialty pipeline."
+    },
+    {
+      "name": "Apollo Hospitals Enterprise",
+      "ticker": "APOLLOHOSP",
+      "weight": 9.6,
+      "sector": "Hospital Networks",
+      "color": "#B71C1C",
+      "description": "India's largest private hospital chain. 70+ hospitals, 10,000+ beds. Apollo 24|7 telemedicine platform: 50M+ users. Medical tourism leader (25%+ market share in international patients to India). Pharmacy chain Apollo Pharmacy — 6,000+ outlets."
+    },
+    {
+      "name": "Dr. Reddy's Laboratories",
+      "ticker": "DRREDDY",
+      "weight": 8.4,
+      "sector": "Pharmaceuticals",
+      "color": "#1565C0",
+      "description": "Among India's top 3 pharma exporters. Speciality generics in US, biosimilars in Europe and emerging markets. Revlimid (lenalidomide) AG deal and filgrastim biosimilar generating multi-year annuity cash flows."
+    },
+    {
+      "name": "Cipla",
+      "ticker": "CIPLA",
+      "weight": 7.8,
+      "sector": "Pharmaceuticals",
+      "color": "#006064",
+      "description": "Pioneer of affordable branded generics. Inhalation therapy (Advair equivalents) for US, South Africa, India. Cipla Quality Chemical Industries (Africa) producing ARV drugs for PEPFAR. Strong ANDA pipeline with 30+ pending approvals."
+    },
+    {
+      "name": "Divi's Laboratories",
+      "ticker": "DIVISLAB",
+      "weight": 7.1,
+      "sector": "API / CDMO",
+      "color": "#4E342E",
+      "description": "India's dominant API (Active Pharmaceutical Ingredient) manufacturer. Contract manufacturing for top 10 global pharma cos (confidential). Divi's DSP division for complex chemistry. China+1 strategy accelerates order migration to Indian CDMOs."
+    },
+    {
+      "name": "Max Healthcare",
+      "ticker": "MAXHEALTH",
+      "weight": 5.4,
+      "sector": "Hospital Networks",
+      "color": "#6A1B9A",
+      "description": "North India's premium hospital operator (19 hospitals, 5,000+ beds). Revenue per bed growing due to complex surgeries, oncology and international patients. Saket and Patparganj campuses are tertiary care landmarks in Delhi NCR."
+    }
+  ]
+}

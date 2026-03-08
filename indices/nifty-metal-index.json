@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Metal Index",
+  "slug": "nifty-metal-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tata Steel",
+      "ticker": "TATASTEEL",
+      "weight": 19.1612,
+      "sector": "Steel",
+      "color": "#37474F",
+      "description": "India's largest integrated steel company. Tata Steel Europe (Corus) acquisition expanded global footprint. JhariaCoal mines for captive use. Beneficiary of infrastructure boom and auto sector demand."
+    },
+    {
+      "name": "Hindalco Industries",
+      "ticker": "HINDALCO",
+      "weight": 16.207,
+      "sector": "Aluminium",
+      "color": "#546E7A",
+      "description": "World's largest aluminium rolling company via Novelis (USA/Canada). Domestic copper smelting via Birlacopper. Novelis contributes 60%+ revenues and is the key re-rating driver."
+    },
+    {
+      "name": "JSW Steel",
+      "ticker": "JSWSTEEL",
+      "weight": 13.4753,
+      "sector": "Steel",
+      "color": "#455A64",
+      "description": "India's largest steel producer by capacity (27 MTPA target). Coastal plants enable imported coal advantage. Strong automotive and real estate demand. JSW One digital procurement platform."
+    },
+    {
+      "name": "Vedanta Ltd",
+      "ticker": "VEDL",
+      "weight": 14.2934,
+      "sector": "Diversified Metals",
+      "color": "#5D4037",
+      "description": "Multi-metal conglomerate: zinc (Hindustan Zinc), aluminium, iron ore, copper, oil & gas. High dividend policy. Zinc business is world-class asset."
+    },
+    {
+      "name": "Hindustan Zinc",
+      "ticker": "HINDZINC",
+      "weight": 2.9672,
+      "sector": "Zinc & Silver",
+      "color": "#607D8B",
+      "description": "World's second-largest zinc-lead miner and producer. Rajpura Dariba and Sindesar Khurd mines. Rampura Agucha is one of the world's largest open-pit zinc mines. 65% owned by Vedanta."
+    },
+    {
+      "name": "SAIL (Steel Authority)",
+      "ticker": "SAIL",
+      "weight": 2.5962,
+      "sector": "Steel - PSU",
+      "color": "#78909C",
+      "description": "India's largest PSU steel company. Integrated plants at Bhilai, Rourkela, Bokaro, Durgapur, Burnpur. Government infra orders provide stable demand. Target 50 MTPA capacity by 2030."
+    },
+    {
+      "name": "APL Apollo Tubes",
+      "ticker": "APLAPOLLO",
+      "weight": 4.5678,
+      "sector": "Steel Tubes",
+      "color": "#90A4AE",
+      "description": "India's largest structural steel tubes manufacturer. Branded products command premium pricing. Building materials and infrastructure construction applications. Asset-light distribution model."
+    },
+    {
+      "name": "National Aluminium",
+      "ticker": "NATIONALUM",
+      "weight": 4.1454,
+      "sector": "Aluminium - PSU",
+      "color": "#B0BEC5",
+      "description": "India's only integrated bauxite-alumina-aluminium PSU. Captive power plants and Damanjodi alumina refinery. Low-cost producer with long-term export contracts."
+    },
+    {
+      "name": "Ratnamani Metals",
+      "ticker": "RATNAMANI",
+      "weight": 3.67,
+      "sector": "Pipes & Tubes",
+      "color": "#CFD8DC",
+      "description": "Premium stainless steel and carbon steel pipes for oil & gas, fertilizers, power. High-margin specialty products. Strong order book from refinery and petrochemical capex."
+    },
+    {
+      "name": "Hindustan Copper",
+      "ticker": "HINDCOPPER",
+      "weight": 2.1394,
+      "sector": "Copper - PSU",
+      "color": "#FF7043",
+      "description": "India's only vertically integrated copper producer. Khetri and Malanjkhand mines. Benefits from global copper demand surge driven by electric vehicles and renewable energy transition."
+    }
+  ]
+}

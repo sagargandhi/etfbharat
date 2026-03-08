@@ -1,0 +1,56 @@
+{
+  "indexName": "ICICI Prudential Nifty Financial Services Ex-Bank ETF",
+  "slug": "icici-prudential-nifty-financial-services-ex-bank-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 28.4,
+      "sector": "Banking",
+      "color": "#004C91",
+      "description": "Largest BFSI index constituent. Post-HDFC merger universal bank with India's largest home loan and retail banking franchise. Anchors every financial services index by sheer market cap."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 15.3,
+      "sector": "Banking",
+      "color": "#B71C1C",
+      "description": "2nd largest. Diversified across retail, SME and corporate banking. Insurance subsidiaries (ICICI Prudential Life, ICICI Lombard General) and ICICI Securities add fee income depth."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 8.2,
+      "sector": "Banking",
+      "color": "#E65100",
+      "description": "Ultra-high-quality private bank. Kotak Mahindra AMC (3rd largest), Kotak Life Insurance, Kotak Securities — a fully integrated financial services conglomerate under one brand."
+    },
+    {
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "weight": 7.1,
+      "sector": "Banking",
+      "color": "#1B5E20",
+      "description": "World's 8th largest bank by assets. SBI Cards (credit cards, 200Bn+ receivables), SBI Life ($10B+ AUM) and SBI Mutual Fund subsidiaries create a financial conglomerate. NPA cycle fully resolved."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJAJFIN",
+      "weight": 6.5,
+      "sector": "NBFC",
+      "color": "#FF5722",
+      "description": "India's most valuable NBFC. Consumer lending, EMI finance, gold loans, insurance distribution and co-branded credit cards. 85M+ customers, 4,000+ locations. Technology-first approach — B2C app handles 75%+ of disbursals."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 5.4,
+      "sector": "Banking",
+      "color": "#880E4F",
+      "description": "3rd largest private bank by assets. Citibank India integration adding premium customer base. Axis Max Life (JV) and Axis AMC strengthen wealth management revenue streams."
+    }
+  ]
+}

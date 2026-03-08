@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty Next 50 Index",
+  "slug": "nifty-next-50-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "DLF Limited",
+      "ticker": "DLF",
+      "weight": 1.4241,
+      "sector": "Real Estate",
+      "color": "#880E4F",
+      "description": "India's largest real estate developer. ₹13,000+ Cr pre-sales in FY25 driven by luxury residences. DLF Cyber City (Gurugram) dominates Grade-A office leasing. Net debt largely cleared; entering a high-FCF phase."
+    },
+    {
+      "name": "LIC of India",
+      "ticker": "LICI",
+      "weight": 0.6997,
+      "sector": "Insurance",
+      "color": "#1B5E20",
+      "description": "World's largest insurer by policy count with 300M+ policies. India's largest institutional investor managing ₹45 lakh crore AUM. Benefiting from financialisation of savings — insurance penetration rising from 3.2% to target 5%."
+    },
+    {
+      "name": "Adani Green Energy",
+      "ticker": "ADANIGREEN",
+      "weight": 1.0154,
+      "sector": "Renewable Energy",
+      "color": "#4CAF50",
+      "description": "India's largest renewable energy company. 10 GW+ operational solar and wind capacity. 45 GW pipeline under development. Key beneficiary of India's 500 GW non-fossil target by 2030. Zero-carbon energy at scale."
+    },
+    {
+      "name": "HDFC Life Insurance",
+      "ticker": "HDFCLIFE",
+      "weight": 3.0,
+      "sector": "Insurance",
+      "color": "#37474F",
+      "description": "India's leading private life insurer. Protection + ULIP + annuity product mix. VNB margin 26%+; embedded value growing 15% annually. Direct and bancassurance channels driving consistent APE growth."
+    },
+    {
+      "name": "Shriram Finance",
+      "ticker": "SHRIRAMFIN",
+      "weight": 2.8,
+      "sector": "NBFC",
+      "color": "#E65100",
+      "description": "India's largest retail NBFC focused on used commercial vehicle and tractor loans. 3,000+ branches in semi-urban India. Post-merger of Shriram Transport, Capital and City Union entity. NIM ~8%; very profitable."
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "ticker": "IOC",
+      "weight": 2.4108,
+      "sector": "Oil & Gas",
+      "color": "#BF360C",
+      "description": "India's largest fuel retailer and refiner. 35,000+ petrol pumps, 11 refineries. Expanding LPG, CNG and EV charging network. Strategically positioned at centre of India's energy distribution infrastructure."
+    }
+  ]
+}

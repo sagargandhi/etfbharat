@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Energy Index",
+  "slug": "nifty-energy-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 39.3276,
+      "sector": "Refining & Petrochemicals",
+      "color": "#FF6F00",
+      "description": "World's largest refining complex at Jamnagar (1.4 million barrels/day). O2C (Oil to Chemicals) business generates ₹6 lakh crore+ revenue. Investing ₹75,000 Cr in new energy (40 GW solar, green hydrogen at Dhirubhai Ambani Green Energy Giga Complex)."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 4.501,
+      "sector": "Oil Exploration",
+      "color": "#4CAF50",
+      "description": "India's largest oil and gas exploration company producing 70% of India's crude oil and 62% of natural gas. Government holds 58%. Owns 54% of HPCL. ONGC Videsh has overseas assets in 15+ countries. Dividend yield of 5-6%."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 7.4805,
+      "sector": "Power Generation",
+      "color": "#2196F3",
+      "description": "India's largest power generator — 73 GW operational, 30 GW under construction. Targets 60 GW renewable by 2032 (solar parks, wind, hydro). Government holds 51%. High dividend yield, regulated returns, AAA-rated."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 4.15,
+      "sector": "Coal Mining",
+      "color": "#37474F",
+      "description": "World's largest coal mining company. Produces 700+ MT annually — monopoly in Indian coal sector with 7 subsidiaries. Government holds 63%. Dividend yield of 6-8%. Essential for India's 200 GW thermal power generation base."
+    },
+    {
+      "name": "Power Grid Corp",
+      "ticker": "POWERGRID",
+      "weight": 5.6252,
+      "sector": "Power Transmission",
+      "color": "#607D8B",
+      "description": "India's monopoly inter-state power transmission utility — 70% of India's grid. 175,000+ circuit km of HV lines, 264 substations. Government holds 51%. Regulated 15.5% post-tax returns. Building Green Energy Corridors for 50 GW solar."
+    },
+    {
+      "name": "Indian Oil Corporation",
+      "ticker": "IOC",
+      "weight": 2.6002,
+      "sector": "Oil Refining",
+      "color": "#F44336",
+      "description": "India's largest oil company by revenue — Fortune 500 ranked company. 11 refineries (82 MMTPA combined capacity), 33,000+ IndianOil fuel stations, Indane LPG (10 crore+ households) and SERVO lubricants. Expanding into petrochemicals and green hydrogen."
+    },
+    {
+      "name": "BPCL",
+      "ticker": "BPCL",
+      "weight": 2.8321,
+      "sector": "Oil Refining",
+      "color": "#FF9800",
+      "description": "Bharat Petroleum — integrated oil company. 3 refineries (38 MMTPA), 19,000+ petrol pumps, 6,200 LPG distributors. Government holds 52.98%. Mega Bina refinery expansion underway. Strong petrochemicals growth roadmap."
+    },
+    {
+      "name": "GAIL India",
+      "ticker": "GAIL",
+      "weight": 1.7375,
+      "sector": "Gas Transmission",
+      "color": "#009688",
+      "description": "India's largest natural gas marketing and transmission company. 12,000+ km cross-country pipeline network. City gas distribution via MGL, IGL and others. Beneficiary of India's gas economy push (current 6% of energy mix targeting 15% by 2030)."
+    },
+    {
+      "name": "Adani Green Energy",
+      "ticker": "ADANIGREEN",
+      "weight": 1.0951,
+      "sector": "Renewable Energy",
+      "color": "#8BC34A",
+      "description": "India's largest renewable energy company with 10+ GW operational solar and wind capacity. Targeting 50 GW by 2030 as part of Adani Green's ambitious clean energy expansion. Secured India's largest single solar power order from SECI."
+    },
+    {
+      "name": "Torrent Power",
+      "ticker": "TORNTPOWER",
+      "weight": 1.1711,
+      "sector": "Power Distribution",
+      "color": "#26C6DA",
+      "description": "Gujarat-based integrated power utility. Generation (4 GW+ gas, solar), transmission and distribution in Ahmedabad, Surat, Gandhinagar and Agra. One of India's most profitable private power distribution licensees. Strong renewable capacity addition track."
+    }
+  ]
+}

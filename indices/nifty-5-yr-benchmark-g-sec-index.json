@@ -1,0 +1,48 @@
+{
+  "indexName": "Nifty 5 yr Benchmark G-Sec Index",
+  "slug": "nifty-5-yr-benchmark-g-sec-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "7.37% GOI 2028",
+      "ticker": "GOI2028-737",
+      "weight": 28.5,
+      "sector": "Sovereign Bond",
+      "color": "#1565C0",
+      "description": "Government of India bond maturing in 2028 with 7.37% semi-annual coupon. Benchmark 5-year security. Issued via RBI auctions; eligible as SLR security. Modified duration ~3.8 years; lower interest-rate sensitivity than long bonds."
+    },
+    {
+      "name": "7.17% GOI 2028",
+      "ticker": "GOI2028-717",
+      "weight": 22.0,
+      "sector": "Sovereign Bond",
+      "color": "#1976D2",
+      "description": "5-year GOI benchmark security with 7.17% coupon. Issued to finance fiscal deficit. Zero default risk; repayment guaranteed by Government of India."
+    },
+    {
+      "name": "7.26% GOI 2029",
+      "ticker": "GOI2029-726",
+      "weight": 19.5,
+      "sector": "Sovereign Bond",
+      "color": "#1E88E5",
+      "description": "GOI bond maturing 2029. Part of standard G-Sec issuance calendar for medium-duration sovereign exposure. Actively traded on NDS-OM."
+    },
+    {
+      "name": "6.79% GOI 2027",
+      "ticker": "GOI2027-679",
+      "weight": 16.0,
+      "sector": "Sovereign Bond",
+      "color": "#42A5F5",
+      "description": "3-year residual maturity GOI bond. Lower coupon reflects issuance period of lower rates. Duration ~2.5 years, lower interest rate risk."
+    },
+    {
+      "name": "7.06% GOI 2028",
+      "ticker": "GOI2028-706",
+      "weight": 14.0,
+      "sector": "Sovereign Bond",
+      "color": "#64B5F6",
+      "description": "Medium-term GOI security. All G-Secs are backed by full faith and credit of the Union of India and RBI guarantees payment on due dates."
+    }
+  ]
+}

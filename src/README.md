@@ -1,36 +1,106 @@
-Project Build
+# ETFBharat — Developer Guide
 
-Run Node.js build script to generate `index.html` from `input.html`:
+## Build index.html
 
 ```powershell
 cd c:\Git-Repo\static-proj\etfbharat
-npm run build
+node src/build.js            # production (minified)
+node src/build.js --dev      # dev (readable)
 ```
 
-Or use the build.js script directly:
+Copies `src/input.html` → `index.html`.
+
+---
+
+## Data Architecture
+
+Holdings weights are stored **once per index**, not once per ETF.
+
+```
+indices/
+  nifty-50.json           ← canonical weights for Nifty 50
+  nifty-bank.json         ← canonical weights for Nifty Bank
+  domestic-gold-price.json
+  …  (236 index files total)
+
+etf/
+  large-cap.json          ← ETF metadata + indexKey (no inline holdings)
+  sectoral---banking.json
+  …
+
+json/
+  etf-config.json         ← built by normalize_data.py (do not hand-edit)
+  etf-prices.json         ← built by update_etf_prices.py (do not hand-edit)
+  companies.json          ← built by normalize_data.py (do not hand-edit)
+```
+
+Each `etf/*.json` entry references an index file via `indexKey`:
+
+```json
+{
+  "nseSymbol": "NIFTYBEES",
+  "indexKey": "nifty-50",
+  "index": { "name": "Nifty 50", ... }
+}
+```
+
+All 13 ETFs that track Nifty 50 share a single `indices/nifty-50.json`.
+Update that file and all ETFs pick up new weights on the next
+`normalize_data.py` run.
+
+---
+
+## Scheduled Update Workflow
+
+### Step 1 — Refresh index constituent weights (NSE)
 
 ```powershell
-node src/build.js
+python src/update_index_weights.py
+# or update specific indices only:
+python src/update_index_weights.py nifty-50 nifty-bank nifty-it-index
 ```
 
-What it does:
-- Copies `input.html` to `index.html` (with optional minification for production).
+- Reads `NSE_INDEX_MAP` in the script (slug → NSE query string).
+- Fetches free-float market cap from NSE `/api/equity-stockIndices`.
+- Calculates `weight = ffmc / sum(ffmc) * 100`.
+- Commodity / debt / international indices are skipped (mapped to `None`).
 
-ETF data files (`etf/`, `etf-config.json`, `etf-prices.json`) live **only in the project root** and are used directly by `index.html` — no copying needed.
+### Step 2 — Rebuild etf-config.json
 
-## Update ETF Prices Automatically
+```powershell
+python src/normalize_data.py
+```
 
-The Python script `update_etf_prices.py` queries NSE free APIs to fetch:
-- **NAV** (closing price) from `/api/etf`
-- **Outstanding Units** from `/api/quote-equity` 
-- **AUM** = outstanding units × NAV (with ffmc fallback)
+- Loads all `indices/*.json` files.
+- Resolves `indexKey` → holdings for each ETF.
+- Writes `etf-config.json` and `companies.json`.
+- Fixes encoding in all `etf/*.json` and `indices/*.json`.
 
-Run it after 4 PM IST on any trading day (from any directory):
+### Step 3 — Refresh ETF prices / AUM
 
 ```powershell
 python src/update_etf_prices.py
 ```
 
-This will update `etf-prices.json` in the project root with the latest NAV and AUM for each ETF.
+Updates `etf-prices.json` with NAV and AUM. Run after 4 PM IST on any trading day.
 
-Note: The script loads ETF metadata from individual sector JSON files in the root `etf/` folder via `etf-config.json`.
+---
+
+## One-Time Migration (already done)
+
+`src/extract_indices.py` was the one-time script that:
+1. Extracted holdings from each `etf/*.json` → created `indices/{slug}.json`.
+2. Replaced inline `holdings` arrays in `etf/*.json` with `indexKey` strings.
+
+Do **not** re-run it unless intentionally resetting (use `--force` flag).
+
+---
+
+## Adding a New Index to Auto-Update
+
+1. Open `src/update_index_weights.py`.
+2. Add an entry to `NSE_INDEX_MAP`:
+   ```python
+   "my-new-index-slug": "NIFTY SOME INDEX",
+   ```
+3. Test: `python src/update_index_weights.py my-new-index-slug`

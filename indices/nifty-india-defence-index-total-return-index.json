@@ -1,0 +1,64 @@
+{
+  "indexName": "Nifty India Defence Index- Total Return Index",
+  "slug": "nifty-india-defence-index-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Hindustan Aeronautics (HAL)",
+      "ticker": "HAL",
+      "weight": 22.4,
+      "sector": "Aerospace & Defence",
+      "color": "#1B5E20",
+      "description": "India's premier aircraft manufacturer — produces Tejas, Dhruv helicopter, Advanced Light Helicopter and Su-30MKI wings. ₹94,000 Cr order book (8-year revenue visibility). AMCA (Advanced Medium Combat Aircraft) and TEDBF (carrier fighter) in development. Navratna PSU with MRO and engine manufacturing expansion."
+    },
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 18.6,
+      "sector": "Defence Manufacturing",
+      "color": "#FF5722",
+      "description": "India's largest defence private sector player. K9 Vajra howitzers (200+ delivered to Army), Shakti next-gen missile boat warships (Navy), VSHORADS MANPADS (Air Force). Kaveri Marine engine project. L&T Defence subsidiary targeting ₹30,000 Cr revenues."
+    },
+    {
+      "name": "Bharat Electronics (BEL)",
+      "ticker": "BEL",
+      "weight": 14.8,
+      "sector": "Electronics & Radar",
+      "color": "#0D47A1",
+      "description": "India's premier defence electronics PSU. Central Acquisition Radar, BEL-LRDE radar systems, Battle Management Systems, Electronic Warfare (Shakti jammer). ₹68,000 Cr order book includes MRASHM (anti-ship) and Astra Beyond-Visual-Range missile electronics."
+    },
+    {
+      "name": "Bharat Dynamics (BDL)",
+      "ticker": "BDL",
+      "weight": 9.2,
+      "sector": "Missiles",
+      "color": "#37474F",
+      "description": "India's sole guided missile manufacturer for all three services. Akash SAM, Konkurs ATGM, Varunastra torpedo, Helina helicopter-launched missile. QRSAM (Quick Reaction SAM) and MRSAM naval variant production ramping. Export orders from Southeast Asia."
+    },
+    {
+      "name": "Cochin Shipyard",
+      "ticker": "COCHINSHIP",
+      "weight": 7.5,
+      "sector": "Shipbuilding",
+      "color": "#1565C0",
+      "description": "India's largest shipbuilder by tonnage. INS Vikrant (first indigenous aircraft carrier) delivered. Next generation destroyers (P-17B) under construction for Navy. Commercial shipbuilding for international LNG carriers, dredgers. Green ship (LNG, hydrogen) technology future focus."
+    },
+    {
+      "name": "Data Patterns (India)",
+      "ticker": "DATAPATTNS",
+      "weight": 6.1,
+      "sector": "Defence Electronics",
+      "color": "#4527A0",
+      "description": "Listed defence electronics MSME — radars, missile seekers, electronic warfare kits, avionics. Tier-1 supplier to HAL, DRDO, BEL, ISRO. Every Tejas fighter carries Data Patterns avionics components. ASH radar for UAVs, Leonardo radar countermeasures."
+    },
+    {
+      "name": "MTAR Technologies",
+      "ticker": "MTARTECH",
+      "weight": 4.8,
+      "sector": "Precision Engineering",
+      "color": "#BF360C",
+      "description": "Critical precision components for nuclear, space and defence — ball screws, roller screws, actuators. ISRO's primary supplier for PSLV/GSLV/LVM3 launch vehiclecomponents. NASA/SpaceX supply chain entry. Agni-V ICBM actuators system sole supplier."
+    }
+  ]
+}

@@ -15,16 +15,7 @@
             "companies": 1,
             "description": "Government of India Securities (G-Secs) represent pure sovereign credit — zero default risk. The 10-year benchmark G-Sec is RBI's primary policy transmission instrument. In June 2024, India's 10-year G-Sec inclusion in JP Morgan GBI-EM (Global Bond Index) triggered ~$25 billion passive foreign inflows, creating structural demand. Investors benefit from dual returns: (1) coupon income (7-8% annualized), (2) capital appreciation when RBI cuts rates (inverse relationship: rate ↓ → price ↑). Ideal for retirees seeking stable income, long-term wealth preservation, and tax efficiency (indexation benefit on long-term gains). G-Secs suitable for laddering strategy where 5-year, 10-year and 20-year bonds provide staggered maturity. RBI Open Market Operations use benchmark G-Secs as primary instrument, making them most liquid debt securities globally. During Fed rate hike cycles, G-Secs suffer from capital losses (rate ↑ → price ↓), but during easing cycles (post-2025 expected), substantial capital gains likely."
         },
-        "holdings": [
-            {
-                "name": "GoI 7.10% 2034",
-                "ticker": "IN0020240037",
-                "weight": 100.0,
-                "sector": "Central Government Bond",
-                "color": "#E65100",
-                "description": "Current on-the-run 10-year Government of India Security. Coupon 7.10%, maturing 2034. Included in JP Morgan GBI-EM Global Diversified index since June 2024 — triggers ~$25 billion in passive foreign inflows. RBI Open Market Operations use this as primary instrument. Zero credit risk, backed by sovereign guarantee."
-            }
-        ]
+        "indexKey": "nifty-10yr-benchmark-g-sec-index"
     },
     {
         "id": "niftygilt5yr",
@@ -42,16 +33,7 @@
             "companies": 1,
             "description": "Tracks the on-the-run 5-year Government of India Security. Shorter duration than the 10yr ETF — less interest rate sensitivity. Suitable for investors wanting sovereign safety with moderate duration. Yield slightly below 10yr providing the normal upward-sloping yield curve exposure."
         },
-        "holdings": [
-            {
-                "name": "GoI 7.02% 2029",
-                "ticker": "IN0020230019",
-                "weight": 100.0,
-                "sector": "Central Government Bond",
-                "color": "#F57F17",
-                "description": "Current on-the-run 5-year Government of India Security. Coupon 7.02%, maturing 2029. Shorter duration means less price volatility for same change in yield. Preferred by conservative investors wanting G-Sec exposure without duration risk. Actively traded on NDS-OM platform by banks and PDs."
-            }
-        ]
+        "indexKey": "nifty-5yr-benchmark-g-sec-index"
     },
     {
         "id": "ltgiltbees",
@@ -69,48 +51,7 @@
             "companies": 0,
             "description": "Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt tracks the NIFTY 8-13 yr G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "nifty-8-13-yr-g-sec-index"
     },
     {
         "id": "gilt5ybees",
@@ -128,48 +69,7 @@
             "companies": 0,
             "description": "NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC tracks the Nifty 5 yr Benchmark G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.37% GOI 2028",
-                "ticker": "GOI2028-737",
-                "weight": 28.5,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Government of India bond maturing in 2028 with 7.37% semi-annual coupon. Benchmark 5-year security. Issued via RBI auctions; eligible as SLR security. Modified duration ~3.8 years; lower interest-rate sensitivity than long bonds."
-            },
-            {
-                "name": "7.17% GOI 2028",
-                "ticker": "GOI2028-717",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "5-year GOI benchmark security with 7.17% coupon. Issued to finance fiscal deficit. Zero default risk; repayment guaranteed by Government of India."
-            },
-            {
-                "name": "7.26% GOI 2029",
-                "ticker": "GOI2029-726",
-                "weight": 19.5,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "GOI bond maturing 2029. Part of standard G-Sec issuance calendar for medium-duration sovereign exposure. Actively traded on NDS-OM."
-            },
-            {
-                "name": "6.79% GOI 2027",
-                "ticker": "GOI2027-679",
-                "weight": 16.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "3-year residual maturity GOI bond. Lower coupon reflects issuance period of lower rates. Duration ~2.5 years, lower interest rate risk."
-            },
-            {
-                "name": "7.06% GOI 2028",
-                "ticker": "GOI2028-706",
-                "weight": 14.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "Medium-term GOI security. All G-Secs are backed by full faith and credit of the Union of India and RBI guarantees payment on due dates."
-            }
-        ]
+        "indexKey": "nifty-5-yr-benchmark-g-sec-index"
     },
     {
         "id": "setf10gilt",
@@ -187,48 +87,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund - SBI-ETF 10 YEAR GILT  tracks the Nifty 10 yr Benchmark G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "nifty-10-yr-benchmark-g-sec-index"
     },
     {
         "id": "ltgiltcase",
@@ -246,48 +105,7 @@
             "companies": 0,
             "description": "Zerodha Fund House - Zerodha Nifty 8-13 Yr G-Sec ETF tracks the Nifty 8-13 Yr G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "nifty-8-13-yr-g-sec-index"
     },
     {
         "id": "licnetfgsc",
@@ -305,48 +123,7 @@
             "companies": 0,
             "description": "LIC MF - LIC MF G-sec LT ETF - GO tracks the GSEC10 NSE Index index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "gsec10-nse-index"
     },
     {
         "id": "mogsec",
@@ -364,48 +141,7 @@
             "companies": 0,
             "description": "Motilal Oswal Mutual Fund - Motilal Oswal 5 Year G Sec ETF - Growth tracks the Nifty 5 yr Benchmark G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "nifty-5-yr-benchmark-g-sec-index"
     },
     {
         "id": "gsec5ietf",
@@ -423,48 +159,7 @@
             "companies": 0,
             "description": "ICICI Prudential Nifty 5 Yr Benchmark G-SEC ETF tracks the Nifty 5 yr Benchmark G-Sec Index index."
         },
-        "holdings": [
-            {
-                "name": "7.37% GOI 2028",
-                "ticker": "GOI2028-737",
-                "weight": 28.5,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Government of India bond maturing in 2028 with 7.37% semi-annual coupon. Benchmark 5-year security. Issued via RBI auctions; eligible as SLR security. Modified duration ~3.8 years; lower interest-rate sensitivity than long bonds."
-            },
-            {
-                "name": "7.17% GOI 2028",
-                "ticker": "GOI2028-717",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "5-year GOI benchmark security with 7.17% coupon. Issued to finance fiscal deficit. Zero default risk; repayment guaranteed by Government of India."
-            },
-            {
-                "name": "7.26% GOI 2029",
-                "ticker": "GOI2029-726",
-                "weight": 19.5,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "GOI bond maturing 2029. Part of standard G-Sec issuance calendar for medium-duration sovereign exposure. Actively traded on NDS-OM."
-            },
-            {
-                "name": "6.79% GOI 2027",
-                "ticker": "GOI2027-679",
-                "weight": 16.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "3-year residual maturity GOI bond. Lower coupon reflects issuance period of lower rates. Duration ~2.5 years, lower interest rate risk."
-            },
-            {
-                "name": "7.06% GOI 2028",
-                "ticker": "GOI2028-706",
-                "weight": 14.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "Medium-term GOI security. All G-Secs are backed by full faith and credit of the Union of India and RBI guarantees payment on due dates."
-            }
-        ]
+        "indexKey": "nifty-5-yr-benchmark-g-sec-index"
     },
     {
         "id": "gilt10beta",
@@ -482,48 +177,7 @@
             "companies": 0,
             "description": "UTI Mutual Fund - UTI Nifty 10 yr Benchmark G-Sec ETF tracks the UTI Nifty 10 yr Benchmark G-Sec ETF index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "uti-nifty-10-yr-benchmark-g-sec-etf"
     },
     {
         "id": "abgsec",
@@ -541,48 +195,7 @@
             "companies": 0,
             "description": "AdityaBirlaSunLifeMF-Aditya Birla Sun Life CRISIL Broad Based Gilt ETF tracks the Aditya Birla Sun Life CRISIL Broad Based Gilt ETF index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "aditya-birla-sun-life-crisil-broad-based-gilt-etf"
     },
     {
         "id": "gsec10year",
@@ -600,48 +213,7 @@
             "companies": 0,
             "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty 8-13 yr G-Sec ETF tracks the Mirae Asset Nifty 8-13 yr G-Sec ETF index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "mirae-asset-nifty-8-13-yr-g-sec-etf"
     },
     {
         "id": "gsec10absl",
@@ -659,47 +231,6 @@
             "companies": 0,
             "description": "AdityaBirlaSunLifeMF - Aditya Birla Sun Life CRISIL 10 Year Gilt ETF tracks the CRISIL 10 Year Gilt ETF index."
         },
-        "holdings": [
-            {
-                "name": "7.26% GOI 2033",
-                "ticker": "GOI2033-726",
-                "weight": 30.0,
-                "sector": "Sovereign Bond",
-                "color": "#1565C0",
-                "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
-            },
-            {
-                "name": "7.18% GOI 2033",
-                "ticker": "GOI2033-718",
-                "weight": 22.0,
-                "sector": "Sovereign Bond",
-                "color": "#1976D2",
-                "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
-            },
-            {
-                "name": "7.40% GOI 2035",
-                "ticker": "GOI2035-740",
-                "weight": 18.0,
-                "sector": "Sovereign Bond",
-                "color": "#1E88E5",
-                "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
-            },
-            {
-                "name": "6.54% GOI 2032",
-                "ticker": "GOI2032-654",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#42A5F5",
-                "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
-            },
-            {
-                "name": "7.30% GOI 2053",
-                "ticker": "GOI2053-730",
-                "weight": 15.0,
-                "sector": "Sovereign Bond",
-                "color": "#64B5F6",
-                "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
-            }
-        ]
+        "indexKey": "crisil-10-year-gilt-etf"
     }
 ]

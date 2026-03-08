@@ -1,0 +1,64 @@
+{
+  "indexName": "Nifty Auto TRI",
+  "slug": "nifty-auto-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Maruti Suzuki India",
+      "ticker": "MARUTI",
+      "weight": 22.1,
+      "sector": "Automobiles",
+      "color": "#E65100",
+      "description": "India's dominant passenger vehicle maker with 40%+ market share. Produces 2M+ cars annually from Gurugram and Manesar plants. Hybrid/CNG-first strategy ahead of EV transition. Sub-₹10 lakh segment dominance through Alto, Swift, Baleno, Brezza, and Ertiga."
+    },
+    {
+      "name": "Mahindra & Mahindra",
+      "ticker": "M&M",
+      "weight": 19.8,
+      "sector": "Automobiles",
+      "color": "#4E342E",
+      "description": "India's SUV market leader. Scorpio, XUV700, Thar — all oversubscribed. Farm equipment market leader (35%+ share). EV brand (BE 6e, XEV 9e) targets ₹15-25 lakh SUV segment. Tractor business provides counter-cyclical buffer."
+    },
+    {
+      "name": "Tata Motors",
+      "ticker": "TATAMOTORS",
+      "weight": 14.6,
+      "sector": "Automobiles",
+      "color": "#0D47A1",
+      "description": "India's largest commercial vehicle maker and EV leader. Nexon EV is India's best-selling EV. Jaguar Land Rover (JLR) contributes 70%+ of consolidated profit — Range Rover, Defender demand remains strong globally."
+    },
+    {
+      "name": "Bajaj Auto",
+      "ticker": "BAJAJ-AUTO",
+      "weight": 13.5,
+      "sector": "Automobiles",
+      "color": "#BF360C",
+      "description": "World's largest 3-wheeler exporter and India's 2nd largest 2-wheeler company. Export presence in 70+ countries. Chetak EV 2-wheeler growing share. CNG with Triumph (UK brand) mid-segment motorcycles hitting new price points."
+    },
+    {
+      "name": "Hero MotoCorp",
+      "ticker": "HEROMOTOCO",
+      "weight": 8.9,
+      "sector": "Automobiles",
+      "color": "#1B5E20",
+      "description": "World's largest 2-wheeler maker by volume with 50M+ cumulative units sold. Dominant in entry-level commuter bikes (Splendor, HF Deluxe). Rural India recovery and rural road expansion direct tailwinds. Launching premium motorcycles and EVs via Vida brand."
+    },
+    {
+      "name": "Eicher Motors",
+      "ticker": "EICHERMOT",
+      "weight": 8.4,
+      "sector": "Automobiles",
+      "color": "#5D4037",
+      "description": "Royal Enfield owner — India's largest mid-size motorcycle company and fastest-growing global premium 2-wheeler brand. Hunter 350, Meteor, Himalayan and Classic 350 models dominate 200-500cc segment. VE Commercial Vehicles (trucks with Volvo JV) adds diversification."
+    },
+    {
+      "name": "TVS Motor Company",
+      "ticker": "TVSMOTOR",
+      "weight": 7.3,
+      "sector": "Automobiles",
+      "color": "#006064",
+      "description": "India's 3rd largest 2-wheeler maker. iQube EV is India's 2nd best-selling EV scooter. Apache motorcycle series competing with premium Bajaj. BMW JV (G310 series) builds export credibility. Strong Southeast Asia presence via Norton acquisition."
+    }
+  ]
+}

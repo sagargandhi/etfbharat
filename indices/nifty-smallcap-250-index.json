@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty SmallCap 250 Index",
+  "slug": "nifty-smallcap-250-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Karur Vysya Bank",
+      "ticker": "KARURVYSYA",
+      "weight": 1.591,
+      "sector": "Banking",
+      "color": "#33691E",
+      "description": "Tamil Nadu-based private bank with strong South India presence. Vehicle finance, SME, and retail loans. Consistent dividend payer with improving asset quality and expanding digital banking."
+    },
+    {
+      "name": "KPR Mill",
+      "ticker": "KPRMILL",
+      "weight": 0.98,
+      "sector": "Textiles",
+      "color": "#558B2F",
+      "description": "Vertically integrated textile company. Yarn, fabric, garments (FASO brand). Captive power via wind and solar. Ethanol plant from damaged sugarcane. One of the most efficient textile exporters."
+    },
+    {
+      "name": "Galaxy Surfactants",
+      "ticker": "GALAXYSURF",
+      "weight": 0.87,
+      "sector": "Specialty Chemicals",
+      "color": "#689F38",
+      "description": "Specialty surfactants and performance chemicals for FMCG companies globally. Key supplier to HUL, Nestle, P&G. Export revenues >55%. Fatty acid derivatives command premium margins."
+    },
+    {
+      "name": "Blue Star Ltd",
+      "ticker": "BLUESTARCO",
+      "weight": 0.85,
+      "sector": "Consumer Durables",
+      "color": "#7CB342",
+      "description": "India's second-largest air conditioner brand after Voltas. Commercial refrigeration and HVAC systems for IT parks, malls, and hospitals. Strong after-sales service network."
+    },
+    {
+      "name": "Chalet Hotels",
+      "ticker": "CHALET",
+      "weight": 0.2939,
+      "sector": "Hospitality",
+      "color": "#8BC34A",
+      "description": "Upscale hotel developer and operator. Properties co-located with commercial offices in Bengaluru, Mumbai, Hyderabad. Marriott franchised properties. Asset-light management contracts added post-COVID."
+    },
+    {
+      "name": "CAMS (CAMS Services)",
+      "ticker": "CAMSSEBI",
+      "weight": 0.74,
+      "sector": "Financial Services",
+      "color": "#9CCC65",
+      "description": "Computer Age Management Services — India's largest mutual fund RTA with 68% market share. Processes 70% of all MF transactions. Insurance repository and KYC businesses diversify revenue."
+    },
+    {
+      "name": "Sudarshan Chemical",
+      "ticker": "SUDARSCHEM",
+      "weight": 0.67,
+      "sector": "Specialty Chemicals",
+      "color": "#AED581",
+      "description": "India's largest pigment manufacturer. Exports to over 80 countries. High-performance pigments for automotive coatings, printing inks, and plastics. R&D investments for effect pigments growing."
+    },
+    {
+      "name": "Birlasoft",
+      "ticker": "BSOFT",
+      "weight": 0.3331,
+      "sector": "IT Services",
+      "color": "#C5E1A5",
+      "description": "Mid-size IT services company spun out of KPIT after merger. ERP (SAP, Oracle), cloud, and digital transformation for manufacturing, BFSI, and life sciences verticals globally."
+    },
+    {
+      "name": "Mtar Technologies",
+      "ticker": "MTARTECH",
+      "weight": 0.62,
+      "sector": "Defence & Space",
+      "color": "#DCEDC8",
+      "description": "Precision manufacturing for nuclear, space, and defence sectors. ISRO and DRDO supplier. Fuel cells for defence UAVs. Clean energy components for proton exchange membrane fuel cells."
+    },
+    {
+      "name": "Shyam Metalics",
+      "ticker": "SHYAMMETL",
+      "weight": 0.2991,
+      "sector": "Metals",
+      "color": "#F1F8E9",
+      "description": "Integrated metals company: sponge iron, billets, wire rods, ferro alloys. Captive power plants lower opex. Eastern India concentration with proximity to coal and iron ore mines in Jharkhand."
+    }
+  ]
+}

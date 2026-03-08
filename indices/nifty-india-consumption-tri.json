@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty India Consumption TRI",
+  "slug": "nifty-india-consumption-tri",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Hindustan Unilever",
+      "ticker": "HINDUNILVR",
+      "weight": 14.2,
+      "sector": "FMCG",
+      "color": "#00897B",
+      "description": "India's largest FMCG company. Dove, Surf Excel, Rin, Axe, Lifebuoy, Lakme — 50+ household brands. 4M retail touchpoints, 600M+ consumers reached. Premiumisation (Beauty & Wellbeing) driving margin expansion in urban markets."
+    },
+    {
+      "name": "ITC Limited",
+      "ticker": "ITC",
+      "weight": 11.8,
+      "sector": "FMCG / Tobacco / Hotels",
+      "color": "#4E342E",
+      "description": "India's most diversified consumer company. Cigarettes (monopoly, 80%+ share), Aashirvaad Atta, Yippee Noodles, Sunfeast biscuits, Savlon hygiene. Hotels (ITC Grand, Sheraton) and IT subsidiary (ITC Infotech) add diversification. Demerger of hotels value-unlock expected."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 9.4,
+      "sector": "Jewellery / Watches",
+      "color": "#FF8F00",
+      "description": "Tanishq (India's most trusted jewellery brand), Titan watches, Fastrack accessories, ALDO, CaratLane (e-jewellery). ₹50,000+ Cr jewellery revenue growing 20%+. Lab-grown diamond category expansion. Premiumisation across India's wedding and gifting occasions."
+    },
+    {
+      "name": "Trent Limited",
+      "ticker": "TRENT",
+      "weight": 8.2,
+      "sector": "Retail Apparel",
+      "color": "#1A237E",
+      "description": "Zudio (India's fastest growing apparel brand, ₹499 jeans) and Westside premium stores. 600+ Zudio stores, targeting 2,000+. ABFRL competition intensifying but Trent's cost model, private label focus and Tata brand trust create durable advantage."
+    },
+    {
+      "name": "Avenue Supermarts (D-Mart)",
+      "ticker": "DMART",
+      "weight": 7.3,
+      "sector": "Retail / Grocery",
+      "color": "#BF360C",
+      "description": "India's most profitable retailer per sq ft. 350+ warehouse-style stores in 15 states. EDLP (Everyday Low Price) model relies on owned stores (no rent) and direct-from-manufacturer buying. D-Mart Ready (online) scaling selectively in Mumbai."
+    },
+    {
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "weight": 6.8,
+      "sector": "FMCG - Food & Beverage",
+      "color": "#E53935",
+      "description": "Maggi, KitKat, Munch, Nescafe, Milkmaid — 60+ year legacy in Indian households. Premium nutrition (NAN infant formula, Milo) growing fast. Category development leader. A global premium allocates 3-4% of Indian sales back to R&D localisation."
+    }
+  ]
+}

@@ -15,55 +15,6 @@
             "companies": 100,
             "description": "Nifty100 ESG Sector Leaders Index selects top ESG-scoring companies from Nifty 100. ESG screens assess: Environmental (GHG emissions, water usage, waste), Social (labour practices, supply chain, community) and Governance (board independence, audit quality, shareholder rights). Companies with serious ESG controversies are excluded. Research shows ESG-screened portfolios show lower downside volatility and better long-term risk-adjusted returns. India's ESG reporting requirements (BRSR framework under SEBI) are strengthening data quality across listed companies."
         },
-        "holdings": [
-            {
-                "name": "HDFC Bank",
-                "ticker": "HDFCBANK",
-                "weight": 14.2,
-                "sector": "Banking",
-                "color": "#004C91",
-                "description": "Highest ESG score among Indian private banks. Consistently rated 'AA' by MSCI ESG Research. Strong governance — independent board majority, no promoter concentration risk. GHG emissions from banking operations declining. Green bond issuances financing renewable energy projects."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 10.8,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "Carbon neutral since 2020 — Infosys achieved net-zero GHG across Scope 1+2 before most Indian peers. 100% renewable electricity in India operations (rooftop solar, wind). Infosys ESG Vision 2030: water neutrality, zero-waste to landfill. DJSI ranked 99th percentile in IT Services."
-            },
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 9.6,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "TCS' ESG credentials: carbon net-zero by 2030 commitment backed by Science Based Targets initiative (SBTi). 100% paper-free operations in key offices. Diversity: 35%+ women workforce. Community empowerment: BridgeIT digital literacy (5M+ students trained)."
-            },
-            {
-                "name": "Asian Paints",
-                "ticker": "ASIANPAINT",
-                "weight": 6.2,
-                "sector": "Paints",
-                "color": "#FF7043",
-                "description": "ESG leader in manufacturing. 73% renewable energy in manufacturing. Zero liquid discharge plants. Water-based (VOC-free) paints gaining share vs solvent-based. MSCI ESG 'BBB' rated. Supply chain traceability from raw material to end consumer."
-            },
-            {
-                "name": "Wipro",
-                "ticker": "WIPRO",
-                "weight": 5.8,
-                "sector": "IT Services",
-                "color": "#37474F",
-                "description": "100% renewable electricity commitment. Wipro Earthian programme — sustainability education across 4,000+ schools. Water-positive operations (recover more water than consumed). EcoEnergy savings ₹100+ Cr annually. CDP Climate 'A-' rated."
-            },
-            {
-                "name": "Hindustan Unilever",
-                "ticker": "HINDUNILVR",
-                "weight": 5.4,
-                "sector": "FMCG",
-                "color": "#00897B",
-                "description": "Part of Unilever global Sustainable Living Plan. 100% plastic recyclability target by 2025. Water saved in production: 300Mn litres. Women empowerment (Shakti Program): 200,000+ rural women entrepreneurs. Greenhouse gas halved in manufacturing vs 2010 baseline."
-            }
-        ]
+        "indexKey": "nifty100-esg-sector-leaders"
     }
 ]

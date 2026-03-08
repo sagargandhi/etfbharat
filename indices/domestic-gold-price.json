@@ -1,0 +1,32 @@
+{
+  "indexName": "Domestic Gold Price",
+  "slug": "domestic-gold-price",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Physical Gold (99.5%)",
+      "ticker": "GOLD",
+      "weight": 98.5,
+      "sector": "Commodity",
+      "color": "#FFB300",
+      "description": "Investment-grade 99.5% purity gold (London Precious Metals Association certified) stored in bank-operated secure vaults with advanced surveillance (CCTV + motion sensors), 24-hour armed security, and trespass alert systems. HSBC and SBI custodial arrangements provide AAA sovereign credit quality. Each ETF unit = ~1 gram of granulated gold (granules enable rapid buy/sell mechanisms). SEBI mandates independent annual purity audits by NSDL/CDSL. Full insurance coverage against theft, fire, weather events. Completely eliminates counterparty risk — holdings segregated and ring-fenced, protected separately even if custodian becomes insolvent (per Section 139 of Bharatiya Reserve Bank Act). Zero impurity risk that exists with physical jewellery ownership."
+    },
+    {
+      "name": "Cash & Liquid Instruments",
+      "ticker": "CASH",
+      "weight": 1.0,
+      "sector": "Liquid Assets",
+      "color": "#78909C",
+      "description": "Short-term T-bills and overnight instruments held for liquidity management and redemption purposes. Maintained at minimum levels to maximize gold price exposure for investors."
+    },
+    {
+      "name": "Sovereign Gold Bonds (SGB)",
+      "ticker": "SGB",
+      "weight": 0.5,
+      "sector": "Govt Securities",
+      "color": "#4CAF50",
+      "description": "Government of India bonds backed by gold, issued by RBI with 2.5% annual interest and sovereign guarantee. Permitted as a substitute for physical gold up to 10% of the scheme. Matures at prevailing gold price."
+    }
+  ]
+}

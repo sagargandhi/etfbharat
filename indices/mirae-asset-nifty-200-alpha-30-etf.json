@@ -1,0 +1,88 @@
+{
+  "indexName": "Mirae Asset Nifty 200 Alpha 30 ETF",
+  "slug": "mirae-asset-nifty-200-alpha-30-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Zomato",
+      "ticker": "ZOMATO",
+      "weight": 7.23,
+      "sector": "Food Tech",
+      "color": "#E91E63",
+      "description": "Highest alpha generator among Nifty 200. Blinkit disruption and margin improvement driving excess returns above benchmark."
+    },
+    {
+      "name": "Trent Ltd",
+      "ticker": "TRENT",
+      "weight": 6.89,
+      "sector": "Retail",
+      "color": "#7B1FA2",
+      "description": "Alpha from Zudio expansion outpacing FMCG and retail sector peers by 3-4x. Consecutive earnings beats vs consensus estimates."
+    },
+    {
+      "name": "BSE Ltd",
+      "ticker": "BSE",
+      "weight": 6.45,
+      "sector": "Capital Markets",
+      "color": "#F57F17",
+      "description": "Capital markets alpha play. Derivatives volume and GIFT City exchanges creating earnings surprise vs sell-side estimates."
+    },
+    {
+      "name": "Kaynes Technology",
+      "ticker": "KAYNES",
+      "weight": 5.98,
+      "sector": "Electronics",
+      "color": "#4A148C",
+      "description": "Electronics manufacturing services with aerospace and defence contracts. Revenue compounding at 50%+ CAGR. Highest alpha in EMS segment."
+    },
+    {
+      "name": "Cochin Shipyard",
+      "ticker": "COCHINSHIP",
+      "weight": 5.56,
+      "sector": "Defence Shipbuilding",
+      "color": "#1A237E",
+      "description": "Naval GDP beneficiary. INS Vikrant domestic aircraft carrier. Massive order backlog generating alpha vs PSU peers."
+    },
+    {
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "weight": 5.12,
+      "sector": "Beverages",
+      "color": "#388E3C",
+      "description": "PepsiCo bottler growing faster than parent. International franchise expansion (Africa, Nepal) generating excess returns vs consumer staples index."
+    },
+    {
+      "name": "PB Fintech",
+      "ticker": "POLICYBZR",
+      "weight": 4.78,
+      "sector": "InsurTech",
+      "color": "#1976D2",
+      "description": "Loss-to-profit inflection creating sustained alpha. Insurance penetration expansion creates decade-long earnings growth runway."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 4.34,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Consistent outperformer vs IT sector. Revenue growth 25-30% vs sector 8-12%. Healthcare IT and GenAI positioning drives ongoing alpha."
+    },
+    {
+      "name": "Dixon Technologies",
+      "ticker": "DIXON",
+      "weight": 3.89,
+      "sector": "Electronics Mfg",
+      "color": "#0D47A1",
+      "description": "PLI alpha play with smartphone and laptop assembly scaling. Contract wins from Samsung expansion creating earnings surprise."
+    },
+    {
+      "name": "REC Ltd",
+      "ticker": "REC",
+      "weight": 3.45,
+      "sector": "Power Finance",
+      "color": "#00838F",
+      "description": "Power sector financing PSU benefiting from infrastructure capex. Loan book growing 20%+ with improving asset quality."
+    }
+  ]
+}

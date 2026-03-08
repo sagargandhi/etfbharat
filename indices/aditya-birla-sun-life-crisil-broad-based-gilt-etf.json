@@ -1,0 +1,48 @@
+{
+  "indexName": "Aditya Birla Sun Life CRISIL Broad Based Gilt ETF",
+  "slug": "aditya-birla-sun-life-crisil-broad-based-gilt-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "7.26% GOI 2033",
+      "ticker": "GOI2033-726",
+      "weight": 30.0,
+      "sector": "Sovereign Bond",
+      "color": "#1565C0",
+      "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
+    },
+    {
+      "name": "7.18% GOI 2033",
+      "ticker": "GOI2033-718",
+      "weight": 22.0,
+      "sector": "Sovereign Bond",
+      "color": "#1976D2",
+      "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
+    },
+    {
+      "name": "7.40% GOI 2035",
+      "ticker": "GOI2035-740",
+      "weight": 18.0,
+      "sector": "Sovereign Bond",
+      "color": "#1E88E5",
+      "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
+    },
+    {
+      "name": "6.54% GOI 2032",
+      "ticker": "GOI2032-654",
+      "weight": 15.0,
+      "sector": "Sovereign Bond",
+      "color": "#42A5F5",
+      "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
+    },
+    {
+      "name": "7.30% GOI 2053",
+      "ticker": "GOI2053-730",
+      "weight": 15.0,
+      "sector": "Sovereign Bond",
+      "color": "#64B5F6",
+      "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
+    }
+  ]
+}

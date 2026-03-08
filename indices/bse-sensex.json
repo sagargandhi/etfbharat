@@ -1,0 +1,128 @@
+{
+  "indexName": "BSE SENSEX",
+  "slug": "bse-sensex",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Reliance Industries",
+      "ticker": "RELIANCE",
+      "weight": 12.34,
+      "sector": "Energy/Conglomerate",
+      "color": "#FF6F00",
+      "description": "Mukesh Ambani's conglomerate covering petrochemicals, retail (India's largest with 15,000+ stores), Jio telecom (450M subscribers), and new energy (₹75,000 Cr green energy investment plan by 2030 in solar, hydrogen and batteries)."
+    },
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 11.23,
+      "sector": "Banking",
+      "color": "#2196F3",
+      "description": "Post-HDFC merger, a financial colossus. Largest private bank by market cap. Processing scale: 1 in 5 credit card transactions in India goes through HDFC Bank systems. 8,700+ branches across India."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 8.9,
+      "sector": "Banking",
+      "color": "#1565C0",
+      "description": "Technology-first banking approach with 18%+ ROE — best among large Indian private banks. iMobile Pay app boasts 10M+ users. Mortgage, credit cards, and commercial banking growth firing simultaneously."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 6.78,
+      "sector": "IT",
+      "color": "#00BCD4",
+      "description": "Founded with $250 in 1981 by N.R. Narayana Murthy, now an $80B+ company. Cobalt cloud platform gaining global traction. AI-first strategy driving consulting-led large deal wins with $4B+ TCV per quarter."
+    },
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 6.45,
+      "sector": "IT",
+      "color": "#006064",
+      "description": "Tata Sons' crown jewel and India's most valuable IT company. Known for world-class talent development, remarkably low attrition at 12% and highest NPS client satisfaction scores in global IT industry."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 4.89,
+      "sector": "NBFC",
+      "color": "#FF3D00",
+      "description": "India's most valuable NBFC with 85M+ customer franchise. EMI financing at 150,000+ partner merchants, FD platform, insurance distribution. 30%+ loan AUM growth engine with best-in-class credit systems."
+    },
+    {
+      "name": "Hindustan Unilever",
+      "ticker": "HINDUNILVR",
+      "weight": 4.56,
+      "sector": "FMCG",
+      "color": "#1976D2",
+      "description": "Indian arm of Unilever with 50+ brands across home care (Surf, Rin), personal care (Dove, Lux) and food (Knorr, Horlicks). Present in 9 out of 10 Indian households. High-dividend payer for decades."
+    },
+    {
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "weight": 3.78,
+      "sector": "Automobiles",
+      "color": "#B71C1C",
+      "description": "India's largest car maker with 41%+ market share. JV with Suzuki Japan since 1982. Dominates entry and mid-segments (Alto, Swift, Baleno, Dzire, Ertiga). Transitioning to CNG, hybrid and EV platforms."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 3.45,
+      "sector": "Banking",
+      "color": "#FF3D00",
+      "description": "Premium private bank with exceptional asset quality GNPA below 2%. Burgundy Wealth management for HNIs, 811 digital banking for millennials. Conservative lending philosophy creating superior long-term ROE."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 3.12,
+      "sector": "Banking",
+      "color": "#9C27B0",
+      "description": "Third-largest private bank strengthening via Citibank India acquisition. Wealth management AUM doubled. Top 3 credit card issuer. Digital-led branches and strong SME banking franchise across India."
+    },
+    {
+      "name": "L&T",
+      "ticker": "LT",
+      "weight": 3.08,
+      "sector": "Capital Goods",
+      "color": "#FF5722",
+      "description": "India's largest EPC company with ₹4 lakh crore order book. Builds metros, airports, power plants, defence systems. LTIMindtree and L&T Technology Services add high-margin IT revenue to the conglomerate."
+    },
+    {
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "weight": 2.34,
+      "sector": "Paints",
+      "color": "#F57C00",
+      "description": "India's dominant paints brand with 55%+ market share in decorative paints. Beautiful Homes studios for interior design. Expanded into waterproofing, wood finishes and adhesives. 65-year-old brand with pristine moat."
+    },
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 3.89,
+      "sector": "FMCG",
+      "color": "#4CAF50",
+      "description": "Diversified conglomerate with cigarettes (60% profit), FMCG (Aashirvaad, Sunfeast, Yippee, Bingo), hotels (being demerged), paperboards and agribusiness. Consistent high-dividend payer since decades."
+    },
+    {
+      "name": "Sun Pharmaceutical",
+      "ticker": "SUNPHARMA",
+      "weight": 2.67,
+      "sector": "Pharma",
+      "color": "#EC407A",
+      "description": "India's largest pharma company. US specialty dermatology leadership with Ilumya and Cequa. Taro Pharmaceutical in Canada and US. Strong domestic branded generics and emerging markets presence in 100+ countries."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 2.89,
+      "sector": "IT",
+      "color": "#7B1FA2",
+      "description": "Azim Premji's IT company under transformation. Strategic acquisitions: Capco (BFSI consulting), Rizing (SAP), Edgile (cybersecurity). Consumer care (Santoor, Wipro Baby) remains a profitable and growing side business."
+    }
+  ]
+}

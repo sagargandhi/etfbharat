@@ -1,0 +1,88 @@
+{
+  "indexName": "BSE Select IPO Total Return Index",
+  "slug": "bse-select-ipo-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Zomato",
+      "ticker": "ZOMATO",
+      "weight": 12.45,
+      "sector": "Food Tech",
+      "color": "#E91E63",
+      "description": "Listed 2021. BSE Select IPO largest weight. Profitability milestone achieved. Blinkit quick-commerce expanding nationally."
+    },
+    {
+      "name": "LIC of India",
+      "ticker": "LICI",
+      "weight": 10.89,
+      "sector": "Life Insurance",
+      "color": "#1A237E",
+      "description": "Listed 2022. India's largest insurer. IPO raised Rs 21,000 Cr — India's largest IPO. Government retains 96%+ stake."
+    },
+    {
+      "name": "Mankind Pharma",
+      "ticker": "MANKIND",
+      "weight": 9.34,
+      "sector": "Pharmaceuticals",
+      "color": "#7B1FA2",
+      "description": "Listed 2023. Branded generics across India. Pan-India distribution with 50,000+ outlets. Consumer healthcare brands — Prega News, AcneStar."
+    },
+    {
+      "name": "PB Fintech",
+      "ticker": "POLICYBZR",
+      "weight": 8.78,
+      "sector": "InsurTech",
+      "color": "#1976D2",
+      "description": "Listed 2021. Policybazaar and Paisabazaar platforms. Profitability achieved. India's largest online insurance aggregator."
+    },
+    {
+      "name": "Nykaa",
+      "ticker": "NYKAA",
+      "weight": 7.56,
+      "sector": "Beauty Retail",
+      "color": "#E91E63",
+      "description": "Listed 2021. India's largest beauty and personal care platform. House of brands — Kay Beauty, Nykd. Omnichannel physical + digital."
+    },
+    {
+      "name": "JSW Infrastructure",
+      "ticker": "JSWINFRA",
+      "weight": 6.89,
+      "sector": "Port Infrastructure",
+      "color": "#0277BD",
+      "description": "Listed 2023. India's second-largest private port operator. Mangalore, Goa and Paradip ports. Leveraging JSW Steel captive volumes."
+    },
+    {
+      "name": "Honasa Consumer",
+      "ticker": "HONASA",
+      "weight": 5.78,
+      "sector": "D2C Beauty",
+      "color": "#558B2F",
+      "description": "Listed 2023. Mamaearth, The Derma Co, Aqualogica brands. Direct-to-consumer personal care with digital marketing capabilities."
+    },
+    {
+      "name": "SBFC Finance",
+      "ticker": "SBFC",
+      "weight": 4.56,
+      "sector": "NBFC",
+      "color": "#FF8F00",
+      "description": "Listed 2023. MSME-focused secured lender. Small business loans with gold loan component. Growing rural and semi-urban credit book."
+    },
+    {
+      "name": "Godigit Insurance",
+      "ticker": "GODIGIT",
+      "weight": 3.89,
+      "sector": "General Insurance",
+      "color": "#00897B",
+      "description": "Listed 2024. India's fastest growing general insurer. Digital-first motor and health insurance platform."
+    },
+    {
+      "name": "Ola Electric",
+      "ticker": "OLAELECTRIC",
+      "weight": 3.45,
+      "sector": "EV Mobility",
+      "color": "#FF6F00",
+      "description": "Listed 2024. India's largest EV scooter maker. S1 platform with Ola Gig B2B electric scooter for delivery partners."
+    }
+  ]
+}

@@ -3,13 +3,19 @@ Normalize ETF data:
   - etf-config.json  → keyed by NSE symbol, holdings = [{ticker, weight}]
   - etf-prices.json  → unchanged (already keyed by NSE symbol)
   - companies.json   → keyed by NSE ticker, with name/sector/color/description
+
+Holdings resolution order:
+  1. ETF has `indexKey`  → load holdings from indices/{indexKey}.json
+  2. ETF has inline `holdings` → use them directly (legacy / fallback)
 """
 
 import json, os
 from pathlib import Path
+from datetime import date
 
-ROOT = Path(__file__).parent.parent
-ETF_DIR = ROOT / "etf"
+ROOT      = Path(__file__).parent.parent
+ETF_DIR   = ROOT / "etf"
+INDEX_DIR = ROOT / "indices"
 
 # ── helpers ────────────────────────────────────────────────────────────────────
 # Mojibake map:
@@ -47,6 +53,18 @@ def fix_obj(obj):
         return {k: fix_obj(v) for k, v in obj.items()}
     return obj
 
+# ── load index files (indices/{slug}.json) ─────────────────────────────────────
+# index_holdings[slug] = list of {name, ticker, weight, sector, color, description}
+index_holdings: dict[str, list] = {}
+if INDEX_DIR.exists():
+    for idx_file in sorted(INDEX_DIR.glob("*.json")):
+        data = fix_obj(json.loads(idx_file.read_text(encoding="utf-8")))
+        slug = data.get("slug") or idx_file.stem
+        index_holdings[slug] = data.get("holdings", [])
+    print(f"Loaded {len(index_holdings)} index files from indices/")
+else:
+    print("WARNING: indices/ directory not found — run src/extract_indices.py first")
+
 # ── read all ETF category files ────────────────────────────────────────────────
 config_files = sorted(ETF_DIR.glob("*.json"))
 print(f"Found {len(config_files)} ETF category files")
@@ -62,9 +80,17 @@ for cf in config_files:
             print(f"  WARNING: ETF missing nseSymbol in {cf.name}: {etf.get('name')}")
             continue
 
-        # Collect company descriptions & build slim holdings list
-        slim_holdings = []
-        for h in etf.get("holdings", []):
+        # ── resolve holdings: indexKey → indices file, or inline holdings ────
+        index_key = etf.get("indexKey")
+        if index_key:
+            raw_holdings = index_holdings.get(index_key, [])
+            if not raw_holdings:
+                print(f"  WARNING: {sym} has indexKey='{index_key}' but no index file found")
+        else:
+            raw_holdings = etf.get("holdings", [])
+
+        # Collect company descriptions into companies dict (holdings NOT stored in etf-config)
+        for h in raw_holdings:
             ticker = h.get("ticker", "").strip()
             if not ticker:
                 continue
@@ -76,10 +102,6 @@ for cf in config_files:
                     "color":       h.get("color", ""),
                     "description": h.get("description", ""),
                 }
-            slim_holdings.append({
-                "ticker": ticker,
-                "weight": h.get("weight", 0),
-            })
 
         all_etfs[sym] = {
             "id":       etf.get("id", ""),
@@ -88,7 +110,7 @@ for cf in config_files:
             "category": etf.get("category", ""),
             "color":    etf.get("color", ""),
             "index":    etf.get("index", {}),
-            "holdings": slim_holdings,
+            "indexKey": index_key or "",  # frontend loads holdings from indices/{indexKey}.json
             "sourceFile": cf.name,
         }
 
@@ -96,7 +118,7 @@ print(f"Total ETFs: {len(all_etfs)}")
 print(f"Total unique companies: {len(companies)}")
 
 # ── fix etf-prices.json encoding ───────────────────────────────────────────────
-prices_path = ROOT / "etf-prices.json"
+prices_path = ROOT / "json" / "etf-prices.json"
 prices = fix_obj(json.loads(prices_path.read_text(encoding="utf-8")))
 prices_path.write_text(
     json.dumps(prices, ensure_ascii=False, indent=2),
@@ -110,13 +132,13 @@ config_out = {
         "description": "ETF configuration keyed by NSE symbol",
         "version": "2.0",
         "primaryKey": "nseSymbol",
-        "lastUpdated": "2026-03-08",
+        "lastUpdated": str(date.today()),
         "totalEtfs": len(all_etfs),
         "totalCompanies": len(companies),
     },
     "etfs": all_etfs,
 }
-config_path = ROOT / "etf-config.json"
+config_path = ROOT / "json" / "etf-config.json"
 config_path.write_text(
     json.dumps(config_out, ensure_ascii=False, indent=2),
     encoding="utf-8"
@@ -129,12 +151,12 @@ companies_out = {
         "description": "All companies referenced in ETF holdings, keyed by NSE ticker",
         "version": "1.0",
         "primaryKey": "nseTicker",
-        "lastUpdated": "2026-03-08",
+        "lastUpdated": str(date.today()),
         "totalCompanies": len(companies),
     },
     "companies": companies,
 }
-companies_path = ROOT / "companies.json"
+companies_path = ROOT / "json" / "companies.json"
 companies_path.write_text(
     json.dumps(companies_out, ensure_ascii=False, indent=2),
     encoding="utf-8"
@@ -147,6 +169,16 @@ for cf in config_files:
     fixed = fix_obj(raw)
     cf.write_text(json.dumps(fixed, ensure_ascii=False, indent=4), encoding="utf-8")
 print(f"Fixed encoding in {len(config_files)} ETF category files")
+
+# ── also fix encoding in all index files ──────────────────────────────────────
+if INDEX_DIR.exists():
+    idx_files = sorted(INDEX_DIR.glob("*.json"))
+    for idx_f in idx_files:
+        raw = json.loads(idx_f.read_text(encoding="utf-8"))
+        fixed = fix_obj(raw)
+        fixed["updatedAt"] = str(date.today())
+        idx_f.write_text(json.dumps(fixed, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Fixed encoding in {len(idx_files)} index files")
 
 # ── summary ────────────────────────────────────────────────────────────────────
 print("\n── Summary ──────────────────────────────────────────")

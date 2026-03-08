@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Realty Index",
+  "slug": "nifty-realty-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "DLF Ltd",
+      "ticker": "DLF",
+      "weight": 20.2092,
+      "sector": "Real Estate",
+      "color": "#795548",
+      "description": "India's largest real estate developer. DLF Cyber City REIT in Gurugram generates steady commercial income. New luxury residential launches — The Camellias, Arbour — seeing record bookings. Net debt reduction ongoing."
+    },
+    {
+      "name": "Macrotech (Lodha)",
+      "ticker": "LODHA",
+      "weight": 13.6731,
+      "sector": "Real Estate",
+      "color": "#6D4C41",
+      "description": "Premium residential developer. Lodha Park, Lodha Altamount in Mumbai command ultra-luxury pricing. Digital City township targets IT/ITeS workforce housing. Strong FY25 pre-sales momentum."
+    },
+    {
+      "name": "Godrej Properties",
+      "ticker": "GODREJPROP",
+      "weight": 13.6075,
+      "sector": "Real Estate",
+      "color": "#4E342E",
+      "description": "Godrej Group's real estate arm. Asset-light JDA model reduces capital risk. Strong brand commands pricing power. Active in NCR, Pune, Bengaluru, and Mumbai MMR."
+    },
+    {
+      "name": "Prestige Estates",
+      "ticker": "PRESTIGE",
+      "weight": 12.314,
+      "sector": "Real Estate",
+      "color": "#3E2723",
+      "description": "South India's largest developer, now pan-India. Prestige Falcon City, Prestige City projects drive volumes. Hotel and office assets provide annuity income. Bengaluru market dominance."
+    },
+    {
+      "name": "Oberoi Realty",
+      "ticker": "OBEROIREALTY",
+      "weight": 9.23,
+      "sector": "Real Estate",
+      "color": "#A1887F",
+      "description": "Ultra-premium developer in Mumbai. Oberoi Garden City in Goregaon, Elysian at Mulund. Commercial (Commerz III) and hospitality (Westin) provide recurring income. High margins on luxury sales."
+    },
+    {
+      "name": "Phoenix Mills",
+      "ticker": "PHOENIXLTD",
+      "weight": 16.3942,
+      "sector": "Retail Real Estate",
+      "color": "#BCAAA4",
+      "description": "India's largest mall developer and operator. Phoenix Palladium (Mumbai), Phoenix Marketcity portfolio. Mall consumption growth driven by premiumisation of retail. Strong asset monetisation."
+    },
+    {
+      "name": "Sobha Ltd",
+      "ticker": "SOBHA",
+      "weight": 3.286,
+      "sector": "Real Estate",
+      "color": "#D7CCC8",
+      "description": "Integrated construction and development model. Strong in Bengaluru and Kerala markets. Backward integration into interior furnishings and bathware. Solid corporate governance."
+    },
+    {
+      "name": "Brigade Enterprises",
+      "ticker": "BRIGADE",
+      "weight": 5.0675,
+      "sector": "Real Estate",
+      "color": "#8BC34A",
+      "description": "Diversified real estate in South India. Brigade Tech Gardens is a major IT park. Brigade Hotel group provides hospitality revenues. Active in Bengaluru, Hyderabad, and Chennai."
+    },
+    {
+      "name": "Sunteck Realty",
+      "ticker": "SUNTECK",
+      "weight": 4.23,
+      "sector": "Real Estate",
+      "color": "#CDDC39",
+      "description": "Mumbai-focused luxury and ultra-luxury developer. Sunteck City in BKC surrounds. Premium positioning targets HNI and NRI buyers. Low inventory overhang drives ASP growth."
+    },
+    {
+      "name": "Signature Global",
+      "ticker": "SIGNATURE",
+      "weight": 1.9209,
+      "sector": "Real Estate",
+      "color": "#FFEB3B",
+      "description": "Affordable housing specialist in NCR. PMAY beneficiary. Focus on Gurugram and Sohna Road micro-markets. Strong volumes driven by first-time homebuyer demand."
+    }
+  ]
+}

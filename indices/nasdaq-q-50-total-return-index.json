@@ -1,0 +1,56 @@
+{
+  "indexName": "Nasdaq Q-50 Total Return Index",
+  "slug": "nasdaq-q-50-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Apple Inc",
+      "ticker": "AAPL",
+      "weight": 8.5,
+      "sector": "Technology",
+      "color": "#212121",
+      "description": "World's most valuable company by market cap. iPhone ecosystem, Mac, iPad, Wearables and Services (App Store, Apple TV+, iCloud). $100B+ annual buyback. Pricing power drives 40%+ service margins."
+    },
+    {
+      "name": "Microsoft Corp",
+      "ticker": "MSFT",
+      "weight": 8.2,
+      "sector": "Technology",
+      "color": "#0078D4",
+      "description": "Enterprise cloud (Azure #2 globally), Office 365, GitHub, LinkedIn, Xbox. Copilot AI integration across all products. $3T market cap. Azure growing 30%+ YoY — key AI infrastructure beneficiary."
+    },
+    {
+      "name": "NVIDIA Corp",
+      "ticker": "NVDA",
+      "weight": 7.9,
+      "sector": "Semiconductors",
+      "color": "#76B900",
+      "description": "GPU monopoly for AI training and inference. Data center revenue >$80B annualised run-rate. H100 and H200 chips powering every major AI model (GPT, Gemini, Claude). CUDA software moat makes switching nearly impossible."
+    },
+    {
+      "name": "Amazon.com Inc",
+      "ticker": "AMZN",
+      "weight": 5.4,
+      "sector": "E-Commerce / Cloud",
+      "color": "#FF9900",
+      "description": "AWS (Amazon Web Services) is the world's largest cloud platform (~33% share). E-commerce operations generate flywheel data for AI/ML. Advertising business growing 20%+ annually. Prime membership 200M+ globally."
+    },
+    {
+      "name": "Meta Platforms Inc",
+      "ticker": "META",
+      "weight": 4.8,
+      "sector": "Social Media",
+      "color": "#1877F2",
+      "description": "Facebook + Instagram + WhatsApp = 3.5B daily active users. Ad targeting via Meta AI maximises ARPU. Reality Labs (Quest headsets) pursuing long-term metaverse opportunity. $50B+ FCF annual generation."
+    },
+    {
+      "name": "Alphabet Inc (Google)",
+      "ticker": "GOOGL",
+      "weight": 4.6,
+      "sector": "Technology / Advertising",
+      "color": "#4285F4",
+      "description": "Google Search (90%+ global market share), YouTube, Google Cloud and Android ecosystem. Gemini AI model powering search generative experience. Waymo autonomous vehicle business. $60B+ annual FCF."
+    }
+  ]
+}

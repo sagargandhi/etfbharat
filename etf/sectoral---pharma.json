@@ -15,88 +15,7 @@
             "companies": 20,
             "description": "Nifty Pharma tracks 20 companies in India — world's 3rd largest pharma market by volume, 14th by value. India's title 'pharmacy of the world': 20% of global generic medicines, 60% of global vaccines. Structural advantages: 60-70% cost discount vs US/Europe enables aggressive pricing for emerging markets and tender wins. Two profit pools: (1) US generics (40% revenue for Sun Pharma, Dr Reddy's, Aurobindo) — each USD generics approval adds ~₹50-100 Cr annual profit; (2) Domestic branded generics (30% revenue) — 50%+ margins, resists price cuts, 15-20% growth. Exports headwind: generic pricing pressure from US competitors and China (world's largest API manufacturer, undercutting costs). Regulatory advantage: Indian companies' FDA-approved facilities number 200+ globally, creating moat vs competitors from other emerging markets. Capex efficiency: INR 1 Cr capex generates $10-15 Cr annual revenue vs global pharma ratio of $1-3 Cr. Volatility drivers: US FDA approvals (binary events creating 20-50% stock moves), complex generics timelines (4-6 years to approval vs simple generics 2 years). Long-term: biosimilars provide 15-20% premiums vs simple generics but require $200-300M capex and regulatory expertise concentrated at Tier-1 companies."
         },
-        "holdings": [
-            {
-                "name": "Sun Pharmaceutical",
-                "ticker": "SUNPHARMA",
-                "weight": 26.78,
-                "sector": "Pharma",
-                "color": "#FF6F00",
-                "description": "India's largest pharma company by market cap (₹3.5 lakh crore). US specialty dermatology leader — Ilumya (psoriasis) and Cequa (dry eyes) are blockbusters. Taro Pharmaceutical in Canada/US. Strong domestic branded generics in 100+ countries."
-            },
-            {
-                "name": "Dr. Reddy's Labs",
-                "ticker": "DRREDDY",
-                "weight": 15.67,
-                "sector": "Pharma",
-                "color": "#E91E63",
-                "description": "Pioneer of India's generics-to-global strategy. $3B+ revenue company. Complex generics and biosimilars (gRevlimid launch). Exceptional API manufacturing with backward integration. Founded by Dr. K. Anji Reddy in 1984 with ₹25 lakh."
-            },
-            {
-                "name": "Cipla",
-                "ticker": "CIPLA",
-                "weight": 12.34,
-                "sector": "Pharma",
-                "color": "#4CAF50",
-                "description": "Making life-saving drugs affordable since 1935. Cipla's HIV drug pricing advocacy saved millions of lives in Africa in the 2000s. Leader in respiratory inhalers (Seroflo, Foracort), anti-infectives and consumer wellness via Cipla Health (Nasivion, Cipladine)."
-            },
-            {
-                "name": "Divis Laboratories",
-                "ticker": "DIVISLAB",
-                "weight": 10.89,
-                "sector": "API",
-                "color": "#2196F3",
-                "description": "India's top API and nutraceuticals contract manufacturer. Supplies to 9 of world's top 10 global pharma companies. Pristine USFDA compliance record across all plants. Fully backward integrated, debt-free balance sheet and 30%+ EBITDA margins."
-            },
-            {
-                "name": "Aurobindo Pharma",
-                "ticker": "AUROPHARMA",
-                "weight": 8.45,
-                "sector": "Pharma",
-                "color": "#FF9800",
-                "description": "Major US generics player with 800+ ANDA filings, largest injectables portfolio among Indian pharma. API-to-formulations integration provides ~30% cost advantage. Strong oncology and penicillin segment. Aurovida Formulations for biosimilars."
-            },
-            {
-                "name": "Lupin Ltd",
-                "ticker": "LUPIN",
-                "weight": 7.23,
-                "sector": "Pharma",
-                "color": "#9C27B0",
-                "description": "Specialty generics company. US complex generics include gSpiriva (respiratory) and gFostair. India branded generics in cardiology, CNS, diabetes. Growing biosimilars pipeline — etanercept, adalimumab under development for US and EU."
-            },
-            {
-                "name": "Abbott India",
-                "ticker": "ABBOTINDIA",
-                "weight": 5.67,
-                "sector": "Pharma",
-                "color": "#F44336",
-                "description": "Indian subsidiary of Abbott Laboratories USA. Premium branded prescription medicines. Thyronorm is India's largest-selling thyroid brand. Cremaffin, Duphaston, Digene are household medicines. Consistent compounder at 20%+ ROCE."
-            },
-            {
-                "name": "Torrent Pharmaceuticals",
-                "ticker": "TORNTPHARM",
-                "weight": 4.56,
-                "sector": "Pharma",
-                "color": "#3F51B5",
-                "description": "Branded generics powerhouse. India dominance in cardiovascular (Shelcal, Nikoran) and CNS (Nexito). Unichem India acquisition doubled domestic scale. Germany and Brazil branded operations contributing stable international revenue."
-            },
-            {
-                "name": "Zydus Lifesciences",
-                "ticker": "ZYDUSLIFE",
-                "weight": 3.78,
-                "sector": "Pharma",
-                "color": "#009688",
-                "description": "Ahmedabad-based pharma innovator. Launched ZyCoV-D — world's first DNA-based COVID vaccine. Strong US generics and complex generics (transdermal patches). Lipaglyn — world's first glitazar for diabetes approved in India."
-            },
-            {
-                "name": "Ipca Laboratories",
-                "ticker": "IPCALAB",
-                "weight": 2.45,
-                "sector": "Pharma",
-                "color": "#F57C00",
-                "description": "Specialty API and formulations company. Largest producer of anti-malarial APIs globally. Strong branded generics in cardiovascular and musculoskeletal. Europe business growing rapidly post-compliance improvements."
-            }
-        ]
+        "indexKey": "nifty-pharma-index"
     },
     {
         "id": "chemical",
@@ -114,56 +33,7 @@
             "companies": 0,
             "description": "Kotak Mahindra Mutual Fund - Kotak Nifty Chemicals ETF tracks the Nifty Chemicals Index (TRI) index."
         },
-        "holdings": [
-            {
-                "name": "Pidilite Industries",
-                "ticker": "PIDILITIND",
-                "weight": 16.2,
-                "sector": "Specialty Chemicals",
-                "color": "#E65100",
-                "description": "Fevicol, M-Seal, Dr. Fixit — India's dominant adhesive and sealant brand. Construction chemicals growing 20%+ with affordable housing boom. 60%+ gross margins from branded consumer adhesives. DIY and professional products both expanding."
-            },
-            {
-                "name": "SRF Limited",
-                "ticker": "SRF",
-                "weight": 14.8,
-                "sector": "Fluorochemicals / Textiles",
-                "color": "#880E4F",
-                "description": "India's #1 fluorochemicals company and global refrigerant gas (R22, R134a) producer. Technical textiles (tyre cord, polyester, nylon) for Bridgestone, Michelin. New fluoropolymers for EV, aerospace and semiconductor applications. CapEx cycle 2022-26."
-            },
-            {
-                "name": "Deepak Nitrite",
-                "ticker": "DEEPAKNTR",
-                "weight": 11.3,
-                "sector": "Specialty Chemicals",
-                "color": "#1B5E20",
-                "description": "Midstream specialty chemicals — nitro-aromatic compounds used in dyes, agrochemicals, rubber chemicals and pharma intermediates. Deepak Phenolics (Dahej) makes phenol and acetone domestically for the first time, replacing Chinese imports."
-            },
-            {
-                "name": "Navin Fluorine International",
-                "ticker": "NAVINFLUOR",
-                "weight": 9.7,
-                "sector": "Fluorochemicals",
-                "color": "#006064",
-                "description": "CDMO for fluorinated APIs, agro-intermediates and specialty fluorochemicals. Protected mode high-value CRAMS business growing for global innovators. Per PFAS regulations in Europe boosting demand for fluorine-free alternatives NAFL develops."
-            },
-            {
-                "name": "Aarti Industries",
-                "ticker": "AARTIIND",
-                "weight": 8.5,
-                "sector": "Specialty Chemicals",
-                "color": "#4527A0",
-                "description": "India's largest benzene-based chemical company. Sulfuric acid, nitro-chloro-benzene, nitro-toluene — 100+ specialty chemicals used in dyes, pharma and agrochemicals. China+1 beneficiary as global buyers diversify sourcing from Indian manufacturers."
-            },
-            {
-                "name": "Gujarat Fluorochemicals",
-                "ticker": "FLUOROCHEM",
-                "weight": 7.4,
-                "sector": "Fluoropolymers",
-                "color": "#006064",
-                "description": "Transitioning from refrigerants to PTFE and other fluoropolymers for EV batteries, semiconductor fabrication and aerospace. India's only PTFE producer + India's first HFO (new-generation low-GWP refrigerant) maker. R&D-intensive expansion."
-            }
-        ]
+        "indexKey": "nifty-chemicals-index-tri"
     },
     {
         "id": "growwchem",
@@ -181,55 +51,6 @@
             "companies": 0,
             "description": "Groww Mutual Fund - Groww Nifty Chemicals ETF tracks the Nifty Chemicals Index - TRI index."
         },
-        "holdings": [
-            {
-                "name": "Pidilite Industries",
-                "ticker": "PIDILITIND",
-                "weight": 16.2,
-                "sector": "Specialty Chemicals",
-                "color": "#E65100",
-                "description": "Fevicol, M-Seal, Dr. Fixit — India's dominant adhesive and sealant brand. Construction chemicals growing 20%+ with affordable housing boom. 60%+ gross margins from branded consumer adhesives. DIY and professional products both expanding."
-            },
-            {
-                "name": "SRF Limited",
-                "ticker": "SRF",
-                "weight": 14.8,
-                "sector": "Fluorochemicals / Textiles",
-                "color": "#880E4F",
-                "description": "India's #1 fluorochemicals company and global refrigerant gas (R22, R134a) producer. Technical textiles (tyre cord, polyester, nylon) for Bridgestone, Michelin. New fluoropolymers for EV, aerospace and semiconductor applications. CapEx cycle 2022-26."
-            },
-            {
-                "name": "Deepak Nitrite",
-                "ticker": "DEEPAKNTR",
-                "weight": 11.3,
-                "sector": "Specialty Chemicals",
-                "color": "#1B5E20",
-                "description": "Midstream specialty chemicals — nitro-aromatic compounds used in dyes, agrochemicals, rubber chemicals and pharma intermediates. Deepak Phenolics (Dahej) makes phenol and acetone domestically for the first time, replacing Chinese imports."
-            },
-            {
-                "name": "Navin Fluorine International",
-                "ticker": "NAVINFLUOR",
-                "weight": 9.7,
-                "sector": "Fluorochemicals",
-                "color": "#006064",
-                "description": "CDMO for fluorinated APIs, agro-intermediates and specialty fluorochemicals. Protected mode high-value CRAMS business growing for global innovators. Per PFAS regulations in Europe boosting demand for fluorine-free alternatives NAFL develops."
-            },
-            {
-                "name": "Aarti Industries",
-                "ticker": "AARTIIND",
-                "weight": 8.5,
-                "sector": "Specialty Chemicals",
-                "color": "#4527A0",
-                "description": "India's largest benzene-based chemical company. Sulfuric acid, nitro-chloro-benzene, nitro-toluene — 100+ specialty chemicals used in dyes, pharma and agrochemicals. China+1 beneficiary as global buyers diversify sourcing from Indian manufacturers."
-            },
-            {
-                "name": "Gujarat Fluorochemicals",
-                "ticker": "FLUOROCHEM",
-                "weight": 7.4,
-                "sector": "Fluoropolymers",
-                "color": "#006064",
-                "description": "Transitioning from refrigerants to PTFE and other fluoropolymers for EV batteries, semiconductor fabrication and aerospace. India's only PTFE producer + India's first HFO (new-generation low-GWP refrigerant) maker. R&D-intensive expansion."
-            }
-        ]
+        "indexKey": "nifty-chemicals-index-tri"
     }
 ]

@@ -15,80 +15,7 @@
             "companies": 12,
             "description": "Nifty PSU Bank tracks 12 government-owned banks controlling 45% of banking system deposits. Post-2014 transformation: NPA cleanup (peak NPAs ₹12 Lakh Cr in 2019 now ₹8 Lakh Cr), ₹3.5 Lakh Cr government recapitalization, SARFAESI debt recovery measures accelerated. ROE recovered from sub-5% (2016-2019) to 12-15% (2023-2024), approaching private banks' 15-18%. Turnaround potential: when ROE normalizes to 15%+ (2-3 years runway), PSU bank valuations will re-rate from 1.2x book value to 1.5-1.8x book value (40-50% upside). Dividend yield 5-6% provides income cushion. State Bank of India dominance: 34.6% weight, ₹55 Lakh Cr assets, ₹23K branches. YONO super-app digitalization reducing branch dependency while expanding reach. Structural advantage: Priority sector lending mandates (40% of advances to agriculture, MSME, housing) ensure government support. Currency tailwind: deposits concentrated in rupee, loans in rupee (net rupee neutral), but government guarantee on deposits attracts foreign investors during currency crises. Capex efficiency: each rupee invested generates ₹8-10 annual interest income vs private banks' ₹15-20 due to lower risk profile and lower ROE targets."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 34.56,
-                "sector": "Public Bank",
-                "color": "#FF6F00",
-                "description": "India's largest bank — 23% of total banking deposits. ₹55 lakh crore in total assets. 22,500+ branches and 65,000+ ATMs. YONO super-app has 40M+ users processing millions of transactions daily. Dominant in MSME, agri, home and education loans."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 12.78,
-                "sector": "Public Bank",
-                "color": "#8BC34A",
-                "description": "India's 2nd largest PSU bank post-merger with Oriental Bank of Commerce and United Bank of India (2020). Founded in Lahore in 1894. Post-NPA cleanup ROE recovering. Strong Punjab, UP and Bihar presence. 10,000+ branches."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 11.23,
-                "sector": "Public Bank",
-                "color": "#F44336",
-                "description": "India's most international bank with operations in 100+ countries. Merged with Vijaya Bank and Dena Bank in 2019. Strong corporate, agri and overseas banking. bob World digital app. High dividend yield with improving ROE."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANBK",
-                "weight": 9.89,
-                "sector": "Public Bank",
-                "color": "#9C27B0",
-                "description": "Largest PSU bank in South India, headquartered in Bengaluru. Post-Syndicate Bank merger in 2020 increased scale significantly. 10,000+ branches. Strong MSME and agriculture lending. Improving NPA ratios and ROA trajectory."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 8.45,
-                "sector": "Public Bank",
-                "color": "#3F51B5",
-                "description": "Post triple-merger entity absorbing Andhra Bank and Corporation Bank (2020). Mumbai-based with 9,000+ branches. Focus on retail, agriculture, MSME and government scheme lending. Improving profitability with GNPA below 5%."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 6.78,
-                "sector": "Public Bank",
-                "color": "#FF9800",
-                "description": "One of India's oldest PSU banks founded in 1906 in Mumbai. Strong Maharashtra and Gujarat presence. 5,100+ branches domestically with international presence in 20+ countries. Improving credit cost trajectory driving profitability recovery."
-            },
-            {
-                "name": "Indian Bank",
-                "ticker": "INDIANB",
-                "weight": 5.67,
-                "sector": "Public Bank",
-                "color": "#009688",
-                "description": "Chennai-headquartered PSU bank post-merger with Allahabad Bank (2020). Strong South India base with 6,000+ branches. Focus on agriculture, MSME and retail lending. INDOASIS digital banking platform driving NRI remittances."
-            },
-            {
-                "name": "UCO Bank",
-                "ticker": "UCOBANK",
-                "weight": 3.78,
-                "sector": "Public Bank",
-                "color": "#607D8B",
-                "description": "Kolkata-headquartered public sector bank. Strong eastern India presence particularly West Bengal and Bihar. Participates in all GoI schemes. RuPay card promotion, PM Jan Dhan accounts. Steady improvement in asset quality post recapitalisation."
-            },
-            {
-                "name": "Bank of Maharashtra",
-                "ticker": "MAHABANK",
-                "weight": 3.45,
-                "sector": "Public Bank",
-                "color": "#5C6BC0",
-                "description": "Pune-headquartered PSU bank. Best performer among medium PSU banks in recent years. One of the first to report GNPA below 3%. Strong Maharashtra presence. Consistent retail deposit growth from tier-2 and tier-3 cities."
-            }
-        ]
+        "indexKey": "nifty-psu-bank-index"
     },
     {
         "id": "psubnkbees",
@@ -106,56 +33,7 @@
             "companies": 0,
             "description": "Nippon India ETF Nifty PSU Bank BeES tracks the Nifty PSU Bank index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "nifty-psu-bank"
     },
     {
         "id": "psubnkietf",
@@ -173,56 +51,7 @@
             "companies": 0,
             "description": "ICICI Prudential Mutual Fund - ICICI Prudential Nifty PSU Bank ETF tracks the ICICI Prudential Nifty PSU Bank ETF index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "icici-prudential-nifty-psu-bank-etf"
     },
     {
         "id": "sbibpb",
@@ -240,56 +69,7 @@
             "companies": 0,
             "description": "SBI Mutual Fund - SBI BSE PSU Bank ETF tracks the BSE PSU Bank Index TRI index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "bse-psu-bank-index-tri"
     },
     {
         "id": "psubankadd",
@@ -307,56 +87,7 @@
             "companies": 0,
             "description": "DSP Mutual Fund - DSP Nifty PSU Bank ETF tracks the DSP Nifty PSU Bank ETF index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "dsp-nifty-psu-bank-etf"
     },
     {
         "id": "hdfcpsubk",
@@ -374,56 +105,7 @@
             "companies": 0,
             "description": "HDFC Mutual Fund -HDFC NIFTY PSU BANK ETF tracks the HDFC NIFTY PSU BANK ETF index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "hdfc-nifty-psu-bank-etf"
     },
     {
         "id": "bankpsu",
@@ -441,55 +123,6 @@
             "companies": 0,
             "description": "Mirae Asset Mutual Fund - Mirae Asset Nifty PSU Bank ETF tracks the Nifty PSU Bank Total Return Index index."
         },
-        "holdings": [
-            {
-                "name": "State Bank of India",
-                "ticker": "SBIN",
-                "weight": 42.6,
-                "sector": "Public Sector Banking",
-                "color": "#1B5E20",
-                "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
-            },
-            {
-                "name": "Bank of Baroda",
-                "ticker": "BANKBARODA",
-                "weight": 14.3,
-                "sector": "Public Sector Banking",
-                "color": "#1565C0",
-                "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
-            },
-            {
-                "name": "Canara Bank",
-                "ticker": "CANARABANK",
-                "weight": 11.2,
-                "sector": "Public Sector Banking",
-                "color": "#0D47A1",
-                "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
-            },
-            {
-                "name": "Punjab National Bank",
-                "ticker": "PNB",
-                "weight": 9.4,
-                "sector": "Public Sector Banking",
-                "color": "#37474F",
-                "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
-            },
-            {
-                "name": "Union Bank of India",
-                "ticker": "UNIONBANK",
-                "weight": 7.1,
-                "sector": "Public Sector Banking",
-                "color": "#4527A0",
-                "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
-            },
-            {
-                "name": "Bank of India",
-                "ticker": "BANKINDIA",
-                "weight": 5.8,
-                "sector": "Public Sector Banking",
-                "color": "#006064",
-                "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
-            }
-        ]
+        "indexKey": "nifty-psu-bank-total-return-index"
     }
 ]

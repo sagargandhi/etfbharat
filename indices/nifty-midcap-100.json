@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Midcap 100",
+  "slug": "nifty-midcap-100",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Voltas",
+      "ticker": "VOLTAS",
+      "weight": 1.1166,
+      "sector": "Consumer Durables",
+      "color": "#0277BD",
+      "description": "India's #1 room AC brand owned by Tata Group. AC penetration in India is <10% vs >90% in developed markets — massive runway. Voltas-Beko JV expanding into washing machines, refrigerators. Unified Comfort Systems (UCS) division for commercial chillers and HVAC."
+    },
+    {
+      "name": "Bharat Electronics",
+      "ticker": "BEL",
+      "weight": 1.58,
+      "sector": "Defence Electronics",
+      "color": "#1A237E",
+      "description": "India's premier defence electronics PSU. ₹70,000 Cr+ order book in radars, avionics, EW systems, night vision. Beneficiary of ₹3L Cr defence capex push over 5 years. Rising export orders from Southeast Asia and Middle East."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 1.7253,
+      "sector": "IT Services",
+      "color": "#1976D2",
+      "description": "Mid-tier IT with fastest revenue growth in sector (35%+ CAGR last 3 years). Product engineering and digital transformation focus. Microsoft Azure and Salesforce partnerships driving deal wins. North America revenue >60% with rising Europe mix."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 1.2953,
+      "sector": "IT Services",
+      "color": "#E53935",
+      "description": "Insurance and BFSI-specialist IT services. Cigniti acquisition expanded testing capabilities. NIIT parentage brings institutional credibility. Revenue guidance upgraded consistently. In-house BFS platform accelerates client onboarding and reduces sales cycle."
+    },
+    {
+      "name": "Cholamandalam Finance",
+      "ticker": "CHOLAFIN",
+      "weight": 1.31,
+      "sector": "NBFC",
+      "color": "#FF6F00",
+      "description": "Murugappa Group's NBFC dominant in commercial vehicle, tractor and gold loans. Vehicle finance market share rising. Chola MS General Insurance subsidiary unlocking value. Strong asset quality with deep rural distribution advantage."
+    },
+    {
+      "name": "MRF Tyres",
+      "ticker": "MRF",
+      "weight": 0.9319,
+      "sector": "Auto Ancillary",
+      "color": "#212121",
+      "description": "India's largest and most expensive stock (₹1.2L+ per share). Tyre market leader with 32% market share in truck tyres. Brand synonymous with quality. Radial tyre export opportunity to Middle East and ASEAN. 65%+ capacity utilisation leaving headroom for growth without capex surge."
+    },
+    {
+      "name": "Crompton Greaves Consumer",
+      "ticker": "CROMPTON",
+      "weight": 1.18,
+      "sector": "Consumer Durables",
+      "color": "#C62828",
+      "description": "Leading fan, pump and domestic appliance brand. Butterfly Gandhimati kitchen appliances acquisition expanded South India presence. Premium fans (BLDC energy-efficient) growing at 30%+ with premiumisation trend. Working capital-light model with strong FCF generation."
+    },
+    {
+      "name": "Navin Fluorine",
+      "ticker": "NAVINFLUOR",
+      "weight": 1.12,
+      "sector": "Specialty Chemicals",
+      "color": "#00897B",
+      "description": "Fluorine chemistry specialist with applications in agrochem, pharma and refrigerants. CRAMS (contract R&D and manufacturing) growth from global agrochemical and pharmaceutical innovators. High barriers to entry in fluorination chemistry create sustainable moat."
+    },
+    {
+      "name": "LIC Housing Finance",
+      "ticker": "LICHSGFIN",
+      "weight": 0.5101,
+      "sector": "Housing Finance",
+      "color": "#283593",
+      "description": "LIC-backed housing finance company. Affordable housing focus in Tier-2/3 cities. Beneficiary of PMAY (housing for all) government scheme. NIM expansion as high-cost borrowings mature. Parent LIC's distribution network provides low-cost loan origination."
+    },
+    {
+      "name": "Mphasis",
+      "ticker": "MPHASIS",
+      "weight": 0.8412,
+      "sector": "IT Services",
+      "color": "#00BCD4",
+      "description": "Blackstone-owned IT services focused on BFSI and mortgage technology. DirectCore cloud platform for financial services. Revenue growth rebounding post US mortgage market correction. Frontier Tech unit building AI, ML and blockchain-based solutions for capital markets."
+    }
+  ]
+}

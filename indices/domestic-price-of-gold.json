@@ -1,0 +1,24 @@
+{
+  "indexName": "Domestic price of Gold",
+  "slug": "domestic-price-of-gold",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Physical Gold (99.5% purity)",
+      "ticker": "GOLD",
+      "weight": 99.5,
+      "sector": "Commodity - Precious Metal",
+      "color": "#FF8F00",
+      "description": "Direct investment in 99.5% pure physical gold stored in SEBI-approved vaults (bank custodians / bullion banks). Priced at domestic gold rates linked to LBMA AM fix in USD, converted to INR at RBI reference rate. Vault audited quarterly by third-party auditors."
+    },
+    {
+      "name": "Cash & Equivalents",
+      "ticker": "CASH",
+      "weight": 0.5,
+      "sector": "Cash",
+      "color": "#9E9E9E",
+      "description": "Residual cash for subscription/redemption liquidity and operational expenses. Held in overnight bank deposits or tri-party repo."
+    }
+  ]
+}

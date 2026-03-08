@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty India Digital Index",
+  "slug": "nifty-india-digital-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS",
+      "weight": 24.2,
+      "sector": "IT Services",
+      "color": "#0A2472",
+      "description": "Internet-age IT bellwether transforming enterprises through cloud, AI and digital platforms. Contextual Master ecosystem and AI.Cloud services driving next-gen IT outsourcing at Fortune 500 scale."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 19.5,
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "Digital-first IT partnership. Infosys Springboard (5M+ learners), Cobalt cloud platform and GenAI Topaz are redefining how global enterprises digitalise their operations."
+    },
+    {
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "weight": 11.4,
+      "sector": "IT Products & Services",
+      "color": "#E65100",
+      "description": "India's most product-oriented IT firm. HCL Software business — perpetual + SaaS revenue from 20M+ enterprise users — delivering stable, high-margin internet-era software revenue."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 8.2,
+      "sector": "IT Engineering",
+      "color": "#006064",
+      "description": "High-growth mid-cap IT firm specialising in AI engineering, cloud-native development and BFSI digital transformation. Named a Leader in Salesforce/AWS services. 30%+ revenue growth CAGR outpacing all large-cap peers."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 6.1,
+      "sector": "IT Services",
+      "color": "#004D40",
+      "description": "Travel tech (Amadeus, Sabre GDS modernisation), BFSI and insurance vertical specialist. Over 60% offshore delivery. BPS and API integration expertise driving large EMEA deal wins."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 6.0,
+      "sector": "IT Services",
+      "color": "#37474F",
+      "description": "Major digital services player recovering growth momentum. FullStride Cloud (engineering + migration) and Bangalore-HQ enterprise AI lab driving technology modernisation for global banks, retailers and manufacturers."
+    }
+  ]
+}

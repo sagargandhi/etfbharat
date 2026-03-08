@@ -1,0 +1,40 @@
+{
+  "indexName": "CRISIL Liquid Fund Index",
+  "slug": "crisil-liquid-fund-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Treasury Bills (91-day)",
+      "ticker": "TBILL",
+      "weight": 42.5,
+      "sector": "Government Securities",
+      "color": "#4CAF50",
+      "description": "Short-term Government of India securities with zero credit risk. 91-day T-bills auctioned by RBI weekly. Sovereign backing provides absolute safety. Yields track RBI repo rate with minimal duration risk."
+    },
+    {
+      "name": "Commercial Paper — AAA",
+      "ticker": "CP",
+      "weight": 28.3,
+      "sector": "Corporate Debt",
+      "color": "#2196F3",
+      "description": "Top-rated (A1+) unsecured promissory notes issued by blue-chip corporates like Reliance, TCS, HDFC and PSU entities. Short tenure of 15-90 days. Higher yield than T-bills (~25-50 bps) with minimal credit risk."
+    },
+    {
+      "name": "Certificate of Deposit",
+      "ticker": "CD",
+      "weight": 22.1,
+      "sector": "Bank Instruments",
+      "color": "#FF9800",
+      "description": "Negotiable money market instruments issued by scheduled commercial banks (HDFC, ICICI, SBI, Kotak). 7-91 day tenure. RBI-regulated and highly liquid. Credit risk very low given systemic importance of issuing banks."
+    },
+    {
+      "name": "Cash & Tri-party Repo",
+      "ticker": "CASH",
+      "weight": 7.1,
+      "sector": "Overnight Instruments",
+      "color": "#9E9E9E",
+      "description": "Overnight tri-party repos on government securities and CBLO (Collateralized Borrowing & Lending Obligations) for same-day settlement, daily operational liquidity and buffer for unexpected large redemptions."
+    }
+  ]
+}

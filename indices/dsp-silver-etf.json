@@ -1,0 +1,24 @@
+{
+  "indexName": "DSP Silver ETF",
+  "slug": "dsp-silver-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Physical Silver (99.9% purity)",
+      "ticker": "SILVER",
+      "weight": 99.5,
+      "sector": "Commodity - Precious Metal",
+      "color": "#607D8B",
+      "description": "Direct investment in 99.9% pure physical silver stored in SEBI-approved vaults. Silver price referenced to LBMA Silver Price (USD/troy oz), converted to INR at RBI reference rate. Vault holdings reconciled and audited at regular intervals."
+    },
+    {
+      "name": "Cash & Equivalents",
+      "ticker": "CASH",
+      "weight": 0.5,
+      "sector": "Cash",
+      "color": "#9E9E9E",
+      "description": "Residual cash for subscription/redemption liquidity. Held in overnight bank deposits or tri-party repo."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Infrastructure Index",
+  "slug": "nifty-infrastructure-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 12.0903,
+      "sector": "EPC & Construction",
+      "color": "#FF5722",
+      "description": "India's largest EPC conglomerate. ₹4 lakh crore order book covering metros, highways, airports, nuclear power plants, warships and data centers. Exports defence equipment (K9 Vajra). LTIMindtree and L&T Technology Services add high-margin IT services."
+    },
+    {
+      "name": "Adani Ports & SEZ",
+      "ticker": "ADANIPORTS",
+      "weight": 2.8378,
+      "sector": "Ports & Logistics",
+      "color": "#1565C0",
+      "description": "India's largest private port operator. 13 ports handling 25%+ of India's cargo. Mundra (Gujarat) is India's largest container port. Logistics park network expanding via APSEZ. Benefiting from India's EXIM trade boom targeting $2T exports by 2030."
+    },
+    {
+      "name": "Bharti Airtel",
+      "ticker": "BHARTIARTL",
+      "weight": 13.6056,
+      "sector": "Telecom Infrastructure",
+      "color": "#E91E63",
+      "description": "India's largest telecom infrastructure provider. 380M+ subscribers. 5G rolled out in 5,000+ cities. Airtel Business: enterprise connectivity and cloud for 3,000+ corporates. Africa operations (Airtel Africa) across 14 countries add diversification."
+    },
+    {
+      "name": "UltraTech Cement",
+      "ticker": "ULTRACEMCO",
+      "weight": 3.7054,
+      "sector": "Building Materials",
+      "color": "#607D8B",
+      "description": "India's largest and world's 3rd largest cement company with 130 MT capacity. Aditya Birla Group flagship. 23+ integrated plants pan-India. Acquiring Kesoram and Heidelberg India to consolidate leadership. Pricing power in key Western and Southern markets."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 4.7107,
+      "sector": "Power Generation",
+      "color": "#4CAF50",
+      "description": "India's largest power generator (73 GW operational). Building India's largest single solar project (7.5 GW at Rajasthan). Targeting 130 GW total capacity by 2032 with 50% from renewables. NTPC Green Energy subsidiary for renewable assets."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 3.5424,
+      "sector": "Transmission",
+      "color": "#009688",
+      "description": "Backbone of India's electricity grid. 70% of inter-state transmission. Building ultra-high-voltage DC corridors for renewable energy integration from Rajasthan and Gujarat solar/wind zones to demand centers. Regulated monopoly."
+    },
+    {
+      "name": "Adani Enterprises",
+      "ticker": "ADANIENT",
+      "weight": 5.67,
+      "sector": "Diversified Infrastructure",
+      "color": "#795548",
+      "description": "Adani Group's incubation engine. 7 Indian airports (60M+ passengers/year), national highway roads, copper manufacturing (Mundra), data centers and solar panel factory (world's largest integrated solar module plant)."
+    },
+    {
+      "name": "Ambuja Cements",
+      "ticker": "AMBUJACEM",
+      "weight": 0.741,
+      "sector": "Building Materials",
+      "color": "#9E9E9E",
+      "description": "India's 2nd largest cement group (post Adani acquisition of Holcim India). 78 MT capacity. Strong Western and Northern market presence. Synergy benefits from limestone mines, railways and port infrastructure of Adani Group."
+    },
+    {
+      "name": "Hindustan Construction Company",
+      "ticker": "HCC",
+      "weight": 2.34,
+      "sector": "Construction",
+      "color": "#B71C1C",
+      "description": "Pioneer in tunnelling, bridges, hydroelectric dams and nuclear power civil construction. Tehri Dam, Mumbai Metro, Zojila Tunnel. Largest hydro-power EPC contractor in India. Debt restructured, order book recovering strongly."
+    },
+    {
+      "name": "IRB Infrastructure",
+      "ticker": "IRB",
+      "weight": 2.12,
+      "sector": "Roads & Highways",
+      "color": "#F57F17",
+      "description": "India's largest private roads developer with 20,000+ km of highway portfolio under HAM and BOT models. NHAI's premium partner for NH development. IRB InvIT generates stable toll fee income. 10+ GW operational road assets."
+    }
+  ]
+}

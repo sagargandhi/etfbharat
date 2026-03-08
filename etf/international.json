@@ -15,88 +15,7 @@
             "companies": 10,
             "description": "NYSE FANG+ is a global first — a 10-stock equal-weight index of the world's most influential technology and consumer internet companies. Unlike Nifty 50's free-float cap-weight methodology, equal weighting (≈10% each) ensures no single company dominates returns, rebalanced quarterly. An Indian investor buying MAFANG owns fractional exposure to NVIDIA's AI supremacy, Meta's 3.2B daily active users, Apple's $3T ecosystem, Amazon's cloud + logistics dominance, and Alphabet's search monopoly — all in a single NSE-listed ETF denominated in rupees. The embedded currency factor is a key feature: when USD strengthens vs INR (as it has 5–6% annually on long-run average), this ETF gains purely from INR depreciation on top of USD price returns. Risk factors: US tech valuations (40–70x PE), regulatory antitrust risk, US-China tech decoupling, and currency hedging costs (~2% annualised). Best suited for long-term investors seeking US technology exposure without a US brokerage account. SEBI's $7B overseas ETF limit for Indian mutual funds constrains fresh inflows; funds temporarily close subscriptions when limit is breached."
         },
-        "holdings": [
-            {
-                "name": "NVIDIA Corporation",
-                "ticker": "NVDA",
-                "weight": 11.2,
-                "sector": "Semiconductors",
-                "color": "#76FF03",
-                "description": "World's leading GPU designer and the backbone of the AI revolution. H100 and Blackwell chips power ChatGPT, Gemini, Claude and virtually every major LLM in training and inference. Data centre revenue surpassed $40B in FY25 — up 400% YoY. Dominant 80%+ market share in AI accelerators. NVIDIA's CUDA software ecosystem creates an enormous switching cost moat."
-            },
-            {
-                "name": "Meta Platforms",
-                "ticker": "META",
-                "weight": 10.8,
-                "sector": "Social Media & AI",
-                "color": "#1877F2",
-                "description": "Parent of Facebook, Instagram, WhatsApp and Threads — 3.27 billion daily active people. Llama open-source LLM strategy builds AI developer mindshare. Reality Labs investing $15B+ annually in AR/VR for the metaverse. Advertising precision via first-party social graph data makes Meta resilient to cookie deprecation. Massive buyback programme — $50B+ returned to shareholders in 2024."
-            },
-            {
-                "name": "Apple Inc.",
-                "ticker": "AAPL",
-                "weight": 10.5,
-                "sector": "Consumer Electronics",
-                "color": "#555555",
-                "description": "World's most valuable company by market cap ($3T+). iPhone installed base of 1.4 billion generates a $100B+ annual services flywheel (App Store, iCloud, Apple Pay, TV+). Apple Intelligence (on-device AI) embedded in iPhone 16 onwards. Services gross margin exceeds 71% vs hardware at 37%, shifting the earnings mix toward higher quality recurring revenues."
-            },
-            {
-                "name": "Amazon",
-                "ticker": "AMZN",
-                "weight": 10.3,
-                "sector": "Cloud & E-Commerce",
-                "color": "#FF9900",
-                "description": "AWS commands 31% of global cloud infrastructure market and contributes the majority of operating profit despite being a fraction of total revenue. Amazon Bedrock and CodeWhisperer are key enterprise AI plays. Advertising segment crossed $50B revenue in 2024 — world's third-largest digital ad platform. Logistics network with 1,500+ fulfilment centres creates an impossible-to-replicate physical moat."
-            },
-            {
-                "name": "Alphabet (Google)",
-                "ticker": "GOOGL",
-                "weight": 10.1,
-                "sector": "Search & Cloud",
-                "color": "#4285F4",
-                "description": "Google Search processes 8.5 billion queries daily — 90%+ global search market share. Google Cloud growing 28%+ annually, powered by TPU AI chips and Gemini AI integration. YouTube is the world's largest video platform — 2.5B monthly users. DeepMind's AlphaFold, Gemini and Waymo position Alphabet at the frontier of AI and autonomous vehicles."
-            },
-            {
-                "name": "Microsoft",
-                "ticker": "MSFT",
-                "weight": 10.0,
-                "sector": "Enterprise Cloud & AI",
-                "color": "#00A4EF",
-                "description": "Azure cloud platform growing 29%+ annually. $13B OpenAI partnership makes Microsoft the exclusive cloud provider for ChatGPT and embeds Copilot AI across Office 365, GitHub, Dynamics and Teams — 300M commercial Office seats. Gaming: Xbox + Activision Blizzard acquisition creates $25B gaming division. Dividend growing 10%+ annually for 22 consecutive years."
-            },
-            {
-                "name": "Netflix",
-                "ticker": "NFLX",
-                "weight": 9.8,
-                "sector": "Streaming",
-                "color": "#E50914",
-                "description": "300M+ paid subscribers globally — 40% of global SVOD market. Password-sharing crackdown converted 100M+ free riders to paying accounts in 2023–24. Ad-supported tier (cheaper subscriptions with ads) creating a high-margin advertising revenue stream that could reach $10B+ by 2027. Live sports (WWE Raw, NFL Christmas games) expand serviceable audience beyond drama/film fans."
-            },
-            {
-                "name": "Tesla",
-                "ticker": "TSLA",
-                "weight": 9.6,
-                "sector": "EV & Energy & AI",
-                "color": "#CC0000",
-                "description": "World's most valuable automaker by market cap. FSD (Full Self Driving) v13 and Cybercab robotaxi are pivotal 2025–26 catalysts. Energy storage (Megapack) growing 200%+ annually — Tesla's highest-margin product. Dojo supercomputer for AI training, Optimus humanoid robot programme. Global Supercharger network (50,000+ chargers) becomes a profit centre as other OEMs pay access fees."
-            },
-            {
-                "name": "Broadcom",
-                "ticker": "AVGO",
-                "weight": 9.4,
-                "sector": "Semiconductors & Networking",
-                "color": "#CC0000",
-                "description": "Diversified semiconductor and infrastructure software giant. Custom AI ASIC chips (XPUs) designed for Google, Meta and ByteDance are rapidly gaining share vs NVIDIA GPUs for inference workloads. VMware acquisition (2023, $69B) transforms Broadcom into an enterprise software powerhouse with $8B+ recurring software revenues. Networking silicon (Tomahawk, Jericho) runs the hyperscaler data-centre fabric."
-            },
-            {
-                "name": "Snowflake",
-                "ticker": "SNOW",
-                "weight": 8.3,
-                "sector": "Cloud Data Platform",
-                "color": "#29B6F6",
-                "description": "Cloud-native data warehouse platform with unique multi-cloud architecture. 9,800+ customers including 700 of the Global 2000. Snowflake Cortex embeds LLM capabilities (text-to-SQL, document AI, ML models) directly into the data cloud. Consumption-based pricing model means revenue tracks customer data growth — a strong secular tailwind. Net Revenue Retention consistently above 130%."
-            }
-        ]
+        "indexKey": "nyse-fang-index"
     },
     {
         "id": "mahktech",
@@ -114,88 +33,7 @@
             "companies": 30,
             "description": "Hang Seng Tech Index tracks the 30 largest technology companies listed in Hong Kong — China's equivalent of the Nasdaq. This index offers Indian investors a rare regulated window into Chinese internet giants (Alibaba, Tencent, Meituan) and hardware champions (Xiaomi, BYD, SMIC) that are otherwise inaccessible via Indian domestic markets. The index plunged 65% from its 2021 peak following Beijing's tech crackdown (Ant Group IPO ban, Didi delisting, education sector wipeout), creating an asymmetric recovery opportunity — these companies trade at 10–15x PE vs 25–35x for US equivalents. Structural tailwind: China's 1.4B consumer digital adoption is ~3 years behind the US on cloud migration, e-commerce penetration in Tier-3/4 cities, and AI-native enterprise software. Key risks: regulatory unpredictability (overnight policy reversals), VIE structure (Indian investors own Cayman SPVs, not direct Chinese equity), US-China geopolitical tensions, and Taiwan Strait risk premium. The HKD-INR currency trajectory adds another return layer — HKD is pegged to USD so any USD strength amplifies rupee-denominated returns."
         },
-        "holdings": [
-            {
-                "name": "Alibaba Group",
-                "ticker": "9988.HK",
-                "weight": 8.8,
-                "sector": "E-Commerce & Cloud",
-                "color": "#FF6700",
-                "description": "China's largest e-commerce platform (Taobao, Tmall) with 900M+ annual active consumers. Alibaba Cloud is China's largest cloud provider with 37% market share. Ant Group (33% stake) processes $17T in annual payments. Post-restructuring into six business units aimed at unlocking shareholder value. Post-crackdown value trade: stock at 10x PE vs 40x pre-crackdown peak."
-            },
-            {
-                "name": "Tencent Holdings",
-                "ticker": "0700.HK",
-                "weight": 8.5,
-                "sector": "Social Media & Gaming",
-                "color": "#07C160",
-                "description": "WeChat (Weixin) with 1.35 billion monthly active users is China's everything app — messaging, payments, mini-programs, social commerce. Tencent Games: PUBG Mobile, Honour of Kings, League of Legends (Riot Games majority stake). Cloud and enterprise software fastest growing segment. Major shareholder in Pinduoduo, JD.com, Meituan — a portfolio of China's digital economy."
-            },
-            {
-                "name": "Meituan",
-                "ticker": "3690.HK",
-                "weight": 8.3,
-                "sector": "Food Delivery & Local Services",
-                "color": "#FFCC00",
-                "description": "China's dominant food delivery platform with 70%+ market share — 40M+ daily orders. Expanding into autonomous delivery drones and self-driving vehicles for last-mile logistics. Hotel and travel ticketing (second largest in China), restaurant management SaaS, and Meituan Select community e-commerce. Profitable core delivery business cross-subsidises aggressive international expansion."
-            },
-            {
-                "name": "Baidu",
-                "ticker": "9888.HK",
-                "weight": 7.9,
-                "sector": "Search & AI",
-                "color": "#2932E1",
-                "description": "China's dominant search engine (70%+ market share) — the 'Google of China'. Ernie Bot / ERNIE 4.0 is China's leading general-purpose LLM with 200M+ users. Apollo autonomous driving platform: 100M+ km of road testing data, the most of any Chinese AV company. Baidu Cloud growing 15%+ annually on AI infrastructure demand. Deepseek partnership adds open-source AI credibility."
-            },
-            {
-                "name": "JD.com",
-                "ticker": "9618.HK",
-                "weight": 7.2,
-                "sector": "E-Commerce & Logistics",
-                "color": "#C0392B",
-                "description": "China's second-largest e-commerce platform specialising in authentic, high-quality electronics and appliances. Owns and operates its own 1,500+ warehouse logistics network — unparalleled same-day and next-day delivery. JD Logistics (separately listed) is a strategic moat serving both JD marketplace and third-party merchants. Gross merchandise value $440B+ annually."
-            },
-            {
-                "name": "Xiaomi Corporation",
-                "ticker": "1810.HK",
-                "weight": 6.8,
-                "sector": "Consumer Electronics & EV",
-                "color": "#FF6900",
-                "description": "World's 3rd largest smartphone brand with 900M+ IoT devices in its ecosystem. Xiaomi SU7 electric sedan launched 2024 — 240,000 units delivered in first year, marking a serious EV market entry. Human × Car × Home AIoT strategy creates a unified AI-powered smart home and mobility ecosystem. Aggressive international expansion across Southeast Asia, Europe and India."
-            },
-            {
-                "name": "NetEase",
-                "ticker": "9999.HK",
-                "weight": 5.9,
-                "sector": "Gaming & Music",
-                "color": "#D32F2F",
-                "description": "China's second-largest games company (after Tencent). Franchises: Fantasy Westward Journey, Identity V, Naraka: Bladepoint. NetEase Cloud Music is China's #2 music streaming platform. Youdao online education subsidiary leverages AI-powered learning tools. International game publishing expanding rapidly — Party Animals viral success in global markets."
-            },
-            {
-                "name": "BYD Company",
-                "ticker": "1211.HK",
-                "weight": 5.2,
-                "sector": "Electric Vehicles",
-                "color": "#1E88E5",
-                "description": "Warren Buffett-backed (8.98% stake via Berkshire) world's largest EV manufacturer by volume. Sells more EVs than Tesla in China. Blade Battery technology (LFP chemistry) offers superior safety and cycle life. Vertical integration: BYD owns its battery, chip, motor and charging ecosystem. EV + plug-in hybrid combined deliveries exceeded 3 million units in 2024. Expanding aggressively into Southeast Asia and Europe."
-            },
-            {
-                "name": "Kuaishou Technology",
-                "ticker": "1024.HK",
-                "weight": 4.8,
-                "sector": "Short Video & Social",
-                "color": "#FF4500",
-                "description": "China's #2 short video platform with 700M+ monthly active users — TikTok's Chinese sibling. E-commerce live-streaming gross merchandise value $250B+ annually. Strong in Tier-3/4 cities and rural China where Douyin/TikTok has less penetration. AI-generated video content tools driving creator productivity. Kuaishou Kling is China's leading video generation AI model, competing with OpenAI Sora."
-            },
-            {
-                "name": "SMIC (Semiconductor Manufacturing)",
-                "ticker": "0981.HK",
-                "weight": 4.3,
-                "sector": "Semiconductors",
-                "color": "#7B1FA2",
-                "description": "China's largest and most advanced domestic chip foundry — the strategic backbone of China's semiconductor self-sufficiency drive. Achieved 7nm production capability despite US export controls, using ASML legacy DUV equipment with multiple patterning. Major government funding recipient under 'Big Fund' initiative. Customers include Huawei HiSilicon, UNISOC and Chinese automotive chip designers."
-            }
-        ]
+        "indexKey": "hang-seng-tech-index"
     },
     {
         "id": "hngsngbees",
@@ -213,88 +51,7 @@
             "companies": 80,
             "description": "Hang Seng Index (HSI) is Hong Kong's benchmark equity index — 80 companies across Finance, Properties, Utilities, Commerce & Industry. Unlike MAHKTECH's pure China internet focus, HSI is a diversified blend: AIA (life insurance), HSBC (global banking), HKEX (stock exchange), Hong Kong Utilities, Chinese banks (BoC HK) and property developers alongside internet giants Tencent and Alibaba. This makes HNGSNGBEES a more conservative, less volatile International ETF than MAHKTECH — suitable for investors wanting broad Hong Kong + China blue-chip exposure rather than concentrated tech bets. Index carries unique characteristics: HKD peg to USD means no HKD-USD currency risk but full USD-INR exposure. HSI was the world's worst-performing major index in 2021–2022 (down 40%) following China's regulatory crackdown and property sector debt crisis (Evergrande). A mean-reversion thesis drives continued interest — the index trades at 9-10x PE vs 21x for S&P 500 and 23x for Nifty 50. Risks: China property sector overhang (Country Garden, Evergrande), capital outflow pressure, Hong Kong autonomy concerns post-2019 political changes, and global interest rate impact on REIT/utility components."
         },
-        "holdings": [
-            {
-                "name": "AIA Group",
-                "ticker": "1299.HK",
-                "weight": 9.2,
-                "sector": "Insurance",
-                "color": "#D32F2F",
-                "description": "Asia's largest independent publicly listed pan-Asian life insurance group — 42 million individual policies across 18 markets. Market leadership in Hong Kong, Thailand, Singapore, Malaysia and China. Annual premium equivalent (APE) sales growing 15%+ in Mainland China as middle class wealth grows and insurance penetration increases from under 5%. Best-in-class embedded value metrics and consistent dividend growth."
-            },
-            {
-                "name": "HSBC Holdings",
-                "ticker": "0005.HK",
-                "weight": 8.6,
-                "sector": "Global Banking",
-                "color": "#DB0011",
-                "description": "One of the world's largest banks by assets ($3T+). Uniquely positioned as the bridge bank between Western and Asian capital flows. 40M+ customers across 62 territories. Hong Kong and Asia accounts for 60%+ of pre-tax profits. Aggressive pivot to Asia under 'Pivot to Growth' strategy — divesting European and Canadian retail banking. Consistent dividend payer and buyback executor."
-            },
-            {
-                "name": "Tencent Holdings",
-                "ticker": "0700.HK",
-                "weight": 7.8,
-                "sector": "Technology",
-                "color": "#07C160",
-                "description": "China's largest technology conglomerate and the largest constituent by market cap. WeChat's 1.35B users make it China's digital highway — every business, government service and social interaction flows through it. Online games, cloud computing and fintech (WeChat Pay) are high-growth adjacencies. Tencent Music, iQIYI investment, and massive equity portfolio in Chinese internet companies add hidden NAV."
-            },
-            {
-                "name": "Alibaba Group",
-                "ticker": "9988.HK",
-                "weight": 6.5,
-                "sector": "E-Commerce & Cloud",
-                "color": "#FF6700",
-                "description": "China's e-commerce and cloud computing giant. Post-restructuring into six business units (Taobao/Tmall, Cloud Intelligence, Logistics, International, Media, Local Services) unlocks standalone valuations. Cloud business growing amid enterprise digital transformation. International segment (Lazada, AliExpress, Trendyol) capturing global e-commerce share. Buybacks accelerating given deep value (cash > market cap at certain points in 2023–24)."
-            },
-            {
-                "name": "Meituan",
-                "ticker": "3690.HK",
-                "weight": 5.3,
-                "sector": "Food Delivery",
-                "color": "#FFCC00",
-                "description": "China's dominant on-demand delivery super-app. Core food delivery (70M+ daily orders) generates high-frequency consumer touchpoints that cross-sell hotel bookings, travel, grocery and retail. Wang Xing's long-term capital allocation philosophy mirrors Amazon's — reinvesting all profits into new verticals. Keeta overseas food delivery launched in Hong Kong, Saudi Arabia, UAE — early results promising."
-            },
-            {
-                "name": "Hong Kong Exchanges (HKEX)",
-                "ticker": "0388.HK",
-                "weight": 4.9,
-                "sector": "Financial Infrastructure",
-                "color": "#C62828",
-                "description": "One of the world's largest stock exchange operators by market capitalisation. HKEX is the primary gateway for Chinese company listings accessible to global investors. Connect programmes (Stock Connect, Bond Connect, Swap Connect) channel billions of USD/CNH flows daily. LME (London Metal Exchange) ownership makes HKEX a global commodities pricing hub. Revenue highly correlated to market turnover."
-            },
-            {
-                "name": "CK Hutchison Holdings",
-                "ticker": "0001.HK",
-                "weight": 3.8,
-                "sector": "Conglomerate",
-                "color": "#546E7A",
-                "description": "Li Ka-shing's flagship conglomerate spanning ports (the world's largest port operator — 52 ports in 27 countries), telecoms (3 Group Europe — UK, Italy, Austria, Sweden, Denmark), retail (Watsons: 16,000+ stores), infrastructure and energy. Deep asset value — net asset value estimated at 2x market capitalisation. Consistent dividend payer for 30+ years. Potential sum-of-parts unlocking as conglomerate discount narrows."
-            },
-            {
-                "name": "CNOOC Limited",
-                "ticker": "0883.HK",
-                "weight": 3.5,
-                "sector": "Energy",
-                "color": "#1565C0",
-                "description": "China's largest offshore oil and gas producer and the world's largest independent E&P company by production volume. State-owned enterprise with government backing provides strategic stability. Low-cost barrel production ($35–40/barrel breakeven) creates resilient profitability even at moderate oil prices. Ambitious production growth target: 700–720 million BOE by 2025. High dividend yield (6%+) attracts income investors."
-            },
-            {
-                "name": "BYD Company",
-                "ticker": "1211.HK",
-                "weight": 3.2,
-                "sector": "Electric Vehicles",
-                "color": "#1E88E5",
-                "description": "World's top-selling EV maker, backed by Berkshire Hathaway. BYD's vertically integrated model — owning battery chemistry, semiconductor design, motor manufacture, and charging infrastructure — compresses costs below any competitor. The Seagull (cheapest BYD at $10,000) disrupts global market. Expansion into 60+ countries. BYD's DiPilot advanced driver assistance systems closing the gap with Tesla FSD."
-            },
-            {
-                "name": "Xiaomi Corporation",
-                "ticker": "1810.HK",
-                "weight": 3.0,
-                "sector": "Consumer Electronics",
-                "color": "#FF6900",
-                "description": "Ranked #3 global smartphone brand with 900M+ connected IoT devices. Xiaomi SU7 EV exceeded 100,000 delivery milestone within months of launch. Human × Car × Home unified AI ecosystem strategy distinguishes Xiaomi from pure hardware players. Strong presence in India (largest brand in online smartphone segment), Southeast Asia, and Europe. Trading at deep discount to intrinsic value on EV + IoT optionality."
-            }
-        ]
+        "indexKey": "hang-seng-index"
     },
     {
         "id": "mon100",
@@ -312,88 +69,7 @@
             "companies": 100,
             "description": "MON100 (Motilal Oswal NASDAQ 100 ETF) was India's first international ETF and remains the most popular Nasdaq 100 product available to Indian retail investors — with ₹10,200 Cr+ AUM it is by far the largest US-tracking fund in India. The NASDAQ 100 Index selects the 100 largest non-financial companies listed on the Nasdaq Stock Market by modified market cap — effectively capturing the world's leading technology, consumer internet, biotech and media companies. The index's extraordinary performance history (+20% CAGR over 10 years in USD), amplified by INR depreciation against USD, has delivered 22-25% CAGR in INR terms to patient Indian investors. MON100 gives Indian investors genuine global diversification: exposure to Apple, Microsoft, NVIDIA, Amazon, Meta, Alphabet — companies whose products Indians use daily but couldn't previously invest in. The vehicle eliminates forex account requirements (LRS/FEMA limits), works within standard ₹50 lakh LRS quota, attracts long-term capital gains tax at 20% indexation post 36 months. Tracking error vs benchmark is typically 0.5-1% annually. Currency risk (INR/USD) historically works in Indian investors' favour as rupee has depreciated 3-4% annually against dollar — boosting returns. Ideal as 10-20% of a long-term equity portfolio for geographic diversification."
         },
-        "holdings": [
-            {
-                "name": "Apple Inc",
-                "ticker": "AAPL",
-                "weight": 9.12,
-                "sector": "Consumer Technology",
-                "color": "#424242",
-                "description": "World's most valuable company (~$3.5T market cap). iPhone 16 cycle plus Vision Pro spatial computing platform. Services revenue (App Store, AppleTV+, Apple Pay, iCloud) growing at 14% CAGR with 90%+ gross margins. $90B annual buyback the world's largest corporate repurchase program."
-            },
-            {
-                "name": "Microsoft Corporation",
-                "ticker": "MSFT",
-                "weight": 8.87,
-                "sector": "Cloud & Enterprise",
-                "color": "#0078D4",
-                "description": "Azure cloud growing 28%+ annually. OpenAI partnership and Copilot integration across Office 365, Dynamics, GitHub monetising at scale. Activision Blizzard acquisition builds gaming revenue to $25B+. LinkedIn's professional network of 1B members monetising via SaaS HR tools."
-            },
-            {
-                "name": "NVIDIA Corporation",
-                "ticker": "NVDA",
-                "weight": 8.23,
-                "sector": "Semiconductors",
-                "color": "#76B900",
-                "description": "AI infrastructure backbone. H100 and Blackwell GPU clusters power every major LLM (GPT-4, Gemini, Claude, Llama). Data centre revenue 400%+ YoY. CUDA software ecosystem creates insurmountable moat — switching cost to AMD or Intel is 5+ years of AI retraining. Sovereign AI deployments from India, France, Japan, UAE provide government revenue backstop."
-            },
-            {
-                "name": "Amazon.com",
-                "ticker": "AMZN",
-                "weight": 5.43,
-                "sector": "E-Commerce & Cloud",
-                "color": "#FF9900",
-                "description": "AWS (world's largest cloud at 31% market share) generates 60%+ of Amazon's operating profit at 37%+ margins. Prime membership 200M+ globally is the world's most valuable subscription. $50B+ advertising business growing 25%+ now exceeds total revenue of many Fortune 500 companies. Amazon Pharmacy and Clinic digitising US healthcare."
-            },
-            {
-                "name": "Meta Platforms",
-                "ticker": "META",
-                "weight": 4.97,
-                "sector": "Social Media",
-                "color": "#0082FB",
-                "description": "3.3B daily active users across Facebook, Instagram, WhatsApp and Threads. Leading AI infrastructure investor ($60B+ capex 2025). Llama open-source models disrupt premium AI incumbents. Ray-Ban Meta smart glasses and Quest VR headsets point toward next computing paradigm. Advertising revenue re-accelerating post Apple ATT headwinds."
-            },
-            {
-                "name": "Alphabet Inc (Google)",
-                "ticker": "GOOGL",
-                "weight": 4.76,
-                "sector": "Digital Advertising",
-                "color": "#4285F4",
-                "description": "Search engine with 91% global market share. YouTube #2 social platform globally. Google Cloud ($36B run rate) growing 28%+. DeepMind's Gemini Ultra competing at frontier AI. Waymo robotaxis already generating commercial revenue in San Francisco and Phoenix. Trading at 20x PE — discount to peers despite AI leadership."
-            },
-            {
-                "name": "Broadcom Inc",
-                "ticker": "AVGO",
-                "weight": 4.12,
-                "sector": "Semiconductors",
-                "color": "#CC0000",
-                "description": "Custom AI ASIC chips (called XPUs) for Google, Meta and ByteDance are becoming NVIDIA alternatives for cost-efficient at-scale inference. VMware acquisition creates software subscription business with 70% gross margins. 10-year AI revenue growth road map with hyperscaler partnerships signed."
-            },
-            {
-                "name": "Tesla Inc",
-                "ticker": "TSLA",
-                "weight": 3.85,
-                "sector": "Electric Vehicles",
-                "color": "#E31937",
-                "description": "World's most valuable automaker and AI/robotics company. Full Self-Driving v12: end-to-end neural net trained on 2B+ miles. Optimus humanoid robot targeting 2026 commercial production. Energy storage (Megapack) revenue surpassing $10B. Supercharger network becoming industry standard after Ford, GM, Rivian, Hyundai adoptions."
-            },
-            {
-                "name": "Costco Wholesale",
-                "ticker": "COST",
-                "weight": 2.54,
-                "sector": "Retail",
-                "color": "#005DAA",
-                "description": "Membership-model warehouse retailer with 130M+ cardholders. 90%+ renewal rate = recurring subscription revenue. Kirkland Signature private label drives 30%+ of revenue at superior margins. Counter-cyclical: members shop more during recessions for value. Expansion into India potential long-term catalyst."
-            },
-            {
-                "name": "Netflix Inc",
-                "ticker": "NFLX",
-                "weight": 2.31,
-                "sector": "Streaming",
-                "color": "#E50914",
-                "description": "Streaming market leader with 300M+ subscribers in 190 countries. Ad-supported tier monetising 70M+ MAU. Live sports (NFL Christmas games, WWE Raw) driving incremental subscriptions. Account sharing crackdown added 30M+ paid subscribers. Free cash flow positive — moving from growth story to cash cow."
-            }
-        ]
+        "indexKey": "nasdaq-100-index"
     },
     {
         "id": "monq50",
@@ -411,56 +87,7 @@
             "companies": 0,
             "description": "Motilal Oswal Mutual Fund - Motilal Oswal Nasdaq Q 50 ETF tracks the Nasdaq Q-50 Total Return Index index."
         },
-        "holdings": [
-            {
-                "name": "Apple Inc",
-                "ticker": "AAPL",
-                "weight": 8.5,
-                "sector": "Technology",
-                "color": "#212121",
-                "description": "World's most valuable company by market cap. iPhone ecosystem, Mac, iPad, Wearables and Services (App Store, Apple TV+, iCloud). $100B+ annual buyback. Pricing power drives 40%+ service margins."
-            },
-            {
-                "name": "Microsoft Corp",
-                "ticker": "MSFT",
-                "weight": 8.2,
-                "sector": "Technology",
-                "color": "#0078D4",
-                "description": "Enterprise cloud (Azure #2 globally), Office 365, GitHub, LinkedIn, Xbox. Copilot AI integration across all products. $3T market cap. Azure growing 30%+ YoY — key AI infrastructure beneficiary."
-            },
-            {
-                "name": "NVIDIA Corp",
-                "ticker": "NVDA",
-                "weight": 7.9,
-                "sector": "Semiconductors",
-                "color": "#76B900",
-                "description": "GPU monopoly for AI training and inference. Data center revenue >$80B annualised run-rate. H100 and H200 chips powering every major AI model (GPT, Gemini, Claude). CUDA software moat makes switching nearly impossible."
-            },
-            {
-                "name": "Amazon.com Inc",
-                "ticker": "AMZN",
-                "weight": 5.4,
-                "sector": "E-Commerce / Cloud",
-                "color": "#FF9900",
-                "description": "AWS (Amazon Web Services) is the world's largest cloud platform (~33% share). E-commerce operations generate flywheel data for AI/ML. Advertising business growing 20%+ annually. Prime membership 200M+ globally."
-            },
-            {
-                "name": "Meta Platforms Inc",
-                "ticker": "META",
-                "weight": 4.8,
-                "sector": "Social Media",
-                "color": "#1877F2",
-                "description": "Facebook + Instagram + WhatsApp = 3.5B daily active users. Ad targeting via Meta AI maximises ARPU. Reality Labs (Quest headsets) pursuing long-term metaverse opportunity. $50B+ FCF annual generation."
-            },
-            {
-                "name": "Alphabet Inc (Google)",
-                "ticker": "GOOGL",
-                "weight": 4.6,
-                "sector": "Technology / Advertising",
-                "color": "#4285F4",
-                "description": "Google Search (90%+ global market share), YouTube, Google Cloud and Android ecosystem. Gemini AI model powering search generative experience. Waymo autonomous vehicle business. $60B+ annual FCF."
-            }
-        ]
+        "indexKey": "nasdaq-q-50-total-return-index"
     },
     {
         "id": "msciindia",
@@ -478,56 +105,7 @@
             "companies": 100,
             "description": "Kotak Mahindra Mutual Fund - Kotak MSCI India ETF tracks the MSCI India Index index."
         },
-        "holdings": [
-            {
-                "name": "HDFC Bank",
-                "ticker": "HDFCBANK",
-                "weight": 13.2,
-                "sector": "Banking",
-                "color": "#004C91",
-                "description": "India's largest private bank by assets. 8,000+ branches, 25M+ customers. Net interest margin ~4%. Retail/SME/wholesale banking diversification. Post-HDFC Ltd merger, now a universal bank with home loan dominance."
-            },
-            {
-                "name": "Reliance Industries",
-                "ticker": "RELIANCE",
-                "weight": 10.4,
-                "sector": "Conglomerate",
-                "color": "#1A237E",
-                "description": "India's largest company by revenue. Jio Platforms (450M subscribers), Reliance Retail (India's largest retailer), O2C (world's largest refinery complex) and New Energy (solar giga complex in Jamnagar)."
-            },
-            {
-                "name": "ICICI Bank",
-                "ticker": "ICICIBANK",
-                "weight": 8.1,
-                "sector": "Banking",
-                "color": "#B71C1C",
-                "description": "India's 2nd largest private bank. ROE ~17-18%, NIM 4.3%. Digital banking (iMobile app, 40M+ users). Well-provisioned with PCR >80%. Strong retail franchise in mortgages, credit cards and savings accounts."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 5.8,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT company. $18B+ annual revenue from Fortune 500 clients in banking, insurance, retail and manufacturing. AI-powered delivery (Infosys Topaz), 300,000+ employees globally."
-            },
-            {
-                "name": "Larsen & Toubro",
-                "ticker": "LT",
-                "weight": 4.5,
-                "sector": "Engineering",
-                "color": "#FF5722",
-                "description": "India's largest EPC company. ₹4 lakh crore order book. Executing metros, airports, defence, nuclear, data centers and highways across India and Middle East."
-            },
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 4.2,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's largest IT company and most valuable brand. $27B+ revenue, 600,000+ employees in 50+ countries. AI.Cloud and GenAI services growing rapidly as Fortune 1000 clients modernise legacy systems."
-            }
-        ]
+        "indexKey": "msci-india-index"
     },
     {
         "id": "abslmscin",
@@ -545,56 +123,7 @@
             "companies": 100,
             "description": "Aditya Birla Sun Life MF- Aditya Birla Sun Life MSCI India ETF tracks the MSCI India Index index."
         },
-        "holdings": [
-            {
-                "name": "HDFC Bank",
-                "ticker": "HDFCBANK",
-                "weight": 13.2,
-                "sector": "Banking",
-                "color": "#004C91",
-                "description": "India's largest private bank by assets. 8,000+ branches, 25M+ customers. Net interest margin ~4%. Retail/SME/wholesale banking diversification. Post-HDFC Ltd merger, now a universal bank with home loan dominance."
-            },
-            {
-                "name": "Reliance Industries",
-                "ticker": "RELIANCE",
-                "weight": 10.4,
-                "sector": "Conglomerate",
-                "color": "#1A237E",
-                "description": "India's largest company by revenue. Jio Platforms (450M subscribers), Reliance Retail (India's largest retailer), O2C (world's largest refinery complex) and New Energy (solar giga complex in Jamnagar)."
-            },
-            {
-                "name": "ICICI Bank",
-                "ticker": "ICICIBANK",
-                "weight": 8.1,
-                "sector": "Banking",
-                "color": "#B71C1C",
-                "description": "India's 2nd largest private bank. ROE ~17-18%, NIM 4.3%. Digital banking (iMobile app, 40M+ users). Well-provisioned with PCR >80%. Strong retail franchise in mortgages, credit cards and savings accounts."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 5.8,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT company. $18B+ annual revenue from Fortune 500 clients in banking, insurance, retail and manufacturing. AI-powered delivery (Infosys Topaz), 300,000+ employees globally."
-            },
-            {
-                "name": "Larsen & Toubro",
-                "ticker": "LT",
-                "weight": 4.5,
-                "sector": "Engineering",
-                "color": "#FF5722",
-                "description": "India's largest EPC company. ₹4 lakh crore order book. Executing metros, airports, defence, nuclear, data centers and highways across India and Middle East."
-            },
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 4.2,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's largest IT company and most valuable brand. $27B+ revenue, 600,000+ employees in 50+ countries. AI.Cloud and GenAI services growing rapidly as Fortune 1000 clients modernise legacy systems."
-            }
-        ]
+        "indexKey": "msci-india-index"
     },
     {
         "id": "msciadd",
@@ -612,55 +141,6 @@
             "companies": 100,
             "description": "DSP Mutual Fund - DSP MSCI India ETF tracks the MSCI India Index index."
         },
-        "holdings": [
-            {
-                "name": "HDFC Bank",
-                "ticker": "HDFCBANK",
-                "weight": 13.2,
-                "sector": "Banking",
-                "color": "#004C91",
-                "description": "India's largest private bank by assets. 8,000+ branches, 25M+ customers. Net interest margin ~4%. Retail/SME/wholesale banking diversification. Post-HDFC Ltd merger, now a universal bank with home loan dominance."
-            },
-            {
-                "name": "Reliance Industries",
-                "ticker": "RELIANCE",
-                "weight": 10.4,
-                "sector": "Conglomerate",
-                "color": "#1A237E",
-                "description": "India's largest company by revenue. Jio Platforms (450M subscribers), Reliance Retail (India's largest retailer), O2C (world's largest refinery complex) and New Energy (solar giga complex in Jamnagar)."
-            },
-            {
-                "name": "ICICI Bank",
-                "ticker": "ICICIBANK",
-                "weight": 8.1,
-                "sector": "Banking",
-                "color": "#B71C1C",
-                "description": "India's 2nd largest private bank. ROE ~17-18%, NIM 4.3%. Digital banking (iMobile app, 40M+ users). Well-provisioned with PCR >80%. Strong retail franchise in mortgages, credit cards and savings accounts."
-            },
-            {
-                "name": "Infosys",
-                "ticker": "INFY",
-                "weight": 5.8,
-                "sector": "IT Services",
-                "color": "#007CC3",
-                "description": "India's 2nd largest IT company. $18B+ annual revenue from Fortune 500 clients in banking, insurance, retail and manufacturing. AI-powered delivery (Infosys Topaz), 300,000+ employees globally."
-            },
-            {
-                "name": "Larsen & Toubro",
-                "ticker": "LT",
-                "weight": 4.5,
-                "sector": "Engineering",
-                "color": "#FF5722",
-                "description": "India's largest EPC company. ₹4 lakh crore order book. Executing metros, airports, defence, nuclear, data centers and highways across India and Middle East."
-            },
-            {
-                "name": "Tata Consultancy Services",
-                "ticker": "TCS",
-                "weight": 4.2,
-                "sector": "IT Services",
-                "color": "#0A2472",
-                "description": "India's largest IT company and most valuable brand. $27B+ revenue, 600,000+ employees in 50+ countries. AI.Cloud and GenAI services growing rapidly as Fortune 1000 clients modernise legacy systems."
-            }
-        ]
+        "indexKey": "msci-india-index"
     }
 ]

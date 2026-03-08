@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty India Consumption Index",
+  "slug": "nifty-india-consumption-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Hindustan Unilever",
+      "ticker": "HINDUNILVR",
+      "weight": 5.2235,
+      "sector": "FMCG",
+      "color": "#1565C0",
+      "description": "Largest FMCG company. Surf Excel, Dove, Pepsodent, Magnum. Rural distribution of 9M+ outlets. Premium beauty brands (Lakmé, TRESemmé) growing fast. Consistent 90%+ dividend payout ratio."
+    },
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 7.9087,
+      "sector": "FMCG / Cigarettes",
+      "color": "#388E3C",
+      "description": "Cigarettes fund FMCG (Aashirvaad, Sunfeast, Bingo) which is India's fastest-growing FMCG. Hotels, agri-business, paper. Hotels demerger unlocking value. ESG improvement with reduction in cigarette dependence."
+    },
+    {
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "weight": 4.9122,
+      "sector": "Auto",
+      "color": "#FF6F00",
+      "description": "~42% passenger vehicle market share. CNG vehicle leadership. Baleno, Swift, Ertiga top sellers. New SUV launches (Grand Vitara, Fronx, Jimny) targeting premium buyers. Export growth to 100+ countries."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 4.628,
+      "sector": "Jewellery & Retail",
+      "color": "#FFB300",
+      "description": "Tata Group's consumer lifestyle powerhouse. Tanishq jewellery (70% revenue), Fastrack/Titan watches, Taneira sarees, Mia gold jewellery. Expanding into eyewear (Titan Eye+) and premium accessories."
+    },
+    {
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "weight": 2.732,
+      "sector": "Paints",
+      "color": "#FF5722",
+      "description": "India's dominant decorative paint company with 50%+ market share. Premium Royale and Signature brands. Services (Home Decor, Beautiful Homes) differentiating beyond paint. 26 manufacturing plants."
+    },
+    {
+      "name": "Avenue Supermarts (DMART)",
+      "ticker": "DMART",
+      "weight": 1.5133,
+      "sector": "Retail - Value",
+      "color": "#E91E63",
+      "description": "India's most efficient value retailer. EDLP strategy. 300+ stores in Maharashtra, Gujarat, Andhra. Store economics with 18% ROCE. DMart Ready online for kirana-like convenience."
+    },
+    {
+      "name": "Trent Ltd",
+      "ticker": "TRENT",
+      "weight": 2.1887,
+      "sector": "Retail - Fashion",
+      "color": "#7B1FA2",
+      "description": "Zudio's ultra-value fashion model disrupting apparel retail. Westside premium stores. Zara and M&S partnerships for luxury fashion. Store count growing 30%+ annually."
+    },
+    {
+      "name": "Jubilant FoodWorks",
+      "ticker": "JUBLFOOD",
+      "weight": 4.23,
+      "sector": "QSR",
+      "color": "#F44336",
+      "description": "Domino's Pizza master franchisee for India, Bangladesh, Nepal, Sri Lanka. Popeyes and Hong's Kitchen new brand launches. 1,900+ Domino's stores. Digital ordering 75%+ of revenues."
+    },
+    {
+      "name": "Varun Beverages",
+      "ticker": "VBL",
+      "weight": 1.6256,
+      "sector": "Beverages",
+      "color": "#1976D2",
+      "description": "Pepsi bottler for India and international markets. Sting energy drink disrupting market. Sub-Saharan Africa expansion. Strong revenue growth 20%+ driven by energy drinks and rural distribution push."
+    },
+    {
+      "name": "Bata India",
+      "ticker": "BATAINDIA",
+      "weight": 3.12,
+      "sector": "Footwear",
+      "color": "#795548",
+      "description": "India's largest footwear company by outlets. Hush Puppies, Comfit, Marie Claire licensed brands. Power brand for affordable schools and workwear. Sneaker collaboration products targeting GenZ."
+    }
+  ]
+}

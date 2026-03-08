@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty PSU Bank",
+  "slug": "nifty-psu-bank",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "State Bank of India",
+      "ticker": "SBIN",
+      "weight": 64.4174,
+      "sector": "Public Sector Banking",
+      "color": "#1B5E20",
+      "description": "India's largest bank by deposits and assets — commanding ~22,000 branches and 60,000+ ATMs. Post-NPA-cleanup ROE is recovering to 15%+. YONO super app (70M+ users). Key PSU credit off-taker for government schemes — PM Housing, Kisan Credit and Jan Dhan."
+    },
+    {
+      "name": "Bank of Baroda",
+      "ticker": "BANKBARODA",
+      "weight": 7.4549,
+      "sector": "Public Sector Banking",
+      "color": "#1565C0",
+      "description": "India's 2nd largest PSU bank. 109+ international offices (largest PSU bank international footprint). NIM recovery driven by CASA improvement and better pricing discipline post-Vijaya and Dena Bank mergers. ROE 16%+ for FY25."
+    },
+    {
+      "name": "Canara Bank",
+      "ticker": "CANARABANK",
+      "weight": 11.2,
+      "sector": "Public Sector Banking",
+      "color": "#0D47A1",
+      "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
+    },
+    {
+      "name": "Punjab National Bank",
+      "ticker": "PNB",
+      "weight": 5.5891,
+      "sector": "Public Sector Banking",
+      "color": "#37474F",
+      "description": "India's 4th largest PSU bank. Post-fraud recovery complete — GNPA from 18% peak down to 5%. United Bank and Oriental Bank merger digested. North India distribution advantage for MSME and retail credit."
+    },
+    {
+      "name": "Union Bank of India",
+      "ticker": "UNIONBANK",
+      "weight": 4.9682,
+      "sector": "Public Sector Banking",
+      "color": "#4527A0",
+      "description": "3-way merger (Union + Andhra + Corporate Bank) created scale advantages. GNPA declining consistently. SME and MUDRA lending growing. Strong Western India rural customer base via original Andhra Bank presence."
+    },
+    {
+      "name": "Bank of India",
+      "ticker": "BANKINDIA",
+      "weight": 2.6383,
+      "sector": "Public Sector Banking",
+      "color": "#006064",
+      "description": "India's 2nd oldest public sector bank. Global presence (22 countries). Trade finance and correspondent banking heritage. NPA resolution in large accounts gathering pace; provisions release driving earnings upgrades."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "indexName": "Shariah",
+  "slug": "shariah",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 12.4,
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "Nifty50 Shariah index excludes companies operating in interest-bearing finance, alcohol, tobacco, pork, media and weapons sectors. Infosys is the largest constituent as banking/finance stocks are excluded. Shariah-screened index has a strong IT and pharma tilt."
+    },
+    {
+      "name": "Tata Consultancy Services",
+      "ticker": "TCS",
+      "weight": 11.2,
+      "sector": "IT Services",
+      "color": "#0A2472",
+      "description": "TCS is 2nd largest in Shariah index absent banks. IT companies natural fit for Islamic finance compliance — pure technology services with no interest income. TCS generates 100% of revenue from technology services."
+    },
+    {
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "weight": 8.1,
+      "sector": "IT Services",
+      "color": "#E65100",
+      "description": "3rd largest after IT sector receives overweight in Shariah vs conventional index. Halal-compliant technology business model — revenues from outsourcing, products and engineering services, zero interest income."
+    },
+    {
+      "name": "Sun Pharmaceuticals",
+      "ticker": "SUNPHARMA",
+      "weight": 6.8,
+      "sector": "Pharma",
+      "color": "#880E4F",
+      "description": "Pharma companies are Shariah-eligible. Sun Pharma is largest pharma company, gains significant weight absent HDFC Bank (~14% in cap-weight) and other banks. Pharmaceutical manufacturing is halal-permissible activity."
+    },
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 6.5,
+      "sector": "Engineering",
+      "color": "#FF5722",
+      "description": "Engineering and construction — Shariah-eligible. L&T's heavy engineering and EPC operations are permissible under Islamic finance principles. Elevated weight vs cap-weight index due to bank exclusion redistributing capital."
+    },
+    {
+      "name": "Maruti Suzuki",
+      "ticker": "MARUTI",
+      "weight": 5.9,
+      "sector": "Automobiles",
+      "color": "#E65100",
+      "description": "Auto manufacturing is Shariah-compliant. Maruti gains outsized weight in Shariah index. Muslim-majority countries (Gulf, Indonesia, Malaysia) are growing export markets for Maruti — strategic fit between index and business geography."
+    }
+  ]
+}

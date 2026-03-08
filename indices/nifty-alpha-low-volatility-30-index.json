@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Alpha Low-Volatility 30 Index",
+  "slug": "nifty-alpha-low-volatility-30-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 9.87,
+      "sector": "Banking",
+      "color": "#1565C0",
+      "description": "Low-volatility anchor. Consistent 16-18% ROE, stable NIM, low NPA. Provides volatility dampening in alpha-low-vol composite index."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 8.45,
+      "sector": "IT Services",
+      "color": "#0277BD",
+      "description": "Large-cap IT with consistent dividend yield (2%+) and low price volatility. GenAI deals providing alpha on stable base."
+    },
+    {
+      "name": "HUL",
+      "ticker": "HINDUNILVR",
+      "weight": 7.23,
+      "sector": "FMCG",
+      "color": "#1E88E5",
+      "description": "FMCG defensive with 50%+ ROCE. Low beta stock providing volatility shield. Premium to broader market justified by earnings consistency."
+    },
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 6.89,
+      "sector": "IT Services",
+      "color": "#283593",
+      "description": "India's largest IT with highest earnings consistency and dividend yield in sector. Low volatility anchor in factor blend."
+    },
+    {
+      "name": "Bajaj Finance",
+      "ticker": "BAJFINANCE",
+      "weight": 6.34,
+      "sector": "NBFC",
+      "color": "#4527A0",
+      "description": "King of consumer lending with strong moat. Alpha from credit expansion at controlled risk providing composite factor exposure."
+    },
+    {
+      "name": "Asian Paints",
+      "ticker": "ASIANPAINT",
+      "weight": 5.78,
+      "sector": "Paints",
+      "color": "#7B1FA2",
+      "description": "Duopoly paints market leader. 60%+ gross margins, asset-light model, low earnings volatility. Stable re-decorating cycle."
+    },
+    {
+      "name": "Zomato",
+      "ticker": "ZOMATO",
+      "weight": 5.12,
+      "sector": "Food Tech",
+      "color": "#E91E63",
+      "description": "Alpha contributor from profitability milestone. Blinkit driving growth acceleration creating alpha in otherwise low-volatility composite."
+    },
+    {
+      "name": "Trent Ltd",
+      "ticker": "TRENT",
+      "weight": 4.78,
+      "sector": "Retail",
+      "color": "#7B1FA2",
+      "description": "Controlled alpha exposure from Zudio expansion. Higher alpha with relatively controlled fundamental risk profile."
+    },
+    {
+      "name": "Titan Company",
+      "ticker": "TITAN",
+      "weight": 4.45,
+      "sector": "Consumer",
+      "color": "#E65100",
+      "description": "Watches, jewellery, eyewear — premium consumer market. Stable earnings with aspirational consumption alpha. Tata Group backing."
+    },
+    {
+      "name": "Nestle India",
+      "ticker": "NESTLEIND",
+      "weight": 4.12,
+      "sector": "FMCG",
+      "color": "#388E3C",
+      "description": "Low-volatility consumer staple. Maggi monopoly with premium portfolio of Munch, KitKat, Nescafe. High ROCE with minimal capital requirement."
+    }
+  ]
+}

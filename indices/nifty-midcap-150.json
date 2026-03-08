@@ -1,0 +1,104 @@
+{
+  "indexName": "Nifty Midcap 150",
+  "slug": "nifty-midcap-150",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Trent Ltd",
+      "ticker": "TRENT",
+      "weight": 2.89,
+      "sector": "Retail",
+      "color": "#E91E63",
+      "description": "Tata Group's retail powerhouse. Zudio — India's fastest-growing value fashion chain (500+ stores). Westside department stores for premium fashion. Star Bazaar hypermarkets. Inditex JV for Zara in India. 35%+ revenue CAGR making it a structural growth story."
+    },
+    {
+      "name": "Dixon Technologies",
+      "ticker": "DIXON",
+      "weight": 1.1259,
+      "sector": "Electronics Manufacturing",
+      "color": "#2196F3",
+      "description": "India's largest EMS (Electronics Manufacturing Services) company. Makes LED TVs (for Samsung, Panasonic), mobile phones (for Motorola, Nokia), washing machines, LED lighting. Pure-play on India's PLI scheme and Make in India electronics manufacturing."
+    },
+    {
+      "name": "Prestige Estates",
+      "ticker": "PRESTIGE",
+      "weight": 0.6155,
+      "sector": "Real Estate",
+      "color": "#795548",
+      "description": "Bangalore-based premium real estate developer. Builds residential (prestige city), commercial offices, retail malls and hospitality properties. Strong brand in South India's property market. NCR expansion adding new growth leg."
+    },
+    {
+      "name": "Kaynes Technology",
+      "ticker": "KAYNES",
+      "weight": 2.05,
+      "sector": "Electronics",
+      "color": "#00BCD4",
+      "description": "Electronic Manufacturing Services company focusing on IoT, industrial electronics and automotive embedded electronics. One of India's fastest-growing EMS players benefiting from domestic electronics production growth and import substitution."
+    },
+    {
+      "name": "Jindal Steel & Power",
+      "ticker": "JINDALSTEL",
+      "weight": 1.98,
+      "sector": "Steel",
+      "color": "#607D8B",
+      "description": "Integrated steel producer (9 MMTPA capacity) with captive iron ore mines in Odisha and coal mines. Operates India's largest single-location blast furnace at Angul, Odisha. Beneficiary of infrastructure capex and PLI for specialty steel."
+    },
+    {
+      "name": "Voltas Ltd",
+      "ticker": "VOLTAS",
+      "weight": 0.9175,
+      "sector": "Consumer Durables",
+      "color": "#00897B",
+      "description": "Tata Group's cooling products and engineering company. India's #1 AC brand by market share (22%). Also into engineering, electro-mechanical projects (MEP in buildings) and refrigeration. Voltas Beko JV for washing machines and refrigerators."
+    },
+    {
+      "name": "Tube Investments of India",
+      "ticker": "TIINDIA",
+      "weight": 0.7924,
+      "sector": "Diversified Engineering",
+      "color": "#FF5722",
+      "description": "Murugappa Group flagship. Metal formed products (tubes, cylinders for auto). TI Cycles (BSA, Hercules, Montra brands). Acquired CG Power (power equipment). New-age mobility investments through Cellestial E-Mobility and Vidhyut-Tech EV drivetrains."
+    },
+    {
+      "name": "Indian Hotels Company",
+      "ticker": "INDHOTEL",
+      "weight": 1.65,
+      "sector": "Hospitality",
+      "color": "#8D6E63",
+      "description": "Tata Group's hospitality arm. Taj Hotels — India's most iconic luxury hotel brand. Vivanta (upscale), SeleQtions, and Ginger (budget). 250+ hotels in 100+ locations globally. Strong RevPAR recovery post-COVID and robust MICE segment."
+    },
+    {
+      "name": "Max Financial Services",
+      "ticker": "MFSL",
+      "weight": 1.2251,
+      "sector": "Insurance",
+      "color": "#7B1FA2",
+      "description": "Parent company of Max Life Insurance — India's 4th largest private life insurer. Strong bancassurance channel via Axis Bank JV. Term and ULIP products growing. Embedded value (EV) growth of 20%+ driving shareholder value creation."
+    },
+    {
+      "name": "Coromandel International",
+      "ticker": "COROMANDEL",
+      "weight": 0.6575,
+      "sector": "Agri-inputs",
+      "color": "#558B2F",
+      "description": "India's 2nd largest phosphatic fertiliser company. Makes DAP, NPK fertilisers, specialty nutrients, crop protection chemicals and organic nutrients. Strong South India distribution. Murugappa Group company with consistent 20%+ ROE."
+    },
+    {
+      "name": "Bharat Forge",
+      "ticker": "BHARATFORG",
+      "weight": 1.3901,
+      "sector": "Forging",
+      "color": "#5D4037",
+      "description": "World's 2nd largest forging company. Makes crankshafts, front axle beams and connecting rods for global auto OEMs. Pivoting to high-margin defence (ATAGS artillery guns) and aerospace components. 40% revenue from exports."
+    },
+    {
+      "name": "Page Industries",
+      "ticker": "PAGEIND",
+      "weight": 0.5429,
+      "sector": "Textiles",
+      "color": "#F06292",
+      "description": "Exclusive licensee of Jockey brand in India, Sri Lanka, Bangladesh and UAE since 1994. India's premium innerwear market leader. Also holds Speedo license for India. Asset-light franchise model with 80%+ ROCE and premium brand positioning."
+    }
+  ]
+}

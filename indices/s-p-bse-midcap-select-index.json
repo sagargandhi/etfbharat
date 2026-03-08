@@ -1,0 +1,56 @@
+{
+  "indexName": "S&P BSE Midcap Select Index",
+  "slug": "s-p-bse-midcap-select-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 2.9,
+      "sector": "IT Services",
+      "color": "#006064",
+      "description": "Mid-cap IT company growing 30%+ revenue annually. Focused on BFSI, healthcare and hitech verticals. AI engineering services hub; Salesforce and Microsoft partner. Strong US presence with large deal wins."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 2.6,
+      "sector": "IT Services",
+      "color": "#004D40",
+      "description": "Travel, BFSI and insurance vertical specialist IT firm. 60%+ offshore delivery, 30% revenue growth CAGR. BPS and HRO acquisitions adding depth. Strong order book visibility gives revenue predictability."
+    },
+    {
+      "name": "Voltas",
+      "ticker": "VOLTAS",
+      "weight": 2.3,
+      "sector": "Consumer Durables",
+      "color": "#E65100",
+      "description": "India's #1 room AC brand with 23% market share. Tata Group branded consumer products business. Also runs EPC cooling systems for industrial/commercial buildings. Summer season super-cycle driving volume growth."
+    },
+    {
+      "name": "Balkrishna Industries",
+      "ticker": "BALKRISIND",
+      "weight": 2.1,
+      "sector": "Auto Ancillary",
+      "color": "#4E342E",
+      "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+    },
+    {
+      "name": "Crompton Greaves Consumer",
+      "ticker": "CROMPTON",
+      "weight": 2.0,
+      "sector": "Consumer Durables",
+      "color": "#607D8B",
+      "description": "India's #2 fans maker and premium kitchen appliances brand. Acquired Butterfly brand for South India distribution. Energy-efficient BLDC fans driving ASP upgrade. Strong D2C and modern trade channel growth."
+    },
+    {
+      "name": "Mphasis",
+      "ticker": "MPHASIS",
+      "weight": 1.9,
+      "sector": "IT Services",
+      "color": "#7B1FA2",
+      "description": "Blackstone-backed IT company specialising in BFSI and mortgage technology. Front2Back transformation (F2B) platform for US mortgage servicers. Direct channel growing faster than DXC legacy. Margin expansion underway."
+    }
+  ]
+}

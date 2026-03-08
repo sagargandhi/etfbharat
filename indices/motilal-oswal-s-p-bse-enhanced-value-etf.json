@@ -1,0 +1,88 @@
+{
+  "indexName": "Motilal Oswal S&P BSE Enhanced Value ETF",
+  "slug": "motilal-oswal-s-p-bse-enhanced-value-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "ITC Ltd",
+      "ticker": "ITC",
+      "weight": 11.45,
+      "sector": "FMCG & Conglomerates",
+      "color": "#558B2F",
+      "description": "Value index anchor — cigarettes generate Rs 16,000 Cr+ EBIT at 65%+ margins. Trading at 25x PE vs global FMCG at 35-40x. 3%+ dividend yield. Hotels demerger unlocking NAV."
+    },
+    {
+      "name": "Coal India",
+      "ticker": "COALINDIA",
+      "weight": 9.87,
+      "sector": "Energy - Mining",
+      "color": "#37474F",
+      "description": "World's largest coal miner. Dividend yield 5%+ with government-mandated payouts. ROCE above 50% on minimal reinvestment. Classic Graham-style value."
+    },
+    {
+      "name": "ONGC",
+      "ticker": "ONGC",
+      "weight": 8.95,
+      "sector": "Oil & Gas",
+      "color": "#F57F17",
+      "description": "India's largest oil producer. P/B below 1x. KG-DWN deepwater project adding 40,000+ bopd. Perpetually undervalued with high yield."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 8.12,
+      "sector": "Utilities",
+      "color": "#01579B",
+      "description": "Monopoly transmission PSU. Regulated 15.5% ROE. Dividend yield 4-5%. RE push adding green energy corridors doubling capex."
+    },
+    {
+      "name": "NTPC Ltd",
+      "ticker": "NTPC",
+      "weight": 7.85,
+      "sector": "Utilities",
+      "color": "#1A237E",
+      "description": "India's power backbone. Regulated tariff guarantees ROE. 60 GW renewable target. Trades below replacement cost. 45%+ dividend payout ratio."
+    },
+    {
+      "name": "Vedanta Ltd",
+      "ticker": "VEDL",
+      "weight": 7.23,
+      "sector": "Metals & Mining",
+      "color": "#880E4F",
+      "description": "Diversified natural resources — zinc, aluminium, iron ore, oil and silver. Dividend yield touches 15-20% in upcycles. India's only primary zinc producer."
+    },
+    {
+      "name": "SBI",
+      "ticker": "SBIN",
+      "weight": 6.98,
+      "sector": "Banking - PSU",
+      "color": "#1565C0",
+      "description": "India's largest bank. P/B ratio 1.2-1.5x vs private peers at 2.5-4x despite comparable ROE (15%+). Subsidiary value creation ongoing."
+    },
+    {
+      "name": "HPCL",
+      "ticker": "HINDPETRO",
+      "weight": 4.56,
+      "sector": "Oil & Gas - Refining",
+      "color": "#F44336",
+      "description": "PSU oil marketing company. Discount to replacement cost. Earnings highly cyclical with marketing margins — value opportunity deepens in downcycles."
+    },
+    {
+      "name": "BPCL",
+      "ticker": "BPCL",
+      "weight": 3.87,
+      "sector": "Oil & Gas - Refining",
+      "color": "#FF6F00",
+      "description": "Third PSU oil company with privatisation narrative. Kochi, Mumbai, Bina refineries. Free cash flow robust in positive marketing margin environments."
+    },
+    {
+      "name": "GAIL India",
+      "ticker": "GAIL",
+      "weight": 3.42,
+      "sector": "Gas Distribution",
+      "color": "#00897B",
+      "description": "Natural gas transmission monopoly. 16,000+ km pipeline. Trading at 10x PE with 3% dividend yield — quintessential value play."
+    }
+  ]
+}

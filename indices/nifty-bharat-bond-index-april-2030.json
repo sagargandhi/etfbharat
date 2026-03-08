@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Bharat Bond Index April 2030",
+  "slug": "nifty-bharat-bond-index-april-2030",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "NHAI (Natl Highways Auth)",
+      "ticker": "NHAI-BOND",
+      "weight": 18.45,
+      "sector": "Infrastructure Bond",
+      "color": "#2E7D32",
+      "description": "NHAI AAA-rated bonds maturing 2029-30. Backed by Government of India. Funds National Highway construction programme. Sovereign-equivalent credit quality with slightly higher yield than G-Secs."
+    },
+    {
+      "name": "REC Ltd (Rural Electrification)",
+      "ticker": "REC-BOND",
+      "weight": 16.23,
+      "sector": "Power Finance Bond",
+      "color": "#388E3C",
+      "description": "REC Ltd bonds rated AAA by CRISIL and ICRA. Funds rural electrification and renewable energy projects. 54EC capital gains bonds also issued. GoI owns 52.63% — implicit sovereign backing."
+    },
+    {
+      "name": "PFC (Power Finance Corp)",
+      "ticker": "PFC-BOND",
+      "weight": 15.67,
+      "sector": "Power Finance Bond",
+      "color": "#43A047",
+      "description": "PFC AAA bonds. Largest infrastructure finance company for power sector. Funds generation, transmission, and distribution projects. GoI owns 55.99%. Strong NPA coverage ratios."
+    },
+    {
+      "name": "NTPC Ltd",
+      "ticker": "NTPC-BOND",
+      "weight": 12.34,
+      "sector": "Power Sector Bond",
+      "color": "#4CAF50",
+      "description": "India's largest power utility bonds. AAA-rated. NTPC expanding aggressively into solar (60 GW target by 2032). Green bonds also issued for renewable projects. Extremely safe with PSU backing."
+    },
+    {
+      "name": "Indian Railway Finance Corp",
+      "ticker": "IRFC-BOND",
+      "weight": 10.89,
+      "sector": "Railway Finance Bond",
+      "color": "#66BB6A",
+      "description": "IRFC AAA bonds fund Indian Railways capital expenditure. IRFC leases rolling stock and infrastructure to Indian Railways which repays from budget allocation — zero credit risk model."
+    },
+    {
+      "name": "HUDCO (Housing & Urban Dev)",
+      "ticker": "HUDCO-BOND",
+      "weight": 8.56,
+      "sector": "Housing Finance Bond",
+      "color": "#81C784",
+      "description": "HUDCO AAA bonds fund affordable housing and urban infrastructure. PMAY (Pradhan Mantri Awas Yojana) projects financed. Government of India holds 81.78% stake."
+    },
+    {
+      "name": "Nabard",
+      "ticker": "NABARD-BOND",
+      "weight": 7.23,
+      "sector": "Agriculture Finance Bond",
+      "color": "#A5D6A7",
+      "description": "National Bank for Agriculture and Rural Development bonds. AAA-rated. Refinances cooperative and rural banks for agricultural lending. GoI + RBI hold 100% — zero default risk."
+    },
+    {
+      "name": "SIDBI",
+      "ticker": "SIDBI-BOND",
+      "weight": 5.45,
+      "sector": "MSME Finance Bond",
+      "color": "#C8E6C9",
+      "description": "Small Industries Development Bank of India bonds. AAA-rated. Provides refinancing to banks and NBFCs lending to MSMEs. Government-owned development financial institution."
+    },
+    {
+      "name": "Exim Bank",
+      "ticker": "EXIMBANK-BOND",
+      "weight": 3.23,
+      "sector": "Export Finance Bond",
+      "color": "#E8F5E9",
+      "description": "Export-Import Bank of India bonds. AAA-rated. Funds India's export credit and project exports. Strategic importance in India's trade finance architecture. 100% GoI-owned."
+    },
+    {
+      "name": "Gas Authority (GAIL)",
+      "ticker": "GAIL-BOND",
+      "weight": 2.18,
+      "sector": "Energy Bond",
+      "color": "#F1F8E9",
+      "description": "GAIL (India) Ltd bonds. AAA-rated. India's largest natural gas transmission and distribution company. Petrochemicals and city gas distribution. Navratna PSU under MoPNG."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "indexName": "BSE India Infrastructure Total Return Index",
+  "slug": "bse-india-infrastructure-total-return-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Larsen & Toubro",
+      "ticker": "LT",
+      "weight": 18.4,
+      "sector": "EPC & Construction",
+      "color": "#FF5722",
+      "description": "Dominant EPC and engineering group — the single largest infrastructure company in India by order book, revenue and market cap. Executes projects across all infra verticals from nuclear plants to metro rail."
+    },
+    {
+      "name": "NTPC",
+      "ticker": "NTPC",
+      "weight": 10.2,
+      "sector": "Power Generation",
+      "color": "#4CAF50",
+      "description": "India's state-owned power giant generating nearly 25% of India's electricity. Expanding rapidly into renewables (solar, wind, hydro) through NTPC Green Energy. Preferred buyer of power for state discoms, ensuring revenue visibility."
+    },
+    {
+      "name": "Power Grid Corporation",
+      "ticker": "POWERGRID",
+      "weight": 8.7,
+      "sector": "Transmission",
+      "color": "#009688",
+      "description": "India's electricity transmission monopoly. Regulated tariff model ensures stable 15-16% ROE. HVDC Green Energy Corridors being built to transmit solar and wind power from generation-rich states to consumption-heavy metros."
+    },
+    {
+      "name": "UltraTech Cement",
+      "ticker": "ULTRACEMCO",
+      "weight": 7.9,
+      "sector": "Building Materials",
+      "color": "#607D8B",
+      "description": "India's cement behemoth with 130 MT capacity — more than the next two competitors combined. Infrastructure boom translates directly to cement demand: each km of national highway requires 3,000+ tonnes; housing for all adds millions of units annually."
+    },
+    {
+      "name": "Adani Ports & SEZ",
+      "ticker": "ADANIPORTS",
+      "weight": 7.3,
+      "sector": "Ports & Logistics",
+      "color": "#1565C0",
+      "description": "India's largest commercial port operator with unmatched coastal infrastructure. Mundra, Hazira, Kattupalli, Dhamra and other ports serve as gateways for India's $1T+ merchandise trade. Sagarmala program works in tandem with APSEZ expansion."
+    },
+    {
+      "name": "Bharti Airtel",
+      "ticker": "BHARTIARTL",
+      "weight": 6.5,
+      "sector": "Telecom Infrastructure",
+      "color": "#E91E63",
+      "description": "Digital infrastructure backbone of India. 380M+ subscribers on 4G/5G. Tower infrastructure (shared via Indus Towers), fiber rollout across cities and enterprise connectivity form the digital infra layer of every new smart city and industrial corridor."
+    }
+  ]
+}

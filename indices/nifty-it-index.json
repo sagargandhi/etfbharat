@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty IT Index",
+  "slug": "nifty-it-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "TCS",
+      "ticker": "TCS",
+      "weight": 22.2072,
+      "sector": "IT Services",
+      "color": "#006064",
+      "description": "India's largest IT company by revenue and market cap. Serves 1,200+ clients across 150 locations in 50+ countries. Market leader in BFSI, retail and manufacturing verticals. Generative AI deals ramping rapidly — over 100 AI-driven large deal wins announced in FY25."
+    },
+    {
+      "name": "Infosys",
+      "ticker": "INFY",
+      "weight": 39.0177,
+      "sector": "IT Services",
+      "color": "#00BCD4",
+      "description": "Global IT pioneer with Cobalt cloud platform. Strong in consulting-led large deals — $4B+ TCV quarterly. Carbon-neutral operations since 2020. AI-first strategy with Infosys Topaz platform for enterprise AI transformation."
+    },
+    {
+      "name": "HCL Technologies",
+      "ticker": "HCLTECH",
+      "weight": 12.1716,
+      "sector": "IT Services",
+      "color": "#0097A7",
+      "description": "Products-led IT company with HCL Software generating $650M+ annual recurring revenue. IBM software IP portfolio acquisition a game-changer. Strong ER&D services in auto, aerospace and semiconductors."
+    },
+    {
+      "name": "Wipro",
+      "ticker": "WIPRO",
+      "weight": 4.7545,
+      "sector": "IT Services",
+      "color": "#7B1FA2",
+      "description": "Diversified IT services transforming with consulting-led strategy. Capco (BFSI), Rizing (SAP), Edgile (Cyber) acquisitions elevate margins. 230,000+ employees across 65 countries. Wipro Enterprise AI platform launched."
+    },
+    {
+      "name": "Tech Mahindra",
+      "ticker": "TECHM",
+      "weight": 7.2033,
+      "sector": "IT Services",
+      "color": "#C62828",
+      "description": "Telecom-focused IT company under Project Reboot transformation. 5G software and infrastructure a key differentiator. TechM Business Boost AI platform for enterprise clients. Diversifying into BFSI, healthcare and manufacturing."
+    },
+    {
+      "name": "LTIMindtree",
+      "ticker": "LTIM",
+      "weight": 5.67,
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Merged entity of L&T Infotech and Mindtree creating a $4B+ revenue IT major. Strong in BFSI, hi-tech, media and manufacturing. Canvas AI platform driving digital transformation deals across Fortune 500 clients."
+    },
+    {
+      "name": "L&T Technology Services",
+      "ticker": "LTTS",
+      "weight": 4.89,
+      "sector": "Engineering R&D",
+      "color": "#FF5722",
+      "description": "Pure-play engineering R&D services company. Strong in automotive EV (35% revenue), industrial, telecom and medical devices verticals. Beneficiary of global ER&D spend rising to $2.4T by 2030."
+    },
+    {
+      "name": "Mphasis",
+      "ticker": "MPHASIS",
+      "weight": 2.1567,
+      "sector": "IT Services",
+      "color": "#4A148C",
+      "description": "Deep BFSI-focused IT company with DXC Technology lineage. AI-first with DeepInsights platform. Strong US mortgage and banking sector exposure. CEO Nitin Rakesh driving hyper-personalization and cloud-first mandate."
+    },
+    {
+      "name": "Persistent Systems",
+      "ticker": "PERSISTENT",
+      "weight": 4.4231,
+      "sector": "IT Services",
+      "color": "#2196F3",
+      "description": "Fastest-growing large mid-cap IT company. Specializes in product engineering, Salesforce, and cloud-native development. Salesforce Partner of the Year multiple times. 25%+ revenue growth for 8+ consecutive quarters."
+    },
+    {
+      "name": "Coforge",
+      "ticker": "COFORGE",
+      "weight": 3.3208,
+      "sector": "IT Services",
+      "color": "#00ACC1",
+      "description": "Formerly NIIT Technologies. Transformed into a high-growth IT services company. Deep vertical expertise in travel, BFSI and insurance. Xceltrait and SLK acquisition expanding US market. Strong deal momentum at $1B+ TCV."
+    }
+  ]
+}

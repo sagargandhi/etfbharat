@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty India Defence Index TRI",
+  "slug": "nifty-india-defence-index-tri",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Bharat Electronics",
+      "ticker": "BEL",
+      "weight": 38.7229,
+      "sector": "Defence Electronics",
+      "color": "#FF6F00",
+      "description": "Leading defence electronics PSU. Major supplier of radars, missile systems, and communication equipment."
+    },
+    {
+      "name": "Hindustan Aeronautics",
+      "ticker": "HAL",
+      "weight": 17.604,
+      "sector": "Aerospace",
+      "color": "#1565C0",
+      "description": "India's premier aerospace manufacturer. Key supplier of aircraft and helicopters to Indian defence forces."
+    },
+    {
+      "name": "Bharat Forge",
+      "ticker": "BHARATFORG",
+      "weight": 11.7549,
+      "sector": "Defence Forging",
+      "color": "#795548",
+      "description": "Major player in artillery, armoured vehicles, and munitions. Strong defence order book."
+    },
+    {
+      "name": "Solar Industries India",
+      "ticker": "SOLARINDS",
+      "weight": 8.4967,
+      "sector": "Ammunition & Explosives",
+      "color": "#F9A825",
+      "description": "Largest manufacturer of industrial explosives and defence ammunition in India."
+    },
+    {
+      "name": "Mazagon Dock Shipbuilders",
+      "ticker": "MAZDOCK",
+      "weight": 4.3342,
+      "sector": "Shipbuilding",
+      "color": "#3F51B5",
+      "description": "Leading naval shipbuilder. Monopoly in submarine building for Indian Navy."
+    },
+    {
+      "name": "Bharat Dynamics",
+      "ticker": "BDL",
+      "weight": 2.8751,
+      "sector": "Missile Systems",
+      "color": "#C62828",
+      "description": "Key manufacturer of missiles and allied defence equipment."
+    },
+    {
+      "name": "Cochin Shipyard",
+      "ticker": "COCHINSHIP",
+      "weight": 2.9133,
+      "sector": "Shipbuilding",
+      "color": "#009688",
+      "description": "Major shipbuilder for Indian Navy and Coast Guard."
+    },
+    {
+      "name": "Astra Microwave Products",
+      "ticker": "ASTRAMICRO",
+      "weight": 2.0262,
+      "sector": "Defence Electronics",
+      "color": "#673AB7",
+      "description": "Specialist in RF and microwave products for defence and space."
+    },
+    {
+      "name": "Garden Reach Shipbuilders & Engineers",
+      "ticker": "GRSE",
+      "weight": 1.7061,
+      "sector": "Shipbuilding",
+      "color": "#009688",
+      "description": "Kolkata-based shipbuilder. First Indian shipyard to export warships."
+    },
+    {
+      "name": "Data Patterns (India)",
+      "ticker": "DATAPATTNS",
+      "weight": 2.3831,
+      "sector": "Defence Electronics",
+      "color": "#00796B",
+      "description": "Defence and aerospace electronics company. Works on radar, avionics, and missile systems."
+    }
+  ]
+}

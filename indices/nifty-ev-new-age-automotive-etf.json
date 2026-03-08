@@ -1,0 +1,56 @@
+{
+  "indexName": "Nifty EV & New Age Automotive ETF",
+  "slug": "nifty-ev-new-age-automotive-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "Tata Motors",
+      "ticker": "TATAMOTORS",
+      "weight": 22.5,
+      "sector": "Automobiles - EV",
+      "color": "#0D47A1",
+      "description": "India's EV market leader. Tata Nexon EV (India's best-selling EV), Tata Punch EV, Tata Tigor EV. 30%+ domestic EV market share. Tata.ev sub-brand with 1,000+ EV charging points via Tata Power. JLR (UK) transitioning entire portfolio to EVs by 2030. Battery cell partnership with Agratas (Tata subsidiary)."
+    },
+    {
+      "name": "Mahindra & Mahindra",
+      "ticker": "M&M",
+      "weight": 17.8,
+      "sector": "Automobiles - EV",
+      "color": "#4E342E",
+      "description": "BE 6e and XEV 9e — born-electric SUV architecture built on INGLO platform. ₹16,000+ Cr EV investment through 2027. VW JV for EV motors and battery management. Farm equipment also EV — self-driving tractor concept with autonomous farming ambitions."
+    },
+    {
+      "name": "Tata Power",
+      "ticker": "TATAPOWER",
+      "weight": 12.4,
+      "sector": "EV Charging Infrastructure",
+      "color": "#0D47A1",
+      "description": "India's largest EV charging network operator — 5,000+ public chargers across 500+ cities. Tata Power EV app helps 1M+ EV users find nearest charge points. B2B: EPC for Tata Motors, fleet operators and commercial parks. Solar rooftop + EV ecosystem integrated."
+    },
+    {
+      "name": "Exide Industries",
+      "ticker": "EXIDEIND",
+      "weight": 9.6,
+      "sector": "EV Batteries",
+      "color": "#37474F",
+      "description": "India's largest lead-acid battery maker transitioning to lithium-ion EV batteries. Exide Energy Solutions JV with SVOLT (China). 6 GWh LiB gigafactory at Bengaluru. Legacy auto/industrial business funds EV battery capex. First indigenously manufactured EV battery cells."
+    },
+    {
+      "name": "Bharat Forge",
+      "ticker": "BHARATFORG",
+      "weight": 8.2,
+      "sector": "EV Components",
+      "color": "#5D4037",
+      "description": "World's 2nd largest forging company. EV pivot: aluminium battery enclosures, motor housings, suspension components. Kalyani ZF (ZV joint venture) for EV powertrains. Defence forgings (artillery shells, armour) add defence sector upside. Diversified customer base in Europe, North America."
+    },
+    {
+      "name": "Sona BLW Precision",
+      "ticker": "SONACOMS",
+      "weight": 6.8,
+      "sector": "EV Components",
+      "color": "#BF360C",
+      "description": "Pure EV-centric auto component company. Differential assemblies and BSG (Belt Starter Generator) motors for ICE/hybrids/BEVs. 64%+ revenue from EV orders. Global OEM customers include BYD, GAC, Dana, GM. Inverter and motor controller production roadmap."
+    }
+  ]
+}

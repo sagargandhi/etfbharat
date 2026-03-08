@@ -1,0 +1,16 @@
+{
+  "indexName": "Nifty 10yr Benchmark G-Sec Index",
+  "slug": "nifty-10yr-benchmark-g-sec-index",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "GoI 7.10% 2034",
+      "ticker": "IN0020240037",
+      "weight": 100.0,
+      "sector": "Central Government Bond",
+      "color": "#E65100",
+      "description": "Current on-the-run 10-year Government of India Security. Coupon 7.10%, maturing 2034. Included in JP Morgan GBI-EM Global Diversified index since June 2024 — triggers ~$25 billion in passive foreign inflows. RBI Open Market Operations use this as primary instrument. Zero credit risk, backed by sovereign guarantee."
+    }
+  ]
+}

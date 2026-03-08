@@ -1,0 +1,88 @@
+{
+  "indexName": "Nifty Private Bank Index",
+  "slug": "nifty-private-bank-index",
+  "source": "nse",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 41.363,
+      "sector": "Private Banking",
+      "color": "#1A237E",
+      "description": "India's largest private bank post HDFC merger. ₹25 trillion balance sheet. Stable asset quality with GNPA ~1.3%. Largest home loan book via HDFC Ltd integration. Digital: 90M+ customers on mobile banking."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 29.6509,
+      "sector": "Private Banking",
+      "color": "#283593",
+      "description": "Second-largest private bank. Transformation under CEO Sandeep Bakhshi — NIMs expanded, opex controlled, ROE 17%+. Loan book well-diversified across retail, SME, and corporate. iMobile Pay has 9M+ users."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 9.3059,
+      "sector": "Private Banking",
+      "color": "#303F9F",
+      "description": "Premium private bank with one of the industry's best asset quality records. GNPA consistently below 2%. Uday Kotak's franchise known for conservative underwriting. Kotak 811 digital bank has 4M+ accounts."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 11.8926,
+      "sector": "Private Banking",
+      "color": "#3949AB",
+      "description": "Third-largest private bank. Citibank India retail portfolio acquisition added 3M premium credit card customers. Ultra FD and premium banking products. ROE improving trajectory with credit cost normalisation."
+    },
+    {
+      "name": "IndusInd Bank",
+      "ticker": "INDUSINDBK",
+      "weight": 1.9022,
+      "sector": "Private Banking",
+      "color": "#3F51B5",
+      "description": "Wholesale and commercial banking with Bharat Financial Inclusion (microfinance) subsidiary. Vehicle financing market leader. Consumer finance growing rapidly. Mid-size bank with high NIM profile."
+    },
+    {
+      "name": "Federal Bank",
+      "ticker": "FEDERALBNK",
+      "weight": 2.2263,
+      "sector": "Private Banking",
+      "color": "#5C6BC0",
+      "description": "Kerala-headquartered private bank with pan-India ambitions. NRI remittances from Gulf a key low-cost float source. Well-capitalized with strong retail and SME loan growth. Strong South India brand."
+    },
+    {
+      "name": "IDFC First Bank",
+      "ticker": "IDFCFIRSTB",
+      "weight": 1.4617,
+      "sector": "Private Banking",
+      "color": "#7986CB",
+      "description": "Transformed from infrastructure NBFC to retail bank under V. Vaidyanathan. Zero-fee savings account and high-interest FD strategy. Retail loan growth, credit card and personal loan momentum strong."
+    },
+    {
+      "name": "Bandhan Bank",
+      "ticker": "BANDHANBNK",
+      "weight": 0.5091,
+      "sector": "Micro Banking",
+      "color": "#9FA8DA",
+      "description": "Microfinance-turned-bank serving rural and semi-urban India. West Bengal and Northeast concentration risk. Highest NIM in banking (~7%). Diversifying into housing finance and SME banking."
+    },
+    {
+      "name": "RBL Bank",
+      "ticker": "RBLBANK",
+      "weight": 0.5756,
+      "sector": "Private Banking",
+      "color": "#C5CAE9",
+      "description": "Specialty banking in credit cards (co-branded with Bajaj Finance) and microfinance. Niche SME banking franchise. Turnaround story under new management post CEO transition in 2022."
+    },
+    {
+      "name": "Yes Bank",
+      "ticker": "YESBANK",
+      "weight": 1.1128,
+      "sector": "Private Banking",
+      "color": "#E8EAF6",
+      "description": "Reconstructed bank post 2020 RBI intervention. Now owned by SBI (26%) + consortium of banks. Clean balance sheet, improving operational metrics. Small weighting due to reduced free-float market cap."
+    }
+  ]
+}

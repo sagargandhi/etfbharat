@@ -1,0 +1,1829 @@
+{
+  "meta": {
+    "description": "All companies referenced in ETF holdings, keyed by NSE ticker",
+    "version": "1.0",
+    "primaryKey": "nseTicker",
+    "lastUpdated": "2026-03-08",
+    "totalCompanies": 303
+  },
+  "companies": {
+    "GOLD": {
+      "name": "Physical Gold (99.5%)",
+      "sector": "Commodity",
+      "color": "#FFB300",
+      "description": "Investment-grade 99.5% purity gold (London Precious Metals Association certified) stored in bank-operated secure vaults with advanced surveillance (CCTV + motion sensors), 24-hour armed security, and trespass alert systems. HSBC and SBI custodial arrangements provide AAA sovereign credit quality. Each ETF unit = ~1 gram of granulated gold (granules enable rapid buy/sell mechanisms). SEBI mandates independent annual purity audits by NSDL/CDSL. Full insurance coverage against theft, fire, weather events. Completely eliminates counterparty risk — holdings segregated and ring-fenced, protected separately even if custodian becomes insolvent (per Section 139 of Bharatiya Reserve Bank Act). Zero impurity risk that exists with physical jewellery ownership."
+    },
+    "CASH": {
+      "name": "Cash & Liquid Instruments",
+      "sector": "Liquid Assets",
+      "color": "#78909C",
+      "description": "Short-term T-bills and overnight instruments held for liquidity management and redemption purposes. Maintained at minimum levels to maximize gold price exposure for investors."
+    },
+    "SGB": {
+      "name": "Sovereign Gold Bonds (SGB)",
+      "sector": "Govt Securities",
+      "color": "#4CAF50",
+      "description": "Government of India bonds backed by gold, issued by RBI with 2.5% annual interest and sovereign guarantee. Permitted as a substitute for physical gold up to 10% of the scheme. Matures at prevailing gold price."
+    },
+    "SILVER": {
+      "name": "Physical Silver (99.9%)",
+      "sector": "Commodity",
+      "color": "#90A4AE",
+      "description": "High-purity silver bullion of 99.9% fineness stored in LBMA-certified insured vaults. SEBI-mandated regular independent audits ensure unit-holder protection. Growing industrial demand from solar PV (120mg silver per panel) and EV batteries is a structural tailwind."
+    },
+    "IN0020240037": {
+      "name": "GoI 7.10% 2034",
+      "sector": "Central Government Bond",
+      "color": "#E65100",
+      "description": "Current on-the-run 10-year Government of India Security. Coupon 7.10%, maturing 2034. Included in JP Morgan GBI-EM Global Diversified index since June 2024 — triggers ~$25 billion in passive foreign inflows. RBI Open Market Operations use this as primary instrument. Zero credit risk, backed by sovereign guarantee."
+    },
+    "IN0020230019": {
+      "name": "GoI 7.02% 2029",
+      "sector": "Central Government Bond",
+      "color": "#F57F17",
+      "description": "Current on-the-run 5-year Government of India Security. Coupon 7.02%, maturing 2029. Shorter duration means less price volatility for same change in yield. Preferred by conservative investors wanting G-Sec exposure without duration risk. Actively traded on NDS-OM platform by banks and PDs."
+    },
+    "GOI2033-726": {
+      "name": "7.26% GOI 2033",
+      "sector": "Sovereign Bond",
+      "color": "#1565C0",
+      "description": "Current 10-year benchmark Government of India bond. Most liquid G-Sec by trading volume on NDS-OM. Modified duration ~7.2 years. Yield ~7.10-7.30%; widely used by FPIs and domestic institutions to gauge interest rate environment."
+    },
+    "GOI2033-718": {
+      "name": "7.18% GOI 2033",
+      "sector": "Sovereign Bond",
+      "color": "#1976D2",
+      "description": "10-year GOI bond from prior issuance cycle. Lower coupon but similar maturity to benchmark. Both bonds deliver identical sovereign credit quality; minor yield differences reflect issuance cycle and liquidity."
+    },
+    "GOI2035-740": {
+      "name": "7.40% GOI 2035",
+      "sector": "Sovereign Bond",
+      "color": "#1E88E5",
+      "description": "12-year GOI bond offering slightly higher yield than 10-year benchmark from steeper long end of yield curve. Modified duration ~8 years. Suitable for ALM purposes by insurance and pension funds."
+    },
+    "GOI2032-654": {
+      "name": "6.54% GOI 2032",
+      "sector": "Sovereign Bond",
+      "color": "#42A5F5",
+      "description": "9-year G-Sec with below-par coupon reflecting low-rate issuance period (2021-22). Lower coupon = higher duration, amplifying sensitivity to rate changes — beneficial when rates fall."
+    },
+    "GOI2053-730": {
+      "name": "7.30% GOI 2053",
+      "sector": "Sovereign Bond",
+      "color": "#64B5F6",
+      "description": "30-year ultra-long G-Sec included in long-term gilt indices. Modified duration ~16 years. Key holding for insurance and pension liabilities ALM. High convexity benefits from rate cut cycles."
+    },
+    "GOI2028-737": {
+      "name": "7.37% GOI 2028",
+      "sector": "Sovereign Bond",
+      "color": "#1565C0",
+      "description": "Government of India bond maturing in 2028 with 7.37% semi-annual coupon. Benchmark 5-year security. Issued via RBI auctions; eligible as SLR security. Modified duration ~3.8 years; lower interest-rate sensitivity than long bonds."
+    },
+    "GOI2028-717": {
+      "name": "7.17% GOI 2028",
+      "sector": "Sovereign Bond",
+      "color": "#1976D2",
+      "description": "5-year GOI benchmark security with 7.17% coupon. Issued to finance fiscal deficit. Zero default risk; repayment guaranteed by Government of India."
+    },
+    "GOI2029-726": {
+      "name": "7.26% GOI 2029",
+      "sector": "Sovereign Bond",
+      "color": "#1E88E5",
+      "description": "GOI bond maturing 2029. Part of standard G-Sec issuance calendar for medium-duration sovereign exposure. Actively traded on NDS-OM."
+    },
+    "GOI2027-679": {
+      "name": "6.79% GOI 2027",
+      "sector": "Sovereign Bond",
+      "color": "#42A5F5",
+      "description": "3-year residual maturity GOI bond. Lower coupon reflects issuance period of lower rates. Duration ~2.5 years, lower interest rate risk."
+    },
+    "GOI2028-706": {
+      "name": "7.06% GOI 2028",
+      "sector": "Sovereign Bond",
+      "color": "#64B5F6",
+      "description": "Medium-term GOI security. All G-Secs are backed by full faith and credit of the Union of India and RBI guarantees payment on due dates."
+    },
+    "TBILL": {
+      "name": "Treasury Bills (91-day)",
+      "sector": "Government Securities",
+      "color": "#4CAF50",
+      "description": "Short-term Government of India securities with zero credit risk. 91-day T-bills auctioned by RBI weekly. Sovereign backing provides absolute safety. Yields track RBI repo rate with minimal duration risk."
+    },
+    "CP": {
+      "name": "Commercial Paper — AAA",
+      "sector": "Corporate Debt",
+      "color": "#2196F3",
+      "description": "Top-rated (A1+) unsecured promissory notes issued by blue-chip corporates like Reliance, TCS, HDFC and PSU entities. Short tenure of 15-90 days. Higher yield than T-bills (~25-50 bps) with minimal credit risk."
+    },
+    "CD": {
+      "name": "Certificate of Deposit",
+      "sector": "Bank Instruments",
+      "color": "#FF9800",
+      "description": "Negotiable money market instruments issued by scheduled commercial banks (HDFC, ICICI, SBI, Kotak). 7-91 day tenure. RBI-regulated and highly liquid. Credit risk very low given systemic importance of issuing banks."
+    },
+    "TREPS": {
+      "name": "Tri-Party Repo (TREPS)",
+      "sector": "Money Market",
+      "color": "#00838F",
+      "description": "Overnight tri-party repo transactions collateralised by G-Secs, T-Bills and SDL via Clearing Corporation of India (CCIL). Lowest-risk, same-day liquidity. Rate closely tracks RBI repo rate (currently ~6.25-6.50%)."
+    },
+    "TBILL91D": {
+      "name": "91-Day Treasury Bills",
+      "sector": "Government Securities",
+      "color": "#1565C0",
+      "description": "Short-dated Government of India T-Bills maturing in 91 days. Zero default risk, issued weekly by RBI at cut-off yields (~6.5-6.7%). Provide predictable short-term return slightly above overnight TREPS."
+    },
+    "CD-HDFCBANK": {
+      "name": "Certificate of Deposit — HDFC Bank",
+      "sector": "Money Market",
+      "color": "#0D47A1",
+      "description": "Short-term certificate of deposit issued by HDFC Bank (rated A1+). CDs offer marginally higher yield than T-Bills. Maximum 1-year tenor per SEBI Liquid ETF norms. Settled via CCIL."
+    },
+    "CP-RELRETAIL": {
+      "name": "Commercial Paper — Reliance Retail",
+      "sector": "Money Market",
+      "color": "#BF360C",
+      "description": "Short-term commercial paper (CP) issued by Reliance Retail Ventures Ltd (rated A1+) backed by Reliance Industries. CPs offer 5-10 bps higher yield than equivalent CDs. Maximum 91-day tenor per Liquid ETF guidelines."
+    },
+    "TBILL182D": {
+      "name": "182-Day Treasury Bills",
+      "sector": "Government Securities",
+      "color": "#37474F",
+      "description": "Government of India T-Bills maturing in 182 days. Slightly higher yield than 91-day T-Bills while retaining sovereign credit quality. Auctioned fortnightly by RBI."
+    },
+    "MH-SDL-26": {
+      "name": "Maharashtra SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#8E24AA",
+      "description": "Maharashtra SDLs — India's largest state economy. Mumbai financial hub generates massive GST and stamp duty revenues. Strong fiscal position. SDL yield ~25 bps above central G-Sec."
+    },
+    "TN-SDL-26": {
+      "name": "Tamil Nadu SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#9C27B0",
+      "description": "Tamil Nadu SDLs. Manufacturing hub — auto, pharma, electronics. Strong revenue base from GST, electricity tariffs. Chennai-Bengaluru-Coimbatore industrial corridor driving growth."
+    },
+    "KA-SDL-26": {
+      "name": "Karnataka SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#AB47BC",
+      "description": "Karnataka SDLs. Bengaluru's IT sector makes Karnataka a high-GST state. Stamp duty from booming real estate adds to revenue. Well-managed fiscal position relative to peers."
+    },
+    "GJ-SDL-26": {
+      "name": "Gujarat SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#BA68C8",
+      "description": "Gujarat SDLs. India's most industrialised state. GIFT City, petrochemicals (Jamnagar), pharmaceuticals, textiles. Low fiscal deficit ratio. Premium borrowing terms vs other states."
+    },
+    "UP-SDL-26": {
+      "name": "Uttar Pradesh SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#CE93D8",
+      "description": "UP SDLs. India's most populous state and largest economy by GSDP in Hindi belt. Expressway infrastructure, defence corridor, data centers. Improving fiscal management under current government."
+    },
+    "RJ-SDL-26": {
+      "name": "Rajasthan SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#E1BEE7",
+      "description": "Rajasthan SDLs. Renewable energy powerhouse — largest wind and solar installed capacity. Mining royalties from oil, lead, zinc. Higher spread due to slightly elevated fiscal deficit."
+    },
+    "AP-SDL-26": {
+      "name": "Andhra Pradesh SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#F3E5F5",
+      "description": "AP SDLs. Port-led industrialisation (Visakhapatnam, Kakinada). Aquaculture and agriculture exports. New capital Amravati construction restarted. Higher yield due to fiscal stress history."
+    },
+    "TS-SDL-26": {
+      "name": "Telangana SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#EDE7F6",
+      "description": "Telangana SDLs. Hyderabad pharma city, IT and biotech cluster. Youngest state with growing tax base. Infrastructure investment in ORR, Metro Phase-2, and Data Center parks driving borrowing."
+    },
+    "MP-SDL-26": {
+      "name": "Madhya Pradesh SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#D1C4E9",
+      "description": "MP SDLs. Agricultural surplus state — wheat, soybean production. Tourism revenue from Khajuraho, Kanha National Park. Industrial corridors and Smart Cities investment increasing."
+    },
+    "WB-SDL-26": {
+      "name": "West Bengal SDL 2026",
+      "sector": "State Government Bond",
+      "color": "#B39DDB",
+      "description": "West Bengal SDLs. Kolkata port, jute, tea, and engineering industries. Highest SDL spread among major states due to elevated debt-to-GSDP. Compensated by higher yield for risk-tolerant investors."
+    },
+    "AXISBPSETF": {
+      "name": "Axis AAA Bond Plus SDL ETF 2026 Maturity",
+      "sector": "Debt - SDL / AAA Bonds",
+      "color": "#2E7D32",
+      "description": "This is itself the ETF basket (CRISIL IBX AAA Bond Plus SDL Index — Jun 2026). Constituent bonds: a mix of AAA-rated PSU bonds (NABARD, NHAI, IRFC, Power Finance Corporation) and State Development Loans (SDL) across major states (Maharashtra, Gujarat, Karnataka, UP), all maturing by June 2026. Yield to maturity ~7.2-7.5%. SEBI's Target Maturity ETF category — investors who hold to maturity know their return upfront."
+    },
+    "NHAI-BOND": {
+      "name": "NHAI (Natl Highways Auth)",
+      "sector": "Infrastructure Bond",
+      "color": "#2E7D32",
+      "description": "NHAI AAA-rated bonds maturing 2029-30. Backed by Government of India. Funds National Highway construction programme. Sovereign-equivalent credit quality with slightly higher yield than G-Secs."
+    },
+    "REC-BOND": {
+      "name": "REC Ltd (Rural Electrification)",
+      "sector": "Power Finance Bond",
+      "color": "#388E3C",
+      "description": "REC Ltd bonds rated AAA by CRISIL and ICRA. Funds rural electrification and renewable energy projects. 54EC capital gains bonds also issued. GoI owns 52.63% — implicit sovereign backing."
+    },
+    "PFC-BOND": {
+      "name": "PFC (Power Finance Corp)",
+      "sector": "Power Finance Bond",
+      "color": "#43A047",
+      "description": "PFC AAA bonds. Largest infrastructure finance company for power sector. Funds generation, transmission, and distribution projects. GoI owns 55.99%. Strong NPA coverage ratios."
+    },
+    "NTPC-BOND": {
+      "name": "NTPC Ltd",
+      "sector": "Power Sector Bond",
+      "color": "#4CAF50",
+      "description": "India's largest power utility bonds. AAA-rated. NTPC expanding aggressively into solar (60 GW target by 2032). Green bonds also issued for renewable projects. Extremely safe with PSU backing."
+    },
+    "IRFC-BOND": {
+      "name": "Indian Railway Finance Corp",
+      "sector": "Railway Finance Bond",
+      "color": "#66BB6A",
+      "description": "IRFC AAA bonds fund Indian Railways capital expenditure. IRFC leases rolling stock and infrastructure to Indian Railways which repays from budget allocation — zero credit risk model."
+    },
+    "HUDCO-BOND": {
+      "name": "HUDCO (Housing & Urban Dev)",
+      "sector": "Housing Finance Bond",
+      "color": "#81C784",
+      "description": "HUDCO AAA bonds fund affordable housing and urban infrastructure. PMAY (Pradhan Mantri Awas Yojana) projects financed. Government of India holds 81.78% stake."
+    },
+    "NABARD-BOND": {
+      "name": "Nabard",
+      "sector": "Agriculture Finance Bond",
+      "color": "#A5D6A7",
+      "description": "National Bank for Agriculture and Rural Development bonds. AAA-rated. Refinances cooperative and rural banks for agricultural lending. GoI + RBI hold 100% — zero default risk."
+    },
+    "SIDBI-BOND": {
+      "name": "SIDBI",
+      "sector": "MSME Finance Bond",
+      "color": "#C8E6C9",
+      "description": "Small Industries Development Bank of India bonds. AAA-rated. Provides refinancing to banks and NBFCs lending to MSMEs. Government-owned development financial institution."
+    },
+    "EXIMBANK-BOND": {
+      "name": "Exim Bank",
+      "sector": "Export Finance Bond",
+      "color": "#E8F5E9",
+      "description": "Export-Import Bank of India bonds. AAA-rated. Funds India's export credit and project exports. Strategic importance in India's trade finance architecture. 100% GoI-owned."
+    },
+    "GAIL-BOND": {
+      "name": "Gas Authority (GAIL)",
+      "sector": "Energy Bond",
+      "color": "#F1F8E9",
+      "description": "GAIL (India) Ltd bonds. AAA-rated. India's largest natural gas transmission and distribution company. Petrochemicals and city gas distribution. Navratna PSU under MoPNG."
+    },
+    "NHAI-BOND33": {
+      "name": "NHAI (Natl Highways Auth)",
+      "sector": "Infrastructure Bond",
+      "color": "#00695C",
+      "description": "Longer-dated NHAI bonds maturing 2032-33. NHAI is executing the world's second-largest highway construction programme. Bharatmala Phase-I of 34,800 km. Zero sovereign default risk."
+    },
+    "REC-BOND33": {
+      "name": "REC Ltd",
+      "sector": "Power Finance Bond",
+      "color": "#00796B",
+      "description": "REC longer-dated bonds at slightly higher yield than shorter series. Huge opportunity in India's 500 GW renewable energy target by 2030 — REC will fund a large portion of this capex."
+    },
+    "PFC-BOND33": {
+      "name": "PFC (Power Finance Corp)",
+      "sector": "Power Finance Bond",
+      "color": "#00897B",
+      "description": "PFC 2033-maturity bonds. GoI's revised estimates project India needing $500bn in power sector investment by 2030 — PFC and REC are primary funding channels. AAA stable outlook."
+    },
+    "NTPC-BOND33": {
+      "name": "NTPC Ltd",
+      "sector": "Power Sector Bond",
+      "color": "#26A69A",
+      "description": "NTPC's green bond series included. Company targeting 60 GW renewable capacity. Green bonds raise cheaper capital for solar/wind projects. S&P and Moody's rated investment grade."
+    },
+    "IRFC-BOND33": {
+      "name": "Indian Railway Finance Corp",
+      "sector": "Railway Finance Bond",
+      "color": "#4DB6AC",
+      "description": "IRFC 2033-maturity bonds. Indian Railways ₹2.6 trillion annual capex plan fully funded through IRFC. Passenger and freight revenue supports repayment. Effectively sovereign-guaranteed."
+    },
+    "HUDCO-BOND33": {
+      "name": "HUDCO",
+      "sector": "Housing Finance Bond",
+      "color": "#80CBC4",
+      "description": "HUDCO 2033 bonds fund Smart City projects, metro rail, affordable housing. Urban India investment pipeline is massive with 100 smart cities programme. GoI backing ensures AAA rating."
+    },
+    "NABARD-BOND33": {
+      "name": "Nabard",
+      "sector": "Agriculture Finance Bond",
+      "color": "#B2DFDB",
+      "description": "NABARD longer-dated bonds. India's farm credit growth target: ₹20 lakh crore for FY24. NABARD refinancing supports Kisan Credit Cards, microfinance, and rural SHGs."
+    },
+    "SIDBI-BOND33": {
+      "name": "SIDBI",
+      "sector": "MSME Finance Bond",
+      "color": "#E0F2F1",
+      "description": "SIDBI 2033 bonds. India has 63 million MSMEs employing 110 million people. SIDBI's refinance operations are critical to this sector's formal credit access. GoI-owned DFI."
+    },
+    "EXIMBANK-BOND33": {
+      "name": "Exim Bank",
+      "sector": "Export Finance Bond",
+      "color": "#F0F7F6",
+      "description": "Exim Bank 2033 bonds. India targeting $1 trillion exports by FY28 — Exim Bank credit lines to African and ASEAN nations are strategic geopolitical instruments."
+    },
+    "NHB-BOND33": {
+      "name": "NHB (Natl Housing Bank)",
+      "sector": "Housing Finance Bond",
+      "color": "#ECFDF5",
+      "description": "National Housing Bank bonds. NHB regulates all housing finance companies in India. Refinances HFCs (HDFC, LIC Housing) at concessional rates for affordable housing. RBI subsidiary."
+    },
+    "NHAI2031": {
+      "name": "NHAI 7.11% 2031",
+      "sector": "PSU Bond - Infrastructure",
+      "color": "#1565C0",
+      "description": "National Highways Authority of India AAA-rated bond maturing 2031. NHAI bonds backed by Government of India guarantee. Fund National Highway development — 10,000+ km/year target. Zero default risk for all practical purposes."
+    },
+    "PFC2031": {
+      "name": "Power Finance Corporation 2031",
+      "sector": "PSU Bond - NBFC",
+      "color": "#1976D2",
+      "description": "PFC (rated AAA by CRISIL & ICRA) bond maturing 2031. PFC lends to power sector projects — generation, transmission and distribution. Backed by Ministry of Power; part of India's power sector infrastructure financing."
+    },
+    "IRFC2031": {
+      "name": "IRFC 7.00% 2031",
+      "sector": "PSU Bond - Railways",
+      "color": "#1E88E5",
+      "description": "Indian Railway Finance Corporation bond maturing 2031. IRFC borrows from markets and on-lends to Indian Railways at a spread — zero credit risk as it lends to sovereign. AAA-rated; core holding in target maturity bond ETFs."
+    },
+    "REC2031": {
+      "name": "REC Limited 2031",
+      "sector": "PSU Bond - NBFC",
+      "color": "#42A5F5",
+      "description": "REC Limited (formerly Rural Electrification Corporation) AAA-rated bond. Funds power infrastructure lending — generation, transmission, rural electrification. Systemic importance ensures full government backing."
+    },
+    "NTPC2031": {
+      "name": "NTPC Ltd 2031",
+      "sector": "PSU Bond - Power",
+      "color": "#64B5F6",
+      "description": "NTPC Ltd AAA-rated bond maturing 2031. India's largest power generator. Bond proceeds fund new thermal and renewable energy capacity addition. Maharatna PSU; guaranteed dividend payouts reinforce credit quality."
+    },
+    "NABARD2031": {
+      "name": "NABARD 2031",
+      "sector": "PSU Bond - Agriculture",
+      "color": "#4CAF50",
+      "description": "National Bank for Agriculture and Rural Development (NABARD) AAA bond. India's apex agricultural development bank. Funds rural credit, irrigation and cooperative bank refinancing. Backed by RBI + Government equity; quasi-sovereign issuer."
+    },
+    "NHAI2032": {
+      "name": "NHAI 7.35% 2032",
+      "sector": "PSU Bond - Infrastructure",
+      "color": "#1565C0",
+      "description": "NHAI AAA bond maturing December 2032. Slightly longer duration than 2031 bonds, offering marginally higher yield. NHAI has never defaulted and carries implicit government guarantee via Ministry of Road Transport."
+    },
+    "PFC2032": {
+      "name": "Power Finance Corporation 2032",
+      "sector": "PSU Bond - NBFC",
+      "color": "#1976D2",
+      "description": "PFC AAA bond maturing 2032. Power Finance Corporation is India's systemically important NBFC financing power sector capital expenditure. Rated AAA by both CRISIL and ICRA."
+    },
+    "IRFC2032": {
+      "name": "IRFC 7.15% 2032",
+      "sector": "PSU Bond - Railways",
+      "color": "#1E88E5",
+      "description": "Indian Railway Finance Corporation Bharat Bond constituent. IRFC is a 100% Ministry of Finance-owned entity that serves as the financing arm of Indian Railways. All bonds guaranteed by Government of India."
+    },
+    "REC2032": {
+      "name": "REC Limited 2032",
+      "sector": "PSU Bond - NBFC",
+      "color": "#42A5F5",
+      "description": "REC Limited AAA bond for 2032 maturity. REC finances power sector lending across India with special focus on rural electrification. Navratna PSU; consistently profitable for 20+ years."
+    },
+    "HUDCO2032": {
+      "name": "HUDCO 2032",
+      "sector": "PSU Bond - Housing",
+      "color": "#66BB6A",
+      "description": "Housing Urban Development Corporation (HUDCO) AAA bond. Finances affordable housing and urban infrastructure projects. Backed by Ministry of Housing & Urban Affairs. Key instrument for PM Awas Yojana funding."
+    },
+    "NABARD2032": {
+      "name": "NABARD 2032",
+      "sector": "PSU Bond - Agriculture",
+      "color": "#4CAF50",
+      "description": "NABARD Bharat Bond 2032 constituent. Quasi-sovereign issuer (RBI + Government of India stakeholders). Supports rural credit cooperatives, microfinance institutions and agricultural development banks."
+    },
+    "NVDA": {
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "color": "#76FF03",
+      "description": "World's leading GPU designer and the backbone of the AI revolution. H100 and Blackwell chips power ChatGPT, Gemini, Claude and virtually every major LLM in training and inference. Data centre revenue surpassed $40B in FY25 — up 400% YoY. Dominant 80%+ market share in AI accelerators. NVIDIA's CUDA software ecosystem creates an enormous switching cost moat."
+    },
+    "META": {
+      "name": "Meta Platforms",
+      "sector": "Social Media & AI",
+      "color": "#1877F2",
+      "description": "Parent of Facebook, Instagram, WhatsApp and Threads — 3.27 billion daily active people. Llama open-source LLM strategy builds AI developer mindshare. Reality Labs investing $15B+ annually in AR/VR for the metaverse. Advertising precision via first-party social graph data makes Meta resilient to cookie deprecation. Massive buyback programme — $50B+ returned to shareholders in 2024."
+    },
+    "AAPL": {
+      "name": "Apple Inc.",
+      "sector": "Consumer Electronics",
+      "color": "#555555",
+      "description": "World's most valuable company by market cap ($3T+). iPhone installed base of 1.4 billion generates a $100B+ annual services flywheel (App Store, iCloud, Apple Pay, TV+). Apple Intelligence (on-device AI) embedded in iPhone 16 onwards. Services gross margin exceeds 71% vs hardware at 37%, shifting the earnings mix toward higher quality recurring revenues."
+    },
+    "AMZN": {
+      "name": "Amazon",
+      "sector": "Cloud & E-Commerce",
+      "color": "#FF9900",
+      "description": "AWS commands 31% of global cloud infrastructure market and contributes the majority of operating profit despite being a fraction of total revenue. Amazon Bedrock and CodeWhisperer are key enterprise AI plays. Advertising segment crossed $50B revenue in 2024 — world's third-largest digital ad platform. Logistics network with 1,500+ fulfilment centres creates an impossible-to-replicate physical moat."
+    },
+    "GOOGL": {
+      "name": "Alphabet (Google)",
+      "sector": "Search & Cloud",
+      "color": "#4285F4",
+      "description": "Google Search processes 8.5 billion queries daily — 90%+ global search market share. Google Cloud growing 28%+ annually, powered by TPU AI chips and Gemini AI integration. YouTube is the world's largest video platform — 2.5B monthly users. DeepMind's AlphaFold, Gemini and Waymo position Alphabet at the frontier of AI and autonomous vehicles."
+    },
+    "MSFT": {
+      "name": "Microsoft",
+      "sector": "Enterprise Cloud & AI",
+      "color": "#00A4EF",
+      "description": "Azure cloud platform growing 29%+ annually. $13B OpenAI partnership makes Microsoft the exclusive cloud provider for ChatGPT and embeds Copilot AI across Office 365, GitHub, Dynamics and Teams — 300M commercial Office seats. Gaming: Xbox + Activision Blizzard acquisition creates $25B gaming division. Dividend growing 10%+ annually for 22 consecutive years."
+    },
+    "NFLX": {
+      "name": "Netflix",
+      "sector": "Streaming",
+      "color": "#E50914",
+      "description": "300M+ paid subscribers globally — 40% of global SVOD market. Password-sharing crackdown converted 100M+ free riders to paying accounts in 2023–24. Ad-supported tier (cheaper subscriptions with ads) creating a high-margin advertising revenue stream that could reach $10B+ by 2027. Live sports (WWE Raw, NFL Christmas games) expand serviceable audience beyond drama/film fans."
+    },
+    "TSLA": {
+      "name": "Tesla",
+      "sector": "EV & Energy & AI",
+      "color": "#CC0000",
+      "description": "World's most valuable automaker by market cap. FSD (Full Self Driving) v13 and Cybercab robotaxi are pivotal 2025–26 catalysts. Energy storage (Megapack) growing 200%+ annually — Tesla's highest-margin product. Dojo supercomputer for AI training, Optimus humanoid robot programme. Global Supercharger network (50,000+ chargers) becomes a profit centre as other OEMs pay access fees."
+    },
+    "AVGO": {
+      "name": "Broadcom",
+      "sector": "Semiconductors & Networking",
+      "color": "#CC0000",
+      "description": "Diversified semiconductor and infrastructure software giant. Custom AI ASIC chips (XPUs) designed for Google, Meta and ByteDance are rapidly gaining share vs NVIDIA GPUs for inference workloads. VMware acquisition (2023, $69B) transforms Broadcom into an enterprise software powerhouse with $8B+ recurring software revenues. Networking silicon (Tomahawk, Jericho) runs the hyperscaler data-centre fabric."
+    },
+    "SNOW": {
+      "name": "Snowflake",
+      "sector": "Cloud Data Platform",
+      "color": "#29B6F6",
+      "description": "Cloud-native data warehouse platform with unique multi-cloud architecture. 9,800+ customers including 700 of the Global 2000. Snowflake Cortex embeds LLM capabilities (text-to-SQL, document AI, ML models) directly into the data cloud. Consumption-based pricing model means revenue tracks customer data growth — a strong secular tailwind. Net Revenue Retention consistently above 130%."
+    },
+    "9988.HK": {
+      "name": "Alibaba Group",
+      "sector": "E-Commerce & Cloud",
+      "color": "#FF6700",
+      "description": "China's largest e-commerce platform (Taobao, Tmall) with 900M+ annual active consumers. Alibaba Cloud is China's largest cloud provider with 37% market share. Ant Group (33% stake) processes $17T in annual payments. Post-restructuring into six business units aimed at unlocking shareholder value. Post-crackdown value trade: stock at 10x PE vs 40x pre-crackdown peak."
+    },
+    "0700.HK": {
+      "name": "Tencent Holdings",
+      "sector": "Social Media & Gaming",
+      "color": "#07C160",
+      "description": "WeChat (Weixin) with 1.35 billion monthly active users is China's everything app — messaging, payments, mini-programs, social commerce. Tencent Games: PUBG Mobile, Honour of Kings, League of Legends (Riot Games majority stake). Cloud and enterprise software fastest growing segment. Major shareholder in Pinduoduo, JD.com, Meituan — a portfolio of China's digital economy."
+    },
+    "3690.HK": {
+      "name": "Meituan",
+      "sector": "Food Delivery & Local Services",
+      "color": "#FFCC00",
+      "description": "China's dominant food delivery platform with 70%+ market share — 40M+ daily orders. Expanding into autonomous delivery drones and self-driving vehicles for last-mile logistics. Hotel and travel ticketing (second largest in China), restaurant management SaaS, and Meituan Select community e-commerce. Profitable core delivery business cross-subsidises aggressive international expansion."
+    },
+    "9888.HK": {
+      "name": "Baidu",
+      "sector": "Search & AI",
+      "color": "#2932E1",
+      "description": "China's dominant search engine (70%+ market share) — the 'Google of China'. Ernie Bot / ERNIE 4.0 is China's leading general-purpose LLM with 200M+ users. Apollo autonomous driving platform: 100M+ km of road testing data, the most of any Chinese AV company. Baidu Cloud growing 15%+ annually on AI infrastructure demand. Deepseek partnership adds open-source AI credibility."
+    },
+    "9618.HK": {
+      "name": "JD.com",
+      "sector": "E-Commerce & Logistics",
+      "color": "#C0392B",
+      "description": "China's second-largest e-commerce platform specialising in authentic, high-quality electronics and appliances. Owns and operates its own 1,500+ warehouse logistics network — unparalleled same-day and next-day delivery. JD Logistics (separately listed) is a strategic moat serving both JD marketplace and third-party merchants. Gross merchandise value $440B+ annually."
+    },
+    "1810.HK": {
+      "name": "Xiaomi Corporation",
+      "sector": "Consumer Electronics & EV",
+      "color": "#FF6900",
+      "description": "World's 3rd largest smartphone brand with 900M+ IoT devices in its ecosystem. Xiaomi SU7 electric sedan launched 2024 — 240,000 units delivered in first year, marking a serious EV market entry. Human × Car × Home AIoT strategy creates a unified AI-powered smart home and mobility ecosystem. Aggressive international expansion across Southeast Asia, Europe and India."
+    },
+    "9999.HK": {
+      "name": "NetEase",
+      "sector": "Gaming & Music",
+      "color": "#D32F2F",
+      "description": "China's second-largest games company (after Tencent). Franchises: Fantasy Westward Journey, Identity V, Naraka: Bladepoint. NetEase Cloud Music is China's #2 music streaming platform. Youdao online education subsidiary leverages AI-powered learning tools. International game publishing expanding rapidly — Party Animals viral success in global markets."
+    },
+    "1211.HK": {
+      "name": "BYD Company",
+      "sector": "Electric Vehicles",
+      "color": "#1E88E5",
+      "description": "Warren Buffett-backed (8.98% stake via Berkshire) world's largest EV manufacturer by volume. Sells more EVs than Tesla in China. Blade Battery technology (LFP chemistry) offers superior safety and cycle life. Vertical integration: BYD owns its battery, chip, motor and charging ecosystem. EV + plug-in hybrid combined deliveries exceeded 3 million units in 2024. Expanding aggressively into Southeast Asia and Europe."
+    },
+    "1024.HK": {
+      "name": "Kuaishou Technology",
+      "sector": "Short Video & Social",
+      "color": "#FF4500",
+      "description": "China's #2 short video platform with 700M+ monthly active users — TikTok's Chinese sibling. E-commerce live-streaming gross merchandise value $250B+ annually. Strong in Tier-3/4 cities and rural China where Douyin/TikTok has less penetration. AI-generated video content tools driving creator productivity. Kuaishou Kling is China's leading video generation AI model, competing with OpenAI Sora."
+    },
+    "0981.HK": {
+      "name": "SMIC (Semiconductor Manufacturing)",
+      "sector": "Semiconductors",
+      "color": "#7B1FA2",
+      "description": "China's largest and most advanced domestic chip foundry — the strategic backbone of China's semiconductor self-sufficiency drive. Achieved 7nm production capability despite US export controls, using ASML legacy DUV equipment with multiple patterning. Major government funding recipient under 'Big Fund' initiative. Customers include Huawei HiSilicon, UNISOC and Chinese automotive chip designers."
+    },
+    "1299.HK": {
+      "name": "AIA Group",
+      "sector": "Insurance",
+      "color": "#D32F2F",
+      "description": "Asia's largest independent publicly listed pan-Asian life insurance group — 42 million individual policies across 18 markets. Market leadership in Hong Kong, Thailand, Singapore, Malaysia and China. Annual premium equivalent (APE) sales growing 15%+ in Mainland China as middle class wealth grows and insurance penetration increases from under 5%. Best-in-class embedded value metrics and consistent dividend growth."
+    },
+    "0005.HK": {
+      "name": "HSBC Holdings",
+      "sector": "Global Banking",
+      "color": "#DB0011",
+      "description": "One of the world's largest banks by assets ($3T+). Uniquely positioned as the bridge bank between Western and Asian capital flows. 40M+ customers across 62 territories. Hong Kong and Asia accounts for 60%+ of pre-tax profits. Aggressive pivot to Asia under 'Pivot to Growth' strategy — divesting European and Canadian retail banking. Consistent dividend payer and buyback executor."
+    },
+    "0388.HK": {
+      "name": "Hong Kong Exchanges (HKEX)",
+      "sector": "Financial Infrastructure",
+      "color": "#C62828",
+      "description": "One of the world's largest stock exchange operators by market capitalisation. HKEX is the primary gateway for Chinese company listings accessible to global investors. Connect programmes (Stock Connect, Bond Connect, Swap Connect) channel billions of USD/CNH flows daily. LME (London Metal Exchange) ownership makes HKEX a global commodities pricing hub. Revenue highly correlated to market turnover."
+    },
+    "0001.HK": {
+      "name": "CK Hutchison Holdings",
+      "sector": "Conglomerate",
+      "color": "#546E7A",
+      "description": "Li Ka-shing's flagship conglomerate spanning ports (the world's largest port operator — 52 ports in 27 countries), telecoms (3 Group Europe — UK, Italy, Austria, Sweden, Denmark), retail (Watsons: 16,000+ stores), infrastructure and energy. Deep asset value — net asset value estimated at 2x market capitalisation. Consistent dividend payer for 30+ years. Potential sum-of-parts unlocking as conglomerate discount narrows."
+    },
+    "0883.HK": {
+      "name": "CNOOC Limited",
+      "sector": "Energy",
+      "color": "#1565C0",
+      "description": "China's largest offshore oil and gas producer and the world's largest independent E&P company by production volume. State-owned enterprise with government backing provides strategic stability. Low-cost barrel production ($35–40/barrel breakeven) creates resilient profitability even at moderate oil prices. Ambitious production growth target: 700–720 million BOE by 2025. High dividend yield (6%+) attracts income investors."
+    },
+    "COST": {
+      "name": "Costco Wholesale",
+      "sector": "Retail",
+      "color": "#005DAA",
+      "description": "Membership-model warehouse retailer with 130M+ cardholders. 90%+ renewal rate = recurring subscription revenue. Kirkland Signature private label drives 30%+ of revenue at superior margins. Counter-cyclical: members shop more during recessions for value. Expansion into India potential long-term catalyst."
+    },
+    "HDFCBANK": {
+      "name": "HDFC Bank",
+      "sector": "Banking",
+      "color": "#004C91",
+      "description": "India's largest private bank by assets. 8,000+ branches, 25M+ customers. Net interest margin ~4%. Retail/SME/wholesale banking diversification. Post-HDFC Ltd merger, now a universal bank with home loan dominance."
+    },
+    "RELIANCE": {
+      "name": "Reliance Industries",
+      "sector": "Conglomerate",
+      "color": "#1A237E",
+      "description": "India's largest company by revenue. Jio Platforms (450M subscribers), Reliance Retail (India's largest retailer), O2C (world's largest refinery complex) and New Energy (solar giga complex in Jamnagar)."
+    },
+    "ICICIBANK": {
+      "name": "ICICI Bank",
+      "sector": "Banking",
+      "color": "#B71C1C",
+      "description": "India's 2nd largest private bank. ROE ~17-18%, NIM 4.3%. Digital banking (iMobile app, 40M+ users). Well-provisioned with PCR >80%. Strong retail franchise in mortgages, credit cards and savings accounts."
+    },
+    "INFY": {
+      "name": "Infosys",
+      "sector": "IT Services",
+      "color": "#007CC3",
+      "description": "India's 2nd largest IT company. $18B+ annual revenue from Fortune 500 clients in banking, insurance, retail and manufacturing. AI-powered delivery (Infosys Topaz), 300,000+ employees globally."
+    },
+    "LT": {
+      "name": "Larsen & Toubro",
+      "sector": "Engineering",
+      "color": "#FF5722",
+      "description": "India's largest EPC company. ₹4 lakh crore order book. Executing metros, airports, defence, nuclear, data centers and highways across India and Middle East."
+    },
+    "TCS": {
+      "name": "Tata Consultancy Services",
+      "sector": "IT Services",
+      "color": "#0A2472",
+      "description": "India's largest IT company and most valuable brand. $27B+ revenue, 600,000+ employees in 50+ countries. AI.Cloud and GenAI services growing rapidly as Fortune 1000 clients modernise legacy systems."
+    },
+    "BHARTIARTL": {
+      "name": "Bharti Airtel",
+      "sector": "Telecom",
+      "color": "#E91E63",
+      "description": "India's largest telecom operator by revenue with 380M+ subscribers. Active 5G rollout across 5,000+ Indian cities. Operates across 17 African countries. Strong enterprise and home broadband growth under Airtel Business."
+    },
+    "ITC": {
+      "name": "ITC Ltd",
+      "sector": "FMCG",
+      "color": "#4CAF50",
+      "description": "Diversified conglomerate with cigarettes (60% profit), FMCG brands (Aashirvaad, Sunfeast, Yippee, Bingo), hotels (ITC Hotels chain), paperboards and agribusiness. Consistent high-dividend payer. Demerging hotels division in 2024."
+    },
+    "AXISBANK": {
+      "name": "Axis Bank",
+      "sector": "Banking",
+      "color": "#9C27B0",
+      "description": "India's third-largest private bank with 10,000+ touch points. Acquired Citibank India's retail portfolio in 2023 significantly strengthening wealth management and credit cards. Known for Burgundy private banking and digital transformation."
+    },
+    "KOTAKBANK": {
+      "name": "Kotak Mahindra Bank",
+      "sector": "Banking",
+      "color": "#FF3D00",
+      "description": "Premium private bank built by Uday Kotak from a bill discounting NBFC in 1985. Known for conservative lending, best-in-class asset quality and low NPAs. 811 digital banking app serves 35M+ customers."
+    },
+    "HCLTECH": {
+      "name": "HCL Technologies",
+      "sector": "IT",
+      "color": "#0097A7",
+      "description": "India's third-largest IT company by revenue with $13B+ annual revenue. Products-led IT company with strong HCL Software business. Engineering services and infrastructure management leader. IBM software IP acquisition worth $1.8B."
+    },
+    "SBIN": {
+      "name": "State Bank of India",
+      "sector": "Banking",
+      "color": "#FF9800",
+      "description": "India's largest bank commanding 23% deposit share. ₹55 lakh crore in assets, 22,000+ branches and 65,000+ ATMs. YONO digital banking app has 40M+ users. Gateway bank for government schemes and public sector lending."
+    },
+    "SUNPHARMA": {
+      "name": "Sun Pharmaceutical",
+      "sector": "Pharma",
+      "color": "#EC407A",
+      "description": "India's largest pharma company by market cap. Dominant in US specialty dermatology (Ilumya for psoriasis, Cequa for dry eyes). Taro Pharmaceutical subsidiary adds branded Rx strength in North America."
+    },
+    "BAJFINANCE": {
+      "name": "Bajaj Finance",
+      "sector": "NBFC",
+      "color": "#FF3D00",
+      "description": "India's most valuable NBFC with 85M+ customer franchise. Built the most sophisticated consumer lending franchise — EMI cards at retail stores, FDs, insurance, and digital payments. 25%+ annual growth engine."
+    },
+    "NTPC": {
+      "name": "NTPC",
+      "sector": "Power",
+      "color": "#4CAF50",
+      "description": "India's largest power generator with 73 GW operational capacity. State-owned utility transitioning aggressively to renewables — targeting 60 GW renewable capacity by 2032. Consistent high-dividend payer with government backing."
+    },
+    "MARUTI": {
+      "name": "Maruti Suzuki",
+      "sector": "Auto",
+      "color": "#B71C1C",
+      "description": "India's largest car manufacturer with 41%+ market share. JV with Suzuki Japan since 1982. Dominates entry and mid-segments with Alto, Swift, Baleno, Dzire, Ertiga. Transitioning to CNG and hybrid platforms with EV coming."
+    },
+    "TITAN": {
+      "name": "Titan Company",
+      "sector": "Consumer",
+      "color": "#FFD700",
+      "description": "Tata Group's jewellery and watches powerhouse. Tanishq is India's most trusted jewellery brand (₹40,000+ Cr revenue). Fastrack, Titan watches, Sonata. Expanding into eyewear (Titan Eye+) and fragrances."
+    },
+    "WIPRO": {
+      "name": "Wipro",
+      "sector": "IT",
+      "color": "#7B1FA2",
+      "description": "Azim Premji's IT conglomerate transforming under CEO Srinivas Pallia. Strategic European acquisitions (Capco for BFSI consulting, Rizing for SAP). Consumer care division (Santoor, Wipro Baby) is a profitable side business."
+    },
+    "ULTRACEMCO": {
+      "name": "UltraTech Cement",
+      "sector": "Cement",
+      "color": "#607D8B",
+      "description": "India's largest cement manufacturer with 130 MT capacity. Aditya Birla Group flagship. Pan-India presence with 23+ integrated plants, 30+ grinding units. Consolidating via acquisitions — Kesoram, Heidelberg India."
+    },
+    "POWERGRID": {
+      "name": "Power Grid Corp",
+      "sector": "Power",
+      "color": "#009688",
+      "description": "India's monopoly power transmission utility owning 70% of inter-state transmission network. 175,000 circuit km of transmission lines. Regulated 15.5% post-tax returns. Building Green Energy Corridors for renewables integration."
+    },
+    "HINDUNILVR": {
+      "name": "Hindustan Unilever",
+      "sector": "FMCG",
+      "color": "#1976D2",
+      "description": "Indian arm of Unilever with 50+ brands across home care (Surf, Rin), personal care (Dove, Lux) and food (Knorr, Horlicks). Present in 9 out of 10 Indian households. High-dividend payer for decades."
+    },
+    "ASIANPAINT": {
+      "name": "Asian Paints",
+      "sector": "Paints",
+      "color": "#F57C00",
+      "description": "India's dominant paints brand with 55%+ market share in decorative paints. Beautiful Homes studios for interior design. Expanded into waterproofing, wood finishes and adhesives. 65-year-old brand with pristine moat."
+    },
+    "ADANIENT": {
+      "name": "Adani Enterprises",
+      "sector": "Diversified",
+      "color": "#FF6F00",
+      "description": "Flagship incubation platform of Adani Group. Operates 7 Indian airports (Mumbai, Ahmedabad, Lucknow, Jaipur, Guwahati, Thiruvananthapuram, Mangaluru), national highway roads, data centers and solar panel manufacturing in India."
+    },
+    "ZOMATO": {
+      "name": "Zomato",
+      "sector": "Consumer Tech",
+      "color": "#E53935",
+      "description": "India's largest food delivery platform with 250M+ users and 200,000+ restaurant partners. Blinkit quick-commerce acquisition adding grocery delivery. Turned profitable in FY24. Hyperpure (B2B food supply) and District app expanding ecosystem."
+    },
+    "DLF": {
+      "name": "DLF Ltd",
+      "sector": "Real Estate",
+      "color": "#795548",
+      "description": "India's largest listed real estate developer. DLF Cyber City in Gurugram houses hundreds of Fortune 500 MNC offices. Premium residential (The Camellias sold at ₹100 Cr/unit), commercial and retail properties. DCCDL REIT generates stable annuity income."
+    },
+    "PIDILITIND": {
+      "name": "Pidilite Industries",
+      "sector": "Chemicals",
+      "color": "#3F51B5",
+      "description": "Creator of Fevicol — India's most recognized brand worth $1B+. Dr. Fixit waterproofing, Fevikwik instant adhesive, M-Seal epoxy, Araldite. Dominant in adhesives with 350,000+ dealer network. Expanding into construction chemicals globally."
+    },
+    "GODREJCP": {
+      "name": "Godrej Consumer Products",
+      "sector": "FMCG",
+      "color": "#388E3C",
+      "description": "Good Knight (India's #1 mosquito repellent), Cinthol soap, HIT spray. Africa acquisition (Godrej Africa) adds household insecticide revenue. Indonesia business (Megasari) growing fast. Target: 2x market growth rates every year."
+    },
+    "HAVELLS": {
+      "name": "Havells India",
+      "sector": "Consumer Durables",
+      "color": "#FF9800",
+      "description": "Premium electrical and consumer durables brand. Havells switchgear, cables and fans are No.1 or No.2 in respective categories. Lloyd ACs and washing machines targeting Voltas and LG. 15,000+ dealer network across India."
+    },
+    "VEDL": {
+      "name": "Vedanta Ltd",
+      "sector": "Metals & Mining",
+      "color": "#5D4037",
+      "description": "Natural resources major. Hindustan Zinc (67% owned) — world's largest integrated zinc-lead-silver producer. Aluminium, iron ore, oil & gas and copper operations. Anil Agarwal's Vedanta Group. High dividend payouts to parent."
+    },
+    "SIEMENS": {
+      "name": "Siemens India",
+      "sector": "Capital Goods",
+      "color": "#009688",
+      "description": "Indian subsidiary of Siemens AG Germany. Factory automation (PLCs, drives), smart infrastructure (buildings, grids), rail electrification and digitalization solutions. Direct beneficiary of India's ₹11 lakh crore capex supercycle."
+    },
+    "TORNTPHARM": {
+      "name": "Torrent Pharmaceuticals",
+      "sector": "Pharma",
+      "color": "#E91E63",
+      "description": "Branded generics powerhouse. Cardiovascular (Shelcal, Nikoran), CNS (Nexito, Libotryp) and diabetes franchise. Unichem India acquisition completed. Germany and Brazil branded operations contribute 40% of international revenue."
+    },
+    "INDIGO": {
+      "name": "Interglobe Aviation",
+      "sector": "Aviation",
+      "color": "#3F51B5",
+      "description": "IndiGo Airlines — India's largest airline by capacity with 60%+ domestic market share. 300+ aircraft, 100+ destinations. Ultra-low-cost model and highest on-time performance in India. Fleet expansion with 970 Airbus A320 family aircraft on order."
+    },
+    "TRENT": {
+      "name": "Trent Ltd",
+      "sector": "Retail",
+      "color": "#EC407A",
+      "description": "Tata Group's retail powerhouse. Westside department stores (fashion, home). Zudio — India's fastest-growing value fashion chain with 500+ stores at ₹200-800 price points. Star Bazaar hypermarkets. Inditex JV for Zara India."
+    },
+    "BAJAJHLDNG": {
+      "name": "Bajaj Holdings",
+      "sector": "Holding",
+      "color": "#FF6F00",
+      "description": "Core holding company of the Bajaj Group. Holds significant stakes in Bajaj Auto, Bajaj Finserv, and Bajaj Finance. Sum-of-parts valuation significantly below intrinsic value creating a structural discount play on the Bajaj conglomerate."
+    },
+    "LICI": {
+      "name": "LIC of India",
+      "sector": "Insurance",
+      "color": "#1B5E20",
+      "description": "World's largest insurer by policy count with 300M+ policies. India's largest institutional investor managing ₹45 lakh crore AUM. Benefiting from financialisation of savings — insurance penetration rising from 3.2% to target 5%."
+    },
+    "ADANIGREEN": {
+      "name": "Adani Green Energy",
+      "sector": "Renewable Energy",
+      "color": "#4CAF50",
+      "description": "India's largest renewable energy company. 10 GW+ operational solar and wind capacity. 45 GW pipeline under development. Key beneficiary of India's 500 GW non-fossil target by 2030. Zero-carbon energy at scale."
+    },
+    "HDFCLIFE": {
+      "name": "HDFC Life Insurance",
+      "sector": "Insurance",
+      "color": "#37474F",
+      "description": "India's leading private life insurer. Protection + ULIP + annuity product mix. VNB margin 26%+; embedded value growing 15% annually. Direct and bancassurance channels driving consistent APE growth."
+    },
+    "SHRIRAMFIN": {
+      "name": "Shriram Finance",
+      "sector": "NBFC",
+      "color": "#E65100",
+      "description": "India's largest retail NBFC focused on used commercial vehicle and tractor loans. 3,000+ branches in semi-urban India. Post-merger of Shriram Transport, Capital and City Union entity. NIM ~8%; very profitable."
+    },
+    "IOC": {
+      "name": "Indian Oil Corporation",
+      "sector": "Oil & Gas",
+      "color": "#BF360C",
+      "description": "India's largest fuel retailer and refiner. 35,000+ petrol pumps, 11 refineries. Expanding LPG, CNG and EV charging network. Strategically positioned at centre of India's energy distribution infrastructure."
+    },
+    "DIXON": {
+      "name": "Dixon Technologies",
+      "sector": "Electronics Manufacturing",
+      "color": "#2196F3",
+      "description": "India's largest EMS (Electronics Manufacturing Services) company. Makes LED TVs (for Samsung, Panasonic), mobile phones (for Motorola, Nokia), washing machines, LED lighting. Pure-play on India's PLI scheme and Make in India electronics manufacturing."
+    },
+    "PRESTIGE": {
+      "name": "Prestige Estates",
+      "sector": "Real Estate",
+      "color": "#795548",
+      "description": "Bangalore-based premium real estate developer. Builds residential (prestige city), commercial offices, retail malls and hospitality properties. Strong brand in South India's property market. NCR expansion adding new growth leg."
+    },
+    "KAYNES": {
+      "name": "Kaynes Technology",
+      "sector": "Electronics",
+      "color": "#00BCD4",
+      "description": "Electronic Manufacturing Services company focusing on IoT, industrial electronics and automotive embedded electronics. One of India's fastest-growing EMS players benefiting from domestic electronics production growth and import substitution."
+    },
+    "JINDALSTEL": {
+      "name": "Jindal Steel & Power",
+      "sector": "Steel",
+      "color": "#607D8B",
+      "description": "Integrated steel producer (9 MMTPA capacity) with captive iron ore mines in Odisha and coal mines. Operates India's largest single-location blast furnace at Angul, Odisha. Beneficiary of infrastructure capex and PLI for specialty steel."
+    },
+    "VOLTAS": {
+      "name": "Voltas Ltd",
+      "sector": "Consumer Durables",
+      "color": "#00897B",
+      "description": "Tata Group's cooling products and engineering company. India's #1 AC brand by market share (22%). Also into engineering, electro-mechanical projects (MEP in buildings) and refrigeration. Voltas Beko JV for washing machines and refrigerators."
+    },
+    "TIINDIA": {
+      "name": "Tube Investments of India",
+      "sector": "Diversified Engineering",
+      "color": "#FF5722",
+      "description": "Murugappa Group flagship. Metal formed products (tubes, cylinders for auto). TI Cycles (BSA, Hercules, Montra brands). Acquired CG Power (power equipment). New-age mobility investments through Cellestial E-Mobility and Vidhyut-Tech EV drivetrains."
+    },
+    "INDHOTEL": {
+      "name": "Indian Hotels Company",
+      "sector": "Hospitality",
+      "color": "#8D6E63",
+      "description": "Tata Group's hospitality arm. Taj Hotels — India's most iconic luxury hotel brand. Vivanta (upscale), SeleQtions, and Ginger (budget). 250+ hotels in 100+ locations globally. Strong RevPAR recovery post-COVID and robust MICE segment."
+    },
+    "MFSL": {
+      "name": "Max Financial Services",
+      "sector": "Insurance",
+      "color": "#7B1FA2",
+      "description": "Parent company of Max Life Insurance — India's 4th largest private life insurer. Strong bancassurance channel via Axis Bank JV. Term and ULIP products growing. Embedded value (EV) growth of 20%+ driving shareholder value creation."
+    },
+    "COROMANDEL": {
+      "name": "Coromandel International",
+      "sector": "Agri-inputs",
+      "color": "#558B2F",
+      "description": "India's 2nd largest phosphatic fertiliser company. Makes DAP, NPK fertilisers, specialty nutrients, crop protection chemicals and organic nutrients. Strong South India distribution. Murugappa Group company with consistent 20%+ ROE."
+    },
+    "BHARATFORG": {
+      "name": "Bharat Forge",
+      "sector": "Forging",
+      "color": "#5D4037",
+      "description": "World's 2nd largest forging company. Makes crankshafts, front axle beams and connecting rods for global auto OEMs. Pivoting to high-margin defence (ATAGS artillery guns) and aerospace components. 40% revenue from exports."
+    },
+    "PAGEIND": {
+      "name": "Page Industries",
+      "sector": "Textiles",
+      "color": "#F06292",
+      "description": "Exclusive licensee of Jockey brand in India, Sri Lanka, Bangladesh and UAE since 1994. India's premium innerwear market leader. Also holds Speedo license for India. Asset-light franchise model with 80%+ ROCE and premium brand positioning."
+    },
+    "KARURVYSYA": {
+      "name": "Karur Vysya Bank",
+      "sector": "Banking",
+      "color": "#33691E",
+      "description": "Tamil Nadu-based private bank with strong South India presence. Vehicle finance, SME, and retail loans. Consistent dividend payer with improving asset quality and expanding digital banking."
+    },
+    "KPRMILL": {
+      "name": "KPR Mill",
+      "sector": "Textiles",
+      "color": "#558B2F",
+      "description": "Vertically integrated textile company. Yarn, fabric, garments (FASO brand). Captive power via wind and solar. Ethanol plant from damaged sugarcane. One of the most efficient textile exporters."
+    },
+    "GALAXYSURF": {
+      "name": "Galaxy Surfactants",
+      "sector": "Specialty Chemicals",
+      "color": "#689F38",
+      "description": "Specialty surfactants and performance chemicals for FMCG companies globally. Key supplier to HUL, Nestle, P&G. Export revenues >55%. Fatty acid derivatives command premium margins."
+    },
+    "BLUESTARCO": {
+      "name": "Blue Star Ltd",
+      "sector": "Consumer Durables",
+      "color": "#7CB342",
+      "description": "India's second-largest air conditioner brand after Voltas. Commercial refrigeration and HVAC systems for IT parks, malls, and hospitals. Strong after-sales service network."
+    },
+    "CHALET": {
+      "name": "Chalet Hotels",
+      "sector": "Hospitality",
+      "color": "#8BC34A",
+      "description": "Upscale hotel developer and operator. Properties co-located with commercial offices in Bengaluru, Mumbai, Hyderabad. Marriott franchised properties. Asset-light management contracts added post-COVID."
+    },
+    "CAMSSEBI": {
+      "name": "CAMS (CAMS Services)",
+      "sector": "Financial Services",
+      "color": "#9CCC65",
+      "description": "Computer Age Management Services — India's largest mutual fund RTA with 68% market share. Processes 70% of all MF transactions. Insurance repository and KYC businesses diversify revenue."
+    },
+    "SUDARSCHEM": {
+      "name": "Sudarshan Chemical",
+      "sector": "Specialty Chemicals",
+      "color": "#AED581",
+      "description": "India's largest pigment manufacturer. Exports to over 80 countries. High-performance pigments for automotive coatings, printing inks, and plastics. R&D investments for effect pigments growing."
+    },
+    "BSOFT": {
+      "name": "Birlasoft",
+      "sector": "IT Services",
+      "color": "#C5E1A5",
+      "description": "Mid-size IT services company spun out of KPIT after merger. ERP (SAP, Oracle), cloud, and digital transformation for manufacturing, BFSI, and life sciences verticals globally."
+    },
+    "MTARTECH": {
+      "name": "Mtar Technologies",
+      "sector": "Defence & Space",
+      "color": "#DCEDC8",
+      "description": "Precision manufacturing for nuclear, space, and defence sectors. ISRO and DRDO supplier. Fuel cells for defence UAVs. Clean energy components for proton exchange membrane fuel cells."
+    },
+    "SHYAMMETL": {
+      "name": "Shyam Metalics",
+      "sector": "Metals",
+      "color": "#F1F8E9",
+      "description": "Integrated metals company: sponge iron, billets, wire rods, ferro alloys. Captive power plants lower opex. Eastern India concentration with proximity to coal and iron ore mines in Jharkhand."
+    },
+    "BEL": {
+      "name": "Bharat Electronics",
+      "sector": "Defence Electronics",
+      "color": "#1A237E",
+      "description": "India's premier defence electronics PSU. ₹70,000 Cr+ order book in radars, avionics, EW systems, night vision. Beneficiary of ₹3L Cr defence capex push over 5 years. Rising export orders from Southeast Asia and Middle East."
+    },
+    "PERSISTENT": {
+      "name": "Persistent Systems",
+      "sector": "IT Services",
+      "color": "#1976D2",
+      "description": "Mid-tier IT with fastest revenue growth in sector (35%+ CAGR last 3 years). Product engineering and digital transformation focus. Microsoft Azure and Salesforce partnerships driving deal wins. North America revenue >60% with rising Europe mix."
+    },
+    "COFORGE": {
+      "name": "Coforge",
+      "sector": "IT Services",
+      "color": "#E53935",
+      "description": "Insurance and BFSI-specialist IT services. Cigniti acquisition expanded testing capabilities. NIIT parentage brings institutional credibility. Revenue guidance upgraded consistently. In-house BFS platform accelerates client onboarding and reduces sales cycle."
+    },
+    "CHOLAFIN": {
+      "name": "Cholamandalam Finance",
+      "sector": "NBFC",
+      "color": "#FF6F00",
+      "description": "Murugappa Group's NBFC dominant in commercial vehicle, tractor and gold loans. Vehicle finance market share rising. Chola MS General Insurance subsidiary unlocking value. Strong asset quality with deep rural distribution advantage."
+    },
+    "MRF": {
+      "name": "MRF Tyres",
+      "sector": "Auto Ancillary",
+      "color": "#212121",
+      "description": "India's largest and most expensive stock (₹1.2L+ per share). Tyre market leader with 32% market share in truck tyres. Brand synonymous with quality. Radial tyre export opportunity to Middle East and ASEAN. 65%+ capacity utilisation leaving headroom for growth without capex surge."
+    },
+    "CROMPTON": {
+      "name": "Crompton Greaves Consumer",
+      "sector": "Consumer Durables",
+      "color": "#C62828",
+      "description": "Leading fan, pump and domestic appliance brand. Butterfly Gandhimati kitchen appliances acquisition expanded South India presence. Premium fans (BLDC energy-efficient) growing at 30%+ with premiumisation trend. Working capital-light model with strong FCF generation."
+    },
+    "NAVINFLUOR": {
+      "name": "Navin Fluorine",
+      "sector": "Specialty Chemicals",
+      "color": "#00897B",
+      "description": "Fluorine chemistry specialist with applications in agrochem, pharma and refrigerants. CRAMS (contract R&D and manufacturing) growth from global agrochemical and pharmaceutical innovators. High barriers to entry in fluorination chemistry create sustainable moat."
+    },
+    "LICHSGFIN": {
+      "name": "LIC Housing Finance",
+      "sector": "Housing Finance",
+      "color": "#283593",
+      "description": "LIC-backed housing finance company. Affordable housing focus in Tier-2/3 cities. Beneficiary of PMAY (housing for all) government scheme. NIM expansion as high-cost borrowings mature. Parent LIC's distribution network provides low-cost loan origination."
+    },
+    "MPHASIS": {
+      "name": "Mphasis",
+      "sector": "IT Services",
+      "color": "#00BCD4",
+      "description": "Blackstone-owned IT services focused on BFSI and mortgage technology. DirectCore cloud platform for financial services. Revenue growth rebounding post US mortgage market correction. Frontier Tech unit building AI, ML and blockchain-based solutions for capital markets."
+    },
+    "NLCINDIA": {
+      "name": "NLC India",
+      "sector": "Power / Lignite Mining",
+      "color": "#4CAF50",
+      "description": "Government-owned lignite miner and power producer. Expanding into solar and wind. 5,000+ MW power capacity, 30+ MT annual lignite production. Stable PSU cash flows with high dividend yield."
+    },
+    "RADICO": {
+      "name": "Radico Khaitan",
+      "sector": "FMCG - Spirits",
+      "color": "#880E4F",
+      "description": "India's 2nd largest spirits marker. Rampur Single Malt gaining international acclaim. Prestige-and-above segment (Magic Moments, 8PM Black) driving premiumisation. Volume leader in UP, Rajasthan and MP."
+    },
+    "STARHEALTH": {
+      "name": "Star Health Insurance",
+      "sector": "Insurance",
+      "color": "#B71C1C",
+      "description": "India's largest standalone health insurer with 14 million+ policies. Rising healthcare inflation and awareness driving claim frequency. Largest agency force (700,000+ agents) in health insurance. Rakesh Jhunjhunwala backing."
+    },
+    "CEATLTD": {
+      "name": "CEAT Ltd",
+      "sector": "Auto Ancillary",
+      "color": "#37474F",
+      "description": "India's 4th largest tyre maker. Strong in 2-wheeler, 3-wheeler and passenger car replacement markets. Halol and Nagpur plants ramping up. Export-focused EV-compatible tyre range in development."
+    },
+    "PEL": {
+      "name": "Piramal Enterprises",
+      "sector": "Financial Services",
+      "color": "#1A237E",
+      "description": "Post-demerger PEL focuses on financial services (NBFC). Restructured retail lending portfolio recovering well. Wholesale book legacy being resolved. Healthcare business (OTC + pharma) provides stability."
+    },
+    "CYIENT": {
+      "name": "Cyient Ltd",
+      "sector": "IT Engineering Services",
+      "color": "#006064",
+      "description": "Engineering R&D services for aerospace, rail, utilities and communication sectors. Defence-grade avionics and satellite systems. DET (Design Engineering Technology) pivot under new management driving growth."
+    },
+    "BALKRISIND": {
+      "name": "Balkrishna Industries",
+      "sector": "Auto Ancillary",
+      "color": "#4E342E",
+      "description": "World's largest specialty off-highway tyre maker. Supplies to agriculture, mining and industrial segments globally. 75%+ export revenues in USD. European presence growing; low competition moat in niche tyre sizes."
+    },
+    "MM": {
+      "name": "Mahindra & Mahindra",
+      "sector": "SUV & Tractors",
+      "color": "#C62828",
+      "description": "SUV market leader with blockbusters: XUV 3XO, XUV700, Scorpio-N, Thar. Farmtrac tractor dominance (40%+ domestic share). Electric: BE 6e and XEV 9e for premium EVs. Last-mile electric delivery (Treo, Zor) growing fast."
+    },
+    "TATAMOTORS": {
+      "name": "Tata Motors",
+      "sector": "Passenger & Commercial",
+      "color": "#1565C0",
+      "description": "Owns Jaguar Land Rover (contributes 70% revenue, 80% profit). Domestic PV revival: Nexon, Punch (top-10 bestsellers), Nexon EV (India's best-selling EV). Tata Ace and Prima CV franchise. Turnaround under N Chandrasekaran."
+    },
+    "BAJAJ-AUTO": {
+      "name": "Bajaj Auto",
+      "sector": "Two Wheelers",
+      "color": "#6A1B9A",
+      "description": "India's 2nd largest 2W maker. Pulsar, Dominar, CT, Platina brands. 40% export contribution — dominates Africa and Latin America. CNG bike Bajaj Freedom 125 — world's first CNG motorcycle. Electric: Chetak scooter relaunched successfully."
+    },
+    "EICHERMOT": {
+      "name": "Eicher Motors",
+      "sector": "Two Wheelers",
+      "color": "#37474F",
+      "description": "Royal Enfield — India's premium motorcycle brand with 90% share in 250cc+ premium segment. Himalayan 450 and Hunter 350 driving new buyer acquisition. VE Commercial Vehicles JV with Volvo Group for trucks, buses. Expanding in Southeast Asia."
+    },
+    "TVSMOTOR": {
+      "name": "TVS Motor Company",
+      "sector": "Two Wheelers",
+      "color": "#1976D2",
+      "description": "India's 3rd largest 2W maker. Apache RTR series and Jupiter scooter are best-sellers. TVS iQube electric scooter gaining share. Acquired Norton Motorcycles UK for premium brand. Strong exports to 60+ countries."
+    },
+    "BOSCH": {
+      "name": "Bosch India",
+      "sector": "Auto Components",
+      "color": "#F44336",
+      "description": "Indian arm of Robert Bosch GmbH Germany. Leader in fuel injection systems (80%+ share), anti-lock braking (ABS), powertrain electrification and automotive electronics. Beneficiary of BS-VI upgrade, hybrid and EV transitions."
+    },
+    "MOTHERSON": {
+      "name": "Motherson Wiring",
+      "sector": "Auto Components",
+      "color": "#FF5722",
+      "description": "Global auto components major. Wiring harnesses (India's largest), exterior mirrors, bumpers, plastic interior modules. Supplies to Mercedes-Benz, BMW, VW, Toyota globally. India's largest auto ancillary exporter at $19B+ revenue."
+    },
+    "HEROMOTOCO": {
+      "name": "Hero MotoCorp",
+      "sector": "Two Wheelers",
+      "color": "#E91E63",
+      "description": "World's largest 2-wheeler manufacturer by volume. Splendor (world's best-selling bike), HF Deluxe, Passion dominate entry segment. Xtreme 160R premium series growing. Vida electric scooter for EV segment. Split from Honda in 2011."
+    },
+    "M&M": {
+      "name": "Mahindra & Mahindra",
+      "sector": "Automobiles",
+      "color": "#4E342E",
+      "description": "India's SUV market leader. Scorpio, XUV700, Thar — all oversubscribed. Farm equipment market leader (35%+ share). EV brand (BE 6e, XEV 9e) targets ₹15-25 lakh SUV segment. Tractor business provides counter-cyclical buffer."
+    },
+    "BANKBARODA": {
+      "name": "Bank of Baroda",
+      "sector": "Public Bank",
+      "color": "#F44336",
+      "description": "Second-largest PSU bank post Vijaya Bank and Dena Bank merger in 2019. International presence in 100+ countries. Post-NPA cleanup showing sustainable ROE improvement and strong loan growth."
+    },
+    "INDUSINDBK": {
+      "name": "IndusInd Bank",
+      "sector": "Private Bank",
+      "color": "#00BCD4",
+      "description": "Mid-size private bank with stronghold in vehicle finance (CV and 2W loans accounting for 30% book) and microfinance. Nexxt credit card. Strong corporate banking franchise and growing retail deposit franchise."
+    },
+    "PNB": {
+      "name": "Punjab National Bank",
+      "sector": "Public Bank",
+      "color": "#8BC34A",
+      "description": "India's second-largest PSU bank by branches, founded in 1894 in Lahore. Post-NPA cleanup showing sustainable profitability improvement. Government ownership provides stability. Strong in MSME, agri and priority sector lending."
+    },
+    "FEDERALBNK": {
+      "name": "Federal Bank",
+      "sector": "Private Bank",
+      "color": "#FF9800",
+      "description": "Kerala-headquartered private bank with 1,400+ branches. Strong NRI deposit franchise (Kerala diaspora in Gulf). Fintech partnerships (Google Pay, Paytm) drive digital transactions. Consistent performer with improving ROA."
+    },
+    "IDFCFIRSTB": {
+      "name": "IDFC First Bank",
+      "sector": "Private Bank",
+      "color": "#00ACC1",
+      "description": "Transformed from an infrastructure NBFC to a full-service retail bank under MD V. Vaidyanathan. Rapid deposit mobilisation, strong microfinance and vehicle finance franchises. Merged with IDFC Ltd creating a clean balance sheet."
+    },
+    "BANDHANBNK": {
+      "name": "Bandhan Bank",
+      "sector": "Micro Banking",
+      "color": "#9FA8DA",
+      "description": "Microfinance-turned-bank serving rural and semi-urban India. West Bengal and Northeast concentration risk. Highest NIM in banking (~7%). Diversifying into housing finance and SME banking."
+    },
+    "RBLBANK": {
+      "name": "RBL Bank",
+      "sector": "Private Banking",
+      "color": "#C5CAE9",
+      "description": "Specialty banking in credit cards (co-branded with Bajaj Finance) and microfinance. Niche SME banking franchise. Turnaround story under new management post CEO transition in 2022."
+    },
+    "YESBANK": {
+      "name": "Yes Bank",
+      "sector": "Private Banking",
+      "color": "#E8EAF6",
+      "description": "Reconstructed bank post 2020 RBI intervention. Now owned by SBI (26%) + consortium of banks. Clean balance sheet, improving operational metrics. Small weighting due to reduced free-float market cap."
+    },
+    "ONGC": {
+      "name": "ONGC",
+      "sector": "Oil Exploration",
+      "color": "#4CAF50",
+      "description": "India's largest oil and gas exploration company producing 70% of India's crude oil and 62% of natural gas. Government holds 58%. Owns 54% of HPCL. ONGC Videsh has overseas assets in 15+ countries. Dividend yield of 5-6%."
+    },
+    "COALINDIA": {
+      "name": "Coal India",
+      "sector": "Coal Mining",
+      "color": "#37474F",
+      "description": "World's largest coal mining company. Produces 700+ MT annually — monopoly in Indian coal sector with 7 subsidiaries. Government holds 63%. Dividend yield of 6-8%. Essential for India's 200 GW thermal power generation base."
+    },
+    "BPCL": {
+      "name": "BPCL",
+      "sector": "Oil Refining",
+      "color": "#FF9800",
+      "description": "Bharat Petroleum — integrated oil company. 3 refineries (38 MMTPA), 19,000+ petrol pumps, 6,200 LPG distributors. Government holds 52.98%. Mega Bina refinery expansion underway. Strong petrochemicals growth roadmap."
+    },
+    "GAIL": {
+      "name": "GAIL India",
+      "sector": "Gas Transmission",
+      "color": "#009688",
+      "description": "India's largest natural gas marketing and transmission company. 12,000+ km cross-country pipeline network. City gas distribution via MGL, IGL and others. Beneficiary of India's gas economy push (current 6% of energy mix targeting 15% by 2030)."
+    },
+    "TORNTPOWER": {
+      "name": "Torrent Power",
+      "sector": "Power Distribution",
+      "color": "#26C6DA",
+      "description": "Gujarat-based integrated power utility. Generation (4 GW+ gas, solar), transmission and distribution in Ahmedabad, Surat, Gandhinagar and Agra. One of India's most profitable private power distribution licensees. Strong renewable capacity addition track."
+    },
+    "PETRONET": {
+      "name": "Petronet LNG",
+      "sector": "LNG Re-gasification",
+      "color": "#006064",
+      "description": "Dahej LNG terminal (world's 11th largest) handles 80%+ of India's LNG imports. Guaranteed throughput from Shell and ExxonMobil long-term contracts. Regulated tariff plus spot LNG income floor. 3rd terminal under development."
+    },
+    "ADANIPOWER": {
+      "name": "Adani Power",
+      "sector": "Power Generation",
+      "color": "#795548",
+      "description": "India's largest private power generator (15 GW thermal). Supplies to 7 states under long-term PPAs. Kawai and Godda ultra-super-critical plants among most efficient. Bangladesh Godda plant exports electricity internationally."
+    },
+    "TATAPOWER": {
+      "name": "Tata Power",
+      "sector": "Power Generation / Renewables",
+      "color": "#0D47A1",
+      "description": "Diversified power play: Mumbai Coastal/Trombay thermal, Mundra UMPP, 4 GW operational solar rooftop+utility. EV charging network (Tata Power EV) — 5,000+ chargers. Captive power supply and solar EPC business growing 40%+."
+    },
+    "JSWENERGY": {
+      "name": "JSW Energy",
+      "sector": "Renewable Energy",
+      "color": "#4E342E",
+      "description": "JSW Group's energy arm. Targeting 20 GW renewable capacity by 2030 (from 7 GW today). Solar parks in Rajasthan, Karnataka and Maharashtra. Pumped hydro storage for round-the-clock renewable supply under planning."
+    },
+    "SBILIFE": {
+      "name": "SBI Life Insurance",
+      "sector": "Insurance",
+      "color": "#006064",
+      "description": "India's largest private life insurer by new business premium. SBI's branch network of 22,000+ provides unmatched distribution. ULIPs and term plans drive volumes."
+    },
+    "ICICIGI": {
+      "name": "ICICI Lombard",
+      "sector": "General Insurance",
+      "color": "#00796B",
+      "description": "India's largest private general insurer. Motor, health, and commercial lines. Strong combined ratio management. Data-driven underwriting and claims. Acquired Bharti AXA General Insurance."
+    },
+    "ICICIPRULI": {
+      "name": "ICICI Prudential Life",
+      "sector": "Insurance",
+      "color": "#00695C",
+      "description": "Joint venture between ICICI Bank and Prudential plc. Strong ULIP franchise with equity savings and pension products. Protection business scale-up underway. APE growth driven by direct and banca channels."
+    },
+    "BAJAJFINSV": {
+      "name": "Bajaj Finserv",
+      "sector": "Financial Services",
+      "color": "#E65100",
+      "description": "Holding company for Bajaj Finance, Bajaj Allianz Life Insurance, and Bajaj Allianz General Insurance. Trading at structural conglomerate discount to sum-of-parts. Insurance businesses scaling rapidly."
+    },
+    "BAJAJFIN": {
+      "name": "Bajaj Finance",
+      "sector": "NBFC",
+      "color": "#FF5722",
+      "description": "India's most valuable NBFC. Consumer lending, EMI finance, gold loans, insurance distribution and co-branded credit cards. 85M+ customers, 4,000+ locations. Technology-first approach — B2C app handles 75%+ of disbursals."
+    },
+    "NESTLEIND": {
+      "name": "Nestle India",
+      "sector": "Foods & Beverages",
+      "color": "#F44336",
+      "description": "Indian arm of Swiss giant Nestle AG. Maggi noodles (58% market share), KitKat, Nescafe, Munch, Milkmaid dominate their segments. Premium pricing power and fortress balance sheet. 120+ year Indian presence (est. 1912)."
+    },
+    "BRITANNIA": {
+      "name": "Britannia Industries",
+      "sector": "Foods",
+      "color": "#D32F2F",
+      "description": "India's biscuit market leader with 34% share. Good Day, Tiger, Marie Gold, NutriChoice, Bourbon are household favorites. 5M+ outlet distribution. Wadia Group-controlled. Expanding into dairy (Pure Magic cheese), breads (Modern) and international."
+    },
+    "DABUR": {
+      "name": "Dabur India",
+      "sector": "Ayurveda & Personal Care",
+      "color": "#388E3C",
+      "description": "India's largest ayurvedic FMCG company. Dabur Chyawanprash (66% market share), Real juice (50% share), Vatika hair oil, Hajmola digestive. 8M+ outlets distribution. Strong rural push. International business in 100+ countries contributes 28% revenue."
+    },
+    "TATACONSUM": {
+      "name": "Tata Consumer Products",
+      "sector": "Foods & Beverages",
+      "color": "#FF6F00",
+      "description": "Tata Tea (India's #1 branded tea), Tata Salt (India's #1 salt), Tata Sampann pulses and spices. Tetley internationally (world's #2 tea brand). Starbucks JV (350+ cafes). NourishCo (Himalayan, Tata Gluco Plus beverages)."
+    },
+    "MARICO": {
+      "name": "Marico Ltd",
+      "sector": "Personal Care",
+      "color": "#FFA726",
+      "description": "Parachute coconut oil commands 59% market share. Saffola edible oils (heart-health platform). Set Wet, Livon hair care. Bangladesh and Vietnam international operations contribute 22% revenue. Consistent 18%+ ROCE compounder."
+    },
+    "COLPAL": {
+      "name": "Colgate-Palmolive India",
+      "sector": "Personal Care",
+      "color": "#E53935",
+      "description": "India's largest oral care company with 50%+ toothpaste market share. Colgate Strong Teeth, Colgate Sensitive, Palmolive soaps. Parent Colgate-Palmolive US holds 51%. High ROCE of 60%+. Consistently among India's most trusted brands."
+    },
+    "DRREDDY": {
+      "name": "Dr Reddy's Laboratories",
+      "sector": "Pharma",
+      "color": "#E53935",
+      "description": "Hyderabad-based generic pharma giant. US generics, branded formulations in India and Russia, API manufacturing. Revlimid (lenalidomide) para-IV authorized generic provides multi-year earnings boost."
+    },
+    "CIPLA": {
+      "name": "Cipla Ltd",
+      "sector": "Pharma",
+      "color": "#C62828",
+      "description": "Piramal Group's pharma division — India's third largest. Strong US inhalation business (Advair generics pipeline). Africa branded generics. Cipla brand dominates respiratory and HIV in India."
+    },
+    "DIVISLAB": {
+      "name": "Divi's Laboratories",
+      "sector": "API Manufacturing",
+      "color": "#B71C1C",
+      "description": "World's largest manufacturer of APIs for regulated markets. Key supplier to top 10 global pharma. Carotenoids business and nutraceuticals. Asset-light model with industry-leading EBITDA margins of 35%+."
+    },
+    "APOLLOHOSP": {
+      "name": "Apollo Hospitals",
+      "sector": "Hospitals",
+      "color": "#EF9A9A",
+      "description": "India's largest private hospital network with 70+ hospitals. Apollo HealthCo digital platform and Apollo Pharmacy chain. Chronic disease management, oncology, and organ transplants as key specialities."
+    },
+    "MAXHEALTH": {
+      "name": "Max Healthcare",
+      "sector": "Hospitals",
+      "color": "#FFCDD2",
+      "description": "North India's premium hospital chain with 17 hospitals (3,400+ beds). Oncology Centre of Excellence. Max Smart Super Speciality Hospital, Saket is flagship. IPO proceeds funding brownfield expansion."
+    },
+    "FORTIS": {
+      "name": "Fortis Healthcare",
+      "sector": "Hospitals",
+      "color": "#FF8A80",
+      "description": "Multi-specialty hospital chain across India and overseas. IHH Healthcare (Malaysia) is majority owner providing capital. SRL Diagnostics integration strengthens pathology vertical."
+    },
+    "NH": {
+      "name": "Narayana Hrudalaya",
+      "sector": "Hospitals",
+      "color": "#FF5252",
+      "description": "Affordable cardiac care at scale. Rabindranath Tagore International Institute of Cardiac Sciences. Health City Cayman Islands offshore medical tourism. ₹5,000 open-heart surgery model."
+    },
+    "LUPIN": {
+      "name": "Lupin Ltd",
+      "sector": "Pharma",
+      "color": "#D32F2F",
+      "description": "Complex generics specialist: inhalation (Spiriva generic), injectables, biosimilars (Etanercept). US and Japan market exposure. Domestic branded Lupin franchise in TB, cardiovascular, diabetology."
+    },
+    "TECHM": {
+      "name": "Tech Mahindra",
+      "sector": "IT Services",
+      "color": "#C62828",
+      "description": "Telecom-focused IT company under Project Reboot transformation. 5G software and infrastructure a key differentiator. TechM Business Boost AI platform for enterprise clients. Diversifying into BFSI, healthcare and manufacturing."
+    },
+    "LTIM": {
+      "name": "LTIMindtree",
+      "sector": "IT Services",
+      "color": "#1565C0",
+      "description": "Merged entity of L&T Infotech and Mindtree creating a $4B+ revenue IT major. Strong in BFSI, hi-tech, media and manufacturing. Canvas AI platform driving digital transformation deals across Fortune 500 clients."
+    },
+    "LTTS": {
+      "name": "L&T Technology Services",
+      "sector": "Engineering R&D",
+      "color": "#FF5722",
+      "description": "Pure-play engineering R&D services company. Strong in automotive EV (35% revenue), industrial, telecom and medical devices verticals. Beneficiary of global ER&D spend rising to $2.4T by 2030."
+    },
+    "TATASTEEL": {
+      "name": "Tata Steel",
+      "sector": "Steel",
+      "color": "#37474F",
+      "description": "India's largest integrated steel company. Tata Steel Europe (Corus) acquisition expanded global footprint. JhariaCoal mines for captive use. Beneficiary of infrastructure boom and auto sector demand."
+    },
+    "HINDALCO": {
+      "name": "Hindalco Industries",
+      "sector": "Aluminium",
+      "color": "#546E7A",
+      "description": "World's largest aluminium rolling company via Novelis (USA/Canada). Domestic copper smelting via Birlacopper. Novelis contributes 60%+ revenues and is the key re-rating driver."
+    },
+    "JSWSTEEL": {
+      "name": "JSW Steel",
+      "sector": "Steel",
+      "color": "#455A64",
+      "description": "India's largest steel producer by capacity (27 MTPA target). Coastal plants enable imported coal advantage. Strong automotive and real estate demand. JSW One digital procurement platform."
+    },
+    "HINDZINC": {
+      "name": "Hindustan Zinc",
+      "sector": "Zinc & Silver",
+      "color": "#607D8B",
+      "description": "World's second-largest zinc-lead miner and producer. Rajpura Dariba and Sindesar Khurd mines. Rampura Agucha is one of the world's largest open-pit zinc mines. 65% owned by Vedanta."
+    },
+    "SAIL": {
+      "name": "SAIL (Steel Authority)",
+      "sector": "Steel - PSU",
+      "color": "#78909C",
+      "description": "India's largest PSU steel company. Integrated plants at Bhilai, Rourkela, Bokaro, Durgapur, Burnpur. Government infra orders provide stable demand. Target 50 MTPA capacity by 2030."
+    },
+    "APLAPOLLO": {
+      "name": "APL Apollo Tubes",
+      "sector": "Steel Tubes",
+      "color": "#90A4AE",
+      "description": "India's largest structural steel tubes manufacturer. Branded products command premium pricing. Building materials and infrastructure construction applications. Asset-light distribution model."
+    },
+    "NATIONALUM": {
+      "name": "National Aluminium",
+      "sector": "Aluminium - PSU",
+      "color": "#B0BEC5",
+      "description": "India's only integrated bauxite-alumina-aluminium PSU. Captive power plants and Damanjodi alumina refinery. Low-cost producer with long-term export contracts."
+    },
+    "RATNAMANI": {
+      "name": "Ratnamani Metals",
+      "sector": "Pipes & Tubes",
+      "color": "#CFD8DC",
+      "description": "Premium stainless steel and carbon steel pipes for oil & gas, fertilizers, power. High-margin specialty products. Strong order book from refinery and petrochemical capex."
+    },
+    "HINDCOPPER": {
+      "name": "Hindustan Copper",
+      "sector": "Copper - PSU",
+      "color": "#FF7043",
+      "description": "India's only vertically integrated copper producer. Khetri and Malanjkhand mines. Benefits from global copper demand surge driven by electric vehicles and renewable energy transition."
+    },
+    "NMDC": {
+      "name": "NMDC",
+      "sector": "Iron Ore",
+      "color": "#BF360C",
+      "description": "India's largest iron ore producer (35+ MT annually). Chhattisgarh and Karnataka mines feed India's entire steelmaking demand. New Nagarnar integrated steel plant (3 MT) adds downstream value. Export optionality when domestic prices exceed seaborne parity."
+    },
+    "AUROPHARMA": {
+      "name": "Aurobindo Pharma",
+      "sector": "Pharma",
+      "color": "#FF9800",
+      "description": "Major US generics player with 800+ ANDA filings, largest injectables portfolio among Indian pharma. API-to-formulations integration provides ~30% cost advantage. Strong oncology and penicillin segment. Aurovida Formulations for biosimilars."
+    },
+    "ABBOTINDIA": {
+      "name": "Abbott India",
+      "sector": "Pharma",
+      "color": "#F44336",
+      "description": "Indian subsidiary of Abbott Laboratories USA. Premium branded prescription medicines. Thyronorm is India's largest-selling thyroid brand. Cremaffin, Duphaston, Digene are household medicines. Consistent compounder at 20%+ ROCE."
+    },
+    "ZYDUSLIFE": {
+      "name": "Zydus Lifesciences",
+      "sector": "Pharma",
+      "color": "#009688",
+      "description": "Ahmedabad-based pharma innovator. Launched ZyCoV-D — world's first DNA-based COVID vaccine. Strong US generics and complex generics (transdermal patches). Lipaglyn — world's first glitazar for diabetes approved in India."
+    },
+    "IPCALAB": {
+      "name": "Ipca Laboratories",
+      "sector": "Pharma",
+      "color": "#F57C00",
+      "description": "Specialty API and formulations company. Largest producer of anti-malarial APIs globally. Strong branded generics in cardiovascular and musculoskeletal. Europe business growing rapidly post-compliance improvements."
+    },
+    "SRF": {
+      "name": "SRF Limited",
+      "sector": "Fluorochemicals / Textiles",
+      "color": "#880E4F",
+      "description": "India's #1 fluorochemicals company and global refrigerant gas (R22, R134a) producer. Technical textiles (tyre cord, polyester, nylon) for Bridgestone, Michelin. New fluoropolymers for EV, aerospace and semiconductor applications. CapEx cycle 2022-26."
+    },
+    "DEEPAKNTR": {
+      "name": "Deepak Nitrite",
+      "sector": "Specialty Chemicals",
+      "color": "#1B5E20",
+      "description": "Midstream specialty chemicals — nitro-aromatic compounds used in dyes, agrochemicals, rubber chemicals and pharma intermediates. Deepak Phenolics (Dahej) makes phenol and acetone domestically for the first time, replacing Chinese imports."
+    },
+    "AARTIIND": {
+      "name": "Aarti Industries",
+      "sector": "Specialty Chemicals",
+      "color": "#4527A0",
+      "description": "India's largest benzene-based chemical company. Sulfuric acid, nitro-chloro-benzene, nitro-toluene — 100+ specialty chemicals used in dyes, pharma and agrochemicals. China+1 beneficiary as global buyers diversify sourcing from Indian manufacturers."
+    },
+    "FLUOROCHEM": {
+      "name": "Gujarat Fluorochemicals",
+      "sector": "Fluoropolymers",
+      "color": "#006064",
+      "description": "Transitioning from refrigerants to PTFE and other fluoropolymers for EV batteries, semiconductor fabrication and aerospace. India's only PTFE producer + India's first HFO (new-generation low-GWP refrigerant) maker. R&D-intensive expansion."
+    },
+    "CANBK": {
+      "name": "Canara Bank",
+      "sector": "Public Bank",
+      "color": "#9C27B0",
+      "description": "Largest PSU bank in South India, headquartered in Bengaluru. Post-Syndicate Bank merger in 2020 increased scale significantly. 10,000+ branches. Strong MSME and agriculture lending. Improving NPA ratios and ROA trajectory."
+    },
+    "UNIONBANK": {
+      "name": "Union Bank of India",
+      "sector": "Public Bank",
+      "color": "#3F51B5",
+      "description": "Post triple-merger entity absorbing Andhra Bank and Corporation Bank (2020). Mumbai-based with 9,000+ branches. Focus on retail, agriculture, MSME and government scheme lending. Improving profitability with GNPA below 5%."
+    },
+    "BANKINDIA": {
+      "name": "Bank of India",
+      "sector": "Public Bank",
+      "color": "#FF9800",
+      "description": "One of India's oldest PSU banks founded in 1906 in Mumbai. Strong Maharashtra and Gujarat presence. 5,100+ branches domestically with international presence in 20+ countries. Improving credit cost trajectory driving profitability recovery."
+    },
+    "INDIANB": {
+      "name": "Indian Bank",
+      "sector": "Public Bank",
+      "color": "#009688",
+      "description": "Chennai-headquartered PSU bank post-merger with Allahabad Bank (2020). Strong South India base with 6,000+ branches. Focus on agriculture, MSME and retail lending. INDOASIS digital banking platform driving NRI remittances."
+    },
+    "UCOBANK": {
+      "name": "UCO Bank",
+      "sector": "Public Bank",
+      "color": "#607D8B",
+      "description": "Kolkata-headquartered public sector bank. Strong eastern India presence particularly West Bengal and Bihar. Participates in all GoI schemes. RuPay card promotion, PM Jan Dhan accounts. Steady improvement in asset quality post recapitalisation."
+    },
+    "MAHABANK": {
+      "name": "Bank of Maharashtra",
+      "sector": "Public Bank",
+      "color": "#5C6BC0",
+      "description": "Pune-headquartered PSU bank. Best performer among medium PSU banks in recent years. One of the first to report GNPA below 3%. Strong Maharashtra presence. Consistent retail deposit growth from tier-2 and tier-3 cities."
+    },
+    "CANARABANK": {
+      "name": "Canara Bank",
+      "sector": "Public Sector Banking",
+      "color": "#0D47A1",
+      "description": "India's 3rd largest PSU bank. Strong in South India. Syndicate Bank merger has been well-integrated; cost synergies flowing through. NPA ratios below pre-pandemic levels. Key beneficiary of MSME and agriculture credit growth."
+    },
+    "IRFC": {
+      "name": "IRFC (Indian Railway Finance Corp)",
+      "sector": "Rail Finance",
+      "color": "#1565C0",
+      "description": "The financial backbone of Indian Railways — IRFC borrows from markets at AAA-rated sovereign-backed rates and on-lends 100% to Ministry of Railways. Every rupee of rail capex flows through IRFC's balance sheet. Zero credit risk (Government of India guarantees repayment). ₹4.6 lakh crore+ loan book growing 15%+ annually. The purest proxy for rising rail capex in India — higher capex = higher IRFC revenue with near-zero default risk."
+    },
+    "RVNL": {
+      "name": "RVNL (Rail Vikas Nigam)",
+      "sector": "Rail Construction",
+      "color": "#B71C1C",
+      "description": "India's premier rail infrastructure construction PSU — executes doubling of track, electrification, bridges, tunnels, and new lines on behalf of Ministry of Railways. ₹85,000 Cr+ active order book. Revenue growing 25%+ YoY. Metro rail projects in addition to Indian Railways work. RVNL is transitioning from pure EPC contractor to developer — taking equity stakes in rail projects and earning annuity income over 30+ year concessions."
+    },
+    "CONCOR": {
+      "name": "Container Corporation (CONCOR)",
+      "sector": "Rail Logistics",
+      "color": "#006064",
+      "description": "India's largest container logistics company — 60%+ domestic rail container market share. Operates 60+ inland container depots (ICDs) and container freight stations (CFS) nationwide. Dedicated Freight Corridors (DFC) are transformational: double-stack trains cut logistics costs by 25% and CONCOR volumes on DFC are 3x legacy route speeds. Privatisation stake sale (government owns 54%) remains a periodic narrative catalyst for re-rating."
+    },
+    "TITAGARH": {
+      "name": "Titagarh Rail Systems",
+      "sector": "Rolling Stock",
+      "color": "#FF6F00",
+      "description": "India's largest private wagon manufacturer with 45%+ market share. 20,000+ wagons per year production capacity. Electric Multiple Unit (EMU) coaches and metro rail cars in Kolkata and Delhi. Titagarh Wagons (merged with Titagarh Firema) gives it pan-India + European passenger rail capability. ₹15,000 Cr+ order book from Indian Railways, Metro Rail Corp, and private freight operators."
+    },
+    "IRCON": {
+      "name": "IRCON International",
+      "sector": "Rail Construction",
+      "color": "#4CAF50",
+      "description": "Government EPC company specialising in railways, highways and urban infrastructure. ₹25,000 Cr+ order book in Indian rail projects plus international orders from Sri Lanka, Malaysia, Bangladesh and Nepal. IRCON's international rail projects are unique: building rail lines in neighbouring countries advances India's diplomatic infrastructure goals while generating substantial recurring revenue."
+    },
+    "RAILTEL": {
+      "name": "RailTel Corporation",
+      "sector": "Rail Technology",
+      "color": "#7B1FA2",
+      "description": "India's only pan-India rail-aligned telecom infrastructure company — owns and operates 60,000 km of OFC (optical fibre cable) along rail tracks. RailWire broadband (last-mile connectivity), station Wi-Fi (6,000+ stations), data centres (RailTel Tier-III DC in Gurugram, Hyderabad) and enterprise connectivity services. Unique asset: OFC alongside every railway track in India — creating an unmatched backbone for digital India."
+    },
+    "JWL": {
+      "name": "Jupiter Wagons",
+      "sector": "Rolling Stock",
+      "color": "#37474F",
+      "description": "Fastest-growing wagon manufacturer — grew from 3,000 to 12,000+ wagons capacity in 3 years. Container wagons for DFC, BOXNHL high-speed goods wagons, passenger coach interiors. Light Rail Vehicle (LRV) business targeting metro and RRTS projects. Jupiter's aggressive capacity expansion signals management's confidence in the 10-year rail capex cycle. Lowest cost per wagon due to vertical integration."
+    },
+    "KERNEX": {
+      "name": "Kernex Microsystems",
+      "sector": "Rail Signalling",
+      "color": "#E91E63",
+      "description": "India's only listed signalling and train collision avoidance technology company. KAVACH (the automatic train protection system mandated after Balasore tragedy for 34,000 km of rail) is Kernex-developed. Ministry of Railways has ₹18,000 Cr KAVACH deployment contract — Kernex is a direct beneficiary. Export potential to South Asia and Africa where Indian rail signalling standards are being adopted."
+    },
+    "NBCC": {
+      "name": "NBCC (India)",
+      "sector": "Rail Real Estate",
+      "color": "#FF8F00",
+      "description": "PSU construction company handling station redevelopment — 50 major stations under NMBS (National Monetization of Station) scheme. Gandhinagar, Ayodhya and Rani Kamlapati (Habibganj, Bhopal) stations are showpieces. NBCC earns project management consultancy (PMC) fees for project execution without balance-sheet risk. ₹10,000 Cr+ station redevelopment pipeline in next 5 years."
+    },
+    "TEXRAIL": {
+      "name": "Texmaco Rail & Engineering",
+      "sector": "Rolling Stock",
+      "color": "#795548",
+      "description": "100-year-old rail engineering company — wagons, coaches, bridges and hydromechanical structures. Texmaco Rail's track record across multiple rail capex cycles gives it institutional credibility with Railway Board for bulk orders. Hydraulic doors and vestibules for Vande Bharat trains. Diversified into defence (armoured vehicles) and hydro infrastructure for revenue stability."
+    },
+    "LODHA": {
+      "name": "Macrotech (Lodha)",
+      "sector": "Real Estate",
+      "color": "#6D4C41",
+      "description": "Premium residential developer. Lodha Park, Lodha Altamount in Mumbai command ultra-luxury pricing. Digital City township targets IT/ITeS workforce housing. Strong FY25 pre-sales momentum."
+    },
+    "GODREJPROP": {
+      "name": "Godrej Properties",
+      "sector": "Real Estate",
+      "color": "#4E342E",
+      "description": "Godrej Group's real estate arm. Asset-light JDA model reduces capital risk. Strong brand commands pricing power. Active in NCR, Pune, Bengaluru, and Mumbai MMR."
+    },
+    "OBEROIREALTY": {
+      "name": "Oberoi Realty",
+      "sector": "Real Estate",
+      "color": "#A1887F",
+      "description": "Ultra-premium developer in Mumbai. Oberoi Garden City in Goregaon, Elysian at Mulund. Commercial (Commerz III) and hospitality (Westin) provide recurring income. High margins on luxury sales."
+    },
+    "PHOENIXLTD": {
+      "name": "Phoenix Mills",
+      "sector": "Retail Real Estate",
+      "color": "#BCAAA4",
+      "description": "India's largest mall developer and operator. Phoenix Palladium (Mumbai), Phoenix Marketcity portfolio. Mall consumption growth driven by premiumisation of retail. Strong asset monetisation."
+    },
+    "SOBHA": {
+      "name": "Sobha Ltd",
+      "sector": "Real Estate",
+      "color": "#D7CCC8",
+      "description": "Integrated construction and development model. Strong in Bengaluru and Kerala markets. Backward integration into interior furnishings and bathware. Solid corporate governance."
+    },
+    "BRIGADE": {
+      "name": "Brigade Enterprises",
+      "sector": "Real Estate",
+      "color": "#8BC34A",
+      "description": "Diversified real estate in South India. Brigade Tech Gardens is a major IT park. Brigade Hotel group provides hospitality revenues. Active in Bengaluru, Hyderabad, and Chennai."
+    },
+    "SUNTECK": {
+      "name": "Sunteck Realty",
+      "sector": "Real Estate",
+      "color": "#CDDC39",
+      "description": "Mumbai-focused luxury and ultra-luxury developer. Sunteck City in BKC surrounds. Premium positioning targets HNI and NRI buyers. Low inventory overhang drives ASP growth."
+    },
+    "SIGNATURE": {
+      "name": "Signature Global",
+      "sector": "Real Estate",
+      "color": "#FFEB3B",
+      "description": "Affordable housing specialist in NCR. PMAY beneficiary. Focus on Gurugram and Sohna Road micro-markets. Strong volumes driven by first-time homebuyer demand."
+    },
+    "DMART": {
+      "name": "Avenue Supermarts (DMART)",
+      "sector": "Retail - Value",
+      "color": "#E91E63",
+      "description": "India's most efficient value retailer. EDLP strategy. 300+ stores in Maharashtra, Gujarat, Andhra. Store economics with 18% ROCE. DMart Ready online for kirana-like convenience."
+    },
+    "JUBLFOOD": {
+      "name": "Jubilant FoodWorks",
+      "sector": "QSR",
+      "color": "#F44336",
+      "description": "Domino's Pizza master franchisee for India, Bangladesh, Nepal, Sri Lanka. Popeyes and Hong's Kitchen new brand launches. 1,900+ Domino's stores. Digital ordering 75%+ of revenues."
+    },
+    "VBL": {
+      "name": "Varun Beverages",
+      "sector": "Beverages",
+      "color": "#1976D2",
+      "description": "Pepsi bottler for India and international markets. Sting energy drink disrupting market. Sub-Saharan Africa expansion. Strong revenue growth 20%+ driven by energy drinks and rural distribution push."
+    },
+    "BATAINDIA": {
+      "name": "Bata India",
+      "sector": "Footwear",
+      "color": "#795548",
+      "description": "India's largest footwear company by outlets. Hush Puppies, Comfit, Marie Claire licensed brands. Power brand for affordable schools and workwear. Sneaker collaboration products targeting GenZ."
+    },
+    "HAL": {
+      "name": "Hindustan Aeronautics",
+      "sector": "Aerospace",
+      "color": "#1565C0",
+      "description": "India's premier aerospace manufacturer. Key supplier of aircraft and helicopters to Indian defence forces."
+    },
+    "SOLARINDS": {
+      "name": "Solar Industries India",
+      "sector": "Ammunition & Explosives",
+      "color": "#F9A825",
+      "description": "Largest manufacturer of industrial explosives and defence ammunition in India."
+    },
+    "MAZDOCK": {
+      "name": "Mazagon Dock Shipbuilders",
+      "sector": "Shipbuilding",
+      "color": "#3F51B5",
+      "description": "Leading naval shipbuilder. Monopoly in submarine building for Indian Navy."
+    },
+    "BDL": {
+      "name": "Bharat Dynamics",
+      "sector": "Missile Systems",
+      "color": "#C62828",
+      "description": "Key manufacturer of missiles and allied defence equipment."
+    },
+    "COCHINSHIP": {
+      "name": "Cochin Shipyard",
+      "sector": "Shipbuilding",
+      "color": "#009688",
+      "description": "Major shipbuilder for Indian Navy and Coast Guard."
+    },
+    "ASTRAMICRO": {
+      "name": "Astra Microwave Products",
+      "sector": "Defence Electronics",
+      "color": "#673AB7",
+      "description": "Specialist in RF and microwave products for defence and space."
+    },
+    "GRSE": {
+      "name": "Garden Reach Shipbuilders & Engineers",
+      "sector": "Shipbuilding",
+      "color": "#009688",
+      "description": "Kolkata-based shipbuilder. First Indian shipyard to export warships."
+    },
+    "DATAPATTNS": {
+      "name": "Data Patterns (India)",
+      "sector": "Defence Electronics",
+      "color": "#00796B",
+      "description": "Defence and aerospace electronics company. Works on radar, avionics, and missile systems."
+    },
+    "BEML": {
+      "name": "BEML Ltd",
+      "sector": "Heavy Equipment",
+      "color": "#F44336",
+      "description": "Makes metro rail cars (Mumbai, Delhi, Bengaluru, Pune), mining equipment (dumpers, draglines) and high-mobility vehicles for Indian Army. Exporting metro coaches to Singapore MRT. Also makes helicopter ground support equipment."
+    },
+    "PARAS": {
+      "name": "Paras Defence",
+      "sector": "Optics & Electronics",
+      "color": "#673AB7",
+      "description": "Niche defence-tech company. Makes electro-optic systems for missiles and helicopters, star trackers for ISRO/DRDO satellites, image intensifier tubes for night-vision goggles. India's only manufacturer of several critical optics components."
+    },
+    "EXIDEIND": {
+      "name": "Exide Industries",
+      "sector": "EV Batteries",
+      "color": "#37474F",
+      "description": "India's largest lead-acid battery maker transitioning to lithium-ion EV batteries. Exide Energy Solutions JV with SVOLT (China). 6 GWh LiB gigafactory at Bengaluru. Legacy auto/industrial business funds EV battery capex. First indigenously manufactured EV battery cells."
+    },
+    "SONACOMS": {
+      "name": "Sona BLW Precision",
+      "sector": "EV Components",
+      "color": "#BF360C",
+      "description": "Pure EV-centric auto component company. Differential assemblies and BSG (Belt Starter Generator) motors for ICE/hybrids/BEVs. 64%+ revenue from EV orders. Global OEM customers include BYD, GAC, Dana, GM. Inverter and motor controller production roadmap."
+    },
+    "ADANIPORTS": {
+      "name": "Adani Ports & SEZ",
+      "sector": "Ports & Logistics",
+      "color": "#1565C0",
+      "description": "India's largest private port operator. 13 ports handling 25%+ of India's cargo. Mundra (Gujarat) is India's largest container port. Logistics park network expanding via APSEZ. Benefiting from India's EXIM trade boom targeting $2T exports by 2030."
+    },
+    "AMBUJACEM": {
+      "name": "Ambuja Cements",
+      "sector": "Building Materials",
+      "color": "#9E9E9E",
+      "description": "India's 2nd largest cement group (post Adani acquisition of Holcim India). 78 MT capacity. Strong Western and Northern market presence. Synergy benefits from limestone mines, railways and port infrastructure of Adani Group."
+    },
+    "HCC": {
+      "name": "Hindustan Construction Company",
+      "sector": "Construction",
+      "color": "#B71C1C",
+      "description": "Pioneer in tunnelling, bridges, hydroelectric dams and nuclear power civil construction. Tehri Dam, Mumbai Metro, Zojila Tunnel. Largest hydro-power EPC contractor in India. Debt restructured, order book recovering strongly."
+    },
+    "IRB": {
+      "name": "IRB Infrastructure",
+      "sector": "Roads & Highways",
+      "color": "#F57F17",
+      "description": "India's largest private roads developer with 20,000+ km of highway portfolio under HAM and BOT models. NHAI's premium partner for NH development. IRB InvIT generates stable toll fee income. 10+ GW operational road assets."
+    },
+    "ABB": {
+      "name": "ABB India",
+      "sector": "Capital Goods",
+      "color": "#FDD835",
+      "description": "Electrification, motion, process automation, and robotics. ABB Switzerland holds 75%. Key beneficiary of India's power T&D upgrade cycle, railways electrification, and green hydrogen projects."
+    },
+    "BOSCHLTD": {
+      "name": "Bosch India",
+      "sector": "Auto Ancillary",
+      "color": "#424242",
+      "description": "Robert Bosch GmbH holds 70%. Automotive fuel systems, power tools, and home appliances. Transitioning from diesel fuel injection to EV components, ADAS systems, and hydrogen cell technology."
+    },
+    "HONAUT": {
+      "name": "Honeywell Automation",
+      "sector": "Process Automation",
+      "color": "#00BFA5",
+      "description": "Honeywell USA holds 75%. Process automation, building management, safety solutions. Chemical, refining, and pharma industries drive demand. One of the highest-quality small-cap MNCs listed in India."
+    },
+    "3MINDIA": {
+      "name": "3M India",
+      "sector": "Diversified Industrial",
+      "color": "#1976D2",
+      "description": "3M USA holds 75%. Scotch tape, Post-it, safety solutions, healthcare tapes, industrial abrasives. Diversified industrial with thousands of products across segments. Steady royalty model."
+    },
+    "BSE": {
+      "name": "BSE Ltd",
+      "sector": "Capital Markets",
+      "color": "#F57F17",
+      "description": "India's oldest stock exchange, beneficiary of retail investor participation boom. Derivatives volumes surging. GIFT City exchange operations growing. Revenue diversification into insurance and other verticals."
+    },
+    "CESC": {
+      "name": "CESC Ltd",
+      "sector": "Power",
+      "color": "#FFB300",
+      "description": "Kolkata's dominant power utility. Regulated ROE provides stable base. Surya Vidyut renewable subsidiary growing. Spencer's Retail stake provides consumer exposure."
+    },
+    "IRCTC": {
+      "name": "IRCTC",
+      "sector": "Railway - PSU",
+      "color": "#2196F3",
+      "description": "Indian Railways' exclusive catering, tourism, and ticketing arm. Internet ticketing monopoly generates massive cash flows. Train travel boom post-COVID. Convenience fee regime restored to full level."
+    },
+    "POLICYBZR": {
+      "name": "PB Fintech (Policybazaar)",
+      "sector": "InsurTech",
+      "color": "#1976D2",
+      "description": "India's largest insurance aggregator and credit marketplace. Policybazaar dominates online term and health insurance. Paisabazaar is India's largest credit marketplace. Path to profitability ahead of schedule."
+    },
+    "REC": {
+      "name": "REC Ltd",
+      "sector": "Power Finance",
+      "color": "#00838F",
+      "description": "Power sector financing PSU benefiting from infrastructure capex. Loan book growing 20%+ with improving asset quality."
+    },
+    "CARBORUNIV": {
+      "name": "Carborundum Universal",
+      "sector": "Industrials",
+      "color": "#37474F",
+      "description": "Abrasives and advanced ceramics leader. Industrial cycle recovery driving mid-cap industrial momentum. Export growth to Middle East and Europe."
+    },
+    "MANKIND": {
+      "name": "Mankind Pharma",
+      "sector": "Pharmaceuticals",
+      "color": "#7B1FA2",
+      "description": "Listed 2023. Branded generics across India. Pan-India distribution with 50,000+ outlets. Consumer healthcare brands — Prega News, AcneStar."
+    },
+    "NYKAA": {
+      "name": "Nykaa",
+      "sector": "Beauty Retail",
+      "color": "#E91E63",
+      "description": "Listed 2021. India's largest beauty and personal care platform. House of brands — Kay Beauty, Nykd. Omnichannel physical + digital."
+    },
+    "JSWINFRA": {
+      "name": "JSW Infrastructure",
+      "sector": "Port Infrastructure",
+      "color": "#0277BD",
+      "description": "Listed 2023. India's second-largest private port operator. Mangalore, Goa and Paradip ports. Leveraging JSW Steel captive volumes."
+    },
+    "HONASA": {
+      "name": "Honasa Consumer",
+      "sector": "D2C Beauty",
+      "color": "#558B2F",
+      "description": "Listed 2023. Mamaearth, The Derma Co, Aqualogica brands. Direct-to-consumer personal care with digital marketing capabilities."
+    },
+    "SBFC": {
+      "name": "SBFC Finance",
+      "sector": "NBFC",
+      "color": "#FF8F00",
+      "description": "Listed 2023. MSME-focused secured lender. Small business loans with gold loan component. Growing rural and semi-urban credit book."
+    },
+    "GODIGIT": {
+      "name": "Godigit Insurance",
+      "sector": "General Insurance",
+      "color": "#00897B",
+      "description": "Listed 2024. India's fastest growing general insurer. Digital-first motor and health insurance platform."
+    },
+    "OLAELECTRIC": {
+      "name": "Ola Electric",
+      "sector": "EV Mobility",
+      "color": "#FF6F00",
+      "description": "Listed 2024. India's largest EV scooter maker. S1 platform with Ola Gig B2B electric scooter for delivery partners."
+    },
+    "THERMAX": {
+      "name": "Thermax",
+      "sector": "Industrial Engineering",
+      "color": "#0D47A1",
+      "description": "Energy and environment engineering. Boilers, heat exchangers, chillers. Green hydrogen equipment for industrial decarbonisation."
+    },
+    "CGPOWER": {
+      "name": "CG Power",
+      "sector": "Power Equipment",
+      "color": "#00897B",
+      "description": "Transformers, switchgear, motors and railway traction systems. Murugappa Group turnaround. Railway electrification boom driving order inflows."
+    },
+    "BHEL": {
+      "name": "BHEL",
+      "sector": "Heavy Electricals",
+      "color": "#7B1FA2",
+      "description": "Bharat Heavy Electricals — India's largest power equipment manufacturer. Makes turbines, generators, transformers and boilers. Government holds 63%. Reviving order book from thermal power and defence electronics diversification."
+    },
+    "HINDPETRO": {
+      "name": "Hindustan Petroleum (HPCL)",
+      "sector": "Oil & Gas - Refining",
+      "color": "#F44336",
+      "description": "India's second-largest public sector oil marketing company. 9,000+ petrol stations with retail fuel marketing advantage. Vizag and Mumbai refineries being upgraded for complex crude processing. Trades at significant discount to replacement cost. Earnings highly cyclical with marketing margins — value opportunity deepens in refining downcycles."
+    },
+    "BLUESTAR": {
+      "name": "Blue Star",
+      "sector": "Consumer Durables",
+      "color": "#1976D2",
+      "description": "Commercial refrigeration and AC player. B2B and B2C mix. Growing channel distribution. Quality mid-cap industrial consumer play."
+    },
+    "SCHAEFFLER": {
+      "name": "Schaeffler India",
+      "sector": "Auto Components",
+      "color": "#FF8F00",
+      "description": "German-parent bearing manufacturer for auto and industrial applications. High ROCE in import-substitute precision engineering. Mid-cap industrial quality anchor."
+    }
+  }
+}

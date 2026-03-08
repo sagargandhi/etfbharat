@@ -1,0 +1,56 @@
+{
+  "indexName": "HDFC NIFTY Private Bank ETF",
+  "slug": "hdfc-nifty-private-bank-etf",
+  "source": "manual",
+  "updatedAt": "2026-03-08",
+  "holdings": [
+    {
+      "name": "HDFC Bank",
+      "ticker": "HDFCBANK",
+      "weight": 36.2,
+      "sector": "Private Banking",
+      "color": "#004C91",
+      "description": "Dominant in private banking index — 36%+ weight. Post-HDFC merger universal bank with home loan + retail bank + SME powerhouse. Predictable NIMs (~4%) and industry-lowest NPA (<1.4% GNPA) justify premium valuation."
+    },
+    {
+      "name": "ICICI Bank",
+      "ticker": "ICICIBANK",
+      "weight": 30.1,
+      "sector": "Private Banking",
+      "color": "#B71C1C",
+      "description": "2nd largest private bank weight. Best risk-reward among large banks — ROE 18%, growth 18%, P/B expanding. iMobile app success and Kuda (Africa) partnerships drive next growth chapter beyond domestic retail."
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "ticker": "KOTAKBANK",
+      "weight": 15.8,
+      "sector": "Private Banking",
+      "color": "#E65100",
+      "description": "3rd largest private bank weight. Known as 'fortress balance sheet' — near-zero NPAs, massive capital cushion. Kotak 811 breakthrough in digital savings. Uday Kotak succession completed; Ashok Vaswani as MD rebuilding growth momentum."
+    },
+    {
+      "name": "Axis Bank",
+      "ticker": "AXISBANK",
+      "weight": 11.2,
+      "sector": "Private Banking",
+      "color": "#880E4F",
+      "description": "4th. Turnaround complete — net NPA <0.5%, ROE recovering to 15%. Citibank India (cards, wealth, mortgages) acquisition added 3M+ premium customers. Burgundy private banking platform for HNI/UHNI growing fast."
+    },
+    {
+      "name": "IndusInd Bank",
+      "ticker": "INDUSINDBK",
+      "weight": 4.3,
+      "sector": "Private Banking",
+      "color": "#BF360C",
+      "description": "5th. Commercial vehicle, gem & jewellery and consumer finance specialist. Strong in South India through BFIL microfinance network. Management focused on LDR (Loan-to-Deposit) normalisation and liability franchise strengthening."
+    },
+    {
+      "name": "IDFC First Bank",
+      "ticker": "IDFCFIRSTB",
+      "weight": 2.4,
+      "sector": "Private Banking",
+      "color": "#6A1B9A",
+      "description": "Youngest of the large private banks, transformed from an infrastructure NBFC. Retail liability (savings account) franchise building rapidly. V. Vaidyanathan's customer-first strategy driving low-cost CASA growth. EV financing a new vertical."
+    }
+  ]
+}
