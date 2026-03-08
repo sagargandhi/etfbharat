@@ -1,110 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
   <url>
     <loc>https://etfbharat.com/</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://etfbharat.com/gold-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <!-- ETF Type pages -->
   <url>
     <loc>https://etfbharat.com/nifty-50-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://etfbharat.com/gold-etf.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/banking-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/debt-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/sectoral-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/international-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/ev-rail-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <!-- Guide pages -->
   <url>
-    <loc>https://etfbharat.com/what-is-etf.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://etfbharat.com/difference-between-etf-and-smallcase.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://etfbharat.com/nse-vs-bse.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://etfbharat.com/what-is-etf.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://etfbharat.com/etf-vs-mutual-fund.html</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/how-to-buy-etf-india.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://etfbharat.com/etf-vs-mutual-fund.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://etfbharat.com/etf-vs-stocks.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://etfbharat.com/etf-taxation.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/expense-ratio.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://etfbharat.com/etf-vs-stocks.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://etfbharat.com/nse-vs-bse.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <!-- Learn pages -->
+  <url>
+    <loc>https://etfbharat.com/what-is-tracking-error-in-etf.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://etfbharat.com/etf-taxation.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <loc>https://etfbharat.com/what-is-etf-rebalancing.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://etfbharat.com/what-is-etf-liquidity.html</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- Site pages -->
   <url>
     <loc>https://etfbharat.com/about.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/contact.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://etfbharat.com/privacy-policy.html</loc>
-    <lastmod>2026-03-01</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
