@@ -343,57 +343,55 @@ const POPULAR_TICKERS = new Set([
   'CPSEETF','KOTAKDEF','ICICIB22','GROWWEV','INFRABEES','MOM100'
 ]);
 
-// ── LOAD ETF DATA FROM MULTIPLE FILES ─────────────────────────────────────────
-let ETF_FILES = [];
-
+// ── LOAD ETF DATA (etf-config.json v2.0 + companies.json) ────────────────────
 async function loadAllETFData() {
   try {
-    // Load configuration file
-    const configRes = await fetch('etf-config.json');
-    const config = await configRes.json();
-    ETF_FILES = config.etfFiles;
-    
-    // Load all ETF data files
-    const promises = ETF_FILES.map(file => 
-      fetch(`etf/${file}`)
-        .then(res => res.json())
-        .catch(err => {
-          console.error(`Error loading ${file}:`, err);
-          return [];
-        })
-    );
-    
-    // Load price data
-    const priceDataPromise = fetch('etf-prices.json')
-      .then(res => res.json())
-      .catch(err => {
-        console.error('Error loading price data:', err);
-        return {};
+    // Load all three data files in parallel
+    const [configRes, companiesRes, priceRes] = await Promise.all([
+      fetch('etf-config.json'),
+      fetch('companies.json').catch(() => null),
+      fetch('etf-prices.json').catch(() => null)
+    ]);
+
+    const config    = await configRes.json();
+    const companiesData = companiesRes ? await companiesRes.json().catch(() => ({})) : {};
+    const priceData     = priceRes     ? await priceRes.json().catch(() => ({}))     : {};
+
+    // v2.0 format: config.etfs is a dict keyed by NSE symbol
+    const etfsDict      = config.etfs      || {};
+    const companiesDict = companiesData.companies || {};
+
+    ETF_DATA = Object.entries(etfsDict).map(([nseSymbol, etf]) => {
+      const prices   = priceData[nseSymbol] || {};
+      // Enrich holdings: {ticker, weight} → {ticker, weight, name, color}
+      const holdings = (etf.holdings || []).map(h => {
+        const co = companiesDict[h.ticker] || {};
+        return {
+          ticker: h.ticker,
+          weight: h.weight,
+          name:   co.name  || h.ticker,
+          color:  co.color || '#9E9E9E'
+        };
       });
-    
-    const [allData, priceData] = await Promise.all([Promise.all(promises), priceDataPromise]);
-    ETF_DATA = allData.flat();
-    
-    // Merge price data with ETF data
-    ETF_DATA = ETF_DATA.map(etf => {
-      const prices = priceData[etf.ticker] || {};
       return {
         ...etf,
-        nav: prices.nav || etf.nav || '₹0.00',
-        aum: prices.aum || etf.aum || '₹0 Cr',
+        ticker:  nseSymbol,
+        holdings,
+        nav:     prices.nav     || '₹0.00',
+        aum:     prices.aum     || '₹0 Cr',
         expense: prices.expense || etf.expense || '0.00%'
       };
     });
-    
-    console.log(`Loaded ${ETF_DATA.length} ETFs from ${ETF_FILES.length} files`);
-    
+
+    console.log(`Loaded ${ETF_DATA.length} ETFs from etf-config.json v2.0`);
+
     // Initialize the UI after data is loaded
     renderSubFilters();
     initializeApp();
   } catch (error) {
     console.error('Error loading ETF data:', error);
-    // Show error message to user
-    document.getElementById('card-grid').innerHTML = '<div style="color: #FF1744; text-align: center; padding: 40px;">Error loading ETF data. Please refresh the page.</div>';
+    document.getElementById('card-grid').innerHTML =
+      '<div style="color:#FF1744;text-align:center;padding:40px;">Error loading ETF data. Please refresh the page.</div>';
   }
 }
 
