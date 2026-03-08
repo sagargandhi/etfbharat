@@ -115,6 +115,7 @@
 <!-- NAV -->
 <div id="navbar">
   <div class="nav-inner">
+    <button class="site-nav-hamburger" aria-label="Menu" onclick="document.getElementById('snm').classList.toggle('open')">☰</button>
     <a class="nav-logo-wrap" href="/" style="text-decoration:none;">
       <div class="nav-logo-icon">📊</div>
       <div>
@@ -125,7 +126,6 @@
     <div class="tabs-wrap" id="tabs"></div>
     <div id="nav-right" style="display:flex;align-items:center;gap:10px;">
       <button class="disclaimer-btn" onclick="toggleDisclaimer()">⚠️ Disclaimer</button>
-      <button class="site-nav-hamburger" aria-label="Menu" onclick="document.getElementById('snm').classList.toggle('open')">☰</button>
     </div>
   </div>
   <div class="site-nav-mobile" id="snm">
