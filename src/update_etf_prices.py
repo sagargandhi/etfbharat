@@ -91,126 +91,128 @@ def fetch_nse_outstanding(symbols):
         time.sleep(0.2)
     return out
 
-# ── Load all ETF data from sector JSON files ──────────────────────────────────
-def load_etf_data_from_config(config_file='etf-config.json', etf_folder='etf'):
-    """Load all ETF data from individual sector/theme JSON files using config."""
-    etf_data = []
-    
-    # Load configuration
+# ── Load all ETF symbols from etf-config.json v2.0 ────────────────────────────
+def load_etf_symbols(config_file: str) -> dict[str, dict]:
+    """
+    Load the normalized etf-config.json (v2.0, keyed by NSE symbol).
+    Returns {nseSymbol: {name, category, ...}} for all 311 ETFs.
+    Falls back gracefully if file is missing or malformed.
+    """
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
             config = json.load(f)
-        etf_files = config.get('etfFiles', [])
+        version = config.get('meta', {}).get('version', '1.0')
+        if version >= '2.0' and 'etfs' in config:
+            etfs = config['etfs']
+            print(f"  etf-config.json v{version}: {len(etfs)} ETFs")
+            return etfs
+        # Legacy v1.0 — etfFiles list — shouldn't happen after normalize_data.py
+        print("  WARNING: etf-config.json is old v1.0 format — run normalize_data.py first")
+        return {}
     except Exception as e:
-        print(f"Error loading config file {config_file}: {e}")
-        return etf_data
-    
-    if not etf_files:
-        print(f"No ETF files configured in {config_file}")
-        return etf_data
-    
-    for filename in etf_files:
-        filepath = os.path.join(etf_folder, filename)
-        try:
-            with open(filepath, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    etf_data.extend(data)
-                    print(f"  Loaded {len(data)} ETFs from {filename}")
-                else:
-                    print(f"  Skipped {filename} (invalid format)")
-        except Exception as e:
-            print(f"  Error loading {filepath}: {e}")
-    
-    return etf_data
+        print(f"Error loading {config_file}: {e}")
+        return {}
+
+# ── Formatting helpers ─────────────────────────────────────────────────────────
+def fmt_nav(price_float: float) -> str:
+    """Format NAV: ₹278.25, ₹1,234.5, ₹0.85"""
+    if price_float >= 1000:
+        return f"₹{price_float:,.2f}"
+    return f"₹{price_float:.2f}"
+
+def fmt_aum(aum_cr: float) -> str:
+    """Format AUM in crores: ₹456.7 Cr or ₹56,762 Cr"""
+    if aum_cr >= 1000:
+        return f"₹{aum_cr:,.0f} Cr"
+    return f"₹{aum_cr:,.1f} Cr"
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 prices_file = os.path.join(ROOT_DIR, 'etf-prices.json')
 with open(prices_file, 'r', encoding='utf-8') as f:
     etf_prices = json.load(f)
+print(f"Loaded etf-prices.json: {len(etf_prices)} existing records")
 
-print("Loading ETF data from etf/ folder using config...")
-etf_data = load_etf_data_from_config(
-    os.path.join(ROOT_DIR, 'etf-config.json'),
-    os.path.join(ROOT_DIR, 'etf')
-)
-print(f"  Total: {len(etf_data)} ETFs loaded")
+print("\nLoading ETF symbols from etf-config.json v2.0 ...")
+etf_config = load_etf_symbols(os.path.join(ROOT_DIR, 'etf-config.json'))
+if not etf_config:
+    print("No ETFs loaded — aborting.")
+    raise SystemExit(1)
 
 print("\nInitialising NSE session...")
 init_nse_session()
 
 print("Fetching NSE ETF list...")
 nse_etfs = fetch_nse_etf_batch()
-print(f"  Got {len(nse_etfs)} ETFs from NSE")
-
-# Debug: show available fields from first ETF
+print(f"  Got {len(nse_etfs)} ETFs from NSE API")
 if nse_etfs:
-    first_etf = next(iter(nse_etfs.values()))
-    print(f"  Available fields: {list(first_etf.keys())}")
+    print(f"  Available fields: {list(next(iter(nse_etfs.values())).keys())}")
 
-# use free NSE quote API to fetch outstanding units for each symbol
-print("Fetching outstanding quantities from NSE...")
-nse_outstanding = fetch_nse_outstanding(nse_etfs.keys())
+# Fetch outstanding units only for symbols found in NSE data (saves time)
+symbols_to_query = list(nse_etfs.keys())
+print(f"\nFetching outstanding units for {len(symbols_to_query)} symbols ...")
+nse_outstanding = fetch_nse_outstanding(symbols_to_query)
 valid_out = sum(1 for v in nse_outstanding.values() if v is not None)
-print(f"  Got outstanding for {valid_out} symbols")
+print(f"  Got outstanding for {valid_out}/{len(symbols_to_query)} symbols")
 
-updated_nav = updated_aum = 0
+updated_nav = updated_aum = added_new = 0
 
-for etf in etf_data:
-    ticker = etf.get('ticker')
-    nse_symbol = etf.get('nseSymbol', ticker)
-    if not ticker or not nse_symbol or ticker not in etf_prices:
-        continue
+for nse_symbol, etf_meta in etf_config.items():
     row = nse_etfs.get(nse_symbol)
     if not row:
-        print(f"  {ticker}: NSE symbol '{nse_symbol}' not found in ETF list")
+        # ETF exists in our config but not in NSE live list (de-listed or thin trading)
         continue
-    nav = row.get('ltP')
-    ffmc = row.get('ffmc')  # Free-float market cap in crores (fallback)
 
-    nav_str = None
+    raw_nav  = row.get('ltP')
+    ffmc     = row.get('ffmc')   # free-float mkt cap in crores (fallback for AUM)
+
+    # ── NAV ──────────────────────────────────────────────────────────────────
+    nav_str   = None
     nav_float = None
-    if nav is not None:
+    if raw_nav is not None:
         try:
-            nav_float = float(nav)
-            nav_str = f"₹{nav_float:,.2f}".rstrip('0').rstrip('.')
+            nav_float = float(str(raw_nav).replace(',', ''))
+            nav_str   = fmt_nav(nav_float)
         except Exception:
-            nav_str = None
-    aum_str = None
+            pass
 
-    # first try to compute using outstanding units from NSE quote API
+    # ── AUM ──────────────────────────────────────────────────────────────────
+    aum_str  = None
     out_units = nse_outstanding.get(nse_symbol)
     if out_units is not None and nav_float is not None:
         try:
-            aum_val = out_units * nav_float
-            # convert to crores for display
-            aum_cr = aum_val / 1e7  # 1 crore = 10 million
-            aum_str = f"₹{aum_cr:,.1f} Cr" if aum_cr < 1000 else f"₹{aum_cr:,.0f} Cr"
+            aum_cr  = (out_units * nav_float) / 1e7   # units × NAV → crores
+            aum_str = fmt_aum(aum_cr)
         except Exception as e:
-            print(f"    [AUM calc error from outstanding for {ticker}] out={out_units} nav={nav_float} err={e}")
-    # fallback to ffmc if outstanding unavailable
-    if aum_str is None:
+            print(f"  [AUM calc error {nse_symbol}] units={out_units} nav={nav_float}: {e}")
+    if aum_str is None and ffmc is not None:
         try:
-            if ffmc is not None:
-                # Use free-float market cap directly (already in crores)
-                aum_cr = float(str(ffmc).replace(',', ''))
-                aum_str = f"₹{aum_cr:,.1f} Cr" if aum_cr < 1000 else f"₹{aum_cr:,.0f} Cr"
-            else:
-                print(f"    [No FFMC available for {ticker}]")
+            aum_cr  = float(str(ffmc).replace(',', ''))
+            aum_str = fmt_aum(aum_cr)
         except Exception as e:
-            print(f"    [AUM calc error for {ticker}] ffmc={ffmc} err={e}")
+            print(f"  [FFMC parse error {nse_symbol}] ffmc={ffmc}: {e}")
+
+    # ── Expense ratio (kept from existing; NSE doesn't provide this) ──────────
+    existing   = etf_prices.get(nse_symbol, {})
+    expense    = existing.get('expense', '—')
+
+    # ── Upsert into etf_prices ────────────────────────────────────────────────
+    if nse_symbol not in etf_prices:
+        etf_prices[nse_symbol] = {}
+        added_new += 1
 
     if nav_str:
-        etf_prices[ticker]['nav'] = nav_str
+        etf_prices[nse_symbol]['nav']     = nav_str
         updated_nav += 1
     if aum_str:
-        etf_prices[ticker]['aum'] = aum_str
+        etf_prices[nse_symbol]['aum']     = aum_str
         updated_aum += 1
+    etf_prices[nse_symbol]['expense'] = expense
 
-    print(f"  {ticker} (NSE: {nse_symbol}): NAV={nav_str or '—'}  AUM={aum_str or '—'}")
+    print(f"  {nse_symbol}: NAV={nav_str or '—'}  AUM={aum_str or '—'}  Exp={expense}")
     time.sleep(0.2)
 
 with open(prices_file, 'w', encoding='utf-8') as f:
     json.dump(etf_prices, f, indent=2, ensure_ascii=False)
 
-print(f"\nDone. NAV updated: {updated_nav} | AUM updated: {updated_aum}")
+print(f"\nDone.  NAV updated: {updated_nav}  |  AUM updated: {updated_aum}  |  New entries: {added_new}")
+print(f"etf-prices.json now has {len(etf_prices)} records")
