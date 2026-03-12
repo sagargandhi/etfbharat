@@ -1,43 +1,43 @@
 {
   "NIFTYBEES": {
-    "aum": "₹55,815 Cr",
+    "aum": "₹55,451 Cr",
     "expense": "0.04%",
-    "nav": "₹270.45"
+    "nav": "₹268.07"
   },
   "GOLDBEES": {
-    "aum": "₹59,750 Cr",
+    "aum": "₹59,570 Cr",
     "expense": "0.80%",
-    "nav": "₹132.66"
+    "nav": "₹132.46"
   },
   "BANKBEES": {
-    "aum": "₹7,515 Cr",
+    "aum": "₹7,471 Cr",
     "expense": "0.19%",
-    "nav": "₹576.96"
+    "nav": "₹570.38"
   },
   "CPSEETF": {
-    "aum": "₹24,349 Cr",
+    "aum": "₹24,564 Cr",
     "expense": "0.07%",
-    "nav": "₹102.67"
+    "nav": "₹104.43"
   },
   "PSUBNKBEES": {
-    "aum": "₹4,239 Cr",
+    "aum": "₹4,241 Cr",
     "expense": "0.49%",
-    "nav": "₹98.50"
+    "nav": "₹98.37"
   },
   "JUNIORBEES": {
-    "aum": "₹7,125 Cr",
+    "aum": "₹7,111 Cr",
     "expense": "0.17%",
-    "nav": "₹718.00"
+    "nav": "₹715.65"
   },
   "SILVERBEES": {
-    "aum": "₹35,186 Cr",
+    "aum": "₹35,402 Cr",
     "expense": "0.56%",
-    "nav": "₹251.01"
+    "nav": "₹253.53"
   },
   "SETFNIF50": {
-    "aum": "₹203,812 Cr",
+    "aum": "₹201,838 Cr",
     "expense": "0.07%",
-    "nav": "₹256.00"
+    "nav": "₹253.52"
   },
   "UTINIFTETF": {
     "aum": "₹67,401 Cr",
@@ -45,9 +45,9 @@
     "nav": "₹270.02"
   },
   "GILT5YBEES": {
-    "aum": "₹245.5 Cr",
+    "aum": "₹246.0 Cr",
     "expense": "0.10%",
-    "nav": "₹64.35"
+    "nav": "₹64.64"
   },
   "SDL26BEES": {
     "aum": "₹4,938 Cr",
@@ -55,299 +55,299 @@
     "nav": "₹136.76"
   },
   "MODEFENCE": {
-    "aum": "₹1,312 Cr",
+    "aum": "₹1,294 Cr",
     "expense": "0.41%",
-    "nav": "₹90.83"
+    "nav": "₹90.40"
   },
   "HEALTHIETF": {
-    "aum": "₹155.8 Cr",
+    "aum": "₹154.6 Cr",
     "expense": "0.18%",
-    "nav": "₹153.90"
+    "nav": "₹152.72"
   },
   "HDFCGOLD": {
-    "aum": "₹23,549 Cr",
+    "aum": "₹23,494 Cr",
     "expense": "0.59%",
-    "nav": "₹137.17"
+    "nav": "₹136.81"
   },
   "ITIETF": {
-    "aum": "₹444.5 Cr",
+    "aum": "₹443.3 Cr",
     "expense": "0.10%",
-    "nav": "₹32.80"
+    "nav": "₹32.71"
   },
   "PHARMABEES": {
-    "aum": "₹1,075 Cr",
+    "aum": "₹1,067 Cr",
     "expense": "0.21%",
-    "nav": "₹24.13"
+    "nav": "₹23.93"
   },
   "TATSILV": {
-    "aum": "₹5,671 Cr",
+    "aum": "₹5,665 Cr",
     "expense": "0.44%",
-    "nav": "₹25.49"
+    "nav": "₹25.76"
   },
   "LIQUIDIETF": {
-    "aum": "₹1,754 Cr",
+    "aum": "₹1,733 Cr",
     "expense": "0.15%",
     "nav": "₹1,000.00"
   },
   "LIQUIDETF": {
-    "aum": "₹450.2 Cr",
+    "aum": "₹487.2 Cr",
     "expense": "0.20%",
-    "nav": "₹1,000.01"
+    "nav": "₹999.99"
   },
   "HDFCSILVER": {
-    "aum": "₹8,479 Cr",
+    "aum": "₹8,527 Cr",
     "expense": "0.60%",
-    "nav": "₹251.10"
+    "nav": "₹253.65"
   },
   "SILVERIETF": {
-    "aum": "₹16,714 Cr",
+    "aum": "₹16,821 Cr",
     "expense": "0.40%",
-    "nav": "₹262.20"
+    "nav": "₹264.44"
   },
   "LIQUIDCASE": {
-    "aum": "₹8,745 Cr",
+    "aum": "₹8,655 Cr",
     "expense": "0.20%",
-    "nav": "₹113.10"
+    "nav": "₹113.11"
   },
   "TATAGOLD": {
-    "aum": "₹6,133 Cr",
+    "aum": "₹6,131 Cr",
     "expense": "0.38%",
-    "nav": "₹15.54"
+    "nav": "₹15.53"
   },
   "GOLDIETF": {
-    "aum": "₹26,881 Cr",
+    "aum": "₹26,860 Cr",
     "expense": "0.50%",
-    "nav": "₹137.40"
+    "nav": "₹137.14"
   },
   "LIQUIDADD": {
-    "aum": "₹1,936 Cr",
+    "aum": "₹1,868 Cr",
     "expense": "0.20%",
-    "nav": "₹1,116.83"
+    "nav": "₹1,116.99"
   },
   "SILVER": {
-    "aum": "₹3,590 Cr",
+    "aum": "₹3,602 Cr",
     "expense": "0.55%",
-    "nav": "₹262.00"
+    "nav": "₹264.10"
   },
   "ITBEES": {
-    "aum": "₹3,344 Cr",
+    "aum": "₹3,342 Cr",
     "expense": "0.22%",
     "nav": "₹32.73"
   },
   "SBISILVER": {
-    "aum": "₹6,598 Cr",
+    "aum": "₹6,667 Cr",
     "expense": "0.60%",
-    "nav": "₹256.80"
+    "nav": "₹259.50"
   },
   "LIQUID1": {
-    "aum": "₹1,611 Cr",
+    "aum": "₹1,588 Cr",
     "expense": "0.15%",
-    "nav": "₹1,094.72"
+    "nav": "₹1,094.86"
   },
   "SILVERCASE": {
-    "aum": "₹1,369 Cr",
+    "aum": "₹1,371 Cr",
     "expense": "0.55%",
-    "nav": "₹26.68"
+    "nav": "₹26.89"
   },
   "GSEC10YEAR": {
-    "aum": "₹94.2 Cr",
+    "aum": "₹94.8 Cr",
     "expense": "0.10%",
-    "nav": "₹29.76"
+    "nav": "₹29.95"
   },
   "LIQUIDPLUS": {
-    "aum": "₹858.6 Cr",
+    "aum": "₹853.3 Cr",
     "expense": "0.20%",
-    "nav": "₹1,075.97"
+    "nav": "₹1,076.12"
   },
   "LIQUIDBETF": {
-    "aum": "₹614.2 Cr",
+    "aum": "₹620.5 Cr",
     "expense": "0.15%",
-    "nav": "₹1,072.35"
+    "nav": "₹1,072.48"
   },
   "LIQUIDBEES": {
-    "aum": "₹11,176 Cr",
+    "aum": "₹10,841 Cr",
     "expense": "0.69%",
-    "nav": "₹1,000.00"
+    "nav": "₹1,000.01"
   },
   "GOLD1": {
-    "aum": "₹13,514 Cr",
+    "aum": "₹13,397 Cr",
     "expense": "0.50%",
-    "nav": "₹134.00"
+    "nav": "₹133.47"
   },
   "SILVER1": {
-    "aum": "₹2,523 Cr",
+    "aum": "₹2,566 Cr",
     "expense": "0.55%",
-    "nav": "₹25.50"
+    "nav": "₹25.98"
   },
   "SILVERBETA": {
-    "aum": "₹1,581 Cr",
+    "aum": "₹1,588 Cr",
     "expense": "0.20%",
-    "nav": "₹253.50"
+    "nav": "₹255.60"
   },
   "AXISILVER": {
-    "aum": "₹2,087 Cr",
+    "aum": "₹2,092 Cr",
     "expense": "0.55%",
-    "nav": "₹261.65"
+    "nav": "₹262.77"
   },
   "NIFTYIETF": {
-    "aum": "₹36,396 Cr",
+    "aum": "₹36,133 Cr",
     "expense": "0.00%",
-    "nav": "₹269.08"
+    "nav": "₹266.63"
   },
   "GOLDCASE": {
-    "aum": "₹2,391 Cr",
+    "aum": "₹2,382 Cr",
     "expense": "0.55%",
-    "nav": "₹25.27"
+    "nav": "₹25.22"
   },
   "LIQUID": {
-    "aum": "₹512.7 Cr",
+    "aum": "₹500.6 Cr",
     "expense": "0.20%",
-    "nav": "₹1,000.00"
+    "nav": "₹999.99"
   },
   "SILVERADD": {
-    "aum": "₹2,025 Cr",
+    "aum": "₹2,042 Cr",
     "expense": "0.55%",
-    "nav": "₹253.00"
+    "nav": "₹255.86"
   },
   "HDFCSML250": {
-    "aum": "₹1,765 Cr",
+    "aum": "₹1,761 Cr",
     "expense": "0.25%",
-    "nav": "₹154.00"
+    "nav": "₹153.90"
   },
   "LIQGRWBEES": {
-    "aum": "₹122.8 Cr",
+    "aum": "₹122.3 Cr",
     "expense": "0.69%",
-    "nav": "₹1,030.90"
+    "nav": "₹1,031.01"
   },
   "CASHIETF": {
-    "aum": "₹847.2 Cr",
+    "aum": "₹796.0 Cr",
     "expense": "0.12%",
-    "nav": "₹1,052.89"
+    "nav": "₹1,053.02"
   },
   "GOLDETF": {
-    "aum": "₹3,308 Cr",
+    "aum": "₹3,293 Cr",
     "expense": "0.50%",
-    "nav": "₹155.50"
+    "nav": "₹155.04"
   },
   "MOGOLD": {
-    "aum": "₹1,804 Cr",
+    "aum": "₹1,806 Cr",
     "expense": "0.48%",
-    "nav": "₹158.35"
+    "nav": "₹158.55"
   },
   "ESILVER": {
-    "aum": "₹1,635 Cr",
+    "aum": "₹1,667 Cr",
     "expense": "0.00%",
-    "nav": "₹261.94"
+    "nav": "₹267.00"
   },
   "NIFTY1": {
-    "aum": "₹3,180 Cr",
+    "aum": "₹3,152 Cr",
     "expense": "0.07%",
-    "nav": "₹263.34"
+    "nav": "₹260.98"
   },
   "GROWWSLVR": {
-    "aum": "₹375.5 Cr",
+    "aum": "₹379.0 Cr",
     "expense": "0.43%",
-    "nav": "₹25.74"
+    "nav": "₹25.98"
   },
   "AXISGOLD": {
-    "aum": "₹5,612 Cr",
+    "aum": "₹5,597 Cr",
     "expense": "0.56%",
-    "nav": "₹133.80"
+    "nav": "₹133.55"
   },
   "BANKIETF": {
-    "aum": "₹2,920 Cr",
+    "aum": "₹2,881 Cr",
     "expense": "0.15%",
-    "nav": "₹57.32"
+    "nav": "₹56.47"
   },
   "NIFTYETF": {
-    "aum": "₹4,736 Cr",
+    "aum": "₹4,732 Cr",
     "expense": "0.04%",
-    "nav": "₹257.88"
+    "nav": "₹255.75"
   },
   "MID150BEES": {
-    "aum": "₹2,847 Cr",
+    "aum": "₹2,862 Cr",
     "expense": "0.20%",
-    "nav": "₹215.25"
+    "nav": "₹215.00"
   },
   "SBILIQETF": {
     "aum": "₹57.3 Cr",
     "expense": "0.20%",
-    "nav": "₹1,029.95"
+    "nav": "₹1,030.10"
   },
   "METAL": {
-    "aum": "₹418.0 Cr",
+    "aum": "₹430.8 Cr",
     "expense": "0.35%",
-    "nav": "₹11.86"
+    "nav": "₹11.90"
   },
   "SILVERAG": {
-    "aum": "₹1,040 Cr",
+    "aum": "₹1,051 Cr",
     "expense": "0.55%",
-    "nav": "₹255.85"
+    "nav": "₹258.50"
   },
   "GOLDADD": {
     "aum": "₹2,291 Cr",
     "expense": "0.52%",
-    "nav": "₹155.53"
+    "nav": "₹155.54"
   },
   "HDFCNIFIT": {
-    "aum": "₹112.6 Cr",
+    "aum": "₹114.4 Cr",
     "expense": "0.20%",
-    "nav": "₹31.50"
+    "nav": "₹32.00"
   },
   "MOVALUE": {
-    "aum": "₹151.0 Cr",
+    "aum": "₹149.6 Cr",
     "expense": "0.35%",
-    "nav": "₹117.99"
+    "nav": "₹117.84"
   },
   "GOLDBETA": {
-    "aum": "₹4,512 Cr",
+    "aum": "₹4,505 Cr",
     "expense": "0.20%",
-    "nav": "₹134.85"
+    "nav": "₹134.40"
   },
   "HDFCLIQUID": {
     "aum": "₹80.4 Cr",
     "expense": "0.20%",
-    "nav": "₹1,051.41"
+    "nav": "₹1,051.53"
   },
   "OILIETF": {
-    "aum": "₹275.3 Cr",
+    "aum": "₹277.7 Cr",
     "expense": "0.35%",
-    "nav": "₹11.67"
+    "nav": "₹11.73"
   },
   "NEXT50IETF": {
-    "aum": "₹2,147 Cr",
+    "aum": "₹2,159 Cr",
     "expense": "0.10%",
-    "nav": "₹69.90"
+    "nav": "₹70.18"
   },
   "BSLGOLDETF": {
-    "aum": "₹3,060 Cr",
+    "aum": "₹3,047 Cr",
     "expense": "0.52%",
-    "nav": "₹141.15"
+    "nav": "₹140.54"
   },
   "ALPHA": {
-    "aum": "₹706.2 Cr",
+    "aum": "₹705.6 Cr",
     "expense": "0.35%",
-    "nav": "₹46.27"
+    "nav": "₹46.20"
   },
   "GROWWGOLD": {
-    "aum": "₹475.0 Cr",
+    "aum": "₹472.9 Cr",
     "expense": "0.67%",
-    "nav": "₹15.69"
+    "nav": "₹15.67"
   },
   "HDFCNIFTY": {
-    "aum": "₹4,651 Cr",
+    "aum": "₹4,615 Cr",
     "expense": "0.06%",
-    "nav": "₹267.83"
+    "nav": "₹265.49"
   },
   "LICMFGOLD": {
-    "aum": "₹1,508 Cr",
+    "aum": "₹1,382 Cr",
     "expense": "0.00%",
-    "nav": "₹144.05"
+    "nav": "₹144.40"
   },
   "ALPL30IETF": {
-    "aum": "₹1,509 Cr",
+    "aum": "₹1,485 Cr",
     "expense": "0.42%",
-    "nav": "₹26.62"
+    "nav": "₹26.20"
   },
   "LIQUIDSBI": {
     "aum": "₹71.1 Cr",
@@ -355,514 +355,514 @@
     "nav": "₹1,000.01"
   },
   "BSLNIFTY": {
-    "aum": "₹3,134 Cr",
+    "aum": "₹3,102 Cr",
     "expense": "0.07%",
-    "nav": "₹27.92"
+    "nav": "₹27.62"
   },
   "LOWVOLIETF": {
-    "aum": "₹3,530 Cr",
+    "aum": "₹3,535 Cr",
     "expense": "0.25%",
     "nav": "₹21.44"
   },
   "MOCAPITAL": {
-    "aum": "₹128.2 Cr",
+    "aum": "₹128.5 Cr",
     "expense": "0.45%",
-    "nav": "₹45.60"
+    "nav": "₹45.57"
   },
   "MULTICAP": {
-    "aum": "₹63.6 Cr",
+    "aum": "₹66.1 Cr",
     "expense": "0.25%",
-    "nav": "₹15.34"
+    "nav": "₹15.27"
   },
   "MONIFTY500": {
-    "aum": "₹214.0 Cr",
+    "aum": "₹211.0 Cr",
     "expense": "0.15%",
-    "nav": "₹22.69"
+    "nav": "₹22.38"
   },
   "LTGILTBEES": {
-    "aum": "₹2,602 Cr",
+    "aum": "₹2,614 Cr",
     "expense": "0.12%",
-    "nav": "₹29.42"
+    "nav": "₹29.65"
   },
   "MOM30IETF": {
-    "aum": "₹574.5 Cr",
+    "aum": "₹566.9 Cr",
     "expense": "0.25%",
-    "nav": "₹30.19"
+    "nav": "₹29.75"
   },
   "GOLDBND": {
     "aum": "₹11.4 Cr",
     "expense": "0.15%",
-    "nav": "₹159.77"
+    "nav": "₹159.75"
   },
   "IT": {
-    "aum": "₹390.1 Cr",
+    "aum": "₹390.8 Cr",
     "expense": "0.25%",
     "nav": "₹33.10"
   },
   "MOMENTUM50": {
-    "aum": "₹279.8 Cr",
+    "aum": "₹273.2 Cr",
     "expense": "0.30%",
-    "nav": "₹49.80"
+    "nav": "₹48.79"
   },
   "PSUBNKIETF": {
-    "aum": "₹124.4 Cr",
+    "aum": "₹125.0 Cr",
     "expense": "0.19%",
-    "nav": "₹90.00"
+    "nav": "₹90.39"
   },
   "SETFNN50": {
-    "aum": "₹2,805 Cr",
+    "aum": "₹2,827 Cr",
     "expense": "0.06%",
-    "nav": "₹709.00"
+    "nav": "₹714.40"
   },
   "GROWWLIQID": {
-    "aum": "₹75.0 Cr",
+    "aum": "₹90.2 Cr",
     "expense": "0.15%",
-    "nav": "₹108.17"
+    "nav": "₹108.18"
   },
   "NIFTYCASE": {
-    "aum": "₹29.1 Cr",
+    "aum": "₹29.3 Cr",
     "expense": "0.06%",
-    "nav": "₹9.56"
+    "nav": "₹9.45"
   },
   "BANKBETF": {
-    "aum": "₹391.2 Cr",
+    "aum": "₹387.6 Cr",
     "expense": "0.13%",
-    "nav": "₹56.45"
+    "nav": "₹55.93"
   },
   "SILVER360": {
-    "aum": "₹54.7 Cr",
+    "aum": "₹55.9 Cr",
     "expense": "0.55%",
-    "nav": "₹257.05"
+    "nav": "₹263.00"
   },
   "TOP10ADD": {
-    "aum": "₹822.8 Cr",
+    "aum": "₹837.2 Cr",
     "expense": "0.15%",
-    "nav": "₹89.25"
+    "nav": "₹88.30"
   },
   "MOSMALL250": {
-    "aum": "₹169.5 Cr",
+    "aum": "₹171.9 Cr",
     "expense": "0.30%",
     "nav": "₹15.38"
   },
   "SENSEXIETF": {
-    "aum": "₹25,703 Cr",
+    "aum": "₹25,387 Cr",
     "expense": "0.05%",
-    "nav": "₹884.60"
+    "nav": "₹872.00"
   },
   "MOSILVER": {
-    "aum": "₹1,148 Cr",
+    "aum": "₹1,163 Cr",
     "expense": "0.55%",
-    "nav": "₹258.34"
+    "nav": "₹262.25"
   },
   "GROWWDEFNC": {
-    "aum": "₹283.4 Cr",
+    "aum": "₹283.9 Cr",
     "expense": "0.45%",
-    "nav": "₹82.90"
+    "nav": "₹82.98"
   },
   "TOP100CASE": {
-    "aum": "₹126.3 Cr",
+    "aum": "₹126.2 Cr",
     "expense": "0.08%",
-    "nav": "₹10.26"
+    "nav": "₹10.19"
   },
   "BANKNIFTY1": {
-    "aum": "₹6,017 Cr",
+    "aum": "₹5,857 Cr",
     "expense": "0.15%",
-    "nav": "₹58.15"
+    "nav": "₹56.85"
   },
   "MID150CASE": {
-    "aum": "₹206.2 Cr",
+    "aum": "₹206.8 Cr",
     "expense": "0.20%",
-    "nav": "₹10.47"
+    "nav": "₹10.50"
   },
   "FINIETF": {
-    "aum": "₹267.9 Cr",
+    "aum": "₹263.2 Cr",
     "expense": "0.20%",
-    "nav": "₹30.60"
+    "nav": "₹30.20"
   },
   "NEXT50": {
-    "aum": "₹1,139 Cr",
+    "aum": "₹1,141 Cr",
     "expense": "0.10%",
-    "nav": "₹682.98"
+    "nav": "₹682.91"
   },
   "INFRABEES": {
-    "aum": "₹174.0 Cr",
+    "aum": "₹171.3 Cr",
     "expense": "0.50%",
-    "nav": "₹938.00"
+    "nav": "₹923.82"
   },
   "MASPTOP50": {
-    "aum": "₹1,172 Cr",
+    "aum": "₹1,180 Cr",
     "expense": "0.15%",
-    "nav": "₹69.49"
+    "nav": "₹69.98"
   },
   "VAL30IETF": {
-    "aum": "₹39.3 Cr",
+    "aum": "₹41.8 Cr",
     "expense": "0.25%",
-    "nav": "₹15.45"
+    "nav": "₹16.20"
   },
   "MOENERGY": {
-    "aum": "₹54.5 Cr",
+    "aum": "₹55.2 Cr",
     "expense": "0.45%",
-    "nav": "₹37.24"
+    "nav": "₹37.50"
   },
   "SENSEXETF": {
-    "aum": "₹32.7 Cr",
+    "aum": "₹37.0 Cr",
     "expense": "0.05%",
-    "nav": "₹78.80"
+    "nav": "₹77.90"
   },
   "CONSUMBEES": {
-    "aum": "₹189.6 Cr",
+    "aum": "₹185.9 Cr",
     "expense": "0.20%",
-    "nav": "₹121.75"
+    "nav": "₹119.36"
   },
   "EBBETF0431": {
-    "aum": "₹13,130 Cr",
+    "aum": "₹13,100 Cr",
     "expense": "0.01%",
-    "nav": "₹1,403.08"
+    "nav": "₹1,400.01"
   },
   "AXISNIFTY": {
-    "aum": "₹1,183 Cr",
+    "aum": "₹1,176 Cr",
     "expense": "0.00%",
-    "nav": "₹262.83"
+    "nav": "₹260.40"
   },
   "ITADD": {
-    "aum": "₹97.8 Cr",
+    "aum": "₹99.7 Cr",
     "expense": "0.25%",
-    "nav": "₹31.25"
+    "nav": "₹31.50"
   },
   "LIQUIDSHRI": {
     "aum": "₹36.5 Cr",
     "expense": "0.20%",
-    "nav": "₹1,095.30"
+    "nav": "₹1,095.41"
   },
   "NIF100BEES": {
-    "aum": "₹313.9 Cr",
+    "aum": "₹309.0 Cr",
     "expense": "0.12%",
-    "nav": "₹261.85"
+    "nav": "₹257.75"
   },
   "SETFNIFBK": {
-    "aum": "₹3,731 Cr",
+    "aum": "₹3,707 Cr",
     "expense": "0.12%",
-    "nav": "₹570.43"
+    "nav": "₹566.70"
   },
   "MAKEINDIA": {
-    "aum": "₹242.6 Cr",
+    "aum": "₹241.1 Cr",
     "expense": "0.35%",
-    "nav": "₹154.11"
+    "nav": "₹153.11"
   },
   "ALPHAETF": {
-    "aum": "₹388.2 Cr",
+    "aum": "₹376.4 Cr",
     "expense": "0.40%",
-    "nav": "₹24.46"
+    "nav": "₹23.72"
   },
   "BBNPPGOLD": {
-    "aum": "₹354.3 Cr",
+    "aum": "₹355.2 Cr",
     "expense": "0.65%",
-    "nav": "₹155.55"
+    "nav": "₹155.25"
   },
   "GROWWPOWER": {
-    "aum": "₹112.2 Cr",
+    "aum": "₹115.6 Cr",
     "expense": "0.45%",
-    "nav": "₹10.37"
+    "nav": "₹10.70"
   },
   "SILVERBND": {
-    "aum": "₹13.8 Cr",
+    "aum": "₹13.9 Cr",
     "expense": "0.20%",
-    "nav": "₹262.28"
+    "nav": "₹263.77"
   },
   "SBIBPB": {
-    "aum": "₹1,455 Cr",
+    "aum": "₹1,467 Cr",
     "expense": "0.15%",
-    "nav": "₹51.95"
+    "nav": "₹52.40"
   },
   "HDFCMID150": {
-    "aum": "₹155.7 Cr",
+    "aum": "₹152.8 Cr",
     "expense": "0.20%",
-    "nav": "₹21.40"
+    "nav": "₹21.00"
   },
   "GROWWMETAL": {
-    "aum": "₹34.8 Cr",
+    "aum": "₹34.1 Cr",
     "expense": "0.45%",
-    "nav": "₹11.42"
+    "nav": "₹11.19"
   },
   "MIDSMALL": {
-    "aum": "₹381.3 Cr",
+    "aum": "₹380.4 Cr",
     "expense": "0.20%",
-    "nav": "₹45.63"
+    "nav": "₹45.52"
   },
   "PSUBANKADD": {
-    "aum": "₹232.1 Cr",
+    "aum": "₹233.9 Cr",
     "expense": "0.25%",
-    "nav": "₹89.10"
+    "nav": "₹89.80"
   },
   "AONEGOLD": {
-    "aum": "₹87.9 Cr",
+    "aum": "₹87.7 Cr",
     "expense": "0.35%",
-    "nav": "₹14.97"
+    "nav": "₹14.94"
   },
   "SML100CASE": {
-    "aum": "₹45.3 Cr",
+    "aum": "₹45.7 Cr",
     "expense": "0.25%",
-    "nav": "₹9.29"
+    "nav": "₹9.33"
   },
   "TNIDETF": {
-    "aum": "₹156.3 Cr",
+    "aum": "₹156.6 Cr",
     "expense": "0.40%",
-    "nav": "₹78.50"
+    "nav": "₹78.40"
   },
   "AONELIQUID": {
-    "aum": "₹113.1 Cr",
+    "aum": "₹112.8 Cr",
     "expense": "0.15%",
-    "nav": "₹1,050.21"
+    "nav": "₹1,050.34"
   },
   "COMMOIETF": {
-    "aum": "₹116.2 Cr",
+    "aum": "₹113.0 Cr",
     "expense": "0.35%",
-    "nav": "₹100.00"
+    "nav": "₹97.25"
   },
   "MONQ50": {
-    "aum": "₹140.9 Cr",
+    "aum": "₹143.8 Cr",
     "expense": "0.30%",
-    "nav": "₹96.01"
+    "nav": "₹98.00"
   },
   "HDFCNEXT50": {
-    "aum": "₹149.4 Cr",
+    "aum": "₹147.2 Cr",
     "expense": "0.10%",
-    "nav": "₹68.99"
+    "nav": "₹67.99"
   },
   "QGOLDHALF": {
-    "aum": "₹746.9 Cr",
+    "aum": "₹743.6 Cr",
     "expense": "0.50%",
-    "nav": "₹133.18"
+    "nav": "₹132.60"
   },
   "HDFCNIFBAN": {
-    "aum": "₹5,457 Cr",
+    "aum": "₹5,399 Cr",
     "expense": "0.12%",
-    "nav": "₹57.23"
+    "nav": "₹56.63"
   },
   "MIDCAP": {
-    "aum": "₹172.7 Cr",
+    "aum": "₹175.5 Cr",
     "expense": "0.20%",
-    "nav": "₹16.44"
+    "nav": "₹16.68"
   },
   "GOLD360": {
-    "aum": "₹149.4 Cr",
+    "aum": "₹149.5 Cr",
     "expense": "0.50%",
-    "nav": "₹156.00"
+    "nav": "₹156.05"
   },
   "ELM250": {
-    "aum": "₹126.8 Cr",
+    "aum": "₹131.4 Cr",
     "expense": "0.20%",
-    "nav": "₹15.78"
+    "nav": "₹16.09"
   },
   "BANKETF": {
-    "aum": "₹243.1 Cr",
+    "aum": "₹240.7 Cr",
     "expense": "0.15%",
-    "nav": "₹565.57"
+    "nav": "₹559.90"
   },
   "SBIETFIT": {
-    "aum": "₹67.3 Cr",
+    "aum": "₹67.2 Cr",
     "expense": "0.25%",
-    "nav": "₹327.44"
+    "nav": "₹326.74"
   },
   "NV20IETF": {
-    "aum": "₹179.8 Cr",
+    "aum": "₹180.7 Cr",
     "expense": "0.15%",
-    "nav": "₹14.01"
+    "nav": "₹14.05"
   },
   "CHEMICAL": {
-    "aum": "₹50.9 Cr",
+    "aum": "₹51.4 Cr",
     "expense": "0.35%",
-    "nav": "₹27.28"
+    "nav": "₹27.50"
   },
   "SETF10GILT": {
-    "aum": "₹3,273 Cr",
+    "aum": "₹3,280 Cr",
     "expense": "0.10%",
-    "nav": "₹261.35"
+    "nav": "₹261.84"
   },
   "AXISVALUE": {
-    "aum": "₹28.1 Cr",
+    "aum": "₹28.6 Cr",
     "expense": "0.30%",
-    "nav": "₹32.82"
+    "nav": "₹33.49"
   },
   "ECAPINSURE": {
     "aum": "₹15.5 Cr",
     "expense": "0.00%",
-    "nav": "₹23.10"
+    "nav": "₹23.11"
   },
   "GROWWCAPM": {
-    "aum": "₹21.3 Cr",
+    "aum": "₹21.1 Cr",
     "expense": "0.45%",
-    "nav": "₹9.70"
+    "nav": "₹9.56"
   },
   "SMALL250": {
-    "aum": "₹33.4 Cr",
+    "aum": "₹35.1 Cr",
     "expense": "0.25%",
-    "nav": "₹15.35"
+    "nav": "₹15.30"
   },
   "SENSEXBETA": {
-    "aum": "₹51,438 Cr",
+    "aum": "₹50,636 Cr",
     "expense": "0.05%",
-    "nav": "₹855.00"
+    "nav": "₹841.00"
   },
   "LTGILTCASE": {
-    "aum": "₹104.3 Cr",
+    "aum": "₹104.4 Cr",
     "expense": "0.15%",
-    "nav": "₹30.00"
+    "nav": "₹30.05"
   },
   "NEXT50BETA": {
-    "aum": "₹2,212 Cr",
+    "aum": "₹2,191 Cr",
     "expense": "0.20%",
-    "nav": "₹71.80"
+    "nav": "₹71.10"
   },
   "CHOICEGOLD": {
-    "aum": "₹54.9 Cr",
+    "aum": "₹54.7 Cr",
     "expense": "0.51%",
-    "nav": "₹159.10"
+    "nav": "₹158.45"
   },
   "HEALTHY": {
-    "aum": "₹68.5 Cr",
+    "aum": "₹71.0 Cr",
     "expense": "0.30%",
-    "nav": "₹15.39"
+    "nav": "₹15.34"
   },
   "IVZINGOLD": {
-    "aum": "₹779.8 Cr",
+    "aum": "₹779.2 Cr",
     "expense": "0.00%",
-    "nav": "₹13,945.00"
+    "nav": "₹13,935.00"
   },
   "AXISTECETF": {
-    "aum": "₹153.1 Cr",
+    "aum": "₹152.9 Cr",
     "expense": "0.30%",
-    "nav": "₹325.00"
+    "nav": "₹324.67"
   },
   "GROWWRLTY": {
     "aum": "₹11.7 Cr",
     "expense": "0.45%",
-    "nav": "₹8.34"
+    "nav": "₹8.20"
   },
   "BBETF0432": {
-    "aum": "₹10,644 Cr",
+    "aum": "₹10,634 Cr",
     "expense": "0.01%",
-    "nav": "₹1,316.95"
+    "nav": "₹1,319.17"
   },
   "NV20": {
-    "aum": "₹81.6 Cr",
+    "aum": "₹85.6 Cr",
     "expense": "0.15%",
-    "nav": "₹14.55"
+    "nav": "₹15.20"
   },
   "MID150": {
-    "aum": "₹6.9 Cr",
+    "aum": "₹6.8 Cr",
     "expense": "0.20%",
-    "nav": "₹21.40"
+    "nav": "₹21.14"
   },
   "ABSLPSE": {
-    "aum": "₹22.5 Cr",
+    "aum": "₹22.6 Cr",
     "expense": "0.20%",
-    "nav": "₹10.56"
+    "nav": "₹10.62"
   },
   "EQUAL50ADD": {
-    "aum": "₹1,120 Cr",
+    "aum": "₹1,132 Cr",
     "expense": "0.25%",
-    "nav": "₹328.55"
+    "nav": "₹332.00"
   },
   "AONENIFTY": {
-    "aum": "₹18.1 Cr",
+    "aum": "₹17.8 Cr",
     "expense": "0.09%",
-    "nav": "₹9.81"
+    "nav": "₹9.80"
   },
   "BSE500IETF": {
-    "aum": "₹329.6 Cr",
+    "aum": "₹326.3 Cr",
     "expense": "0.15%",
-    "nav": "₹37.23"
+    "nav": "₹36.86"
   },
   "LICNETFGSC": {
-    "aum": "₹2,316 Cr",
+    "aum": "₹2,315 Cr",
     "expense": "0.15%",
-    "nav": "₹29.04"
+    "nav": "₹29.03"
   },
   "EVINDIA": {
-    "aum": "₹147.3 Cr",
+    "aum": "₹144.9 Cr",
     "expense": "0.40%",
-    "nav": "₹28.71"
+    "nav": "₹28.25"
   },
   "NIFTYADD": {
-    "aum": "₹212.6 Cr",
+    "aum": "₹207.6 Cr",
     "expense": "0.07%",
-    "nav": "₹254.50"
+    "nav": "₹248.54"
   },
   "GROWWNET": {
-    "aum": "₹24.1 Cr",
+    "aum": "₹24.0 Cr",
     "expense": "0.35%",
-    "nav": "₹8.34"
+    "nav": "₹8.21"
   },
   "GROWWNIFTY": {
-    "aum": "₹20.4 Cr",
+    "aum": "₹21.2 Cr",
     "expense": "0.07%",
-    "nav": "₹9.65"
+    "nav": "₹9.84"
   },
   "HDFCMOMENT": {
-    "aum": "₹120.3 Cr",
+    "aum": "₹119.3 Cr",
     "expense": "0.30%",
-    "nav": "₹29.99"
+    "nav": "₹29.75"
   },
   "BANKBETA": {
-    "aum": "₹3,744 Cr",
+    "aum": "₹3,694 Cr",
     "expense": "0.15%",
-    "nav": "₹57.70"
+    "nav": "₹56.92"
   },
   "SHARIABEES": {
-    "aum": "₹49.7 Cr",
+    "aum": "₹49.0 Cr",
     "expense": "0.25%",
-    "nav": "₹463.20"
+    "nav": "₹456.50"
   },
   "GROWWEV": {
-    "aum": "₹248.7 Cr",
+    "aum": "₹243.9 Cr",
     "expense": "0.45%",
-    "nav": "₹28.91"
+    "nav": "₹28.31"
   },
   "ELIQUID": {
-    "aum": "₹36.3 Cr",
+    "aum": "₹36.2 Cr",
     "expense": "0.22%",
-    "nav": "₹1,021.75"
+    "nav": "₹1,021.88"
   },
   "EGOLD": {
-    "aum": "₹1,503 Cr",
+    "aum": "₹1,495 Cr",
     "expense": "0.00%",
-    "nav": "₹160.10"
+    "nav": "₹159.35"
   },
   "MOTOUR": {
-    "aum": "₹8.7 Cr",
+    "aum": "₹8.6 Cr",
     "expense": "0.45%",
-    "nav": "₹72.10"
+    "nav": "₹71.35"
   },
   "MOHEALTH": {
-    "aum": "₹42.5 Cr",
+    "aum": "₹43.1 Cr",
     "expense": "0.45%",
-    "nav": "₹44.15"
+    "nav": "₹44.79"
   },
   "MOMOMENTUM": {
-    "aum": "₹119.3 Cr",
+    "aum": "₹116.1 Cr",
     "expense": "0.35%",
-    "nav": "₹60.00"
+    "nav": "₹58.45"
   },
   "AONETOTAL": {
-    "aum": "₹40.8 Cr",
+    "aum": "₹40.6 Cr",
     "expense": "0.10%",
-    "nav": "₹11.17"
+    "nav": "₹11.12"
   },
   "DIVOPPBEES": {
-    "aum": "₹69.3 Cr",
+    "aum": "₹67.5 Cr",
     "expense": "0.18%",
-    "nav": "₹79.72"
+    "nav": "₹79.10"
   },
   "HDFCPSUBK": {
     "aum": "₹32.2 Cr",
     "expense": "0.18%",
-    "nav": "₹89.41"
+    "nav": "₹89.40"
   },
   "MOGSEC": {
-    "aum": "₹156.6 Cr",
+    "aum": "₹157.3 Cr",
     "expense": "0.20%",
-    "nav": "₹63.59"
+    "nav": "₹63.78"
   },
   "CONSUMIETF": {
     "aum": "₹52.5 Cr",
@@ -870,84 +870,84 @@
     "nav": "₹113.00"
   },
   "AXSENSEX": {
-    "aum": "₹127.1 Cr",
+    "aum": "₹128.1 Cr",
     "expense": "0.07%",
-    "nav": "₹79.36"
+    "nav": "₹79.99"
   },
   "MANUFGBEES": {
-    "aum": "₹11.0 Cr",
+    "aum": "₹10.9 Cr",
     "expense": "0.30%",
-    "nav": "₹156.00"
+    "nav": "₹154.50"
   },
   "BANKPSU": {
     "aum": "₹62.3 Cr",
     "expense": "0.20%",
-    "nav": "₹88.94"
+    "nav": "₹88.92"
   },
   "MOMIDMTM": {
-    "aum": "₹27.3 Cr",
+    "aum": "₹27.1 Cr",
     "expense": "0.35%",
-    "nav": "₹60.24"
+    "nav": "₹59.70"
   },
   "INTERNET": {
-    "aum": "₹17.9 Cr",
+    "aum": "₹17.7 Cr",
     "expense": "0.45%",
-    "nav": "₹11.13"
+    "nav": "₹11.02"
   },
   "QNIFTY": {
-    "aum": "₹78.2 Cr",
+    "aum": "₹77.4 Cr",
     "expense": "0.08%",
-    "nav": "₹261.40"
+    "nav": "₹258.80"
   },
   "LICNETFN50": {
-    "aum": "₹854.1 Cr",
+    "aum": "₹846.0 Cr",
     "expense": "0.00%",
-    "nav": "₹266.54"
+    "nav": "₹264.00"
   },
   "NIFTYBETF": {
-    "aum": "₹171.3 Cr",
+    "aum": "₹169.0 Cr",
     "expense": "0.00%",
-    "nav": "₹244.30"
+    "nav": "₹241.12"
   },
   "NIF100IETF": {
-    "aum": "₹151.7 Cr",
+    "aum": "₹151.4 Cr",
     "expense": "0.10%",
-    "nav": "₹27.31"
+    "nav": "₹27.25"
   },
   "NIFTY100EW": {
-    "aum": "₹9.0 Cr",
+    "aum": "₹8.9 Cr",
     "expense": "0.25%",
-    "nav": "₹32.80"
+    "nav": "₹32.53"
   },
   "MIDQ50ADD": {
-    "aum": "₹91.4 Cr",
+    "aum": "₹89.3 Cr",
     "expense": "0.25%",
-    "nav": "₹233.90"
+    "nav": "₹228.60"
   },
   "SBIETFCON": {
-    "aum": "₹22.9 Cr",
+    "aum": "₹22.5 Cr",
     "expense": "0.25%",
-    "nav": "₹113.55"
+    "nav": "₹112.00"
   },
   "TECH": {
-    "aum": "₹180.3 Cr",
+    "aum": "₹179.5 Cr",
     "expense": "0.30%",
-    "nav": "₹32.12"
+    "nav": "₹31.98"
   },
   "MIDSELIETF": {
-    "aum": "₹89.0 Cr",
+    "aum": "₹88.0 Cr",
     "expense": "0.20%",
-    "nav": "₹16.92"
+    "nav": "₹16.66"
   },
   "CONSUMER": {
-    "aum": "₹42.7 Cr",
+    "aum": "₹42.0 Cr",
     "expense": "0.35%",
-    "nav": "₹10.47"
+    "nav": "₹10.31"
   },
   "ABSLBANETF": {
-    "aum": "₹2,694 Cr",
+    "aum": "₹2,651 Cr",
     "expense": "0.14%",
-    "nav": "₹57.30"
+    "nav": "₹56.39"
   },
   "ABSLLIQUID": {
     "aum": "₹28.2 Cr",
@@ -955,429 +955,429 @@
     "nav": "₹999.99"
   },
   "FLEXIADD": {
-    "aum": "₹11.5 Cr",
+    "aum": "₹12.0 Cr",
     "expense": "0.25%",
-    "nav": "₹9.47"
+    "nav": "₹9.89"
   },
   "MONIFTY100": {
-    "aum": "₹11.2 Cr",
+    "aum": "₹11.9 Cr",
     "expense": "0.12%",
-    "nav": "₹24.65"
+    "nav": "₹24.48"
   },
   "GROWWNXT50": {
     "aum": "₹7.8 Cr",
     "expense": "0.12%",
-    "nav": "₹66.61"
+    "nav": "₹66.50"
   },
   "HDFCGROWTH": {
-    "aum": "₹17.9 Cr",
+    "aum": "₹17.5 Cr",
     "expense": "0.20%",
-    "nav": "₹115.90"
+    "nav": "₹113.26"
   },
   "QUAL30IETF": {
-    "aum": "₹158.8 Cr",
+    "aum": "₹162.1 Cr",
     "expense": "0.25%",
-    "nav": "₹20.02"
+    "nav": "₹20.44"
   },
   "EMULTIMQ": {
-    "aum": "₹31.3 Cr",
+    "aum": "₹31.8 Cr",
     "expense": "0.30%",
-    "nav": "₹39.39"
+    "nav": "₹39.95"
   },
   "SBIETFPB": {
-    "aum": "₹392.3 Cr",
+    "aum": "₹384.7 Cr",
     "expense": "0.25%",
-    "nav": "₹269.91"
+    "nav": "₹264.68"
   },
   "EVIETF": {
-    "aum": "₹45.6 Cr",
+    "aum": "₹44.4 Cr",
     "expense": "0.40%",
-    "nav": "₹28.96"
+    "nav": "₹28.20"
   },
   "AXISBPSETF": {
-    "aum": "₹1,023 Cr",
+    "aum": "₹1,020 Cr",
     "expense": "0.12%",
-    "nav": "₹13.25"
+    "nav": "₹13.21"
   },
   "HDFCPVTBAN": {
-    "aum": "₹717.8 Cr",
+    "aum": "₹715.4 Cr",
     "expense": "0.20%",
-    "nav": "₹26.90"
+    "nav": "₹26.80"
   },
   "UNIONGOLD": {
-    "aum": "₹270.7 Cr",
+    "aum": "₹297.4 Cr",
     "expense": "0.54%",
     "nav": "₹156.85"
   },
   "GSEC5IETF": {
-    "aum": "₹20.6 Cr",
+    "aum": "₹20.7 Cr",
     "expense": "0.10%",
-    "nav": "₹64.54"
+    "nav": "₹64.98"
   },
   "TOP15IETF": {
-    "aum": "₹7.5 Cr",
+    "aum": "₹8.6 Cr",
     "expense": "0.15%",
-    "nav": "₹9.82"
+    "nav": "₹9.80"
   },
   "GROWWMOM50": {
-    "aum": "₹21.8 Cr",
+    "aum": "₹21.6 Cr",
     "expense": "0.35%",
-    "nav": "₹9.98"
+    "nav": "₹9.83"
   },
   "NETF": {
-    "aum": "₹702.0 Cr",
+    "aum": "₹696.9 Cr",
     "expense": "0.05%",
-    "nav": "₹257.90"
+    "nav": "₹256.05"
   },
   "GROWWSC250": {
     "aum": "₹13.3 Cr",
     "expense": "0.25%",
-    "nav": "₹8.88"
+    "nav": "₹8.87"
   },
   "NIFTYQLITY": {
-    "aum": "₹26.2 Cr",
+    "aum": "₹26.5 Cr",
     "expense": "0.25%",
-    "nav": "₹20.60"
+    "nav": "₹20.39"
   },
   "BANKADD": {
-    "aum": "₹678.5 Cr",
+    "aum": "₹671.8 Cr",
     "expense": "0.15%",
-    "nav": "₹56.89"
+    "nav": "₹56.31"
   },
   "MOM50": {
-    "aum": "₹56.1 Cr",
+    "aum": "₹54.1 Cr",
     "expense": "0.30%",
-    "nav": "₹257.78"
+    "nav": "₹248.85"
   },
   "HDFCBSE500": {
-    "aum": "₹20.8 Cr",
+    "aum": "₹20.5 Cr",
     "expense": "0.15%",
-    "nav": "₹35.67"
+    "nav": "₹35.09"
   },
   "HEALTHADD": {
-    "aum": "₹13.4 Cr",
+    "aum": "₹13.2 Cr",
     "expense": "0.25%",
-    "nav": "₹152.07"
+    "nav": "₹150.24"
   },
   "HDFCQUAL": {
-    "aum": "₹19.1 Cr",
+    "aum": "₹18.9 Cr",
     "expense": "0.25%",
-    "nav": "₹56.07"
+    "nav": "₹55.38"
   },
   "LOWVOL1": {
-    "aum": "₹173.1 Cr",
+    "aum": "₹166.0 Cr",
     "expense": "0.25%",
-    "nav": "₹21.21"
+    "nav": "₹20.34"
   },
   "ABSLNN50ET": {
-    "aum": "₹96.9 Cr",
+    "aum": "₹97.0 Cr",
     "expense": "0.09%",
-    "nav": "₹70.00"
+    "nav": "₹69.69"
   },
   "GROWWCHEM": {
     "aum": "₹7.3 Cr",
     "expense": "0.45%",
-    "nav": "₹27.00"
+    "nav": "₹26.92"
   },
   "ITBETA": {
     "aum": "₹5.3 Cr",
     "expense": "0.20%",
-    "nav": "₹310.05"
+    "nav": "₹309.46"
   },
   "PVTBANKADD": {
-    "aum": "₹487.0 Cr",
+    "aum": "₹480.2 Cr",
     "expense": "0.25%",
-    "nav": "₹26.80"
+    "nav": "₹26.40"
   },
   "GROWWN200": {
-    "aum": "₹14.5 Cr",
+    "aum": "₹14.4 Cr",
     "expense": "0.15%",
-    "nav": "₹10.84"
+    "nav": "₹10.76"
   },
   "GROWWPSE": {
-    "aum": "₹17.2 Cr",
+    "aum": "₹17.4 Cr",
     "expense": "0.30%",
-    "nav": "₹101.70"
+    "nav": "₹103.00"
   },
   "SMALLADD": {
     "aum": "₹2.8 Cr",
     "expense": "0.25%",
-    "nav": "₹15.85"
+    "nav": "₹15.27"
   },
   "ESG": {
-    "aum": "₹100.6 Cr",
+    "aum": "₹100.0 Cr",
     "expense": "0.25%",
-    "nav": "₹40.21"
+    "nav": "₹39.99"
   },
   "HDFCNIF100": {
-    "aum": "₹72.8 Cr",
+    "aum": "₹75.4 Cr",
     "expense": "0.08%",
-    "nav": "₹25.33"
+    "nav": "₹26.22"
   },
   "TOP20": {
-    "aum": "₹8.8 Cr",
+    "aum": "₹8.7 Cr",
     "expense": "0.20%",
-    "nav": "₹8.71"
+    "nav": "₹8.58"
   },
   "AONETMMQ50": {
-    "aum": "₹6.2 Cr",
+    "aum": "₹6.1 Cr",
     "expense": "0.35%",
-    "nav": "₹9.41"
+    "nav": "₹9.35"
   },
   "MOLOWVOL": {
-    "aum": "₹64.4 Cr",
+    "aum": "₹64.0 Cr",
     "expense": "0.35%",
-    "nav": "₹36.50"
+    "nav": "₹36.30"
   },
   "HDFCLOWVOL": {
-    "aum": "₹36.2 Cr",
+    "aum": "₹34.3 Cr",
     "expense": "0.25%",
-    "nav": "₹20.90"
+    "nav": "₹19.77"
   },
   "IDFNIFTYET": {
-    "aum": "₹3.8 Cr",
+    "aum": "₹3.7 Cr",
     "expense": "0.08%",
-    "nav": "₹262.43"
+    "nav": "₹259.96"
   },
   "SNXT30BEES": {
-    "aum": "₹4.8 Cr",
+    "aum": "₹4.9 Cr",
     "expense": "0.20%",
-    "nav": "₹40.50"
+    "nav": "₹41.19"
   },
   "LICNMID100": {
-    "aum": "₹602.2 Cr",
+    "aum": "₹600.3 Cr",
     "expense": "0.00%",
-    "nav": "₹56.87"
+    "nav": "₹56.69"
   },
   "MIDCAPBETA": {
-    "aum": "₹12.2 Cr",
+    "aum": "₹12.1 Cr",
     "expense": "0.20%",
-    "nav": "₹214.80"
+    "nav": "₹213.87"
   },
   "EQUAL50": {
-    "aum": "₹138.7 Cr",
+    "aum": "₹138.0 Cr",
     "expense": "0.20%",
-    "nav": "₹316.89"
+    "nav": "₹314.63"
   },
   "IVZINNIFTY": {
-    "aum": "₹92.2 Cr",
+    "aum": "₹92.5 Cr",
     "expense": "0.00%",
-    "nav": "₹2,770.00"
+    "nav": "₹2,780.00"
   },
   "BBNPNBETF": {
     "aum": "₹4.1 Cr",
     "expense": "0.20%",
-    "nav": "₹56.14"
+    "nav": "₹55.61"
   },
   "HDFCVALUE": {
-    "aum": "₹33.2 Cr",
+    "aum": "₹33.0 Cr",
     "expense": "0.22%",
-    "nav": "₹129.78"
+    "nav": "₹128.72"
   },
   "AXISHCETF": {
-    "aum": "₹22.9 Cr",
+    "aum": "₹22.7 Cr",
     "expense": "0.35%",
-    "nav": "₹151.91"
+    "nav": "₹150.77"
   },
   "BSLSENETFG": {
-    "aum": "₹268.6 Cr",
+    "aum": "₹267.0 Cr",
     "expense": "0.00%",
-    "nav": "₹77.09"
+    "nav": "₹76.63"
   },
   "NEXT50ETF": {
     "aum": "₹9.8 Cr",
     "expense": "0.10%",
-    "nav": "₹67.35"
+    "nav": "₹66.81"
   },
   "QUALITY30": {
-    "aum": "₹2.2 Cr",
+    "aum": "₹2.1 Cr",
     "expense": "0.25%",
-    "nav": "₹20.35"
+    "nav": "₹19.98"
   },
   "SELECTIPO": {
-    "aum": "₹16.9 Cr",
+    "aum": "₹16.8 Cr",
     "expense": "0.45%",
-    "nav": "₹40.44"
+    "nav": "₹40.16"
   },
   "AXISBNKETF": {
-    "aum": "₹389.8 Cr",
+    "aum": "₹385.5 Cr",
     "expense": "0.00%",
-    "nav": "₹571.71"
+    "nav": "₹565.41"
   },
   "SNXT50BETA": {
-    "aum": "₹31.5 Cr",
+    "aum": "₹30.9 Cr",
     "expense": "0.20%",
-    "nav": "₹88.38"
+    "nav": "₹86.67"
   },
   "SBIETFQLTY": {
-    "aum": "₹73.2 Cr",
+    "aum": "₹73.1 Cr",
     "expense": "0.25%",
-    "nav": "₹213.57"
+    "nav": "₹213.30"
   },
   "LICNFNHGP": {
-    "aum": "₹719.4 Cr",
+    "aum": "₹710.1 Cr",
     "expense": "0.15%",
-    "nav": "₹268.48"
+    "nav": "₹265.00"
   },
   "INFRA": {
     "aum": "₹7.2 Cr",
     "expense": "0.30%",
-    "nav": "₹10.96"
+    "nav": "₹10.99"
   },
   "NEXT50ADD": {
-    "aum": "₹7.4 Cr",
+    "aum": "₹7.5 Cr",
     "expense": "0.20%",
-    "nav": "₹66.38"
+    "nav": "₹66.61"
   },
   "NEXT30ADD": {
-    "aum": "₹43.1 Cr",
+    "aum": "₹42.9 Cr",
     "expense": "0.20%",
-    "nav": "₹40.09"
+    "nav": "₹39.90"
   },
   "MOQUALITY": {
-    "aum": "₹18.5 Cr",
+    "aum": "₹17.9 Cr",
     "expense": "0.35%",
-    "nav": "₹194.89"
+    "nav": "₹188.92"
   },
   "MOINFRA": {
     "aum": "₹2.4 Cr",
     "expense": "0.45%",
-    "nav": "₹58.27"
+    "nav": "₹58.95"
   },
   "MSCIINDIA": {
-    "aum": "₹1,611 Cr",
+    "aum": "₹1,495 Cr",
     "expense": "0.25%",
-    "nav": "₹28.93"
+    "nav": "₹28.50"
   },
   "MOMNC": {
-    "aum": "₹2.3 Cr",
+    "aum": "₹2.2 Cr",
     "expense": "0.45%",
-    "nav": "₹30.02"
+    "nav": "₹29.82"
   },
   "MOALPHA50": {
     "aum": "₹5.8 Cr",
     "expense": "0.35%",
-    "nav": "₹49.50"
+    "nav": "₹47.87"
   },
   "NPBET": {
-    "aum": "₹10.5 Cr",
+    "aum": "₹10.3 Cr",
     "expense": "0.20%",
-    "nav": "₹274.00"
+    "nav": "₹268.87"
   },
   "AXISCETF": {
-    "aum": "₹12.4 Cr",
+    "aum": "₹12.2 Cr",
     "expense": "0.35%",
-    "nav": "₹112.35"
+    "nav": "₹110.72"
   },
   "MONEXT50": {
-    "aum": "₹2.4 Cr",
+    "aum": "₹2.3 Cr",
     "expense": "0.15%",
-    "nav": "₹67.70"
+    "nav": "₹66.23"
   },
   "DIVIDEND": {
     "aum": "₹8.4 Cr",
     "expense": "0.20%",
-    "nav": "₹35.35"
+    "nav": "₹35.57"
   },
   "EBANKNIFTY": {
     "aum": "₹12.5 Cr",
     "expense": "0.15%",
-    "nav": "₹55.98"
+    "nav": "₹55.55"
   },
   "MOPSE": {
     "aum": "₹1.9 Cr",
     "expense": "0.35%",
-    "nav": "₹103.10"
+    "nav": "₹104.76"
   },
   "GROWWLOVOL": {
-    "aum": "₹4.2 Cr",
+    "aum": "₹4.3 Cr",
     "expense": "0.35%",
-    "nav": "₹10.20"
+    "nav": "₹10.13"
   },
   "ENIFTY": {
-    "aum": "₹15.7 Cr",
+    "aum": "₹15.5 Cr",
     "expense": "0.00%",
-    "nav": "₹23.93"
+    "nav": "₹23.66"
   },
   "MOSERVICE": {
     "aum": "₹5.0 Cr",
     "expense": "0.45%",
-    "nav": "₹30.60"
+    "nav": "₹30.36"
   },
   "SENSEXADD": {
-    "aum": "₹8.6 Cr",
+    "aum": "₹8.5 Cr",
     "expense": "0.07%",
-    "nav": "₹79.30"
+    "nav": "₹78.07"
   },
   "EQUAL200": {
-    "aum": "₹16.2 Cr",
+    "aum": "₹16.1 Cr",
     "expense": "0.25%",
-    "nav": "₹12.74"
+    "nav": "₹12.70"
   },
   "LICNETFSEN": {
-    "aum": "₹726.6 Cr",
+    "aum": "₹705.7 Cr",
     "expense": "0.00%",
-    "nav": "₹881.18"
+    "nav": "₹855.78"
   },
   "MOMGF": {
     "aum": "₹1.9 Cr",
     "expense": "0.30%",
-    "nav": "₹151.54"
+    "nav": "₹150.54"
   },
   "GROWWMC150": {
     "aum": "₹6.0 Cr",
     "expense": "0.25%",
-    "nav": "₹208.99"
+    "nav": "₹208.50"
   },
   "ESENSEX": {
-    "aum": "₹14.5 Cr",
+    "aum": "₹14.3 Cr",
     "expense": "0.05%",
-    "nav": "₹77.13"
+    "nav": "₹76.25"
   },
   "MOIPO": {
-    "aum": "₹4.7 Cr",
+    "aum": "₹4.6 Cr",
     "expense": "0.45%",
-    "nav": "₹40.63"
+    "nav": "₹39.72"
   },
   "MON50EQUAL": {
-    "aum": "₹99.6 Cr",
+    "aum": "₹98.5 Cr",
     "expense": "0.20%",
-    "nav": "₹31.98"
+    "nav": "₹31.52"
   },
   "GILT10BETA": {
     "aum": "₹23.4 Cr",
     "expense": "0.15%",
-    "nav": "₹26.05"
+    "nav": "₹26.06"
   },
   "ABSLMSCIN": {
-    "aum": "₹11.6 Cr",
+    "aum": "₹11.9 Cr",
     "expense": "0.22%",
-    "nav": "₹28.50"
+    "nav": "₹29.21"
   },
   "LOWVOL": {
-    "aum": "₹46.3 Cr",
+    "aum": "₹45.7 Cr",
     "expense": "0.30%",
-    "nav": "₹199.95"
+    "nav": "₹197.75"
   },
   "ABGSEC": {
     "aum": "₹45.0 Cr",
     "expense": "0.20%",
-    "nav": "₹112.26"
+    "nav": "₹112.27"
   },
   "MSCIADD": {
     "aum": "₹3.2 Cr",
     "expense": "0.25%",
-    "nav": "₹28.53"
+    "nav": "₹28.29"
   },
   "MIDCAPADD": {
     "aum": "₹5.0 Cr",
     "expense": "0.20%",
-    "nav": "₹20.88"
+    "nav": "₹20.84"
   },
   "GSEC10ABSL": {
-    "aum": "₹32.6 Cr",
+    "aum": "₹31.9 Cr",
     "expense": "0.15%",
-    "nav": "₹111.29"
+    "nav": "₹110.76"
   },
   "BBETF0430": {
     "aum": "₹25,267 Cr",
@@ -1415,9 +1415,9 @@
     "nav": "₹53.44"
   },
   "GROWWRAIL": {
-    "aum": "₹133.3 Cr",
+    "aum": "₹133.5 Cr",
     "expense": "0.45%",
-    "nav": "₹30.78"
+    "nav": "₹30.86"
   },
   "HCAREETF": {
     "aum": "₹7.2 Cr",
@@ -1430,14 +1430,14 @@
     "nav": "₹89.78"
   },
   "HNGSNGBEES": {
-    "aum": "₹1,209 Cr",
+    "aum": "₹1,205 Cr",
     "expense": "0.55%",
-    "nav": "₹512.50"
+    "nav": "₹511.00"
   },
   "ICICIB22": {
-    "aum": "₹11,020 Cr",
+    "aum": "₹10,949 Cr",
     "expense": "0.07%",
-    "nav": "₹123.00"
+    "nav": "₹122.09"
   },
   "ICICIITETF": {
     "aum": "₹119.0 Cr",
@@ -1460,14 +1460,14 @@
     "nav": "₹74.78"
   },
   "MAFANG": {
-    "aum": "₹4,049 Cr",
+    "aum": "₹4,028 Cr",
     "expense": "0.70%",
-    "nav": "₹163.74"
+    "nav": "₹162.88"
   },
   "MAHKTECH": {
-    "aum": "₹450.2 Cr",
+    "aum": "₹445.3 Cr",
     "expense": "0.55%",
-    "nav": "₹23.24"
+    "nav": "₹22.99"
   },
   "METALETF": {
     "aum": "₹1,001 Cr",
@@ -1480,19 +1480,19 @@
     "nav": "₹31.79"
   },
   "MOM100": {
-    "aum": "₹762.3 Cr",
+    "aum": "₹756.4 Cr",
     "expense": "0.25%",
-    "nav": "₹61.15"
+    "nav": "₹60.68"
   },
   "MON100": {
-    "aum": "₹11,237 Cr",
+    "aum": "₹11,381 Cr",
     "expense": "0.50%",
-    "nav": "₹221.90"
+    "nav": "₹224.75"
   },
   "NV20BEES": {
-    "aum": "₹147.3 Cr",
+    "aum": "₹151.1 Cr",
     "expense": "0.17%",
-    "nav": "₹144.95"
+    "nav": "₹148.62"
   },
   "PVTBNKETF": {
     "aum": "₹2,985 Cr",
@@ -1510,143 +1510,143 @@
     "nav": "₹40.72"
   },
   "SETFGOLD": {
-    "nav": "₹136.70",
-    "aum": "₹25,748 Cr",
+    "nav": "₹136.55",
+    "aum": "₹25,719 Cr",
     "expense": ""
   },
   "GSEC10IETF": {
-    "nav": "₹260.89",
-    "aum": "₹575.2 Cr",
+    "nav": "₹262.19",
+    "aum": "₹578.0 Cr",
     "expense": ""
   },
   "GILT5BETA": {
-    "nav": "₹64.57",
+    "nav": "₹64.67",
     "aum": "₹25.5 Cr",
     "expense": ""
   },
   "EBBETF0430": {
-    "nav": "₹1,564.55",
-    "aum": "₹25,072 Cr",
+    "nav": "₹1,566.04",
+    "aum": "₹25,096 Cr",
     "expense": ""
   },
   "EBBETF0433": {
-    "nav": "₹1,278.00",
-    "aum": "₹6,414 Cr",
+    "nav": "₹1,272.40",
+    "aum": "₹6,342 Cr",
     "expense": ""
   },
   "HDFCSENSEX": {
-    "nav": "₹87.88",
-    "aum": "₹938.3 Cr",
+    "nav": "₹85.98",
+    "aum": "₹919.8 Cr",
     "expense": ""
   },
   "NIFTYBETA": {
-    "nav": "₹263.18",
-    "aum": "₹65,874 Cr",
+    "nav": "₹260.74",
+    "aum": "₹65,405 Cr",
     "expense": ""
   },
   "MIDCAPIETF": {
-    "nav": "₹21.55",
-    "aum": "₹618.4 Cr",
+    "nav": "₹21.51",
+    "aum": "₹618.8 Cr",
     "expense": ""
   },
   "SMALLCAP": {
-    "nav": "₹40.50",
-    "aum": "₹813.2 Cr",
+    "nav": "₹40.39",
+    "aum": "₹814.2 Cr",
     "expense": ""
   },
   "MIDCAPETF": {
-    "nav": "₹21.25",
-    "aum": "₹1,438 Cr",
+    "nav": "₹21.24",
+    "aum": "₹1,446 Cr",
     "expense": ""
   },
   "AUTOIETF": {
-    "nav": "₹26.69",
-    "aum": "₹178.9 Cr",
+    "nav": "₹25.89",
+    "aum": "₹173.6 Cr",
     "expense": ""
   },
   "AUTOBEES": {
-    "nav": "₹267.14",
-    "aum": "₹388.1 Cr",
+    "nav": "₹260.00",
+    "aum": "₹377.7 Cr",
     "expense": ""
   },
   "PVTBANIETF": {
-    "nav": "₹26.86",
-    "aum": "₹2,935 Cr",
+    "nav": "₹26.39",
+    "aum": "₹2,893 Cr",
     "expense": ""
   },
   "ENERGY": {
-    "nav": "₹36.30",
-    "aum": "₹242.9 Cr",
+    "nav": "₹37.02",
+    "aum": "₹247.7 Cr",
     "expense": ""
   },
   "BFSI": {
-    "nav": "₹26.79",
-    "aum": "₹428.3 Cr",
+    "nav": "₹26.55",
+    "aum": "₹424.5 Cr",
     "expense": ""
   },
   "FMCGIETF": {
-    "nav": "₹52.52",
-    "aum": "₹768.9 Cr",
+    "nav": "₹51.49",
+    "aum": "₹746.4 Cr",
     "expense": ""
   },
   "HEALTHCARE": {
-    "nav": "₹18.84",
+    "nav": "₹18.73",
     "aum": "₹8.0 Cr",
     "expense": ""
   },
   "ITETF": {
-    "nav": "₹31.16",
-    "aum": "₹102.8 Cr",
+    "nav": "₹31.14",
+    "aum": "₹106.1 Cr",
     "expense": ""
   },
   "METALIETF": {
-    "nav": "₹11.88",
-    "aum": "₹990.9 Cr",
+    "nav": "₹11.87",
+    "aum": "₹992.4 Cr",
     "expense": ""
   },
   "PSUBANK": {
-    "nav": "₹883.00",
-    "aum": "₹2,414 Cr",
+    "nav": "₹884.70",
+    "aum": "₹2,419 Cr",
     "expense": ""
   },
   "MOREALTY": {
-    "nav": "₹73.30",
-    "aum": "₹258.3 Cr",
+    "nav": "₹72.30",
+    "aum": "₹254.6 Cr",
     "expense": ""
   },
   "CONS": {
-    "nav": "₹11.30",
-    "aum": "₹33.5 Cr",
+    "nav": "₹11.00",
+    "aum": "₹32.6 Cr",
     "expense": ""
   },
   "DEFENCE": {
-    "nav": "₹67.82",
-    "aum": "₹40.6 Cr",
+    "nav": "₹67.47",
+    "aum": "₹41.3 Cr",
     "expense": ""
   },
   "SBINEQWETF": {
-    "nav": "₹31.83",
-    "aum": "₹32.9 Cr",
+    "nav": "₹31.40",
+    "aum": "₹32.5 Cr",
     "expense": ""
   },
   "INFRAIETF": {
-    "nav": "₹92.76",
-    "aum": "₹383.9 Cr",
+    "nav": "₹92.46",
+    "aum": "₹382.6 Cr",
     "expense": ""
   },
   "MNC": {
-    "nav": "₹31.27",
-    "aum": "₹41.8 Cr",
+    "nav": "₹30.71",
+    "aum": "₹41.0 Cr",
     "expense": ""
   },
   "MOMENTUM30": {
-    "nav": "₹30.08",
-    "aum": "₹5.9 Cr",
+    "nav": "₹29.25",
+    "aum": "₹5.7 Cr",
     "expense": ""
   },
   "MOMENTUM": {
-    "nav": "₹30.50",
-    "aum": "₹43.9 Cr",
+    "nav": "₹29.55",
+    "aum": "₹42.5 Cr",
     "expense": ""
   }
 }
