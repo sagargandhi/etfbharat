@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>How ETF Units Are Created and Redeemed Based on Market Price — India ETF Mechanism | ETFBharat</title>
+<meta name="description" content="How does the ETF creation and redemption mechanism work in India? How do ETF units increase or decrease based on the market price of underlying stocks or gold? Complete guide 2026."/>
+<meta name="keywords" content="ETF creation redemption mechanism India, how ETF units are created, ETF unit creation process, ETF basket creation India, ETF in-kind creation, authorized participant ETF creation, ETF NAV arbitrage India"/>
+<link rel="canonical" href="https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<meta property="og:title" content="How ETF Units Are Created and Redeemed Based on Market Price — India"/>
+<meta property="og:description" content="Understand the ETF creation and redemption mechanism — how units expand when market price rises above NAV and contract when it falls below. India-specific guide with examples."/>
+<meta property="og:url" content="https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html"/>
+<meta property="og:type" content="article"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@etfbharat"/>
+<meta name="twitter:image" content="https://etfbharat.com/og-image.png"/>
+<meta property="og:image" content="https://etfbharat.com/og-image.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:image:alt" content="ETFBharat — India ETF Education Platform"/>
+<meta name="twitter:image:alt" content="ETFBharat India ETF Guide"/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:site_name" content="ETFBharat"/>
+<meta name="author" content="ETFBharat"/>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html#webpage",
+      "url": "https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html",
+      "name": "How ETF Units Are Created and Redeemed Based on Market Price — India ETF Mechanism | ETFBharat",
+      "description": "How does the ETF creation and redemption mechanism work in India? How do ETF units increase or decrease based on market price?",
+      "inLanguage": "en-IN",
+      "isPartOf": { "@id": "https://etfbharat.com/#website" },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://etfbharat.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Learn", "item": "https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html" },
+          { "@type": "ListItem", "position": 3, "name": "ETF Creation & Redemption", "item": "https://etfbharat.com/how-etf-units-are-created-and-redeemed-india.html" }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How are new ETF units created in India?",
+          "acceptedAnswer": { "@type": "Answer", "text": "New ETF units in India are created through a process called in-kind creation. An Authorized Participant (AP) assembles a basket of stocks (or delivers gold/government securities, depending on the ETF type) that exactly mirrors the ETF's portfolio in the correct proportions, and delivers this basket to the AMC. The AMC verifies the basket, credits the equivalent number of ETF units (called a 'creation unit') to the AP's demat account. The AP then sells these units on the exchange to investors." }
+        },
+        {
+          "@type": "Question",
+          "name": "When does the number of ETF units increase or decrease?",
+          "acceptedAnswer": { "@type": "Answer", "text": "ETF units increase (creation) when the market price of the ETF rises above its NAV — an AP can profitably buy the underlying basket, deliver it to the AMC, and sell the new units at the premium price. ETF units decrease (redemption) when the market price falls below NAV — an AP buys cheap ETF units on the exchange and redeems them with the AMC for the underlying basket, which is worth more. This arbitrage mechanism keeps units outstanding and market price in equilibrium with NAV." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a creation unit in an ETF?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A creation unit is the minimum block of ETF units that can be created or redeemed directly with the AMC. In India, creation unit sizes vary by ETF — typically 1,000 to 50,000 units. Individual retail investors cannot participate in creation or redemption directly; only SEBI-registered Authorized Participants can. Retail investors simply buy and sell units on the secondary market (NSE/BSE)." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the ETF creation process work differently for gold ETFs?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. For gold ETFs in India, creation is typically done in cash — the AP pays the AMC the NAV equivalent in money, and the AMC buys 99.5% pure physical gold from approved vaults. This is called cash creation. For equity ETFs, the dominant mode in India is in-kind (stock basket) creation, though some AMCs allow cash creation too. The underlying mechanics — market price above NAV triggers creation, below NAV triggers redemption — remain the same." }
+        }
+      ]
+    }
+  ]
+}</script>
+<link rel="preconnect" href="https://www.googletagmanager.com"/>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TGTX1LXHG9"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-TGTX1LXHG9');</script>
+<link rel="stylesheet" href="styles.css"/>
+<style>
+.lp-hero{background:linear-gradient(160deg,#070F1E 0%,#030810 100%);padding:60px 20px 48px;border-bottom:1px solid #1A2840;}
+.lp-hero-inner{max-width:900px;margin:0 auto;}
+.lp-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;background:#01579B15;border:1px solid #01579B30;border-radius:20px;color:#42A5F5;font-size:11px;font-weight:700;letter-spacing:1.5px;margin-bottom:18px;}
+.lp-h1{font-size:clamp(26px,5vw,42px);font-weight:900;font-family:Georgia,serif;color:#fff;line-height:1.15;margin-bottom:16px;}
+.lp-sub{color:#7B93B8;font-size:15px;line-height:1.7;max-width:680px;}
+.lp-cta{display:inline-block;margin-top:28px;padding:13px 28px;background:linear-gradient(135deg,#2196F3,#1565C0);color:#fff;font-weight:800;font-size:14px;border-radius:10px;text-decoration:none;transition:opacity 0.2s;}
+.lp-cta:hover{opacity:0.88;}
+.lp-body{max-width:900px;margin:0 auto;padding:40px 20px 60px;}
+.lp-section{margin-bottom:40px;}
+.lp-h2{color:#42A5F5;font-size:12px;font-weight:800;letter-spacing:2px;margin-bottom:14px;text-transform:uppercase;}
+.lp-h3{color:#E8F0FE;font-size:20px;font-weight:700;font-family:Georgia,serif;margin-bottom:10px;}
+.lp-p{color:#7B93B8;font-size:14px;line-height:1.85;margin-bottom:14px;}
+.insight-box{background:#2196F308;border:1px solid #2196F330;border-radius:10px;padding:16px 18px;margin:20px 0;}
+.insight-box p{color:#7B93B8;font-size:13px;line-height:1.8;margin:0;}
+.insight-box strong{color:#42A5F5;}
+.warning-box{background:#FFB30008;border:1px solid #FFB30025;border-radius:10px;padding:16px 18px;margin:20px 0;}
+.warning-box p{color:#7B93B8;font-size:13px;line-height:1.8;margin:0;}
+.warning-box strong{color:#FFB300;}
+.flow-block{background:#0B1628;border:1px solid #1A2840;border-radius:14px;padding:24px;margin:20px 0;}
+.flow-step{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px;}
+.flow-step:last-child{margin-bottom:0;}
+.flow-num{min-width:36px;height:36px;background:linear-gradient(135deg,#2196F3,#1565C0);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:14px;color:#fff;flex-shrink:0;}
+.flow-text{color:#7B93B8;font-size:13px;line-height:1.75;}
+.flow-text strong{color:#E8F0FE;}
+.flow-connector{width:2px;background:#1A2840;height:16px;margin:0 0 0 17px;}
+.diff-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0;}
+.diff-card{background:#0B1628;border:1px solid #1A2840;border-radius:12px;padding:18px;}
+.diff-card.green-card{border-color:#00C85330;}
+.diff-card.red-card{border-color:#FF572230;}
+.diff-label{font-size:10px;font-weight:800;letter-spacing:2px;margin-bottom:10px;}
+.green-label{color:#00C853;}
+.red-label{color:#FF5722;}
+.diff-title{color:#E8F0FE;font-weight:700;font-size:15px;margin-bottom:8px;}
+.diff-desc{color:#7B93B8;font-size:13px;line-height:1.6;}
+.example-box{background:#0B1628;border:1px solid #1A2840;border-left:3px solid #FFB300;border-radius:10px;padding:16px 18px;margin:20px 0;font-size:13px;color:#7B93B8;line-height:1.8;}
+.example-box strong{color:#FFB300;}
+.etf-tbl{width:100%;border-collapse:collapse;margin:20px 0;font-size:13px;}
+.etf-tbl th{background:#0B1628;color:#42A5F5;padding:10px 12px;text-align:left;border-bottom:1px solid #1A2840;font-size:10px;letter-spacing:1.5px;font-weight:700;}
+.etf-tbl td{padding:10px 12px;border-bottom:1px solid #1A284060;color:#7B93B8;vertical-align:middle;}
+.etf-tbl td:first-child{color:#E8F0FE;font-weight:600;}
+.good{color:#00C853;font-weight:700;}
+.bad{color:#FF5722;font-weight:700;}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-top:16px;}
+.related-card{background:#0B1628;border:1px solid #1A2840;border-radius:10px;padding:16px;text-decoration:none;display:block;transition:all 0.2s;}
+.related-card:hover{border-color:#2196F3;transform:translateY(-2px);}
+.related-icon{font-size:20px;margin-bottom:8px;}
+.related-title{color:#E8F0FE;font-weight:700;font-size:13px;margin-bottom:4px;}
+.related-sub{color:#7B93B8;font-size:12px;}
+@media(max-width:600px){.diff-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo-wrap">
+      <a href="/" style="text-decoration:none;display:flex;align-items:center;gap:10px;">
+        <div class="nav-logo-icon">📊</div>
+        <div>
+          <div class="nav-logo-title">ETF<span style="color:#FFB300">Bharat</span></div>
+          <div class="nav-logo-sub">NSE · BSE · INDIA ETF INTELLIGENCE</div>
+        </div>
+      </a>
+    </div>
+    <nav class="site-nav">
+      <a href="/" class="site-nav-link">ETF Directory</a>
+      <div class="site-nav-drop">
+        <button class="site-nav-link" onclick="this.parentElement.classList.toggle('open')">Guides ▾</button>
+        <div class="site-nav-dropmenu">
+          <a href="/what-is-etf-india-complete-guide.html">What is an ETF?</a>
+          <a href="/how-to-buy-etf-india.html">How to Buy ETFs</a>
+          <a href="/etf-vs-index-mutual-fund-india.html">ETF vs Mutual Fund</a>
+          <a href="/etf-vs-direct-stocks-india.html">ETF vs Stocks</a>
+          <a href="/difference-between-etf-and-smallcase.html">ETF vs Smallcase</a>
+          <a href="/how-are-etfs-taxed-in-india.html">ETF Taxation</a>
+          <a href="/what-is-expense-ratio-in-etf-india.html">Expense Ratio</a>
+          <a href="/nse-vs-bse-difference-india.html">NSE vs BSE</a>
+        </div>
+      </div>
+      <div class="site-nav-drop">
+        <button class="site-nav-link active" onclick="this.parentElement.classList.toggle('open')">Learn ▾</button>
+        <div class="site-nav-dropmenu">
+          <a href="/what-is-tracking-error-in-etf-india.html">Tracking Error</a>
+          <a href="/what-is-etf-rebalancing-index-india.html">ETF Rebalancing</a>
+          <a href="/what-is-etf-liquidity-india.html">ETF Liquidity</a>
+          <a href="/how-etf-units-are-created-and-redeemed-india.html" class="active">ETF Creation &amp; Redemption</a>
+          <a href="/role-of-authorized-participants-in-etf-india.html">Authorized Participants</a>
+          <a href="/how-amc-and-authorized-participants-make-money-in-etf-india.html">How AMC &amp; APs Earn</a>
+          <a href="/what-happens-when-etf-has-low-liquidity-and-low-volume-india.html">Low Liquidity ETF Risks</a>
+          <a href="/can-an-etf-be-delisted-india.html">ETF Delisting</a>
+        </div>
+      </div>
+      <div class="site-nav-drop">
+        <button class="site-nav-link" onclick="this.parentElement.classList.toggle('open')">ETF Types ▾</button>
+        <div class="site-nav-dropmenu">
+          <a href="/best-nifty-50-etfs-india.html">Nifty 50 ETFs</a>
+          <a href="/best-gold-etfs-india.html">Gold ETFs</a>
+          <a href="/best-debt-etfs-india.html">Debt ETFs</a>
+          <a href="/sectoral-etfs-india-guide.html">Sectoral ETFs</a>
+          <a href="/best-banking-etfs-india.html">Banking ETFs</a>
+          <a href="/international-etf-india-nasdaq-global.html">International ETFs</a>
+          <a href="/ev-and-rail-etfs-india.html">EV &amp; Rail ETFs</a>
+        </div>
+      </div>
+      <a href="/about.html" class="site-nav-link">About</a>
+      <a href="/contact.html" class="site-nav-link">Contact</a>
+    </nav>
+    <button class="site-nav-hamburger" aria-label="Menu" onclick="document.getElementById('snm').classList.toggle('open')">☰</button>
+  </div>
+  <div class="site-nav-mobile" id="snm">
+    <div class="site-nav-mobile-section">Main</div>
+    <a href="/">🏠 ETF Directory</a>
+    <div class="site-nav-mobile-section">Guides</div>
+    <a href="/what-is-etf-india-complete-guide.html">What is an ETF?</a>
+    <a href="/how-to-buy-etf-india.html">How to Buy ETFs</a>
+    <a href="/etf-vs-index-mutual-fund-india.html">ETF vs Mutual Fund</a>
+    <a href="/etf-vs-direct-stocks-india.html">ETF vs Stocks</a>
+    <a href="/difference-between-etf-and-smallcase.html">ETF vs Smallcase</a>
+    <a href="/how-are-etfs-taxed-in-india.html">ETF Taxation</a>
+    <a href="/what-is-expense-ratio-in-etf-india.html">Expense Ratio</a>
+    <a href="/nse-vs-bse-difference-india.html">NSE vs BSE</a>
+    <div class="site-nav-mobile-section">Learn</div>
+    <a href="/what-is-tracking-error-in-etf-india.html">Tracking Error</a>
+    <a href="/what-is-etf-rebalancing-index-india.html">ETF Rebalancing</a>
+    <a href="/what-is-etf-liquidity-india.html">ETF Liquidity</a>
+    <a href="/how-etf-units-are-created-and-redeemed-india.html">ETF Creation &amp; Redemption</a>
+    <a href="/role-of-authorized-participants-in-etf-india.html">Authorized Participants</a>
+    <a href="/how-amc-and-authorized-participants-make-money-in-etf-india.html">How AMC &amp; APs Earn</a>
+    <a href="/what-happens-when-etf-has-low-liquidity-and-low-volume-india.html">Low Liquidity ETF Risks</a>
+    <a href="/can-an-etf-be-delisted-india.html">ETF Delisting</a>
+    <div class="site-nav-mobile-section">ETF Types</div>
+    <a href="/best-nifty-50-etfs-india.html">Nifty 50 ETFs</a>
+    <a href="/best-gold-etfs-india.html">Gold ETFs</a>
+    <a href="/best-debt-etfs-india.html">Debt ETFs</a>
+    <a href="/sectoral-etfs-india-guide.html">Sectoral ETFs</a>
+    <a href="/best-banking-etfs-india.html">Banking ETFs</a>
+    <a href="/international-etf-india-nasdaq-global.html">International ETFs</a>
+    <a href="/ev-and-rail-etfs-india.html">EV &amp; Rail ETFs</a>
+    <div class="site-nav-mobile-section">More</div>
+    <a href="/about.html">About</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+  </div>
+</div>
+
+<section class="lp-hero"><div class="lp-hero-inner">
+  <div class="lp-badge">🎓 LEARN · INTERMEDIATE</div>
+  <h1 class="lp-h1">How ETF Units Are Created<br/>and Redeemed in India</h1>
+  <p class="lp-sub">Unlike a mutual fund, an ETF's outstanding unit count is not fixed — it expands and contracts every trading day based on demand and the relationship between the ETF's market price and its underlying value. This elastic supply is what keeps ETF prices honest.</p>
+  <a href="/" class="lp-cta">Explore India's ETF Directory →</a>
+</div></section>
+
+<div class="lp-body">
+
+  <div class="lp-section">
+    <div class="lp-h2">The Big Picture</div>
+    <div class="lp-h3">Why ETF unit supply is flexible — and why that matters</div>
+    <p class="lp-p">A traditional mutual fund issues and redeems units directly with investors at the end-of-day NAV. An ETF is different: its units trade on a stock exchange all day long, just like a share. But there is a powerful backstage mechanism that ensures the ETF's market price cannot stray far from the value of what it holds.</p>
+    <p class="lp-p">That mechanism is the <strong style="color:#E8F0FE;">creation and redemption process</strong>, operated exclusively by special institutional players called <strong style="color:#E8F0FE;">Authorized Participants (APs)</strong>. When an ETF is in high demand and its market price exceeds its NAV, APs create new units to satisfy that demand and capture a profit. When the ETF is out of favour and its market price drops below NAV, APs redeem units, shrinking the supply and pulling the price back up.</p>
+    <div class="insight-box">
+      <p><strong>Key insight:</strong> The number of ETF units outstanding is not fixed. It can grow from 1 crore to 10 crore units or shrink from 10 crore to 2 crore units over time — all driven by this creation-redemption cycle. This is entirely different from a company's shares, where the share count is relatively stable.</p>
+    </div>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">The Creation Process</div>
+    <div class="lp-h3">How new ETF units come into existence</div>
+    <p class="lp-p">Creation happens when the ETF's market price on the exchange is <strong style="color:#00C853;">higher than its NAV</strong> — it is trading at a premium. An AP can exploit this by delivering the underlying basket of securities to the AMC and receiving new ETF units worth the same amount. Because those units can be sold on the exchange at the (higher) market price, the AP pockets the difference.</p>
+    <div class="flow-block">
+      <div class="flow-step">
+        <div class="flow-num">1</div>
+        <div class="flow-text"><strong>AP spots a premium:</strong> NIFTYBEES is trading at ₹252 on NSE but its NAV (based on live Nifty 50 stock prices) is ₹250. There is a ₹2 per unit premium.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">2</div>
+        <div class="flow-text"><strong>AP assembles the basket:</strong> The AP buys all 50 Nifty 50 stocks in exactly the proportions required to form a "creation unit" — typically 50,000–1,00,000 ETF units worth of stocks.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">3</div>
+        <div class="flow-text"><strong>AP delivers to AMC:</strong> The AP transfers this stock basket to the AMC's designated custodian account (e.g., HDFC AMC's custodian). The AMC verifies the basket against the Portfolio Deposit file published that morning.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">4</div>
+        <div class="flow-text"><strong>AMC credits new units:</strong> The AMC mints new ETF units equal to the value delivered and credits them to the AP's demat account. No cash changes hands in a pure in-kind creation.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">5</div>
+        <div class="flow-text"><strong>AP sells on exchange:</strong> The AP sells the newly created units on NSE at the prevailing ₹252 market price, earning ≈ ₹2 per unit profit. This arbitrage activity increases supply, pushing the ETF price back down toward ₹250 NAV.</div>
+      </div>
+    </div>
+    <p class="lp-p"><strong style="color:#E8F0FE;">Net result:</strong> More units exist, the ETF's market price comes down toward NAV, and the premium disappears. The ETF's AUM (Assets Under Management) has increased — the fund now holds more stocks.</p>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">The Redemption Process</div>
+    <div class="lp-h3">How ETF units are destroyed</div>
+    <p class="lp-p">Redemption is the mirror image. It occurs when the ETF's market price is <strong style="color:#FF5722;">lower than its NAV</strong> — it is trading at a discount. An AP can buy cheap ETF units on the exchange and exchange them with the AMC for the more valuable underlying basket of stocks (or cash).</p>
+    <div class="flow-block">
+      <div class="flow-step">
+        <div class="flow-num">1</div>
+        <div class="flow-text"><strong>AP spots a discount:</strong> NIFTYBEES is trading at ₹248 on NSE but its NAV is ₹250. There is a ₹2 per unit discount.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">2</div>
+        <div class="flow-text"><strong>AP buys ETF units:</strong> The AP purchases a large block of NIFTYBEES units on NSE at ₹248 — a full redemption lot (e.g., 50,000 units).</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">3</div>
+        <div class="flow-text"><strong>AP redeems with AMC:</strong> The AP submits the units to the AMC for redemption. The AMC cancels (burns) those units and transfers the equivalent basket of underlying stocks to the AP's custodian account.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">4</div>
+        <div class="flow-text"><strong>AP sells the stocks:</strong> The AP sells the underlying stocks on the exchange at their fair market value (≈ ₹250 worth per ETF unit). The AP earns roughly ₹2 per unit profit on the spread.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">5</div>
+        <div class="flow-text"><strong>Price recovers:</strong> The buying pressure on the ETF (AP accumulating units) and selling pressure on the underlying stocks reduce supply of the ETF and increase stock supply simultaneously — closing the discount and pushing the ETF price back to NAV.</div>
+      </div>
+    </div>
+    <p class="lp-p"><strong style="color:#E8F0FE;">Net result:</strong> Fewer units exist, the ETF's market price rises back toward NAV, and the discount disappears. The ETF's AUM has decreased.</p>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">Creation vs Redemption at a Glance</div>
+    <div class="lp-h3">The two directions of the mechanism</div>
+    <div class="diff-grid">
+      <div class="diff-card green-card">
+        <div class="diff-label green-label">CREATION ↑ UNITS</div>
+        <div class="diff-title">Market Price &gt; NAV (Premium)</div>
+        <div class="diff-desc">AP buys underlying basket → delivers to AMC → receives new units → sells units on exchange at premium. Units outstanding increase. ETF AUM grows. Price premium shrinks.</div>
+      </div>
+      <div class="diff-card red-card">
+        <div class="diff-label red-label">REDEMPTION ↓ UNITS</div>
+        <div class="diff-title">Market Price &lt; NAV (Discount)</div>
+        <div class="diff-desc">AP buys ETF units on exchange at discount → redeems with AMC → receives underlying basket → sells basket at fair value. Units outstanding decrease. ETF AUM shrinks. Price discount shrinks.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">How It Works for Gold ETFs</div>
+    <div class="lp-h3">In-cash creation instead of in-kind</div>
+    <p class="lp-p">For equity ETFs, creation is typically "in-kind" — the AP delivers the actual stocks. For <strong style="color:#E8F0FE;">Gold ETFs</strong> in India, the process is slightly different because SEBI mandates that gold ETFs hold 99.5%+ purity physical gold.</p>
+    <p class="lp-p">An AP submits cash equivalent to the NAV to the AMC. The AMC uses this cash to buy physical gold from LBMA-approved refiners or RBI-approved domestic refiners and stores it in designated vaults (BRINKS, Sequel Logistics, etc.). New units are credited to the AP's account in exchange. Physical gold never leaves the vault — the AP just receives electronic units representing ownership of that gold.</p>
+    <div class="example-box">
+      <strong>Example — Gold ETF creation:</strong> Nippon India Gold BeES has an NAV of ₹6,500 per unit (≈ 1 gram of gold equivalent). If the market price rises to ₹6,600 (₹100 premium), an AP pays ₹6,500 × creation lot (say 1,000 units = ₹65 lakh) in cash to the AMC. The AMC buys ~1,000 grams of gold. The AP receives 1,000 new GOLDBEES units and sells them at ₹6,600, earning ₹1 lakh profit. The premium is eliminated.
+    </div>
+    <p class="lp-p">For <strong style="color:#E8F0FE;">Debt ETFs</strong> (G-Sec ETFs, SDL ETFs), the AP delivers government bonds or state development loans to the AMC in exchange for units — similar to equity in-kind creation but using fixed income instruments.</p>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">The Portfolio Deposit File</div>
+    <div class="lp-h3">The recipe for each creation basket</div>
+    <p class="lp-p">Each morning before trading begins, the AMC publishes a <strong style="color:#E8F0FE;">Portfolio Deposit (PD) file</strong> on NSE. This file specifies exactly which securities and in what quantities an AP must deliver to create one creation unit. For a Nifty 50 ETF, this file lists all 50 stocks with the exact number of shares required for, say, a 50,000-unit creation block.</p>
+    <p class="lp-p">The PD file changes daily as index weights shift and as the fund's outstanding units change. APs download this file each morning and use it to assemble creation baskets with precision. If an AP delivers even one share too few or too many, the creation is rejected.</p>
+    <div class="insight-box">
+      <p><strong>Why does this matter for investors?</strong> The PD file is publicly available on NSE's website. By reading it, you can see exactly what's inside an ETF on any given day — useful for verifying that the ETF is actually holding what it claims to hold and not deviating from the index.</p>
+    </div>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">Creation Unit Sizes in India</div>
+    <div class="lp-h3">Minimum blocks for institutional participation</div>
+    <table class="etf-tbl">
+      <thead><tr><th>ETF Category</th><th>Typical Creation Unit</th><th>Approx. Value</th><th>Creation Mode</th></tr></thead>
+      <tbody>
+        <tr><td>Nifty 50 ETFs (NIFTYBEES)</td><td>1,00,000 units</td><td>~₹2.5 Cr</td><td>In-kind (stocks)</td></tr>
+        <tr><td>Nifty Bank ETFs (BANKBEES)</td><td>50,000 units</td><td>~₹2 Cr</td><td>In-kind (stocks)</td></tr>
+        <tr><td>Gold ETFs (GOLDBEES)</td><td>1,000 units</td><td>~₹65 L</td><td>Cash (gold purchase)</td></tr>
+        <tr><td>Govt Securities ETFs</td><td>10,000 units</td><td>~₹1 Cr</td><td>In-kind (bonds)</td></tr>
+        <tr><td>Sectoral ETFs</td><td>10,000–50,000 units</td><td>₹50L–₹2.5 Cr</td><td>In-kind (stocks)</td></tr>
+      </tbody>
+    </table>
+    <p class="lp-p">These large minimum sizes mean that direct creation and redemption is only practical for large institutions, hedge funds, and registered APs — not retail investors. Retail investors simply buy and sell existing units on the secondary market.</p>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">What This Means for You as a Retail Investor</div>
+    <div class="lp-h3">Practical takeaways from the creation-redemption mechanism</div>
+    <div class="flow-block">
+      <div class="flow-step">
+        <div class="flow-num">✓</div>
+        <div class="flow-text"><strong>Large-cap ETFs trade close to NAV:</strong> Because APs can quickly and cheaply assemble the Nifty 50 basket, premiums and discounts on NIFTYBEES are typically under 0.05%. Your trade price is almost exactly fair value.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">✓</div>
+        <div class="flow-text"><strong>Illiquid underlying = wider premium/discount:</strong> If the underlying stocks are hard to buy in large quantities (e.g., a small-cap ETF or an international ETF), APs face higher assembly costs. They demand a bigger premium before creating units. You may overpay if you buy at that premium.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">✓</div>
+        <div class="flow-text"><strong>AUM growth is a sign of demand:</strong> When an ETF's AUM is steadily growing, it means APs are regularly creating new units — demand from investors is exceeding supply. This is generally healthy. Sudden AUM drops can indicate mass redemptions or AMC closure.</div>
+      </div>
+      <div class="flow-connector"></div>
+      <div class="flow-step">
+        <div class="flow-num">⚠️</div>
+        <div class="flow-text"><strong>Very small ETFs may have fewer APs:</strong> If only one or two APs service an ETF, the creation-redemption mechanism is weaker, premiums can persist, and liquidity suffers. Check how many authorized participants are registered for an ETF before investing significant capital.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lp-section">
+    <div class="lp-h2">Continue Learning</div>
+    <div class="related-grid">
+      <a href="/role-of-authorized-participants-in-etf-india.html" class="related-card">
+        <div class="related-icon">🏦</div>
+        <div class="related-title">Role of Authorized Participants</div>
+        <div class="related-sub">Who APs are and how they keep ETF prices aligned with NAV</div>
+      </a>
+      <a href="/how-amc-and-authorized-participants-make-money-in-etf-india.html" class="related-card">
+        <div class="related-icon">💰</div>
+        <div class="related-title">How AMC &amp; APs Make Money</div>
+        <div class="related-sub">Business models behind ETF management and market-making</div>
+      </a>
+      <a href="/what-is-etf-liquidity-india.html" class="related-card">
+        <div class="related-icon">💧</div>
+        <div class="related-title">ETF Liquidity &amp; Bid-Ask Spread</div>
+        <div class="related-sub">How the creation mechanism directly impacts trading costs</div>
+      </a>
+      <a href="/what-happens-when-etf-has-low-liquidity-and-low-volume-india.html" class="related-card">
+        <div class="related-icon">⚠️</div>
+        <div class="related-title">Low Liquidity ETF Risks</div>
+        <div class="related-sub">What breaks down when the creation-redemption mechanism fails</div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="footer-logo">ETF<span style="color:#2196F3">Bharat</span></div>
+  <p class="footer-p">India's free ETF education platform. Not SEBI registered. For informational purposes only. Verify all data with AMC factsheets before investing.</p>
+  <p class="footer-copy">© 2026 ETFBharat · <a href="/privacy-policy.html" style="color:inherit;">Privacy Policy</a></p>
+</footer>
+</body>
+</html>
